@@ -1,0 +1,5 @@
+resource_id,domain,action_type,source_name,source_url,format,refresh_policy,license,status
+gov_actions_api,governance,all,govtool_api,https://api.gov.tools,JSON,daily,public,approved
+gov_actions_snapshot,governance,all,beacn_snapshot,data/input/governance/governance_actions_sample.csv,CSV,manual,repo,approved
+treasury_withdrawals_snapshot,treasury,treasury_withdrawal,beacn_snapshot,data/input/treasury/treasury_withdrawals_sample.csv,CSV,manual,repo,approved
+drep_vote_history_snapshot,drep,all,beacn_snapshot,data/input/drep/drep_vote_history_sample.csv,CSV,manual,repo,approved
