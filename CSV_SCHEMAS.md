@@ -47,3 +47,16 @@
 
 ## data/input/drep/top_drep_votes.csv
 - action_id, drep_id, drep_name, vote (YES|NO|ABSTAIN), voting_power, rank_basis, as_of_utc
+
+## registries/action_resource_playbooks.csv
+- action_type (lowercase type key or `all`)
+- priority (1=highest)
+- resource_id (must exist and be approved in resource_registry.csv)
+- why_it_matters (short reason)
+- query_hint (how core should query/filter)
+- enabled (true|false)
+
+## data/input/governance/action_resource_index.json
+- generated_at_utc
+- source_files.{resource_registry,action_playbook}
+- action_resource_index.{action_type}[] sorted by priority

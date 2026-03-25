@@ -1,0 +1,103 @@
+{
+  "generated_at_utc": "2026-03-25T13:16:44.318674+00:00",
+  "source_files": {
+    "resource_registry": "registries/resource_registry.csv",
+    "action_playbook": "registries/action_resource_playbooks.csv"
+  },
+  "action_resource_index": {
+    "all": [
+      {
+        "priority": 1,
+        "resource_id": "gov_action_flags_snapshot",
+        "source_url": "data/input/governance/governance_action_flags.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Risk signals and caveats"
+      },
+      {
+        "priority": 1,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Primary action snapshot"
+      },
+      {
+        "priority": 2,
+        "resource_id": "gov_actions_active_snapshot",
+        "source_url": "data/input/governance/governance_actions_active.csv",
+        "format": "CSV",
+        "query_hint": "status=active",
+        "why_it_matters": "Current active-state context"
+      }
+    ],
+    "treasury_withdrawal": [
+      {
+        "priority": 1,
+        "resource_id": "gov_treasury_recipients_snapshot",
+        "source_url": "data/input/governance/governance_treasury_recipients.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Recipient-level fund tracing"
+      },
+      {
+        "priority": 2,
+        "resource_id": "top_drep_votes_snapshot",
+        "source_url": "data/input/drep/top_drep_votes.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Peer vote context for treasury items"
+      }
+    ],
+    "parameter_change": [
+      {
+        "priority": 1,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Parameter intent and epochs"
+      }
+    ],
+    "hardfork": [
+      {
+        "priority": 1,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Hard-fork proposal metadata"
+      }
+    ],
+    "info_action": [
+      {
+        "priority": 2,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "General governance context"
+      }
+    ],
+    "new_constitution": [
+      {
+        "priority": 1,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Constitution action context"
+      }
+    ],
+    "new_committee": [
+      {
+        "priority": 1,
+        "resource_id": "gov_actions_all_snapshot",
+        "source_url": "data/input/governance/governance_actions_all.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Committee action context"
+      }
+    ]
+  }
+}

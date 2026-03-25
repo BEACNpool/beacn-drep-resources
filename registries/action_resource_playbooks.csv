@@ -1,0 +1,11 @@
+action_type,priority,resource_id,why_it_matters,query_hint,enabled
+all,1,gov_actions_all_snapshot,Primary action snapshot,action_id exact match,true
+all,1,gov_action_flags_snapshot,Risk signals and caveats,action_id exact match,true
+all,2,gov_actions_active_snapshot,Current active-state context,status=active,true
+treasury_withdrawal,1,gov_treasury_recipients_snapshot,Recipient-level fund tracing,action_id exact match,true
+treasury_withdrawal,2,top_drep_votes_snapshot,Peer vote context for treasury items,action_id exact match,true
+parameter_change,1,gov_actions_all_snapshot,Parameter intent and epochs,action_id exact match,true
+hardfork,1,gov_actions_all_snapshot,Hard-fork proposal metadata,action_id exact match,true
+info_action,2,gov_actions_all_snapshot,General governance context,action_id exact match,true
+new_constitution,1,gov_actions_all_snapshot,Constitution action context,action_id exact match,true
+new_committee,1,gov_actions_all_snapshot,Committee action context,action_id exact match,true
