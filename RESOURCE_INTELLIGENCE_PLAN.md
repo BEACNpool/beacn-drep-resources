@@ -20,6 +20,7 @@ Goal: make the bot faster and smarter at finding the most relevant evidence for 
 - Every 6 hours: refresh governance snapshots.
 - Daily at 01:00 UTC: refresh action-resource index.
 - Weekly: review source quality and add/remove resources via PR.
+- Weekly after simulation: update `MISSING_CONTEXT_AND_RESOURCE_GAPS.md` with latest abstain drivers and required resource additions.
 
 ## Qualification for adding resources
 - Source must improve action-specific evidence depth.
