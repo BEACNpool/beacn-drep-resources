@@ -1,0 +1,34 @@
+{
+  "artifact_id": "governance-risk-metrics-20260325T193656Z",
+  "generated_at_utc": "2026-03-25T19:37:03.889393Z",
+  "source": {
+    "mode": "dbsync",
+    "network": "cardano-mainnet",
+    "node": "relay",
+    "tip": {
+      "block_no": "13205738",
+      "block_hash": "1a24c51944e1aee02e6053bdea1203ce614545f272b7e5aa95b015ed9f403da5",
+      "block_time": "2026-03-25 19:36:35"
+    }
+  },
+  "query": {
+    "files": [
+      "scripts/export_governance_risk_metrics.py::Q_RECIPIENT_REPEAT",
+      "scripts/export_governance_risk_metrics.py::Q_ACTION_VOTE_PROFILE"
+    ],
+    "params": {}
+  },
+  "outputs": [
+    {
+      "path": "data/history/governance_metrics/20260325T193656Z/recipient_repeat_risk.csv",
+      "rows": 3,
+      "sha256": "58d037926de6671c9f097928dbe38d734876866b81b685210dbf04377f2c2b32"
+    },
+    {
+      "path": "data/history/governance_metrics/20260325T193656Z/action_vote_profile.csv",
+      "rows": 94,
+      "sha256": "eb0161a94b11c66a6e5fa8594626fa76c31f9498ea941f261e00dc37c1f4aa34"
+    }
+  ],
+  "notes": "Repeat-recipient and vote-profile metrics for governance risk triage. Use tx hashes for independent replay via db-sync/Koios/Blockfrost."
+}
