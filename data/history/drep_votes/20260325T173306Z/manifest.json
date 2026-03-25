@@ -1,0 +1,12 @@
+{
+  "snapshot_at_utc": "20260325T173306Z",
+  "rows": 19164,
+  "distinct_actions": 91,
+  "distinct_dreps": 728,
+  "unmapped_rows": 0,
+  "paths": {
+    "raw_csv": "data/history/drep_votes/20260325T173306Z/relay_drep_votes_raw.csv",
+    "normalized_csv": "data/history/drep_votes/20260325T173306Z/drep_vote_history.csv",
+    "latest_csv": "data/history/drep_votes/latest/drep_vote_history.csv"
+  }
+}
