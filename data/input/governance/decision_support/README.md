@@ -7,6 +7,7 @@ Files:
 - `financial_sustainability_profiles.csv` — treasury/financial viability markers.
 - `risk_mitigation_registry.csv` — risk domains + mitigation evidence markers.
 - `threshold_policy_v1.md` — scoring and directional-threshold policy used by these sheets.
+- `deep_research_dossiers.csv` — treasury proposal deep-research completion gate (required before directional vote).
 
 Design principles:
 - Conservative by default, but decisive when minimum evidence is present.
