@@ -3,3 +3,8 @@ gov_actions_api,governance,all,govtool_api,https://api.gov.tools,JSON,daily,publ
 gov_actions_snapshot,governance,all,beacn_snapshot,data/input/governance/governance_actions_sample.csv,CSV,manual,repo,approved
 treasury_withdrawals_snapshot,treasury,treasury_withdrawal,beacn_snapshot,data/input/treasury/treasury_withdrawals_sample.csv,CSV,manual,repo,approved
 drep_vote_history_snapshot,drep,all,beacn_snapshot,data/input/drep/drep_vote_history_sample.csv,CSV,manual,repo,approved
+gov_actions_all_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_actions_all.csv,CSV,daily,repo,approved
+gov_actions_active_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_actions_active.csv,CSV,daily,repo,approved
+gov_treasury_recipients_snapshot,treasury,treasury_withdrawal,cardano_gov_sqlite_export,data/input/governance/governance_treasury_recipients.csv,CSV,daily,repo,approved
+gov_action_flags_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_action_flags.csv,CSV,daily,repo,approved
+gov_poll_runs_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_poll_runs.csv,CSV,daily,repo,approved
