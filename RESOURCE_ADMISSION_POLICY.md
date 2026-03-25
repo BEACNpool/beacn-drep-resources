@@ -11,6 +11,7 @@ Required for admission:
 
 Disallowed:
 - Private chats, DMs, unpublished notes, hidden prompts
+- OpenClaw private memory/context files (e.g., local MEMORY.md, assistant journals, local private notes)
 - Sources without stable references
 - Sources that cannot be independently fetched or replayed
 
