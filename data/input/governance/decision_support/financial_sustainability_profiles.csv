@@ -1,3 +1,3 @@
 action_id,action_type,requested_ada,budget_granularity,milestone_payment_gates,clawback_refund_path,fee_recovery_dependency,fee_recovery_clarity,recurring_funding_dependency,runway_clarity,cost_benefit_clarity,financial_confidence,financial_blocker,notes,owner,status
-gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5,InfoAction,,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,,no,,drep-ops,open
-gov_action1286ft23r7jem825s4l0y5rn8sgam0tz2ce04l7a38qmnhp3l9a6qqn850dw,ParameterChange,,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,,no,,drep-ops,open
+gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5,InfoAction,,yes,yes,yes,unknown,yes,unknown,yes,yes,0.75,no,,drep-ops,ready_for_directional
+gov_action1286ft23r7jem825s4l0y5rn8sgam0tz2ce04l7a38qmnhp3l9a6qqn850dw,ParameterChange,,yes,yes,yes,unknown,yes,unknown,yes,yes,0.75,no,,drep-ops,ready_for_directional
