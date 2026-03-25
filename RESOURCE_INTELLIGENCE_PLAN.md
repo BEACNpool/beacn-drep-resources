@@ -25,4 +25,6 @@ Goal: make the bot faster and smarter at finding the most relevant evidence for 
 - Source must improve action-specific evidence depth.
 - Source must be public and replayable.
 - Source must include stable reference (URL/path + hashable content).
+- Every source must be assigned a tier (`T1/T2/T3`) and quality score.
+- `T1` sources should be authoritative/canonical and freshest.
 - Change must be committed and documented.

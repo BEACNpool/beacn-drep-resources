@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-25T13:16:44.318674+00:00",
+  "generated_at_utc": "2026-03-25T13:24:57.019801+00:00",
   "source_files": {
     "resource_registry": "registries/resource_registry.csv",
     "action_playbook": "registries/action_resource_playbooks.csv"
@@ -8,14 +8,10 @@
     "all": [
       {
         "priority": 1,
-        "resource_id": "gov_action_flags_snapshot",
-        "source_url": "data/input/governance/governance_action_flags.csv",
-        "format": "CSV",
-        "query_hint": "action_id exact match",
-        "why_it_matters": "Risk signals and caveats"
-      },
-      {
-        "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",
@@ -23,7 +19,23 @@
         "why_it_matters": "Primary action snapshot"
       },
       {
+        "priority": 1,
+        "tier": "T1",
+        "quality_score": 0.95,
+        "evidence_class": "risk",
+        "latency_sla_hours": 6,
+        "resource_id": "gov_action_flags_snapshot",
+        "source_url": "data/input/governance/governance_action_flags.csv",
+        "format": "CSV",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Risk signals and caveats"
+      },
+      {
         "priority": 2,
+        "tier": "T2",
+        "quality_score": 0.9,
+        "evidence_class": "context",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_active_snapshot",
         "source_url": "data/input/governance/governance_actions_active.csv",
         "format": "CSV",
@@ -34,6 +46,10 @@
     "treasury_withdrawal": [
       {
         "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_treasury_recipients_snapshot",
         "source_url": "data/input/governance/governance_treasury_recipients.csv",
         "format": "CSV",
@@ -42,6 +58,10 @@
       },
       {
         "priority": 2,
+        "tier": "T3",
+        "quality_score": 0.75,
+        "evidence_class": "comparative",
+        "latency_sla_hours": 24,
         "resource_id": "top_drep_votes_snapshot",
         "source_url": "data/input/drep/top_drep_votes.csv",
         "format": "CSV",
@@ -52,6 +72,10 @@
     "parameter_change": [
       {
         "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",
@@ -62,6 +86,10 @@
     "hardfork": [
       {
         "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",
@@ -72,6 +100,10 @@
     "info_action": [
       {
         "priority": 2,
+        "tier": "T2",
+        "quality_score": 0.85,
+        "evidence_class": "context",
+        "latency_sla_hours": 12,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",
@@ -82,6 +114,10 @@
     "new_constitution": [
       {
         "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",
@@ -92,6 +128,10 @@
     "new_committee": [
       {
         "priority": 1,
+        "tier": "T1",
+        "quality_score": 1.0,
+        "evidence_class": "canonical",
+        "latency_sla_hours": 6,
         "resource_id": "gov_actions_all_snapshot",
         "source_url": "data/input/governance/governance_actions_all.csv",
         "format": "CSV",

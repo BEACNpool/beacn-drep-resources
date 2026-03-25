@@ -32,6 +32,10 @@ def main():
         action_type = (row.get("action_type") or "all").lower()
         entry = {
             "priority": int(row.get("priority") or 99),
+            "tier": row.get("tier", "T3"),
+            "quality_score": float(row.get("quality_score") or 0.0),
+            "evidence_class": row.get("evidence_class", "context"),
+            "latency_sla_hours": int(row.get("latency_sla_hours") or 24),
             "resource_id": rid,
             "source_url": approved[rid].get("source_url"),
             "format": approved[rid].get("format"),
@@ -41,7 +45,7 @@ def main():
         by_type.setdefault(action_type, []).append(entry)
 
     for k in by_type:
-        by_type[k] = sorted(by_type[k], key=lambda x: (x["priority"], x["resource_id"]))
+        by_type[k] = sorted(by_type[k], key=lambda x: (x["priority"], -x["quality_score"], x["resource_id"]))
 
     out = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),

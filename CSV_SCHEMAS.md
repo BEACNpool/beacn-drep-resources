@@ -51,6 +51,10 @@
 ## registries/action_resource_playbooks.csv
 - action_type (lowercase type key or `all`)
 - priority (1=highest)
+- tier (`T1` canonical, `T2` context, `T3` comparative)
+- quality_score (0.00-1.00 source quality confidence)
+- evidence_class (canonical|risk|context|comparative)
+- latency_sla_hours (max staleness expectation for this source)
 - resource_id (must exist and be approved in resource_registry.csv)
 - why_it_matters (short reason)
 - query_hint (how core should query/filter)
