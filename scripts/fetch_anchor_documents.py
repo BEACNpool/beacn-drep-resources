@@ -2,6 +2,7 @@
 import csv
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,12 +30,45 @@ def sha256_bytes(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
 
 
-def fetch_bytes(url: str, timeout: int = 20) -> tuple[int, bytes, str]:
-    req = Request(url, headers={"User-Agent": "beacn-drep-resources/anchor-fetcher"})
-    with urlopen(req, timeout=timeout) as resp:
-        status = getattr(resp, "status", 200)
-        ctype = resp.headers.get("Content-Type", "")
-        return int(status), resp.read(), ctype
+def _ipfs_gateway_prefixes() -> list[str]:
+    env = os.environ.get("IPFS_GATEWAYS", "").strip()
+    if env:
+        vals = [x.strip() for x in env.split(",") if x.strip()]
+        return [v if v.endswith("/") else v + "/" for v in vals]
+    return [
+        "https://ipfs.io/ipfs/",
+        "https://dweb.link/ipfs/",
+        "https://gateway.pinata.cloud/ipfs/",
+        "https://cloudflare-ipfs.com/ipfs/",
+    ]
+
+
+def candidate_urls(url: str) -> list[str]:
+    u = (url or "").strip()
+    if not u:
+        return []
+    if u.startswith("ipfs://"):
+        target = u[len("ipfs://"):].lstrip("/")
+        return [g + target for g in _ipfs_gateway_prefixes()]
+    return [u]
+
+
+def fetch_bytes(url: str, timeout: int = 20) -> tuple[int, bytes, str, str]:
+    last_err = None
+    for cand in candidate_urls(url):
+        try:
+            req = Request(cand, headers={"User-Agent": "beacn-drep-resources/anchor-fetcher"})
+            with urlopen(req, timeout=timeout) as resp:
+                status = getattr(resp, "status", 200)
+                ctype = resp.headers.get("Content-Type", "")
+                return int(status), resp.read(), ctype, cand
+        except (HTTPError, URLError) as e:
+            last_err = e
+            continue
+
+    if last_err:
+        raise last_err
+    raise URLError("no candidate URLs")
 
 
 def main():
@@ -97,7 +131,8 @@ def main():
         }
 
         try:
-            status, content, ctype = fetch_bytes(url)
+            status, content, ctype, fetched_url = fetch_bytes(url)
+            result["anchor_url"] = fetched_url
             result["http_status"] = str(status)
             result["content_type"] = ctype
             result["content_bytes"] = str(len(content))
