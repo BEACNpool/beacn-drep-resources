@@ -1,0 +1,11 @@
+{
+  "window_days": 180,
+  "window_epochs": 73,
+  "current_epoch": 621,
+  "withdrawals_73e_lovelace": 426023512000000,
+  "chain_fees_6m_lovelace": 1780350554143,
+  "treasury_tax_assumed": 0.2,
+  "treasury_fee_inflow_6m_lovelace": 356070110828,
+  "treasury_withdrawals_6m_lovelace": 143342000000000,
+  "outflow_inflow_ratio": 402.566786
+}

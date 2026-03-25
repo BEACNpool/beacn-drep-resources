@@ -70,6 +70,41 @@ COPY (
 ) TO STDOUT WITH CSV HEADER
 """
 
+Q_TREASURY_FLOW_6M = """
+select
+  coalesce((
+    select sum(tx.fee)::bigint
+    from public.tx tx
+    join public.block b on b.id = tx.block_id
+    where b.time >= (now() at time zone 'utc') - interval '180 days'
+  ),0) as chain_fees_6m_lovelace,
+  coalesce((
+    select sum(tw.amount)::bigint
+    from public.treasury_withdrawal tw
+    join public.gov_action_proposal gap on gap.id = tw.gov_action_proposal_id
+    join public.tx tx on tx.id = gap.tx_id
+    join public.block b on b.id = tx.block_id
+    where b.time >= (now() at time zone 'utc') - interval '180 days'
+  ),0) as treasury_withdrawals_6m_lovelace;
+"""
+
+Q_WITHDRAWALS_73E = """
+with tip as (
+  select max(epoch_no) as current_epoch from public.block
+), w as (
+  select tw.amount::bigint as amount_lovelace, b.epoch_no
+  from public.treasury_withdrawal tw
+  join public.gov_action_proposal gap on gap.id = tw.gov_action_proposal_id
+  join public.tx tx on tx.id = gap.tx_id
+  join public.block b on b.id = tx.block_id
+  cross join tip
+  where b.epoch_no between greatest(tip.current_epoch - 72, 0) and tip.current_epoch
+)
+select (select current_epoch from tip) as current_epoch,
+       coalesce(sum(amount_lovelace),0) as withdrawals_73e_lovelace
+from w;
+"""
+
 
 def _run_sql(sql: str, tuples_only: bool = False) -> str:
     cmd = [
@@ -116,6 +151,31 @@ def main() -> None:
     recip_rows = _write_csv(recip_path, _run_sql(Q_RECIPIENT_REPEAT))
     vote_rows = _write_csv(votes_path, _run_sql(Q_ACTION_VOTE_PROFILE))
 
+    flow_raw = _run_sql(Q_TREASURY_FLOW_6M, tuples_only=True).strip()
+    flow_parts = (flow_raw.split("|") if flow_raw else ["0", "0"])
+    chain_fees_6m = int((flow_parts[0] or "0").strip())
+    treasury_out_6m = int((flow_parts[1] or "0").strip())
+    w73_raw = _run_sql(Q_WITHDRAWALS_73E, tuples_only=True).strip()
+    w73_parts = (w73_raw.split("|") if w73_raw else ["0", "0"])
+    current_epoch = int((w73_parts[0] or "0").strip())
+    withdrawals_73e = int((w73_parts[1] or "0").strip())
+
+    treasury_tax_assumed = 0.20
+    treasury_fee_inflow_6m = int(chain_fees_6m * treasury_tax_assumed)
+    flow = {
+        "window_days": 180,
+        "window_epochs": 73,
+        "current_epoch": current_epoch,
+        "withdrawals_73e_lovelace": withdrawals_73e,
+        "chain_fees_6m_lovelace": chain_fees_6m,
+        "treasury_tax_assumed": treasury_tax_assumed,
+        "treasury_fee_inflow_6m_lovelace": treasury_fee_inflow_6m,
+        "treasury_withdrawals_6m_lovelace": treasury_out_6m,
+        "outflow_inflow_ratio": round((treasury_out_6m / treasury_fee_inflow_6m), 6) if treasury_fee_inflow_6m > 0 else None,
+    }
+    flow_path = out_dir / "treasury_flow_6m.json"
+    flow_path.write_text(json.dumps(flow, indent=2) + "\n", encoding="utf-8")
+
     receipt = {
         "artifact_id": f"governance-risk-metrics-{ts}",
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -143,6 +203,11 @@ def main() -> None:
                 "rows": vote_rows,
                 "sha256": _sha256(votes_path),
             },
+            {
+                "path": str(flow_path.relative_to(ROOT)),
+                "rows": 1,
+                "sha256": _sha256(flow_path),
+            },
         ],
         "notes": "Repeat-recipient and vote-profile metrics for governance risk triage. Use tx hashes for independent replay via db-sync/Koios/Blockfrost.",
     }
@@ -151,7 +216,7 @@ def main() -> None:
 
     latest = OUT_BASE / "latest"
     latest.mkdir(parents=True, exist_ok=True)
-    for p in [recip_path, votes_path, out_dir / "receipt.json"]:
+    for p in [recip_path, votes_path, flow_path, out_dir / "receipt.json"]:
         (latest / p.name).write_text(p.read_text(encoding="utf-8"), encoding="utf-8")
 
     print(json.dumps({

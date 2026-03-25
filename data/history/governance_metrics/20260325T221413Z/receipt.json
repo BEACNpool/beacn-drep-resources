@@ -1,14 +1,14 @@
 {
-  "artifact_id": "governance-risk-metrics-20260325T231936Z",
-  "generated_at_utc": "2026-03-25T23:21:38.176221Z",
+  "artifact_id": "governance-risk-metrics-20260325T221413Z",
+  "generated_at_utc": "2026-03-25T22:16:44.202645Z",
   "source": {
     "mode": "dbsync",
     "network": "cardano-mainnet",
     "node": "relay",
     "tip": {
-      "block_no": "13206426",
-      "block_hash": "554c6d409179cfe44dc3f811f28a7abe9bb1775fbfcc2768aa9138fe1d0e1960",
-      "block_time": "2026-03-25 23:18:42"
+      "block_no": "13206224",
+      "block_hash": "7909fdddd1076158cec0b4d6950505c9e2d302db9d1c131a3175a2011145976c",
+      "block_time": "2026-03-25 22:14:03"
     }
   },
   "query": {
@@ -20,19 +20,19 @@
   },
   "outputs": [
     {
-      "path": "data/history/governance_metrics/20260325T231936Z/recipient_repeat_risk.csv",
+      "path": "data/history/governance_metrics/20260325T221413Z/recipient_repeat_risk.csv",
       "rows": 3,
       "sha256": "58d037926de6671c9f097928dbe38d734876866b81b685210dbf04377f2c2b32"
     },
     {
-      "path": "data/history/governance_metrics/20260325T231936Z/action_vote_profile.csv",
+      "path": "data/history/governance_metrics/20260325T221413Z/action_vote_profile.csv",
       "rows": 94,
       "sha256": "259a780d7a4dbf7a08ddd9c9bec1ec54d74d1bca2638dcc2f916ad4219f9f4e8"
     },
     {
-      "path": "data/history/governance_metrics/20260325T231936Z/treasury_flow_6m.json",
+      "path": "data/history/governance_metrics/20260325T221413Z/treasury_flow_6m.json",
       "rows": 1,
-      "sha256": "c84f8acbf2a0139e90b29a37be77423c7cd36cc1ecc606dc1cca167e3d68c6f5"
+      "sha256": "a23bb8f2b53654ac4d48e5f3f5123e58f2fabe3de74c0c4bd972f0b714837d4e"
     }
   ],
   "notes": "Repeat-recipient and vote-profile metrics for governance risk triage. Use tx hashes for independent replay via db-sync/Koios/Blockfrost."
