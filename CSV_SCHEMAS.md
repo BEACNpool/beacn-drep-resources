@@ -43,3 +43,7 @@
 
 ## data/input/governance/governance_poll_runs.csv
 - id, timestamp, source, proposals_found, new_proposals, errors
+
+
+## data/input/drep/top_drep_votes.csv
+- action_id, drep_id, drep_name, vote (YES|NO|ABSTAIN), voting_power, rank_basis, as_of_utc
