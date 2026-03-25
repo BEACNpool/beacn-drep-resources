@@ -9,7 +9,7 @@ gov_treasury_recipients_snapshot,treasury,treasury_withdrawal,cardano_gov_sqlite
 gov_action_flags_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_action_flags.csv,CSV,daily,repo,approved
 gov_poll_runs_snapshot,governance,all,cardano_gov_sqlite_export,data/input/governance/governance_poll_runs.csv,CSV,daily,repo,approved
 top_drep_votes_snapshot,drep,all,beacn_curated,data/input/drep/top_drep_votes.csv,CSV,manual,repo,approved
-gov_anchor_documents,governance,all,govtool_anchor_fetch,data/input/governance/anchors/,JSON,daily,public,proposed
+gov_anchor_documents,governance,all,govtool_anchor_fetch,data/input/governance/anchors/,JSON,daily,public,approved
 gov_action_metadata_expanded,governance,all,cardano_gov_enriched,data/input/governance/governance_actions_enriched.csv,CSV,daily,repo,proposed
 treasury_recipient_risk_profiles,treasury,treasury_withdrawal,beacn_risk_research,data/input/treasury/recipient_risk_profiles.csv,CSV,daily,repo,proposed
 parameter_impact_notes,governance,parameter_change,beacn_param_research,data/input/governance/parameter_impact_notes.csv,CSV,daily,repo,proposed

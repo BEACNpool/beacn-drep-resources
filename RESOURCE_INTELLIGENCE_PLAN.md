@@ -13,8 +13,9 @@ Goal: make the bot faster and smarter at finding the most relevant evidence for 
 2. Load `registries/action_resource_playbooks.csv`.
 3. Gather high-priority resources for that action type (`priority <= 2`).
 4. Add medium-priority context resources (`priority == 3`) if needed.
-5. Build `data/input/governance/action_resource_index.json` for core.
-6. Core uses this index to focus evidence extraction before recommendation.
+5. Fetch and pin anchor documents to `data/input/governance/anchors/` and index them.
+6. Build `data/input/governance/action_resource_index.json` for core.
+7. Core uses this index to focus evidence extraction before recommendation.
 
 ## Cadence recommendation
 - Every 6 hours: refresh governance snapshots.

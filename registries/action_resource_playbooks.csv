@@ -9,7 +9,7 @@ hardfork,1,T1,1.00,canonical,6,gov_actions_all_snapshot,Hard-fork proposal metad
 info_action,2,T2,0.85,context,12,gov_actions_all_snapshot,General governance context,action_id exact match,true
 new_constitution,1,T1,1.00,canonical,6,gov_actions_all_snapshot,Constitution action context,action_id exact match,true
 new_committee,1,T1,1.00,canonical,6,gov_actions_all_snapshot,Committee action context,action_id exact match,true
-all,3,T2,0.80,context,24,gov_anchor_documents,Canonical anchor docs for deeper rationale,action_id exact match,false
+all,3,T2,0.80,context,24,gov_anchor_documents,Canonical anchor docs for deeper rationale,action_id exact match,true
 treasury_withdrawal,2,T2,0.88,risk,24,treasury_recipient_risk_profiles,Recipient risk context to reduce uncertainty,recipient exact match,false
 parameter_change,2,T2,0.90,context,24,parameter_impact_notes,Impact context for parameter decisions,parameter name match,false
 hardfork,2,T2,0.92,context,24,hardfork_readiness_signals,Readiness context for hardfork actions,action_id exact match,false

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-25T13:24:57.019801+00:00",
+  "generated_at_utc": "2026-03-25T13:54:07.199384+00:00",
   "source_files": {
     "resource_registry": "registries/resource_registry.csv",
     "action_playbook": "registries/action_resource_playbooks.csv"
@@ -41,6 +41,18 @@
         "format": "CSV",
         "query_hint": "status=active",
         "why_it_matters": "Current active-state context"
+      },
+      {
+        "priority": 3,
+        "tier": "T2",
+        "quality_score": 0.8,
+        "evidence_class": "context",
+        "latency_sla_hours": 24,
+        "resource_id": "gov_anchor_documents",
+        "source_url": "data/input/governance/anchors/",
+        "format": "JSON",
+        "query_hint": "action_id exact match",
+        "why_it_matters": "Canonical anchor docs for deeper rationale"
       }
     ],
     "treasury_withdrawal": [

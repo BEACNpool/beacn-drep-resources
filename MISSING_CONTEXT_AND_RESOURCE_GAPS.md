@@ -27,12 +27,17 @@ This is an **internal training artifact** (not external policy). Purpose: docume
    - Missing context: deterministic pinned capture in repo data paths.
 
 ## New resource additions (registry stage)
-Added as `proposed` until data pipes are implemented:
-- `gov_anchor_documents` (anchor doc snapshots)
+- `gov_anchor_documents` (anchor doc snapshots) — pipeline implemented (`scripts/fetch_anchor_documents.py`), currently partial fetch success.
 - `gov_action_metadata_expanded` (enriched action metadata)
 - `treasury_recipient_risk_profiles` (recipient risk context)
 - `parameter_impact_notes` (parameter-change context)
 - `hardfork_readiness_signals` (hardfork readiness context)
+
+### Current anchor fetch status (latest run)
+- actions_total: 94
+- fetched_ok: 17
+- failed: 77
+- Note: many anchors require additional fetch adapters (headers/content negotiation or alternate source retrieval).
 
 ## How these map to abstain reduction
 - High-risk abstains -> improve with `treasury_recipient_risk_profiles`, `hardfork_readiness_signals`, `parameter_impact_notes`
