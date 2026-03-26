@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Mike Hornan",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "6172ab8257cd4c5996b0132404c939284144cf989d20f05439abc106fbe256ff",
+        "signature": "a0b87e3c5bd50c07b44e0299eb1df8e455ef2f091dcd448f1c1a8aea15c2365ccb1164d4708a8d17ffed42a539f7cc518f575a2a256398d1aa2b57c8cf7fdf09"
+      }
+    },
+    {
+      "name": "HOSKY",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "e0c65b563aba94e5d86058e64e57c0168a59217ff1913556b20a85db43290159",
+        "signature": "87031e9515e128c6f683420da696d552fce7e98afa258a6cebebcfb9ee01b662bb16a1acf460e8daf6d6b8ef554c286c2ff0c0c29579db26fcb3dbd3db9a3a0d"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "2025 Net Change Limit Extension",
+    "abstract": "The Cardano Community adopted the 2025 Net Change Limit (NCL) on 24 April 2025, which defined the maximum amount of lovelace that could be withdrawn from the Cardano Treasury from the start of Epoch 532 until the conclusion of Epoch 604. Because the Cardano Constitution does not allow withdrawals from the Treasury that would violate the established NCL, this \"2025 Net Change Limit Extension\" serves the purpose of extending the previously established Net Change Limit for an additional eight (8) Epochs so that management of the Cardano Treasury will not be disrupted.",
+    "motivation": "We seek to have this Governance Action adopted so that the management of the Cardano Treasury will not be disrupted by the expiration of the current NCL.",
+    "rationale": "Withdrawals from the Cardano Blockchain Treasury that would cause the Treasury balance to violate the applicable NCL are not permitted under Article IV, Section 3 of the Cardano Constitution and the Treasury Guardrails. Because the \"2025 Net Change Limit\" explicitly states that its term ends at the close of Epoch 604, any Treasury Withdrawal Governance Action (TWGA) that relies on that NCL must be both ratified and enacted before that point. Given the one-epoch enactment delay for Treasury Withdrawals, where a Governance Action that is ratified at one Epoch boundary is only enacted and paid out at the next Epoch boundary, the last Epoch in which such a TWGA may validly be ratified is Epoch 603 (ending 30 December 2025). Any TWGA ratified in Epoch 604 could not be enacted until the Epoch 605 boundary, after the current NCL term has expired, and therefore cannot be constitutionally authorized under that NCL.\n\nAs agreed with the Cardano Budget Committee of Intersect MBO, the original 2025 NCL was to begin at the start of Epoch 532 and progress for 72 epochs, concluding at the end of Epoch 604 - which is 4 January 2026. It should be noted that there was a typographical error in the original 2025 NCL GA that said it would last until 30 December 2025, but the Constitutional Committee at that time accepted 4 January 2026 as the actual ending date of the NCL because it is the conclusion of Epoch 604. The 2025 NCL was set at 350,000,000,000,000 lovelace (350M ada).\n\nWe propose that this previously established Net Change Limit be extended for additional eight (8) Epochs, so that it will now end at the conclusion of Epoch 612 (8 February 2026). All previous spending will continue to be counted so that the original limit socialized and agreed upon by the Cardano Community will not be exceeded.\n\nThis limit shall be applied in assessing budget actions and treasury withdrawal actions to ensure compliance with Article IV of the Cardano Constitution and the Treasury Withdrawal Guardrails specified in Appendix I.\n\nThe provisions set forth in the Cardano Constitution state that the approval of a Net Change Limit requires a threshold of greater than 50% of the active voting DRep stake. Therefore, this extension of the 2025 Net Change Limit for an additional eight (8) Epochs will be considered passed if it receives DRep support greater than 50% of the Active Governance State and the Constitutional Committee deems it to be Constitutional.",
+    "references": [
+      {
+        "label": "Cardano Constitution",
+        "@type": "Other",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "label": "2025 Net Change Limit Governance Action",
+        "@type": "Other",
+        "uri": "ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite"
+      }
+    ]
+  }
+}

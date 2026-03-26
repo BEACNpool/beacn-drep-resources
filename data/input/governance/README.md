@@ -9,3 +9,5 @@ Files:
 - `governance_action_flags.csv` — exploded proposal flags by action
 - `governance_poll_runs.csv` — poll history from ingestion process
 - `governance_export_manifest.json` — source DB hash + output file hashes + row counts
+- `anchor_documents_index.csv` — anchor retrieval status + pinned file hash/path per action
+- `anchor_documents_manifest.json` — anchor fetch coverage stats + fetch configuration snapshot

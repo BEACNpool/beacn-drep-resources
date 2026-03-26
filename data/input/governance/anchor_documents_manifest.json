@@ -1,12 +1,26 @@
 {
-  "generated_at_utc": "2026-03-26T06:01:06Z",
+  "generated_at_utc": "2026-03-26T17:52:39Z",
   "source": "data/input/governance/governance_actions_all.csv",
   "output_index": "data/input/governance/anchor_documents_index.csv",
   "anchors_dir": "data/input/governance/anchors",
+  "cache_index": "data/input/governance/anchor_cache_index.json",
+  "config": {
+    "ipfs_gateways": [
+      "https://ipfs.io/ipfs/",
+      "https://dweb.link/ipfs/",
+      "https://cloudflare-ipfs.com/ipfs/",
+      "https://gateway.pinata.cloud/ipfs/",
+      "https://w3s.link/ipfs/",
+      "https://nftstorage.link/ipfs/"
+    ],
+    "anchor_mirrors": [],
+    "request_profiles": 4
+  },
   "stats": {
     "actions_total": 94,
-    "fetched_ok": 90,
+    "fetched_ok": 92,
+    "fetched_ok_cached": 0,
     "missing_url": 0,
-    "failed": 4
+    "failed": 2
   }
 }
