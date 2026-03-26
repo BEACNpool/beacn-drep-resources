@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "@context": {
+      "@language": "en",
+      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+      "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
+      "hashAlgorithm": "CIP100:hashAlgorithm",
+      "body": {
+        "@id": "CIP108:body",
+        "@context": {
+          "references": {
+            "@id": "CIP108:references",
+            "@container": "@set",
+            "@context": {
+              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+              "Other": "CIP100:OtherReference",
+              "label": "CIP100:reference-label",
+              "uri": "CIP100:reference-uri",
+              "referenceHash": {
+                "@id": "CIP108:referenceHash",
+                "@context": {
+                  "hashDigest": "CIP108:hashDigest",
+                  "hashAlgorithm": "CIP100:hashAlgorithm"
+                }
+              }
+            }
+          },
+          "title": "CIP108:title",
+          "abstract": "CIP108:abstract",
+          "motivation": "CIP108:motivation",
+          "rationale": "CIP108:rationale",
+          "onChain": {
+            "@id": "intersectSpec:onChain",
+            "@context": {
+              "governanceActionType": "intersectSpec:governanceActionType",
+              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+              "withdrawals": {
+                "@id": "intersectSpec:withdrawals",
+                "@container": "@set",
+                "@context": {
+                  "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                  "withdrawalAmount": "intersectSpec:withdrawalAmount"
+                }
+              }
+            }
+          }
+        }
+      },
+      "authors": {
+        "@id": "CIP100:authors",
+        "@container": "@set",
+        "@context": {
+          "name": "http://xmlns.com/foaf/0.1/name",
+          "witness": {
+            "@id": "CIP100:witness",
+            "@context": {
+              "witnessAlgorithm": "CIP100:witnessAlgorithm",
+              "publicKey": "CIP100:publicKey",
+              "signature": "CIP100:signature"
+            }
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Mike Hornan",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "6172ab8257cd4c5996b0132404c939284144cf989d20f05439abc106fbe256ff",
+        "signature": "f97834d0bb01a8c6d83afba8545af7db5d3890bc5a607db69312e840744016b83e5ec972a4df546a88b3aa5dc839044a9b54a0fec94886f1a7dcd6a48b218d01"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Add Constitutional Committee Member - Christina",
+    "abstract": "This governance action proposes to add an additional Constitutional Committee member through a community-initiated Update Committee action.\n\nThe proposal is submitted independently by community participants, in accordance with Cardano’s permissionless governance framework, and explicitly references the previously submitted Update Committee action whose purpose was to add Cardano Curia to the Constitutional Committee\n\nBy increasing the number of Constitutional Committee members above the `minCommitteeSize` parameter (currently set to 7), this action strengthens governance continuity and reduces the risk of ratification delays should a committee member resign or retire during the current mandate.",
+    "motivation": "### Permissionless On-Chain Governance\n\nWith the activation of full on-chain governance under CIP-1694, Cardano transitioned into a governance system where any Ada holder may submit governance actions, provided they comply with constitutional guardrails and ledger rules. This permissionless design ensures that governance is not limited to institutional processes, but remains open to direct community participation.\n\n### Context of the Snap Election\n\nIntersect facilitated a snap election to fill a vacant Constitutional Committee seat following the resignation of a committee member. That process resulted in the selection and on-chain ratification of Cardano Curia through an Update Committee governance action.\n\nDuring the off-chain snap election process facilitated by Intersect, the outcome between candidates Christina and Cardano Curia was exceptionally close. While Curia was duly selected and ratified through the established process, the narrow margin demonstrated substantial community support for Christina as well.\n\n### Governance Resilience\n\nThe protocol parameter `minCommitteeSize` is currently set to 7. When the number of active Constitutional Committee members falls below this threshold, governance actions requiring Constitutional Committee ratification cannot be approved.\n\nAdding an additional committee member above this minimum threshold increases operational resilience. It ensures that, should another committee member step down or become inactive during the current mandate, the Constitutional Committee would remain capable of ratifying governance actions without interruption.\n\nThis proposal therefore seeks to reinforce governance continuity while remaining fully compliant with existing constitutional and ledger constraints.",
+    "rationale": "In accordance with the Cardano Constitution, CIP-1694, and the permissionless nature of Cardano governance, this Update Committee governance action is submitted as a community-initiated proposal to allow an additional opportunity for representation where the off-chain electoral outcome was narrowly decided.\n\nThis action does not override, invalidate, or conflict with the previously submitted Update Committee action whose purpose was to add Cardano Curia to the Constitutional Committee. Instead, it explicitly references that governance action as its required `previousGovActionId`, ensuring strict ledger ordering and consistency.\n\nBy design, this governance action cannot be ratified unless the Curia Update Committee action has already been ratified. As a result, it is structurally incapable of negating or replacing the Curia outcome.\n\n### Permissionless Community Initiative\n\nThis proposal is submitted independently, on the author’s own accord, and is fully financed by community members. No institutional mandate is claimed or implied.\n\n### Non-Conflict and Ledger Safety\n\nThis governance action:\n\n* References the Curia Update Committee action as its `previousGovActionId`\n* Does not modify the Constitutional Committee voting threshold, which remains set at 67%\n* Does not remove or replace any existing committee member\n* Does not alter existing committee terms\n\nIf ratified, this action will **add one additional Constitutional Committee member**, leaving all previously enacted committee memberships and term expirations unchanged.\n\n### Proposed Committee Member\n\nThe candidate proposed by this governance action is Christina. The cold Constitutional Committee credential provided by the candidate is:\n\n| Member | Cold Credential | Term Expiration Epoch |\n| :---: | :---: | :---: |\n| Christina | keyHash-c46a3789d71bc0a27d1c381909289978797a60c5f67aa8bc2b26ab92 | 653 |\n\n#### Term Length\n\nIf ratified, the term length for Christina will be set to the same expiration epoch as Cardano Curia, which is set to expire at epoch 653. This ensures fairness and consistency with the original term length established for all participating candidates during the snap election process.\n\n### Conclusion\n\nThis proposal reinforces Cardano’s governance resilience while respecting prior outcomes. It is submitted in the spirit of Cardano’s permissionless governance model. Regardless of the outcome, its purpose is to ensure that questions of representation are resolved transparently and on-chain, by the community itself.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "CIP-1694",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-1694"
+      },
+      {
+        "@type": "Other",
+        "label": "CARDANO BLOCKCHAIN ECOSYSTEM CONSTITUTION",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "Ekklesia election results",
+        "uri": "ipfs://bafkreiajs2ntt7jjbdnrs7gcavb54c6jla7ptyaxnstg4br5covqn7y6x4"
+      }
+    ],
+    "onChain": {
+      "governanceActionType": "update_committee",
+      "depositReturnAddress": "stake1ux0c30wl03hhvdjgxp55asvjrqgqf3yay4lyxggz595h74ctf9x2k"
+    }
+  }
+}

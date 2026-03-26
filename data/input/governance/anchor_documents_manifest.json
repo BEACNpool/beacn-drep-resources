@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-03-25T16:16:37Z",
+  "generated_at_utc": "2026-03-26T06:01:06Z",
   "source": "data/input/governance/governance_actions_all.csv",
   "output_index": "data/input/governance/anchor_documents_index.csv",
   "anchors_dir": "data/input/governance/anchors",
   "stats": {
     "actions_total": 94,
-    "fetched_ok": 88,
+    "fetched_ok": 90,
     "missing_url": 0,
-    "failed": 6
+    "failed": 4
   }
 }

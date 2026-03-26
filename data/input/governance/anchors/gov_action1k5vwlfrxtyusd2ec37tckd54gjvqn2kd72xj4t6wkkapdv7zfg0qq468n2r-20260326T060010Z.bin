@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@context": {
+      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+      "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+      "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+      "hashAlgorithm": "CIP100:hashAlgorithm",
+      "body": {
+        "@id": "CIP108:body",
+        "@context": {
+          "references": {
+            "@id": "CIP108:references",
+            "@container": "@set",
+            "@context": {
+              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+              "Other": "CIP100:OtherReference",
+              "label": "CIP100:reference-label",
+              "uri": "CIP100:reference-uri",
+              "referenceHash": {
+                "@id": "CIP108:referenceHash",
+                "@context": {
+                  "hashDigest": "CIP108:hashDigest",
+                  "hashAlgorithm": "CIP100:hashAlgorithm"
+                }
+              }
+            }
+          },
+          "title": "CIP108:title",
+          "abstract": "CIP108:abstract",
+          "motivation": "CIP108:motivation",
+          "rationale": "CIP108:rationale",
+          "onChain": {
+            "@id": "CIP169:onChain",
+            "@context": {
+              "deposit": {
+                "@id": "CIP116:deposit",
+                "@type": "CIP116:UInt64"
+              },
+              "reward_account": {
+                "@id": "CIP116:reward_account",
+                "@type": "CIP116:RewardAddress"
+              },
+              "gov_action": {
+                "@id": "CIP116:GovAction",
+                "@context": {
+                  "tag": "CIP116:info_action"
+                }
+              }
+            }
+          }
+        }
+      },
+      "authors": {
+        "@id": "CIP100:authors",
+        "@container": "@set",
+        "@context": {
+          "did": "@id",
+          "name": "http://xmlns.com/foaf/0.1/name",
+          "witness": {
+            "@id": "CIP100:witness",
+            "@context": {
+              "witnessAlgorithm": "CIP100:witnessAlgorithm",
+              "publicKey": "CIP100:publicKey",
+              "signature": "CIP100:signature"
+            }
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "a535adf6786e2f8cd4bb7451e9f5b6368a037b8ed42f35b8446fb8946b7d153d",
+        "signature": "845846a201276761646472657373583901acb2792c1cb10724327852ac8d03f870732c5bc8e10c22a8b80991411ef0ec112a3c73539566bde6b6abe41bb79191c1baa69edfcb0581f2a166686173686564f458201eaf60203cfb503b302ffa97574f9f0baf56f307b931e7c9911db3bc3dc9ed9b5840b17c725afe7b512cbc42f3b3f2d4779d182be0b8dffffa62c3a302aaded56e84e74d1715be02f5d34ba7c19487956e6701cc981c5e81758edeb12f979b461f0f"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Approve Cardano Foundation as New Managing Entity of Project Catalyst",
+    "abstract": "The Cardano Foundation (CF), supported by Input Output Group (IOG), is requesting community approval to be appointed as the new managing entity for Project Catalyst. \n\nThis will allow for full and effective transition of Catalyst operations and responsibilities from IOG to CF in accordance with the statutes of the Catalyst Foundation Company (CFC). This transition will ensure continuity of operations and minimise delays on milestone reviews and eligible payouts for teams delivering against projects in Funds 10-14. \n\nThis approval request and Info Action is unrelated to Intersect’s role as the constitutionally mandated budget administrator for funds 14 to 16. This request is also unrelated to the already announced return to the Cardano Treasury of the previously approved allocations for Fund 15 and 16. \n\nThis Info Action will be considered approved, if greater than 50% of the active DRep voting stake votes YES upon the action's expiration.",
+    "motivation": "In February CF agreed to assume stewardship of Catalyst from IOG, with the primary goal of ensuring continuity for existing grant recipients.\n\nCF is submitting this Info Action to request the Community’s approval for the transition of the Catalyst management role from IOG to CF, in accordance with CFC’s statutes.",
+    "rationale": "CFC is a foundation company domiciled in the Cayman Islands and acts as the counterparty to all Catalyst grantees. Its company statutes require a Cardano community decision for the transfer of management of Project Catalyst to a new entity (technically referred to as an “Administrator”) to replace IOG. \n\nCF seeks such an approval by the Cardano community so that it may fully and effectively take on Catalyst operations and responsibilities (and technically be appointed as the new Administrator of CFC). CF’s goal is to ensure that this role is filled without interruption, so that the remaining Funds 10-14 are administered as expeditiously as possible.\n\nWithout Cardano community approval of a new managing entity for Project Catalyst by the end of May, Project Catalyst operations will likely face an undetermined pause, delaying fund disbursements. While CF remains committed to collaborating with stakeholders irrespective of this Info Action’s outcome, if the CF does not assume this role in time, the continuation of Project Catalyst is uncertain at this time.\n\nCF emphasizes that, if this Info Action is approved, it will work with Intersect to return the approved treasury allocations for Funds 15-16 to the Cardano Treasury as quickly as possible.\n\nCF and IOG strongly believe that approving the change in managing entity for Project Catalyst from IOG to CF is the most responsible path forward to resolve legacy funding obligations and protect the Cardano Treasury. We ask that the Community support us on this path. ",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "https://x.com/Catalyst_onX/status/2026268218290028946",
+        "uri": "https://x.com/Catalyst_onX/status/2026268218290028946"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1uyyqmz5ae7ct4f26p4t87y2xrrgu7f3e0cpap66zgcnxu0gl7gy6y",
+      "gov_action": {
+        "tag": "info_action"
+      }
+    }
+  }
+}

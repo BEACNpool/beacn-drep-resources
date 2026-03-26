@@ -1,0 +1,182 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Darlington @ Lido Nation Foundation",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "71a8b4ce60125e8b010657f84349b6cba2606868627b1f8c136a173fbce1b512",
+        "signature": "573818d913bfacf51222c558d05f6786cb9f18d026cb2d60a934d491580933d2d8855ccdebad2b845ad21399f62764e427c6b3aa3991936eb1680caa64745709"
+      }
+    },
+    {
+      "name": "Stojan Ivanisevic WEDELIVER IT",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a1e91d8204cc3d79c98548ab2d0a6cacc0c75b2646bcfa8f5373c82253990c40",
+        "signature": "d3599b383e1e10ba9a8a52981c7345daf3ac32c37ddb3093a910f7eb9e3c9a7a1b3cf40e21c3df207b7d201c7abd648d64367f6e48c0c57c993800bbe5671f04"
+      }
+    },
+    {
+      "name": "Byron Network",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "7d82bfad53cf7ef5794b25ec101feea4658cc6cad3b242ee07cd6fa3daf53125",
+        "signature": "e47ec0316d1b04e308cd34327aa64bf986d939a22a818e622c5b1e89c73a9f2a4af42a14a57c04b4b10e42e7818a30915bdbed3aeb2017f715e2d7b9a2012805"
+      }
+    },
+    {
+      "name": "Dquadrant",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "69a4ad7d146790b1d8b98dea6d44af7247a0120040da54d39cccbee498ec45ed",
+        "signature": "486cebf57bad1f66c584824fe28cddb666ed8b3a6f7b8b4a353df44cf17111242a7009e36d8be5269c9d5b3e9ce504a3c67089d1cd098bcb6c792d9cde493900"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Cardano GovTool Budget - 12 months full active maintenance and development",
+    "abstract": "Following 4 weeks of active community consultation, the newly formed Cardano Govtool Consortium, made of all the community builders who actively develop the applications that make Govtool (ByronNetwork, WeDeliver, LidoNation and DQquadrant), those who use its code and APIs and individual contributors, proposes this Info Action to continue active maintenance and development of every application that makes GovTool itself, as the open-source community-owned set of tools built for public good, functioning as Cardano’s core interface for low-barrier participation in on-chain governance. As current funding concludes in June 2025, the new proposal outlines a leaner, more inclusive funding structure built to reflect community priorities.\nOver the past four weeks, substantial feedback was collected, through open forums, working groups, and direct contributions, by the community members participating in the Consortium. This feedback was carefully analyzed and embedded into a tiered proposal that balances operational stability, cost efficiency, and ecosystem-wide participation. The overall direction suggested by the community, considering the clear streamlined costs and the many options to contribute in its development, is to continue for the next 12 months to actively develop and evolve these tools, expanding further its open-source structure.\nWith  this Info Action, the Cardano Govtool Consortium aims to transparently share a revised direction and gauge broad community support. If positively received, it will enable the submission of a follow-up Treasury Withdrawal governance action to fund GovTool active development for the next 12 months.\n",
+    "motivation": "With CIP-1694 and the Voltaire era, Cardano governance is now in the hands of the community, but power without access is meaningless. Participation must be simple, inclusive, and equitable. GovTool provides the open, user-friendly experience needed for all Ada holders (existing and future) to register, delegate, propose, vote, and see outcomes transparently. Without it, participation risks becoming fragmented, exclusive, and dependent on closed-sourced or commercial tools, undermining decentralization. To safeguard Cardano’s democratic legitimacy, we must maintain a reliable, neutral, open-source governance set of tools, fully community-owned, non-commercial, and free to access, built as public good. \n\nBuilt actively by 5 community builders, supported by many individual contributors, used by various other governance tools as basic infrastructure and by thousands of users, GovTool provides this  essential infrastructure for meaningful governance. \n\nGovtool current funding is set to expire at the end of June 2025 (*the current builders have however committed their time for an extra month and Intersect committed ADA 100k to either cover critical tasks or, if this proposal is approved, to be used to incentives further individual contribution to the open repositories of these applications*).\n\nThis updated proposal drafted via direct community input by the Cardano Govtool Consortium:\n\n* Reduces the total cost by almost half compared to the cost in the initial proposal  \n* Introduces a modular, tiered funding model with flexible scope, making development and maintenance costs clear and transparent  \n* Reinforces the decentralised structure of the Cardano Govtool and provides a clear plan to expand it to more contributors  \n* Supports community-led development via open and open-source contribution pathways  \n* Embeds substantial community feedback, captured through working groups, Discord discussions, submissions, public reviews and feedback sessions.",
+    "rationale": "Cardano Govtool builders have been working on these tools since before CIP-1694 was approved, overcoming the complex and new challenges of making it easy for everyone to participate in the new governance of Cardano. From helping shape on-chain governance with SanchoNet Govtool, to supporting the bootstrapping phase of governance and enabling the Chang Hard-Fork with Voltaire Govtool and finally opening access and participation to full governance by supporting the first community lead upgrade, Plomin. During this time Govtool has been used by hundreds of thousands of users, always open-sourced and built with direct contribution from the broader Cardano community. Govtool is designed to be a true open source community-owned solution, so in the past 8 weeks, and even more in the past 4 weeks, the newly formed Cardano Govtool Consortium have opened many more paths for discussion and feedback, making the inner processes more visible and easily accessible, providing more paths for participation, and collecting an incredible amount of direct insights and input on how to improve Govtool, how to further open its development and how to keep it funded for the public good.\n\nA tier approach was proposed, discussed and refined to provide clarity and transparency on costs and options. The discussions and feedback collected indicated a strong will to continue with full active development and maintenance and expanded options for individual contributors as well as support of other open-source governance tools using Cardano’s Govtool APIs or code. This aligns with the level 3 funding outlined below (and detailed in the [full length proposal](https://docs.gov.tools/important-updates/govtool-maintenance-ending-soon/updated-budget-proposal/updated-govtool-budget-proposal-long-version))\n\n### Tiered costs:\n\n**Budget request by the Cardano Govtool Consortium**: ₳1.15M ($920k) to cover 12 months of Active development and maintenance.\n\n* **Level 1 – Foundational maintenance ($330K / ₳412.5K)**  \n  * Covers minimum operational costs:  \n    * Infrastructure maintenance, hosting, CI/CD, and security. (0.25 FTE + hosting costs)  \n    * Core maintenance team (1 FTE QA and 1 FTE full-stack developer, split across 4 contributors to avoid downtime).  \n    * Ensures GovTool stays online, secure, and functional, but without any new features.  \n* **Level 2 – Incentivised Participation ($530K / ₳662.5K)**  \n  * All in Level 1   \n  * ₳150,000 to be allocated organically via direct contribution on the repos  \n  * ₳100,000 to be allocated to other open source governance tools that provide new and better ways to participate in Cardano Governance leveraging (and where possible expanding) Govtool code or Govtool APIs  \n* **Level 3 – Active Development & Maintenance for each pillar ($920k - ₳1.15M)**  \n  * All in level 1 (minus the $240k cost of repo maintainers which is absorbed)  \n  * All in Level 2  \n  * Accelerated growth and guaranteed monthly updates:  \n    * Funds full-time development per functional pillar:  \n      * Proposals Pillar (1 FTE)  \n      * Delegation Pillar (1.5 FTE)  \n      * Voting Pillar (1.5 FTE)  \n      * Outcomes Pillar (0.75 FTE)  \n      * Budget Discussions Pillar (0.5 FTE)  \n    * Adds dedicated end-to-end testing (1 FTE) to ensure reliability.\n\n#### Any unused funds will be returned to the Cardano Treasury. Cardano Govtool project will continue to be steered through the Governance Tools Working Group, maintaining open contribution pathways for new teams and community members.\n\n### How will this budget be administered / managed\n\n* If approved, this budget will be administered by Intersect using the smart contract framework proposed  \n* In details the budget will be distributed in:  \n  * 4 smart contracts divided in monthly milestones for each of the builders submitting this proposal  \n  * 1 smart contract for devOps (to be allocated via an open and transparent grant process)  \n  * 2 smart contracts of ₳100k and ₳150k to be handled in the andamio platform and distributed respectively to individual contributors and to other open source governance tools that provide new and better ways to participate in Cardano Governance leveraging (and where possible expanding) Govtool code or Govtool APIs  \n* The builders submitting this proposal are:   \n  * LidoNation > they will support the outcomes pillar  \n  * ByronNetwork > they will support the delegation and voting pillars  \n  * WeDeliver > they will support the Proposal discussion and Budget proposals pillars  \n  * DQuadrant > they will support the full end-to-end testing  \n* The builders get direction from the Cardano Community which owns these tools via Governance Tools Working group. This effort is also currently supported by Intersect staff, not funded via this proposal, which helps facilitate and coordinate processes  \n* Others who use Govtool APIs which will benefit from this proposal being funded and who will also access the incentives of level 2 are the builders of cardanobudget.com, 1694.io, tempo.vote, Governancespace.com, budget.cardano.africa, 1694.tools and more\n\n### Constitutionality checklist\nFollowing the format of previously submitted budget info actions, here is a checklist of points which we believe cover the constitutionality of this proposal.\n\n#### Purpose\n✅ This proposal is for work intended to ensure Cardano Governance remains easy to access and participate to, keeping governance decentralized, including all the off-chain processes needed to make governance work ensuring the long-term sustainability of Cardano. This is directly supporting ARTICLE III. PARTICIPATORY AND DECENTRALIZED GOVERNANCE\n\n#### Article III.5: the process of on-chain governance\n✅ We have submitted this proposal in a standardized, legible format, which includes a URL and hash of all documented off-chain content. We believe our rationale to be detailed and sufficient. The proposal contains a title, abstract, reason for the proposal and relevant supporting materials.\n\n#### Article IV.1: proposing budgets\n✅ This proposal accords with the provisions of this article as it is intended to cover \"the ongoing operation … of the Cardano Blockchain ecosystem and for covering other costs related to the implementation, administration and maintenance of the decentralized, on-chain governance processes provided for in this Constitution.\"\n✅ This proposal covers a period of 73 epochs, which is permitted in this section of the Constitution, to match the Net-Change Limit period.\n\n#### Article IV.2: funds administration\n✅ This proposal specifies an administrator in accordance with this provision. The details of the administration process are aligned with the structure provided by Intersect as administrator\n\n#### Article IV.3: Net-Change Limit\n✅ Being of ₳1.15M, this proposal and the treasury withdrawals it would enable do not violate the currently agreed upon Net-Change Limit.\n\n#### Article IV.4: Auditor\n✅ This proposal, if approved, intends to use part of the ₳100k committed by Intersect to cover cost of periodic independent audits\n\n#### Guardrails\n✅ This proposal is subject to TREASURY-04a in that it defines a Cardano blockchain ecosystem budget. It requires a threshold greater than 50% of the DReps' active voting stake to be considered approved and enable subsequent withdrawals pertaining to this budget.\n\n### Value provided so far\nGovTool is now a widely used and trusted governance tool, with:\n\n* 48,000+ unique mainnet users across 170+ countries  \n* 30,000+ beta testers  \n* 1,000+ governance transactions initiated via the platform  \n* Full integration with other ecosystem tools: cardanobudget.com, 1694.io, tempo.vote, Governancespace.com, budget.cardano.africa, 1694.tools and more  \n* A robust API used by independent projects\n\nThe Governance Tools Working Group has held 65+ open meetings, elevating collaboration between contributors, users, and researchers. With this foundation, Cardano’s community is now capable of driving much of the ongoing roadmap, having a team of decentralized community builders, and Intersect as a facilitator and supporter.\n\n### Why you should support this proposal\nBeyond enabling core governance, open and decentralised participation, GovTool contributes to the broader strength and modularity of the Cardano ecosystem. Supporting this proposal means investing in infrastructure that delivers added value across multiple dimensions:\n\n* **Open-Source Building Blocks**  \n  GovTool’s codebase is modular, well-documented, making it reusable for a wide range of governance projects  \n* **Strengthening the DApp Ecosystem**  \n  By offering battle-tested components (transaction builders, wallet UX flows, metadata validation, governance action schemas), GovTool acts as a toolbox for other developers building compliant, secure DApps.  \n* **Transparent & Reusable Infrastructure**  \n  GovTool offers openly accessible APIs, reusable E2E tests, and public analytics dashboards, enabling other projects to build with confidence, validate governance flows, and reuse proven infrastructure without reinventing the wheel.  \n* **Ecosystem Interoperability**  \n  Projects like 1694.io, Cardano Budget Analytics, and multiple delegation portals already consume GovTool APIs and frontend logic, demonstrating its value beyond its primary interface.  \n* **Best Practices in Governance UX**  \n  GovTool has been a proving ground for UX/UI standards around proposal creation, DRep management, and transparency, patterns that can be adopted and extended elsewhere.  \n* **Low Friction for Forks & Experiments**  \n  The tool is intentionally designed to be forkable and customizable, encouraging parallel innovation across sidechains, testnets, and alternative governance models.  \n* **Community-Led Governance Culture**  \n  Supporting this proposal reinforces the narrative that Cardano governance tools should be open, adaptable, and stewarded by a global community and not centralized institutions.\n\nIn essence, GovTool is not just a governance frontend, rather it's an extensible foundation that makes it easier for others to build trustworthy, interoperable solutions across Cardano.",
+    "references": [
+      {
+        "label": "Cardano Govtool - 12 months detailed budget proposal",
+        "@type": "Other",
+        "uri": "https://docs.gov.tools/important-updates/govtool-maintenance-ending-soon/updated-budget-proposal/updated-govtool-budget-proposal-long-version"
+      },
+      {
+        "label": "Cardano Govtool Consortium",
+        "@type": "Other",
+        "uri": "https://docs.gov.tools/overview/cardano-govtool-consortium"
+      },
+      {
+        "label": "Cardano GovTool mainhttps://gov.toolsnet instance",
+        "@type": "Other",
+        "uri": "https://gov.tools"
+      },
+      {
+        "label": "Preview instance",
+        "@type": "Other",
+        "uri": "https://preview.gov.tools"
+      },
+      {
+        "label": "PreProd instance",
+        "@type": "Other",
+        "uri": "https://pre-prod.gov.tools"
+      },
+      {
+        "label": "Constitutional Committee Portal",
+        "@type": "Other",
+        "uri": "https://constitution.gov.tools"
+      },
+      {
+        "label": "Open Backlog",
+        "@type": "Other",
+        "uri": "https://github.com/IntersectMBO/govtool/"
+      },
+      {
+        "label": "Open GovTool repository (voting and delegation)",
+        "@type": "Other",
+        "uri": "https://github.com/IntersectMBO/govtool/"
+      },
+      {
+        "label": "Proposal Pillar repository",
+        "@type": "Other",
+        "uri": "https://github.com/IntersectMBO/govtool-proposal-pillar"
+      },
+      {
+        "label": "Outcomes Pillar repository",
+        "@type": "Other",
+        "uri": "https://github.com/IntersectMBO/govtool-outcomes-pillar"
+      },
+      {
+        "label": "GovTool Test Reports",
+        "@type": "Other",
+        "uri": "https://intersectmbo.github.io/govtool-test-reports/"
+      },
+      {
+        "label": "GovTool open app analytics",
+        "@type": "Other",
+        "uri": "https://analytics.gov.tools/"
+      },
+      {
+        "label": "Open Constitutional Committee Portal Repository",
+        "@type": "Other",
+        "uri": "https://github.com/IntersectMBO/cc-portal"
+      },
+      {
+        "label": "GovTool Docs",
+        "@type": "Other",
+        "uri": "https://docs.gov.tools"
+      },
+      {
+        "label": "GovTool Proposal Pillar API docs",
+        "@type": "Other",
+        "uri": "https://be.pdf.gov.tools/api-docs/"
+      },
+      {
+        "label": "GovTool Outcomes Pillar API docs",
+        "@type": "Other",
+        "uri": "https://be.outcomes.gov.tools/"
+      },
+      {
+        "label": "GovTool Voting and Delegation Pillar API docs",
+        "@type": "Other",
+        "uri": "https://be.gov.tools/swagger-ui/#/"
+      },
+      {
+        "label": "Cardano Govtool X Account",
+        "@type": "Other",
+        "uri": "https://x.com/cardano_govtool"
+      }
+    ]
+  }
+}
