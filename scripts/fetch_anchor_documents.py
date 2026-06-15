@@ -311,7 +311,7 @@ def main():
         "file_path", "file_sha256", "content_bytes", "fetched_at_utc", "error", "source_url", "request_profile"
     ]
     with INDEX_CSV.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         w.writeheader()
         w.writerows(out_rows)
 

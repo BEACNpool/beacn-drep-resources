@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Treasury governance should enable strategic alignment and facilitate decision-making. However, treasury governance within the Cardano ecosystem is in a poor state. First, there is a funding impasse. Second, while being pivotal for Cardano's stability and growth, treasury governance is only indirectly addressed and barely supported by the existing governance system. This governance info action sketches basic ideas for reforming treasury governance and introduces them into public discussion. The goal is to provide an impetus for improving the treasury governance process and to outline guardrails for strategic direction. An implementation will require further refinements and amendments to the current process as well as the constitution. All members of the Cardano ecosystem are encouraged to collaborate in reforming treasury governance into a productive process that enables stability and growth.",
+    "motivation": "In its current form, Cardano governance and voting on treasury withdrawals have revealed significant dysfunctionalities. In particular, treasury withdrawal actions from different, but likewise important domains have led to a perceived competition for scarce resources. This opened the door to hostility and detrimental conflict within the community and has invited toxicity. There now is ill will and strife that harm the Cardano ecosystem, endangering its existence. Cardano faces a gridlock over treasury spending between different positions and coalitions in the governance system. And while treasury governance is crucial for the Cardano ecosystem, there is a lack of guardrails and structures that could provide the process with a strategic direction.",
+    "rationale": "Therefore, the following ideas are presented for discussion. These basic ideas may freely be adopted, extended or modified for concrete implementation which is beyond scope here. All members of the Cardano ecosystem - institutions/organizations, SPOs, DReps and other individuals - are encouraged to work together on solutions for improving treasury governance.\n\n<h2>Basic Propositions</h2>\n\n[a] <b>Treasury governance is pivotal</b> for the Cardano ecosystem, its growth and stability: The process of treasury governance must provide <b>a clear direction, a coherent strategy and a specific roadmap</b>.\n\n[b] Treasury governance in the sense of [a] has to be <b>explicitly addressed and supported</b> by the governance system and the constitution.\n\n[c] The <b>NCL must not be treated as “potential overall budget”</b> with the alternative of simply saving everything instead: The NCL is at best a vague initial approximation for the concept of a \"budget\". Only having the <b>NCL (and a collection of incoherent treasury withdrawals) is not enough for effective treasury governance</b>.\n\n[d] There has to be a <b>dedicated budget for investing</b>. The budget must include the strategic direction and the roadmap.\n\n[e] A thematic <b>budget structure</b> must make clear that various important domains exist side by side. None of these domains can be deferred in favor of another.\n\n[f] <b>No isolated treasury withdrawals</b> for individual projects must be <b>put on a vote against one another</b>. See [e] and [g] for further explanation.\n\n[g] DReps have to vote on <b>dedicated and balanced budgets</b>, not on the funding of individual projects. This is also necessary to mitigate the burden of directly comparing individual proposals which is cognitively inefficient. Few DReps are experts in even a single domain, hardly any are competent in multiple domains - therefore an expert commission is proposed under [i].\n\n[h] A <b>strategic entity</b> has to be responsible for preparing, proposing and implementing a budget. This entity is appointed by a vote for a fixed term.\n\n[i] An <b>expert commission</b> has to be responsible for the evaluation and selection of projects that best meet the budgetary requirements. The commission is appointed by a vote for a fixed term.\n\n<h2>Treasury Governance Process</h2>\nAccording to the ideas presented here, the treasury governance process is prepared and supported by the <b>strategic entity</b> [h] and the <b>expert commission</b> [i] described above.\n\nThe logical sequence of the treasury governance process is then proposed as follows:\n\n1. Treasury Governance Voting begins with a <b>vote on the NCL</b>.\n\n2. Treasury Governance Voting continues with a <b>vote on the budget</b>. This includes the overall budget amount, the budget structure and the allocation percentages for the individual domains. Up to this point, no individual projects or initiatives are considered. Upon completion of this phase, projects can submit targeted applications.\n\n3. Treasury Governance Voting is concluded with a <b>vote on the overall treasury withdrawal</b>. The corresponding treasury withdrawal action sets out the individual projects and their respective funding amounts under the budget structure.\n\n<h2>Budget Structure</h2>\n\nWith respect to a budget structure, the following breakdown is proposed:\n\n<b>1. Core Protocol and Infrastructure</b>\nFunding for node implementations, consensus improvements, networking, scalability, interoperability, and maintenance of core Cardano infrastructure.\n\n<b>2. Developer Tooling and Technical Resources</b>\nSupport for SDKs, APIs, indexing services, TypeScript/Rust libraries, smart-contract tooling, and developer experience improvements.\n\n<b>3. Research and Innovation</b>\nAcademic research, formal methods, cryptography, scalability research, post-quantum security, and experimental technologies.\n\n<b>4. Commercial Ecosystem Growth</b>\nTreasury funding for DeFi, liquidity programs, wallets, dApps, enterprise integrations, and ecosystem adoption initiatives.\n\n<b>5. Administration and Operational Support</b>\nFunding for governance processes, treasury administration, audit systems, reporting, constitutional compliance, and budget coordination.\n\n<b>6. Community, Education and Marketing</b>\nEvents, conferences, outreach, education, ecosystem awareness, and community engagement.\n\n<b>7. Other Strategic or Public-Good Initiatives</b>\nBroader ecosystem-impact projects aligned with Cardano’s long-term vision, sustainability, or societal adoption goals.\n\n<b>8. Functional Reserve</b>\nReserve budget for emergencies or urgent motions. Directly accessible under predefined conditions.\n\n<h2>About the Author</h2>\nAtlasHub, a small DRep, committed to Cardano since 2019.\nNo drama, no FUD, no \"social\" media.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "AtlasHub",
+        "uri": "https://cexplorer.io/drep/drep1y2dnsj0taktxwmzwf4a7sp0mg3rvm3jsetag0h0m83khs3c7d3l6x"
+      }
+    ],
+    "title": "Reforming Treasury Governance"
+  }
+}
