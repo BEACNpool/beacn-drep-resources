@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T00:57:51Z",
+  "generated_at_utc": "2026-06-16T11:30:31Z",
   "source": "data/input/governance/governance_actions_all.csv",
   "output_index": "data/input/governance/anchor_documents_index.csv",
   "anchors_dir": "data/input/governance/anchors",
@@ -17,8 +17,8 @@
     "request_profiles": 4
   },
   "stats": {
-    "actions_total": 125,
-    "fetched_ok": 123,
+    "actions_total": 126,
+    "fetched_ok": 124,
     "fetched_ok_cached": 123,
     "missing_url": 0,
     "failed": 2
