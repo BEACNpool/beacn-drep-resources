@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-06-17T11:30:36.230019+00:00",
+  "generated_at_utc": "2026-06-17T23:45:55.807313+00:00",
   "source": "sqlite_cardano_gov",
   "source_db_path": "/home/ubuntudesktop/.openclaw/workspace/skills/cardano-gov/data/proposals.db",
-  "source_db_sha256": "1393403642c0486fe373dca1da284839b57572545b6c2cdb16d474e2eb739961",
+  "source_db_sha256": "b7ecb4b995880bc6c40aa648da88db63327bd43f21e14896290b038fea1f5180",
   "totals": {
     "actions_all": 127,
     "actions_active": 11,
     "treasury_rows": 87,
     "flag_rows": 140,
-    "poll_runs": 771
+    "poll_runs": 775
   },
   "outputs": [
     {
       "path": "data/input/governance/governance_actions_all.csv",
-      "sha256": "4808da3d6481ed1e7ac4873c9b8b8da50df5140a2bb78230a52d28b81f1fea89"
+      "sha256": "893589e86fcfd8f808b6a9547aadb38343fc7a04e273a2d1c965dcd3d37d0c28"
     },
     {
       "path": "data/input/governance/governance_actions_active.csv",
-      "sha256": "318f3eee8f120bd8f3b0639918bff30f4b0f57e0e8c2c11ff9f4e4baeb916701"
+      "sha256": "7ff364b5d424b9efc6e9932e47bac6e625f56e842fe698571bd9f9e2ec4bd8c2"
     },
     {
       "path": "data/input/governance/governance_treasury_recipients.csv",
@@ -29,7 +29,7 @@
     },
     {
       "path": "data/input/governance/governance_poll_runs.csv",
-      "sha256": "019ff01f384249d82e053ce66198000daf448094734b4c30e0c88a92373b65c7"
+      "sha256": "9e5f4d9c21b3a1396bf63e0e9415063bf875cc8f47a7fa643b7cb45b23c26afc"
     }
   ]
 }
