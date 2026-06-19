@@ -1498,5 +1498,17 @@
     "cached_at_utc": "2026-06-17T11:30:36Z",
     "source_url": "ipfs://bafkreib3ds3bj7izvspcmodz543m5y66slpcmoifzmvpl6xvq6mozaak64",
     "anchor_hash": "7f683eaf65629963cdc726e0cb7d3be295eb586fc5ba93985878f98e29cee897"
+  },
+  "3f5934fa08076d64fca20124ecde82ba26a79b3fc1b1f363ee983f8398c3f9d5": {
+    "anchor_url": "https://ipfs.io/ipfs/QmYM4nuNZTVMiMmvCr7mntct7YE1VgWyLgxGhyfWptgFgC",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj-20260619T113033Z.bin",
+    "file_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
+    "content_bytes": "19707",
+    "request_profile": "0",
+    "cached_at_utc": "2026-06-19T11:30:34Z",
+    "source_url": "ipfs://QmYM4nuNZTVMiMmvCr7mntct7YE1VgWyLgxGhyfWptgFgC",
+    "anchor_hash": "14534696e4b6c02f210e50dc4813ee8d5a5518837bbff82cb4f180599c4b0bcc"
   }
 }
