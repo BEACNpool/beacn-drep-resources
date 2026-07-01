@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:treasury_withdrawals_action",
+                "rewards": {
+                  "@id": "CIP116:rewards",
+                  "@container": "@set"
+                },
+                "key": {
+                  "@id": "CIP116:rewardAddress",
+                  "@type": "CIP116:RewardAddress"
+                },
+                "value": {
+                  "@id": "CIP116:amount",
+                  "@type": "CIP116:UInt64"
+                },
+                "policy_hash": {
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Anvil Development Agency, Inc.",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1",
+        "signature": "f5c41ac547e6fe83a9ced675a30d04b8fe591137eaa0aca3884de7b1d9c15c131dedcc0e4a33b1e44aba9014015aa6308669789467c9132ca20ecacc1ebbda01"
+      }
+    },
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "a5e6561229b27cd4e533a43e88a987d289ecbbf6ad0b6f654c50deb061ed0e1ab3901bb5f9614a685185943857d90324473a8ac75a5a2fcd7e375cf986b4b70c"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform",
+    "abstract": "This Treasury Withdrawal funds Phase 2 of a production Cardano-native ticketing platform operated by Sellout.io and built by Anvil Development Agency. Phase 1 (on-chain event creation, CIP-68 ticket minting, transfers, and attendance verification) is already live on Cardano mainnet, funded entirely by Sellout (over $130k invested). Phase 2 delivers a secondary marketplace with on-chain royalty enforcement, per-event anti-scalping controls, wallet onboarding for Sellout's 200,000+ existing users, organizer tools, an independent third-party security audit, and a professional launch campaign, anchored by the contracted Yellowstone Club 2026 concert series.\n\nThis is a direct on-chain Treasury Withdrawal governance action submitted by the proposer. Intersect serves as the budget administrator by prior agreement - holding and disbursing funds through the Sundae Labs Treasury Reserve / Project-Specific Smart Contract (TRSC/PSSC) framework with independent oversight - rather than this being a submission through the Intersect budget-process portal. The withdrawal requests 4,969,231 ada (~$1,093,231 USD at $0.22/ADA) over 8 months, disbursed against milestones. Phase 2 is delivered through a new operating entity that pays a defined revenue share back to the Cardano Treasury; the team commits to repay $1,093,231 to the Treasury through this mechanism.",
+    "motivation": "This proposal requests 4,969,231 ada (~$1,093,231 USD at $0.22/ADA), inclusive of a 3% Intersect administration fee, over 8 months to scale a working, mainnet-live ticketing system to mass adoption.\n\nOnline ticketing is a $60B global industry with structural failure modes - opaque resale, uncontrolled scalping, unenforceable royalties, and fragmented attendance records - that blockchain solves at the protocol level; tickets are a form of RWA / supply chain. \"The global Live events industry market size was estimated at USD 652.6 billion in 2022 and is projected to reach USD 1,177.1 billion by 2032, growing at a CAGR of 5.9% from 2023 to 2032.\"\n\nThe Cardano 2030 Strategic Vision is explicit: move past infra-first thinking, secure non-speculative utility, and invest in high-value verticals that drive sustained on-chain demand from real businesses. What the ecosystem has lacked is a homegrown enterprise integration with real users, real revenue, and recurring mainnet activity - not a partnership announcement, not a testnet demo.\n\nThis proposal closes that gap. A 200,000-user Web2 platform is migrating its core ticketing operations to Cardano, with a contracted anchor deployment concert series in Year 1. The business already exists, so does the volume. Phase 1 already works and was funded by Sellout's own capital. The Treasury funds the incremental build that takes a working system to mass adoption - and is repaid through the revenue that real commercial activity produces.",
+    "rationale": "### Strategic Pillar Alignment (Cardano 2030 Vision)\n\n**Pillar 2 - Adoption & Utility:** Driving widespread, non-speculative utility through high-value verticals, superior UX, and enterprise-grade security.\n\n- **A.1 High-Value Verticals.** The Vision names DeFi, RWA, supply chain, and payments as flagship verticals. Online ticketing is a $60B global industry whose structural failure modes blockchain solves at the protocol level, and tickets are a form of RWA / supply chain.\n- **A.2 Experience.** Our wallet onboarding is a textbook implementation of the Vision's principle to \"hide wallets, fees, and signing flows\" from users - making Cardano invisible to 200,000+ existing Web2 users. The Anvil API (back-end) is working toward SOC compliance (see Anvil's CBDAO Round 2 Proposal, Pillar 4).\n\n**Pillar 5 - Ecosystem Sustainability & Resilience:** Ensuring long-term financial health and operational integrity of the network.\n\n- **E.1.** Every Phase 2 transaction - mint, transfer, resale, royalty distribution, check-in - generates protocol fees that flow back to the network, a measurable contribution toward the Vision's >=16M ADA annual protocol revenue target.\n- **E.2.** Through our royalty share we will also directly pay back the Treasury and continue building value for it long beyond this withdrawal.\n\n**Strategic Imperative #2 - Robust on-chain demand.** Every Phase 2 component converts Sellout's existing ticketing pipeline into recurring, mainnet-settled activity. The 100,000+ projected first-year transactions and 25,000+ new wallets are direct contributions to the Vision's >=27M monthly transactions and 1M unique active address targets. This is a multi-year investment, not a one-year initiative.\n\n**Cardano 2025 Product Roadmap (Intersect MBO).** Smart-contract-enforced royalty splits directly execute the Roadmap's \"creator royalty mechanisms\" item. Identity-binding for anti-scalping aligns with the soul-bound / identity-bound asset direction, designed for DID/SSI compatibility rather than centralized KYC.\n\n**Mission critical - by the Vision's own definition.** The Yellowstone Club deployment alone is projected to move $6M+ through Cardano in Year 1 (2025 historical: $5.88M), with individual ticket prices up to $8,000.\n\n**Pillar 4 - geography.** The Vision's Pillar 4 emphasizes LATAM, Africa, and East Asia (C.2). Sellout is US-based; this proposal extends Cardano into US enterprise as a complementary expansion, not a substitute.\n\n### What This Withdrawal Builds\n\nWork Package: Event Ticketing Marketplace (New Initiative; Technical / software-IT). The withdrawal funds:\n\n- **Secondary marketplace** - list, price, and resell tickets; all transactions settle on-chain.\n- **Royalty enforcement** - programmable royalty splits enforced at the smart-contract level; artists and venues receive their configured share on every resale automatically.\n- **Anti-scalping controls** - configurable per-event resale rules: price ceilings, transfer limits, identity-binding (DID/SSI-compatible, not centralized KYC), time-based restrictions.\n- **Wallet onboarding** - custodial wallet creation inside Sellout's existing flow; users get a Cardano wallet without needing to understand blockchain.\n- **Organizer tools** - dashboard to configure resale parameters, view on-chain ticket lifecycle data, manage royalty distributions, and verify tickets.\n- **Independent third-party security audit** - a formal smart-contract audit; report and remediation published as launch deliverables.\n- **Public launch amplification** - a dedicated Sellout Project Lead and DevOps Lead, Sellout's marketing agency Big Storm running the multi-month launch campaign, and three trade-show activations (NIVA, INTIX, Pollstar Live!).\n\n**Core Objectives.** (1) Ship Phase 2 to mainnet, milestone-gated and audited. (2) Convert Sellout's pipeline into recurring Cardano activity - 12-month targets from launch: 200+ events on-chain, 75,000+ CIP-68 NFT tickets, 150,000+ on-chain interactions, $6M+ ticket revenue on-chain, 20,000+ new wallets. (3) Activate the Yellowstone Club 2026 series (lineup: Noah Kahan, Sting, Weezer, The Black Crows, Mumford & Sons, Dierks Bentley, The B52s; tickets $400-$8,000; $5.88M 2025 historical -> $6M+ on-chain 2026). (4) Produce a documented enterprise case study, repeatable for other operators, white-label deployments, and additional ticketing companies.\n\n**Expected Value / ROI.** A 200,000-user Web2 platform migrating core ticketing to Cardano; every ticket a CIP-68 NFT, every transfer/resale/royalty/check-in a transaction. Existing operations alone project 100,000+ on-chain transactions and 20,000+ new wallets in year one - direct contributions toward the Vision's 27M+ monthly transactions, 1M unique active addresses, and 16M+ ADA annual protocol revenue. The business and the volume already exist; the Treasury funds the incremental build. We are committing to repay $1,093,231 to the Cardano Treasury through our revenue-share mechanism.\n\n### Funding & Treasury Repayment Structure\n\nThis is a treasury withdrawal of 4,969,231 ada (~$1,093,231 USD at $0.22/ADA) over 8 months, disbursed against milestones. Beyond milestone gating, value returns to the Treasury two ways:\n\n- **Contingency return.** The ~3% contingency (136,363 ada) is returned to the Treasury if unused at project completion.\n- **Revenue-share repayment.** A defined share of marketplace and royalty revenue is paid back to the Cardano Treasury. A percentage of all fees (25%) is sent to the Treasury until the Treasury is reimbursed in full; once repaid, this reduces to a smaller permanent fee (5%). Paid quarterly to the Cardano Treasury (or a designated treasury-controlled receiving vehicle). The exact revenue-base definition and cadence are finalized in M1 contracting with the appointed oversight committee; the structural commitment to repay is fixed here. Repayment progress is reported publicly each quarter.\n\n**Why rev-share, not equity or a token.** A direct rev-share is a cleaner instrument for a treasury-funded proposal than a private-company equity stake (which raises custody, valuation, dilution, and governance-rights questions). No tradable token is issued - the instrument is a contractual repayment obligation on operating revenue. It layers on top of the protocol fees that already flow to the network, and is enforceable through the M1 contracting framework with the appointed oversight committee.\n\n**Treasury protections.** Milestone-gated disbursement (no delivery, no payment); contingency return; undisbursed funds remain under Treasury control; independent third-party audit + oversight review + public quarterly reporting; contractual revenue-share repayment.\n\n### Capital Allocation\n\nTotal requested: 4,969,231 ada ($1,093,231 at $0.22/ADA). Work package sub-total 4,824,431 ada ($1,061,375); Intersect administration fee 144,800 ada (3%).\n\n| Item | Cost Category | ADA | USD ($0.22/ADA) |\n|---|---|---|---|\n| Anvil Blockchain Engineer (Lead) - 1 FTE, 8 mo | Resources (Labor) | 448,182 | $98,600 |\n| Anvil Senior Full-Stack Engineer - 1 FTE, 8 mo | Resources (Labor) | 418,750 | $92,125 |\n| Anvil Smart Contract Engineer - 1 FTE, 8 mo | Resources (Labor) | 380,682 | $83,750 |\n| Anvil Front-End / UX Engineer - 1 FTE, 8 mo | Resources (Labor) | 289,318 | $63,650 |\n| Anvil Jr. Engineer / QA - 0.5 FTE, 8 mo | Resources (Labor) | 78,409 | $17,250 |\n| Anvil Designer (UX + Visual) - 0.5 FTE, 8 mo | Resources (Labor) | 101,136 | $22,250 |\n| Anvil Project Management & Technical Leadership - 0.5 FTE, 8 mo | Resources (Labor) | 139,773 | $30,750 |\n| Anvil Executive Oversight (CEO/COO) - 0.5 FTE, 8 mo | Resources (Labor) | 187,500 | $41,250 |\n| Sellout Project Lead - 1.0 FTE | Resources (Labor) | 454,545 | $100,000 |\n| Sellout DevOps Lead - 1.0 FTE | Resources (Labor) | 227,273 | $50,000 |\n| Sellout Web2 Development - Marketplace UI | Development | 272,727 | $60,000 |\n| Sellout Web2 Development - Wallet Integration | Development | 227,273 | $50,000 |\n| Sellout Web2 Development - Organizer Dashboard Updates | Development | 181,818 | $40,000 |\n| Sellout Web2 Development - Account Auth & Integration Plumbing | Development | 136,364 | $30,000 |\n| Sellout Marketing - NIVA Conference | Engagement & Ecosystem support | 181,818 | $40,000 |\n| Sellout Marketing - INTIX Conference & Expo | Engagement & Ecosystem support | 181,818 | $40,000 |\n| Sellout Marketing - Pollstar Live! Conference | Engagement & Ecosystem support | 181,818 | $40,000 |\n| Sellout Marketing - BigStorm Marketing Campaign | Engagement & Ecosystem support | 227,273 | $50,000 |\n| Independent 3rd Party Audit | Security & Audits | 227,273 | $50,000 |\n| Infrastructure, Tooling, Dev Environments | Infrastructure | 113,636 | $25,000 |\n| Reserve / Scope Contingency (3%) | Operations | 136,363 | $30,000 |\n| Legal Entity Formation | Legal & Compliance | 30,682 | $6,750 |\n| **Work package sub-total** | | **4,824,431** | **$1,061,375** |\n| Intersect Administration fee (3%) | Legal & Compliance | 144,800 | ~$31,856 |\n| **Total** | | **4,969,231** | **$1,093,231** |\n\n### Milestones & Timeline\n\nFive milestones over 8 months (8 + 8 + 8 + 4 + 4 weeks), milestone-gated.\n\n- **M1 - Design & Architecture (8 wks):** marketplace architecture doc; resale ruleset framework; mobile-first UX spec; custodial wallet onboarding integration plan; CIP-68 metadata extension spec; audit firm engaged; Sellout PL/DevOps onboarded, Big Storm kicked off, first trade-show slot secured; JV legal architecture planned; revenue-share reimbursement-vehicle definitions and reporting cadence established. Done: architecture docs published; Proof of Design signed by Sellout; integration/legal/audit/Big Storm plans accepted by oversight committee.\n- **M2 - Marketplace Implementation on Testnet (8 wks):** marketplace MVP on testnet; end-to-end list/buy/transfer; royalty + anti-scalping enforced at contract level; mobile-first front-end integrated; custodial wallet flow with self-custody export; QA report; first-pass independent audit; Sellout Web2 marketplace + wallet UI production-ready; Big Storm content; legal framework completed for new entity. Done: testnet verified via tx links; QA report published; enforcement demoed on video; first-pass audit shared; legal formation link.\n- **M3 - Organizer Tools, Audit & Documentation (8 wks):** organizer resale-config tools; Phase 1+2 on-chain data visualizations; support verification interface; integrator documentation; final audit pass (all critical/high findings remediated; report published); Sellout organizer dashboard + auth plumbing; trade-show activation #1. Done: tools functional via video; docs published; final audit report + remediation; production handoff signed; trade-show #1 post-event report.\n- **M4 - Mainnet Deployment & Production Integration (4 wks):** contracts to mainnet; full Sellout backend integration; live resale flows; monitoring/logging; incident-response tabletop; trade-show activation #2; Big Storm pre-launch press; fee dashboard built to track revenue share back to the Treasury. Done: mainnet verified via video; production integration tested with live tx; monitoring verified; trade-show #2 report; launch assets signed by Sellout; revenue-share reimbursement vehicle established & operational; dashboard link showing monthly revenue-share progress.\n- **M5 - Public Launch, Amplification & Reporting (4 wks):** public marketplace launch for all Sellout users; full-intensity Big Storm campaign; trade-show activation #3; educational materials for users/artists/venues; public on-chain metrics dashboard (explorer + policy-ID verifiable); final governance report to the Cardano Forum. Done: public launch link; campaign reach metrics; trade-show #3 report; dashboard live; governance report published.\n\n### Risk Mitigation\n\n- **Milestone gating** - funds released only on verified delivery; slips hold the corresponding disbursement.\n- **Co-investment** - Sellout funded Phase 1 from its own capital (over $130k); the Treasury is not the only capital at stake.\n- **Course correction** - quarterly reporting; off-track metrics are diagnosed and adjustments brought to the oversight committee.\n- **Partnership continuity / key-person risk** - Anvil is the sole contracting/responsible party; all disbursements gate on Anvil deliverables. The Yellowstone anchor is contracted at the Sellout-venue layer; the on-chain infrastructure outlasts any single deployment and is reusable by other operators.\n- **Post-funding sustainability** - after Phase 2, infrastructure is maintained by Sellout as normal operating cost, funded by service fees on primary and secondary sales. No further treasury withdrawal is planned or anticipated.\n\n### Team & Track Record\n\n**Anvil Development Agency** (Cardano-native dev agency, founded 2022). Leadership: Zack \"Cash\" Soesbee (CEO & Co-Founder), David \"Tqueri\" Desjardins (CTO & Co-Founder), Patrick \"PB\" Bernard (COO & Co-Founder). 8 full-time contributors; avg 4 years Cardano production experience; 80 years combined web development; 24 years combined blockchain. Record: 250+ Cardano projects delivered, 456,000+ assets minted, 50,000,000+ ADA staked through Anvil infrastructure, 267,000+ on-chain transactions; built the Wayup NFT marketplace (10,000+ listed assets). Notable clients: Intersect MBO, Wayup, Snek, Fluxpoint Studios. Advisors: Andy Bernard, Keith Pfaff, Greg Fasullo, Ken May.\n\n**Sellout** (ticketing platform, founded 2017). 200,000+ registered users; 250,000+ tickets issued to date; 350+ events annually at current cadence; venue relationships including Live From The Divide and the Yellowstone Club. Mission: \"Elevate the organizer, protect the fan, support the artist.\" Sellout is the client, operating partner, and anchor deployment; Anvil builds the infrastructure.\n\n### Success Metrics & Reporting\n\nTargets - Q4 2026 / Q1 2027 (initial deployment): 50-75 events on-chain; 30,000+ NFT tickets; 60,000+ on-chain actions. Targets - 12 months from launch: 200+ events on-chain; 75,000+ NFT tickets; 150,000+ on-chain interactions; $6,000,000+ ticket revenue on-chain; 20,000+ new wallets. Phase 1 is already live on mainnet, so baselines exist before Phase 2 begins. All on-chain metrics are independently verifiable via Cardano explorer data and policy-ID tracking; a public metrics dashboard goes live in M5; quarterly reports are published to the Cardano Forum.\n\n### Budget Administration\n\nThis is a direct Treasury Withdrawal governance action submitted by the proposer; Intersect acts as the budget administrator by prior agreement (it is not a submission through the Intersect budget-process portal). Intersect holds and disburses the withdrawn funds through the Sundae Labs TRSC/PSSC framework with independent oversight.\n\n**Net Change Limit compliance.** The requested amount does not, on its own or in aggregate at time of submission, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713. In accordance with guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.\n\n**Audit & oversight.** Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight is provided through Intersect and a technically capable third party, including reporting obligations and milestone-based disbursement controls.\n\n**Prior treasury funding disclosure.** Anvil/Sellout have not received ada from the Cardano Treasury within the last 24 months.\n\n**Intersect Budget Management Tooling.** To administrate treasury funds on-chain, Intersect uses the treasury management smart contract framework developed by Sundae Labs (a 2026 instance, mirroring the 2025 contracts).\n- 2026 Treasury Reserve Smart Contract (TRSC) stake address: stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\n- 2026 TRSC payment address: addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w\n- 2026 Project-Specific Smart Contract (PSSC) payment address: addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay\n\nIntersect uses a single TRSC with one PSSC. An Oversight Committee of six external, independent third parties (Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, Eternl) provides checks and balances. Upon enactment, funds are directed into the TRSC stake address; all TRSC/PSSC instances cannot be staked with an SPO and are delegated to the auto-abstain predefined DRep. When the legal contract is prepared and the vendor is ready, funds are transferred via the Fund action to the PSSC; all milestones are outlined in the metadata. A public dashboard (treasury.sundae.fi) lets the community audit the TRSC/PSSC and track metrics, immutably verifiable on chain.\n\n### Constitutionality Disclosures (Article IV)\n\n- **Purpose:** Fund Phase 2 of the Sellout x Anvil production Cardano-native ticketing platform - secondary marketplace with on-chain royalty enforcement, anti-scalping controls, custodial wallet onboarding for 200,000+ users, organizer tools, an independent third-party security audit, and a public launch campaign - delivered through a new operating entity that pays a defined revenue share back to the Cardano Treasury.\n- **Period:** 8 months from first milestone disbursement.\n- **Costs:** 4,969,231 ada total (~$1,093,231 at $0.22/ADA): 4,824,431 ada work package + 144,800 ada Intersect administration fee. Allocated per the Capital Allocation table and disbursed across five milestones; all funds milestone-gated.\n- **Circumstances for payment:** Each milestone disbursement requires verified delivery accepted by the appointed oversight committee. No deliverable acceptance, no disbursement.\n- **Circumstances for refund:** the ~3% contingency (136,363 ada) is returned if unused; undelivered milestones are not disbursed and remain under Treasury control; any undisbursed funds at the end of the contract period revert to the Cardano Treasury.\n- **Independent verification & oversight (Article IV S4):** public quarterly reports, a public on-chain metrics dashboard (M5), and a final governance report to the Cardano Forum; all on-chain metrics independently verifiable via explorer data and policy-ID tracking.\n- **Fund holding & delegation (Article IV S5):** ada held pending disbursement is held in publicly auditable accounts (the Sundae Labs TRSC/PSSC), delegated to the predefined auto-abstain voting option and not delegated to any SPO.\n- **Conflict of interest:** Neither Anvil's nor Sellout's leadership holds a position on the Constitutional Committee or the appointed oversight committee for this withdrawal. Any such relationship arising during the period will be disclosed to the oversight committee within 30 days.\n- **Prior treasury / ecosystem funding:** This initiative has not received any funding to date. Anvil and Sellout had a joint proposal submitted into the Enterprise category of Project Catalyst Fund 15 and were approved for the category; Fund 15 was closed before voting started. Anvil has received funding in the past through Intersect (1-time grant), Catalyst, and CBDAO. Neither Anvil nor Sellout has received funds directly from the Cardano Treasury within the last 24 months.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Full Proposal (human-readable, formatted)",
+        "uri": "https://github.com/Cardano-Forge/sellout-treasury-withdrawal/blob/master/sellout-treasury-withdrawal.proposal.md"
+      },
+      {
+        "@type": "Other",
+        "label": "Fix Ticketing - Interactive Proposal Website",
+        "uri": "https://fixticketing.com"
+      },
+      {
+        "@type": "Other",
+        "label": "Anvil Development Agency",
+        "uri": "https://ada-anvil.io"
+      },
+      {
+        "@type": "Other",
+        "label": "Sellout",
+        "uri": "https://sellout.io"
+      },
+      {
+        "@type": "Other",
+        "label": "Big Storm (marketing)",
+        "uri": "https://greatbigstorm.com"
+      },
+      {
+        "@type": "Other",
+        "label": "Sundae Labs Treasury Management Smart Contracts",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
+      },
+      {
+        "@type": "Other",
+        "label": "Cardano Forum Discussion",
+        "uri": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1uy8vr53guapag0rfvwnumlteyls8agysvrv87pdgukp8cugm6qjgj",
+      "gov_action": {
+        "tag": "treasury_withdrawals_action",
+        "rewards": [
+          {
+            "key": "stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v",
+            "value": "4969231000000"
+          }
+        ],
+        "policy_hash": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      }
+    }
+  }
+}

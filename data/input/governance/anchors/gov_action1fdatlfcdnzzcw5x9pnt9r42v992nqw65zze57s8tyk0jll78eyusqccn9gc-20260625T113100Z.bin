@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Cardano Builder DAO",
+    "abstract": "The Cardano Builder DAO is an ecosystem-wide, purpose-built, smart contract-governed funding mechanism to support projects advancing Cardano’s Vision 2030 through measurable ecosystem KPIs. Its role is to allocate capital to builders who can drive growth in the metrics that matter most to Cardano’s long-term success, including monthly active users, monthly on-chain transactions, and TVL.",
+    "motivation": "Cardano’s long-term success depends on its ability to consistently fund, support, and retain builders who create real ecosystem usage. As Cardano advances toward Vision 2030, treasury funding should increasingly be connected to measurable outcomes, including monthly active users, monthly on-chain transactions, and total value locked.\n\nThe Cardano Builder DAO exists to create a more focused, accountable, and builder-led funding pathway for projects that can directly advance these outcomes. While Cardano has traditionally used community funding mechanisms, the ecosystem now needs specialized funding structures that can allocate capital with clearer mandates, stronger accountability, and better alignment with strategic KPIs.\n\nThe motivation behind this proposal is to strengthen Cardano’s ability to deploy treasury resources toward projects that create measurable ecosystem value. By organizing and inviting experienced builders into a smart contract-governed DAO, the Cardano Builder DAO gives the ecosystem a repeatable mechanism for evaluating proposals, coordinating feedback, distributing funds transparently, and tracking the results of funded work.\n\nUltimately, the Cardano Builder DAO is motivated by a simple goal: help Cardano fund the builders most capable of turning treasury resources into measurable ecosystem growth.",
+    "rationale": "## Alignment with the 2030 Vision KPI Framework\n\nSupporting Cardano’s strategy KPIs is one of the core design goals of the Cardano Builder DAO.\n\nThe Strategy 2030 framework identifies TVL, monthly transactions, and monthly active users as three of the ecosystem’s key KPIs for measuring usage, adoption, and sustainability. The Builder DAO was intentionally designed to fund builders whose work can improve those outcomes over time.\n\nThat is exactly why, in the early stages of the DAO, we built both Version 1 and Version 2 of the DAO KPI dashboard. Version 1 created a public system for self-reported KPI tracking. Version 2 moved the DAO toward the model this mechanism ultimately needs: KPI tracking tied directly to live on-chain Cardano data. We want to work with dReps to continue to standardized how KPIs can be tracked in future versions. This shift reflects our belief that treasury-funded performance should become increasingly measurable, transparent, and verifiable. That evolution also allows the DAO to move from narrative-based reporting toward objective performance monitoring. \n\nThe CB DAO knows that KPI tracking is an area of high interest for dReps and the broader ecosystem. Our effort is to show willingness to work with dReps to improve tracking of KPIs on a repeating cadence. The CB DAO intends to be the oversight body that enforces and coordinates KPI based funding with strict accountability and standards for projects that receive funding. It is not an easy problem to solve, but year one shows that we are meaningfully striding towards creating an oversight body that effectively tracks core Cardano KPIs for funded projects.\n\nThe proposal directly supports these strategy KPIs in the following ways:\n\n**Monthly Active Users (MAU)**: Every funded project is expected to grow real usage of Cardano-based products and services. The DAO supports this by selecting builders with adoption potential, requiring KPI reporting, and prioritizing projects that can attract and retain users.\n\n**Monthly Transactions**: The DAO funds projects that increase on-chain activity through applications, protocols, integrations, and user flows that generate repeat transaction volume. This makes treasury deployment more directly connected to measurable network usage.\n\n**Total Value Locked (TVL)**: The DAO supports builders whose products can deepen liquidity, strengthen DeFi participation, and increase the amount of value secured within Cardano-based applications. Since TVL is one of the clearest indicators of capital confidence and ecosystem usefulness, it is a core KPI for funded teams to track.\n\nTo ensure alignment with the strategy framework, funded projects are required to track core KPIs: monthly active users, TVL, and on-chain transactions. While different builders contribute in different ways, the shared purpose of the DAO is to improve Cardano’s 2030 KPI performance through disciplined treasury allocation, public reporting, and increasingly on-chain KPI verification.\n\n## CB DAO Track Record\n\nWe are well suited to deliver this work because the Cardano Builder DAO is already a proven operating system for builder-led treasury allocation. The CB DAO has already distributed 11.1 M ADA across 34 proposals in 2 funding rounds.\n\nIn Round 1, the DAO brought together 38 voting members and 27 requesting members, funded 20 companies building on Cardano, and achieved an 83% participation rate in governance actions. It also distributed 5,541,335 ADA through a transparent, smart contract-governed process, and the impact of that funding was measured through a public KPI dashboard.\n\nRound 2 made improvements and built off of the momentum of Round 1, with 18 new members joining the DAO. Builders again engaged in a full process of review, debate, temperature checks, and final voting, resulting in 14 companies being funded with an 88% participation rate among members. That level of repeat participation demonstrates real governance durability, not just initial enthusiasm.\n\nJust as important as the raw numbers is what those cycles proved operationally. The DAO successfully bootstrapped a serious builder community, created and amended governing documents, elected a board, added third-party assurance, implemented merit-based proposal review, and executed treasury withdrawals on-chain with full transparency. The process was iterative, rigorous, and built by the same operators now seeking to continue and expand it.\n\nThe Builder DAO is well positioned to facilitate ecosystem funding for dApps because it already has meaningful ecosystem adoption. Official Cardano developer documentation now describes the CB DAO as a smart contract-governed mechanism where more than 50 established Cardano projects participate in funding decisions, with KPI tracking tied to metrics like on-chain activity, users, and TVL. That means this proposal builds on an existing coordination layer of credible builders with real reach and an existing name, not an untested network that still needs to be assembled.\n\nIn short, our track record is clear: we have already designed the model, attracted the builders, run the governance, deployed capital, tracked outcomes, and improved the process across multiple cycles. This proposal scales what has already been demonstrated in practice.\n\n**Administrator**: \n\nIndependent council. A council composed of members of the dRep DAO receive the treasury withdrawal, hold funds prior to deployment, and oversee disbursement in line with the milestones put forth in this proposal included in the references. Currently Cardano Yoda (https://x.com/JaromrTesar) and Marco Grendel Moshi (https://www.linkedin.com/in/marco-moshi/) have put their names forward and we will be adding one other non affiliated active dRep to conduct the reviews.\n\nIn compliance with Section 7 \"Treasury Withdrawals\" of the Cardano Constitution Action Standards, any ADA held by the administrator prior to further disbursement will be kept in one or more separate accounts auditable by the Cardano Community, will not be delegated to any stake pool operator, and will be delegated to the predefined abstain voting option.\n\nAll milestones will be dispersed from an independent multisig governed by assigned members of the dRep DAO. The Cardano Builder DAO only receives funds after milestone completion is validated and confirmed by administrator.  \n\n**Repayment**\nRepayment would occur in the event that any DAO treasury funds remain unused or unallocated after completion of the approved work, governance processes, or funding activities. In that case, the unused portion would be returned to the Cardano Treasury, consistent with the Cardano Builder DAO’s prior practice and commitment to responsible treasury stewardship.\n\nThe CB DAO returned 354,790 ADA of unused funds to the treasury after the first two governance rounds completed: https://adastat.net/transactions/dfcf57c8c65c50bb208106db91b2db38c4a7512f9fbf100f9f5e1f6301ceb8fc\n\n**Have you previously received funding from Cardano or related ecosystem programs?**\n\nYes. The Cardano Builder DAO previously received funding through the Cardano Treasury funding process. This proposal builds on that prior funded work and continues the development of the DAO as an operational, on-chain, KPI-driven funding mechanism for Cardano builders. Clarity, the technical and business development team responsible for enabling the facilitation of Initiative DAOs will not seek funding as a requesting member through any of the initiative DAOs. The tools and technology needed to enable these DAOs were funded by the Cardano Builder DAO in 2025.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "CB DAO Reflections",
+        "uri": "https://medium.com/@Clarity_/reflections-on-the-two-governance-cycles-of-claritys-biggest-dao-the-cardano-builder-dao-500d84d6fbec"
+      },
+      {
+        "@type": "Other",
+        "label": "CB DAO Retrospective Round 1",
+        "uri": "https://medium.com/@cardanobuilderdao/retrospective-governance-round-1-30fb9a30884c"
+      },
+      {
+        "@type": "Other",
+        "label": "CB DAO Retrospective Round 2",
+        "uri": "https://medium.com/@cardanobuilderdao/cardano-builder-dao-governance-round-2-retrospective-3eab22b26926"
+      },
+      {
+        "@type": "Other",
+        "label": "Milestone and Budget Document",
+        "uri": "https://docsend.com/view/mfujtmqgnjm567p9"
+      },
+      {
+        "@type": "Other",
+        "label": "CB DAO governance portal round 1",
+        "uri": "https://www.clarity.vote/organizations/cardano/CardanoBuilderDAO/governance"
+      },
+      {
+        "@type": "Other",
+        "label": "CB DAO governance portal round 2",
+        "uri": "https://www.clarity.vote/organizations/cardano/CBDAORound2/governance"
+      },
+      {
+        "@type": "Other",
+        "label": "CB DAO Code of Conduct",
+        "uri": "https://docs.google.com/document/d/19CUIiPJznLpa-kMfe1CZ_AONp7Q4lGCqm4XMHJvrJ00/edit?usp=sharing"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Builder DAO",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "8d110fac728b67a1329363e781991659928733ee83811a08226c37dd9c82629f",
+        "signature": "845846a201276761646472657373583901afaf264ee833f36b4ffc80b3d366ed13f384fe0751f8905d38504d6336d1da2eba0ea0258ec395d60885171a5a40d173e0922603a2db5ad3a166686173686564f458208796db32e9b5d078f89a2ebae2eb0e9e826fd6e822f7ec83d52615343a1159225840fca7b4eb67179ea697d1548e53d7baebacc1b51f0f044d4b2093e05acf830976cfc3f1f57b69acef891d52e9a8ab0516987500bbdf3503da13c0b9991c8fb20e"
+      }
+    }
+  ]
+}
