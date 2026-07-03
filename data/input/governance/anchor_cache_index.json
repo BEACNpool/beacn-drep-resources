@@ -1726,5 +1726,17 @@
     "cached_at_utc": "2026-06-30T11:31:10Z",
     "source_url": "https://most-brass-sun.quicknode-ipfs.com/ipfs/QmcYmPjBjNMz4fuSJcyFmBRuCHuoGcQjvwRELsEm4DW1YD",
     "anchor_hash": "d2d4bf0c17716b9ce7cb8cae1d85af45c236fd64a142a367e030115521a558cf"
+  },
+  "7d0f750c6ef9e968aad0462faf7f4c0bffd630fd6f3a391127b72b810f6de821": {
+    "anchor_url": "https://ipfs.io/ipfs/QmXFz2SrMXustcHZzmg6kz3vXRThebgyZ4pChF9grxqqMD",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq-20260703T113107Z.bin",
+    "file_sha256": "06700051aa8f5f7421e5cb7c3d4f3e87f41f80279ee6a0671668326f9783ed55",
+    "content_bytes": "5544",
+    "request_profile": "0",
+    "cached_at_utc": "2026-07-03T11:31:07Z",
+    "source_url": "ipfs://QmXFz2SrMXustcHZzmg6kz3vXRThebgyZ4pChF9grxqqMD",
+    "anchor_hash": "d420037401626f4db20a255ca52d9d39764f68edfdc02686007cf9c731564f88"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri"
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Net Change Limit: Cardano Treasury (Epochs 613-713)",
+    "abstract": "By this Info action, the DReps agree a new Net Change Limit of 500,000,000 ada (500,000,000,000,000 lovelace) for the Cardano Treasury, for the period beginning at the start of Epoch 613 (February 13, 2026) and ending at the close of Epoch 713 (on or about July 3, 2027). This Net Change Limit is a fixed cap on the total ada removed from the Treasury through Treasury Withdrawals during the period; it does not count Treasury inflows. This is a newly agreed Net Change Limit: it is the applicable Net Change Limit for the period and supersedes any prior Net Change Limit for the same period. Because the period begins at the start of Epoch 613, all Treasury Withdrawals already debited during the period count toward this 500,000,000 ada limit. This Info action records the DReps' agreement to this Net Change Limit when Yes votes exceed 50% of the active voting stake, the threshold TREASURY-01a sets for agreeing a Net Change Limit; it has no direct on-chain effect and does not authorize any Treasury Withdrawal.",
+    "motivation": "The existing 350,000,000 ada Net Change Limit for Epochs 613-713 has served as a useful fiscal guardrail; however, its remaining window runs into mid-2027, and the practical room under it is becoming constrained. Agreeing a new Net Change Limit for Epochs 613-713, set at 500,000,000 ada (higher than the 350,000,000 ada limit previously agreed for this period), preserves the ability for DReps to consider credible Treasury Withdrawals on their merits, while keeping a clear fixed guardrail and the same simple accounting. This is not a mandate to spend; DReps retain full discretion to approve or reject each Treasury Withdrawal.",
+    "rationale": "THE NET CHANGE LIMIT. (3.1) Limit. The Net Change Limit for the period is 500,000,000 ada, equal to 500,000,000,000,000 lovelace. (3.2) Period. The period for this Net Change Limit begins at the start of Epoch 613 (February 13, 2026) and ends at the close of Epoch 713 (the transition to Epoch 714, on or about July 3, 2027). (3.3) What the limit caps. This Net Change Limit caps the total amount of lovelace removed from the Cardano Treasury during the period. Lovelace is removed from the Cardano Treasury when it is debited from the Cardano Treasury by an enacted Treasury Withdrawals governance action recorded on the Cardano ledger. (3.4) Calculation. The amount counted toward this Net Change Limit is the cumulative sum, in lovelace, of all Treasury Withdrawals debited from the Cardano Treasury during the period. A Treasury Withdrawal is within this Net Change Limit only if, after it is debited, that cumulative sum does not exceed 500,000,000,000,000 lovelace (500,000,000 ada). All amounts are calculated in lovelace; ada figures are readability equivalents. Treasury inflows (including reserve and protocol allocations, transaction-fee allocations, refunds, and returns of Treasury-funded amounts) are not counted in this calculation and do not increase the limit. (3.5) Only ledger amounts count. Only Treasury Withdrawals actually debited and recorded on the Cardano ledger are counted. Expected, scheduled, draft, or unratified future withdrawals are not counted. (3.6) Prior withdrawals count. Treasury Withdrawals already debited during the period are included in the cumulative sum and remain valid; this action does not reset, reverse, re-open, or re-authorize any prior Treasury Withdrawal. CONSTITUTIONAL BASIS. This action is drafted to comply with the enacted Cardano Constitution (version 2.4, effective January 24, 2026) and the Appendix I Guardrails. Nothing in the Constitution limits the DReps to a single Net Change Limit or prevents a newly agreed Net Change Limit from applying to the period. A Treasury Withdrawals action that has not yet been ratified or enacted when this Net Change Limit is agreed is assessed under this Net Change Limit, and not under any prior Net Change Limit.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Enacted Cardano Constitution v2.4 (IPFS)",
+        "uri": "ipfs://bafkreih62pydt57supou6dn5lqbf5klr7xu4xi2rrs7tl3thaufiqmvo24"
+      }
+    ]
+  }
+}
