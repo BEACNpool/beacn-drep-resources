@@ -1738,5 +1738,17 @@
     "cached_at_utc": "2026-07-03T11:31:07Z",
     "source_url": "ipfs://QmXFz2SrMXustcHZzmg6kz3vXRThebgyZ4pChF9grxqqMD",
     "anchor_hash": "d420037401626f4db20a255ca52d9d39764f68edfdc02686007cf9c731564f88"
+  },
+  "054fab5f9d00ec2a39044a48468f082abb22ad84649b4eb11181a0cd0b594b19": {
+    "anchor_url": "https://ipfs.io/ipfs/QmZwHmFoyhd18WMRhv9356CXfbUqjkPsKKGZtCpVLaWgcU",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt-20260704T040810Z.bin",
+    "file_sha256": "891884338278d5777ccde4c798a010f4b62b732b21d9cf9dd39503588d75ee36",
+    "content_bytes": "72887",
+    "request_profile": "0",
+    "cached_at_utc": "2026-07-04T04:08:10Z",
+    "source_url": "ipfs://QmZwHmFoyhd18WMRhv9356CXfbUqjkPsKKGZtCpVLaWgcU",
+    "anchor_hash": "f95bd74697b3499760bc768b7400d9c1f57d3ff447e1c51cb9f0ec24a94c782b"
   }
 }
