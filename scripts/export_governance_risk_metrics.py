@@ -105,6 +105,35 @@ select (select current_epoch from tip) as current_epoch,
 from w;
 """
 
+# True treasury flow. The treasury pot (ada_pots) already nets ALL inflows (tau share
+# of the reward pot + donations) against enacted withdrawals, so:
+#   inflow(window) = treasury_delta(window) + enacted_withdrawals(window)
+# Fee-derived inflow is kept separately as an "organic revenue" context signal only —
+# it is NOT the treasury's main funding source (reserves via tau are) and must never
+# again be presented as the sustainability denominator (pre-2026-07-03 bug: ratio 1776x).
+Q_TREASURY_POTS = """
+with tip as (select max(epoch_no) as e from public.ada_pots)
+select p.epoch_no, p.treasury::bigint
+from public.ada_pots p, tip
+where p.epoch_no in (tip.e, tip.e - 36, tip.e - 73)
+order by p.epoch_no;
+"""
+
+Q_ENACTED_WITHDRAWALS = """
+with tip as (select max(epoch_no) as e from public.ada_pots)
+select
+  (select coalesce(sum(tw.amount),0)::bigint
+     from public.treasury_withdrawal tw
+     join public.gov_action_proposal gap on gap.id = tw.gov_action_proposal_id, tip
+    where gap.enacted_epoch is not null
+      and gap.enacted_epoch > tip.e - 36 and gap.enacted_epoch <= tip.e) as enacted_36e,
+  (select coalesce(sum(tw.amount),0)::bigint
+     from public.treasury_withdrawal tw
+     join public.gov_action_proposal gap on gap.id = tw.gov_action_proposal_id, tip
+    where gap.enacted_epoch is not null
+      and gap.enacted_epoch > tip.e - 73 and gap.enacted_epoch <= tip.e) as enacted_73e;
+"""
+
 
 def _run_sql(sql: str, tuples_only: bool = False) -> str:
     cmd = [
@@ -160,18 +189,54 @@ def main() -> None:
     current_epoch = int((w73_parts[0] or "0").strip())
     withdrawals_73e = int((w73_parts[1] or "0").strip())
 
+    pots_raw = _run_sql(Q_TREASURY_POTS, tuples_only=True).strip()
+    pots: dict[int, int] = {}
+    for line in pots_raw.splitlines():
+        if "|" in line:
+            e, t = line.split("|")[:2]
+            pots[int(e.strip())] = int(t.strip())
+    enacted_raw = _run_sql(Q_ENACTED_WITHDRAWALS, tuples_only=True).strip()
+    enacted_parts = enacted_raw.split("|") if enacted_raw else ["0", "0"]
+    enacted_36e = int((enacted_parts[0] or "0").strip())
+    enacted_73e = int((enacted_parts[1] or "0").strip())
+
+    pot_epoch = max(pots) if pots else 0
+    pot_now = pots.get(pot_epoch, 0)
+    pot_36e_ago = pots.get(pot_epoch - 36, 0)
+    pot_73e_ago = pots.get(pot_epoch - 73, 0)
+    # inflow = pot delta + enacted outflow (the pot already nets the two)
+    inflow_36e = (pot_now - pot_36e_ago) + enacted_36e if pot_36e_ago else 0
+    inflow_73e = (pot_now - pot_73e_ago) + enacted_73e if pot_73e_ago else 0
+
     treasury_tax_assumed = 0.20
     treasury_fee_inflow_6m = int(chain_fees_6m * treasury_tax_assumed)
     flow = {
         "window_days": 180,
-        "window_epochs": 73,
+        "window_epochs": 36,
         "current_epoch": current_epoch,
-        "withdrawals_73e_lovelace": withdrawals_73e,
+        # authoritative flow (ada_pots + enacted withdrawals); 6m == 36 epochs
+        "treasury_pot_now_lovelace": pot_now,
+        "treasury_pot_epoch": pot_epoch,
+        "treasury_pot_36e_ago_lovelace": pot_36e_ago,
+        "treasury_pot_73e_ago_lovelace": pot_73e_ago,
+        "treasury_inflow_total_6m_lovelace": inflow_36e,
+        "treasury_inflow_total_73e_lovelace": inflow_73e,
+        "treasury_withdrawals_6m_lovelace": enacted_36e,
+        "withdrawals_73e_lovelace": enacted_73e,
+        "outflow_inflow_ratio": round(enacted_36e / inflow_36e, 6) if inflow_36e > 0 else None,
+        "outflow_inflow_ratio_73e": round(enacted_73e / inflow_73e, 6) if inflow_73e > 0 else None,
+        # context-only signals (never the sustainability denominator)
         "chain_fees_6m_lovelace": chain_fees_6m,
         "treasury_tax_assumed": treasury_tax_assumed,
         "treasury_fee_inflow_6m_lovelace": treasury_fee_inflow_6m,
-        "treasury_withdrawals_6m_lovelace": treasury_out_6m,
-        "outflow_inflow_ratio": round((treasury_out_6m / treasury_fee_inflow_6m), 6) if treasury_fee_inflow_6m > 0 else None,
+        "proposed_withdrawals_6m_lovelace": treasury_out_6m,
+        "proposed_withdrawals_73e_lovelace": withdrawals_73e,
+        "basis": {
+            "inflow": "ada_pots treasury delta + enacted withdrawals (tau + donations)",
+            "outflow": "treasury_withdrawal joined to gov_action_proposal.enacted_epoch (enacted only)",
+            "fee_inflow": "20% of chain fees — organic-revenue context only",
+            "proposed_withdrawals": "sum over proposals submitted in window regardless of ratification",
+        },
     }
     flow_path = out_dir / "treasury_flow_6m.json"
     flow_path.write_text(json.dumps(flow, indent=2) + "\n", encoding="utf-8")
