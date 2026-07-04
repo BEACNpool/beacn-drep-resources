@@ -22,6 +22,220 @@
   "model": "gpt-5.5",
   "output_sha256": "fade8f654778785927f37b04e96c7ed46b621a7c6bbfcdf55a5c1badbdbfad62",
   "prompt_sha256": "bead9a781b3b603c12df1b3f905d38b62bc2b260bb4add68b89640d9a0ab8845",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 37,
+    "fact_verdicts": [
+      {
+        "fact": "1. Governance action id is gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc.",
+        "note": "Source Material 0 states this exact action id.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. Action type is TreasuryWithdrawals.",
+        "note": "Source Material 0 states Action type: TreasuryWithdrawals.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. Title is \"Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime\".",
+        "note": "Source Material 0 and the anchor document state this exact title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. Treasury amount is 2464844000000 lovelace, corresponding to \u20b32,464,844 in the anchor budget.",
+        "note": "Source Material 0 gives 2464844000000 lovelace; the anchor budget states a total ask of \u20b32,464,844.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. Proposed epoch is 640 and the action expires after epoch 647.",
+        "note": "Source Material 0 states Proposed epoch: 640 and Expires after: 647.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. On-chain explicit DRep ballot counts so far are yes=8, no=4, abstain=2, not stake-weighted.",
+        "note": "Source Material 1 gives a moving snapshot of yes=9, no=5, abstain=2. The instruction says differing ballot counts from the re-fetched on-chain context are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "7. On-chain treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Source Material 1 states these exact treasury flow figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The proposal asks for \u20b32,464,844, described as approximately $394,375 at $0.16/ADA, over 9 months, with no contingency.",
+        "note": "The anchor budget and abstract state these exact ask, USD reference, duration, rate, and no-contingency terms.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal states the previous version was reduced from \u20b38.5M / 12 months to approximately \u20b32,464,844 / 9 months, with L1 node and third-party dependencies removed.",
+        "note": "The anchor says the previous proposal was reduced from \u20b38.5M / 12 months, and the at-a-glance section says L1 node and third-party dependencies were removed.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal funds maintenance, Dijkstra hard-fork readiness, interoperability, and a scoped application runtime.",
+        "note": "The anchor states this scope in the abstract and Scope / What Treasury Funds section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal excludes a standalone L1 node, full L2 integration, broad formal verification, and advanced devnet expansion.",
+        "note": "The anchor Scope / What Treasury Funds section states these exclusions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposal states delivery has three quarterly milestones over July 2026 - March 2027: M1 Q3 2026, M2 Q4 2026, and M3 Q1 2027.",
+        "note": "The Milestones & Deliverables section states three quarterly milestones over 9 months, July 2026 to March 2027, with M1 Q3 2026, M2 Q4 2026, and M3 Q1 2027.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. Budget distribution is Development & Engineering $315,000 / \u20b31,968,750 / 79.9%; Product Management & Delivery $39,375 / \u20b3246,094 / 10.0%; Documentation & Developer Enablement $25,000 / \u20b3156,250 / 6.3%; Audits & Assurance $15,000 / \u20b393,750 / 3.8%; total $394,375 / \u20b32,464,844 / 100%.",
+        "note": "The anchor Funding Distribution table lists these exact categories, USD amounts, ADA amounts, and percentages.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. Development & Engineering breakdown is Maintenance 0.5 FTE / $78,750 / \u20b3492,188; Smart-contract platform & Dijkstra readiness 0.75 FTE / $118,125 / \u20b3738,280; Interoperability 0.25 FTE / $39,375 / \u20b3246,094; Application runtime 0.5 FTE / $78,750 / \u20b3492,188; total 2.0 FTE / $315,000 / \u20b31,968,750.",
+        "note": "The anchor Development & Engineering Breakdown table lists these exact workstreams and values.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. With Product Management & Delivery at 0.25 FTE, total staffing is 2.25 FTE over 9 months.",
+        "note": "The anchor states this directly after the Development & Engineering Breakdown table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal states funding allocations use a market rate of $210,000 per FTE-year, approximately $100/hour, for senior software engineers and senior product leadership with deep DLT expertise.",
+        "note": "The anchor Methodology section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. Administration uses SundaeSwap treasury-contracts framework with treasury.ak and vendor.ak validators, according to the anchor.",
+        "note": "The Smart Contract Escrow section names the SundaeSwap treasury-contracts framework and the treasury.ak and vendor.ak validators.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The anchor states both SundaeSwap contracts have been independently audited by TxPipe and MLabs and are in production use on mainnet.",
+        "note": "The anchor states both contracts have been independently audited by TxPipe and MLabs and are in production use on mainnet.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. Lantr Engineering is named as sole vendor.",
+        "note": "The anchor has a section titled Lantr Engineering as Sole Vendor and states Lantr Engineering is the sole vendor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. An independent oversight board is named with Chris Gianelloni, Matthias Benkort, and Riley Kilgore, with stated organizations/projects.",
+        "note": "The Independent Oversight Board section lists these three members with organizations and projects.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. No.Witness Labs is named as independent technical assurer, with quarterly technical reviews to be published.",
+        "note": "The Independent Technical Assurer section names No.Witness Labs and says quarterly technical reviews are published.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The proposal states an external financial auditor will scrutinize Scalus's finances and treasury management, with a goal to publish a report in Q2 2027.",
+        "note": "The Independent Financial Audit section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The permission scheme states disbursement requires Lantr + board majority; sweep early requires Lantr + any 1 board member; pause milestone requires any 1 board member; resume milestone requires board majority.",
+        "note": "The Permission Scheme table lists these signature requirements.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The delegation policy states escrow funds enforce auto-abstain DRep delegation and no SPO delegation.",
+        "note": "The Delegation Policy section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The failsafe sweep states funds remaining after expiration sweep back to the Cardano Treasury automatically and cannot be overridden.",
+        "note": "The Failsafe Sweep section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. Prior funding disclosed includes Catalyst F11 \u20b3200,000 received 100%, Catalyst F11 \u20b3128,000 received 100%, Catalyst F13 \u20b3100,000 received 100%, and 2025 Treasury Budget \u20b3657,692 received 100%.",
+        "note": "The Prior Treasury Funding Disclosure table lists these allocations and received percentages.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The anchor states all completed milestones were delivered and publicly reported, and the 2025 Treasury Budget allocation is completed.",
+        "note": "The anchor states this directly after the prior funding table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. Reporting commitments include release updates, quarterly reports, a public transaction journal, and Scalus Club sessions every 1.5 months.",
+        "note": "The Reporting section lists these commitments, including Scalus Club sessions every 1.5 months.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. Measurable adoption indicators include Dijkstra readiness, JVM interoperability, ecosystem reuse, developer reach, application runtime, and documentation/blueprints, with targets and measurement methods listed.",
+        "note": "The Measurable Adoption Indicators table lists these metrics with targets and measurement methods.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The risk table identifies Market, Adoption, Technical, and Team risks, all with mitigations.",
+        "note": "The Risks & Mitigations table lists these four risk types and mitigations.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth, after constitutional integrity and protocol safety.",
+        "note": "The Values Hierarchy lists constitutional integrity/protocol safety first, treasury stewardship/downside protection second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN.",
+        "note": "The Conflict handling defaults section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "33. The doctrine says if treasury upside is plausible but non-verifiable, judge directionally on the available public record with a caution penalty; in practice NO or ABSTAIN on thin asks.",
+        "note": "The Values Hierarchy conflict defaults state this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. The doctrine states the current soft gate scores TreasuryWithdrawals directionally with an explicit -0.10 caution penalty when a complete dossier is missing.",
+        "note": "The Treasury Spending Doctrine soft gate section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. The doctrine says AI has collapsed marginal costs and requested \u20b3 per deliverable should decrease when work can be substantially accelerated by AI tooling.",
+        "note": "The Foundational Axiom section states AI has collapsed marginal costs and that requested ADA per deliverable should decrease for AI-accelerated work.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. The doctrine adopts a rolling-window Net Change Limit framework using available(e) = NCL_annual - sum withdrawals(e - window_size ... e), with window_size = 73 epochs.",
+        "note": "The Rolling Window NCL section states the equation and defines window_size as 73 epochs.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "37. The proposal's constitutionality checklist states it follows a recently established net-change limit of 350M and is within boundaries at submission.",
+        "note": "The Constitutionality Checklist states this under Article II - Section 7.3.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "9fe57a28af4edd7a1b1f5bc81598eff6d50c8bc066b59eedad97a48586435564",
+    "passed": true,
+    "prompt_sha256": "fa2fd9190ffe8cff0564949038fc2e392512fb0490ef07b7b1f0db803295b910",
+    "summary": "All dossier facts are supported except fact 6, which is marked not_found under the supplied instruction for moving on-chain ballot snapshots. No material discrepancies were identified.",
+    "support_ratio": 0.973,
+    "supported": 36,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 37,
+    "verified_at_utc": "2026-07-04T16:46:44+00:00"
+  }
 }
