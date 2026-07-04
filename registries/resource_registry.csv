@@ -14,3 +14,4 @@ gov_action_metadata_expanded,governance,all,cardano_gov_enriched,data/input/gove
 treasury_recipient_risk_profiles,treasury,treasury_withdrawal,beacn_risk_research,data/input/treasury/recipient_risk_profiles.csv,CSV,daily,repo,proposed
 parameter_impact_notes,governance,parameter_change,beacn_param_research,data/input/governance/parameter_impact_notes.csv,CSV,daily,repo,proposed
 hardfork_readiness_signals,governance,hardfork,beacn_hardfork_research,data/input/governance/hardfork_readiness_signals.csv,CSV,daily,repo,proposed
+deep_research_dossiers,governance,treasury_withdrawal,beacn_agent_dossiers,data/input/governance/decision_support/dossiers,MD+JSON,daily,repo,approved

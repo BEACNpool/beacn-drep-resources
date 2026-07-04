@@ -22,3 +22,26 @@ gov_action18a9sytyez02jl8ee4ryz5xu7heg587m5tu6nr7fkd3ex30umnnjqq27e7ey,TreasuryW
 gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz,TreasuryWithdrawals,,yes,yes,yes,yes,yes,no,no,no,no,no,yes,no,,Line-item recurring fees + dependence-reduction plan.,drep-ops,needs_independent_diligence
 gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux,TreasuryWithdrawals,,yes,yes,yes,yes,yes,no,yes,no,no,no,yes,no,,Independent feasibility + reach basis + milestone-gated disbursement proof.,drep-ops,needs_independent_diligence
 gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z,TreasuryWithdrawals,,yes,yes,yes,yes,yes,yes,no,no,yes,no,yes,no,,Evidence for Pro-plan conversion + staged disbursement.,drep-ops,needs_independent_diligence
+gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq,InfoAction,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse,TreasuryWithdrawals,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived
+gov_action1lh2x3kjucjkggvwu6l3txggkvmrnhs3flpv8j35lvlcan4gax3xsq3cxfjc,HardForkInitiation,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,yes,no,,,drep-agent-extract,machine_derived

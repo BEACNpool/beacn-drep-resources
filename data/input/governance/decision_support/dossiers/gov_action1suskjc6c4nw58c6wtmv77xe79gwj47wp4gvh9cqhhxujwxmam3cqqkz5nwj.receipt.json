@@ -1,0 +1,26 @@
+{
+  "action_id": "gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj",
+  "anchor": {
+    "action_id": "gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmYM4nuNZTVMiMmvCr7mntct7YE1VgWyLgxGhyfWptgFgC",
+    "content_chars": 19707,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj-20260619T113033Z.bin",
+    "file_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
+    "reason": null
+  },
+  "anchor_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-04T16:23:07+00:00",
+  "model": "gpt-5.5",
+  "output_sha256": "82439d6695ddc3993ab2553f76a3b5a63275e585b3e524bf5aab8b92e470b1da",
+  "prompt_sha256": "d030c6433abf2a3bb07f5e29d6769735a6dbf3460cd1fe0a5e59dd14c1fbf4f2",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.2.0"
+}
