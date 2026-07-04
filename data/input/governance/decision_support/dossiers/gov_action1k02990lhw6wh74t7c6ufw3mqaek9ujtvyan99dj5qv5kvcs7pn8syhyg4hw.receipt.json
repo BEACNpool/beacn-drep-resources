@@ -21,6 +21,160 @@
   "model": "gpt-5.5",
   "output_sha256": "4d28fa233632dc95957d07f42983b815d1b7f334b25fd2542f40b7305a68750d",
   "prompt_sha256": "1b1872b05ac3543d4a60bf9e8ad4bab0409a4e0f41dc6b276204adaf0a8a7341",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 25,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw; action type is TreasuryWithdrawals; title is \"Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026\"; proposed epoch is 638 and expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The on-chain treasury amount supplied for this action is 1310960000000 lovelace.",
+        "note": "Matches Source Material 0 treasury amount.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor body title is \"Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026\".",
+        "note": "Matches anchor body title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor abstract says the withdrawal funds Hardware Wallet Maintenance 2026 and was submitted by Intersect on behalf of the vendor.",
+        "note": "Both statements appear in the anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor motivation states the proposal requests 12 months of funding for production maintenance of Cardano hardware-wallet support, including Ledger and Trezor compatibility updates, supporting interoperability libraries and cardano-hw-cli, developer support, externally maintained shared hardware-wallet flow integration paths, and vendor-required product or security audits where firmware or app changes trigger them.",
+        "note": "Matches the anchor motivation scope description.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor motivation states this is a continuity proposal for an already-proven Cardano access layer and not a request to build a new wallet product.",
+        "note": "Stated directly in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor rationale states the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Stated directly in the Intersect Budget Process section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor rationale states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Stated directly in the Net Change Limit Compliance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor budget table lists WP1 - Cardano Hardware Wallet Maintenance & Compatibility Assurance at 1,272,777 ADA, Intersect Budget Administration fee at 38,183 ADA, and Total at 1,310,960 ADA.",
+        "note": "Matches the anchor Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor onChain gov_action rewards list pays stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v value \"1310960000000\".",
+        "note": "Matches anchor onChain gov_action rewards.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor onChain deposit is \"100000000000\", reward_account is \"stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp\", and policy_hash is \"fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64\".",
+        "note": "Matches anchor onChain fields.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor identifies the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, the 2026 Treasury Reserve Smart Contract payment address as addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w, and the 2026 Project Specific Smart Contract payment address as addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay.",
+        "note": "Matches the three smart contract addresses in the anchor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says Intersect will utilize a single Treasury Reserve Smart Contract with one Project-Specific Smart Contract; Intersect management consists of five admin and three leadership roles; an Oversight Committee consists of six external independent third-party entities.",
+        "note": "Stated in the Specifics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names the Oversight Committee entities as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.",
+        "note": "Matches the named Oversight Committee entities.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says upon enactment, funding will be directed into the TRSC stake address, later withdrawn into a UTxO at the TRSC payment address, and then transferred to the PSSC when the legal contract is prepared and the vendor is ready.",
+        "note": "Matches the Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says all milestones will be outlined within the metadata.",
+        "note": "Stated directly in the Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says a dashboard is available at treasury.sundae.fi for community audit and tracking metrics related to the withdrawn ada.",
+        "note": "Stated directly in the Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor prior treasury funding disclosure lists Hardware Wallets Maintenance, Ledger App Rewrite, IO & VacuumLabs: Enhancing Plutus (joint), and six Project Catalyst links.",
+        "note": "Matches the Prior Treasury Funding Disclosure section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain recipient history says stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=38, no=13, abstain=2, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 gives a moving snapshot with yes=38, no=14, abstain=2; per instruction, differing ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality, public-benefit ecosystem growth, and execution speed, while constitutional integrity and protocol safety ranks highest.",
+        "note": "Matches the doctrine values hierarchy.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN.",
+        "note": "Stated directly in doctrine conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Stated directly in Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine says proposals are funded by DRep approval weight descending within the available budget, not submission order.",
+        "note": "Stated directly in the DRep Approval Threshold section.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "c220cd9433d3736659d4020e75f4d6f304775e7e5f2817bfd01a8767b1d80241",
+    "passed": true,
+    "prompt_sha256": "190468e5fb1e8bd58f4a589da5ef1f51878e40092fd25348b86d1155b0534262",
+    "summary": "24 facts are supported. 1 moving on-chain ballot-count fact is not_found under the supplied special rule. No material discrepancies.",
+    "support_ratio": 0.96,
+    "supported": 24,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 25,
+    "verified_at_utc": "2026-07-04T17:02:50+00:00"
+  }
 }

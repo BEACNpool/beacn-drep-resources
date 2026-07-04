@@ -21,6 +21,210 @@
   "model": "gpt-5.5",
   "output_sha256": "f9cf05cdafbe586514001d8e856f93bd6dbf2be72e9b2b1b62e8bc401a2e1010",
   "prompt_sha256": "84db83a19ad3ea683a02b51044d143fd26bbd0a11c3d5c0150a8c499fece09b6",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 35,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn; action type is TreasuryWithdrawals; proposed epoch is 638; expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The title is \"Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc...\".",
+        "note": "Matches the on-chain metadata and anchor body title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The on-chain treasury amount is 1162746000000 lovelace, equal to 1,162,746 ada.",
+        "note": "Source gives 1162746000000 lovelace; conversion to 1,162,746 ada is correct.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names Intersect as the author and states the Treasury Withdrawal is submitted by Intersect on behalf of the vendor.",
+        "note": "Anchor authors list Intersect and abstract states submission by Intersect on behalf of the vendor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says the withdrawal funds \"MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply.\"",
+        "note": "Anchor abstract states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal seeks annual funding for maintenance and enhancement of Plutarch and Ply.",
+        "note": "Anchor motivation states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor describes Plutarch as a Haskell eDSL for creating efficient Cardano smart contracts via controlled compilation into UPLC.",
+        "note": "Anchor motivation states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor describes Ply as helping serialize Plutarch scripts to and from CIP-57 blueprint-style artifacts with inferred types.",
+        "note": "Anchor motivation states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states MLabs counted at least 26 teams building with Plutarch and Ply in the motivation section.",
+        "note": "Anchor motivation states at least 26 teams.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor also states MLabs conservatively counted at least 15 teams building with Plutarch and Ply in the rationale section.",
+        "note": "Anchor rationale states at least 15 teams.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal priority order is: 1. Critical breakages and serious vulnerabilities; 2. Protocol-era and hard-fork compatibility; 3. Bug fixes, correctness improvements, and optimizations; 4. Documentation, examples, technical blog posts, and developer-experience improvements.",
+        "note": "Matches the priority hierarchy in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Plutarch scripts rank among the smallest in MLabs' public cross-language benchmark suite while requiring comparatively low on-chain compute and memory.",
+        "note": "Anchor motivation states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the funding period is expected to cover ongoing Cardano ledger, Plutus, and tooling evolution, including protocol-era compatibility for major ledger updates such as the Dijkstra era if relevant changes land during the funding period.",
+        "note": "Anchor motivation states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Anchor rationale states this under Intersect Budget Process.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Anchor rationale states this under Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Budget table: WP1 - Plutarch and Ply Maintenance, Compatibility & Developer Experience is 1,128,880 ADA; Intersect Budget Administration fee is 33,866 ADA; total is 1,162,746 ADA.",
+        "note": "Matches the anchor budget summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Prior treasury funding disclosure lists MLabs Core Tool Maintenance & Enhancement: Plutarch; MLabs Research towards Tooling for Elliptical Curves - GrumpleStiltSkin; and MLabs Core Tool Maintenance & Enhancement: Cardano.nix.",
+        "note": "Anchor prior treasury funding disclosure lists these three items.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Plutarch/Ply were previously funded through Project Catalyst: Fund9 project id 900157 USD 73,040; Fund13 project id 1300141 ADA 487,679; Fund13 project id 1300144 ADA 57,370.",
+        "note": "Matches the Project Catalyst funding entries in the anchor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states MLabs also previously received ADA 70,000 from Intersect to update Plutarch for Conway-era features.",
+        "note": "Anchor states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor identifies the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Anchor Intersect Budget Management Tooling section states this address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The on-chain context says stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor onChain reward entry sends value \"1162746000000\" to key \"stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\".",
+        "note": "Matches the anchor onChain gov_action rewards entry.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor onChain deposit is \"100000000000\" lovelace and reward_account is \"stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp\".",
+        "note": "Matches the anchor onChain deposit and reward_account.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=32, no=11, abstain=3, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 gives yes=33, no=11, abstain=3, but the instructions require differing moving vote counts to be treated as not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says Intersect will use a single Treasury Reserve Smart Contract and one Project-Specific Smart Contract.",
+        "note": "Anchor specifics section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says Intersect management consists of five admin roles and three Intersect leadership roles.",
+        "note": "Anchor specifics section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says an Oversight Committee of six external independent third-party entities will provide checks and balances: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Anchor states the committee size, role, and named entities.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states all milestones will be outlined within the metadata after funding is transferred to the Project-Specific Smart Contract.",
+        "note": "Anchor processes section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says a dashboard is available at treasury.sundae.fi for community audit and tracking metrics related to the withdrawn ada, also immutably verifiable on chain.",
+        "note": "Anchor processes section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine prioritizes constitutional integrity and protocol safety first, treasury stewardship and downside protection second, evidence quality and reproducibility third, public-benefit ecosystem growth fourth, and execution speed and social consensus momentum fifth.",
+        "note": "Matches the values hierarchy doctrine.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Treasury Spending Doctrine core position states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN; if rapid action conflicts with protocol safety, prefer NO or ABSTAIN until risk is reduced.",
+        "note": "Matches conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine says for TreasuryWithdrawals without a complete dossier, the soft gate scores directionally with an explicit -0.10 caution penalty on top of the base treasury penalty and conservative reasoning lean.",
+        "note": "Treasury Spending Doctrine soft gate states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states AI has collapsed marginal costs for code, documentation, research, and creative output by 10-100x and that requested ada per deliverable should decrease when work can be substantially accelerated by AI tooling.",
+        "note": "Doctrine states the 10-100x cost collapse and says budgets should reflect post-AI costs for substantially AI-accelerated work.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "5be32c0ab6b20fed81ed4ecd85dee072521dd09bf5f354eb13821044a881948b",
+    "passed": true,
+    "prompt_sha256": "7186988fa4dd1ce0e41a907f88ab252850a7ba6c401e9904508fd38a4a46c25a",
+    "summary": "All dossier facts are supported except the moving DRep vote-count snapshot, which is marked not_found per the provided instruction. No material discrepancies identified.",
+    "support_ratio": 0.9714,
+    "supported": 34,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 35,
+    "verified_at_utc": "2026-07-04T17:04:47+00:00"
+  }
 }

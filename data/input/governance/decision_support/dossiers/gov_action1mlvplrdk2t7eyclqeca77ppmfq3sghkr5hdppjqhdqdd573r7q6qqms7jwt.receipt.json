@@ -22,6 +22,185 @@
   "model": "gpt-5.5",
   "output_sha256": "21df3a48b5efe5f71260a4aefe2d60016215ce03377a74c8c58473f292a290c1",
   "prompt_sha256": "c7a929dc4a12f20025701dee2b6aed315399c517745f76d2f4d09a41c1ade786",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 30,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt. Evidence: onchain: action metadata.",
+        "note": "Source Material 0 gives this exact action id.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Action type is TreasuryWithdrawals. Evidence: onchain: action metadata.",
+        "note": "Source Material 0 lists Action type: TreasuryWithdrawals.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Title is \"Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)\". Evidence: anchor: body.title; onchain: title.",
+        "note": "The title matches both Source Material 0 and the anchor body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Requested treasury amount is 12332031000000 lovelace, equal to \u20b312,332,031 as stated in the anchor. Evidence: onchain: treasury amount; anchor: abstract; anchor: Detailed Budget.",
+        "note": "Source Material 0 gives 12332031000000 lovelace and the anchor states \u20b312,332,031.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Proposed epoch is 640 and expiry is after epoch 647. Evidence: onchain: action metadata.",
+        "note": "Source Material 0 states Proposed epoch: 640 and Expires after: 647.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=2, no=0, abstain=0, explicit ballots and not stake-weighted. Evidence: onchain: DRep vote counts.",
+        "note": "Source Material 1 has a moving snapshot of yes=2 no=2 abstain=1 and explicitly instructs that differing or absent ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492. Evidence: onchain: treasury flow.",
+        "note": "Source Material 1 states these exact treasury flow figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says FluidTokens and Lantr Engineering request \u20b312,332,031, approximately $1,973,125 at 0.16 USD/ADA, including a 10% refundable contingency, for a 9-month delivery period from July 2026 to March 2027. Evidence: anchor: abstract; anchor: Detailed Budget.",
+        "note": "The anchor abstract and budget state these request amount, USD reference, exchange rate, contingency, and delivery-period details.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal describes Phase 1 as taking Bifrost from working testnet to launch readiness, covering hardening, security audits, formal verification, ecosystem and partner readiness, stewardship, and economic foundations. Evidence: anchor: abstract; anchor: Roadmap & Budget overview.",
+        "note": "The anchor abstract and roadmap describe Phase 1 in these terms.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says public rollout and 24 months of operations are separated into a Phase 2 proposal in Q1 2027. Evidence: anchor: abstract; anchor: Phase 2 Launch & Operations.",
+        "note": "The anchor states public rollout and 24 months of operations are separated into Phase 2 in Q1 2027.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states that by the end of Phase 1, Bifrost will be an audited bridge running on Cardano mainnet in both custody modes, federated and SPO threshold, under controlled access. Evidence: anchor: abstract; anchor: M3 objective and deliverables.",
+        "note": "The anchor states this in the abstract and M3/Phase 1 closing language.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states Bifrost is currently funded through Catalyst Fund 14 for \u20b3739,000, with deliverables of Architecture, Testnet MVP, and Documentation, and a Dec 2025 - Aug 2026 timeline marked on track. Evidence: anchor: Catalyst Fund 14 table.",
+        "note": "The Catalyst Fund 14 table gives these values.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Catalyst milestone status in the anchor says M1 and M2 are done and approved, M3 is submitted awaiting Catalyst signoff, M4 and M5 are on track for July 2026, and final reporting is on track for August 2026. Evidence: anchor: Catalyst milestone status.",
+        "note": "The milestone status table states these statuses and submission months.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor says the bridge is live and operational on testnet, with peg-in between Bitcoin Testnet4 and Cardano Preprod fully working and open to anyone, and gives transaction hash a43ce4586939509d0845bb9cf1e5a9b6242faca2b977d31b484d225b9c9ae6db. Evidence: anchor: Testnet live today.",
+        "note": "The Testnet live today section states this and gives the exact hash.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names SPOs BTBF, ADA North Pool, BCSH, EASY1, and DAVE as volunteers for the testnet release. Evidence: anchor: Working with SPOs.",
+        "note": "The Working with SPOs section lists exactly these volunteers.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names Minswap, SundaeSwap, Masumi, Gravity, DeltaDefi, Liqwid, FluidTokens, and Vela Finance as Cardano applications that expressed interest in integrating Bifrost or fBTC. Evidence: anchor: Cardano dApps engagement.",
+        "note": "The Cardano dApps engagement section lists exactly these applications.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The Phase 1 budget overview allocates $1,363,750 / \u20b38,523,438 / 76.0% to Bridge hardening & Security, $177,500 / \u20b31,109,375 / 9.9% to Ecosystem readiness & partnerships, and $252,500 / \u20b31,578,125 / 14.1% to Legal, stewardship & economy. Evidence: anchor: Budget overview.",
+        "note": "The Phase 1 budget overview table contains these exact allocations.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The detailed budget lists subtotal $1,793,750 / \u20b311,210,938, refundable contingency $179,375 / \u20b31,121,094, and total $1,973,125 / \u20b312,332,031. Evidence: anchor: Detailed Budget.",
+        "note": "The detailed budget table lists these exact subtotal, contingency, and total figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The detailed budget lists 52.5 FTE-months, fixed USD $875,000, engineering and product capacity priced at $210,000 per FTE-year, and $100/hour blended rate for senior DLT engineers and product leadership. Evidence: anchor: Detailed Budget; anchor: Pricing principles.",
+        "note": "The detailed budget and pricing principles state these exact figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says unspent contingency is returned to the Cardano Treasury at the end of the term. Evidence: anchor: Detailed Budget; anchor: Pricing principles.",
+        "note": "The Detailed Budget section states unspent contingency is returned at the end of the term.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says a portion of requested ADA will be hedged into stable assets shortly after disbursement to protect delivery and security audits budget against adverse price movement. Evidence: anchor: Pricing principles.",
+        "note": "The Pricing principles section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says Bifrost is open source under Apache 2.0 and has no bridge token, no founder allocation, and no built-in revenue claim on the protocol for the founding teams. Evidence: anchor: Public infrastructure.",
+        "note": "The Public infrastructure section states these points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says the bridge will be held by an independent stewardship structure, a foundation or equivalent independent form, determined in Phase 1. Evidence: anchor: Public infrastructure; anchor: Ownership & stewardship.",
+        "note": "The anchor states the bridge will be held by an independent stewardship structure determined in Phase 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says fee revenue is denominated in fBTC and includes peg-in fee, peg-out fee, atomic-swap fast-lane fee, and sponsored transactions. Evidence: anchor: Revenue Model & Sustainability.",
+        "note": "The Fee structure section says Bifrost charges fees in four contexts, denominated in fBTC, and lists these four contexts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal describes a revenue waterfall: mechanism reserve, maintenance reserve, governance reserve, and surplus split between an SPO retainer pool and the Cardano Treasury with indicative default 35% / 65%, both in fBTC. Evidence: anchor: Revenue distribution.",
+        "note": "The Revenue distribution section gives this waterfall and provisional split.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says the exact reserve target is set during Phase 1 hardening and gives an indicative reserve target of 12 months of mandatory operations plus 1 SPO retainer pool cycle, with surplus distribution pausing below a 6-month safety floor. Evidence: anchor: Revenue distribution.",
+        "note": "The Revenue distribution section states these reserve details.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth, after constitutional integrity and protocol safety. Evidence: doctrine: values_hierarchy.md.",
+        "note": "The values hierarchy orders constitutional integrity/protocol safety first, treasury stewardship second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine says TreasuryWithdrawals without a complete dossier are scored directionally under a soft gate with explicit uncertainty and a -0.10 caution penalty, and thin or unverifiable asks resolve in practice to NO or ABSTAIN. Evidence: doctrine: treasury_spending_doctrine.md.",
+        "note": "The Dossier Gate Posture section states this soft-gate treatment and penalty.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served treasury models and adopts a rolling-window Net Change Limit framework. Evidence: doctrine: treasury_spending_doctrine.md.",
+        "note": "The doctrine states it rejects FCFS budget models and adopts a rolling-window NCL framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models. Evidence: doctrine: treasury_spending_doctrine.md.",
+        "note": "The Foundational Axiom section states this directly.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "b83b9676923a6e31f68111a1e79f1ec3efb451443b023bd633023a4596b424a8",
+    "passed": true,
+    "prompt_sha256": "9258bf3d064a0a5e5bca9eba4621f34b00f1bc9057780c9342979297e58db20a",
+    "summary": "All stable dossier facts are supported by the supplied source material. Fact 6 is marked not_found under the source's explicit instruction for moving ballot-count snapshots, and it is not a material discrepancy.",
+    "support_ratio": 0.9667,
+    "supported": 29,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 30,
+    "verified_at_utc": "2026-07-04T16:56:15+00:00"
+  }
 }

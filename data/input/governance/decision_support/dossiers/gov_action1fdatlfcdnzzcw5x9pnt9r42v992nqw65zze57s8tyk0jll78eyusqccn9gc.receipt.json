@@ -21,6 +21,170 @@
   "model": "gpt-5.5",
   "output_sha256": "d0c27da08cf6c602559bce45cf4e69349bef89da0d7cca499b86ce298af2192e",
   "prompt_sha256": "8c96fde7dcc4f34edc7f653afb26c67feb4c090dfd65824a433f836452fe0106",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 27,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc.",
+        "note": "Matches Source Material 0 action id.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. Action type is TreasuryWithdrawals.",
+        "note": "Matches Source Material 0 action type.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. Title is Cardano Builder DAO.",
+        "note": "Matches Source Material 0 title and Source Material 3 body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. Requested treasury amount is 20000000000000 lovelace.",
+        "note": "Matches Source Material 0 treasury amount.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. Proposed epoch is 639 and expires after epoch 646.",
+        "note": "Matches Source Material 0 proposed epoch and expiry.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. On-chain DRep explicit ballot counts so far are yes=17, no=20, abstain=0, not stake-weighted.",
+        "note": "Source Material 1 snapshot says yes=18, no=20, abstain=0, but its instruction says differing ballot counts are moving snapshots and must be treated as not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "7. Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The anchor describes the Cardano Builder DAO as an ecosystem-wide, purpose-built, smart contract-governed funding mechanism to support projects advancing Cardano Vision 2030 through measurable ecosystem KPIs including monthly active users, monthly on-chain transactions, and TVL.",
+        "note": "Directly matches the anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal states the DAO has already distributed 11.1 M ADA across 34 proposals in 2 funding rounds.",
+        "note": "Directly stated in the CB DAO Track Record section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal states Round 1 had 38 voting members, 27 requesting members, funded 20 companies, achieved 83% participation in governance actions, and distributed 5,541,335 ADA.",
+        "note": "Directly stated in the Round 1 track record paragraph.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal states Round 2 had 18 new members joining, funded 14 companies, and had 88% participation among members.",
+        "note": "Directly stated in the Round 2 track record paragraph.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposal states the DAO built Version 1 and Version 2 of a DAO KPI dashboard; Version 1 used self-reported KPI tracking and Version 2 moved toward KPI tracking tied directly to live on-chain Cardano data.",
+        "note": "Directly stated in the 2030 Vision KPI Framework section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The proposal states funded projects are required to track monthly active users, TVL, and on-chain transactions.",
+        "note": "Directly stated in the KPI alignment section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The proposal names an Independent council as administrator, composed of members of the dRep DAO, to receive the treasury withdrawal, hold funds prior to deployment, and oversee disbursement in line with milestones in the referenced Milestone and Budget Document.",
+        "note": "The Administrator section names an Independent council composed of dRep DAO members for those functions and the references include a Milestone and Budget Document.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal states Cardano Yoda and Marco Grendel Moshi have put their names forward for the council and that one other non-affiliated active dRep will be added to conduct reviews.",
+        "note": "Directly stated in the Administrator section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal states ADA held by the administrator prior to further disbursement will be kept in one or more separate accounts auditable by the Cardano Community, will not be delegated to any stake pool operator, and will be delegated to the predefined abstain voting option.",
+        "note": "Directly stated in the Administrator section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The proposal states all milestones will be dispersed from an independent multisig governed by assigned members of the dRep DAO, and that the Cardano Builder DAO only receives funds after milestone completion is validated and confirmed by administrator.",
+        "note": "Directly stated in the Administrator section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The proposal states repayment would occur if DAO treasury funds remain unused or unallocated after completion of approved work, governance processes, or funding activities; unused portions would be returned to the Cardano Treasury.",
+        "note": "Directly stated in the Repayment section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The proposal states the CB DAO returned 354,790 ADA of unused funds to the treasury after the first two governance rounds completed and provides an adastat transaction URL.",
+        "note": "Directly stated in the Repayment section with the adastat URL.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The proposal states the Cardano Builder DAO previously received funding through the Cardano Treasury funding process.",
+        "note": "Directly stated under the prior funding question.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The proposal states Clarity, the technical and business development team responsible for enabling Initiative DAOs, will not seek funding as a requesting member through any initiative DAOs.",
+        "note": "Directly stated under the prior funding question.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor references external documents and portals including CB DAO Reflections, Round 1 Retrospective, Round 2 Retrospective, Milestone and Budget Document, governance portals for rounds 1 and 2, and CB DAO Code of Conduct.",
+        "note": "All listed references appear in the anchor references array.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth.",
+        "note": "The values hierarchy ranks treasury stewardship second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Directly stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. BEACN doctrine states TreasuryWithdrawals without a complete dossier are scored directionally with an explicit -0.10 caution penalty under the current soft gate, and incomplete diligence is recorded as explicit uncertainty.",
+        "note": "Directly stated in the Dossier Gate Posture soft gate section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. BEACN doctrine states if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN.",
+        "note": "Directly stated in the conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. BEACN doctrine states if treasury upside is plausible but non-verifiable, judge directionally on available public record with a caution penalty; in practice NO or ABSTAIN on thin asks.",
+        "note": "Directly stated in the values hierarchy conflict handling defaults.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "e74d2f56a31e942c0227eb1d626947438dd580f8a527116c9d00b41d3e09fe71",
+    "passed": true,
+    "prompt_sha256": "89d0eac52109d7855f4abab6ca46a0830207a1a91bd42c1c22af4f89250a858c",
+    "summary": "26 facts are supported. Fact 6 is not_found under the provided moving-snapshot instruction for ballot counts. No material discrepancies.",
+    "support_ratio": 0.963,
+    "supported": 26,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 27,
+    "verified_at_utc": "2026-07-04T17:00:28+00:00"
+  }
 }

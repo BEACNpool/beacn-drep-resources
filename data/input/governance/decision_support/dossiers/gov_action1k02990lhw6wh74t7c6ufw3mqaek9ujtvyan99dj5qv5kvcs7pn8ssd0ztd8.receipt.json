@@ -21,6 +21,185 @@
   "model": "gpt-5.5",
   "output_sha256": "92e7d98b62ab334292409197834324320d242e51615e874bfb64358cc171bcf7",
   "prompt_sha256": "f7d9f7994289b824336fc464bfad82ef0488ca9aaa0ca82597d21bea04ab2279",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 30,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8, action type is TreasuryWithdrawals, proposed epoch is 638, and it expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The on-chain context states the treasury withdrawal amount is 540750000000 lovelace.",
+        "note": "Source Material 0 states treasury amount 540750000000 lovelace; the anchor onChain rewards value also matches.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor title is \"Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li...\".",
+        "note": "Matches the anchor body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor says the withdrawal funds \"Pallas by TxPipe: Maintaining Cardano's Core Rust Libraries, Year 2.\"",
+        "note": "Stated in the anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The anchor says the request is 420,000 ADA plus a 105,000 ADA contingency reserve to fund a part-time maintainer for Pallas over 12 months at an annual rate of $105,000 USD.",
+        "note": "Stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor budget table lists WP1 - Pallas Maintenance and Enhancement at 525,000 ADA, Intersect Budget Administration fee at 15,750 ADA, and Total at 540,750 ADA.",
+        "note": "Matches the anchor Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor on-chain gov_action rewards field sends \"540750000000\" lovelace to stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Matches the anchor onChain.gov_action.rewards entry.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The on-chain recipient history says stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The on-chain DRep vote counts so far are yes=35, no=12, abstain=2, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 snapshot says yes=38, no=12, abstain=2; per instruction, differing moving ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "10. The on-chain treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The anchor says Pallas is a collection of Rust crates that re-implement core Ouroboros and Cardano primitives, including CBOR encoding, cryptographic operations, mini-protocol networking, multi-era ledger traversal, transaction building, and address handling.",
+        "note": "Stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor says Pallas serves projects including Aiken, Dolos, Lucid, Oura, Mithril, Amaru, UTxO-RPC, and others.",
+        "note": "The rationale lists Aiken, Dolos, Lucid, Oura, Mithril, Amaru, UTxO-RPC and others as relying on Pallas.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor states Pallas has over 649 pull requests, 199 stars, 91 forks, 60 contributors, and 214,446 downloads on crates.io.",
+        "note": "Stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The anchor describes three maintainer work areas: essential maintenance of the codebase, community support, and upgrading Pallas compatibility with AI-driven development workflows through AI-friendly documentation and integration resources.",
+        "note": "Matches the three bullet points in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The anchor says the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Stated in the Intersect Budget Process section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The anchor says the requested amount does not at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Stated in the Net Change Limit Compliance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The anchor says audit and oversight costs are included within overhead and that the Intersect administration fee covers administrative oversight.",
+        "note": "Stated in the Audit & Oversight section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The anchor says independent oversight will be provided through Intersect and a technically capable third party, including reporting obligations and milestone-based disbursement controls.",
+        "note": "Stated in the Audit & Oversight section, with equivalent wording.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The anchor states TxPipe has received funding through 30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule.",
+        "note": "Stated in the Prior Treasury Funding Disclosure section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The anchor states TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all of which are being delivered on schedule.",
+        "note": "Stated in the Prior Treasury Funding Disclosure section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The anchor says Intersect will use the treasury management smart contract framework developed by Sundae Labs, with a new 2026 instance mirroring contracts from the 2025 budget cycle.",
+        "note": "Stated in the Intersect Budget Management Tooling section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor lists the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, the 2026 Treasury Reserve Smart Contract payment address as addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w, and the 2026 Project Specific Smart Contract payment address as addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay.",
+        "note": "Matches the three addresses listed in the anchor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The anchor says Intersect management consists of five admin and three Intersect leadership roles, and an Oversight Committee of six external independent third-party entities: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Matches the Specifics section and listed Oversight Committee entities.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The anchor states permission thresholds for TRSC Fund and PSSC Modify, TRSC Disburse, TRSC Pause and Resume, TRSC Sweep, and TRSC Reorganize.",
+        "note": "The anchor lists high-level permissions for each named action.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The anchor says all milestones will be outlined within the metadata when funding is transferred to the PSSC.",
+        "note": "Stated in the Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The anchor says a dashboard is available at treasury.sundae.fi for community audit of the TRSC or PSSC and tracking metrics related to the withdrawn ada.",
+        "note": "Stated in the Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The doctrine prioritizes constitutional integrity and protocol safety first, treasury stewardship and downside protection second, evidence quality and reproducibility third, public-benefit ecosystem growth fourth, and execution speed and social consensus momentum fifth.",
+        "note": "Matches the Values Hierarchy.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The doctrine says the Cardano treasury exists to fund sustainable ecosystem growth, not to be drained by speed of submission, and rejects first-come-first-served budget models.",
+        "note": "Stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The doctrine says TreasuryWithdrawals without a complete dossier are scored directionally with an explicit -0.10 caution penalty on top of the base treasury penalty and conservative reasoning lean under the current soft gate.",
+        "note": "Stated in the Dossier Gate Posture soft gate section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The doctrine states that if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models.",
+        "note": "Stated in the Foundational Axiom section.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "678d36af223049c39cf90c2f5ef139032b26744cf9aeb8b1e5681b07e336b092",
+    "passed": true,
+    "prompt_sha256": "00eac1b06311ae2ad437df650503a611886c70edcdd1bcc7afb2a428e0a3cbc0",
+    "summary": "All checked facts are supported except fact 9, which is not_found under the supplied moving-snapshot rule for DRep vote counts. No material discrepancies are listed.",
+    "support_ratio": 0.9667,
+    "supported": 29,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 30,
+    "verified_at_utc": "2026-07-04T17:05:30+00:00"
+  }
 }

@@ -21,6 +21,175 @@
   "model": "gpt-5.5",
   "output_sha256": "82439d6695ddc3993ab2553f76a3b5a63275e585b3e524bf5aab8b92e470b1da",
   "prompt_sha256": "d030c6433abf2a3bb07f5e29d6769735a6dbf3460cd1fe0a5e59dd14c1fbf4f2",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 28,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action type is TreasuryWithdrawals for title \"Strike Finance Liquidity Deployment\" with action id gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj.",
+        "note": "Matches the on-chain action metadata and anchor body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The requested treasury amount is 9000000000000 lovelace, equivalent to 9000000 ADA.",
+        "note": "On-chain amount is 9000000000000 lovelace; anchor requested amount is 9,000,000 ADA.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The proposed epoch is 637 and the action expires after epoch 644.",
+        "note": "Matches the on-chain action metadata.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor describes a 12-month productive treasury deployment, not grant funding.",
+        "note": "Anchor abstract and terms table state 12 months, productive liquidity deployment, and no grant funding.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The proposal says the deployed ADA will be sold for USDM, Cardano's fiat-backed stablecoin, to provide stablecoin-denominated liquidity.",
+        "note": "Anchor states the ADA will be sold for USDM, described as Cardano's fiat-backed stablecoin, to provide stablecoin-denominated liquidity.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The proposal models ADA at 0.15 USD, making 9000000 ADA approximately 1350000 USDM, and models 10% USD-denominated APR producing approximately 135000 USD / 900000 ADA-equivalent annual yield.",
+        "note": "Anchor contains all listed modeled figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The proposal states modeled estimates are not guaranteed returns.",
+        "note": "Anchor explicitly says the estimates are modeled and not guaranteed returns.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The proposal states realized yield from the first six months will be returned to the Cardano Treasury at month 6, and 100% of treasury-owned deployed assets, including remaining principal and realized yield, will be returned at month 12.",
+        "note": "Anchor states both the month-6 realized yield return and month-12 return of treasury-owned assets including remaining principal and realized yield.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposed administrator is an independent council composed of Rami from Snek, Phil from Surf, and James from Moneta/Monetra; the anchor uses both spellings.",
+        "note": "Anchor abstract uses James from Moneta; rationale uses James from Monetra, with Rami from Snek and Phil from Surf.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal states Strike Finance will not have unilateral custody or control of treasury assets.",
+        "note": "Anchor states Strike will not have unilateral custody/control or unilateral access.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal states any ADA held by the administrator before deployment will be kept in one or more separate auditable accounts, not delegated to any stake pool operator, and delegated to the predefined abstain voting option.",
+        "note": "Anchor motivation and rationale state these account, delegation, and abstain-voting conditions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposal states holding account(s) will be published prior to on-chain submission.",
+        "note": "Anchor rationale states the designated holding account(s) will be published prior to on-chain submission.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The proposal says Strike V2 is live on mainnet with public performance history and has undergone several unofficial reviews; it says Christian Schmitz is conducting an official audit expected to be finalized by July 1, 2026, with the report to be published upon completion.",
+        "note": "Anchor Independent Audit and Assurance section states all of these details.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The anchor references independent third-party assurance reports for deployment confirmation, month-6 yield distribution, and month-12 return of funds.",
+        "note": "Anchor states independent third-party assurance reports will accompany those three events.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal states Strike Finance has never received Cardano Treasury funding or any related ecosystem treasury program funding, including within the last 24 months.",
+        "note": "Anchor Previous Treasury Funding section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal lists primary risks: ADA price appreciation risk, USDM depeg, custody, liquidity, redemption risk, smart contract risk, yield underperformance, and custody and operational risk around multisig coordination.",
+        "note": "Anchor Risk Summary lists these primary risks.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The proposal says governance review is triggered if drawdown exceeds 8%, if reporting is missed for two consecutive monthly cycles, or if any unresolved custody, accounting, stablecoin, redemption, or smart contract concern arises; mandatory review at 10% drawdown.",
+        "note": "Anchor Risk Summary states these review triggers and the 10% mandatory review threshold.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The early termination table states that drawdown of the treasury-owned position exceeding 20% triggers mandatory review and multisig signers may vote to wind down, with review within 7 days of breach.",
+        "note": "Matches the Early Termination table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The early termination table states missed reporting for two consecutive monthly cycles without remedy allows multisig signers to vote to wind down, with wind-down decision within 14 days.",
+        "note": "Matches the Early Termination table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. In wind-down, the proposal states positions are exited in an orderly manner, treasury-owned assets are returned to the designated administrator account, and an audited reconciliation report is published within 30 days.",
+        "note": "Anchor states orderly exit, return of treasury-owned assets to the designated administrator account, and audited reconciliation report within 30 days.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The proposal states monthly public transparency reports will cover deployment status, liquidity utilization, volume, open interest, realized and unrealized profit and loss, yield, drawdown, stablecoin exposure, market quality metrics, distributions, and material risks or deviations.",
+        "note": "Matches the Reporting and Value to Cardano section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor contains no external references in its references array.",
+        "note": "Anchor references array is empty.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. On-chain DRep vote counts so far are yes=49, no=29, abstain=9, explicit ballots not stake-weighted.",
+        "note": "The supplied on-chain context says yes=49, no=30, abstain=9. Per the source instruction, differing moving ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "24. Treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches the supplied on-chain context treasury flow snapshot.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth.",
+        "note": "Values hierarchy ranks treasury stewardship/downside protection second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. BEACN doctrine says if treasury upside is plausible but non-verifiable, judge directionally on the available public record with a caution penalty; in practice NO or ABSTAIN on thin asks.",
+        "note": "Values hierarchy and Dossier Gate Posture state this directionally, including the caution penalty and NO or ABSTAIN practice.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. BEACN doctrine rejects first-come-first-served treasury budgeting and adopts a rolling-window Net Change Limit framework.",
+        "note": "Treasury Spending Doctrine states it rejects FCFS budget models and adopts rolling-window NCL.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. BEACN doctrine states proposals are funded by DRep approval weight, descending, within available budget rather than by submission order.",
+        "note": "Doctrine Prioritization section states proposals are not funded by submission order but by DRep approval weight, descending, within budget.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "52ded97cf51aac0a24e0383eb677efacefd70993beaeba59e0c983c77ced6811",
+    "passed": true,
+    "prompt_sha256": "24d1836143ec1bb735dd7b6556ba0163b763d680b09873e5dd72142812d9cac3",
+    "summary": "All dossier facts are supported except fact 23, which is marked not_found under the supplied instruction for moving ballot-count snapshots. No material discrepancies are listed.",
+    "support_ratio": 0.9643,
+    "supported": 27,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 28,
+    "verified_at_utc": "2026-07-04T17:09:40+00:00"
+  }
 }

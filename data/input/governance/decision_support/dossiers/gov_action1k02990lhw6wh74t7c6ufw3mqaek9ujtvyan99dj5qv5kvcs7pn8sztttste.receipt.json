@@ -21,6 +21,185 @@
   "model": "gpt-5.5",
   "output_sha256": "9e1d7df8a70e7623d6ce061ecdb939795ac79f29a498c4dd9e5faea38c96a0bc",
   "prompt_sha256": "2d2ab52b9fbb75de5c452624fa94c3574fff031ac954a241bbf75e23cbf8b427",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 30,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste; action type is TreasuryWithdrawals; proposed epoch is 638 and expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The on-chain treasury withdrawal amount is 540750000000 lovelace, equal to 540,750 ada.",
+        "note": "Matches Source Material 0 and anchor onChain.gov_action.rewards.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor title is \"Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...\".",
+        "note": "Matches anchor body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor says the withdrawal funds \"Dolos by TxPipe: Maintaining Cardano's Lightweight Data Node, Year 2.\"",
+        "note": "Matches anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The anchor says the Treasury Withdrawal was submitted by Intersect on behalf of the vendor and that the abstract, motivation, and rationale were sourced from the approved vendor proposal submitted as part of the Intersect budget process.",
+        "note": "Matches anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor says the proposal requests 420,000 ADA plus a 105,000 ADA contingency reserve to fund a part-time maintainer for Dolos over 12 months at an annual rate of $105,000 USD.",
+        "note": "Matches anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor budget summary lists WP1 - Dolos Maintenance and Enhancement at 525,000 ADA, Intersect Budget Administration fee at 15,750 ADA, and total at 540,750 ADA.",
+        "note": "Matches anchor Budget Summary.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The anchor says Dolos is a lightweight Cardano data node built in Rust, connects directly to the Cardano network, indexes ledger primitives, and exposes five query interfaces including Mini-Blockfrost HTTP, UTxO-RPC gRPC, Mini-Kupo, and an Ouroboros N2C unix socket compatible with Cardano-cli, Ogmios, and other tooling.",
+        "note": "Matches anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The anchor reports Dolos has 939 commits, 80 releases, 129 stars, 51 forks, and 27 contributors.",
+        "note": "Matches anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The anchor says the maintainer work covers essential codebase maintenance, community support, and AI-friendly documentation and integration resources.",
+        "note": "Matches anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The anchor says Dolos aligns to Pillar 2 focus area A.3 Developer Experience, specifically open-source incentives for maintenance of core Cardano SDKs, frameworks, and infrastructure.",
+        "note": "Matches anchor Strategic Pillar Alignment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor says the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Matches anchor Intersect Budget Process.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor says the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713, and does not exceed TREASURY-02a at submission.",
+        "note": "Matches anchor Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The on-chain context says the recipient stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The on-chain context says DRep explicit vote counts so far are yes=46, no=5, abstain=2, not stake-weighted.",
+        "note": "Source Material 1 gives a moving snapshot of yes=48, no=5, abstain=2; per instruction, differing ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "16. The on-chain context says 36-epoch treasury inflow is 158838297854652 lovelace, enacted withdrawals are 361435336000000 lovelace, with ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The anchor identifies the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Matches anchor Intersect Budget Management Tooling.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The anchor says Intersect will use a single Treasury Reserve Smart Contract and one Project-Specific Smart Contract; administration includes five Intersect admin roles and three Intersect leadership roles, with an Oversight Committee of six external independent third-party entities.",
+        "note": "Matches anchor Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The anchor names the Oversight Committee as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Matches anchor Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The anchor lists high-level authorization rules for TRSC Fund and PSSC Modify, TRSC Disburse, TRSC Pause and Resume, TRSC Sweep, and TRSC Reorganize.",
+        "note": "Matches anchor Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The anchor says upon enactment funding will be directed into the TRSC stake address, later withdrawn into a UTxO at the TRSC payment address, and when the legal contract is prepared and the vendor is ready, transferred using the Fund action to the PSSC.",
+        "note": "Matches anchor Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor says all milestones will be outlined within the metadata.",
+        "note": "Matches anchor Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The anchor says a dashboard at treasury.sundae.fi is available for community audit and tracking metrics for the withdrawn ada and on-chain verification.",
+        "note": "Matches anchor Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The anchor says audit and oversight costs are included in overhead, the Intersect administration fee covers administrative oversight, and independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.",
+        "note": "Matches anchor Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The anchor says TxPipe has received funding through 30 Project Catalyst proposals across Funds 9 through 14, with 26 successfully delivered and 4 under development and on schedule.",
+        "note": "Matches anchor Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The anchor says TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all being delivered on schedule.",
+        "note": "Matches anchor Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality, public-benefit ecosystem growth, and execution speed, while constitutional integrity and protocol safety are highest.",
+        "note": "Matches doctrine values hierarchy.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. BEACN doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN; if treasury upside is plausible but non-verifiable, judge directionally with a caution penalty under the soft gate.",
+        "note": "Matches values_hierarchy.md and treasury_spending_doctrine.md.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Matches treasury_spending_doctrine.md.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. BEACN doctrine says when evaluating TreasuryWithdrawals, if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models.",
+        "note": "Matches treasury_spending_doctrine.md.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "c27d026f0729c9d65d961e4bc6cf4ee4e03901c93d7b5146f7f566a021282b50",
+    "passed": true,
+    "prompt_sha256": "d47f1c3594e952d7a1e2bc33027ef1c9e4a6e773c79aa12a3b524175841e64b8",
+    "summary": "29 facts are supported. Fact 15 is not_found under the supplied instruction for moving ballot-count snapshots. No material discrepancies.",
+    "support_ratio": 0.9667,
+    "supported": 29,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 30,
+    "verified_at_utc": "2026-07-04T17:02:08+00:00"
+  }
 }

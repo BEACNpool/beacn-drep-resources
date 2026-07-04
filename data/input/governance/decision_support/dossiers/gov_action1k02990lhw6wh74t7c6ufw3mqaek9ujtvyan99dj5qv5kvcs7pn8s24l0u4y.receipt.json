@@ -21,6 +21,145 @@
   "model": "gpt-5.5",
   "output_sha256": "edd147e60ed0cc8decce2f5f752f635dbd4f132509f0d5c5c4c2fc6711e991c6",
   "prompt_sha256": "bcc3f73b457211c4ab152550a10f486ac9e8dff8a37ad8daf3e86f1ce4f6f473",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 22,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y is a TreasuryWithdrawals action titled \"Withdraw 3,810,423 ada for Mithril Protocol\". Evidence: action header; anchor: body.title.",
+        "note": "Source Material 0 states the action id, type TreasuryWithdrawals, and matching title; the anchor body.title also matches.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The requested treasury amount is 3810423000000 lovelace, shown in the action header and anchor onChain gov_action rewards value. Evidence: action header; anchor: onChain.gov_action.rewards.",
+        "note": "Source Material 0 lists Treasury amount 3810423000000 lovelace; the anchor onChain gov_action rewards value is \"3810423000000\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor says the Treasury Withdrawal funds Mithril Protocol and was submitted by Intersect on behalf of the vendor, with Abstract, Motivation and Rationale sourced from the approved vendor proposal in the Intersect budget process. Evidence: anchor: abstract.",
+        "note": "The anchor abstract states these points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor identifies Intersect as author and includes an ed25519 witness with publicKey 05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743. Evidence: anchor: authors.",
+        "note": "The authors section names Intersect and includes the stated ed25519 publicKey.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The anchor states Mithril uses stake-based threshold multi-signatures to certify Cardano state in a trustless way, enabling nodes and applications to verify state rapidly without relying on the entire chain. Evidence: anchor: motivation.",
+        "note": "The motivation section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor states the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase. Evidence: anchor: Intersect Budget Process.",
+        "note": "The Intersect Budget Process section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713. Evidence: anchor: Net Change Limit Compliance.",
+        "note": "The Net Change Limit Compliance section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The budget summary lists Mithril Protocol Continuous Development at 3,699,440 ADA, Intersect Budget Administration fee at 110,983 ADA, and Total at 3,810,423 ADA. Evidence: anchor: Budget Summary.",
+        "note": "The Budget Summary table lists these exact figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The anchor says audit and oversight costs are included within the overhead applied to this proposal, and the Intersect administration fee covers administrative oversight. Evidence: anchor: Audit & Oversight.",
+        "note": "The Audit & Oversight section states both points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The anchor says independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls. Evidence: anchor: Audit & Oversight.",
+        "note": "The Audit & Oversight section states this, with the same wording except for singular/plural phrasing around third-party.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The anchor states Teragone has not previously received direct funding from Cardano treasury or community governance programs. Evidence: anchor: Prior Treasury Funding Disclosure.",
+        "note": "The Prior Treasury Funding Disclosure section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor states Teragone has been involved in Mithril for several years through close collaboration with Input Output Global (IOG), which has funded the project to date. Evidence: anchor: Prior Treasury Funding Disclosure.",
+        "note": "The Prior Treasury Funding Disclosure section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor describes the proposal as a transition from IOG-funded development to a community-governed funding model via Intersect. Evidence: anchor: Prior Treasury Funding Disclosure.",
+        "note": "The Prior Treasury Funding Disclosure section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The anchor says Intersect will use the treasury management smart contract framework developed by Sundae Labs, with a new 2026 instance mirroring the 2025 budget-cycle contracts. Evidence: anchor: Intersect Budget Management Tooling.",
+        "note": "The Intersect Budget Management Tooling section states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The anchor lists the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v. Evidence: anchor: Intersect Budget Management Tooling.",
+        "note": "The Intersect Budget Management Tooling section lists this exact stake address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The on-chain recipient history says stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totaling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52. Evidence: onchain: recipient history.",
+        "note": "Source Material 1 states these exact recipient-history figures and timestamps.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The on-chain DRep vote counts so far are yes=49, no=4, abstain=3, as explicit ballots and not stake-weighted. Evidence: onchain: DRep vote counts so far.",
+        "note": "Source Material 1 gives yes=50, no=4, abstain=3, but the source note instructs that differing moving ballot-count snapshots are not_found, not contradicted, and not material discrepancies.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "18. The 36-epoch treasury flow shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492. Evidence: onchain: treasury flow.",
+        "note": "Source Material 1 states these exact treasury-flow figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. BEACN doctrine ranks treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth, after constitutional integrity and protocol safety. Evidence: doctrine: values_hierarchy.md.",
+        "note": "The Values Hierarchy ranks constitutional integrity/protocol safety first, treasury stewardship/downside protection second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework. Evidence: doctrine: treasury_spending_doctrine.md.",
+        "note": "The Treasury Spending Doctrine states this in its Core Position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. BEACN doctrine says incomplete diligence is recorded as explicit uncertainty and thin or unverifiable asks resolve in practice to NO or ABSTAIN under the soft gate. Evidence: doctrine: Dossier Gate Posture.",
+        "note": "The Dossier Gate Posture says thin or unverifiable asks resolve to NO or ABSTAIN and incomplete diligence is recorded as explicit uncertainty.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. BEACN doctrine says if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models. Evidence: doctrine: Foundational Axiom.",
+        "note": "The Foundational Axiom section states this directly.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "d5079bc18f461fbce2e78f563704d2cbc58678cc58fe36557095f3e3544626bb",
+    "passed": true,
+    "prompt_sha256": "8747bca18e4522cc792c0ed22bdab708abc907b474914fe55b4bc09bfbb3ba9d",
+    "summary": "21 facts are supported. Fact 17 is not_found under the source material\u2019s explicit moving-snapshot rule for ballot counts. No material discrepancies.",
+    "support_ratio": 0.9545,
+    "supported": 21,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 22,
+    "verified_at_utc": "2026-07-04T17:09:01+00:00"
+  }
 }

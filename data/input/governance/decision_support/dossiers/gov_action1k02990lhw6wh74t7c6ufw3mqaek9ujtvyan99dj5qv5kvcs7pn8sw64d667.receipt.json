@@ -21,6 +21,165 @@
   "model": "gpt-5.5",
   "output_sha256": "a52054b9c081be5b77ce47a0652ee852136ac2d98147171b510239217af47fb8",
   "prompt_sha256": "ce10da6da0b1589f4399594eee5260e99d9a1eb696fcd68f5a3f78af53b67b1b",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 26,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667, action type is TreasuryWithdrawals, title is \"Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline\", treasury amount is 540750000000 lovelace, proposed epoch is 638, and it expires after epoch 645.",
+        "note": "All fields match Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor on-chain gov_action has tag \"treasury_withdrawals_action\" and rewards one address, stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, with value \"540750000000\".",
+        "note": "Matches the anchor document onChain.gov_action tag and single rewards entry.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the proposal requests 420,000 ADA plus a 105,000 ADA contingency reserve to fund a part-time maintainer for Oura over 12 months at an annual rate of $105,000 USD.",
+        "note": "Stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor budget summary lists WP1 - Oura Maintenance and Enhancement at 525,000 ADA, Intersect Budget Administration fee at 15,750 ADA, and Total at 540,750 ADA.",
+        "note": "Matches the Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor describes Oura as a Rust-native pipeline tool that connects to Cardano nodes, monitors blockchain events, and routes matching patterns to pluggable outputs for processing.",
+        "note": "Directly stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Oura supports data sources including N2C, N2N, S3, Mithril, and UTxO RPC, and sinks including Kafka, Elasticsearch, AWS Lambda/S3/SQS, RabbitMQ, Redis, SQL databases, webhooks, and others.",
+        "note": "Directly stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Oura has 654 commits, 288 stars, 79 forks, and 58 contributors.",
+        "note": "Numbers match the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Oura has been funded twice through Project Catalyst, Fund 9 and Fund 13, for feature development.",
+        "note": "Directly stated in the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states TxPipe has received funding through 30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule.",
+        "note": "Directly stated in Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all of which are being delivered on schedule.",
+        "note": "Directly stated in Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Directly stated in Intersect Budget Process section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Directly stated in Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states audit and oversight costs are included within the overhead applied to this proposal, and that the Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal.",
+        "note": "Directly stated in Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.",
+        "note": "Directly stated in Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Intersect will use the treasury management smart contract framework developed by Sundae Labs, with a new 2026 instance mirroring contracts from the 2025 budget cycle.",
+        "note": "Directly stated in Intersect Budget Management Tooling.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, the 2026 Treasury Reserve Smart Contract payment address as addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w, and the 2026 Project Specific Smart Contract payment address as addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay.",
+        "note": "All three addresses match the anchor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Intersect management consists of five admin roles and three Intersect leadership roles, and an Oversight Committee of six external independent third-party entities: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "The management counts and committee membership are stated in the Specifics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states TRSC Disburse requires authorization by two of five Intersect admins, three of six trusted entities, and two of three Intersect leadership sign-off.",
+        "note": "Matches the high-level permissions list.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states funding will be directed into the TRSC stake address upon enactment; when the legal contract is prepared and the vendor is ready, funding will be transferred using the Fund action to the PSSC; all milestones will be outlined within the metadata.",
+        "note": "Directly stated in Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The on-chain recipient history states stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The on-chain DRep vote counts so far are yes=36, no=10, abstain=2, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 snapshot says yes=38, no=10, abstain=2, but the instructions say differing moving ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "The treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine ranks treasury stewardship and downside protection above evidence quality and reproducibility, public-benefit ecosystem growth, and execution speed/social consensus momentum.",
+        "note": "Matches the Values Hierarchy order.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that if treasury upside is plausible but non-verifiable, direction should be judged on the available public record with a caution penalty, and that thin or unverifiable asks resolve in practice to NO or ABSTAIN.",
+        "note": "Supported by values_hierarchy.md and treasury_spending_doctrine.md soft gate text.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that for TreasuryWithdrawals, if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models.",
+        "note": "Directly stated in the Foundational Axiom section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Directly stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "5d18abfe408538df80ebb15bf1466a233158a453b0df32301e36f094b1f469b1",
+    "passed": true,
+    "prompt_sha256": "4c394c4781b22acb65343e1b30ebe9e389c316a4239dd0d0a576190bfc939874",
+    "summary": "All dossier facts are supported except the DRep vote count fact, which is marked not_found under the supplied instruction for moving ballot snapshots. No material discrepancies are listed.",
+    "support_ratio": 0.9615,
+    "supported": 25,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 26,
+    "verified_at_utc": "2026-07-04T17:04:07+00:00"
+  }
 }

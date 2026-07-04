@@ -21,6 +21,235 @@
   "model": "gpt-5.5",
   "output_sha256": "c90adc2256036b569dc989bdfee3ce5d42ec582b324c5640d79e788030679613",
   "prompt_sha256": "483cfcdcc741a0daf80dce70fe9959d5aff1bbf438f21f16fdd60a4b686260db",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 40,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse.",
+        "note": "Matches Source Material 0 action id.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. Action type is TreasuryWithdrawals.",
+        "note": "Matches Source Material 0 action type.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. Title is \"Eternl: Path to Sustainability - v2\".",
+        "note": "Matches Source Material 0 title and Source Material 3 body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. Treasury amount is 2350000000000 lovelace, equivalent to \u20b32,350,000.",
+        "note": "Source Material 0 gives 2350000000000 lovelace; Source Material 3 asks for \u20b32,350,000.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. Proposed epoch is 637 and the action expires after epoch 644.",
+        "note": "Matches Source Material 0 proposal timing.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The recipient stake address stake1u92flcyspwcp92lmgs0p47vdjrrek96l07cv3v6033wddfc8h620a appears in 2 withdrawal proposals totalling 4030000000000 lovelace, first on 2026-05-15 12:52:13 and last on 2026-06-16 09:20:06.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. DRep explicit ballot counts so far are yes=95, no=19, abstain=12, not stake-weighted.",
+        "note": "Source Material 1 snapshot says yes=95 no=20 abstain=12; per instruction, differing ballot counts are treated as not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "8. Treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal says the previous proposal received NO votes from CC members due to lack of clarity regarding audits and that this version is essentially the same with clarification added.",
+        "note": "Stated in Source Material 3 abstract preamble.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal describes Eternl as a non-custodial Cardano light wallet for web, browser extension, Android, and iOS.",
+        "note": "Stated in Source Material 3 abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal says users rely on Eternl for payments, staking, governance, and DApp interaction.",
+        "note": "Stated in Source Material 3 abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposal requests funding for 12 months of operations, maintenance, and improvements, including frontend and backend maintenance and development, backend infrastructure, user support, and day-to-day operations.",
+        "note": "Stated in Source Material 3 abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The proposal states annual cost is around $420,000.",
+        "note": "Stated in Source Material 3 abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The proposal states Eternl will introduce a Pro plan priced at $96/year ($8/month) for Personal and $360/year ($30/month) for Company.",
+        "note": "Matches Source Material 3 Pro plan table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal states Eternl has an install base of about 100,000 on browser extension and about 30,000 across Android and iOS.",
+        "note": "Stated in Source Material 3 motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal states about 4.2% of that install base, or roughly 5,500 users, buying a Pro plan would fully cover the annual $420,000 cost.",
+        "note": "Stated in Source Material 3 motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The budget table allocates \u20b31,292,500 Frontend 55%, \u20b3587,500 Backend 25%, \u20b3117,500 Support 5%, \u20b3305,500 Admin 13%, and \u20b347,000 Audits 2%.",
+        "note": "Matches Source Material 3 budget table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The proposal says it will convert up to $420,000 worth of Ada into stablecoins and deposit it into a public company wallet, and any Ada above that amount will be returned to the treasury.",
+        "note": "Stated in Source Material 3 post-withdrawal handling.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The proposal says Ada held before conversion or return will be held in an auditable account, will not be delegated to an SPO, and will be delegated to the predefined abstain voting option.",
+        "note": "Stated in Source Material 3 post-withdrawal handling.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The audits allocation is described as covering periodic independent audits of treasury fund use and oversight metrics, not a technical security audit budget.",
+        "note": "Stated in Source Material 3 independent audits section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The proposal says an independent party unaffiliated with Tastenkunst GmbH or the Eternl team will perform audits in February 2027 and August 2027.",
+        "note": "Stated in Source Material 3 independent audits section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The proposal says audits will review receipt, custody, conversion, spending, remaining balances, Pro plan income relevant to repayment, and refunds or repayments to the Cardano Treasury.",
+        "note": "Stated in Source Material 3 independent audits section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The proposal says oversight metrics will include balances, conversion rates, transaction hashes, and treasury repayment hashes.",
+        "note": "Stated in Source Material 3 independent audits section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The proposal sets repayment assessments every December and June.",
+        "note": "Stated in Source Material 3 paying-it-back section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The proposal says if remaining treasury stablecoins plus paid plan income are above $420,000, 100% of the surplus will repay the treasury until the full USD value received has been repaid, described as $420,000 in Ada.",
+        "note": "Stated in Source Material 3 repayment section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The proposal says after full repayment, if Pro plan sales income exceeds $420,000 in the last 12 months, it will donate 50% of income above $420,000 until an additional $210,000 worth of Ada has been donated.",
+        "note": "Stated in Source Material 3 additional treasury donation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The proposal says every paid Pro plan will be recorded on-chain with metadata, Pro plan earnings reports will be published, and repayment/donation transaction hashes will be published.",
+        "note": "Stated in Source Material 3 transparency section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The proposal states Tastenkunst GmbH will administer treasury funds, the proposal is not milestone-based, and it ensures funds availability for a 12-month period.",
+        "note": "Stated in Source Material 3 administrative remarks.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The summary gives delivery period 12 months, schedule August 2026 to July 2027, proposal lead Marcel Baumberg, submitting entity Tastenkunst GmbH, Eternl, team of 10 people, 6.0 FTE at $70,000 per FTE, and administrator Tastenkunst GmbH.",
+        "note": "Matches Source Material 3 summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The proposal states Eternl is not fully open-source: the main UI will not be open-source, while some libraries will be published through the npm registry.",
+        "note": "Stated in Source Material 3 FAQ.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The proposal states existing income streams are small service fees on transactions of 100 Ada or above in its DApp Browser and MonsterSwap feature, and that current low-volume, low-price conditions make those insufficient to cover costs.",
+        "note": "Stated in Source Material 3 FAQ income streams.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The proposal states service fees and Tastenkunst's other income streams will not be taken into account when calculating treasury payback.",
+        "note": "Stated in Source Material 3 FAQ repayment scope.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "33. The proposal states that if treasury funds are not received, paid plans will test self-sustainability; if enough licenses are not sold beyond August, the team will let go of developers, scale Eternl down to essential maintenance, and shift focus to work outside Cardano.",
+        "note": "Stated in Source Material 3 FAQ no-funding answer.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. The proposal lists upcoming work including Eternl Core rewrite, Eternl Hub, enhanced hardware wallet support, enhanced wallet data export, backend infrastructure and operations, frontend maintenance, governance tooling, user support, and day-to-day operations.",
+        "note": "All listed categories appear in Source Material 3 upcoming work and maintenance sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. The proposal states that in the 2025 budget process Eternl requested \u20b3583,000 ($408,000) for 12 months of operations at $0.70 per Ada, and says it is about $153,000 short to date due to Ada price decrease.",
+        "note": "Stated in Source Material 3 FAQ prior treasury funds.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. The proposal lists prior Catalyst grants: $90,000, $90,000, $46,000, \u20b3554,000, \u20b369,200, and \u20b320,800, plus Intersect funding of \u20b370,000.",
+        "note": "Matches Source Material 3 history of grants.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "37. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality, public-benefit ecosystem growth, and execution speed, while constitutional integrity and protocol safety rank highest.",
+        "note": "Matches Source Material 2 values hierarchy.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "38. BEACN doctrine says thin or unverifiable treasury asks receive a caution penalty and incomplete diligence is recorded as uncertainty.",
+        "note": "Supported by Source Material 2 dossier gate posture.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "39. BEACN doctrine says requested Ada per deliverable should decrease where work can be substantially accelerated by AI tooling.",
+        "note": "Supported by Source Material 2 AI cost axiom.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "40. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Stated in Source Material 2 treasury spending doctrine.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "54b3259e2901e9e23bd090d1ff5345a0cbca31134076520579afffbc9ae19776",
+    "passed": true,
+    "prompt_sha256": "2671e276e93372da79a2a46d1840e977bd0756d45973aa3f277f57205446ea16",
+    "summary": "39 facts are supported. Fact 7 is not_found under the supplied instruction for moving ballot-count snapshots. No material discrepancies identified.",
+    "support_ratio": 0.975,
+    "supported": 39,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 40,
+    "verified_at_utc": "2026-07-04T17:10:24+00:00"
+  }
 }

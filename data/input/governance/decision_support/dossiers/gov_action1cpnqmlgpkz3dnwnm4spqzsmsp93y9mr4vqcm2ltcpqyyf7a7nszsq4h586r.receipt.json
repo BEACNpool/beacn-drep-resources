@@ -21,6 +21,155 @@
   "model": "gpt-5.5",
   "output_sha256": "2c3f61f8d3ac9e0ceede45639927121b7cd1b237e3935624d33c77c175f3b690",
   "prompt_sha256": "e8e0bef2aca2350cf6038f54300061a1af01fcd62902d5e05c9a11198424e7d1",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 24,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. Action type is TreasuryWithdrawals.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. Title is \"Global Order Book connect Cardano DeFi to increase transaction\".",
+        "note": "Matches Source Material 0 and the anchor title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. Treasury amount is 3333000000000 lovelace, equivalent to 3,333,000 ADA.",
+        "note": "Source Material 0 gives 3333000000000 lovelace; the anchor requests 3,333,000 ADA.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. Proposed epoch is 640 and the action expires after epoch 647.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. On-chain DRep explicit ballot counts so far are yes=7, no=10, abstain=1; these are not stake-weighted.",
+        "note": "Source Material 1 gives yes=7, no=11, abstain=1 and says differing ballot counts are moving snapshots to be treated as not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "7. On-chain treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The anchor requests 3,333,000 ADA total: 3,300,000 ADA for delivery and 33,000 ADA for a 1% budget administration fee.",
+        "note": "Stated in the anchor abstract, rationale, and budget table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposer identifies Dano Finance as the delivery entity and Minswap Labs as budget administrator.",
+        "note": "The anchor names Dano Finance as delivering/supporting the work and Minswap Labs as budget administrator.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The anchor states Dano Finance currently has approximately USD 18M in TVL and more than 10,000 on-chain transactions.",
+        "note": "Stated in the anchor motivation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal lists four work packages: WP1 DeFi Kernel Registry Website and Submission Process for 300,000 ADA; WP2 Spot Leverage Order Book for 1,000,000 ADA; WP3 American Options Protocol for 1,000,000 ADA; WP4 Composable DeFi Transaction Builder SDK for 1,000,000 ADA.",
+        "note": "Matches the anchor work package and budget table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor says WP1 registration will not require payment, licensing fees, certification fees, listing fees, revenue share, or smart-contract open-sourcing.",
+        "note": "Stated under WP1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor defines milestone deliverables for each work package, including design/testnet, security review or audit, mainnet deployment, adoption/reporting, SDK releases, documentation, examples, and integration support.",
+        "note": "The anchor lists milestone deliverables across WP1-WP4 covering these categories.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The primary KPIs include DeFi Kernel standard and registry live with documentation, script hashes, schema references, and integration instructions; at least two smart contract packages documented as DeFi Kernel-compatible; Spot Leverage Order Book mainnet deployed after security review; at least USD 1,000,000 rolling 30-day trading volume within 90 days of mainnet launch; American Options mainnet deployed after security review; at least USD 1,000,000 rolling 30-day option notional volume within 90 days of mainnet launch; SDK v1 release with public documentation, examples, package distribution, and integration guides; SDK support for discovery, filtering, and transaction construction; and at least one external wallet, bot, indexer, or dApp integration started or completed using the SDK.",
+        "note": "Matches the anchor KPI Framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. Stretch KPIs include USD 3,000,000 to USD 5,000,000 rolling 30-day order book trading volume within 180 days of mainnet launch, USD 3,000,000 to USD 5,000,000 rolling 30-day option notional volume within 180 days of mainnet launch, measurable recurring transaction volume from DeFi Kernel-compatible contracts, and at least one wallet, bot, indexer, or protocol beginning integration work using the DeFi Kernel registry or schema documentation.",
+        "note": "Matches the anchor Stretch KPIs.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The anchor says accountability mechanisms include Minswap Labs as budget administrator, work packages, milestones and acceptance criteria, security review or audit before mainnet release for smart contract workstreams, critical unresolved security issues blocking affected mainnet milestones, and public reports covering progress, deployment status, registry status, KPI status, and remaining risks.",
+        "note": "Matches the anchor Accountability and Risk Controls section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The anchor states unused or unearned funds, funds not needed for approved delivery work, or unused portions of cancelled, undeliverable, or security-blocked milestones will remain unspent or be returned to the Cardano Treasury according to the administrator's process.",
+        "note": "Matches the repayment/non-disbursement section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The anchor states Dano Finance will return 5% of protocol fees generated by the Treasury-funded Spot Leverage Order Book and American Options market-making pool contracts for 12 months after mainnet launch, calculated after direct transaction costs, refunds, or protocol-level settlement costs, and reported publicly.",
+        "note": "Matches the anchor repayment section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The anchor references https://dano.finance, https://defikernel.org, and https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano.",
+        "note": "Matches the anchor references array.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. BEACN doctrine ranks treasury stewardship and downside protection above evidence quality and reproducibility, public-benefit ecosystem growth, and execution speed and social consensus momentum, while constitutional integrity and protocol safety rank first.",
+        "note": "Matches the Values Hierarchy ordering.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. BEACN doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN.",
+        "note": "Stated in doctrine conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. BEACN doctrine says if treasury upside is plausible but non-verifiable, judge directionally on the available public record with a caution penalty, and in practice NO or ABSTAIN on thin asks.",
+        "note": "Stated in values_hierarchy.md and treasury_spending_doctrine.md soft gate language.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Stated in Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. BEACN doctrine says requested ADA per deliverable should decrease where work can be substantially accelerated by AI tooling, and quality gates are mandatory.",
+        "note": "Directly entailed by the AI cost axiom section: requested ADA per deliverable should decrease and quality gates are mandatory.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "7262afba2355ba639b17f468ac7d253f93bb968ef80fffe1ee5bd5043cb1e698",
+    "passed": true,
+    "prompt_sha256": "f45dbcd0fb8d913881b66a0a5bd22b5b259e5b317085e1a054fdbbe4003a897f",
+    "summary": "All dossier facts are supported except Fact 6, which is not_found under the supplied instruction for moving on-chain ballot snapshots. No material discrepancies are present.",
+    "support_ratio": 0.9583,
+    "supported": 23,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 24,
+    "verified_at_utc": "2026-07-04T16:57:07+00:00"
+  }
 }

@@ -21,6 +21,230 @@
   "model": "gpt-5.5",
   "output_sha256": "3f6ec576cae4fdeb7c850a9828c25db83457c44c79da11c3804c8279bf58c92e",
   "prompt_sha256": "a870c3599adac2326031a61d0fd22086932790542a8b5b4bb76681e9f66b3e15",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 39,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5, action type is TreasuryWithdrawals, proposed epoch is 638, and it expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The title is \"Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex\".",
+        "note": "Matches the on-chain metadata title and anchor body title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The on-chain treasury amount is 3961538000000 lovelace, and the anchor onChain rewards entry sends value \"3961538000000\" to stake address \"stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\".",
+        "note": "Matches Source Material 0 and anchor onChain.gov_action.rewards.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor states the withdrawal funds \"Bringing Real-World Payments to Cardano with Wirex\" and was submitted by Intersect on behalf of the vendor, with Abstract, Motivation and Rationale sourced from the approved proposal submitted by the vendor as part of the Intersect budget process.",
+        "note": "Supported by the anchor abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The anchor states the proposal addresses Cardano's lack of integrated infrastructure for real-world payments at scale, including everyday spending, merchant acceptance, and fiat-connected financial activity.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor states the proposal delivers open-source payments infrastructure enabling onchain settlement through smart contracts while connecting Cardano to banking rails, stablecoin systems, and wallet interfaces.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor states a core outcome is Visa card issuance linked directly to onchain balances, allowing users to spend digital assets globally at millions of merchants.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The anchor states the solution supports native integration with self-custody wallets.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The anchor states Wirex has 7M users, $20B+ in processed volume, and experience as a Visa Principal Member.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The rationale states Wirex has more than 7 million users, over 1.5 million cards issued, and more than $20 billion in transaction volume.",
+        "note": "Supported by the anchor rationale under Pillar 2 alignment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The anchor states the expected impact is increased Cardano utility, transaction volume, user growth, institutional participation, network usage, and real-world economic activity onchain.",
+        "note": "Supported by the anchor motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor states the proposal aligns with Pillar 1 by delivering core, open-source on-chain infrastructure covering smart contract engineering, account abstraction, batched transactions, settlement logic, and a wallet and API ecosystem layer.",
+        "note": "Supported by the anchor rationale under Strategic Pillar Alignment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor states all components are released as a public good for wallet providers, fintechs, stablecoin issuers, and developers.",
+        "note": "Supported by the anchor rationale.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The anchor states the proposal aligns with Pillar 2 because payments is an explicitly identified high-value vertical in the strategy framework.",
+        "note": "Supported by the anchor rationale.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The anchor states the proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Supported by the anchor rationale under Intersect Budget Process.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The anchor states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Supported by the anchor rationale under Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The anchor budget summary lists WP1 \u2013 Enabling Onchain Payments & Card Infrastructure at 3,846,153 ADA, Intersect Budget Administration fee at 115,385 ADA, and Total at 3,961,538 ADA.",
+        "note": "Matches the anchor Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The anchor states audit and oversight costs are included within the overhead applied to the proposal, the Intersect administration fee covers administrative oversight, and independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.",
+        "note": "Supported by the anchor Audit & Oversight section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The anchor states Wirex have not received ada from the Cardano Treasury within the last 24 months.",
+        "note": "Supported by the anchor Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The anchor lists the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, the 2026 Treasury Reserve Smart Contract payment address as addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w, and the 2026 Project Specific Smart Contract payment address as addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay.",
+        "note": "Matches the three addresses listed in the anchor.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The anchor states Intersect will use a single Treasury Reserve Smart Contract with one Project-Specific Smart Contract.",
+        "note": "Supported by the anchor Specifics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor states Intersect's management consists of five admin and three Intersect leadership roles, with an Oversight Committee of six external independent third-party entities: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Supported by the anchor Specifics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The anchor specifies TRSC Fund and PSSC Modify require two of five Intersect admins, two of six trusted entities, and one of three Intersect leadership sign-off.",
+        "note": "Matches the anchor high-level permissions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The anchor specifies TRSC Disburse requires two of five Intersect admins, three of six trusted entities, and two of three Intersect leadership sign-off.",
+        "note": "Matches the anchor high-level permissions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The anchor specifies TRSC Pause and Resume requires two of five Intersect admins and one of three Intersect leadership sign-off.",
+        "note": "Matches the anchor high-level permissions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The anchor specifies TRSC Sweep requires one of five Intersect admins and one of three Intersect leadership sign-off.",
+        "note": "Matches the anchor high-level permissions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The anchor specifies TRSC Reorganize requires two of five Intersect admins and three of six trusted entities.",
+        "note": "Matches the anchor high-level permissions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The anchor states that upon enactment, funding will be directed into the TRSC stake address; funding will later be transferred using the Fund action to the PSSC when the legal contract is prepared and the vendor is ready; all milestones will be outlined within the metadata.",
+        "note": "Supported by the anchor Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The anchor states TRSC and PSSC cannot be staked with an SPO and are delegated to the auto-abstain predefined DRep.",
+        "note": "Supported by the anchor Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The anchor states a dashboard is available at treasury.sundae.fi for community audit and tracking metrics related to the withdrawn ada, with on-chain verifiability.",
+        "note": "Supported by the anchor Processes section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The on-chain context states recipient stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The on-chain context states DRep vote counts so far are yes=25, no=20, abstain=5, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 gives a moving snapshot of yes=25, no=21, abstain=5, and instructs that differing ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "33. The on-chain context states treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. BEACN doctrine ranks values in this order: constitutional integrity and protocol safety; treasury stewardship and downside protection; evidence quality and reproducibility; public-benefit ecosystem growth; execution speed and social consensus momentum.",
+        "note": "Matches the doctrine values hierarchy.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. BEACN doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, the default is to prefer ABSTAIN.",
+        "note": "Matches the doctrine conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. BEACN doctrine states that if treasury upside is plausible but non-verifiable, judge directionally on available public record with a caution penalty, and in practice NO or ABSTAIN on thin asks.",
+        "note": "Supported by the doctrine conflict defaults and Dossier Gate Posture.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "37. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Supported by the doctrine Core Position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "38. BEACN doctrine states available(e) = NCL_annual - \u03a3 withdrawals(e - window_size ... e), with window_size = 73 epochs.",
+        "note": "Matches the doctrine Rolling Window Equation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "39. BEACN doctrine states proposals are funded by DRep approval weight, descending, within the available budget, not by submission order.",
+        "note": "Supported by the doctrine Prioritization section.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "d94a3a749892d04887c81cdfe4d01fa962bdd4cd875bd12712df57ab1bf2ebc7",
+    "passed": true,
+    "prompt_sha256": "ba457bbbe073ae0be82320c62203d1f214201a5ff9241bb72f7343d270552c2d",
+    "summary": "All dossier facts are supported except fact 32, which contains a differing moving DRep vote count and is therefore marked not_found under the supplied special instruction. No material discrepancies are listed.",
+    "support_ratio": 0.9744,
+    "supported": 38,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 39,
+    "verified_at_utc": "2026-07-04T17:06:16+00:00"
+  }
 }

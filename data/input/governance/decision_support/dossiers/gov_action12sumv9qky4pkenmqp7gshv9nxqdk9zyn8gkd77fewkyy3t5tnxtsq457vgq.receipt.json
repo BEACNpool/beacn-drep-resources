@@ -21,6 +21,240 @@
   "model": "gpt-5.5",
   "output_sha256": "05a82687c1c9b71f12d6ee879acb42157ecf92bdc40b51f9728ae315b72f9e37",
   "prompt_sha256": "313ff2750a0975cf04a633ec40a73cee6ce88ed3a1efe4364e9740d8ba7dd912",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 41,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action type is TreasuryWithdrawals for title \"Blockfrost's transformation to not-for-profit\", action id gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq, proposed epoch 639, expires after 646, treasury amount 9832979000000 lovelace.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The on-chain reward entry pays stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value \"9832979000000\".",
+        "note": "Matches the anchor document onChain gov_action rewards entry.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The proposal states total ask is \u20b39,832,979, with reference USD amount \"$1,868,266\" at \"$0.19/\u20b3\" for 18 months of operations including transition.",
+        "note": "The abstract and budget section state these amounts and 18-month operations including transition.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The proposal describes Blockfrost as a hosted REST interface for developers to read from and interact with Cardano without running their own node.",
+        "note": "Directly stated in the introduction/motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The proposal states Blockfrost was founded in 2020 by Five Binaries and joined IOG in 2024 with the goal of decentralizing it.",
+        "note": "Directly stated in the motivation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The proposal cites Cardano Foundation developer ecosystem survey usage figures for hosted platforms: 2022: 39.3%, 2023: 56.5%, 2024: 65.5%, 2025: 71.5%.",
+        "note": "The listed survey figures match exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The proposal states that last month Blockfrost served 781k unique visitors, more than 1.84 billion API requests, almost 700 rps, and over 7 TB of API data.",
+        "note": "Directly stated in the usage metrics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The proposal states that in most Cardano epochs more than 50% of all transactions are submitted through Blockfrost.",
+        "note": "Directly stated in the usage metrics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal states that 90% of all Cardano traffic served through the Blockfrost API comes from the free tier.",
+        "note": "Directly stated in the transformation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal says the commercial path would force price increases, free-tier elimination, and similar steps, and that the proposer chose a fully not-for-profit, community-governed public API path instead.",
+        "note": "Directly stated in the transformation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The not-for-profit is proposed to provide an open, free, public API covering Cardano mainnet, preview, and preprod networks in their current format.",
+        "note": "Directly stated in the transformation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposed board has five seats: four for open-source infrastructure development entities and one community seat.",
+        "note": "Directly stated in the governance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The preliminary board listed is Beatrice Anihiri, Christina Gianelloni, Federico Weill, Jeni Davidson, and Francis Luz.",
+        "note": "All five names match the listed preliminary board.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The proposal hopes to run elections by the end of the year, with a new board appointed no later than the end of Q1 2027.",
+        "note": "Directly stated in the governance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal states IOG will hold a non-voting advisory seat during the first year of operation.",
+        "note": "Directly stated in the governance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal states all Blockfrost intellectual property, including source code, trademarks, domain names, and associated assets, will be transferred to the governing not-for-profit entity.",
+        "note": "Directly stated in the governance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The deliverables list Q3 2026 entity establishment and transition kickoff, Q4 2026 board election, Q1 2027 transition of services and IP transfer, Q2-Q3 2027 sustainability consultation, and 2027 operational milestones 5-12 for sustained operations.",
+        "note": "Matches the deliverables table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The proposal sets a minimum 99% monthly uptime SLA for public API operations, measured and verifiable on the public dashboard.",
+        "note": "The deliverables table states this for 2027 sustained operations.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The budget table states total funding requested is 1,868,266 USD, disbursed in ADA at 0.19 USD per ADA, totaling 9,832,979 ADA.",
+        "note": "The budget allocation section states these figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The budget table presents components: Staffing 79.1%, \"$1,478,266\", \"7,780,347\"; Ops & Infrastructure 19.3%, \"$360,000\", \"1,894,737\"; Legal, Accounting 1.6%, \"$30,000\", \"157,895\"; TOTAL 100%, \"$1,868,266\", \"9,832,979\".",
+        "note": "The values match the table as written.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The staffing budget includes salaries for a team of six and overhead: one project manager, one community manager, and four developers.",
+        "note": "Directly stated below the budget table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. Ops & Infrastructure covers compute, hosting, tooling, and DevOps personnel at approximately $20,000 per month.",
+        "note": "Directly stated below the budget table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The proposal says any unspent post-transition infrastructure budget will be returned to the treasury, and section 10.5 says all funds not disbursed by the end of the delivery period will be returned to the Cardano Treasury, with proportional return for partial delivery or scope reduction.",
+        "note": "Both refund statements appear in the budget allocation and refund conditions sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The proposal states quarterly reports will include technical data and a budget summary.",
+        "note": "Directly stated in the budget allocation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The proposal states a written off-chain Legal Contract will be created between Input Output and Cardano Development Holdings and administered by Intersect.",
+        "note": "Directly stated in section 10.1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The proposal states milestones, acceptance criteria, payment amounts, and expected delivery dates will be agreed between Input Output and Intersect acting on behalf of CDH.",
+        "note": "Directly stated in section 10.2.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The proposal states milestone acceptance will be supported by a 3rd Party Assurer and monitored through Intersect's delivery assurance function.",
+        "note": "Section 10.2 states both Intersect monitoring and 3rd Party Assurer review/signoff.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The proposal states Intersect will use the Sundae Labs treasury management smart contract framework, with a 2026 Treasury Reserve Smart Contract stake address matching the on-chain recipient stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Section 10.3 lists the Sundae Labs framework and the same TRSC stake address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The proposal states TRSC Fund and PSSC Modify require two of five Intersect admins, two of six trusted entities, and one of three Intersect leadership sign-off; TRSC Disburse requires two of five Intersect admins, three of six trusted entities, and two of three Intersect leadership sign-off.",
+        "note": "Matches the high-level permissions list.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The Oversight Committee is listed as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "The listed entities match exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The proposal states a dashboard at treasury.sundae.fi will allow the community to audit the TRSC or PSSC and track metrics related to the withdrawn ada.",
+        "note": "Directly stated in section 10.3 processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The proposal states prior treasury receipts for IO and affiliated entities total \u20b3130,708,860 allocated across projects within Treasury Smart Contract, with IOG withdrawn \u20b385,552,881 to date.",
+        "note": "Directly stated in section 10.6.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "33. The prior treasury receipts table lists Blockfrost \u20b31,137,500 received, 88% of allocation, corresponding governance action 8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#2.",
+        "note": "Matches the Blockfrost row in the table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. The proposal states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Directly stated in section 10.7.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. On-chain recipient history states stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totaling 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. On-chain DRep vote counts so far are yes=11, no=17, abstain=5 explicit ballots, not stake-weighted.",
+        "note": "Source Material 1 says yes=11, no=18, abstain=5, but the instructions specify differing on-chain vote counts are moving snapshots and must be treated as not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "37. Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "38. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth, after constitutional integrity and protocol safety.",
+        "note": "Matches the values hierarchy order.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "39. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Directly stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "40. BEACN doctrine says if treasury upside is plausible but non-verifiable, judge directionally on the available public record with a caution penalty, and in practice NO or ABSTAIN on thin asks.",
+        "note": "Directly stated in the values hierarchy and dossier gate posture.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "41. BEACN doctrine says confidence is a statement about verified evidence coverage, never about penalty size.",
+        "note": "Directly stated in the values hierarchy.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "8da7408b3aeb86b41747be45e88ed8debd3059cc6c7c3f44be81c89f931f7903",
+    "passed": true,
+    "prompt_sha256": "148fb4f7dda7da99223a2ced5d03c50eccd36a5a7f5f555a4f3c2712a7ccdfaf",
+    "summary": "All dossier facts are supported except fact 36, which is treated as not_found under the supplied moving-snapshot instruction for on-chain vote counts. No material discrepancies are listed.",
+    "support_ratio": 0.9756,
+    "supported": 40,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 41,
+    "verified_at_utc": "2026-07-04T17:01:08+00:00"
+  }
 }

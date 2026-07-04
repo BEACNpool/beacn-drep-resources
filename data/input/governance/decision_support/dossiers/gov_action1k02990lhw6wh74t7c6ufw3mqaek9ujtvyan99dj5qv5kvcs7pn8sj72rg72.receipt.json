@@ -21,6 +21,185 @@
   "model": "gpt-5.5",
   "output_sha256": "a0c84981fd1ba043ae3e6f0cfbfacdf37bdb6aeeec77451c1b96ea359363def2",
   "prompt_sha256": "1ccae356fa14ee30096fc680d7364cc99ad29514d86827df3942a5fa6b95051c",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 30,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Action type is TreasuryWithdrawals.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Title is \"Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P...\".",
+        "note": "Matches Source Material 0 and the anchor body title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Treasury amount is 1684050000000 lovelace.",
+        "note": "Matches Source Material 0 and the anchor onChain reward value.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Proposed epoch is 638 and expires after epoch 645.",
+        "note": "Matches Source Material 0.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor author is Intersect, with witnessAlgorithm \"ed25519\".",
+        "note": "The anchor authors array names Intersect and witnessAlgorithm ed25519.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor hashAlgorithm is \"blake2b-256\".",
+        "note": "The anchor top-level hashAlgorithm is blake2b-256.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor abstract states the treasury withdrawal funds \"Tx3 by TxPipe: Open API Layer for Cardano's dApp Protocols\" and is submitted by Intersect on behalf of the vendor.",
+        "note": "The abstract states both points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor motivation states the proposal requests \"1,308,000 ADA (plus a 327,000 ADA contingency reserve) over 12 months\".",
+        "note": "The motivation states this phrase.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor motivation states the proposal funds \"12 additional onboardings (3 per quarter)\" plus development of \"the MCP server and skill framework\".",
+        "note": "The motivation states 12 additional onboardings, 3 per quarter, and development of the MCP server and skill framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor motivation states Catalyst Fund 14 has put the developer layer into production with \"5 protocols live on the Tx3 Protocol Registry\".",
+        "note": "The motivation states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor rationale names Strike Finance, Indigo Protocol, VyFinance, Bodega Market, and Fluid Tokens as protocols already accessible through Tx3.",
+        "note": "The rationale lists those protocols as already accessible this way.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor rationale states the proposal achieved the required \"67% support threshold\" during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "The Intersect Budget Process section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor rationale states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable \"350M Net Change Limit\" covering Epoch 613 to Epoch 713.",
+        "note": "The Net Change Limit Compliance section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor budget summary lists \"Open API Layer for Cardano Protocols\" at \"1,635,000\" ADA, \"Intersect Budget Administration fee\" at \"49,050\" ADA, and \"Total\" at \"1,684,050\" ADA.",
+        "note": "The budget summary table lists these exact line items and amounts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor prior funding disclosure states TxPipe has received funding through \"30 Project Catalyst proposals across Funds 9 through 14\", of which \"26 have been successfully delivered\" and \"4 are currently under development and on schedule\".",
+        "note": "The prior funding disclosure states these figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor prior funding disclosure states TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all described as being delivered on schedule.",
+        "note": "The prior funding disclosure states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor states audit and oversight costs are included within overhead and that the Intersect administration fee covers administrative oversight.",
+        "note": "The Audit & Oversight section states both points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor states independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.",
+        "note": "The Audit & Oversight section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor names the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "The Intersect Budget Management Tooling section names this stake address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Anchor onChain rewards direct 1684050000000 lovelace to stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "The anchor onChain gov_action rewards array has that key and value.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain recipient history says stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=43, no=7, abstain=2, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 gives a moving snapshot of yes=44, no=8, abstain=2 and explicitly instructs that differing ballot counts are not_found, not contradicted.",
+        "verdict": "not_found"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine values hierarchy ranks treasury stewardship and downside protection second, after constitutional integrity and protocol safety.",
+        "note": "The values hierarchy lists constitutional integrity and protocol safety first, and treasury stewardship and downside protection second.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, the default is to prefer ABSTAIN.",
+        "note": "The conflict handling defaults state this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine states current soft gate scores TreasuryWithdrawals without a complete dossier directionally with an explicit -0.10 caution penalty on top of the base treasury penalty and conservative reasoning lean.",
+        "note": "The Dossier Gate Posture soft gate states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine states AI has collapsed marginal costs by 10-100x and requested ADA per deliverable should decrease for AI-assisted work.",
+        "note": "The doctrine states costs dropped by 10-100x due to generative AI and that requested ADA per deliverable should decrease.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "The Core Position states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Doctrine states proposals are funded by DRep approval weight descending within the available budget, not by submission order.",
+        "note": "The Prioritization section states proposals are not funded by submission order, but by DRep approval weight descending.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 1,
+    "output_sha256": "30d4647adde6d4dce21fb33fdc7e5a325cde9c8992fcd427e7fd9ab08ae315e0",
+    "passed": true,
+    "prompt_sha256": "ffcd544d36b4eeead3b4b31c9ea3d7bfba72cf1b13befcfd7c762264b41b407c",
+    "summary": "All dossier facts are supported except the DRep vote-count snapshot, which is treated as not_found under the source-material instruction for moving ballot counts. No material discrepancies were found.",
+    "support_ratio": 0.9667,
+    "supported": 29,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 30,
+    "verified_at_utc": "2026-07-04T17:07:07+00:00"
+  }
 }

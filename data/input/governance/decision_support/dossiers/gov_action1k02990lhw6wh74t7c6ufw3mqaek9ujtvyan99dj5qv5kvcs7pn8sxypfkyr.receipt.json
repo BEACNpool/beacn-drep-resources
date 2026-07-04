@@ -21,6 +21,165 @@
   "model": "gpt-5.5",
   "output_sha256": "5fbbe943774386eb66638eeb23dc3441e10340faf44e458d8c4e69b8d44f875e",
   "prompt_sha256": "c99e0dbdc5120094abc9542073809456cd29850c8bdff39a98668a791a3ec830",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.2.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.2.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 26,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr is a TreasuryWithdrawals action titled \"Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support\" for 1193000000000 lovelace, proposed in epoch 638 and expiring after epoch 645.",
+        "note": "Matches Source Material 0 and the anchor title/reward amount.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The anchor authors list Intersect with ed25519 witness data and hashAlgorithm \"blake2b-256\".",
+        "note": "Anchor authors list Intersect with witnessAlgorithm ed25519, and hashAlgorithm is blake2b-256.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor says the request is \"$298,250 (1,193,000 ADA)\" to support Technical Steering Committee activities for 12 months.",
+        "note": "Stated in body.motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The stated work packages are WP 1 community engagement and technical reports, WP 2 Parameter Committee/CIP editors/Hard Fork Working Group, and WP 3 a pilot independent technical review programme launching in 2027.",
+        "note": "Directly stated in body.motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The anchor says technical workshops, the Security Council, and the Bug Bounty Programme are funded separately through the main Intersect budget and are not included in this request.",
+        "note": "Directly stated in body.motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor says all expenditure will be fully accounted for and any unspent funds returned to the Cardano treasury.",
+        "note": "Directly stated in body.motivation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor states execution of the work packages is contingent on approval of the IntersectMBO budget proposal.",
+        "note": "Directly stated in the motivation note.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The budget summary is WP 1 \u2014 256,000 ADA; WP 2 \u2014 832,000 ADA; WP 3 \u2014 105,000 ADA; Total \u2014 1,193,000 ADA.",
+        "note": "Matches the Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal states it achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.",
+        "note": "Directly stated under Intersect Budget Process.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal states the requested amount does not, at time of submission, alone or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Directly stated under Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The anchor names Appold as provider of independent audits and assurance, with possible reviews including deliverable verification, control testing, spend validation, and milestone evidence assessment.",
+        "note": "Directly stated under Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The anchor states Intersect will continue milestone-based drawdowns, evidence-backed reporting, and transparent disclosures alongside external assurance.",
+        "note": "Directly stated under Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The anchor says the Technical Steering Committee has not received Cardano Treasury funding within the past 24 months, while Intersect and its committees have received funding through listed governance actions totaling 22,385,000 ADA.",
+        "note": "Matches Prior Treasury Funding Disclosure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The listed prior funding actions are 15,750,000 ADA for Intersect MBO, 750,000 ADA for Cardano Product Committee roadmap insights, and 5,885,000 ADA for OSC Budget Proposal.",
+        "note": "Matches the Prior Treasury Funding Disclosure table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The 2026 Treasury Reserve Smart Contract stake address in the anchor is stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, matching the withdrawal reward address.",
+        "note": "The same stake address appears in Budget Management Tooling and onChain.gov_action.rewards.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The anchor states Intersect will use a single Treasury Reserve Smart Contract and one Project-Specific Smart Contract, with five Intersect admin roles, three Intersect leadership roles, and an Oversight Committee of six external independent third-party entities.",
+        "note": "Directly stated under Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The Oversight Committee entities named are Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Directly stated under Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The high-level smart contract permissions include multi-party authorization thresholds for TRSC Fund/PSSC Modify, TRSC Disburse, TRSC Pause and Resume, TRSC Sweep, and TRSC Reorganize.",
+        "note": "The listed high-level permissions include those actions and authorization thresholds.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The anchor says the TRSC and PSSC cannot be staked with an SPO and are delegated to the auto-abstain predefined DRep.",
+        "note": "Directly stated under Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The anchor says funding will be directed into the TRSC stake address upon enactment, then later transferred to the PSSC using the Fund action when the legal contract is prepared and the vendor is ready.",
+        "note": "Directly stated under Processes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. On-chain recipient history says stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totaling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. On-chain DRep vote counts so far are yes=35, no=11, abstain=5, explicit ballots and not stake-weighted.",
+        "note": "Matches Source Material 1 DRep vote counts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. Treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. BEACN doctrine prioritizes constitutional integrity/protocol safety, then treasury stewardship/downside protection, then evidence quality/reproducibility, then public-benefit ecosystem growth, then execution speed/social consensus momentum.",
+        "note": "Matches values_hierarchy.md ordering.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. BEACN doctrine rejects FCFS budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Directly stated in treasury_spending_doctrine.md.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. BEACN doctrine says if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN; if treasury upside is plausible but non-verifiable, apply a caution penalty and in practice NO or ABSTAIN on thin asks.",
+        "note": "Supported by values_hierarchy.md and the dossier gate posture in treasury_spending_doctrine.md.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "6a468f5bc47fcf6a669d76b2f22370400896e7b0563451c193e23e004df5e539",
+    "passed": true,
+    "prompt_sha256": "808a0301fd1035f20ec37795292e4934839c6e72ae4f6d5fd4a50b67aa1a247f",
+    "summary": "All 26 dossier facts are supported by the supplied source material. No contradicted facts or invented material specifics were found.",
+    "support_ratio": 1.0,
+    "supported": 26,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 26,
+    "verified_at_utc": "2026-07-04T17:03:31+00:00"
+  }
 }
