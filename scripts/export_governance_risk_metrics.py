@@ -70,13 +70,18 @@ COPY (
 ) TO STDOUT WITH CSV HEADER
 """
 
+# Chain fees come from the pre-aggregated public.epoch table (dbsync maintains
+# per-epoch fee totals) instead of summing tx.fee over a 180-day block join,
+# which seq-scanned the full tx table (~52s, ~17GB read per run). The window is
+# the last 36 epochs (tip-35..tip, current partial epoch included) — the epoch
+# analog of 180 days, matching the pot/enacted windows below.
 Q_TREASURY_FLOW_6M = """
+with tip as (select max(no) as e from public.epoch)
 select
   coalesce((
-    select sum(tx.fee)::bigint
-    from public.tx tx
-    join public.block b on b.id = tx.block_id
-    where b.time >= (now() at time zone 'utc') - interval '180 days'
+    select sum(ep.fees)::bigint
+    from public.epoch ep, tip
+    where ep.no > tip.e - 36
   ),0) as chain_fees_6m_lovelace,
   coalesce((
     select sum(tw.amount)::bigint
@@ -234,7 +239,7 @@ def main() -> None:
         "basis": {
             "inflow": "ada_pots treasury delta + enacted withdrawals (tau + donations)",
             "outflow": "treasury_withdrawal joined to gov_action_proposal.enacted_epoch (enacted only)",
-            "fee_inflow": "20% of chain fees — organic-revenue context only",
+            "fee_inflow": "20% of chain fees (public.epoch per-epoch fee aggregate, last 36 epochs) — organic-revenue context only",
             "proposed_withdrawals": "sum over proposals submitted in window regardless of ratification",
         },
     }
