@@ -1,0 +1,34 @@
+{
+  "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "644",
+    "metadata_title": "Strike Finance Liquidity Deployment",
+    "proposed_epoch": "637",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmYM4nuNZTVMiMmvCr7mntct7YE1VgWyLgxGhyfWptgFgC",
+    "content_chars": 19707,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj-20260619T113033Z.bin",
+    "file_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
+    "reason": null
+  },
+  "anchor_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:45:57+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain DRep vote counts so far: yes=53 no=39 abstain=14 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "63bd7e4de52e12f28ad71248a2469f54d4703577714a35e2482a2cd4edeaa281",
+  "prompt_sha256": "8499fa572586127cb322f1a30d2dfe80b710e7aaf95d9d3aed31422c29ac1679",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

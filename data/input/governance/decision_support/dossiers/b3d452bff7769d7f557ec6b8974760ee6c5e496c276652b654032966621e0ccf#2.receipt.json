@@ -1,0 +1,34 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "645",
+    "metadata_title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026",
+    "proposed_epoch": "638",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreidws5xwzccvn6lqlqroqmkdhob4uop6k7mvrrjbs5gaxskevkerbe",
+    "content_chars": 14869,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw-20260624T113057Z.bin",
+    "file_sha256": "76976f6c88556f9705c22e831433b83ca39fe57d958c521974c0bc944aa89109",
+    "reason": null
+  },
+  "anchor_sha256": "aec72918c83dda2305b86f2a97e298bd2bf43493389e5e58c90fb1b8e079b088",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:39:04+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=50 no=15 abstain=3 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "a1e35956b3b72485bade8f4a2ed7c5e34d7b4605ea327d7ba134fec7660b23de",
+  "prompt_sha256": "11ee0d5a7a9ea9f59aa341544eb73fdde6ecabc53627c0979bb87a4cc3bb02e7",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

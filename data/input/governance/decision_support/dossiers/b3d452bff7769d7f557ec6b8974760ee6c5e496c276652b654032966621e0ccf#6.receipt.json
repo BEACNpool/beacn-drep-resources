@@ -1,0 +1,34 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "645",
+    "metadata_title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc...",
+    "proposed_epoch": "638",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreidixjkquc6xtimbbdwet2klabcdzbt6kduktlca2ywl3slpqlgx2q",
+    "content_chars": 15677,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn-20260624T113057Z.bin",
+    "file_sha256": "68ba550a0bd79a18108ec49e94b00443c867e50e8a9ac40d62cbdc96f82cd7d4",
+    "reason": null
+  },
+  "anchor_sha256": "02e2f8e7cb09fc53b764324b5e07d03b05112c81f26e9e30d6270232823c4f16",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:33:37+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=43 no=12 abstain=6 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "7b396aa98e405f6afc372a0f3362d65a7e931d1227ee0252dfe8b705be844c3a",
+  "prompt_sha256": "925bba65ac2d859cf1e5d1e2cf3ff4f7a4daffe648ba713fdf9294e85b8aa5cc",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

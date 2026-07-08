@@ -1,0 +1,34 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "645",
+    "metadata_title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex",
+    "proposed_epoch": "638",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreie2tzzdv7w4b2rplt3ng47abfyutra2agiyqdlxvgexpljdvkaezm",
+    "content_chars": 13870,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5-20260624T113057Z.bin",
+    "file_sha256": "9a9e723afedc0ea2f5cf6d373e0097149c41a0191880d77a98977ad23aa804cb",
+    "reason": null
+  },
+  "anchor_sha256": "0ff06615a73ec5c70060ac15f694bf6d04d1dc2218a788d2821aec065d0d9127",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:42:54+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=33 no=27 abstain=7 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "e8d7c03ae8b210babda152bfc0ef9745b17cc59a16c58da45f21fe626785d410",
+  "prompt_sha256": "a65b9819fa529eb17ace113a05a66d862377a00f5bc1d79b089ad5e44fa5dc95",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

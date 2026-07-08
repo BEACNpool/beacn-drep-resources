@@ -1,0 +1,34 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "645",
+    "metadata_title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...",
+    "proposed_epoch": "638",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreibk6uedirxck6snc6lozidgc77gu322rvdn572xjfpt6iyql4qe6i",
+    "content_chars": 17675,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf-20260624T113057Z.bin",
+    "file_sha256": "2af5083446e257a4d1796eca06617fe6a6f5a8d46deff57495f3f23105f204f2",
+    "reason": null
+  },
+  "anchor_sha256": "4071b91a1a6e86e078c66502c08b131219e0b4153e59f96257393ae112f7e235",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:36:23+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=39 no=23 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "8d13e3c5e821c559aa7297d4541ab24009392c6b4dad1031f5eec21da3742421",
+  "prompt_sha256": "6ecdbb9bc8a0b9269d445a4f97a480263be07a28265a2b919f19926e90e53a4f",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

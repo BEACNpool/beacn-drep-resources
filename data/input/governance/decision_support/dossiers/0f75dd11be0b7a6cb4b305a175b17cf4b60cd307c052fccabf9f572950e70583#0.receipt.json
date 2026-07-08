@@ -1,0 +1,238 @@
+{
+  "action_id": "0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "646",
+    "metadata_title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol",
+    "proposed_epoch": "639",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0",
+    "anchor_read": true,
+    "anchor_url": "https://raw.githubusercontent.com/sundial-protocol/alchemy-proposal/d5460de0ed4af81602c44b65567dd8a54cf1c61c/data.jsonld",
+    "content_chars": 23136,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2-20260624T113056Z.bin",
+    "file_sha256": "95b1c7b82fc16070198efa280db9312dc7aa0a42fc8eb5b91a64daedf8cbec57",
+    "reason": null
+  },
+  "anchor_sha256": "95b1c7b82fc16070198efa280db9312dc7aa0a42fc8eb5b91a64daedf8cbec57",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:28:02+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr appears in 61 withdrawal proposals totalling 660216978000000 lovelace (first 2025-07-17 02:35:25, last 2026-06-24 03:01:28)\nonchain DRep vote counts so far: yes=14 no=25 abstain=9 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "62e475af0a5ab706095c266d70cbf748e6593908949dd00fbf0db7ff8a876842",
+  "prompt_sha256": "07929bd5d8beca744f4e02a29ea39bb4baf6992a687ee6bc30506e2abb6ee641",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 35,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is 0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0; action type is TreasuryWithdrawals; proposed epoch is 639; expires after epoch 646.",
+        "note": "Source Material 0 states all four values exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The supplied action header lists treasury amount (lovelace) as '(none)'.",
+        "note": "Source Material 0 lists Treasury amount (lovelace): (none).",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor title is 'Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol'.",
+        "note": "Source Material 3 body.title matches exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the proposal requests 10,000,000 ada, using a reference value of approximately USD 0.20 per ada, for a total planning budget of approximately USD 2.0 million.",
+        "note": "The anchor abstract and rationale state these figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor splits the request into two separated pools: Pool 1 approximately USD 1.0 million for protocol infrastructure and staged launch liquidity; Pool 2 approximately USD 1.0 million for delivery, audit, integrations, dashboards, governance reporting, legal/compliance work, and go-to-market execution.",
+        "note": "The anchor abstract states this split and purposes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Pool 1 deployment is staged over three months: Month 1 approximately USD 250,000 after audit and launch-readiness review; Month 2 approximately USD 250,000 after public reporting, operational review, and a 30-day grace period; Month 3 approximately USD 500,000 after mint/redeem thresholds, reserve-ratio tracking, growth-rate monitoring, and dashboard performance are confirmed.",
+        "note": "The anchor rationale states the three-month staged deployment with these tranche amounts and conditions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the initial reserve target is approximately USD 800,000 FIRE-side liquidity and approximately USD 200,000 ICE-side liquidity, subject to final optimization based on economic modeling, audit feedback, and launch conditions.",
+        "note": "The anchor rationale states this exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states each tranche is expected to be purchased at an approximate 4:1 FIRE-to-ICE ratio to move the system toward a 5.0x reserve ratio.",
+        "note": "The anchor rationale states this exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states launch liquidity will be treasury-supported and treasury-owned, and all profits, yield, and returns generated by the launch liquidity position will be returned to the Cardano Treasury quarterly, converted into ada through Cardano-native DEXs at commercially reasonable rates, with conversion timing and methodology disclosed in monthly reports.",
+        "note": "The anchor rationale states these launch-liquidity terms.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states launch-liquidity principal can be returned to the Treasury after Alchemy reaches a 30-day time-weighted average TVL of at least USD 60 million, subject to a formal governance proposal for DRep and Constitutional Committee review.",
+        "note": "The anchor rationale states this condition and review path.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Pool 2 planned allocation is: USD 250,000 protocol infrastructure; USD 300,000 engineering, platform, delivery, monitoring, reporting, and capital-formation support; USD 200,000 independent security review, audit, and economic modeling; USD 100,000 public dashboards, wallet flows, DEX adapters, documentation, and composability guides; USD 75,000 legal, compliance, disclosures, treasury reporting, risk documentation, and launch-readiness review; USD 50,000 ecosystem education, DRep communications, partner activation, and launch coordination; USD 25,000 fund administration and accounting.",
+        "note": "The anchor rationale gives this itemized Pool 2 allocation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states funds may be reallocated between delivery categories as requirements are finalized, but total delivery spend may not exceed the approved delivery budget; material reallocations will be disclosed.",
+        "note": "The anchor rationale states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states the infrastructure and launch liquidity pool remains separate and cannot be used for implementation overruns, general operating expenses, personal compensation, or any purpose outside approved deployment.",
+        "note": "The anchor rationale states this restriction.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states there are no DRep funds or personal compensation to Sundial or Charms principals.",
+        "note": "The anchor rationale states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states that if Sundial or Charms receives external investment for Alchemy development, the development portion of the treasury request will roll into additional treasury-supported launch liquidity instead of duplicating compensation.",
+        "note": "The anchor abstract and rationale state this rollover commitment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states maximum acceptable ADA reference rate is USD 0.35; if ADA appreciates above that level before or during delivery, future milestone withdrawals will be reduced or excess ada will be returned.",
+        "note": "The anchor rationale states this ADA price protection.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states deployment pauses if milestones are missed, reporting lapses, liquidity-health thresholds are breached, or material risks emerge, until the issue is resolved or governance provides direction.",
+        "note": "The anchor rationale states these pause rules.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states unused delivery funds, excess ada resulting from price protection, and profits/yield/returns generated by launch liquidity will be returned to the Treasury under the reporting process.",
+        "note": "The anchor rationale states these refund and return conditions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor proposes Intersect as interim fund administrator, subject to confirmation and final agreement; if Intersect does not confirm within 30 days of enactment, the proposer will nominate an alternative independent administrator, subject to community notice and appropriate constitutional review.",
+        "note": "The anchor rationale states this administrator fallback.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states any ada held by the administrator will be kept in auditable accounts and delegated to auto-abstain, not to a Stake Pool Operator.",
+        "note": "The anchor abstract and rationale state this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Sundial remains accountable for controlled deployment of treasury-linked funds, compliance with use restrictions, reporting, coordination with Charms, and delivery of the funded scope.",
+        "note": "The anchor rationale states Sundial's accountability in these terms.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor states Sundial will disclose related-party relationships and material commercial arrangements involving Sundial, Charms, or third parties connected to this proposal.",
+        "note": "The anchor rationale states this disclosure commitment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposed Alchemy mechanics include a shared BTC reserve architecture, FIRE and ICE backed by the same BTC reserve, reserve ratio formula (V x P) / L, FIRE price formula ((V x P) - L) / N+, and an initial target reserve ratio of 5.0x.",
+        "note": "The anchor rationale states each of these mechanics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor describes safety zones: above 4.0x normal FIRE and ICE minting and redemption are enabled and ICE growth continues under formula; between 2.0x and 4.0x new ICE minting and FIRE redemption are constrained while incentives are dynamically balanced; below 2.0x FIRE and ICE minting and redemption are constrained and new risky activity pauses.",
+        "note": "The anchor rationale describes these safety zones.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor identifies main risks as BTC volatility, oracle risk, bridge risk, Charms protocol-layer risk, novel asset user-understanding and regulatory-treatment risk, delivery risk, and adoption risk.",
+        "note": "The anchor rationale's risk paragraph identifies these risks.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor names mitigation measures including 5.0x target reserve ratio, hard safety zones, staged deployment, independent security review, economic modeling, dashboards, pause rules, legal/compliance work, disclosures, milestone gating, fund separation, reporting, administrator oversight, launch liquidity, integrations, go-to-market execution, and rollover commitment.",
+        "note": "The anchor rationale names these mitigation measures across the risk and protections sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain recipient history states stake address stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr appears in 61 withdrawal proposals totalling 660216978000000 lovelace, first 2025-07-17 02:35:25 and last 2026-06-24 03:01:28.",
+        "note": "Source Material 1 states this recipient history exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=14 no=25 abstain=9, explicit ballots and not stake-weighted.",
+        "note": "Source Material 1 states these vote counts and qualifier.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Source Material 1 states these treasury-flow figures exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and reproducibility, public-benefit ecosystem growth, and execution speed/social consensus momentum, while constitutional integrity and protocol safety is highest.",
+        "note": "Source Material 2 values hierarchy lists this ordering.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, the default is to prefer ABSTAIN.",
+        "note": "Source Material 2 conflict handling defaults state this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states a soft gate for TreasuryWithdrawals without a complete dossier: score directionally with an explicit -0.10 caution penalty on top of base treasury penalty and conservative reasoning lean; incomplete diligence is always recorded as explicit uncertainty.",
+        "note": "Source Material 2 Dossier Gate Posture states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Source Material 2 Treasury Spending Doctrine states this core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that within the available budget, proposals are funded by DRep approval weight descending, not submission order.",
+        "note": "Source Material 2 prioritization section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor references other providers or mechanisms including Intersect as proposed administrator, alternative independent administrator if Intersect does not confirm, Cardano-native DEXs for conversion, external investment as a development-funding source, and a formal governance proposal for return of principal.",
+        "note": "The anchor rationale references all listed providers or mechanisms.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "b338ad09826003e0eb911663576bc1d6c00e643e0a6d7a8e1793b68866d05147",
+    "passed": true,
+    "prompt_sha256": "9cfe5ce68f3b7352ae48594f0d370803420428586e29e4f737290575d3175834",
+    "summary": "All 35 dossier facts are supported by the supplied source material. No contradicted facts or invented specific figures, names, dates, or commitments were found.",
+    "support_ratio": 1.0,
+    "supported": 35,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 35,
+    "verified_at_utc": "2026-07-08T12:55:10+00:00"
+  }
+}

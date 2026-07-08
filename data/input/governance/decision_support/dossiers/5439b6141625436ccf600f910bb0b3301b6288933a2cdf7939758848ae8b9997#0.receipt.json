@@ -1,0 +1,243 @@
+{
+  "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "646",
+    "metadata_title": "Blockfrost's transformation to not-for-profit",
+    "proposed_epoch": "639",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmYiT1K8KUr5wvAEkuLmiFJm79oy9pZ8CB3PbToAUePDYp",
+    "content_chars": 28748,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq-20260627T113103Z.bin",
+    "file_sha256": "a4019acaf7058cc1722cd830f8e86e00f8a974efa599ff2c3c5819713d186c36",
+    "reason": null
+  },
+  "anchor_sha256": "bbd4ec30418c42f956843ed223ac26a5e03138f4e6437b22ab2526992f4374b0",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:23:34+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=20 no=24 abstain=6 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "c026d250713454451a790f9d824f7c0f33b216e152ec1f37aa172f3007716357",
+  "prompt_sha256": "f66b43c1163be38def78cf68b180058d4430131a15414d1d82e33d44a2953622",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 36,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is 5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0; action type is TreasuryWithdrawals; proposed epoch is 639; expires after epoch 646.",
+        "note": "Matches Source Material 0 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The anchor title is \"Blockfrost's transformation to not-for-profit\".",
+        "note": "Matches anchor body.title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor states a total ask of **\u20b39,832,979** and \"$1,868,266 at $0.19/\u20b3\" for an 18-month transition and operations period.",
+        "note": "The abstract and budget/funding sections state these amounts, conversion rate, and 18-month transition/operations period.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The anchor on-chain rewards field directs \"9832979000000\" lovelace to stake address \"stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\".",
+        "note": "Matches anchor onChain.gov_action.rewards.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The supplied action header says \"Treasury amount (lovelace): (none)\", while the anchor on-chain rewards field contains \"9832979000000\" lovelace.",
+        "note": "Both quoted statements appear in the supplied materials.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The anchor says Blockfrost was founded in 2020 by Five Binaries and joined IOG in 2024 with the goal of decentralizing it.",
+        "note": "Stated in the motivation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The anchor cites State of the Cardano Developer Ecosystem survey usage figures for hosted platforms: 2022: 39.3%, 2023: 56.5%, 2024: 65.5%, 2025: 71.5%.",
+        "note": "Matches the listed usage figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The anchor states that last month Blockfrost served 781k unique visitors, more than 1.84 billion API requests, almost 700 rps, and over 7 TB of API data.",
+        "note": "Matches the current usage metrics text.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The anchor states that in most Cardano epochs, more than 50% of all transactions are submitted through Blockfrost, and that more than 100 Icebreakers have joined the decentralization effort.",
+        "note": "Both claims are stated in the current usage metrics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The anchor states that 90% of all Cardano traffic served through the Blockfrost API comes from the free tier.",
+        "note": "Stated in the transformation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposal says the not-for-profit will provide an open, free, public API covering Cardano mainnet, preview, and preprod networks in their current format.",
+        "note": "Stated in the transformation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposed governance model includes a five-seat board: four seats for open-source infrastructure development entities and one community seat.",
+        "note": "Matches the Governance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The preliminary board listed in the anchor consists of Beatrice Anihiri, Christina Gianelloni, Federico Weill, Jeni Davidson, and Francis Luz.",
+        "note": "All five names are listed as the preliminary board.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The anchor states IOG will hold a non-voting, advisory seat during the first year of operation.",
+        "note": "The anchor says IOG will hold a non-voting, purely advisory seat during the first year.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The anchor states that all Blockfrost intellectual property, including source code, trademarks, domain names, and associated assets, will be transferred to the governing not-for-profit entity.",
+        "note": "Stated in Governance and repeated in the Q1 2027 deliverable.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The deliverables are sequenced as Q3 2026 entity establishment and transition kickoff, Q4 2026 board election, Q1 2027 transition of services and IP transfer, Q2-Q3 2027 sustainability consultation, and 2027 operational milestones 5-12 for sustained operations.",
+        "note": "Matches the Deliverables table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The operational milestone target is a minimum 99% monthly uptime SLA, measured and verifiable on the public dashboard, with quarterly reports covering technical metrics and budget summary.",
+        "note": "Stated in the 2027 operational milestones row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The budget allocation text states total funding of \"1,868,266 USD\", conversion rate \"0.19 USD per ADA\", and \"9,832,979 ADA\".",
+        "note": "Matches the Budget Allocation section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The budget table labels components as Staffing 79.1%, Ops & Infrastructure 19.3%, Legal, Accounting 1.6%, TOTAL 100%; the table cells show Staffing \"$1,478,266\" and \"7,780,347\", Ops & Infrastructure \"$360,000\" and \"1,894,737\", Legal, Accounting \"$30,000\" and \"157,895\", TOTAL \"$1,868,266\" and \"9,832,979\".",
+        "note": "The row labels, percentages, and displayed cell values match the anchor table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The staffing budget includes salaries for a team of six and overhead: one project manager, one community manager, and four developers.",
+        "note": "Matches the Staffing budget paragraph.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The ops and infrastructure budget covers compute, hosting, tooling, and DevOps personnel at an expected cost of approximately \"$20,000 per month\".",
+        "note": "Matches the Ops & Infrastructure paragraph.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The anchor states any unspent post-transition infrastructure budget will be returned to the treasury.",
+        "note": "Stated in Budget Allocation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The anchor refund conditions state all funds not disbursed by the end of the delivery period will be returned to the Cardano Treasury, and partial delivery or scope reduction returns unspent funds proportionally.",
+        "note": "Matches Refund Conditions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The anchor states a written off-chain Legal Contract will be created between Input Output and Cardano Development Holdings, administered by Intersect.",
+        "note": "Matches Contract Management.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The anchor states milestones, acceptance criteria, payment amounts, and expected delivery dates will be agreed between Input Output and Intersect, acting on behalf of CDH.",
+        "note": "Matches Project Delivery.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The anchor states acceptance of work will be supported by a 3rd Party Assurer reviewing and signing off each project milestone against corresponding milestone deliverables in the Legal Contract.",
+        "note": "Matches Project Delivery.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The anchor states Intersect will use the Sundae Labs treasury management smart contract framework, with a 2026 Treasury Reserve Smart Contract stake address \"stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\".",
+        "note": "Matches Auditable Accounts & Fund Delegation.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The on-chain recipient history says stake address \"stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\" appears in 14 withdrawal proposals totaling 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The on-chain DRep vote counts so far are yes=20, no=24, abstain=6, explicit ballots not stake-weighted.",
+        "note": "Matches Source Material 1 DRep vote counts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The 36-epoch treasury flow supplied is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The anchor states IO and affiliated entities have been allocated \u20b3130,708,860 across projects within Treasury Smart Contract, and IOG has withdrawn \u20b385,552,881 to date.",
+        "note": "Matches Prior Treasury Receipts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The prior treasury receipts table lists Blockfrost \u20b31,137,500 received, 88% of allocation, corresponding governance action 8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#2.",
+        "note": "Matches the Blockfrost row in Prior Treasury Receipts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "33. The anchor states the requested amount does not, at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Matches Net Change Limit Compliance.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. BEACN doctrine prioritizes treasury stewardship and downside protection above evidence quality and public-benefit ecosystem growth.",
+        "note": "The values hierarchy lists treasury stewardship/downside protection second, evidence quality third, and public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. BEACN doctrine states a TreasuryWithdrawals action without a complete dossier is scored directionally with an explicit -0.10 caution penalty under the current soft gate.",
+        "note": "Stated in the Dossier Gate Posture soft gate section.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "65d5a240a043fbef9e00b2fddffb2cdcfd9e3f917db0dc093d2128ff0235d3a0",
+    "passed": true,
+    "prompt_sha256": "4cba3332b55c11560de2ccbec7db3417593bca4a49e8b9e881d5c7135c4d8e29",
+    "summary": "All 36 checked facts are supported by the supplied source material. No contradicted facts or invented specific figures, names, dates, or commitments were found.",
+    "support_ratio": 1.0,
+    "supported": 36,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 36,
+    "verified_at_utc": "2026-07-08T12:52:32+00:00"
+  }
+}

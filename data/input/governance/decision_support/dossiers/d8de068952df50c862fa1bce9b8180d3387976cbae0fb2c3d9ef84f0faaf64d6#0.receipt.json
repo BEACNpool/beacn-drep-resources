@@ -1,0 +1,293 @@
+{
+  "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "646",
+    "metadata_title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027",
+    "proposed_epoch": "639",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmdWtCCvK6CJUzP4SFiuL5W8hg3eNr5LyngJHnwjoNxJey",
+    "content_chars": 32544,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j-20260625T113100Z.bin",
+    "file_sha256": "5638dce7b2360cdea8ba04ae975fecebfdff0051b809581fbd27037b92dee950",
+    "reason": null
+  },
+  "anchor_sha256": "f334fad32cfb0bca90104a7be394d93ddd20c98ad68a53c0b00dce9428916923",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:21:59+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=54 no=8 abstain=1 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "7ec6ff06eac6359e23e6502e1338e238583fcb84045e784e588e35c77e6764e0",
+  "prompt_sha256": "e71c0e7eaabde751955f02cae776001ee44b4aa1f34d05ec3076a9daae5566b6",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 46,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action id is d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0; action type is TreasuryWithdrawals; proposed epoch is 639; expires after epoch 646.",
+        "note": "Matches Source Material 0 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The anchor title is \"Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027\".",
+        "note": "Anchor body title matches this text.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The anchor on-chain withdrawal reward is to stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value \"1785333000000\" lovelace, equal to 1,785,333 ADA.",
+        "note": "Anchor onChain rewards contains that key and value; 1,785,333 ADA equals 1,785,333,000,000 lovelace.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The supplied top-level action context states treasury amount (lovelace): (none), while the anchor body contains a treasury withdrawal reward of \"1785333000000\" lovelace.",
+        "note": "Source Material 0 says treasury amount is none; anchor onChain reward value is 1785333000000.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The proposal describes Daedalus as Cardano's only full-node desktop wallet, running an embedded Cardano node and deriving wallet and governance data directly from chain without third-party APIs or trusted backends.",
+        "note": "Stated in the proposal abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The proposal states Daedalus private keys are generated and stored on the user's device and never transmitted to an external service.",
+        "note": "Stated in the proposal abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The proposal states Daedalus is open-source under the Apache License 2.0.",
+        "note": "Stated in the proposal abstract and rationale.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The proposal states opt-in telemetry shows approximately 4,000 monthly active Daedalus users, while asserting the true count is meaningfully higher because privacy-conscious users are less likely to opt in.",
+        "note": "Stated in the proposal abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal is described as a time and materials engagement covering Protocol Maintenance, Ecosystem Expansion, and User Support.",
+        "note": "Stated in the proposal abstract with those three areas.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposed work includes node upgrades, hard fork readiness for Leios, Peras, and Nested Transactions, and a compatible release at least 2 weeks before every mainnet hard fork.",
+        "note": "Stated under Protocol Maintenance in the abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The proposed ecosystem expansion includes Keystone and Flex hardware wallet support, CIP-30 dApp connector, and Japanese localisation.",
+        "note": "Stated under Ecosystem Expansion in the abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The proposal states IOG continues to support binary signing for cryptographic release authenticity during the funding transition.",
+        "note": "Stated in the proposal abstract.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The proposal says Se7en Labs assumed responsibility for Daedalus under an IOG contract in January 2026 and that the contract closes August 31, 2026.",
+        "note": "Both dates are stated in the track record / prior funding disclosure sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The proposal says Se7en Labs has not received ada from the Cardano Treasury within the last 24 months.",
+        "note": "Stated in the track record and prior treasury funding disclosure sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal lists shipped work since January 2026: Mithril Snapshot Bootstrap, UTxO-HD / LSM Backend, Apple Silicon aarch64 builds, drt Release CLI, and Nix Build Modernization.",
+        "note": "These five shipped items are listed under Daedalus Delivery Record.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The proposal lists in-progress work: DRep Selection Dashboard, Ouroboros Genesis support, newer hardware wallet support, Electron upgrade, and partial Mithril sync.",
+        "note": "These items are listed as in progress under Daedalus Delivery Record.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The proposal says the team shipped Daedalus 8.0 and 11.0 within the IOG contract period and that Daedalus 11.0 was the first wallet capable of crossing the node 11.0 hard fork.",
+        "note": "Stated under Proven Capabilities.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The budget summary lists Maintenance and Improvements 1,666,667 ADA; Test Hardware 33,333 ADA; Financial Audit 33,333 ADA; Intersect Budget Administration fee 52,000 ADA; Total 1,785,333 ADA.",
+        "note": "Matches the Budget Summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The budget text states any unspent labor budget, hardware budget, and audit budget at contract close is returned to the treasury.",
+        "note": "The Team, Test Hardware, and Financial Audit budget bullets each state unspent amounts are returned.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The proposal states audit and oversight costs are included within overhead and that Intersect administration fee covers administrative oversight.",
+        "note": "Stated under Audit & Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The proposal states Intersect serves as administrator and independent milestone verifier, monitors fund use, confirms acceptance criteria, and authorizes disbursements.",
+        "note": "Stated under Administration and Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The proposal states funds are disbursed monthly against verified work.",
+        "note": "Stated under Administration and Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The proposal states treasury withdrawal funds will be held by Intersect in a dedicated account auditable by the Cardano Community, delegated to the predefined abstain voting option, before monthly disbursement to Se7en Labs.",
+        "note": "Stated under Administration and Oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. The proposal states Intersect will use the treasury management smart contract framework developed by Sundae Labs, with one Treasury Reserve Smart Contract and one Project-Specific Smart Contract.",
+        "note": "Stated under Intersect Budget Management Tooling and Specifics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. The anchor gives the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Anchor lists this as the 2026 Treasury Reserve Smart Contract stake address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. The anchor gives the 2026 Treasury Reserve Smart Contract payment address as addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w.",
+        "note": "Anchor lists this exact TRSC payment address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. The anchor gives the 2026 Project Specific Smart Contract payment address as addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay.",
+        "note": "Anchor lists this exact PSSC payment address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. The proposal names the Oversight Committee as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.",
+        "note": "These six entities are named in the Specifics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. The proposal risk register lists ADA/USD exchange rate volatility as High likelihood and High impact, mitigated by prompt conversion to USD-backed stablecoins and USD-denominated labor invoiced at spot rate.",
+        "note": "Matches the risk register row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "30. The proposal risk register lists cardano-node upstream API changes as Medium likelihood and High impact, mitigated by time-and-materials scope absorption and working relationship with upstream IOG engineers.",
+        "note": "Matches the risk register row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "31. The proposal risk register lists Leios/Peras complexity underestimate as Medium likelihood and Medium impact, mitigated by time-and-materials scaling to actual complexity.",
+        "note": "Matches the risk register row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "32. The proposal risk register lists platform dependency changes as Low likelihood and High impact, mitigated by IOG binary signing and the drt toolchain.",
+        "note": "Matches the risk register row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "33. The proposal risk register lists team continuity over 12-month contract as Low likelihood and High impact, mitigated by founding members' Cardano track records and documented processes in drt and Nix build infrastructure.",
+        "note": "Matches the risk register row.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "34. Success metrics include a compatible release at least 2 weeks before each mainnet hard fork, cardano-node no more than 2 major versions behind mainnet recommended at any time, 100% of official releases signed, all four platform builds passing CI, timely critical security issue handling, Keystone and Flex support, CIP-30 in stable release, user support including Japanese responses, full Japanese translation, and architecture assessment by Q3 2027.",
+        "note": "All listed items appear in the Success Metrics section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "35. The proposal states release-timing and version-currency metrics are independently verifiable from public GitHub repositories and the Cardano mainnet chain without applicant self-reporting.",
+        "note": "Stated immediately after the success metrics.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "36. Milestones are listed for Hard Fork Integration, Ongoing Maintenance, Leios/Peras Readiness, Hardware Wallet Support, CIP-30 dApp Connector, User Support, and Architecture Assessment.",
+        "note": "These are the milestone headings in the proposal.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "37. The Net Change Limit section states the requested amount does not at submission, alone or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.",
+        "note": "Stated in the Net Change Limit Compliance section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "38. On-chain recipient history says stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "39. On-chain DRep vote counts so far are yes=54, no=8, abstain=1, explicit ballots and not stake-weighted.",
+        "note": "Matches Source Material 1 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "40. Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "41. BEACN doctrine prioritizes constitutional integrity and protocol safety first, treasury stewardship and downside protection second, evidence quality and reproducibility third, public-benefit ecosystem growth fourth, and execution speed/social consensus momentum fifth.",
+        "note": "Matches the Values Hierarchy ordering.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "42. BEACN doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN.",
+        "note": "Stated under Conflict handling defaults.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "43. BEACN doctrine states that if treasury upside is plausible but non-verifiable, judge directionally on the available public record with a caution penalty, and in practice NO or ABSTAIN on thin asks.",
+        "note": "Stated under Conflict handling defaults and Dossier Gate Posture.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "44. BEACN doctrine rejects first-come-first-served treasury budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "Stated in the Treasury Spending Doctrine core position.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "45. BEACN doctrine says requested ADA per deliverable should decrease where work can be substantially accelerated by AI tooling.",
+        "note": "The doctrine states requested ADA per deliverable should decrease and applies this where work can be substantially accelerated by AI tooling.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "46. BEACN doctrine says within available budget, proposals are funded by DRep approval weight descending, not submission order.",
+        "note": "Stated under Prioritization: DRep Approval Threshold.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "27eee56b65c822db3afadc79585edd1730a20b2d624b9e805ad3e6471268863d",
+    "passed": true,
+    "prompt_sha256": "c25d800141a5e0e9311088e06f4cdaa06cb7e67885f8e7d5aaf175aa0529aa61",
+    "summary": "All 46 dossier facts are supported by the supplied source material. No contradicted facts or invented material specifics were found.",
+    "support_ratio": 1.0,
+    "supported": 46,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 46,
+    "verified_at_utc": "2026-07-08T12:51:21+00:00"
+  }
+}

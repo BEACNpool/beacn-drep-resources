@@ -1750,5 +1750,17 @@
     "cached_at_utc": "2026-07-04T04:08:10Z",
     "source_url": "ipfs://QmZwHmFoyhd18WMRhv9356CXfbUqjkPsKKGZtCpVLaWgcU",
     "anchor_hash": "f95bd74697b3499760bc768b7400d9c1f57d3ff447e1c51cb9f0ec24a94c782b"
+  },
+  "cf4a67c71b8be73c99d0806387cdcaf04cd9337f7dd76fe27fa4395bf27a6284": {
+    "anchor_url": "https://ipfs.io/ipfs/QmRyqT2c9tHbk9hMrYjjpJ3omRSC2HpSVCBT69kYsm7Szr",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983-0-20260708T113010Z.bin",
+    "file_sha256": "cdc48d2b3b3f1c2730744515062f662e0813a877d4f5cd836fa906472abdedfc",
+    "content_bytes": "35038",
+    "request_profile": "0",
+    "cached_at_utc": "2026-07-08T11:30:10Z",
+    "source_url": "ipfs://QmRyqT2c9tHbk9hMrYjjpJ3omRSC2HpSVCBT69kYsm7Szr",
+    "anchor_hash": "c36315b5d8b5ebb5b824b4d201fb4837e75bb88d68672c413a59212900017179"
   }
 }

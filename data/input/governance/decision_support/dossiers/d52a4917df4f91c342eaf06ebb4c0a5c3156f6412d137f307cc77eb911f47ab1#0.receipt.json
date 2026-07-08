@@ -1,0 +1,34 @@
+{
+  "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "643",
+    "metadata_title": "Reimburse Ikigai Info Governance Action Deposit.",
+    "proposed_epoch": "636",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
+    "anchor_read": true,
+    "anchor_url": "https://most-brass-sun.quicknode-ipfs.com/ipfs/QmSy2CiQhPBzzNLKDFVvMQaDb1FQDbmn9bJf6fVntVAQ1t",
+    "content_chars": 4631,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq-20260615T152518Z.bin",
+    "file_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
+    "reason": null
+  },
+  "anchor_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:46:55+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain DRep vote counts so far: yes=132 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "84979d4ee78d06e28bf4777b688dc4c7044182404b15b2b510a3157fde6efc98",
+  "prompt_sha256": "0dddc873af7f692f4b0d7c1bbc0ff0d57d3ed74ae34093d82f3671e5361320fc",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

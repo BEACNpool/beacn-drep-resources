@@ -1,0 +1,34 @@
+{
+  "action_id": "4f6e5df9a6e14bd49e406e2bbb0d108b3be2be64b9569b930053a0c1eebe0d47#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "642",
+    "metadata_title": "IO: Hydra",
+    "proposed_epoch": "635",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "4f6e5df9a6e14bd49e406e2bbb0d108b3be2be64b9569b930053a0c1eebe0d47#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmYaPeha2PvacQxAwt5ZRsunGGgVbNwgDzu9pxLWA8zS9d",
+    "content_chars": 42574,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1fah9m7dxu99af8jqdc4mkrgs3va790nyh9tfhycq2wsvrm47p4rsqtcm6ry-20260615T152518Z.bin",
+    "file_sha256": "28c46a967de76bf1430d86557393b6a112d0b8631759e6a7d85d054452d74fee",
+    "reason": null
+  },
+  "anchor_sha256": "44dd9871650cd62c6ec00dbe65cd7c66aee565464cdfa1e4cd3ea30aef19d04c",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:48:10+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr appears in 61 withdrawal proposals totalling 660216978000000 lovelace (first 2025-07-17 02:35:25, last 2026-06-24 03:01:28)\nonchain DRep vote counts so far: yes=165 no=17 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "d06850f1fa1e91b4d75971a1e8eec1abe52305673be651e3c84ea7c6d1698bb1",
+  "prompt_sha256": "86f362896131ae6692ad400b4b343f52b7beb012fe83cd97592c984051f70312",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

@@ -1,0 +1,34 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "645",
+    "metadata_title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline",
+    "proposed_epoch": "638",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreicf3r76m64xzy4jqhfbbhmzwpjz2qcw7q27hzjm3r7eo24lbxr7li",
+    "content_chars": 14088,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667-20260624T113057Z.bin",
+    "file_sha256": "45dc7fe67b97ce38981ca109d99b3d39d4056fc35f3e52cdc7e476b8b0de3f5a",
+    "reason": null
+  },
+  "anchor_sha256": "7f4f2df19328e03edac4767887019b14715d136f3b2ed1ffd8a328a6561f7a96",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:32:20+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=50 no=11 abstain=3 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "d158646bc45539c1f01018f3a0139614aa39db3540c3c8086904bcfbc3f94e62",
+  "prompt_sha256": "8ef805aff2f96a19c5376092a26a3f7e18480e85626fff1b144604b55a92d9ee",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.3.0"
+}

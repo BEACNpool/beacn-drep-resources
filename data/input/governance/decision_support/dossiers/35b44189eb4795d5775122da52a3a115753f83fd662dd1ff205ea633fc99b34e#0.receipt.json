@@ -1,0 +1,208 @@
+{
+  "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "646",
+    "metadata_title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform",
+    "proposed_epoch": "639",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmYVmiR5xqF5kTW55EazGVsC5rsBxPno94m1sDu4SFndMc",
+    "content_chars": 27770,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d-20260625T113100Z.bin",
+    "file_sha256": "43934d3d5d83db7e22ba1f5467213f7664b817607355a2ddd27246b1190b0fe5",
+    "reason": null
+  },
+  "anchor_sha256": "f1e8ac3b91d7103e776c34ed84faa6fe97077f033ec04878aa225e6db31a8183",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:26:25+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=29 no=23 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "dc018bfd5535893254210547feb599364881bbff5a04867d6d8ce2d583ac80b7",
+  "prompt_sha256": "fca88b61f51cde161c2124949dd695e2b5e02bdb422d72210119610abe1b0f13",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 29,
+    "fact_verdicts": [
+      {
+        "fact": "1. Action 35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0 is a TreasuryWithdrawals governance action titled \"Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform\" proposed in epoch 639 and expiring after epoch 646.",
+        "note": "Matches Source Material 0 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "2. The anchor identifies authors as Anvil Development Agency, Inc. and Intersect, each with ed25519 witness data.",
+        "note": "Anchor authors array lists both names and each witnessAlgorithm is ed25519.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "3. The on-chain metadata reward directs \"4969231000000\" lovelace to stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "note": "Anchor onChain.gov_action.rewards contains that key and value.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "4. The proposal states the withdrawal requests 4,969,231 ada, approximately \"$1,093,231 USD at $0.22/ADA\", over 8 months, disbursed against milestones.",
+        "note": "Stated in the abstract and repeated in Funding & Treasury Repayment Structure.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "5. The proposal describes Phase 2 as funding a secondary marketplace, on-chain royalty enforcement, anti-scalping controls, wallet onboarding, organizer tools, an independent third-party security audit, and a professional launch campaign.",
+        "note": "All listed components appear in the abstract and What This Withdrawal Builds section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "6. The proposal states Phase 1 includes on-chain event creation, CIP-68 ticket minting, transfers, and attendance verification, and says it is already live on Cardano mainnet and funded by Sellout with \"over $130k invested\".",
+        "note": "The abstract and Risk Mitigation section state these details.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "7. The proposal states Sellout has \"200,000+ registered users\", \"250,000+ tickets issued to date\", and \"350+ events annually at current cadence\".",
+        "note": "Team & Track Record section states these figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "8. The proposal states the Yellowstone Club 2026 series is the contracted anchor deployment and gives a 2025 historical figure of \"$5.88M\" with a Year 1 projection of \"$6M+\" through Cardano.",
+        "note": "The abstract, Core Objectives, and Mission critical text support this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "9. The proposal's 12-month targets from launch are \"200+ events on-chain\", \"75,000+ CIP-68 NFT tickets\", \"150,000+ on-chain interactions\", \"$6M+ ticket revenue on-chain\", and \"20,000+ new wallets\".",
+        "note": "Core Objectives lists these 12-month targets.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "10. The proposal also states expected value as \"100,000+ on-chain transactions\" and \"20,000+ new wallets in year one\" in one section, while the Core Objectives section states \"150,000+ on-chain interactions\".",
+        "note": "Expected Value / ROI contains the 100,000+ transactions and 20,000+ wallets statement; Core Objectives contains 150,000+ interactions.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "11. The capital allocation table totals 4,824,431 ada work package sub-total, 144,800 ada Intersect administration fee, and 4,969,231 ada total.",
+        "note": "Capital Allocation table states these totals.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "12. The budget includes line items for labor, Sellout Web2 development, three marketing conference activations, a BigStorm marketing campaign, independent third-party audit, infrastructure/tooling/dev environments, reserve/scope contingency, legal entity formation, and Intersect administration fee.",
+        "note": "Capital Allocation table includes each listed category or line item.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "13. The proposal states the reserve/scope contingency is 136,363 ada and is returned to the Treasury if unused at project completion.",
+        "note": "Capital Allocation gives 136,363 ada; Funding section says unused contingency is returned.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "14. The proposal states revenue-share repayment is a percentage of all fees: 25% sent to the Treasury until reimbursed in full, then 5% permanent fee, paid quarterly; it also states exact revenue-base definition and cadence are finalized in M1 contracting with the appointed oversight committee.",
+        "note": "Revenue-share repayment section states the 25%, 5%, quarterly payment, and M1 finalization language.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "15. The proposal states the team commits to repay \"$1,093,231\" to the Treasury through the revenue-share mechanism.",
+        "note": "Abstract and Expected Value / ROI state the commitment to repay $1,093,231.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "16. The milestone plan contains five milestones over 8 months: M1 Design & Architecture, M2 Marketplace Implementation on Testnet, M3 Organizer Tools, Audit & Documentation, M4 Mainnet Deployment & Production Integration, and M5 Public Launch, Amplification & Reporting.",
+        "note": "Milestones & Timeline lists these five milestones over 8 months.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "17. The proposal states milestone disbursement requires verified delivery accepted by the appointed oversight committee and says \"No deliverable acceptance, no disbursement.\"",
+        "note": "Constitutionality Disclosures states this exactly in circumstances for payment.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "18. The proposal states Intersect acts as budget administrator by prior agreement and holds/disburses funds through the Sundae Labs TRSC/PSSC framework with independent oversight.",
+        "note": "Abstract and Budget Administration section state this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "19. The proposal lists the 2026 TRSC stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, matching the on-chain withdrawal recipient.",
+        "note": "Budget Administration lists that TRSC stake address; anchor reward recipient uses the same address.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "20. The proposal states an Oversight Committee of six external, independent third parties: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, and Eternl.",
+        "note": "Budget Administration states this list.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "21. The supplied on-chain recipient history says stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totaling 57273260000000 lovelace, first 2026-06-23 16:14:33 and last 2026-06-26 13:51:52.",
+        "note": "Matches Source Material 1 recipient history exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "22. The supplied on-chain DRep vote counts so far are yes=29, no=23, abstain=4, explicit ballots and not stake-weighted.",
+        "note": "Matches Source Material 1 DRep vote counts exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "23. The supplied treasury flow over 36 epochs shows inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Matches Source Material 1 treasury flow exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "24. BEACN doctrine prioritizes treasury stewardship and downside protection above public-benefit ecosystem growth, after constitutional integrity and protocol safety.",
+        "note": "Values hierarchy orders constitutional integrity/protocol safety first, treasury stewardship second, public-benefit ecosystem growth fourth.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "25. BEACN doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, the default is to prefer ABSTAIN.",
+        "note": "Conflict handling defaults state this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "26. BEACN doctrine states that thin or unverifiable treasury asks resolve in practice to NO or ABSTAIN under the soft gate, with explicit uncertainty recorded.",
+        "note": "Dossier Gate Posture soft gate section states thin or unverifiable asks resolve to NO or ABSTAIN and incomplete diligence is recorded as uncertainty.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "27. BEACN doctrine says confidence is about verified evidence coverage, not penalty size.",
+        "note": "Values hierarchy states confidence is about verified evidence coverage, never penalty size.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "28. BEACN doctrine rejects first-come-first-served budget models and uses a rolling-window Net Change Limit framework.",
+        "note": "Treasury Spending Doctrine core position states this directly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "29. BEACN doctrine states any TreasuryWithdrawals action should apply the axiom that AI has collapsed marginal costs and that requested ada per deliverable should decrease where work can be substantially accelerated by AI tooling.",
+        "note": "Foundational Axiom section states AI collapsed marginal costs and instructs applying the axiom when evaluating TreasuryWithdrawals actions.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "e137b8c87925e2f741ec4aa0cb881f3520e9914732078597a72d7fd3d8d19651",
+    "passed": true,
+    "prompt_sha256": "10e95b81a1540d66c1291ca950c0260f087c352d7069f97a23fd97e1c092ffb0",
+    "summary": "All 29 dossier facts are supported by the supplied source material. No contradictions or invented specific figures, names, dates, or commitments were found.",
+    "support_ratio": 1.0,
+    "supported": 29,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 29,
+    "verified_at_utc": "2026-07-08T12:54:17+00:00"
+  }
+}

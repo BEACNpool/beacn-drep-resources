@@ -1,0 +1,158 @@
+{
+  "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "648",
+    "metadata_title": "Revised Cardano dOSPO and OMF Program Proposal",
+    "proposed_epoch": "641",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/QmRyqT2c9tHbk9hMrYjjpJ3omRSC2HpSVCBT69kYsm7Szr",
+    "content_chars": 34845,
+    "fetch_status": "ok",
+    "file_path": "data/input/governance/anchors/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983-0-20260708T113010Z.bin",
+    "file_sha256": "cdc48d2b3b3f1c2730744515062f662e0813a877d4f5cd836fa906472abdedfc",
+    "reason": null
+  },
+  "anchor_sha256": "df678eb493123ceb507306cfa39e12939c58ba078bc0a45b5ee65f534c866a46",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-08T12:16:11+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1uxgkzrl5sj2j2s934nj8lqxq9f5wey4w4r2r0k2xcez67ucmt09vd appears in 2 withdrawal proposals totalling 16094000000000 lovelace (first 2026-05-11 17:34:46, last 2026-07-08 03:35:17)\nonchain DRep vote counts so far: yes=0 no=0 abstain=0 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
+  "output_sha256": "f83ee6d24dd087591eb9ad5450b71689a5abb69e33ca0a016c19bff9478a1f12",
+  "prompt_sha256": "435c3e5f460ec9fd1786d0a962135684d7f9ba43a785cfe8fbe626664736c6ca",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "codex",
+    "contradicted": 0,
+    "fact_count": 19,
+    "fact_verdicts": [
+      {
+        "fact": "Action id is 2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0 and action type is TreasuryWithdrawals.",
+        "note": "Source Material 0 states this exact action id and action type.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor title is \"Revised Cardano dOSPO and OMF Program Proposal\".",
+        "note": "The anchor body title states this exact title.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The anchor onChain gov_action has tag \"treasury_withdrawals_action\" and one reward: key \"stake1uxgkzrl5sj2j2s934nj8lqxq9f5wey4w4r2r0k2xcez67ucmt09vd\", value \"4094000000000\" lovelace.",
+        "note": "The anchor onChain gov_action has that tag and exactly one listed reward with that key and value.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states: \"Total: 4,094,000 ADA over 12 months.\"",
+        "note": "The anchor motivation includes this exact statement.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The full program budget summary is WP1 Operations and Governance Infrastructure 760,000 ADA, WP2 Maintenance Fund 2,000,000 ADA, WP3 Maintainer Development Program 1,000,000 ADA, WP4 CodeForUs Bounty Program 167,000 ADA, WP5 Ecosystem Activation Reserve 167,000 ADA, TOTAL 4,094,000 ADA.",
+        "note": "The Full Program Budget Summary table lists these work packages and amounts.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal designates Christian Taylor / Open Source Cowboy Consulting as sole Article II.7.5 administrator from the moment of treasury withdrawal through the 12-month pilot term unless replaced by on-chain DRep Info Action.",
+        "note": "The Budget Administration section states this designation and replacement mechanism.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal designates Mill Law Firm as independent financial auditor for the full 12-month term, with quarterly financial reviews and an annual program audit.",
+        "note": "The anchor designates Mill Law Firm as independent financial auditor and lists quarterly reviews plus annual audit.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states that the 175,000 ADA WP2 portfolio reserve is returned at program end if undeployed, the 44,000 ADA WP5 activation reserve is returned if undeployed, unspent operational contingency is returned, and early termination returns all uncommitted funds within 30 days of a successful on-chain DRep Info Action replacing or removing the administrator.",
+        "note": "The Treasury Repayment and Repayment Conditions sections support these commitments.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states M1.2 non-achievement freezes the portfolio reserve if dOSPO entity formation is not completed by Month 6 until the milestone is achieved or governance votes on an alternative.",
+        "note": "The Repayment Conditions section states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal states advisory councils are advisory only, publish feedback before disbursements, and do not share administrator responsibility at withdrawal.",
+        "note": "The Administrator Designation and Advisory Council Role sections state these points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal says dOSPO legal entity formation is targeted as a 501(c)(3) public charity by Month 6, subject to US legal processes, and administrator transition to that entity requires a DRep Info Action.",
+        "note": "WP1 and Month 7 onward sections support this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "The proposal lists KPIs including 15+ high-centrality projects funded by end of Month 12, 40% top-50 dependencies funded by Month 12, 5% minimum Trusted Committer within 18 months, maintainer attrition below 15% annually, security response time under 48 hours, and transparency rate 100% (4 of 4 quarterly reports).",
+        "note": "The KPI Alignment section lists these targets.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain recipient history says stake address stake1uxgkzrl5sj2j2s934nj8lqxq9f5wey4w4r2r0k2xcez67ucmt09vd appears in 2 withdrawal proposals totaling 16094000000000 lovelace, first 2026-05-11 17:34:46 and last 2026-07-08 03:35:17.",
+        "note": "Source Material 1 states this exact recipient history.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "On-chain DRep vote counts so far are yes=0, no=0, abstain=0 explicit ballots, not stake-weighted.",
+        "note": "Source Material 1 states these exact vote counts and qualifier.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "Treasury flow over 36 epochs is inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492.",
+        "note": "Source Material 1 states these exact treasury flow figures.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine prioritizes constitutional integrity and protocol safety first, treasury stewardship and downside protection second, evidence quality and reproducibility third, public-benefit ecosystem growth fourth, and execution speed/social consensus momentum fifth.",
+        "note": "The Values Hierarchy lists these five priorities in this order.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "note": "The Treasury Spending Doctrine core position states this.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that if ecosystem growth conflicts with treasury stewardship and evidence is weak, prefer ABSTAIN; if rapid action conflicts with protocol safety, prefer NO or ABSTAIN until risk is reduced.",
+        "note": "The Conflict handling defaults state both rules.",
+        "verdict": "supported"
+      },
+      {
+        "fact": "BEACN doctrine states that TreasuryWithdrawals actions without a complete dossier are scored directionally under a soft gate with an explicit -0.10 caution penalty on top of the base treasury penalty and conservative reasoning lean.",
+        "note": "The Dossier Gate Posture section states this.",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "gpt-5.5",
+    "not_found": 0,
+    "output_sha256": "e5e7799bf6c4932e2d044a17deb1e689c640fa2e471833905424bfd61ed05956",
+    "passed": true,
+    "prompt_sha256": "ed2a8c3c575ac291af894b5e3cefafdf21aaaadf04c4ec92dd4de555efbdc10b",
+    "summary": "All 19 checked facts are supported by the supplied source material. No contradictions or invented specifics found.",
+    "support_ratio": 1.0,
+    "supported": 19,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 19,
+    "verified_at_utc": "2026-07-08T12:48:10+00:00"
+  }
+}
