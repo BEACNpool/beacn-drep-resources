@@ -47,13 +47,12 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "0572a9cf3e4c9e7077aababda9cc4580a935dae32ce34f7ec8baaad70791a91c",
+    "output_sha256": "1fd4f46ba21867fa0403f88e397c9e74ba35a96b8f181855bfd956cea52de861",
     "passed": false,
     "prompt_sha256": "41f206384f9e83d1ec0b2aef24f89189a5cc2def0b5a30089e33470212658d00",
     "summary": {
       "contradicted": 0,
       "not_found": 0,
-      "notes": "Every dossier fact traces cleanly to the cited source. One observation outside the checked facts: the action-header field 'Treasury amount (lovelace): (none)' is empty, but the dossier does not claim a value for it, so no discrepancy arises; the withdrawal amount is instead verified from the anchor's onChain rewards entry (1684050000000 lovelace).",
       "supported": 24
     },
     "support_ratio": 0.0,
@@ -63,6 +62,6 @@
       "min_fact_support_ratio": 0.9
     },
     "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T03:27:58+00:00"
+    "verified_at_utc": "2026-07-10T13:16:04+00:00"
   }
 }

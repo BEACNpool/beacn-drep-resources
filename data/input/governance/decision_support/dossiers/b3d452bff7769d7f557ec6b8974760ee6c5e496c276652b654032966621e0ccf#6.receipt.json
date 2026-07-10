@@ -47,12 +47,13 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "ec4818fe5a0c66d2a6286540357fef1ae1108bb08983b886d1c465c249072940",
+    "output_sha256": "fb205e6fbfcfb2d7f06e9e7fa902ac588585903536bbd43b65002938150138ac",
     "passed": false,
     "prompt_sha256": "c9c25c702822cf290dc59b5e2425ca5d2e3e9b4133f08cd0b308f48c4ca64df9",
     "summary": {
       "contradicted": 0,
       "not_found": 0,
+      "notes": "All facts verified against the supplied material with exact number, quote, and entity matches. Fact 7 documents a genuine 26-vs-15 team-count inconsistency inside the anchor document itself; the dossier reports it accurately, so it is not a dossier discrepancy, but it is a proposal-quality signal the decision layer may want to weigh.",
       "supported": 31
     },
     "support_ratio": 0.0,
@@ -62,6 +63,6 @@
       "min_fact_support_ratio": 0.9
     },
     "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T03:29:47+00:00"
+    "verified_at_utc": "2026-07-10T13:18:10+00:00"
   }
 }

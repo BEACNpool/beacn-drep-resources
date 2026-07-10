@@ -47,14 +47,10 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "099d5c865b656b727c8a0ddc07f75d66abd6f3d812ad62400196511350360096",
+    "output_sha256": "f516a2ae232d624872fc7c2bfefd3fc32cc13f39d9bae26cda6e41f244476e96",
     "passed": false,
     "prompt_sha256": "614087eea137fd76fcf510cfd619b02b4bd9fc8e8993d973f0148a146ff61a2d",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 22
-    },
+    "summary": "",
     "support_ratio": 0.0,
     "supported": 0,
     "thresholds": {
@@ -62,6 +58,6 @@
       "min_fact_support_ratio": 0.9
     },
     "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T03:34:15+00:00"
+    "verified_at_utc": "2026-07-10T13:23:01+00:00"
   }
 }

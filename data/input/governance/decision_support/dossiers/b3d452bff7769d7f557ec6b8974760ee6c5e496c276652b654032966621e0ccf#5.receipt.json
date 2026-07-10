@@ -47,10 +47,10 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "7e2491ef415fd25372e2845f7d478f6e4678958295c8ed529981b5fd51a7bb64",
+    "output_sha256": "ac5005020f8014b044f5094fa209d1c526f41fbed270bb710c6cc796ce041e7c",
     "passed": false,
     "prompt_sha256": "74da4b6143c54147aaef5b50ed9d7d38d40780a20e01517f0a5e2ffb8c2c3598",
-    "summary": "",
+    "summary": "29/29 facts supported, 0 contradicted, 0 not_found. The dossier's factual layer is faithful to the anchor document, on-chain context, and doctrine; no invented figures, names, dates, or commitments detected.",
     "support_ratio": 0.0,
     "supported": 0,
     "thresholds": {
@@ -58,6 +58,6 @@
       "min_fact_support_ratio": 0.9
     },
     "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T03:30:33+00:00"
+    "verified_at_utc": "2026-07-10T13:18:57+00:00"
   }
 }

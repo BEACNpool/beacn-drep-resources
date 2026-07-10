@@ -47,14 +47,10 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "370a33defbe5c45e60c596f00236b2e44447cbcb3b5e8bdd64766c25ad47c930",
+    "output_sha256": "63cf13f7aecfb718651b6d8ff59abc4250b3078d0bdebb2ecb0099423263729c",
     "passed": false,
     "prompt_sha256": "c6882e1fced886489abcde6e4b8c41a12c4ad7044170847bcda0cf1b7a0e3e35",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 30
-    },
+    "summary": "30/30 facts supported; 0 contradicted; 0 not_found. The dossier's figures (540,750 ADA total, 420,000 + 105,000 breakdown, $105,000 USD rate, 67% threshold, 350M NCL, 30/26/4 Catalyst record), addresses, named entities, and doctrine citations all match the source material exactly. No invented specifics detected.",
     "support_ratio": 0.0,
     "supported": 0,
     "thresholds": {
@@ -62,6 +58,6 @@
       "min_fact_support_ratio": 0.9
     },
     "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T03:32:37+00:00"
+    "verified_at_utc": "2026-07-10T13:21:27+00:00"
   }
 }

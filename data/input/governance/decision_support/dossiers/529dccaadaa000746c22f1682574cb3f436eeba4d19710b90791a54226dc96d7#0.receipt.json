@@ -29,6 +29,39 @@
   "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=7 no=4 abstain=2 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
   "output_sha256": "edc9e34bd32fce520f06300c38b25bb4e17a34a7bb9731415c2545166f692575",
   "prompt_sha256": "5e784c774ffb3f2d4de679b429b200e47d74f55151544d3f068ffd67b6ab1663",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.4.0"
+  "review_status": "verification_failed",
+  "treasury_doctrine_version": "1.4.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 38,
+    "fact_verdicts": [],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "e4c7f125942a412dc1147537b135db5190d87f871e1f9b07c236f76e09043080",
+    "passed": false,
+    "prompt_sha256": "65bbee2cde42a3c787329040bfb4ed069e70c3bc8de41e7266b764087aecbc3f",
+    "summary": {
+      "contradicted": 0,
+      "not_found": 0,
+      "supported": 38
+    },
+    "support_ratio": 0.0,
+    "supported": 0,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 0,
+    "verified_at_utc": "2026-07-10T13:26:00+00:00"
+  }
 }
