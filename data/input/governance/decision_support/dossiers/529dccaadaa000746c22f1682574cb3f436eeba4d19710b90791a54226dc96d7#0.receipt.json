@@ -1,0 +1,34 @@
+{
+  "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "649",
+    "metadata_title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME",
+    "proposed_epoch": "642",
+    "treasury_amount_lovelace": ""
+  },
+  "anchor": {
+    "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
+    "anchor_read": true,
+    "anchor_url": "https://ipfs.io/ipfs/bafkreieaerpnfvjblld4pywite3rbfxkebf2fvlacerklrdmsfvp4kvui4",
+    "content_chars": 8587,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7-0-20260710T032155Z.bin",
+    "file_sha256": "80245ed2d5215ac7c7e2c899371096ea204ba2d5601122a5c46c916afe2ab447",
+    "reason": null
+  },
+  "anchor_sha256": "c0bf622f102ca8bab890717a1581486ef95acd796c75bcafa34908c0ef777914",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
+  "generated_at_utc": "2026-07-10T12:14:14+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=7 no=4 abstain=2 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "edc9e34bd32fce520f06300c38b25bb4e17a34a7bb9731415c2545166f692575",
+  "prompt_sha256": "5e784c774ffb3f2d4de679b429b200e47d74f55151544d3f068ffd67b6ab1663",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.4.0"
+}
