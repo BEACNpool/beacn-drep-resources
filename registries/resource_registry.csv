@@ -1,5 +1,5 @@
 resource_id,domain,action_type,source_name,source_url,format,refresh_policy,license,status
-gov_actions_api,governance,all,govtool_api,https://api.gov.tools,JSON,daily,public,approved
+gov_actions_api,governance,all,govtool_api,https://api.gov.tools,JSON,daily,public,proposed
 gov_actions_snapshot,governance,all,beacn_snapshot,data/input/governance/governance_actions_sample.csv,CSV,manual,repo,approved
 treasury_withdrawals_snapshot,treasury,treasury_withdrawal,beacn_snapshot,data/input/treasury/treasury_withdrawals_sample.csv,CSV,manual,repo,approved
 drep_vote_history_snapshot,drep,all,beacn_snapshot,data/input/drep/drep_vote_history_sample.csv,CSV,manual,repo,approved
@@ -15,3 +15,8 @@ treasury_recipient_risk_profiles,treasury,treasury_withdrawal,beacn_risk_researc
 parameter_impact_notes,governance,parameter_change,beacn_param_research,data/input/governance/parameter_impact_notes.csv,CSV,daily,repo,proposed
 hardfork_readiness_signals,governance,hardfork,beacn_hardfork_research,data/input/governance/hardfork_readiness_signals.csv,CSV,daily,repo,proposed
 deep_research_dossiers,governance,treasury_withdrawal,beacn_agent_dossiers,data/input/governance/decision_support/dossiers,MD+JSON,daily,repo,approved
+ecosystem_value_profiles,governance,treasury_withdrawal,beacn_independent_value_research,data/input/governance/decision_support/ecosystem_value_profiles.csv,CSV,daily,repo,approved
+treasury_policy_state,treasury,treasury_withdrawal,beacn_ncl_chain_verification,data/input/governance/treasury_policy_state.json,JSON,daily,repo,approved
+treasury_portfolio,treasury,treasury_withdrawal,beacn_portfolio_ranker,data/input/governance/treasury_portfolio.json,JSON,daily,repo,approved
+governance_outcomes,governance,all,beacn_outcome_audit,data/history/governance_outcomes.csv,CSV,monthly,repo,approved
+protocol_readiness_profiles,governance,all,beacn_protocol_readiness_research,data/input/governance/decision_support/protocol_readiness_profiles.csv,CSV,daily,repo,approved

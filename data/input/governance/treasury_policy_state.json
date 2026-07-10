@@ -1,0 +1,11 @@
+{
+  "schema_version": "treasury-policy-state-v1",
+  "verification_status": "needs_chain_verification",
+  "ncl_lovelace": null,
+  "period_start_epoch": 613,
+  "period_end_epoch": 713,
+  "source_action_id": null,
+  "source_anchor_hash": null,
+  "verified_at_utc": null,
+  "note": "Fail-closed placeholder. Directional treasury votes remain blocked until the applicable NCL is verified from admitted public chain evidence."
+}
