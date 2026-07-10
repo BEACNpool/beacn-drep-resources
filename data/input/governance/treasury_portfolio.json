@@ -408,29 +408,6 @@
       "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
     },
     {
-      "action_id": "4f6e5df9a6e14bd49e406e2bbb0d108b3be2be64b9569b930053a0c1eebe0d47#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.1875,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.6,
-        "downside_risk": 0.25,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.275,
-      "rank": 19,
-      "requested_lovelace": 0,
-      "title": "IO: Hydra"
-    },
-    {
       "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
       "dimensions": {
         "affirmative_waste_evidence": [],
@@ -449,7 +426,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 20,
+      "rank": 19,
       "requested_lovelace": 0,
       "title": "Eternl: Path to Sustainability - v2"
     },
@@ -472,7 +449,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 21,
+      "rank": 20,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano\u2019s Integratio..."
     },
@@ -495,7 +472,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 22,
+      "rank": 21,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li..."
     },
@@ -518,7 +495,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 23,
+      "rank": 22,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D..."
     },
@@ -541,7 +518,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 24,
+      "rank": 23,
       "requested_lovelace": 1162746000000,
       "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc..."
     },
@@ -564,7 +541,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 25,
+      "rank": 24,
       "requested_lovelace": 1310960000000,
       "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026"
     },
@@ -587,7 +564,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 26,
+      "rank": 25,
       "requested_lovelace": 3810423000000,
       "title": "Withdraw 3,810,423 ada for Mithril Protocol"
     },
@@ -610,7 +587,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 27,
+      "rank": 26,
       "requested_lovelace": 3961538000000,
       "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex"
     },
@@ -633,7 +610,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.265,
-      "rank": 28,
+      "rank": 27,
       "requested_lovelace": 25400000000000,
       "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ..."
     },
@@ -656,7 +633,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2625,
-      "rank": 29,
+      "rank": 28,
       "requested_lovelace": 0,
       "title": "Revised Cardano dOSPO and OMF Program Proposal"
     },
@@ -679,7 +656,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2625,
-      "rank": 30,
+      "rank": 29,
       "requested_lovelace": 0,
       "title": "Cardano Builder DAO"
     },
@@ -702,7 +679,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2625,
-      "rank": 31,
+      "rank": 30,
       "requested_lovelace": 9832979000000,
       "title": "Blockfrost's transformation to not-for-profit"
     },
@@ -725,7 +702,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2563,
-      "rank": 32,
+      "rank": 31,
       "requested_lovelace": 1684050000000,
       "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P..."
     },
@@ -748,7 +725,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2538,
-      "rank": 33,
+      "rank": 32,
       "requested_lovelace": 20000000000000,
       "title": "Cardano Builder DAO"
     },
@@ -771,7 +748,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 34,
+      "rank": 33,
       "requested_lovelace": 0,
       "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026"
     },
@@ -794,7 +771,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 35,
+      "rank": 34,
       "requested_lovelace": 0,
       "title": "Withdraw 3,810,423 ada for Mithril Protocol"
     },
@@ -817,7 +794,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 36,
+      "rank": 35,
       "requested_lovelace": 0,
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
     },
@@ -840,7 +817,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 37,
+      "rank": 36,
       "requested_lovelace": 0,
       "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li..."
     },
@@ -863,7 +840,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 38,
+      "rank": 37,
       "requested_lovelace": 0,
       "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P..."
     },
@@ -886,7 +863,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
-      "rank": 39,
+      "rank": 38,
       "requested_lovelace": 0,
       "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D..."
     },
@@ -909,7 +886,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
-      "rank": 40,
+      "rank": 39,
       "requested_lovelace": 0,
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano\u2019s Integratio..."
     },
@@ -932,7 +909,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
-      "rank": 41,
+      "rank": 40,
       "requested_lovelace": 0,
       "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ..."
     },
@@ -956,7 +933,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.215,
-      "rank": 42,
+      "rank": 41,
       "requested_lovelace": 0,
       "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
     },
@@ -980,7 +957,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.215,
-      "rank": 43,
+      "rank": 42,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
     },
@@ -1003,7 +980,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.1775,
-      "rank": 44,
+      "rank": 43,
       "requested_lovelace": 0,
       "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex"
     },
@@ -1027,7 +1004,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.125,
-      "rank": 45,
+      "rank": 44,
       "requested_lovelace": 0,
       "title": "Reimburse Ikigai Info Governance Action Deposit."
     },
@@ -1051,9 +1028,33 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.1187,
-      "rank": 46,
+      "rank": 45,
       "requested_lovelace": 0,
       "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc..."
+    },
+    {
+      "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.4,
+        "cost_efficiency": 0.0,
+        "delivery_confidence": 0.1,
+        "downside_risk": 0.5,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence",
+          "delivery controls, milestones, assurance, or remedy path"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.075,
+      "rank": 46,
+      "requested_lovelace": 0,
+      "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
     },
     {
       "action_id": "gov_action1fah9m7dxu99af8jqdc4mkrgs3va790nyh9tfhycq2wsvrm47p4rsqtcm6ry",
@@ -1080,7 +1081,7 @@
       "title": "IO: Hydra"
     }
   ],
-  "generated_at_utc": "2026-07-10T03:17:14+00:00",
+  "generated_at_utc": "2026-07-10T03:36:58+00:00",
   "ncl_lovelace": null,
   "remaining_capacity_lovelace": null,
   "schema_version": "treasury-portfolio-v1",

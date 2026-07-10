@@ -29,6 +29,40 @@
   "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=39 no=23 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
   "output_sha256": "8d13e3c5e821c559aa7297d4541ab24009392c6b4dad1031f5eec21da3742421",
   "prompt_sha256": "6ecdbb9bc8a0b9269d445a4f97a480263be07a28265a2b919f19926e90e53a4f",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.3.0"
+  "review_status": "verification_failed",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 25,
+    "fact_verdicts": [],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "7732ae7f3298357bf00103bc78cf447ce43412b80039e6c51e6589fa8045377b",
+    "passed": false,
+    "prompt_sha256": "c0eec5c6b6fe762fac4b8b8d3e4bc10f7852c000683601d02d4e5f96dc339268",
+    "summary": {
+      "contradicted": 0,
+      "not_found": 0,
+      "overall": "All 25 facts verified against the supplied sources. Numbers (amounts, epochs, thresholds, multisig quorums, treasury flows), named entities, and quoted figures all match. No invented specifics detected.",
+      "supported": 25
+    },
+    "support_ratio": 0.0,
+    "supported": 0,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 0,
+    "verified_at_utc": "2026-07-10T03:31:20+00:00"
+  }
 }

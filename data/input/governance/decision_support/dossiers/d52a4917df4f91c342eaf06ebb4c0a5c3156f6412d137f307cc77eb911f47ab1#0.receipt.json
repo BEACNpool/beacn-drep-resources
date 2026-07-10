@@ -29,6 +29,39 @@
   "onchain_context": "onchain DRep vote counts so far: yes=132 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
   "output_sha256": "84979d4ee78d06e28bf4777b688dc4c7044182404b15b2b510a3157fde6efc98",
   "prompt_sha256": "0dddc873af7f692f4b0d7c1bbc0ff0d57d3ed74ae34093d82f3671e5361320fc",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.3.0"
+  "review_status": "verification_failed",
+  "treasury_doctrine_version": "1.3.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 24,
+    "fact_verdicts": [],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "c19b7797b6f54f608bdaaccbc7b51817f84bdad92ee1f00ca0e9098c10833887",
+    "passed": false,
+    "prompt_sha256": "a18dfaf9ae2c01e63bacf50f51c27daabae41cfa5ab3211e39f2240c28673961",
+    "summary": {
+      "contradicted": 0,
+      "not_found": 0,
+      "supported": 24
+    },
+    "support_ratio": 0.0,
+    "supported": 0,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 0,
+    "verified_at_utc": "2026-07-10T03:36:25+00:00"
+  }
 }
