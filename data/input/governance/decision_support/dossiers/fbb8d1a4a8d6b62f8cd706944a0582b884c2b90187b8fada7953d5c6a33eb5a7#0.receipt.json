@@ -5,7 +5,7 @@
     "expires_after_epoch": "644",
     "metadata_title": "Eternl: Path to Sustainability - v2",
     "proposed_epoch": "637",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "2350000000000"
   },
   "anchor": {
     "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
@@ -23,19 +23,255 @@
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:44:11+00:00",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-10T14:00:05+00:00",
   "model": "gpt-5.5",
-  "onchain_context": "onchain recipient history: stake address stake1u92flcyspwcp92lmgs0p47vdjrrek96l07cv3v6033wddfc8h620a appears in 2 withdrawal proposals totalling 4030000000000 lovelace (first 2026-05-15 12:52:13, last 2026-06-16 09:20:06)\nonchain DRep vote counts so far: yes=110 no=23 abstain=14 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "2d011bb61aab6f5eb8ef4ba96823e4d0097e72c0b63c3ca477afa195ab1dabfa",
-  "prompt_sha256": "be496a046f1af76ce4c5cd5a1b14c66ead7565227cb5f383d7d6fbb238a7f949",
-  "review_status": "verification_failed",
-  "treasury_doctrine_version": "1.3.0",
+  "onchain_context": "onchain recipient history: stake address stake1u92flcyspwcp92lmgs0p47vdjrrek96l07cv3v6033wddfc8h620a appears in 2 withdrawal proposals totalling 4030000000000 lovelace (first 2026-05-15 12:52:13, last 2026-06-16 09:20:06)\nonchain DRep vote counts so far: yes=120 no=23 abstain=14 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "7fa333302f219bf49a287341fa937d9cbc1a037063d536f2076783955740fba4",
+  "prompt_sha256": "37aa00315a311da19decebc7fec6e0c9ae8542a556b08e68741de23fdc011aaf",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
     "contradicted": 0,
-    "fact_count": 25,
-    "fact_verdicts": [],
+    "fact_count": 47,
+    "fact_verdicts": [
+      {
+        "fact": 1,
+        "note": "Matches SOURCE 0 action header exactly: id, type, title, 2350000000000 lovelace, epochs 637/644.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 2,
+        "note": "Matches SOURCE 1 recipient history: stake address, 2 proposals, 4030000000000 lovelace, both timestamps.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 3,
+        "note": "Matches SOURCE 1: yes=120 no=23 abstain=14, explicit ballots, not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 4,
+        "note": "Matches SOURCE 1 treasury flow: inflow 158689112947739, withdrawals 291435336000000, ratio 1.836518.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 5,
+        "note": "Preamble states NO votes from CC members over audit-clarity and that v2 is essentially the same with the clarification added.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 6,
+        "note": "All three key differences listed verbatim in the preamble.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 7,
+        "note": "Abstract: non-custodial Cardano light wallet for web, browser extension, Android, iOS.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 8,
+        "note": "Abstract states this verbatim.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 9,
+        "note": "Abstract lists 12 months of operations and all named work areas.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 10,
+        "note": "Abstract: secure/compatible/stable/available goal and ~$420,000 per year.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 11,
+        "note": "FTE clarification: $70,000 per FTE, 6 FTEs across 10 people, most part-time; also in summary table.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 12,
+        "note": "Pro plan table: Personal $96/year ($8/month), Company $360/year ($30/month).",
+        "verdict": "supported"
+      },
+      {
+        "fact": 13,
+        "note": "Install base ~100,000 extension, ~30,000 Android+iOS as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 14,
+        "note": "4.2%, roughly 5,500 users, fully covering $420,000 \u2014 all as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 15,
+        "note": "\u20b32,350,000 at about $0.1787 per Ada in budget and summary tables; consistent with 2350000000000 lovelace on-chain.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 16,
+        "note": "All five category amounts and percentages match the budget table exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 17,
+        "note": "Stablecoin conversion up to $420,000, public company wallet, excess returned \u2014 as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 18,
+        "note": "Auditable account, no SPO delegation, predefined abstain delegation \u2014 as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 19,
+        "note": "Audits allocation scope and the not-a-security-audit caveat both stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 20,
+        "note": "Independent party unaffiliated with Tastenkunst GmbH/Eternl; audits in February 2027 and August 2027.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 21,
+        "note": "Audit review scope list matches verbatim.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 22,
+        "note": "Oversight metrics list matches verbatim.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 23,
+        "note": "December/June assessment, 100% of surplus, repay full $420,000 USD value in Ada \u2014 as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 24,
+        "note": "50% of income above $420,000 donated until additional $210,000 \u2014 as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 25,
+        "note": "On-chain Pro plan metadata, earnings reports, and repayment/donation transaction hashes all stated in Transparency item.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 26,
+        "note": "Administrative remarks state all three points.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 27,
+        "note": "Every summary-table field matches: 12 months, Aug 2026\u2013Jul 2027, Marcel Baumberg, Tastenkunst GmbH/Eternl, 10 people / 6.0 FTE at $70,000, administrator Tastenkunst GmbH.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 28,
+        "note": "KPI table: 10-18% of Mainnet transactions via Eternl.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 29,
+        "note": "KPI table: 66 languages, numerous mobile and desktop platforms.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 30,
+        "note": "Pillar 1: basically zero downtime for over 5 years.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 31,
+        "note": "Pillar 3 states all three claims including the only-wallet-with-comprehensive-governance-UI claim.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 32,
+        "note": "FAQ 1: Eternl DRep will abstain.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 33,
+        "note": "FAQ 2: service fee on transactions of 100 Ada or above in DApp Browser and MonsterSwap; fees insufficient.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 34,
+        "note": "FAQ 4 answers No to counting service fees / other income in payback.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 35,
+        "note": "FAQ 5: main UI not open-source; libraries via npm at https://www.npmjs.com/org/eternl.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 36,
+        "note": "FAQ 6: keep only $420,000 in stablecoins, return remaining Ada.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 37,
+        "note": "FAQ 7: \u20b3583,000 ($408,000), Ada valued at $0.70, about $153,000 short to date.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 38,
+        "note": "FAQ 8 states both the downscaling scenario and the possible removal of the free option.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 39,
+        "note": "All listed workstreams appear in the What's Coming Up and Maintenance sections.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 40,
+        "note": "All six Catalyst entries match: numbers, names, and amounts ($90,000, $90,000, $46,000, \u20b3554,000, \u20b369,200, \u20b320,800).",
+        "verdict": "supported"
+      },
+      {
+        "fact": 41,
+        "note": "Intersect grant: Update Eternl to implement CIP-95, \u20b370,000.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 42,
+        "note": "Prior withdrawal title, 2025 budget recipient, funding period ending July 2026 all stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 43,
+        "note": "values_hierarchy.md ordering matches: constitutional/protocol safety first, then treasury stewardship above evidence quality, ecosystem growth, and execution speed.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 44,
+        "note": "Dossier Gate Posture: hard gate means NEEDS_MORE_INFO, never an automatic NO.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 45,
+        "note": "Counterfactual-risk bullet lists all five factors alongside spending risk.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 46,
+        "note": "Foundational Axiom states requested \u20b3 per deliverable should decrease and that TreasuryWithdrawals evaluations must apply the axiom to AI-accelerable work.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 47,
+        "note": "Core Position: rejects FCFS and adopts rolling-window NCL framework.",
+        "verdict": "supported"
+      }
+    ],
     "filtered_legacy_snapshot_items": [],
     "gates": {
       "anchor_sha256_matches_draft": true,
@@ -47,21 +283,17 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "c613ba30539d70e43c1eee28ac6963af6772b65a8d9ae860cee9b765e6aada1d",
-    "passed": false,
-    "prompt_sha256": "a51553957d6c526d5abc3048cac48caffc0f170c843c0412178774eb5dc9b328",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 25
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "output_sha256": "8022f73b7b4f717c87a18acb24805678a04d80f25de2093064373e4e270e3df2",
+    "passed": true,
+    "prompt_sha256": "2264a400e2976b98845eefcc6fd9247a8e440274ad972aaff96fa16f136bf262",
+    "summary": "All 47 dossier facts were re-checked against the on-chain action metadata, on-chain context block, doctrine text, and verbatim anchor document. Every fact is supported: all figures (2,350,000 ADA ask, $0.1787/Ada, $420,000/year, $70,000 per FTE, budget category amounts and shares, vote counts, treasury flow values, recipient history totals, grant amounts), all dates (epochs 637/644, Feb/Aug 2027 audits, Aug 2026\u2013Jul 2027 schedule, July 2026 prior funding end), and all named entities (Tastenkunst GmbH, Marcel Baumberg, Eternl, Intersect) match the source material exactly. No contradicted facts, no not_found facts, and no invented specifics; there are zero material discrepancies.",
+    "support_ratio": 1.0,
+    "supported": 47,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:23:37+00:00"
+    "verdicts_returned": 47,
+    "verified_at_utc": "2026-07-10T14:00:15+00:00"
   }
 }

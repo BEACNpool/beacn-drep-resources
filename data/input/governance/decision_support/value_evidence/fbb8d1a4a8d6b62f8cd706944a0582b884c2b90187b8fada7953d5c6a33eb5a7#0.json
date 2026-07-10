@@ -1,0 +1,150 @@
+{
+  "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
+  "confidence": 0.86,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "39453ff7b8a524e9f851cd62042252ed9538e1fb521a365b507f3db5a12a63ce",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-developer-portal.html",
+          "url": "https://developers.cardano.org/docs/developers/curriculum/dapps/connect-a-wallet/"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "ee202aa51076c31b909ea37da3561142722db6a26f5cdcb7b288a6b20da75474",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-chrome-store.html",
+          "url": "https://chromewebstore.google.com/detail/eternl/kmhcihpebfmpgmihbkipmjlmmioameka"
+        },
+        {
+          "sha256": "67b195ef04bdfc22a345ac53741a0cfc04bce9f90aaac810423d7d28a13cdc19",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-google-play.html",
+          "url": "https://play.google.com/store/apps/details?id=io.ccvault.v1.main"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "39453ff7b8a524e9f851cd62042252ed9538e1fb521a365b507f3db5a12a63ce",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-developer-portal.html",
+          "url": "https://developers.cardano.org/docs/developers/curriculum/dapps/connect-a-wallet/"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "39453ff7b8a524e9f851cd62042252ed9538e1fb521a365b507f3db5a12a63ce",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-developer-portal.html",
+          "url": "https://developers.cardano.org/docs/developers/curriculum/dapps/connect-a-wallet/"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "ee202aa51076c31b909ea37da3561142722db6a26f5cdcb7b288a6b20da75474",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-chrome-store.html",
+          "url": "https://chromewebstore.google.com/detail/eternl/kmhcihpebfmpgmihbkipmjlmmioameka"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "d66c35bc84416c6e9ee00ba921b5c5c71162f8ae3b6a9860187b5fdb1a024308",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-wallet-comparison.html",
+          "url": "https://cardano.org/wallets/"
+        },
+        {
+          "sha256": "a9d2da40a76ef96075547036419d5350201d84d51b7bc910c65511f02855f669",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/cardano-community-wallet-features.html",
+          "url": "https://cardano-community.github.io/support-faq/Wallets/list/"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "d66c35bc84416c6e9ee00ba921b5c5c71162f8ae3b6a9860187b5fdb1a024308",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-wallet-comparison.html",
+          "url": "https://cardano.org/wallets/"
+        },
+        {
+          "sha256": "a9d2da40a76ef96075547036419d5350201d84d51b7bc910c65511f02855f669",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/cardano-community-wallet-features.html",
+          "url": "https://cardano-community.github.io/support-faq/Wallets/list/"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "ee202aa51076c31b909ea37da3561142722db6a26f5cdcb7b288a6b20da75474",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-chrome-store.html",
+          "url": "https://chromewebstore.google.com/detail/eternl/kmhcihpebfmpgmihbkipmjlmmioameka"
+        },
+        {
+          "sha256": "67b195ef04bdfc22a345ac53741a0cfc04bce9f90aaac810423d7d28a13cdc19",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-google-play.html",
+          "url": "https://play.google.com/store/apps/details?id=io.ccvault.v1.main"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "39453ff7b8a524e9f851cd62042252ed9538e1fb521a365b507f3db5a12a63ce",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-developer-portal.html",
+          "url": "https://developers.cardano.org/docs/developers/curriculum/dapps/connect-a-wallet/"
+        },
+        {
+          "sha256": "ee202aa51076c31b909ea37da3561142722db6a26f5cdcb7b288a6b20da75474",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-chrome-store.html",
+          "url": "https://chromewebstore.google.com/detail/eternl/kmhcihpebfmpgmihbkipmjlmmioameka"
+        }
+      ],
+      "value": "yes"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "d66c35bc84416c6e9ee00ba921b5c5c71162f8ae3b6a9860187b5fdb1a024308",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/eternl-cardano-wallet-comparison.html",
+          "url": "https://cardano.org/wallets/"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "codex-independent-research-v1",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-10T13:52:03+00:00"
+}

@@ -2,6 +2,25 @@
   "allocated_candidate_lovelace": 0,
   "candidates": [
     {
+      "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0.82,
+        "composite": 0.2055,
+        "cost_efficiency": 0.45,
+        "delivery_confidence": 0.7,
+        "downside_risk": 0.25,
+        "evidence_status": "independently_verified",
+        "missing": []
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.709,
+      "rank": 1,
+      "requested_lovelace": 2350000000000,
+      "title": "Eternl: Path to Sustainability - v2"
+    },
+    {
       "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
       "dimensions": {
         "affirmative_waste_evidence": [],
@@ -19,8 +38,8 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.4025,
-      "rank": 1,
-      "requested_lovelace": 0,
+      "rank": 2,
+      "requested_lovelace": 4969231000000,
       "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform"
     },
     {
@@ -41,7 +60,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3938,
-      "rank": 2,
+      "rank": 3,
       "requested_lovelace": 4969231000000,
       "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform"
     },
@@ -63,7 +82,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3712,
-      "rank": 3,
+      "rank": 4,
       "requested_lovelace": 2464844000000,
       "title": "Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime"
     },
@@ -85,8 +104,8 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3625,
-      "rank": 4,
-      "requested_lovelace": 0,
+      "rank": 5,
+      "requested_lovelace": 2464844000000,
       "title": "Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime"
     },
     {
@@ -107,7 +126,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3525,
-      "rank": 5,
+      "rank": 6,
       "requested_lovelace": 3333000000000,
       "title": "Global Order Book connect Cardano DeFi to increase transaction"
     },
@@ -129,7 +148,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3525,
-      "rank": 6,
+      "rank": 7,
       "requested_lovelace": 9000000000000,
       "title": "Strike Finance Liquidity Deployment"
     },
@@ -151,8 +170,8 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3262,
-      "rank": 7,
-      "requested_lovelace": 0,
+      "rank": 8,
+      "requested_lovelace": 3333000000000,
       "title": "Global Order Book connect Cardano DeFi to increase transaction"
     },
     {
@@ -174,32 +193,9 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.315,
-      "rank": 8,
-      "requested_lovelace": 0,
-      "title": "Strike Finance Liquidity Deployment"
-    },
-    {
-      "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.15,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.75,
-        "downside_risk": 0.25,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.3125,
       "rank": 9,
-      "requested_lovelace": 0,
-      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
+      "requested_lovelace": 9000000000000,
+      "title": "Strike Finance Liquidity Deployment"
     },
     {
       "action_id": "gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr",
@@ -225,7 +221,7 @@
       "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support"
     },
     {
-      "action_id": "gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2",
+      "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
       "dimensions": {
         "affirmative_waste_evidence": [],
         "benefit": 0,
@@ -244,18 +240,18 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3125,
       "rank": 11,
-      "requested_lovelace": 10000000000000,
-      "title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol"
+      "requested_lovelace": 1785333000000,
+      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
     },
     {
-      "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
+      "action_id": "gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2",
       "dimensions": {
         "affirmative_waste_evidence": [],
         "benefit": 0,
-        "composite": -0.1631,
+        "composite": -0.15,
         "cost_efficiency": 0.25,
         "delivery_confidence": 0.75,
-        "downside_risk": 0.3375,
+        "downside_risk": 0.25,
         "evidence_status": "missing",
         "missing": [
           "independent ecosystem-value evidence packet",
@@ -265,10 +261,10 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.3037,
+      "priority_score": 0.3125,
       "rank": 12,
-      "requested_lovelace": 0,
-      "title": "Blockfrost's transformation to not-for-profit"
+      "requested_lovelace": 10000000000000,
+      "title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3",
@@ -290,7 +286,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3037,
       "rank": 13,
-      "requested_lovelace": 0,
+      "requested_lovelace": 1193000000000,
       "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support"
     },
     {
@@ -317,6 +313,29 @@
       "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
     },
     {
+      "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.1631,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.75,
+        "downside_risk": 0.3375,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.3037,
+      "rank": 15,
+      "requested_lovelace": 9832979000000,
+      "title": "Blockfrost's transformation to not-for-profit"
+    },
+    {
       "action_id": "gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq",
       "dimensions": {
         "affirmative_waste_evidence": [],
@@ -335,7 +354,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3025,
-      "rank": 15,
+      "rank": 16,
       "requested_lovelace": 103000000000,
       "title": "Reimburse Ikigai Info Governance Action Deposit."
     },
@@ -357,7 +376,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.3025,
-      "rank": 16,
+      "rank": 17,
       "requested_lovelace": 2350000000000,
       "title": "Eternl: Path to Sustainability - v2"
     },
@@ -380,8 +399,8 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2863,
-      "rank": 17,
-      "requested_lovelace": 0,
+      "rank": 18,
+      "requested_lovelace": 10000000000000,
       "title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol"
     },
     {
@@ -403,32 +422,9 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2787,
-      "rank": 18,
+      "rank": 19,
       "requested_lovelace": 12332031000000,
       "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
-    },
-    {
-      "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.1975,
-        "cost_efficiency": 0.45,
-        "delivery_confidence": 0.4,
-        "downside_risk": 0.25,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "delivery controls, milestones, assurance, or remedy path"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.265,
-      "rank": 19,
-      "requested_lovelace": 0,
-      "title": "Eternl: Path to Sustainability - v2"
     },
     {
       "action_id": "gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
@@ -638,29 +634,6 @@
       "title": "Revised Cardano dOSPO and OMF Program Proposal"
     },
     {
-      "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.2,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.75,
-        "downside_risk": 0.25,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.2625,
-      "rank": 29,
-      "requested_lovelace": 0,
-      "title": "Cardano Builder DAO"
-    },
-    {
       "action_id": "gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq",
       "dimensions": {
         "affirmative_waste_evidence": [],
@@ -679,9 +652,32 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2625,
-      "rank": 30,
+      "rank": 29,
       "requested_lovelace": 9832979000000,
       "title": "Blockfrost's transformation to not-for-profit"
+    },
+    {
+      "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.2,
+        "cost_efficiency": 0.0,
+        "delivery_confidence": 0.75,
+        "downside_risk": 0.25,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.2625,
+      "rank": 30,
+      "requested_lovelace": 20000000000000,
+      "title": "Cardano Builder DAO"
     },
     {
       "action_id": "gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72",
@@ -730,52 +726,6 @@
       "title": "Cardano Builder DAO"
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.24,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.45,
-        "downside_risk": 0.35,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.2275,
-      "rank": 33,
-      "requested_lovelace": 0,
-      "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026"
-    },
-    {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#5",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.24,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.45,
-        "downside_risk": 0.35,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.2275,
-      "rank": 34,
-      "requested_lovelace": 0,
-      "title": "Withdraw 3,810,423 ada for Mithril Protocol"
-    },
-    {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
       "dimensions": {
         "affirmative_waste_evidence": [],
@@ -794,8 +744,8 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 35,
-      "requested_lovelace": 0,
+      "rank": 33,
+      "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
     },
     {
@@ -817,9 +767,32 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 36,
-      "requested_lovelace": 0,
+      "rank": 34,
+      "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li..."
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.24,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.45,
+        "downside_risk": 0.35,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.2275,
+      "rank": 35,
+      "requested_lovelace": 1310960000000,
+      "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9",
@@ -840,9 +813,32 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2275,
-      "rank": 37,
-      "requested_lovelace": 0,
+      "rank": 36,
+      "requested_lovelace": 1684050000000,
       "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P..."
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#5",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.24,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.45,
+        "downside_risk": 0.35,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.2275,
+      "rank": 37,
+      "requested_lovelace": 3810423000000,
+      "title": "Withdraw 3,810,423 ada for Mithril Protocol"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#1",
@@ -864,7 +860,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
       "rank": 38,
-      "requested_lovelace": 0,
+      "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D..."
     },
     {
@@ -887,7 +883,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
       "rank": 39,
-      "requested_lovelace": 0,
+      "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano\u2019s Integratio..."
     },
     {
@@ -910,32 +906,8 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.2188,
       "rank": 40,
-      "requested_lovelace": 0,
+      "requested_lovelace": 25400000000000,
       "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ..."
-    },
-    {
-      "action_id": "dfd81f8db652fd9263e0ce3bef043b4823045ec3a5da10c817681ada7a23f034#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0,
-        "composite": -0.2525,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.4,
-        "downside_risk": 0.35,
-        "evidence_status": "missing",
-        "missing": [
-          "independent ecosystem-value evidence packet",
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence",
-          "delivery controls, milestones, assurance, or remedy path"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "applicable NCL is not verified",
-      "priority_score": 0.215,
-      "rank": 41,
-      "requested_lovelace": 0,
-      "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
     },
     {
       "action_id": "gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667",
@@ -957,9 +929,33 @@
       "funding_eligible": "no",
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.215,
-      "rank": 42,
+      "rank": 41,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
+    },
+    {
+      "action_id": "dfd81f8db652fd9263e0ce3bef043b4823045ec3a5da10c817681ada7a23f034#0",
+      "dimensions": {
+        "affirmative_waste_evidence": [],
+        "benefit": 0,
+        "composite": -0.2525,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.4,
+        "downside_risk": 0.35,
+        "evidence_status": "missing",
+        "missing": [
+          "independent ecosystem-value evidence packet",
+          "verified ecosystem benefit or strategic necessity",
+          "cost comparables, budget proportionality, or sustainability evidence",
+          "delivery controls, milestones, assurance, or remedy path"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "applicable NCL is not verified",
+      "priority_score": 0.215,
+      "rank": 42,
+      "requested_lovelace": 12332031000000,
+      "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0",
@@ -981,7 +977,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.1775,
       "rank": 43,
-      "requested_lovelace": 0,
+      "requested_lovelace": 3961538000000,
       "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex"
     },
     {
@@ -1028,7 +1024,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.125,
       "rank": 45,
-      "requested_lovelace": 0,
+      "requested_lovelace": 103000000000,
       "title": "Reimburse Ikigai Info Governance Action Deposit."
     },
     {
@@ -1052,7 +1048,7 @@
       "portfolio_reason": "applicable NCL is not verified",
       "priority_score": 0.1187,
       "rank": 46,
-      "requested_lovelace": 0,
+      "requested_lovelace": 1162746000000,
       "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc..."
     },
     {
@@ -1080,7 +1076,7 @@
       "title": "IO: Hydra"
     }
   ],
-  "generated_at_utc": "2026-07-10T13:26:29+00:00",
+  "generated_at_utc": "2026-07-10T14:01:32+00:00",
   "ncl_lovelace": null,
   "remaining_capacity_lovelace": null,
   "schema_version": "treasury-portfolio-v1",
