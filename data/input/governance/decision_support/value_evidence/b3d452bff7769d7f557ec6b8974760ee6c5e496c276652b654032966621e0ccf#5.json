@@ -1,0 +1,231 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#5",
+  "confidence": 0.8,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "d3cfb51f6f82d7f4cb67f6f2328585b4cbb33aa38adf51dffe63d16151e1b999",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-9423ebbb1f.snap",
+          "url": "https://cardano-community.github.io/guild-operators/Mithril/mithril-overview/"
+        },
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        },
+        {
+          "sha256": "41c50a21ca39bfe7b5de88138bb56057dcdef8cc511ae9cdaf11c628f3dea45c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-node-installation-stakepool247-eu-da0a3b1dc4.snap",
+          "url": "https://cardano-node-installation.stakepool247.eu/cardano-relay-configuration/downloading-cardano-blockchain"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "67bef4e5cc64922ddb121873db3ab295137b961f8983640f754786952fad3cc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d843d769c.snap",
+          "url": "https://github.com/input-output-hk/mithril/releases"
+        },
+        {
+          "sha256": "1f969071c1c2b82d41ecc86f36142ea27fd5550a4fb0364d758cb3da665e7f3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-crates-io-728256e003.snap",
+          "url": "https://crates.io/api/v1/crates/mithril-client"
+        },
+        {
+          "sha256": "11a231203dae28d20df6e373af806facbbbec06215c519968ff1ed7f574b05f0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-kucoin-com-e0a1048d98.snap",
+          "url": "https://www.kucoin.com/news/insight/ADA/6a40148e38c88c0007a67a61"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "0d4c5899a0a86caf9db1f49e90cbdd85a871a5d17d13f969daef1d67c97484f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-6ce3d56d38.snap",
+          "url": "https://docs.cardano.org/developer-resources/scalability-solutions/mithril"
+        },
+        {
+          "sha256": "d3cfb51f6f82d7f4cb67f6f2328585b4cbb33aa38adf51dffe63d16151e1b999",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-9423ebbb1f.snap",
+          "url": "https://cardano-community.github.io/guild-operators/Mithril/mithril-overview/"
+        },
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        },
+        {
+          "sha256": "d3cfb51f6f82d7f4cb67f6f2328585b4cbb33aa38adf51dffe63d16151e1b999",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-9423ebbb1f.snap",
+          "url": "https://cardano-community.github.io/guild-operators/Mithril/mithril-overview/"
+        },
+        {
+          "sha256": "41c50a21ca39bfe7b5de88138bb56057dcdef8cc511ae9cdaf11c628f3dea45c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-node-installation-stakepool247-eu-da0a3b1dc4.snap",
+          "url": "https://cardano-node-installation.stakepool247.eu/cardano-relay-configuration/downloading-cardano-blockchain"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        },
+        {
+          "sha256": "8379f1ad29f999d253c991976a20dc6b9ac715e9d7845848b72ab6294eef9010",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-10275715c5.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-mithril-signer"
+        },
+        {
+          "sha256": "67bef4e5cc64922ddb121873db3ab295137b961f8983640f754786952fad3cc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d843d769c.snap",
+          "url": "https://github.com/input-output-hk/mithril/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "0d4c5899a0a86caf9db1f49e90cbdd85a871a5d17d13f969daef1d67c97484f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-6ce3d56d38.snap",
+          "url": "https://docs.cardano.org/developer-resources/scalability-solutions/mithril"
+        },
+        {
+          "sha256": "41c50a21ca39bfe7b5de88138bb56057dcdef8cc511ae9cdaf11c628f3dea45c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-node-installation-stakepool247-eu-da0a3b1dc4.snap",
+          "url": "https://cardano-node-installation.stakepool247.eu/cardano-relay-configuration/downloading-cardano-blockchain"
+        },
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        },
+        {
+          "sha256": "0d4c5899a0a86caf9db1f49e90cbdd85a871a5d17d13f969daef1d67c97484f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-6ce3d56d38.snap",
+          "url": "https://docs.cardano.org/developer-resources/scalability-solutions/mithril"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "1f969071c1c2b82d41ecc86f36142ea27fd5550a4fb0364d758cb3da665e7f3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-crates-io-728256e003.snap",
+          "url": "https://crates.io/api/v1/crates/mithril-client"
+        },
+        {
+          "sha256": "d3cfb51f6f82d7f4cb67f6f2328585b4cbb33aa38adf51dffe63d16151e1b999",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-9423ebbb1f.snap",
+          "url": "https://cardano-community.github.io/guild-operators/Mithril/mithril-overview/"
+        },
+        {
+          "sha256": "8379f1ad29f999d253c991976a20dc6b9ac715e9d7845848b72ab6294eef9010",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-10275715c5.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-mithril-signer"
+        },
+        {
+          "sha256": "41c50a21ca39bfe7b5de88138bb56057dcdef8cc511ae9cdaf11c628f3dea45c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-node-installation-stakepool247-eu-da0a3b1dc4.snap",
+          "url": "https://cardano-node-installation.stakepool247.eu/cardano-relay-configuration/downloading-cardano-blockchain"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "e32b7827b196099a2656fce38361d9ee93fb8cad7daa4ffb5f6d975343ab17be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-9927ed3133.snap",
+          "url": "https://github.com/input-output-hk/mithril"
+        },
+        {
+          "sha256": "1f969071c1c2b82d41ecc86f36142ea27fd5550a4fb0364d758cb3da665e7f3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-crates-io-728256e003.snap",
+          "url": "https://crates.io/api/v1/crates/mithril-client"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "e32b7827b196099a2656fce38361d9ee93fb8cad7daa4ffb5f6d975343ab17be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-9927ed3133.snap",
+          "url": "https://github.com/input-output-hk/mithril"
+        },
+        {
+          "sha256": "1f969071c1c2b82d41ecc86f36142ea27fd5550a4fb0364d758cb3da665e7f3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-crates-io-728256e003.snap",
+          "url": "https://crates.io/api/v1/crates/mithril-client"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "0d4c5899a0a86caf9db1f49e90cbdd85a871a5d17d13f969daef1d67c97484f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-6ce3d56d38.snap",
+          "url": "https://docs.cardano.org/developer-resources/scalability-solutions/mithril"
+        },
+        {
+          "sha256": "41c50a21ca39bfe7b5de88138bb56057dcdef8cc511ae9cdaf11c628f3dea45c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-node-installation-stakepool247-eu-da0a3b1dc4.snap",
+          "url": "https://cardano-node-installation.stakepool247.eu/cardano-relay-configuration/downloading-cardano-blockchain"
+        },
+        {
+          "sha256": "2c10cee352630d6ae531f1d40a4364c516d501354c1f0d89ada384f93d7224d2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-txpipe-io-e27aaab0b1.snap",
+          "url": "https://docs.txpipe.io/dolos/bootstrap/mithril"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:04+00:00"
+}

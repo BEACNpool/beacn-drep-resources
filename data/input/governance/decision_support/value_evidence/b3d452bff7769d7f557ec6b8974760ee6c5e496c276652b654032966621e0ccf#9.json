@@ -1,0 +1,252 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "da0aa0929df99248e551ac471a114c389ed217f9fae2b09090b013257a76f71a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-1853e68f17.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/tx3-sdk"
+        },
+        {
+          "sha256": "d4fddf3c61a7868795874085710bb836d1965d57f9b11839fd5a91767ea45d48",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-838cfd7ad0.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@meshsdk/core"
+        },
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        },
+        {
+          "sha256": "f7a3f92e4e81bea95a89d539712d627602f6824e0393cd54392342283e360f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-861b552c7d.snap",
+          "url": "https://github.com/txpipe/oura"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        },
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        },
+        {
+          "sha256": "362a75442674295c7d7b5b07a5a9ad68330cf8197e3eb1f10622c6d3136b9b43",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-7956b3eca6.snap",
+          "url": "https://registry.npmjs.org/tx3-sdk"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "93bf266f994111359ed16997ddebf439299b64b1e839e7d2bb979453d7754519",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-0a3b55473f.snap",
+          "url": "https://github.com/MeshJS/mesh"
+        },
+        {
+          "sha256": "d4fddf3c61a7868795874085710bb836d1965d57f9b11839fd5a91767ea45d48",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-838cfd7ad0.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@meshsdk/core"
+        },
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "da0aa0929df99248e551ac471a114c389ed217f9fae2b09090b013257a76f71a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-1853e68f17.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/tx3-sdk"
+        },
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        },
+        {
+          "sha256": "362a75442674295c7d7b5b07a5a9ad68330cf8197e3eb1f10622c6d3136b9b43",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-7956b3eca6.snap",
+          "url": "https://registry.npmjs.org/tx3-sdk"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "1f8918ffe3f1acae47139bdd30199100538c7aacef658d2e209140c8b7f53992",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7385d13dc7.snap",
+          "url": "https://github.com/tx3-lang/tx3/blob/main/LICENSE"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        },
+        {
+          "sha256": "362a75442674295c7d7b5b07a5a9ad68330cf8197e3eb1f10622c6d3136b9b43",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-7956b3eca6.snap",
+          "url": "https://registry.npmjs.org/tx3-sdk"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "f6bc0f68ba1e1b132ca0668701bb2e96c80f5d003584cb065a5be702f7f499cc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-e4106bbb7d.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-tx3-txpipe-open-api-layer"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "1f8918ffe3f1acae47139bdd30199100538c7aacef658d2e209140c8b7f53992",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7385d13dc7.snap",
+          "url": "https://github.com/tx3-lang/tx3/blob/main/LICENSE"
+        },
+        {
+          "sha256": "49f1061502caaf4592c022c73decc64f2e0ed955ccaa2c4652cc6d30e4e06a46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-e151dc2577.snap",
+          "url": "https://github.com/tx3-lang/tx3"
+        },
+        {
+          "sha256": "362a75442674295c7d7b5b07a5a9ad68330cf8197e3eb1f10622c6d3136b9b43",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-7956b3eca6.snap",
+          "url": "https://registry.npmjs.org/tx3-sdk"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "93bf266f994111359ed16997ddebf439299b64b1e839e7d2bb979453d7754519",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-0a3b55473f.snap",
+          "url": "https://github.com/MeshJS/mesh"
+        },
+        {
+          "sha256": "d4fddf3c61a7868795874085710bb836d1965d57f9b11839fd5a91767ea45d48",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-838cfd7ad0.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@meshsdk/core"
+        },
+        {
+          "sha256": "ff143222678f5e014496e3b428f36937c3399c9ff5cc93821a4c70e26df60c63",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-40d80ead30.snap",
+          "url": "https://lib.rs/crates/tx3-lang"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:26+00:00"
+}

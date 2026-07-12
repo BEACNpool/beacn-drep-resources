@@ -1,0 +1,253 @@
+{
+  "action_id": "dfd81f8db652fd9263e0ce3bef043b4823045ec3a5da10c817681ada7a23f034#0",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "a80cfc491d2bcebf7a8b9115cc44756e6bec4de92b9c94eaea5847c66bac1c10",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-arc-dev-f416963011.snap",
+          "url": "https://arc.dev/freelance-developer-rates/blockchain"
+        },
+        {
+          "sha256": "dfe285345e950077f87ff3c352d83eeca781b4e885c9b49eb3fd581064ff0ec7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-sherlock-xyz-f058014db6.snap",
+          "url": "https://sherlock.xyz/post/smart-contract-audit-pricing-a-market-reference-for-2026"
+        }
+      ],
+      "value": "yes"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "860575c48651fbc673ab4878d7362dfe9f7353db9511275a26d5ccb7c8a28fbf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-llama-fi-51f8a0bc89.snap",
+          "url": "https://api.llama.fi/protocol/fluidtokens"
+        },
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        },
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "dafdd1e14f2a6a9e41bf66194e4bc1b1d2e4e5f83d5894987f6725f9b9f3d6d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-45524e19ca.snap",
+          "url": "https://api.github.com/orgs/lantr-io/repos?per_page=100&sort=updated"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        },
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "a160cc5d512b2ad95ed9cde99f968856e2a1fa89a44b8c02b66dc07c30ef87cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-github-com-8871569be4.snap",
+          "url": "https://github.com/input-output-hk/cardinal-spec"
+        },
+        {
+          "sha256": "b9feca4675695b0b77d3f4abfa5d439dda32e843e6c5fc6f7f0b0911c69c3703",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-cryptoslate-com-e3826ef682.snap",
+          "url": "https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"
+        },
+        {
+          "sha256": "0197a737e058105ed327a0f2558a16eed2bee7d4719f7bfa4cf889bd6cbb4982",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-www-coindesk-com-767205361e.snap",
+          "url": "https://www.coindesk.com/tech/2025/05/23/bitcoin-ordinals-can-now-be-bridged-to-cardano-through-bitvmx"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "a160cc5d512b2ad95ed9cde99f968856e2a1fa89a44b8c02b66dc07c30ef87cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-github-com-8871569be4.snap",
+          "url": "https://github.com/input-output-hk/cardinal-spec"
+        },
+        {
+          "sha256": "896af92f3401dd5fd5c6e87bc4c4b444c0bcfc0ead03303f5a0c283255595964",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-raw-githubusercontent-com-c240b527df.snap",
+          "url": "https://raw.githubusercontent.com/FluidTokens/ft-bifrost-bridge/main/README.md"
+        },
+        {
+          "sha256": "0197a737e058105ed327a0f2558a16eed2bee7d4719f7bfa4cf889bd6cbb4982",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-www-coindesk-com-767205361e.snap",
+          "url": "https://www.coindesk.com/tech/2025/05/23/bitcoin-ordinals-can-now-be-bridged-to-cardano-through-bitvmx"
+        },
+        {
+          "sha256": "b9feca4675695b0b77d3f4abfa5d439dda32e843e6c5fc6f7f0b0911c69c3703",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-cryptoslate-com-e3826ef682.snap",
+          "url": "https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        }
+      ],
+      "value": "no"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "9acbf097e9fba4f7b1f200678a4e2222378b52630ef8c13a832fce76a66529ad",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-projectcatalyst-io-5a7451ed4a.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/bifrost-bitcoin-cardano-bridge-secured-by-cardano-spos"
+        },
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "7601562f399118410189ce15a838221ead4b40ca9ad86a3911a7220fd66503f8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-29cdda7900.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge/contents/"
+        },
+        {
+          "sha256": "ac58d62db41c6817f61851a79d4f2fa6712721f8b55beee6f6aa0ffe5b96b109",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-raw-githubusercontent-com-656af2bfd5.snap",
+          "url": "https://raw.githubusercontent.com/FluidTokens/ft-bifrost-bridge/main/package.json"
+        },
+        {
+          "sha256": "dafdd1e14f2a6a9e41bf66194e4bc1b1d2e4e5f83d5894987f6725f9b9f3d6d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-45524e19ca.snap",
+          "url": "https://api.github.com/orgs/lantr-io/repos?per_page=100&sort=updated"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "4984afe1ca2830e7057cac7f3cb7036c11fc6d4d0f9f3f3a4e74bca9da0fbb3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-0fb0acd486.snap",
+          "url": "https://api.github.com/repos/FluidTokens/ft-bifrost-bridge"
+        },
+        {
+          "sha256": "ac58d62db41c6817f61851a79d4f2fa6712721f8b55beee6f6aa0ffe5b96b109",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-raw-githubusercontent-com-656af2bfd5.snap",
+          "url": "https://raw.githubusercontent.com/FluidTokens/ft-bifrost-bridge/main/package.json"
+        },
+        {
+          "sha256": "dafdd1e14f2a6a9e41bf66194e4bc1b1d2e4e5f83d5894987f6725f9b9f3d6d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-api-github-com-45524e19ca.snap",
+          "url": "https://api.github.com/orgs/lantr-io/repos?per_page=100&sort=updated"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "a160cc5d512b2ad95ed9cde99f968856e2a1fa89a44b8c02b66dc07c30ef87cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-github-com-8871569be4.snap",
+          "url": "https://github.com/input-output-hk/cardinal-spec"
+        },
+        {
+          "sha256": "0197a737e058105ed327a0f2558a16eed2bee7d4719f7bfa4cf889bd6cbb4982",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-www-coindesk-com-767205361e.snap",
+          "url": "https://www.coindesk.com/tech/2025/05/23/bitcoin-ordinals-can-now-be-bridged-to-cardano-through-bitvmx"
+        },
+        {
+          "sha256": "b9feca4675695b0b77d3f4abfa5d439dda32e843e6c5fc6f7f0b0911c69c3703",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/dfd81f8db652-cryptoslate-com-e3826ef682.snap",
+          "url": "https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:47+00:00"
+}

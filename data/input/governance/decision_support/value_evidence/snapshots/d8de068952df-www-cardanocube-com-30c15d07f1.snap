@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<title>Cardano Governance: Active and Inactive Proposals</title>
+  <meta content="Explore Governance Proposals and Actions on Cardano's Blockchain" name="description">
+  <meta content="Cardano Governance: Active and Inactive Proposals" property="og:title">
+  <meta content="Explore Governance Proposals and Actions on Cardano's Blockchain" property="og:description">
+  <meta content="https://www.cardanocube.com/assets/cardanocube_og_logo-96dd086cfaae84df51b59b5e2ad5f8c1877013b411affc071be223125ed9ae92.png" property="og:image">
+  <meta content="Cardano Governance: Active and Inactive Proposals" property="twitter:title">
+  <meta content="Explore Governance Proposals and Actions on Cardano's Blockchain" property="twitter:description">
+  <meta content="https://www.cardanocube.com/assets/cardanocube_og_logo-96dd086cfaae84df51b59b5e2ad5f8c1877013b411affc071be223125ed9ae92.png" property="twitter:image">
+
+<meta property="og:type" content="website">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="view-transition" content="same-origin">
+<link rel="canonical" href="https://www.cardanocube.com/governance/gov_actions">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1hWUyRlIYLpwLXNM3q2xqd1R2VYBnMbzO4lXNEcJZZpRwbZTsFqtlAFdNEVAVXdNrgJmcaPbErOkJ4-yU3_R-Q" />
+
+<meta name="action-cable-url" content="/cable" />
+
+<link rel="stylesheet" href="/assets/application-62007246c1bb3726abe2304532c6185a0f7ca90fbf4ea975e90bf7f8e9f4d4c2.css" data-turbo-track="reload" />
+<script src="/assets/application_entry-f6a89c5c312993b43103509b1f826ea580e8dc4954cdc675d0ed36ce1236ef18.js" type="module" data-turbo-track="reload"></script>
+
+
+<link rel="stylesheet" href="/assets/hotwire_combobox-85c2bc86d929df928ff6268617e1558cb18c6a69f8c81e8a89fe9562dcd9c355.css" />
+
+
+
+<link href="/assets/favicon-34c283cf5506363bbc0a8c9d90e932a0cbcf5c152add75ce474f87d4ad904b9e.png" rel="shortcut icon" type="image/x-icon">
+<link href="/assets/webclip-8bb68a86c5c2ab371bc5fc1541d435a032d81c65132e9df62b6c13b79d2bc097.png" rel="apple-touch-icon">
+
+</head>
+<body class=""
+      data-controller="application wallet-select"
+      data-page-type="governance_gov_actions_index"
+      data-wallet-connect-network="mainnet"
+      data-action="wallet-connect:connected@document->wallet-select#onConnectionSuccess
+                  wallet-connect:connectionFailure@document->wallet-select#onConnectionFailure"
+      data-wallet-select-connection-status-icon-success-class="fa-solid fa-plug-circle-bolt fs-5 text-primary"
+      data-wallet-select-connection-status-icon-failure-class="fa-solid fa-plug-circle-minus fs-5 text-alert"
+      data-wallet-select-signature-status-icon-success-class="fa-solid fa-pen-nib fs-5 text-primary"
+      data-wallet-select-signature-status-icon-failure-class="fa-solid fa-pen-nib fs-5 text-alert"
+      data-wallet-select-hidden-class="d-none"
+      data-authenticated="false"
+      data-sign-in-path="/sign_in">
+
+  
+
+  <header class="pt-4 position-relative" data-controller="navigation header-analytics" data-action="click->header-analytics#trackClick" data-navigation-open-class="open">
+  <button type="button" class="backdrop position-fixed z-2 d-lg-none top-0 left-0 border-0 w-100 h-100" aria-label="Toggle navigation" data-action="click->navigation#toggleMenu" data-navigation-target="aria" aria-expanded="false">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+  <div class="container-xxl g-5">
+    <div class="row">
+      <div class="d-flex gap-4 position-relative">
+        <div class="d-flex flex-fill gap-3 position-relative z-2 align-items-center w-100">
+          <a href="/" class="d-flex align-items-center text-decoration-none position-relative me-auto order-0 gap-2">
+            <div class="fs-11">
+              
+<div class="cube-loader" data-controller="cube-spinner">
+  <div class="base"></div>
+  <div class="scene">
+    <div class="cube">
+      <div class="face front"></div>
+      <div class="face back"></div>
+      <div class="face right"></div>
+      <div class="face left"></div>
+      <div class="face bottom"></div>
+      <div class="face top"></div>
+    </div>
+  </div>
+  <div class="top-plane"></div>
+</div>
+            </div>
+            <img class="d-none d-sm-block" loading="eager" alt="" src="/assets/cardano_cube_text_logo-5dd08a95a39926a9dfb65a86b331647e1360440a2958aa3899f8cb0eba51b3cd.svg" />
+          </a>
+
+            <a class="mobile-btn d-flex d-lg-none justify-content-center align-items-center btn btn-outline-grey p-2 order-2" href="/sign_in">
+              <i class="fa fa-user text-light"></i>
+</a>
+          <div class="mobile-btn d-flex flex-nowrap order-3" data-controller="global-search-analytics">
+            <form class="d-lg-flex col-auto w-100" action="search_url" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lh8Pm295EpJljDD-NwQVJX6RxJoqiP-s6xFGNMuNyWpeV1tlkBvQ1dZYkoIyYb74w0ty2yNrfEY9yP2Ds5yqTg" autocomplete="off" />
+              <fieldset class="hw-combobox" data-async-id="search" data-controller="hw-combobox" data-hw-combobox-expanded-value="false" data-hw-combobox-name-when-new-value="search" data-hw-combobox-original-name-value="search" data-hw-combobox-autocomplete-value="both" data-hw-combobox-small-viewport-max-width-value="990px" data-hw-combobox-async-src-value="/searches/globals?for_id=search&amp;format=turbo_stream" data-hw-combobox-filterable-attribute-value="data-filterable-as" data-hw-combobox-autocompletable-attribute-value="data-autocompletable-as" data-hw-combobox-selected-class="hw-combobox__option--selected" data-hw-combobox-invalid-class="hw-combobox__input--invalid">
+  <label class="hw-combobox__label" for="search" hidden="hidden"></label>
+
+  
+<input type="hidden" name="search" id="search-hw-hidden-field" data-hw-combobox-target="hiddenField" autocomplete="off" />
+
+
+  <div class="hw-combobox__main__wrapper" data-hw-combobox-target="mainWrapper">
+    <style>
+      .hw-combobox__announcer {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+
+      .hw_combobox__pagination__wrapper {
+        height: 5px;
+      }
+</style>    <div class="hw-combobox__announcer" aria-live="polite" aria-atomic="true" data-hw-combobox-target="announcer"></div>
+    <input id="search" role="combobox" class="form-control text-bg-dark bg-transparent" type="search" data-action="focus-&gt;hw-combobox#open input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside focusin@window-&gt;hw-combobox#closeOnFocusOutside turbo:before-stream-render@document-&gt;hw-combobox#rerouteListboxStreamToDialog turbo:before-cache@document-&gt;hw-combobox#hideChipsForCache turbo:morph-element-&gt;hw-combobox#idempotentConnect" data-hw-combobox-target="combobox" data-async-id="search" aria-controls="search-hw-listbox" aria-owns="search-hw-listbox" aria-haspopup="listbox" aria-autocomplete="both" aria-activedescendant="" autocomplete="off" placeholder="Search ...">
+<span class="hw-combobox__handle" data-action="click-&gt;hw-combobox#clearOrToggleOnHandleClick" data-hw-combobox-target="handle"></span>
+
+    <ul id="search-hw-listbox" role="listbox" class="hw-combobox__listbox" hidden="hidden" data-hw-combobox-target="listbox" aria-multiselectable="false">
+
+    
+<li id="search__hw_combobox_pagination__wrapper" class="hw_combobox__pagination__wrapper" data-hw-combobox-target="endOfOptionsStream" aria-hidden="true">
+  <turbo-frame loading="lazy" id="search__hw_combobox_pagination" src="/searches/globals?for_id=search&amp;format=turbo_stream"></turbo-frame>
+</li>
+</ul>
+    <div tabindex="-1" data-hw-combobox-target="dialogFocusTrap"></div>
+
+<div class="hw-combobox__dialog__wrapper">
+  <dialog class="hw-combobox__dialog" role="dialog" data-action="keydown-&gt;hw-combobox#navigate" data-hw-combobox-target="dialog">
+    <label class="hw-combobox__dialog__label" for="search-hw-dialog-combobox"></label>
+    <input id="search-hw-dialog-combobox" role="combobox" class="hw-combobox__dialog__input" autofocus="autofocus" type="search" data-action="input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside" data-hw-combobox-target="dialogCombobox" aria-controls="search-hw-dialog-listbox" aria-owns="search-hw-dialog-listbox" aria-autocomplete="both" aria-activedescendant="">
+    <ul id="search-hw-dialog-listbox" class="hw-combobox__dialog__listbox" role="listbox" data-hw-combobox-target="dialogListbox" aria-multiselectable="false"></ul>
+</dialog></div>
+</div></fieldset>
+</form>          </div>
+
+          <div class="d-none d-lg-flex flex-nowrap align-items-center ms-2 order-4">
+              <a class="btn btn-outline-transparent-light me-2 py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/sign_in">Sign in</a>
+              <a class="btn btn-primary py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/register">Register</a>
+          </div>
+
+          <div class="mobile-btn d-flex d-lg-none order-5">
+            <button aria-label="Toggle navigation" data-navigation-target="aria" aria-expanded="false" type="button" data-action="click->navigation#toggleMenu" class="hamburger-menu btn btn-outline-grey p-2">
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+            </button>
+          </div>
+
+          <div class="menu-wrapper d-none d-lg-block d-flex flex-nowrap w-100 justify-content-end order-1">
+            <div class="nav-wrapper d-lg-flex align-items-center justify-content-between rounded-3 p-3 p-lg-0 rounded-lg-0">
+
+                <ul class="nav d-none d-lg-flex gap-2 justify-content-start mt-0 px-3 px-lg-0 mb-3 mb-lg-0">
+                  <li class="nav-item position-relative flex-wrap justify-content-between align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Explore <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-ecosystem-interactive-map">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-map"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Ecosystem Map</h6>
+                              <small class="text-grey">An ecosystem overview</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/explore">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-compass"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore all projects</h6>
+                              <small class="text-grey">Find Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/governance">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-scale-balanced"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore Governance</h6>
+                              <small class="text-grey">Governance Actions, DReps, Voting</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/popular">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-fire"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Popular</h6>
+                              <small class="text-grey">Popular Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/latest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-list"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">New projects</h6>
+                              <small class="text-grey">Recently added Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/suggest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-plus"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Suggest a Project</h6>
+                              <small class="text-grey">Suggest a project to be added</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Community <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-community">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-user-group"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Community</h6>
+                              <small class="text-grey">Explore Community Members</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/graveyard">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-skull"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Graveyard</h6>
+                              <small class="text-grey">The Cardano Archive</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Resources <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/articles">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-graduation-cap"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">News & Articles</h6>
+                              <small class="text-grey">Articles, News and Updates</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/videos">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-play"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Videos</h6>
+                              <small class="text-grey">The latest Cardano videos</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/developer-tools">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-code"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Developer Hub</h6>
+                              <small class="text-grey">Everything a developer needs</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+  <div class="row pt-4 pb-5 mt-7 hero">
+    <div class="col-12">
+      <p>
+        <a class="breadcrumb-link btn btn-dark text-uppercase" href="/governance">
+          <i class="fa fa-chevron-left opacity-50 me-2"></i><span>Cardano Governance</span>
+</a>      </p>
+    </div>
+    <div class="col-12">
+      <h1>Governance Actions</h1>
+    </div>
+    <div class="col-12 col-md-11 col-lg-10 mt-2">
+      <p>Live, on-chain proposals shaping the future of Cardano. Each Governance Action represents a formal decision currently under consideration or already resolved through Cardano’s governance process.</p>
+    </div>
+  </div>
+
+  </div>
+</header>
+
+
+  <turbo-frame id="modal"></turbo-frame>
+
+  
+
+
+  <section class="main-content bg-light">
+    <div class="container-xxl g-5">
+      <div class="row">
+        <div class="col-12 py-5">
+
+            <h2 class="mb-5">Active Proposals</h2>
+            <div
+              data-controller="gov-action-card-votes gov-action-analytics"
+              data-gov-action-analytics-gov-action-id-value="bulk_index"
+              data-action="click->gov-action-analytics#trackClick"
+              data-gov-action-card-votes-current-votes-api-url-value="/governance/gov_actions/current_votes"
+              data-gov-action-card-votes-network-value="mainnet"
+              data-gov-action-card-votes-blockfrost-base-url-value="https://cardano-mainnet.blockfrost.io/api/v0"
+              data-gov-action-card-votes-blockfrost-project-id-value="mainnetdcOPoUY9qtlNMmbTU7oSfUConAFII3Ss">
+              <div class="grid">
+              <div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7"
+  data-gov-action-tx-hash="529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jul 09, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 120,000,000 ada for AlphaGrowth’s Cardano PRIME</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 12, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7"
+            data-gov-action-id="gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action19apfhh339syqd0gkrxw6zr6pghdfspckr6vagjrpwnr0hx53lxpsq637y3t"
+  data-gov-action-tx-hash="2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action19apfhh339syqd0gkrxw6zr6pghdfspckr6vagjrpwnr0hx53lxpsq637y3t">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jul 08, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Revised Cardano dOSPO and OMF Program Proposal</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 07, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action19apfhh339syqd0gkrxw6zr6pghdfspckr6vagjrpwnr0hx53lxpsq637y3t"
+            data-gov-action-id="gov_action19apfhh339syqd0gkrxw6zr6pghdfspckr6vagjrpwnr0hx53lxpsq637y3t"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt"
+  data-gov-action-tx-hash="dfd81f8db652fd9263e0ce3bef043b4823045ec3a5da10c817681ada7a23f034"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jul 03, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Bifrost: Unlocking Bitcoin DeFi on Cardano — Road to Mainnet (Phase 1 of 2)</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 02, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt"
+            data-gov-action-id="gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq"
+  data-gov-action-tx-hash="a75645e0871f3dbb6207df867d9bd6a1a3a5befa40d68df6da651db4d6607fbf"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-comments"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Info Action
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jul 02, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Net Change Limit: Cardano Treasury (Epochs 613-713)</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 02, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq"
+            data-gov-action-id="gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r"
+  data-gov-action-tx-hash="c0660dfd01b0a2d9ba7bac02014370096242ec756031b57d78080844fbbe9c05"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 30, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Global Order Book connect Cardano DeFi to increase transaction</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 02, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r"
+            data-gov-action-id="gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc"
+  data-gov-action-tx-hash="3234567a3f48ace25efc150f1369192615974e232ea06e0251701831d9e4486d"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 29, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability &amp; Application Runtime</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Aug 02, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc"
+            data-gov-action-id="gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq"
+  data-gov-action-tx-hash="5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 26, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Blockfrost&#39;s transformation to not-for-profit</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 28, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq"
+            data-gov-action-id="gov_action12sumv9qky4pkenmqp7gshv9nxqdk9zyn8gkd77fewkyy3t5tnxtsq457vgq"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j"
+  data-gov-action-tx-hash="d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 24, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 28, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j"
+            data-gov-action-id="gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d"
+  data-gov-action-tx-hash="35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 24, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 28, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d"
+            data-gov-action-id="gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc"
+  data-gov-action-tx-hash="4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 24, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Cardano Builder DAO</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 28, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc"
+            data-gov-action-id="gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2"
+  data-gov-action-tx-hash="0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 24, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 28, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2"
+            data-gov-action-id="gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="6"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 1,162,746 ada for MLabs Core Tool Maintenance &amp; Enhancement: Plutarc...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="2"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="5"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 3,810,423 ada for Mithril Protocol</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="8"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano&#39;s Core Rust Li...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="7"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="1"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano&#39;s Lightweight D...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="9"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano&#39;s dApp P...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="3"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="10"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf"
+  data-gov-action-tx-hash="b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+  data-gov-action-tx-index="4"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 23, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 23, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf"
+            data-gov-action-id="gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj"
+  data-gov-action-tx-hash="8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 18, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Strike Finance Liquidity Deployment</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 18, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj"
+            data-gov-action-id="gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1lh2x3kjucjkggvwu6l3txggkvmrnhs3flpv8j35lvlcan4gax3xsq3cxfjc"
+  data-gov-action-tx-hash="fdd468da5cc4ac8431dcd7e2b3211666c73bc229f85879469f67f1d9d51d344d"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="false"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1lh2x3kjucjkggvwu6l3txggkvmrnhs3flpv8j35lvlcan4gax3xsq3cxfjc">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-code-branch"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Hard Fork
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 16, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Hard Fork to Protocol Version 11 (&#39;van Rossem&#39; Hard Fork)</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 18, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1lh2x3kjucjkggvwu6l3txggkvmrnhs3flpv8j35lvlcan4gax3xsq3cxfjc"
+            data-gov-action-id="gov_action1lh2x3kjucjkggvwu6l3txggkvmrnhs3flpv8j35lvlcan4gax3xsq3cxfjc"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse"
+  data-gov-action-tx-hash="fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 16, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Eternl: Path to Sustainability - v2</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 18, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse"
+            data-gov-action-id="gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq"
+  data-gov-action-tx-hash="d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Treasury Withdrawal
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 09, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Reimburse Ikigai Info Governance Action Deposit.</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 13, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq"
+            data-gov-action-id="gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3"
+  data-gov-action-card-votes-target="card"
+  data-gov-action-id="gov_action1t5ap7etluvct2x69nj5mfqhurgakuvekyflcsrv2qkrhrs378n3qq3z2c22"
+  data-gov-action-tx-hash="5d3a1f657fe330b51b459ca9b482fc1a3b6e3336227f880d8a058771c23e3ce2"
+  data-gov-action-tx-index="0"
+  data-gov-action-drep-eligible="true"
+  data-gov-action-voting-open="true">
+  <div class="card min-h h-100 rounded-3 border-light">
+    <a class="p-4 d-flex flex-column h-100 text-dark-grey" data-gov-action-interaction="index_open_action" href="/governance/gov_actions/gov_action1t5ap7etluvct2x69nj5mfqhurgakuvekyflcsrv2qkrhrs378n3qq3z2c22">
+      <div class="d-flex align-items-center">
+        <div class="bg-dark bg-opacity-75 text-light rounded px-2 py-1">
+          <i class="fa-solid fa-comments"></i>
+        </div>
+
+        <div class="ms-2 metatext bg-ultralight text-grey rounded w-100 p-2">
+          Info Action
+        </div>
+      </div>
+
+      <div class="metatext mt-4">Jun 09, 2026</div>
+
+      <h3 class="fw-normal lh-sm fs-7 mt-3">Reforming Treasury Governance</h3>
+
+      <div class="mt-auto pt-3 d-flex justify-content-between align-items-center">
+        <span class="badge bg-secondary purple-pulse" title="Voting is in progress." data-controller="tooltip">Voting</span>
+
+        <div class="text-end fs-10 lh-sm">
+          Voting ends<br>
+          <date class="text-dark">Jul 13, 2026</date>
+        </div>
+      </div>
+
+</a>
+    <div class="card-footer bg-white border-light cursor-pointer" data-action="click->gov-action-card-votes#toggleFooterSelection">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="flex-grow-1">
+          <div class="fw-bolder fs-9 text-dark mb-1" data-gov-action-card-votes-target="voteStatus">Wallet not connected</div>
+          <div class="fs-10 text-dark-grey lh-sm" data-gov-action-card-votes-target="voteSource">Connect your DRep wallet to see vote status.</div>
+        </div>
+
+        <div class="form-check m-0 pt-1 d-none" data-gov-action-card-votes-target="selectionWrap">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            value="gov_action1t5ap7etluvct2x69nj5mfqhurgakuvekyflcsrv2qkrhrs378n3qq3z2c22"
+            data-gov-action-id="gov_action1t5ap7etluvct2x69nj5mfqhurgakuvekyflcsrv2qkrhrs378n3qq3z2c22"
+            data-gov-action-card-votes-target="selection"
+            data-action="change->gov-action-card-votes#toggleSelection">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <div class="d-none mt-4 text-center" data-gov-action-card-votes-target="disconnectedConnectRow">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-dark"
+                  data-gov-action-card-votes-target="disconnectedConnectButton"
+                  data-action="click->gov-action-card-votes#declareConnectIntent click->wallet-select#showWalletList">
+                  Connect your DRep Wallet
+                </button>
+              </div>
+              <div class="d-none mt-4 p-3 bg-white rounded-3 border border-light shadow-sm" data-gov-action-card-votes-target="bulkBar">
+                <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+                  <div>
+                    <div class="fw-bolder" data-gov-action-card-votes-target="bulkSummary">Select proposals</div>
+                    <div class="text-dark-grey fs-9" data-gov-action-card-votes-target="bulkMessage">Select active proposals to submit one DRep vote transaction.</div>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark d-none"
+                    data-gov-action-card-votes-target="connectButton"
+                    data-action="click->gov-action-card-votes#declareConnectIntent click->wallet-select#showWalletList">
+                    Connect your DRep Wallet
+                  </button>
+
+                  <div class="d-flex flex-wrap gap-2" data-gov-action-card-votes-target="actionsWrap">
+                    <button type="button" class="btn btn-primary" data-gov-action-card-votes-target="bulkAction" data-vote-choice-value="yes" data-action="click->gov-action-card-votes#submitVotes">Vote Yes</button>
+                    <button type="button" class="btn btn-orange text-white" data-gov-action-card-votes-target="bulkAction" data-vote-choice-value="no" data-action="click->gov-action-card-votes#submitVotes">Vote No</button>
+                    <button type="button" class="btn btn-outline-dark" data-gov-action-card-votes-target="bulkAction" data-vote-choice-value="abstain" data-action="click->gov-action-card-votes#submitVotes">Vote Abstain</button>
+                    <button type="button" class="btn btn-outline-secondary" data-gov-action-card-votes-target="clearSelectionButton" data-action="click->gov-action-card-votes#clearSelection">Clear</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="main-content bg-light">
+    <div class="container-xxl g-5">
+      <div class="row">
+        <div class="col-12 py-5">
+
+            <h2 class="mb-5">Concluded Proposals</h2>
+            <div id="concluded-gov-actions-list" class="list-group list-group-flush bg-white p-2 p-md-3 rounded-3 mb-5">
+              <turbo-frame id="page_handler"></turbo-frame>
+              <div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1fah9m7dxu99af8jqdc4mkrgs3va790nyh9tfhycq2wsvrm47p4rsqtcm6ry">
+    <h2 class="m-0 p-0 fs-6">IO: Hydra</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was ratified on Jul 08, 2026 and is awaiting enactment." data-controller="tooltip">Ratified</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1cadmygtqv6r64pvwezw859wg36wpwp209cz94cc7ej9fdp7dyphqq58n5ur">
+    <h2 class="m-0 p-0 fs-6">Reduce the committeeMinSize parameter from 7 to 5</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Parameter Change</span>
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was ratified on Jul 08, 2026 and is awaiting enactment." data-controller="tooltip">Ratified</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1zljrlljt9cxlz7ra2nep43nxg0r54wcnrgexyuhuam9ah0ws607qq2vcg4x">
+    <h2 class="m-0 p-0 fs-6">Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2027</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jul 03, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action18a9sytyez02jl8ee4ryz5xu7heg587m5tu6nr7fkd3ex30umnnjqq27e7ey">
+    <h2 class="m-0 p-0 fs-6">Rare Evo and Dev Gov Day 2026: Cardano Title Sponsorship</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 28, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r">
+    <h2 class="m-0 p-0 fs-6">Update Plutus Cost Models</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Parameter Change</span>
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 18, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux">
+    <h2 class="m-0 p-0 fs-6">5am.earth Trust Layer Targeting Vision 2030 KPIs</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 28, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz">
+    <h2 class="m-0 p-0 fs-6">Cardano Critical Integrations V2</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 23, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z">
+    <h2 class="m-0 p-0 fs-6">Eternl: Path to Sustainability (2026-2027)</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 18, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1uzgqlh049u0j7epel29r425vyf9ttxmqwngw9kemyly0q6cwt5esqpwp09a">
+    <h2 class="m-0 p-0 fs-6">Scalus: Cardano’s Application Platform for Building, Launching, and Scaling</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 13, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv">
+    <h2 class="m-0 p-0 fs-6">Cardano dOSPO and OMF Program</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 13, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1ttgs45ulfxs0jwkfrecystc3flduhszmyzk8wnd7yw5za77tsg9qq4afmus">
+    <h2 class="m-0 p-0 fs-6">Cardano Vision 2026: Human Centred, Scalable, Post Quantum Secure - IO Research</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 13, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1ggr2uz7prwn5l84cdn2krwngfez0p7wluy4u3u3ez9pz5ls2whesqnsjly8">
+    <h2 class="m-0 p-0 fs-6">Pebble &amp; Ecosystem maintenance: TypeScript core of Cardano</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 03, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c">
+    <h2 class="m-0 p-0 fs-6">The first node in the browser; a Cardano USP</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 08, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d">
+    <h2 class="m-0 p-0 fs-6">[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 03, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action14u26vcn3wmcnhc5pqrt6494ypugr7c7f3e2ns60r32cntl6zjtxsqqgeu8p">
+    <h2 class="m-0 p-0 fs-6">Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 03, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw">
+    <h2 class="m-0 p-0 fs-6">Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on Jun 03, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z">
+    <h2 class="m-0 p-0 fs-6">Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum&#39; Sponsorship Proposal</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on Jun 03, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action10dp9wzmgt2nqshyrghufff4sfhcxedhmzluly5k0azguatnsthwqqs84cjf">
+    <h2 class="m-0 p-0 fs-6">Revised Cardano Summit 2026 Singapore</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-alert" title="The proposal expired on May 29, 2026." data-controller="tooltip">Expired</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qz6es0cp">
+    <h2 class="m-0 p-0 fs-6">IO: Cardano Upgrades</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on May 29, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+<div role="listitem" class="list-group-item border-light py-3">
+  <a class="d-flex gap-2 gap-md-4 flex-column-reverse flex-md-row align-items-md-center justify-content-between" href="/governance/gov_actions/gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk">
+    <h2 class="m-0 p-0 fs-6">IO: Consensus Initiative</h2>
+
+    <div class="d-flex text-dark-grey rounded px-md-3 py-2 gap-3 align-items-center justify-content-between">
+      <div class="d-flex flex-row-reverse gap-2 align-items-center text-md-end">
+        <span class="metatext">Treasury Withdrawal</span>
+        <i class="fa-solid fa-coins"></i>
+      </div>
+      <span class="badge bg-primary" title="The proposal was enacted on May 29, 2026." data-controller="tooltip">Enacted</span>
+    </div>
+</a></div>
+
+            </div>
+
+            <turbo-frame id="pager" data-turbo-action="advance">
+  <div id="pager" class="d-flex justify-content-center align-items-center">
+      <a class="btn btn-lg my-3 position-relative bg-white border-light shadow fs-8 link-dark-grey" data-turbo-frame="page_handler" href="/governance/gov_actions?page=2">Show more</a>
+</div></turbo-frame>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <footer class="pt-8 pb-5 bg-light">
+    <div class="container-xxl g-5">
+
+      <div class="row mb-5">
+        <div class="d-flex flex-wrap gap-3 justify-content-between">
+          <a class="d-none d-sm-block pe-md-4" loading="lazy" href="/"><img src="/assets/LogoIcon-928cd8eb8f623a685889e70f2f29310dff8017a5db77bed0108ebc76947c7894.png" /></a>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Explore Cardano</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/explore">Explore all projects</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/governance">Cardano Governance</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/latest">New projects</a>
+            </li>
+            <li>
+              <a href="cardano-ecosystem-interactive-map.html" class="d-block py-1">Utility Ecosystem map</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Community &amp; More</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/cardano-community">Cardano Community</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources">Knowledge Center</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources/videos">Cardano Videos</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/categories/developer-tools">Developer Hub</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Cardano Cube</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/suggest">Suggest a project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/promote-your-project">Promote your project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/sign_in">Sign in</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/about-us">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row text-grey fs-8">
+        <p class="fw-bolder">
+          * The Content on this website is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.<br>
+          Token data and purchases on our site are processed through partner organizations. For any inquiries or assistance regarding purchases, please contact our partners directly.
+        </p>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3">
+          <p class="mb-0">
+            Copyright © 2021 Cardano Cube. All rights reserved.<br>
+
+            <a class="text-decoration-underline me-2" href="/terms-conditions">Terms &amp; Conditions</a>
+            <a class="text-decoration-underline me-2" href="/privacy-cookies-policy">Privacy &amp; Cookies Policy</a>
+            <a class="text-decoration-underline me-2" href="/terms-of-sale">Terms of Sale</a>
+          </p>
+
+          <div class="d-flex align-items-center gap-3 fs-3 pe-1">
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://x.com/CardanoCube">
+              <i class="fa-brands fa-x-twitter"></i>
+</a>
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://discord.gg/ndpFEG6ysw">
+              <i class="fa-brands fa-discord"></i>
+</a>          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <turbo-frame id="cookie_banner" src="/cookies"></turbo-frame>
+  <div
+  class="project-ratings-cart d-none"
+  data-controller="project-ratings"
+  data-project-ratings-wallets-path-value="/wallets"
+  data-project-ratings-network-value="mainnet"
+  data-project-ratings-blockfrost-base-url-value="https://cardano-mainnet.blockfrost.io/api/v0"
+  data-project-ratings-blockfrost-project-id-value="mainnetdcOPoUY9qtlNMmbTU7oSfUConAFII3Ss"
+  data-project-ratings-hidden-class="d-none"
+  data-project-ratings-toggle-expanded-icon-class="fa-chevron-up"
+  data-project-ratings-toggle-collapsed-icon-class="fa-chevron-down">
+  <div class="project-ratings-cart__panel bg-white border border-light shadow rounded-3">
+    <button
+      type="button"
+      class="project-ratings-cart__toggle btn btn-light w-100 border-light border-0 border-bottom d-flex align-items-center justify-content-between gap-3"
+      data-project-ratings-target="toggle"
+      data-action="click->project-ratings#toggle">
+      <span class="fw-bolder">Ratings batch</span>
+      <span class="d-flex align-items-center gap-2">
+        <span class="badge bg-primary rounded-pill" data-project-ratings-target="count">0</span>
+        <i class="fa fa-chevron-up" data-project-ratings-target="toggleIcon" aria-hidden="true"></i>
+      </span>
+    </button>
+
+    <div class="project-ratings-cart__body p-3" data-project-ratings-target="body">
+      <div class="project-ratings-cart__items d-flex flex-column gap-2 mb-3" data-project-ratings-target="items"></div>
+      <div class="d-flex gap-2">
+        <button
+          type="button"
+          class="btn btn-outline-dark btn-sm flex-fill"
+          data-project-ratings-target="clearButton"
+          data-action="click->project-ratings#clear">Clear</button>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm flex-fill"
+          data-project-ratings-target="submitButton"
+          data-action="click->project-ratings#submit">Submit ratings</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  <div id="toasts" class="toast-container position-fixed top-0 end-0 me-3 mt-3 z-2">
+    
+  </div>
+
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-N97JGQBQFX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N97JGQBQFX');
+</script>
+
+</body>
+</html>

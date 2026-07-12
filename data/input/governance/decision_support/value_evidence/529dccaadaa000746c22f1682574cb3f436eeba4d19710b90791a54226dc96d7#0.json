@@ -1,0 +1,207 @@
+{
+  "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "985ae3f0945108b9dc356bdbc40e9884955341c1fc4fb00b09225f922917b566",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-github-com-8828762cf5.snap",
+          "url": "https://github.com/alphagrowth"
+        },
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "f9973542b47d16c782a0274e3acc8df11bba74e98374ac242d9292cf5a9b87c6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-coindesk-com-d1775d3448.snap",
+          "url": "https://www.coindesk.com/tech/2026/04/23/input-output-seeks-usd46-8-million-to-bring-bitcoin-defi-scaling-upgrade-to-cardano"
+        },
+        {
+          "sha256": "4d62fdf0f1f335a1379f164b7ef367068c9e62ce6053f166876a68281f27ae86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-e647d16419.snap",
+          "url": "https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633"
+        },
+        {
+          "sha256": "a3a035aa14afc60eda535858019865f07a2138f6d14bdf9a5f295250ebb43bd8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-iog-io-d52dffca6b.snap",
+          "url": "https://www.iog.io/news/io-treasury-proposals-the-5-minute-overview"
+        }
+      ],
+      "value": "no"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "7b39bb00fc7d2c6a7002517d0eff5b2dbff06fc1dba70f3628e23314d1be89b7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-globenewswire-com-f501505d3c.snap",
+          "url": "https://www.globenewswire.com/news-release/2024/07/24/2918194/0/en/AlphaGrowth-to-Lead-Compound-DAO-s-Strategic-Expansion-in-DeFi.html"
+        },
+        {
+          "sha256": "985ae3f0945108b9dc356bdbc40e9884955341c1fc4fb00b09225f922917b566",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-github-com-8828762cf5.snap",
+          "url": "https://github.com/alphagrowth"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        },
+        {
+          "sha256": "4ae7b8fc4725ff0df01efbb3c26463e7947f4919f77779a9362b7a43697e816a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-b070e45e97.snap",
+          "url": "https://forum.cardano.org/t/can-alphagrowth-fix-cardano-defi/155625"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        },
+        {
+          "sha256": "985ae3f0945108b9dc356bdbc40e9884955341c1fc4fb00b09225f922917b566",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-github-com-8828762cf5.snap",
+          "url": "https://github.com/alphagrowth"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        },
+        {
+          "sha256": "083c08f93502cfc431c3c89290d9db1033b0b7849f6fdd47f28f5547171ecec1",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-1f07afe2cc.snap",
+          "url": "https://forum.cardano.org/t/cardanos-120m-ada-defi-bet-ethereum-utxo-shift-and-emurgo-exit/155622"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "9e01a90e5a57f4015b454ec207dd9f72a4d034e8eb7df665293d8bd26d05dd3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-ad-hoc-news-de-79d08312dc.snap",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cardano-activates-treasury-for-first-defi-liquidity-allocation/68592593"
+        },
+        {
+          "sha256": "4d62fdf0f1f335a1379f164b7ef367068c9e62ce6053f166876a68281f27ae86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-e647d16419.snap",
+          "url": "https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "9e01a90e5a57f4015b454ec207dd9f72a4d034e8eb7df665293d8bd26d05dd3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-ad-hoc-news-de-79d08312dc.snap",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cardano-activates-treasury-for-first-defi-liquidity-allocation/68592593"
+        },
+        {
+          "sha256": "4d62fdf0f1f335a1379f164b7ef367068c9e62ce6053f166876a68281f27ae86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-e647d16419.snap",
+          "url": "https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        },
+        {
+          "sha256": "985ae3f0945108b9dc356bdbc40e9884955341c1fc4fb00b09225f922917b566",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-github-com-8828762cf5.snap",
+          "url": "https://github.com/alphagrowth"
+        }
+      ],
+      "value": "no"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "842e15782e0464bc9a471991d5d1787279ce8eade79cb669c37c0c760fbe3776",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-api-llama-fi-30d7be4e3f.snap",
+          "url": "https://api.llama.fi/v2/chains"
+        },
+        {
+          "sha256": "9e01a90e5a57f4015b454ec207dd9f72a4d034e8eb7df665293d8bd26d05dd3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-ad-hoc-news-de-79d08312dc.snap",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cardano-activates-treasury-for-first-defi-liquidity-allocation/68592593"
+        },
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "985ae3f0945108b9dc356bdbc40e9884955341c1fc4fb00b09225f922917b566",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-github-com-8828762cf5.snap",
+          "url": "https://github.com/alphagrowth"
+        },
+        {
+          "sha256": "6fd0c7fa73bd82c9a9a2a1467d91bee7eb4221fc3bdfc498a0d2acac32eb780e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-cryptonews-net-f396c2247f.snap",
+          "url": "https://cryptonews.net/news/altcoins/33078709/"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "9e01a90e5a57f4015b454ec207dd9f72a4d034e8eb7df665293d8bd26d05dd3e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-www-ad-hoc-news-de-79d08312dc.snap",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cardano-activates-treasury-for-first-defi-liquidity-allocation/68592593"
+        },
+        {
+          "sha256": "4d62fdf0f1f335a1379f164b7ef367068c9e62ce6053f166876a68281f27ae86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/529dccaadaa0-forum-cardano-org-e647d16419.snap",
+          "url": "https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:21+00:00"
+}

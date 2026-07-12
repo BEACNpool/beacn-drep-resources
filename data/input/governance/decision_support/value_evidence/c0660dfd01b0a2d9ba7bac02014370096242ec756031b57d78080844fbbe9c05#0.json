@@ -1,0 +1,263 @@
+{
+  "action_id": "c0660dfd01b0a2d9ba7bac02014370096242ec756031b57d78080844fbbe9c05#0",
+  "confidence": 0.8,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "f4c5613c29161677ec5822bc1cf1fba40cd1de409b12384ca2eb8a6e9356b170",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-167d7283e5.snap",
+          "url": "https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "1a67d67ed1551d9a8d7c64388902da08c1aac9d77c89e37217b8a9c481872d36",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-projectcatalyst-io-41b1996626.snap",
+          "url": "https://projectcatalyst.io/funds/15/cardano-use-cases-prototype-and-launch/cardano-global-orderbook"
+        },
+        {
+          "sha256": "8641e86971c8b5fc63baa08b872e05f014315436336174412d1aa0916cbeb88b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-cardano-drep-dashboard-learncardano-io-94eadc0950.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-dano-finance-defi-kernel-options-synthetics"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        }
+      ],
+      "value": "no"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "fd77a52b83959b40b3295a9d7f065e1ff102b1fb1134938f8dbfa5bb89f9b985",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-48ca04044e.snap",
+          "url": "https://github.com/dano-finance/bond-dex"
+        },
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        },
+        {
+          "sha256": "2af1edd4420d28f91609b2dd42c5396d3c7d45db4969a87190ea0ec53705f467",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-www-cardanocube-com-55a4e19055.snap",
+          "url": "https://www.cardanocube.com/projects/dano-finance"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        },
+        {
+          "sha256": "bf86bf22728a708238b46bdcfa03f06030a6e7de17d82f776480c48c245f7b27",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-builtoncardano-com-33b5f02632.snap",
+          "url": "https://builtoncardano.com/ecosystem/order-book"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "f4c5613c29161677ec5822bc1cf1fba40cd1de409b12384ca2eb8a6e9356b170",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-167d7283e5.snap",
+          "url": "https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "f4c5613c29161677ec5822bc1cf1fba40cd1de409b12384ca2eb8a6e9356b170",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-167d7283e5.snap",
+          "url": "https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano"
+        },
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "088b94d9297f2824f057df344ef825dfee047c789e116ca4220407873be840b3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-7deb156a23.snap",
+          "url": "https://github.com/fallen-icarus/cardano-options"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        },
+        {
+          "sha256": "bf86bf22728a708238b46bdcfa03f06030a6e7de17d82f776480c48c245f7b27",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-builtoncardano-com-33b5f02632.snap",
+          "url": "https://builtoncardano.com/ecosystem/order-book"
+        },
+        {
+          "sha256": "a5f0b161c725b8420a9603778787c85635b4156e5c08b096f94af4328edeab65",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-196aeb6742.snap",
+          "url": "https://api.llama.fi/protocol/liqwid"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "088b94d9297f2824f057df344ef825dfee047c789e116ca4220407873be840b3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-7deb156a23.snap",
+          "url": "https://github.com/fallen-icarus/cardano-options"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        },
+        {
+          "sha256": "8641e86971c8b5fc63baa08b872e05f014315436336174412d1aa0916cbeb88b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-cardano-drep-dashboard-learncardano-io-94eadc0950.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-dano-finance-defi-kernel-options-synthetics"
+        },
+        {
+          "sha256": "bf86bf22728a708238b46bdcfa03f06030a6e7de17d82f776480c48c245f7b27",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-builtoncardano-com-33b5f02632.snap",
+          "url": "https://builtoncardano.com/ecosystem/order-book"
+        },
+        {
+          "sha256": "1a67d67ed1551d9a8d7c64388902da08c1aac9d77c89e37217b8a9c481872d36",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-projectcatalyst-io-41b1996626.snap",
+          "url": "https://projectcatalyst.io/funds/15/cardano-use-cases-prototype-and-launch/cardano-global-orderbook"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        },
+        {
+          "sha256": "f78419ae57d4fe9baccdbc27e999776e3453c3b6bb533852b681e0bced599bc6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-a7a545a893.snap",
+          "url": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/danogo/index.js"
+        },
+        {
+          "sha256": "f4c5613c29161677ec5822bc1cf1fba40cd1de409b12384ca2eb8a6e9356b170",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-167d7283e5.snap",
+          "url": "https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        },
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        },
+        {
+          "sha256": "8641e86971c8b5fc63baa08b872e05f014315436336174412d1aa0916cbeb88b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-cardano-drep-dashboard-learncardano-io-94eadc0950.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-dano-finance-defi-kernel-options-synthetics"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "f4c5613c29161677ec5822bc1cf1fba40cd1de409b12384ca2eb8a6e9356b170",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-167d7283e5.snap",
+          "url": "https://github.com/DeFiKernel-Cardano/DeFi-Kernel-Registry-for-Cardano"
+        },
+        {
+          "sha256": "fd77a52b83959b40b3295a9d7f065e1ff102b1fb1134938f8dbfa5bb89f9b985",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-48ca04044e.snap",
+          "url": "https://github.com/dano-finance/bond-dex"
+        }
+      ],
+      "value": "unknown"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "fd77a52b83959b40b3295a9d7f065e1ff102b1fb1134938f8dbfa5bb89f9b985",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-48ca04044e.snap",
+          "url": "https://github.com/dano-finance/bond-dex"
+        },
+        {
+          "sha256": "2af1edd4420d28f91609b2dd42c5396d3c7d45db4969a87190ea0ec53705f467",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-www-cardanocube-com-55a4e19055.snap",
+          "url": "https://www.cardanocube.com/projects/dano-finance"
+        },
+        {
+          "sha256": "c15f5f643b6158507ac4041d8c024ba7bcbb793e4ee129a0e64d59838b962af0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-c3f480f15a.snap",
+          "url": "https://api.llama.fi/protocol/dano-finance"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "d6baf9e7f1528127bcbcfccbb754e06dba4b17372910927781d09879196682ca",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-c92b425ad8.snap",
+          "url": "https://github.com/fallen-icarus/cardano-swaps"
+        },
+        {
+          "sha256": "088b94d9297f2824f057df344ef825dfee047c789e116ca4220407873be840b3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-github-com-7deb156a23.snap",
+          "url": "https://github.com/fallen-icarus/cardano-options"
+        },
+        {
+          "sha256": "a5f0b161c725b8420a9603778787c85635b4156e5c08b096f94af4328edeab65",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/c0660dfd01b0-api-llama-fi-196aeb6742.snap",
+          "url": "https://api.llama.fi/protocol/liqwid"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:36+00:00"
+}

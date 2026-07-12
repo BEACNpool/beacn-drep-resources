@@ -1,0 +1,180 @@
+{
+  "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "872c69061d12419a5a460f440f8e4a22bf1746b7d66b0bc3ed82bcfd5810ccde",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-raw-githubusercontent-com-513ba94be4.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/state-of-the-developer-ecosystem/main/2025/data/answers.json"
+        },
+        {
+          "sha256": "41de96fa853a6bd92cd9ff41f1b9a1e14352d0c85263db3f5d0323987d8e120c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-8fcfa08715.snap",
+          "url": "https://github.com/blockfrost/blockfrost-js/network/dependents"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "6fcc2ca71ef48c9b375e95a04a0834fc8f138e3bca91f8372e1dd3e74e76e4d6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-bitcoinist-com-1f0ea2f217.snap",
+          "url": "https://bitcoinist.com/cardano-closes-264-million-ada-budget-cycle/"
+        },
+        {
+          "sha256": "7d5c6d8f2ce5ed82923e9d35f95a449da3c3d94758f40139c0d728ae9f7c526a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-d456c90bf3.snap",
+          "url": "https://github.com/blockfrost/blockfrost-platform"
+        },
+        {
+          "sha256": "dce9a022b65352a564b8ae53a020c59a75d5717b538e8e9de870d668b9ad7f7c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-7598a42ccd.snap",
+          "url": "https://github.com/blockfrost/blockfrost-backend-ryo"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "872c69061d12419a5a460f440f8e4a22bf1746b7d66b0bc3ed82bcfd5810ccde",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-raw-githubusercontent-com-513ba94be4.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/state-of-the-developer-ecosystem/main/2025/data/answers.json"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "4b06ac70328707c979283fd5abe00568eb57ddec3ba5c41b7680ea46c1d619ef",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-meshjs-dev-f74b09d8b5.snap",
+          "url": "https://meshjs.dev/providers/blockfrost"
+        },
+        {
+          "sha256": "41de96fa853a6bd92cd9ff41f1b9a1e14352d0c85263db3f5d0323987d8e120c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-8fcfa08715.snap",
+          "url": "https://github.com/blockfrost/blockfrost-js/network/dependents"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "b74a0d34ffd3e546fa8e94fea56e5aff85b14d4e5d94c7d9f3bb8e9cee32011f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-api-npmjs-org-d3e1740cc3.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@blockfrost/blockfrost-js"
+        },
+        {
+          "sha256": "dce9a022b65352a564b8ae53a020c59a75d5717b538e8e9de870d668b9ad7f7c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-7598a42ccd.snap",
+          "url": "https://github.com/blockfrost/blockfrost-backend-ryo"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "1982d7072a234acf4a6d53df6b14594b90b3388f509cbba21225db551a0f418c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-www-koios-rest-f2dbbd430b.snap",
+          "url": "https://www.koios.rest/"
+        },
+        {
+          "sha256": "4b06ac70328707c979283fd5abe00568eb57ddec3ba5c41b7680ea46c1d619ef",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-meshjs-dev-f74b09d8b5.snap",
+          "url": "https://meshjs.dev/providers/blockfrost"
+        },
+        {
+          "sha256": "dce9a022b65352a564b8ae53a020c59a75d5717b538e8e9de870d668b9ad7f7c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-7598a42ccd.snap",
+          "url": "https://github.com/blockfrost/blockfrost-backend-ryo"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "b74a0d34ffd3e546fa8e94fea56e5aff85b14d4e5d94c7d9f3bb8e9cee32011f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-api-npmjs-org-d3e1740cc3.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@blockfrost/blockfrost-js"
+        },
+        {
+          "sha256": "41de96fa853a6bd92cd9ff41f1b9a1e14352d0c85263db3f5d0323987d8e120c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-8fcfa08715.snap",
+          "url": "https://github.com/blockfrost/blockfrost-js/network/dependents"
+        },
+        {
+          "sha256": "548384eb5be901c7baedaf7fae6ef98b1760e669f895071469d9843935c0aff4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-hub-docker-com-aff7aa60e5.snap",
+          "url": "https://hub.docker.com/v2/repositories/blockfrost/backend-ryo/"
+        },
+        {
+          "sha256": "872c69061d12419a5a460f440f8e4a22bf1746b7d66b0bc3ed82bcfd5810ccde",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-raw-githubusercontent-com-513ba94be4.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/state-of-the-developer-ecosystem/main/2025/data/answers.json"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "dce9a022b65352a564b8ae53a020c59a75d5717b538e8e9de870d668b9ad7f7c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-7598a42ccd.snap",
+          "url": "https://github.com/blockfrost/blockfrost-backend-ryo"
+        },
+        {
+          "sha256": "7d5c6d8f2ce5ed82923e9d35f95a449da3c3d94758f40139c0d728ae9f7c526a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-github-com-d456c90bf3.snap",
+          "url": "https://github.com/blockfrost/blockfrost-platform"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "872c69061d12419a5a460f440f8e4a22bf1746b7d66b0bc3ed82bcfd5810ccde",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-raw-githubusercontent-com-513ba94be4.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/state-of-the-developer-ecosystem/main/2025/data/answers.json"
+        },
+        {
+          "sha256": "e32b703fea39ba02d2d567ba57d8482566aa0cb802f6eaf5e498307206a8377b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-raw-githubusercontent-com-514aaef3c0.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/state-of-the-developer-ecosystem/main/2025/data/survey.json"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "notes": "\n\nSOURCE REMOVED (repo hygiene, not an evidence problem): the snapshot of developers.cardano.org's Blockfrost API-providers page was dropped because GitHub secret scanning matched a Mailgun-key pattern inside it. It is a FALSE POSITIVE -- the match is a Docusaurus content-hashed image filename (getting-started-3_get_api_key-<hash>.png), not a credential. Rather than bypass push protection to commit a credential-shaped string to a public repo, the source was removed. Every field it supported retains sufficient independent domains, so no value changed and no field was demoted.",
+  "pinned_at_utc": "2026-07-12T17:11:25+00:00"
+}

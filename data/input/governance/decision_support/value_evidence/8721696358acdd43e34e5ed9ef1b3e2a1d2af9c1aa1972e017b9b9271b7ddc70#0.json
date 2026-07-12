@@ -1,0 +1,232 @@
+{
+  "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "3ed7a8da9ac28b9c547883cc1df0d0418eed2500c33fd01dd74a3fe384163a38",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-github-com-8cb8f26836.snap",
+          "url": "https://github.com/strike-finance/perpetuals-smart-contracts"
+        },
+        {
+          "sha256": "36610b353065bf9fcca53665c8632972fd1ca19cc602c77c3a939456aa87ba7d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-github-com-521f9ddc7f.snap",
+          "url": "https://github.com/strike-finance"
+        },
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        },
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "df2f14eff5e6f0946c4de4fafa014ec6c86d4374be85ff3ab8d017d72be4168e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-learncardano-io-f61ed6c204.snap",
+          "url": "https://learncardano.io/courses/strike-finance-perpetuals-on-cardano/"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "f61b88fa30571b22c2a9118b72b2def778ef029659ee305f091d55961fa6d4d8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-9eda308774.snap",
+          "url": "https://api.llama.fi/protocols"
+        },
+        {
+          "sha256": "16139445f8d4ab117ff305a896a48ee0c5679127434f890e578ef576633ae9d9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-cryptoslate-com-d2b7d21937.snap",
+          "url": "https://cryptoslate.com/how-cardano-plans-to-use-30m-to-bring-real-liquidity-to-the-network/"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        },
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "3ed7a8da9ac28b9c547883cc1df0d0418eed2500c33fd01dd74a3fe384163a38",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-github-com-8cb8f26836.snap",
+          "url": "https://github.com/strike-finance/perpetuals-smart-contracts"
+        },
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "df2f14eff5e6f0946c4de4fafa014ec6c86d4374be85ff3ab8d017d72be4168e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-learncardano-io-f61ed6c204.snap",
+          "url": "https://learncardano.io/courses/strike-finance-perpetuals-on-cardano/"
+        },
+        {
+          "sha256": "5783eedf36e531d426dcef9506a76980aea008fec5e32c742aeba0cee8d1a7ec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-coingecko-com-0c2e76a4f8.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/strike-2"
+        },
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "842e15782e0464bc9a471991d5d1787279ce8eade79cb669c37c0c760fbe3776",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-30d7be4e3f.snap",
+          "url": "https://api.llama.fi/v2/chains"
+        },
+        {
+          "sha256": "56af768ccdf7d1d05a58eb44a53df76b432e480f00ed834651c5162fc480221b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-api-llama-fi-6e72701cec.snap",
+          "url": "https://api.llama.fi/protocol/strike-finance-perpetuals"
+        },
+        {
+          "sha256": "31a3e702b753aa007187b478a4aed68910939debdbf90a2b2abb3c0831aa1be8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/8721696358ac-www-cardanocube-com-97cf151a14.snap",
+          "url": "https://www.cardanocube.com/projects/strike-finance"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:30+00:00"
+}

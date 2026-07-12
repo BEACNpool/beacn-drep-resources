@@ -1,0 +1,239 @@
+{
+  "action_id": "3234567a3f48ace25efc150f1369192615974e232ea06e0251701831d9e4486d#0",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "9ae6871710b015d00390720d737634d5ac58a46fa203f9a19ef9a60f46e4c86b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-54f297a837.snap",
+          "url": "https://registry.npmjs.org/@meshsdk/core"
+        },
+        {
+          "sha256": "d4fddf3c61a7868795874085710bb836d1965d57f9b11839fd5a91767ea45d48",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-api-npmjs-org-838cfd7ad0.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@meshsdk/core"
+        },
+        {
+          "sha256": "d63a373cc5e06a99439120ab380debf69fa10943fc9fa9839503d1de581adf41",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-api-npmjs-org-72b63d3e43.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "d31a6c11fe8d98580509d2f8d4517a6e2a190b96f085e61f2eb88cd6bf1e33f0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-projectcatalyst-io-889bbfa698.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-open-developers/scalus-multiplatform-scala-implementation-of-cardano-plutus"
+        },
+        {
+          "sha256": "1b2e9c465c4e3117107f0576fd5513ba6d5ee0640f14a8649ce8d7eeadc72c84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ac69522671.snap",
+          "url": "https://github.com/scalus3/scalus/releases"
+        },
+        {
+          "sha256": "357297b825d5a07d52d5f0490c4a6140bce945de34416a1a5b100bb99c359787",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-repo1-maven-org-0d14450795.snap",
+          "url": "https://repo1.maven.org/maven2/org/scalus/scalus-bloxbean-cardano-client-lib_3/maven-metadata.xml"
+        },
+        {
+          "sha256": "cae30dc3ce36d485c745ca7edd74b424db368cccb7ceaa483e2aeeda5c329cf7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ca42971201.snap",
+          "url": "https://github.com/scalus3/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "9ae6871710b015d00390720d737634d5ac58a46fa203f9a19ef9a60f46e4c86b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-54f297a837.snap",
+          "url": "https://registry.npmjs.org/@meshsdk/core"
+        },
+        {
+          "sha256": "0695eeb035fefa5fe4db73c7d71da6687a2556feca900284f5793ce97ec1071f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-raw-githubusercontent-com-0f88380be4.snap",
+          "url": "https://raw.githubusercontent.com/bloxbean/cardano-client-lib/master/gradle/libs.versions.toml"
+        },
+        {
+          "sha256": "7a825a8e4da1dd86cc0f65d44f9ee80a6f5e3be155ff568b92dacb66eee6583a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-raw-githubusercontent-com-e0c9c60261.snap",
+          "url": "https://raw.githubusercontent.com/bloxbean/cardano-client-lib/master/docs/content/integrations/scalus-integration-api.mdx"
+        },
+        {
+          "sha256": "cae30dc3ce36d485c745ca7edd74b424db368cccb7ceaa483e2aeeda5c329cf7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ca42971201.snap",
+          "url": "https://github.com/scalus3/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "9ae6871710b015d00390720d737634d5ac58a46fa203f9a19ef9a60f46e4c86b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-54f297a837.snap",
+          "url": "https://registry.npmjs.org/@meshsdk/core"
+        },
+        {
+          "sha256": "9583c73a3a82c19f1286821fabe92769ea090f753ab1684c69fb56e58423ae4d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-a04aafc4d3.snap",
+          "url": "https://registry.npmjs.org/@lucid-evolution/scalus-uplc"
+        },
+        {
+          "sha256": "fa62152ed13e7b452448d86a7e2662dc4b42bc32b24eee30c7ba21706b41f152",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-f979e6328d.snap",
+          "url": "https://registry.npmjs.org/@evolution-sdk/scalus-uplc"
+        },
+        {
+          "sha256": "e387d74ef5837b1b85c6e178d9c71ff98a793453ad85ec1a4e4dbd4b4e19881c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-b1046ec607.snap",
+          "url": "https://registry.npmjs.org/@meshsdk/scalus-emulator"
+        },
+        {
+          "sha256": "0695eeb035fefa5fe4db73c7d71da6687a2556feca900284f5793ce97ec1071f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-raw-githubusercontent-com-0f88380be4.snap",
+          "url": "https://raw.githubusercontent.com/bloxbean/cardano-client-lib/master/gradle/libs.versions.toml"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "357297b825d5a07d52d5f0490c4a6140bce945de34416a1a5b100bb99c359787",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-repo1-maven-org-0d14450795.snap",
+          "url": "https://repo1.maven.org/maven2/org/scalus/scalus-bloxbean-cardano-client-lib_3/maven-metadata.xml"
+        },
+        {
+          "sha256": "1b2e9c465c4e3117107f0576fd5513ba6d5ee0640f14a8649ce8d7eeadc72c84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ac69522671.snap",
+          "url": "https://github.com/scalus3/scalus/releases"
+        },
+        {
+          "sha256": "d63a373cc5e06a99439120ab380debf69fa10943fc9fa9839503d1de581adf41",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-api-npmjs-org-72b63d3e43.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "7a825a8e4da1dd86cc0f65d44f9ee80a6f5e3be155ff568b92dacb66eee6583a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-raw-githubusercontent-com-e0c9c60261.snap",
+          "url": "https://raw.githubusercontent.com/bloxbean/cardano-client-lib/master/docs/content/integrations/scalus-integration-api.mdx"
+        },
+        {
+          "sha256": "fa62152ed13e7b452448d86a7e2662dc4b42bc32b24eee30c7ba21706b41f152",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-f979e6328d.snap",
+          "url": "https://registry.npmjs.org/@evolution-sdk/scalus-uplc"
+        },
+        {
+          "sha256": "9ae6871710b015d00390720d737634d5ac58a46fa203f9a19ef9a60f46e4c86b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-54f297a837.snap",
+          "url": "https://registry.npmjs.org/@meshsdk/core"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "d63a373cc5e06a99439120ab380debf69fa10943fc9fa9839503d1de581adf41",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-api-npmjs-org-72b63d3e43.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/scalus"
+        },
+        {
+          "sha256": "04bff16fc0845c79305a609eb95c511aaa48a58df467984b1b85ccca9afdeca2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-repo1-maven-org-320948a13c.snap",
+          "url": "https://repo1.maven.org/maven2/org/scalus/"
+        },
+        {
+          "sha256": "cae30dc3ce36d485c745ca7edd74b424db368cccb7ceaa483e2aeeda5c329cf7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ca42971201.snap",
+          "url": "https://github.com/scalus3/scalus"
+        },
+        {
+          "sha256": "d4fddf3c61a7868795874085710bb836d1965d57f9b11839fd5a91767ea45d48",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-api-npmjs-org-838cfd7ad0.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@meshsdk/core"
+        },
+        {
+          "sha256": "f0ce81702942288c78282aeefb229894c49f5cce38bce20b655a0a1bff83f254",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-index-scala-lang-org-b9a45a0c2b.snap",
+          "url": "https://index.scala-lang.org/scalus3/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "cae30dc3ce36d485c745ca7edd74b424db368cccb7ceaa483e2aeeda5c329cf7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ca42971201.snap",
+          "url": "https://github.com/scalus3/scalus"
+        },
+        {
+          "sha256": "f0ce81702942288c78282aeefb229894c49f5cce38bce20b655a0a1bff83f254",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-index-scala-lang-org-b9a45a0c2b.snap",
+          "url": "https://index.scala-lang.org/scalus3/scalus"
+        },
+        {
+          "sha256": "4ce6bc0fdec0c26f7d20e23352f90a098b18f96b0c07a0e32e898845c2a017a5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-e391cc188c.snap",
+          "url": "https://registry.npmjs.org/scalus"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "cae30dc3ce36d485c745ca7edd74b424db368cccb7ceaa483e2aeeda5c329cf7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-github-com-ca42971201.snap",
+          "url": "https://github.com/scalus3/scalus"
+        },
+        {
+          "sha256": "9583c73a3a82c19f1286821fabe92769ea090f753ab1684c69fb56e58423ae4d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-registry-npmjs-org-a04aafc4d3.snap",
+          "url": "https://registry.npmjs.org/@lucid-evolution/scalus-uplc"
+        },
+        {
+          "sha256": "0695eeb035fefa5fe4db73c7d71da6687a2556feca900284f5793ce97ec1071f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/3234567a3f48-raw-githubusercontent-com-0f88380be4.snap",
+          "url": "https://raw.githubusercontent.com/bloxbean/cardano-client-lib/master/gradle/libs.versions.toml"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:10+00:00"
+}

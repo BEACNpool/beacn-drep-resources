@@ -1,0 +1,1667 @@
+<!DOCTYPE html><html prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> <script id="cryptoslate-theme-bootstrap" data-noptimize="1">(function () {
+            var storageKey = "theme";
+            var cookieName = "theme";
+            var docEl = document.documentElement;
+
+            function isValidTheme(theme) {
+                return theme === "dark" || theme === "light";
+            }
+
+            function getCookie(name) {
+                var match = document.cookie.match(new RegExp("(^|;)\\s*" + name + "=([^;]+)"));
+                if (!match) return null;
+                var value = match.pop();
+                try {
+                    return decodeURIComponent(value);
+                } catch (_) {
+                    return value;
+                }
+            }
+
+            var stored = null;
+            var cookie = getCookie(cookieName);
+            var theme = "light";
+
+            try {
+                stored = localStorage.getItem(storageKey);
+            } catch (_) {}
+
+            if (isValidTheme(stored)) {
+                theme = stored;
+            } else if (isValidTheme(cookie)) {
+                theme = cookie;
+            } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                theme = "dark";
+            }
+
+            docEl.setAttribute("data-theme", theme);
+            docEl.style.colorScheme = theme;
+        })();</script> <script id="cryptoslate-jquery-ready-queue" data-noptimize="1">(function (window, document) {
+            var queue = [];
+            var scheduled = false;
+            var readyJQuery = null;
+
+            function run(callback, jq) {
+                try {
+                    callback(jq);
+                } catch (error) {
+                    window.setTimeout(function () {
+                        throw error;
+                    }, 0);
+                }
+            }
+
+            function flush(jq) {
+                jq = jq || window.jQuery;
+                if (!jq || !jq.fn) {
+                    return false;
+                }
+
+                readyJQuery = jq;
+                scheduled = false;
+                while (queue.length) {
+                    run(queue.shift(), jq);
+                }
+
+                return true;
+            }
+
+            function schedule() {
+                if (scheduled || flush()) {
+                    return;
+                }
+
+                scheduled = true;
+                window.setTimeout(function () {
+                    scheduled = false;
+                    flush();
+                }, 0);
+            }
+
+            window.cryptoOnJQueryReady = window.cryptoOnJQueryReady || function (callback) {
+                if (typeof callback !== "function") {
+                    return;
+                }
+
+                if (readyJQuery) {
+                    run(callback, readyJQuery);
+                    return;
+                }
+
+                queue.push(callback);
+                schedule();
+            };
+            window.cryptoFlushJQueryReady = window.cryptoFlushJQueryReady || flush;
+
+            if (document.readyState === "loading") {
+                document.addEventListener("DOMContentLoaded", schedule, { once: true });
+            } else {
+                schedule();
+            }
+            window.addEventListener("load", schedule, { once: true });
+        })(window, document);</script> <style id="cryptoslate-theme-foundation" data-noptimize="1">:root {
+                color-scheme: light dark;
+                --bg: #fafafb;
+                --bg-primary: #fff;
+                --brand: #1f93ff;
+                --accent-soft: rgba(31, 147, 255, 0.08);
+                --border: #e5e7ef;
+                --light-text: #858593;
+                --dark-text: #2d2d3d;
+                --box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.03);
+                --linear-gradient: linear-gradient(45deg, #fff, #f0f0f5);
+                --icon-color: #a19eb1;
+                --bg-hover: rgb(230, 237, 242);
+                --splash-gradient: linear-gradient(-225deg, #f1f0f8, #ecebf5);
+                --chart-bg: #e6ecf2;
+                --light-shadow: linear-gradient(90deg, #f0f2f6, hsla(0, 0%, 99.6%, 0));
+                --light-shadow-rev: linear-gradient(90deg, hsla(0, 0%, 99.6%, 0), #f0f2f6);
+                --img-filter: invert(0);
+                --logo-bg: linear-gradient(225deg, #403f5d, #191829);
+                --dark-bg: linear-gradient(45deg, #46465d, #232334);
+                --medium-bg: radial-gradient(circle farthest-corner at 10% 20%, #bebecd 0%, #5a5a6a 90%);
+            }
+
+            html[data-theme="dark"] {
+                --bg: #0f1116;
+                --bg-primary: #141823;
+                --accent-soft: rgba(31, 147, 255, 0.14);
+                --border: #2e2b42;
+                --light-text: #a9adc3;
+                --dark-text: #dde0e8;
+                --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+                --linear-gradient: linear-gradient(45deg, #171b26, #0f1116);
+                --icon-color: #8b90a6;
+                --bg-hover: linear-gradient(180deg, #121826 0%, #0b111c 100%);
+                --splash-gradient: linear-gradient(-225deg, #1a1c24, #0f1116);
+                --chart-bg: #29323a;
+                --light-shadow: linear-gradient(90deg, #1a1c24, hsla(0, 0%, 10%, 0));
+                --light-shadow-rev: linear-gradient(90deg, hsla(0, 0%, 10%, 0), #1a1c24);
+                --img-filter: invert(1);
+                --logo-bg: linear-gradient(225deg, #0b0b11, #191829);
+                --dark-bg: linear-gradient(45deg, #232334, #12121e);
+                --medium-bg: linear-gradient(45deg, #3e3e5b, #24243b);
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root:not([data-theme="light"]) {
+                    --bg: #0f1116;
+                    --bg-primary: #141823;
+                    --accent-soft: rgba(31, 147, 255, 0.14);
+                    --border: #2e2b42;
+                    --light-text: #a9adc3;
+                    --dark-text: #dde0e8;
+                    --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+                    --linear-gradient: linear-gradient(45deg, #171b26, #0f1116);
+                    --icon-color: #8b90a6;
+                    --bg-hover: linear-gradient(180deg, #121826 0%, #0b111c 100%);
+                    --splash-gradient: linear-gradient(-225deg, #1a1c24, #0f1116);
+                    --chart-bg: #29323a;
+                    --light-shadow: linear-gradient(90deg, #1a1c24, hsla(0, 0%, 10%, 0));
+                    --light-shadow-rev: linear-gradient(90deg, hsla(0, 0%, 10%, 0), #1a1c24);
+                    --img-filter: invert(1);
+                    --logo-bg: linear-gradient(225deg, #0b0b11, #191829);
+                    --dark-bg: linear-gradient(45deg, #232334, #12121e);
+                    --medium-bg: linear-gradient(45deg, #3e3e5b, #24243b);
+                }
+            }
+
+            html,
+            body {
+                background: var(--bg);
+                color: var(--dark-text);
+            }</style> <script id="cryptoslate-consent-config" data-noptimize="1">window.cryptoConsentConfig = {"enabled":true,"version":"2026-06-25.4","provider":"wpconsent","wpConsentCookieName":"wpconsent_preferences","rePromptAfterDays":365,"privacyChoicesUrl":"#cookie-settings","tcf":{"enabled":false,"provider":"wpconsent-lite"},"services":{"googleTag":{"enabled":true,"id":"UA-109660210-1"},"hypelab":{"enabled":true,"src":"https:\/\/api.hypelab.com\/v1\/scripts\/hp-sdk.js?v=0","settings":{"URL":"https:\/\/api.hypelab.com","propertySlug":"069bfe1d8e","environment":"production"}}},"functionalStorage":{"cookies":[],"localStorage":["cs_review_geo_v1"]},"categories":{"essential":{"label":"Essential","required":true},"analytics":{"label":"Analytics","wpconsentKeys":["statistics"]},"advertising":{"label":"Advertising","wpconsentKeys":["marketing"]},"functional":{"label":"Functional","wpconsentKeys":["functional","preferences"]}},"essentialStorage":{"cookies":["_ga","theme","cryptoslate_coin_tradingview_range","cryptoslate_coin_tradingview_type"],"cookiePrefixes":["_ga_"]}};</script> <script id="cryptoslate-consent-manager-js" data-noptimize="1">(function () {
+    var config = window.cryptoConsentConfig || {};
+    var loaded = {};
+    var lastState = null;
+    var callbacksBound = false;
+    var wpConsentIntegrationBound = false;
+    var patchedWPConsentClearCookies = null;
+    var patchedWPConsentGetCookie = null;
+    var patchedWPConsentSetCookie = null;
+    var patchedWPConsentUnlockIframes = null;
+    var patchedWPConsentUnlockScripts = null;
+
+    if (config.tcf && config.tcf.enabled) {
+        window.gtag_enable_tcf_support = true;
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () {
+        window.dataLayer.push(arguments);
+    };
+
+    window.gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'granted',
+        functionality_storage: 'denied',
+        personalization_storage: 'denied',
+        security_storage: 'granted'
+    });
+
+    function hasGlobalPrivacyControl() {
+        return Boolean(navigator.globalPrivacyControl || window.globalPrivacyControl);
+    }
+
+    function getCookie(name) {
+        var escapedName = String(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        var match = document.cookie.match(new RegExp('(?:^|;)\\s*' + escapedName + '=([^;]+)'));
+
+        return match ? match[1] : '';
+    }
+
+    function decodeCookieValue(value) {
+        try {
+            return decodeURIComponent(value);
+        } catch (error) {}
+
+        return value;
+    }
+
+    function parseConsentJson(value) {
+        var consentText = decodeCookieValue(value);
+        try {
+            return JSON.parse(consentText);
+        } catch (error) {}
+
+        return null;
+    }
+
+    function isTruthySetting(value) {
+        return value === true
+            || value === 1
+            || value === '1'
+            || value === 'true';
+    }
+
+    function isFalseSetting(value) {
+        return value === false
+            || value === 0
+            || value === '0'
+            || value === 'false';
+    }
+
+    function hasSetting(settings, key) {
+        return Object.prototype.hasOwnProperty.call(settings || {}, key);
+    }
+
+    function getWPConsentSharedCookieDomain() {
+        var settings = window.wpconsent || {};
+        var domain = String(settings.cookie_domain || '').trim();
+
+        if (!isTruthySetting(settings.enable_shared_consent) || !domain) {
+            return '';
+        }
+
+        return domain.charAt(0) === '.' ? domain : '.' + domain;
+    }
+
+    function writeExpiredCookie(name, domain) {
+        var secure = location.protocol === 'https:' ? ' Secure;' : '';
+        var domainAttribute = domain ? '; Domain=' + domain : '';
+
+        document.cookie = name + '=; Path=/' + domainAttribute + '; SameSite=Lax;' + secure + ' Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    }
+
+    function expireCookie(name) {
+        writeExpiredCookie(name, '');
+        writeExpiredCookie(name, getWPConsentSharedCookieDomain());
+    }
+
+    function hasWPConsentGeolocationRules() {
+        var settings = window.wpconsent || {};
+        var geolocation = settings.geolocation || {};
+
+        return isTruthySetting(geolocation.enabled);
+    }
+
+    function isStaleWPConsentGeolocation(geolocation) {
+        return geolocation
+            && typeof geolocation === 'object'
+            && !isFalseSetting(geolocation.use_default)
+            && (
+                !hasSetting(geolocation, 'cryptoslate_geolocation_resolved')
+                || !isTruthySetting(geolocation.cryptoslate_geolocation_resolved)
+            );
+    }
+
+    function shouldExpireStaleWPConsentGeolocation(value) {
+        var geolocation = value ? parseConsentJson(value) : null;
+
+        return isStaleWPConsentGeolocation(geolocation);
+    }
+
+    function getWPConsentGeolocation() {
+        var geolocationCookieName = 'wpconsent_geolocation';
+        var rawGeolocation = getCookie(geolocationCookieName);
+        var geolocation = rawGeolocation ? parseConsentJson(rawGeolocation) : null;
+
+        if (!geolocation || typeof geolocation !== 'object') {
+            return null;
+        }
+
+        if (hasWPConsentGeolocationRules() && isStaleWPConsentGeolocation(geolocation)) {
+            expireCookie(geolocationCookieName);
+
+            return null;
+        }
+
+        return geolocation;
+    }
+
+    function hasAllowedWPConsentDefaultSettings() {
+        var settings = window.wpconsent || {};
+        var bannerDisabled = hasSetting(settings, 'enable_consent_banner')
+            && !isTruthySetting(settings.enable_consent_banner);
+        var defaultAllow = isTruthySetting(settings.default_allow);
+        var consentType = String(settings.consent_type || '').toLowerCase();
+
+        return bannerDisabled || defaultAllow || consentType === 'optout';
+    }
+
+    function hasRegionalOptInGeolocationBanner() {
+        var geolocation = getWPConsentGeolocation();
+
+        if (!geolocation) {
+            return false;
+        }
+
+        if (!isFalseSetting(geolocation.use_default)) {
+            return false;
+        }
+
+        return isTruthySetting(geolocation.show_banner)
+            && String(geolocation.consent_mode || '').toLowerCase() !== 'optout';
+    }
+
+    function hasAllowedGeolocationDefault() {
+        var geolocation = getWPConsentGeolocation();
+
+        if (!geolocation) {
+            return false;
+        }
+
+        if (!isFalseSetting(geolocation.use_default)) {
+            return isTruthySetting(geolocation.cryptoslate_default_allow)
+                && hasAllowedWPConsentDefaultSettings();
+        }
+
+        return isFalseSetting(geolocation.show_banner)
+            || String(geolocation.consent_mode || '').toLowerCase() === 'optout';
+    }
+
+    function canUseWPConsentDefaultPreferences() {
+        if (hasRegionalOptInGeolocationBanner()) {
+            return false;
+        }
+
+        if (hasWPConsentGeolocationRules()) {
+            return hasAllowedGeolocationDefault();
+        }
+
+        return hasAllowedWPConsentDefaultSettings();
+    }
+
+    function canUseWPConsentLastPreferences() {
+        return canUseWPConsentDefaultPreferences();
+    }
+
+    function getDefaultAllowedPreferences() {
+        var preferences = {
+            essential: true
+        };
+        var settings = window.wpconsent || {};
+        var categories = config.categories || {};
+
+        Object.keys(categories).forEach(function (category) {
+            getCategoryKeys(category).forEach(function (key) {
+                preferences[key] = true;
+            });
+        });
+
+        if (Array.isArray(settings.slugs)) {
+            settings.slugs.forEach(function (slug) {
+                preferences[slug] = true;
+            });
+        }
+
+        return preferences;
+    }
+
+    function fillDefaultAllowedPreferences(preferences) {
+        var allowedPreferences = getDefaultAllowedPreferences();
+
+        Object.keys(preferences || {}).forEach(function (key) {
+            allowedPreferences[key] = preferences[key];
+        });
+
+        return allowedPreferences;
+    }
+
+    function shouldCompleteDefaultAllowedPreferences(preferences) {
+        var keys = Object.keys(preferences || {});
+
+        if (!canUseWPConsentDefaultPreferences()) {
+            return false;
+        }
+
+        if (!preferences || keys.length === 0) {
+            return false;
+        }
+
+        if (!keys.every(function (key) {
+            return isAllowedPreference(preferences[key]);
+        })) {
+            return false;
+        }
+
+        return Object.keys(getDefaultAllowedPreferences()).some(function (key) {
+            return !hasSetting(preferences, key);
+        });
+    }
+
+    function completeDefaultAllowedPreferenceObject(preferences) {
+        if (!preferences || typeof preferences !== 'object' || !shouldCompleteDefaultAllowedPreferences(preferences)) {
+            return preferences;
+        }
+
+        return fillDefaultAllowedPreferences(preferences);
+    }
+
+    function completeDefaultAllowedPreferences(value) {
+        var preferences = parseConsentJson(value);
+        var completedPreferences = completeDefaultAllowedPreferenceObject(preferences);
+
+        if (completedPreferences === preferences) {
+            return value;
+        }
+
+        return JSON.stringify(completedPreferences);
+    }
+
+    function hasOnlyAllowedWPConsentSlugs(preferences) {
+        var settings = window.wpconsent || {};
+
+        if (!preferences || !Array.isArray(settings.slugs) || !settings.slugs.length) {
+            return false;
+        }
+
+        return settings.slugs.every(function (slug) {
+            return hasSetting(preferences, slug) && isAllowedPreference(preferences[slug]);
+        });
+    }
+
+    function getWPConsentPreferences() {
+        var rawConsent = getCookie(config.wpConsentCookieName || 'wpconsent_preferences');
+        var parsedConsent = rawConsent ? parseConsentJson(rawConsent) : null;
+
+        if (parsedConsent && typeof parsedConsent === 'object') {
+            if (
+                canUseWPConsentDefaultPreferences()
+                && hasOnlyAllowedWPConsentSlugs(parsedConsent)
+            ) {
+                return fillDefaultAllowedPreferences(parsedConsent);
+            }
+
+            return parsedConsent;
+        }
+
+        if (
+            window.WPConsent
+            && window.WPConsent.lastPreferences
+            && canUseWPConsentLastPreferences()
+        ) {
+            return fillDefaultAllowedPreferences(window.WPConsent.lastPreferences);
+        }
+
+        if (canUseWPConsentDefaultPreferences()) {
+            return getDefaultAllowedPreferences();
+        }
+
+        return null;
+    }
+
+    function isAllowedPreference(value) {
+        return value === true
+            || value === 1
+            || value === '1'
+            || value === 'true'
+            || value === 'allow'
+            || value === 'allowed'
+            || value === 'granted';
+    }
+
+    function hasConsentForKeys(preferences, keys) {
+        if (!preferences || !Array.isArray(keys)) {
+            return false;
+        }
+
+        return keys.some(function (key) {
+            return isAllowedPreference(preferences[key]);
+        });
+    }
+
+    function getCategoryKeys(category) {
+        return (((config.categories || {})[category] || {}).wpconsentKeys) || [];
+    }
+
+    function getState() {
+        var preferences = getWPConsentPreferences();
+        var gpc = hasGlobalPrivacyControl();
+        var state = {
+            essential: true,
+            analytics: false,
+            advertising: false,
+            functional: false,
+            gpc: gpc,
+            known: Boolean(preferences),
+            provider: config.provider || 'wpconsent',
+            version: config.version || ''
+        };
+
+        if (preferences) {
+            state.analytics = hasConsentForKeys(preferences, getCategoryKeys('analytics'));
+            state.advertising = hasConsentForKeys(preferences, getCategoryKeys('advertising')) && !gpc;
+            state.functional = hasConsentForKeys(preferences, getCategoryKeys('functional'));
+        }
+
+        return state;
+    }
+
+    function updateGoogleConsentMode(state) {
+        if (typeof window.gtag !== 'function') {
+            return;
+        }
+
+        window.gtag('consent', 'update', {
+            ad_storage: state.advertising ? 'granted' : 'denied',
+            ad_user_data: state.advertising ? 'granted' : 'denied',
+            ad_personalization: state.advertising ? 'granted' : 'denied',
+            analytics_storage: 'granted',
+            functionality_storage: state.functional ? 'granted' : 'denied',
+            personalization_storage: state.functional ? 'granted' : 'denied',
+            security_storage: 'granted'
+        });
+    }
+
+    function removeCookie(name) {
+        if (!name) {
+            return;
+        }
+
+        var secure = location.protocol === 'https:' ? ' Secure;' : '';
+        document.cookie = name + '=; Path=/; SameSite=Lax;' + secure + ' Max-Age=0';
+        document.cookie = name + '=; Path=/; SameSite=Lax;' + secure + ' Expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    }
+
+    function clearFunctionalStorage(state) {
+        var storage = config.functionalStorage || {};
+
+        if (!state.known || state.functional) {
+            return;
+        }
+
+        (storage.cookies || []).forEach(removeCookie);
+
+        (storage.localStorage || []).forEach(function (key) {
+            try {
+                localStorage.removeItem(key);
+            } catch (error) {}
+        });
+    }
+
+    function injectScript(id, src, attrs, onload) {
+        var existing = id ? document.getElementById(id) : null;
+        if (existing) {
+            if (typeof onload === 'function') {
+                onload();
+            }
+            return existing;
+        }
+
+        var script = document.createElement('script');
+        script.async = true;
+        if (id) {
+            script.id = id;
+        }
+        script.src = src;
+
+        Object.keys(attrs || {}).forEach(function (name) {
+            script.setAttribute(name, attrs[name]);
+        });
+
+        if (typeof onload === 'function') {
+            script.addEventListener('load', onload, { once: true });
+        }
+
+        document.head.appendChild(script);
+
+        return script;
+    }
+
+    function loadGoogleTag() {
+        var service = (config.services || {}).googleTag || {};
+
+        if (!service.enabled || !service.id || loaded.googleTag) {
+            return;
+        }
+
+        loaded.googleTag = true;
+        injectScript(
+            'cryptoslate-google-tag',
+            'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(service.id),
+            {},
+            function () {
+                window.gtag('js', new Date());
+                window.gtag('config', service.id, {
+                    anonymize_ip: true
+                });
+            }
+        );
+    }
+
+    function initializeHypeLab() {
+        var service = (config.services || {}).hypelab || {};
+        var attempts = 0;
+
+        function tryInitialize() {
+            if (typeof window.HypeLab !== 'undefined' && window.HypeLab.initialize) {
+                window.HypeLab.initialize(service.settings || {});
+                loaded.hypelabInitialized = true;
+                return;
+            }
+
+            if (attempts < 40) {
+                attempts++;
+                setTimeout(tryInitialize, 500);
+            }
+        }
+
+        tryInitialize();
+    }
+
+    function loadHypeLab() {
+        var service = (config.services || {}).hypelab || {};
+
+        if (!service.enabled || !service.src || loaded.hypelab) {
+            return;
+        }
+
+        loaded.hypelab = true;
+        injectScript('cryptoslate-hypelab-sdk', service.src, {}, initializeHypeLab);
+    }
+
+    function activateDeferredScripts(category) {
+        var scripts = document.querySelectorAll('script[type="text/plain"][data-crypto-consent="' + category + '"]');
+
+        if (scripts.length) {
+            loaded['deferred:' + category] = true;
+        }
+
+        scripts.forEach(function (script) {
+            var replacement = document.createElement('script');
+
+            Array.prototype.slice.call(script.attributes).forEach(function (attr) {
+                if (attr.name === 'type' || attr.name === 'data-crypto-consent') {
+                    return;
+                }
+
+                replacement.setAttribute(attr.name, attr.value);
+            });
+
+            replacement.type = 'text/javascript';
+            replacement.text = script.text || script.textContent || '';
+            script.parentNode.replaceChild(replacement, script);
+        });
+    }
+
+    function shouldReloadAfterRevocation(previousState, state) {
+        if (!previousState || !previousState.known || !state.known) {
+            return false;
+        }
+
+        if (
+            previousState.analytics
+            && !state.analytics
+            && loaded['deferred:analytics']
+        ) {
+            return true;
+        }
+
+        return Boolean(
+            previousState.advertising
+            && !state.advertising
+            && (loaded.hypelab || loaded.hypelabInitialized || loaded['deferred:advertising'])
+        );
+    }
+
+    function reloadAfterRevocation() {
+        if (loaded.reloadAfterRevocation) {
+            return;
+        }
+
+        loaded.reloadAfterRevocation = true;
+        window.location.reload();
+    }
+
+    function applyState() {
+        var state = getState();
+        var previousState = lastState;
+
+        lastState = state;
+        updateGoogleConsentMode(state);
+        clearFunctionalStorage(state);
+        loadGoogleTag();
+
+        if (shouldReloadAfterRevocation(previousState, state)) {
+            dispatchConsentChanged(state);
+            reloadAfterRevocation();
+            return state;
+        }
+
+        if (state.analytics) {
+            activateDeferredScripts('analytics');
+        }
+
+        if (state.advertising) {
+            loadHypeLab();
+            activateDeferredScripts('advertising');
+        }
+
+        if (state.functional) {
+            activateDeferredScripts('functional');
+        }
+
+        dispatchConsentChanged(state);
+
+        return state;
+    }
+
+    function dispatchConsentChanged(state) {
+        var event;
+
+        if (typeof window.CustomEvent === 'function') {
+            event = new CustomEvent('cryptoConsentChanged', {
+                detail: state
+            });
+        } else {
+            event = document.createEvent('CustomEvent');
+            event.initCustomEvent('cryptoConsentChanged', false, false, state);
+        }
+
+        window.dispatchEvent(event);
+    }
+
+    function shouldRestorePreservedCookie(name) {
+        // document.cookie does not expose expiry, so avoid recreating analytics cookies with shorter or unknown lifetimes.
+        var skippedCookies = [
+            '_gali',
+            '_gat',
+            '_gid'
+        ];
+        var skippedCookiePrefixes = [
+            '_gac_',
+            '_gat_',
+            '__utm'
+        ];
+
+        if (skippedCookies.indexOf(name) !== -1) {
+            return false;
+        }
+
+        return !skippedCookiePrefixes.some(function (prefix) {
+            return name.indexOf(prefix) === 0;
+        });
+    }
+
+    function readPreservedCookies() {
+        var storage = config.essentialStorage || {};
+        var cookies = {};
+        var exactCookies = Array.isArray(storage.cookies) ? storage.cookies : [];
+        var cookiePrefixes = Array.isArray(storage.cookiePrefixes) ? storage.cookiePrefixes : [];
+
+        document.cookie.split(';').forEach(function (cookie) {
+            var cookieText = cookie.trim();
+            var separator = cookieText.indexOf('=');
+            var name = separator >= 0 ? cookieText.slice(0, separator) : cookieText;
+            var shouldPreserve = exactCookies.indexOf(name) !== -1
+                || cookiePrefixes.some(function (prefix) {
+                    return name.indexOf(prefix) === 0;
+                });
+
+            if (shouldPreserve && shouldRestorePreservedCookie(name)) {
+                cookies[name] = separator >= 0 ? cookieText.slice(separator + 1) : '';
+            }
+        });
+
+        return cookies;
+    }
+
+    function restorePreservedCookies(cookies) {
+        var secure = location.protocol === 'https:' ? ' Secure;' : '';
+
+        Object.keys(cookies || {}).forEach(function (name) {
+            document.cookie = name + '=' + cookies[name] + '; Path=/; SameSite=Lax;' + secure + ' Max-Age=31536000';
+        });
+    }
+
+    function patchWPConsentClearCookies() {
+        var wpConsent = window.WPConsent;
+
+        if (
+            !wpConsent
+            || patchedWPConsentClearCookies === wpConsent
+            || typeof wpConsent.clearCookies !== 'function'
+        ) {
+            return;
+        }
+
+        var originalClearCookies = wpConsent.clearCookies;
+        patchedWPConsentClearCookies = wpConsent;
+
+        wpConsent.clearCookies = function () {
+            var preservedCookies = readPreservedCookies();
+            var result = originalClearCookies.apply(this, arguments);
+
+            restorePreservedCookies(preservedCookies);
+
+            return result;
+        };
+    }
+
+    function patchWPConsentGetCookie() {
+        var wpConsent = window.WPConsent;
+
+        if (
+            !wpConsent
+            || patchedWPConsentGetCookie === wpConsent
+            || typeof wpConsent.getCookie !== 'function'
+        ) {
+            return;
+        }
+
+        var originalGetCookie = wpConsent.getCookie;
+        patchedWPConsentGetCookie = wpConsent;
+
+        wpConsent.getCookie = function (name) {
+            var value = originalGetCookie.apply(this, arguments);
+
+            if (name === 'wpconsent_geolocation' && shouldExpireStaleWPConsentGeolocation(value)) {
+                expireCookie(name);
+
+                return '';
+            }
+
+            return value;
+        };
+    }
+
+    function patchWPConsentSetCookie() {
+        var wpConsent = window.WPConsent;
+
+        if (
+            !wpConsent
+            || patchedWPConsentSetCookie === wpConsent
+            || typeof wpConsent.setCookie !== 'function'
+        ) {
+            return;
+        }
+
+        var originalSetCookie = wpConsent.setCookie;
+        patchedWPConsentSetCookie = wpConsent;
+
+        wpConsent.setCookie = function (name, value) {
+            var args = Array.prototype.slice.call(arguments);
+
+            if (name === (config.wpConsentCookieName || 'wpconsent_preferences')) {
+                args[1] = completeDefaultAllowedPreferences(value);
+            }
+
+            return originalSetCookie.apply(this, args);
+        };
+    }
+
+    function patchWPConsentUnlockScripts() {
+        var wpConsent = window.WPConsent;
+
+        if (
+            !wpConsent
+            || patchedWPConsentUnlockScripts === wpConsent
+            || typeof wpConsent.unlockScripts !== 'function'
+        ) {
+            return;
+        }
+
+        var originalUnlockScripts = wpConsent.unlockScripts;
+        patchedWPConsentUnlockScripts = wpConsent;
+
+        wpConsent.unlockScripts = function (preferences) {
+            var args = Array.prototype.slice.call(arguments);
+
+            args[0] = completeDefaultAllowedPreferenceObject(preferences);
+
+            return originalUnlockScripts.apply(this, args);
+        };
+    }
+
+    function patchWPConsentUnlockIframes() {
+        var wpConsent = window.WPConsent;
+
+        if (
+            !wpConsent
+            || patchedWPConsentUnlockIframes === wpConsent
+            || typeof wpConsent.unlockIframes !== 'function'
+        ) {
+            return;
+        }
+
+        var originalUnlockIframes = wpConsent.unlockIframes;
+        patchedWPConsentUnlockIframes = wpConsent;
+
+        wpConsent.unlockIframes = function (preferences) {
+            var args = Array.prototype.slice.call(arguments);
+
+            args[0] = completeDefaultAllowedPreferenceObject(preferences);
+
+            return originalUnlockIframes.apply(this, args);
+        };
+    }
+
+    function installWPConsentAssignmentObserver() {
+        var descriptor = Object.getOwnPropertyDescriptor(window, 'WPConsent');
+        var currentWPConsent = window.WPConsent;
+
+        if (descriptor && !descriptor.configurable) {
+            return;
+        }
+
+        Object.defineProperty(window, 'WPConsent', {
+            configurable: true,
+            get: function () {
+                return currentWPConsent;
+            },
+            set: function (value) {
+                currentWPConsent = value;
+                bindWPConsentIntegration();
+            }
+        });
+    }
+
+    function openPreferences(event, attempt, fallbackUrl) {
+        attempt = attempt || 0;
+        if (event) {
+            event.preventDefault();
+        }
+
+        if (window.WPConsent && typeof window.WPConsent.showPreferences === 'function') {
+            window.WPConsent.showPreferences();
+            return;
+        }
+
+        if (attempt < 20) {
+            window.setTimeout(function () {
+                openPreferences(null, attempt + 1, fallbackUrl);
+            }, 150);
+            return;
+        }
+
+        if (fallbackUrl) {
+            window.location.href = fallbackUrl;
+        }
+    }
+
+    function shouldPreserveNativeConsentLinkClick(event, link) {
+        if (!event) {
+            return false;
+        }
+
+        if (event.defaultPrevented) {
+            return true;
+        }
+
+        if (typeof event.button === 'number' && event.button !== 0) {
+            return true;
+        }
+
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+            return true;
+        }
+
+        if (link && link.target && link.target.toLowerCase() !== '_self') {
+            return true;
+        }
+
+        return false;
+    }
+
+    function bindOpenLinks() {
+        document.addEventListener('click', function (event) {
+            var target = event.target;
+            var link = target && target.closest ? target.closest('[data-crypto-consent-open]') : null;
+
+            if (link && !shouldPreserveNativeConsentLinkClick(event, link)) {
+                openPreferences(
+                    event,
+                    0,
+                    link.getAttribute('data-crypto-consent-fallback-url') || link.getAttribute('href')
+                );
+            }
+        });
+    }
+
+    function applyStateAfterWPConsentProcessed() {
+        applyState();
+        window.setTimeout(applyState, 0);
+    }
+
+    function bindWPConsentCallbacks() {
+        if (callbacksBound) {
+            return;
+        }
+
+        callbacksBound = true;
+
+        [
+            'wpconsent_banner_initialized',
+            'wpconsent_consent_saved',
+            'wpconsent_consent_updated'
+        ].forEach(function (eventName) {
+            window.addEventListener(eventName, applyState);
+        });
+
+        [
+            'wpconsent_consent_processed'
+        ].forEach(function (eventName) {
+            document.addEventListener(eventName, applyStateAfterWPConsentProcessed);
+        });
+    }
+
+    function bindWPConsentIntegration(attempt) {
+        attempt = attempt || 0;
+
+        if (window.WPConsent) {
+            patchWPConsentClearCookies();
+            patchWPConsentGetCookie();
+            patchWPConsentSetCookie();
+            patchWPConsentUnlockScripts();
+            patchWPConsentUnlockIframes();
+
+            if (
+                !wpConsentIntegrationBound
+                && typeof window.WPConsent.registerListener === 'function'
+            ) {
+                wpConsentIntegrationBound = true;
+                window.WPConsent.registerListener(applyState);
+            }
+
+            if (attempt > 0) {
+                applyState();
+            }
+
+            return;
+        }
+
+        if (attempt < 40) {
+            window.setTimeout(function () {
+                bindWPConsentIntegration(attempt + 1);
+            }, 150);
+        }
+    }
+
+    window.cryptoConsent = {
+        getState: function () {
+            return lastState || getState();
+        },
+        hasConsent: function (category) {
+            var state = lastState || getState();
+
+            return Boolean(state[category]);
+        },
+        refresh: applyState,
+        openPreferences: openPreferences,
+        isGpcEnabled: hasGlobalPrivacyControl
+    };
+
+    installWPConsentAssignmentObserver();
+    bindWPConsentCallbacks();
+    bindOpenLinks();
+    bindWPConsentIntegration();
+    applyState();
+})();</script> <meta name="msvalidate.01" content="A42025B16B9366A9B68AC8F219BC8BAE" /><link rel="profile" href="https://gmpg.org/xfn/11"><link rel="apple-touch-icon" sizes="57x57" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192"  href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/favicon-16x16.png"><meta name="msapplication-TileColor" content="#1d1c2f"><meta name="msapplication-TileImage" content="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/icons/ms-icon-144x144.png"><meta name="theme-color" content="#1d1c2f"><meta name="norton-safeweb-site-verification" content="25k2d-ezmpc8xo-izmjhzwfbuxq04-c9luucpm7ml78sug-5tjekhug24l6z131xiu8o5612y6isr-zav7n4sihvdbn5t1rpxv5ynq2kyixh8vk8l1hq3xmq0unx1kcr" /><meta name="ahrefs-site-verification" content="04d00062bc3df14e35ae18a44c1f27c3522d329952ce19c194070b42a1a06323"><meta name="p:domain_verify" content="eb65e3997c3b469f50d75172fff33cf6"/><link rel="preload" as="font" type="font/woff2" href="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/fonts/arimo/arimo-latin.woff2" crossorigin><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' /><link media="all" href="https://cryptoslate.com/wp-content/cache/autoptimize/css/autoptimize_03aa4a4d9fcb11c0c319e82726257189.css" rel="stylesheet"><title>Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration</title><link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch"><link data-rocket-prefetch href="https://api.hypelab.com" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://cryptoslate.com/wp-content/uploads/2026/05/what-is-dogecoin-cover-1024x576.jpg" fetchpriority="high"><meta name="description" content="Cardano makes history with first-ever BitcoinOS Grail Bridge integration to tap into Bitcoin $1.3 trillion liquidity." /><link rel="canonical" href="https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration" /><meta property="og:description" content="Cardano makes history with first-ever BitcoinOS Grail Bridge integration to tap into Bitcoin $1.3 trillion liquidity." /><meta property="og:url" content="https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/" /><meta property="og:site_name" content="CryptoSlate" /><meta property="article:published_time" content="2024-10-25T10:53:02+00:00" /><meta property="article:modified_time" content="2024-10-25T10:54:17+00:00" /><meta property="og:image" content="https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:image:type" content="image/jpeg" /><meta name="author" content="Oluwapelumi Adejumo" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:creator" content="@cryptoslate" /><meta name="twitter:site" content="@cryptoslate" /><meta name="twitter:label1" content="Written by" /><meta name="twitter:data1" content="Oluwapelumi Adejumo" /><meta name="twitter:label2" content="Est. reading time" /><meta name="twitter:data2" content="2 minutes" /> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#article","isPartOf":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"},"author":{"@type":"Person","@id":"https://cryptoslate.com/author/oluwapelumi-adejumo/#person","name":"Oluwapelumi Adejumo","url":"https://cryptoslate.com/author/oluwapelumi-adejumo/","mainEntityOfPage":{"@id":"https://cryptoslate.com/author/oluwapelumi-adejumo/"},"image":{"@type":"ImageObject","@id":"https://cryptoslate.com/author/oluwapelumi-adejumo/#authorimage","url":"https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg","contentUrl":"https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg","caption":"Oluwapelumi Adejumo"},"jobTitle":"Senior Reporter","description":"Oluwapelumi values Bitcoin's potential. He imparts insights on a range of topics like DeFi, hacks, mining and culture, underlining transformative power.","worksFor":{"@id":"https://cryptoslate.com/#organization"},"sameAs":["https://x.com/hardeyjumoh","https://www.linkedin.com/in/oluwapelumi-adejumo","https://muckrack.com/oluwapelumi-adejumo"]},"headline":"Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration","datePublished":"2024-10-25T10:53:02+00:00","dateModified":"2024-10-25T10:54:17+00:00","mainEntityOfPage":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"},"wordCount":327,"commentCount":0,"publisher":{"@id":"https://cryptoslate.com/#organization"},"image":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#primaryimage"},"thumbnailUrl":"https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg","keywords":["Cardano","DeFi"],"articleSection":["DeFi","Technology"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#respond"]}],"copyrightYear":"2024","copyrightHolder":{"@id":"https://cryptoslate.com/#organization"}},{"@type":"WebPage","@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/","url":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/","name":"Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration","isPartOf":{"@id":"https://cryptoslate.com/#website"},"primaryImageOfPage":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#primaryimage"},"image":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#primaryimage"},"thumbnailUrl":"https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg","datePublished":"2024-10-25T10:53:02+00:00","dateModified":"2024-10-25T10:54:17+00:00","description":"Cardano makes history with first-ever BitcoinOS Grail Bridge integration to tap into Bitcoin $1.3 trillion liquidity.","breadcrumb":{"@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#primaryimage","url":"https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg","contentUrl":"https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg","width":1200,"height":630},{"@type":"BreadcrumbList","@id":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cryptoslate.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://cryptoslate.com/news/"},{"@type":"ListItem","position":3,"name":"Technology","item":"https://cryptoslate.com/technology/"},{"@type":"ListItem","position":4,"name":"Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration","item":"https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"}]},{"@type":"WebSite","@id":"https://cryptoslate.com/#website","url":"https://cryptoslate.com/","name":"CryptoSlate","description":"Cryptocurrency News and Real-time Coin Data","publisher":{"@id":"https://cryptoslate.com/#organization"},"inLanguage":"en-US"},{"@type":"NewsMediaOrganization","@id":"https://cryptoslate.com/#organization","name":"CryptoSlate","url":"https://cryptoslate.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cryptoslate.com/#/schema/logo/image/","url":"https://cryptoslate.com/wp-content/uploads/2018/05/c-logo.jpg","contentUrl":"https://cryptoslate.com/wp-content/uploads/2018/05/c-logo.jpg","width":1000,"height":1000,"caption":"CryptoSlate"},"image":{"@id":"https://cryptoslate.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/cryptoslate","https://www.instagram.com/cryptoslate","https://www.linkedin.com/company/cryptoslate","https://www.youtube.com/c/cryptoslate","https://cryptoslate.substack.com","https://t.me/cryptoslatenews","https://www.crunchbase.com/organization/cryptoslate","https://iq.wiki/wiki/cryptoslate","https://news.google.com/publications/CAAqKggKIiRDQklTRlFnTWFoRUtEMk55ZVhCMGIzTnNZWFJsTG1OdmJTZ0FQAQ","https://muckrack.com/media-outlet/cryptoslate","https://www.tiktok.com/@cryptoslatenews"],"publishingPrinciples":"https://cryptoslate.com/editorial-policy/#editorial-principles","ownershipFundingInfo":"https://cryptoslate.com/disclaimers/how-cryptoslate-makes-and-spends-money/","correctionsPolicy":"https://cryptoslate.com/editorial-policy/#corrections-feedback","ethicsPolicy":"https://cryptoslate.com/editorial-policy/#editorial-principles","foundingDate":"2017-08-04","founder":[{"@type":"Person","name":"Nate Whitehill"},{"@type":"Person","name":"Matthew Blancarte"}],"contactPoint":[{"@type":"ContactPoint","contactType":"customer support","url":"https://cryptoslate.com/contact/","availableLanguage":"en-US"},{"@type":"ContactPoint","contactType":"sales","url":"https://cryptoslate.com/advertising/","availableLanguage":"en-US"},{"@type":"ContactPoint","contactType":"newsroom","url":"https://cryptoslate.com/editorial-policy/#corrections-feedback","email":"tips@cryptoslate.com","availableLanguage":"en-US"}],"masthead":"https://cryptoslate.com/about/#masthead"},{"@type":"Person","@id":"https://cryptoslate.com/#/schema/person/b333928a322ba4c082e8bb2ad0f14eb6","name":"Oluwapelumi Adejumo","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cryptoslate.com/#/schema/person/image/","url":"https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg","contentUrl":"https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg","caption":"Oluwapelumi Adejumo"},"description":"Oluwapelumi values Bitcoin's potential. He imparts insights on a range of topics like DeFi, hacks, mining and culture, underlining transformative power.","jobTitle":"Reporter","worksFor":"CryptoSlate","url":"https://cryptoslate.com/author/oluwapelumi-adejumo/"}]}</script> <link rel="alternate" type="application/rss+xml" title="CryptoSlate &raquo; Feed" href="https://cryptoslate.com/feed/" /><link rel="https://api.w.org/" href="https://cryptoslate.com/wp-json/" /><link rel="alternate" type="application/json" href="https://cryptoslate.com/wp-json/wp/v2/posts/450050" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cryptoslate.com/xmlrpc.php?rsd" /><link rel='shortlink' href='https://cryptoslate.com/?p=450050' /><link rel="alternate" type="application/json+oembed" href="https://cryptoslate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" /><link rel="alternate" type="text/xml+oembed" href="https://cryptoslate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F&#038;format=xml" /><link rel="icon" href="https://cryptoslate.com/wp-content/uploads/2023/06/cropped-cryptoslate-transparent-icon-256x256-1-32x32.png" sizes="32x32" /><link rel="icon" href="https://cryptoslate.com/wp-content/uploads/2023/06/cropped-cryptoslate-transparent-icon-256x256-1-192x192.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://cryptoslate.com/wp-content/uploads/2023/06/cropped-cryptoslate-transparent-icon-256x256-1-180x180.png" /><meta name="msapplication-TileImage" content="https://cryptoslate.com/wp-content/uploads/2023/06/cropped-cryptoslate-transparent-icon-256x256-1-270x270.png" /> <script type="text/javascript">(function () {
+                window.adminAjaxUrl = window.adminAjaxUrl || "https:\/\/cryptoslate.com\/wp-admin\/admin-ajax.php";
+                window.cryptoEnv = window.cryptoEnv || "production";
+                window.cryptoConfig = window.cryptoConfig || {};
+                if (!window.cryptoConfig.env) {
+                    window.cryptoConfig.env = window.cryptoEnv;
+                }
+                if (!window.cryptoConfig.ajaxUrl) {
+                    window.cryptoConfig.ajaxUrl = window.adminAjaxUrl;
+                }
+                if (!window.cryptoConfig.stickyFooterCookie) {
+                    window.cryptoConfig.stickyFooterCookie = "crypto_asobi_coin";
+                }
+            })();</script> <meta name="generator" content="WP Rocket 3.22.1" data-wpr-features="wpr_preconnect_external_domains wpr_oci wpr_cdn" /></head><body class="post-template-default single single-post postid-450050 single-format-standard"><div  id="page-grid"><header  id="header"><div  class="header-mobile-actions"> <button id="menu-mobile" type="button" aria-label="Open menu" aria-controls="menu-navigation"> <i class="fa-light fa-bars icon-open" aria-hidden="true"></i> <i class="fa-light fa-xmark icon-close" aria-hidden="true"></i> <span class="screen-reader-text">More</span> </button> <button id="header-search" type="button" aria-label="Search CryptoSlate" aria-controls="header-search-menu"> <i class="fa-light fa-magnifying-glass icon-open" aria-hidden="true"></i> <i class="fa-light fa-xmark icon-close" aria-hidden="true"></i> <span class="screen-reader-text">Search</span> </button></div><div class='logo'> <a href="https://cryptoslate.com/" title="CryptoSlate"> <span class="cs-logo"></span> <span title="CryptoSlate">CryptoSlate</span> </a></div><form class="header-search" action="https://cryptoslate.com" role="search" method="get"> <label class="screen-reader-text" for="header-search-inline">Search CryptoSlate</label> <span class="header-search__icon" aria-hidden="true"> <i class="fa-light fa-magnifying-glass"></i> </span> <input
+ type="search"
+ name="s"
+ id="header-search-inline"
+ placeholder="Search CryptoSlate"
+ autocorrect="off"
+ autocomplete="off"
+ spellcheck="false"
+ > <span class="header-search__hint" aria-hidden="true"> <span class="header-search__hint-label">Type</span> <kbd>/</kbd> </span></form><div  class="header-actions"> <button class="btn header-action-button" id="cs-install-button" type="button" style="display: none"> <span class="label">Install App</span> <i class="fa-brands fa-chrome"></i> </button> <button
+ id="theme-toggle"
+ type="button"
+ aria-pressed="false"
+ aria-label="Enable dark mode"
+ data-tooltip="Theme"
+ > <span class="theme-toggle__icon theme-toggle__icon--light" aria-hidden="true"> <i class="fa-light fa-sun"></i> </span> <span class="theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true"> <i class="fa-light fa-moon"></i> </span> <span class="label screen-reader-text">Light Mode</span> </button></div></header><nav id="header-navigation"><div class='navigation top'> <a href="https://cryptoslate.com/news/" class="news active has-context-menu" data-context-menu="news" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-news"><i class="fa-light fa-newspaper" aria-hidden="true"></i><span class="label">News</span></a><a href="https://cryptoslate.com/coins/" class="markets has-context-menu" data-context-menu="coins" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-coins"><i class="fa-light fa-coins" aria-hidden="true"></i><span class="label">Coins</span></a><a href="https://cryptoslate.com/predictions/" class="predictions has-context-menu" data-context-menu="predictions" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-predictions"><i class="fa-light fa-crystal-ball" aria-hidden="true"></i><span class="label">Predictions</span></a><a href="https://cryptoslate.com/crypto-laws/" class="laws has-context-menu" data-context-menu="laws" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-laws"><i class="fa-light fa-scale-balanced" aria-hidden="true"></i><span class="label">Laws</span><span class="header-navigation__badge" aria-hidden="true">NEW</span></a><a href="https://cryptoslate.com/guides/" class="learn has-context-menu" data-context-menu="guides" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-guides"><i class="fa-light fa-book" aria-hidden="true"></i><span class="label">Learn</span></a><a href="https://cryptoslate.com/reviews/" class="reviews has-context-menu" data-context-menu="reviews" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-reviews"><i class="fa-light fa-circle-check" aria-hidden="true"></i><span class="label">Reviews</span></a><a href="https://cryptoslate.com/directory/" class="directory has-context-menu" data-context-menu="directory" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-directory"><i class="fa-light fa-grid-2" aria-hidden="true"></i><span class="label">Directory</span></a> <span id='menu' class="has-context-menu" data-context-menu="more" aria-haspopup="true" aria-expanded="false" aria-controls="header-context-panel-more" role="button" tabindex="0"> <i class="fa-light fa-circle-ellipsis icon-open" aria-hidden="true"></i> <span class="label">More</span> </span></div></nav><div  id="header-hover-menus" class="header-context-menus header-context-menus--deferred" aria-hidden="true" data-context-menu-deferred="true" data-context-menu-src="https://cryptoslate.com/wp-json/cryptoslate/v1/header-hover-menus?v=2" hidden></div><div class='mobile-menus'><div  id="menu-navigation" class="header-menu hidden header-menu--deferred" aria-hidden="true" data-header-mobile-menu-deferred="true" data-header-menu-src="https://cryptoslate.com/wp-json/cryptoslate/v1/header-mobile-menu" hidden></div><div  id="header-search-menu" class="header-menu hidden header-menu--deferred" aria-hidden="true" data-header-search-deferred="true" data-header-search-src="https://cryptoslate.com/wp-json/cryptoslate/v1/header-search-menu" hidden></div></div><div  id="main" class="single no-padding" role="main"><div  id="single-post-box-container-450050" class="container single-post-box-container"><div class="cs-reading-sticky" data-reading-sticky data-title="Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration" data-url="https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/" aria-hidden="true"><div class="cs-reading-sticky__shell"><div class="cs-reading-sticky__content"><div class="cs-reading-sticky__default"> <span class="cs-reading-sticky__icon-wrap" aria-hidden="true"> <i class="fa-light fa-newspaper"></i> </span><div class="cs-reading-sticky__meta"><div class="cs-reading-sticky__eyebrow"> <span class="cs-reading-sticky__label">Now reading</span> <span class="cs-reading-sticky__context"> <i class="fa-light fa-arrow-right" aria-hidden="true"></i> <span>Article</span> </span></div> <span class="cs-reading-sticky__title" data-reading-title>Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration</span></div></div></div><div class="cs-reading-sticky__actions"> <button class="cs-reading-sticky__back-top cs-reading-sticky__action-pill" type="button" data-reading-back-top aria-label="Back to top"> <i class="fa-light fa-arrow-up-to-line" aria-hidden="true"></i> <span class="cs-reading-sticky__back-top-text cs-reading-sticky__back-top-text--full">Back to Top</span> <span class="cs-reading-sticky__back-top-text cs-reading-sticky__back-top-text--short">Top</span> </button> <button class="cs-reading-sticky__share cs-reading-sticky__action-pill" type="button" data-reading-share aria-label="Share this article"> <i class="fa-light fa-share" aria-hidden="true"></i> <span class="cs-reading-sticky__share-text">Share</span> </button></div></div><div class="cs-reading-sticky__progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"> <span></span></div></div><div class='post-container'><article id="article"><div class='post-header'><nav class="post-category" aria-label="Post categories"><nav class="breadcrumbs post-category__breadcrumb" aria-label="Breadcrumb"> <span class="breadcrumbs__item"> <a href="https://cryptoslate.com/" aria-label="Home"> <i class="fa-regular fa-house" aria-hidden="true"></i> </a> </span> <span class="divider" aria-hidden="true">›</span> <span class="breadcrumbs__item"> <a href="https://cryptoslate.com/news/"> <i class="fa-regular fa-newspaper" aria-hidden="true"></i> <span>News</span> </a> </span> <span class="divider" aria-hidden="true">›</span> <span class="breadcrumbs__item"> <a href="https://cryptoslate.com/technology/"> <span>Technology</span> </a> </span> <span class="divider" aria-hidden="true">›</span> <span class="breadcrumbs__item"> <a href="https://cryptoslate.com/news/bitcoin/"> <span>Bitcoin</span> </a> </span></nav><div class="post-category__chips"><div class="big-cat"> <a
+ class="post-category__asset-chip post-category__asset-chip--red"
+ href="https://cryptoslate.com/coins/bitcoin/"
+ aria-label="Bitcoin BTC 24-hour price change -0.04%"
+ title="Bitcoin"
+ > <noscript><img
+ class="post-category__asset-chip-logo"
+ src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=32&#038;h=32&#038;q=75"
+ alt=""
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"
+ aria-hidden="true"></noscript><img
+ class="lazyload post-category__asset-chip-logo"
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2016%2016%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=32&#038;h=32&#038;q=75"
+ alt=""
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"
+ aria-hidden="true"> <span class="post-category__asset-chip-ticker">BTC</span> <span class="post-category__asset-chip-change red">-0.04%</span> </a></div></div></nav><h1 class='post-title '>Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration</h1><p class='post-subheading'>Cardano's founder Charles Hoskinson said the integration means Bitcoin now has a smart contract layer.</p><div class="post-meta-single post-meta-single--article-card" role="group" aria-label="Byline and publication timing"><div class="post-meta-article-card__strip"><div class="post-meta-article-card__identity-block article-author-identity-block"><div class="post-meta-article-card__identity article-author-identity article-author-identity--standard"><div class="post-meta-article-card__avatar-stack article-author-identity__avatar-stack"> <a class="post-meta-article-card__avatar article-author-identity__avatar article-author-identity__avatar--primary" href="https://cryptoslate.com/author/oluwapelumi-adejumo/" title="Oluwapelumi Adejumo Profile" aria-label="Oluwapelumi Adejumo Profile"> <noscript><img alt='Oluwapelumi Adejumo' src='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg' srcset='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript><img alt='Oluwapelumi Adejumo' src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2080%2080%22%3E%3C/svg%3E' data-src='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg' data-srcset='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg 2x' class='lazyload avatar avatar-80 photo' height='80' width='80' decoding='async'/> </a></div><div class="post-meta-article-card__author-copy article-author-identity__content"><div class="post-meta-article-card__author-names article-author-identity__names"> <span class="post-meta-article-card__prefix article-author-identity__label">By</span> <a class="post-meta-article-card__author-name article-author-identity__name" href="https://cryptoslate.com/author/oluwapelumi-adejumo/" title="Oluwapelumi Adejumo Profile" aria-label="Oluwapelumi Adejumo Profile">Oluwapelumi Adejumo</a></div><div class="post-meta-article-card__author-meta article-author-identity__meta"> <span>Senior Reporter</span> <span class="post-meta-article-card__author-meta-dot article-author-identity__dot" aria-hidden="true">&bull;</span> <span>CryptoSlate</span></div></div></div></div><div class="post-meta-article-card__meta-list" aria-label="Publication and reading details"><div class="post-meta-article-card__meta-group post-meta-article-card__meta-group--dates"><div class="post-meta-article-card__meta-item post-meta-article-card__meta-item--published"> <time class="post-meta-article-card__meta-value" datetime="2024-10-25T10:53:02+00:00" title="Published Oct. 25, 2024 at 10:53 am GMT" aria-label="Published Oct. 25, 2024 at 10:53 am GMT"> <span class="post-meta-article-card__meta-date">Published Oct. 25, 2024</span> <span class="post-meta-article-card__meta-time">at 10:53 am GMT</span> </time></div><div class="post-meta-article-card__meta-item post-meta-article-card__meta-item--updated"> <time class="post-meta-article-card__meta-value" datetime="2024-10-25T10:54:17+00:00" title="Updated Oct. 25, 2024 at 10:54 am GMT" aria-label="Updated Oct. 25, 2024 at 10:54 am GMT"> <span class="post-meta-article-card__meta-date">Updated Oct. 25, 2024</span> <span class="post-meta-article-card__meta-time">at 10:54 am GMT</span> </time></div></div><div class="post-meta-article-card__meta-group post-meta-article-card__meta-group--actions"><div class="post-meta-article-card__meta-item post-meta-article-card__meta-item--reading"> <span class="post-meta-article-card__meta-value">2 min read</span></div></div></div></div></div><div class='cover'> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin-768x403.jpg"> <img
+ class="nolazy"
+ src="https://cryptoslate.com/wp-content/uploads/2024/10/cardano-bitcoin.jpg"
+ alt="Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration"
+ decoding="async"
+ fetchpriority="high"
+ > </picture><div class="caption"><p class="image-credit">Cover art/illustration via CryptoSlate. Image includes combined content which may include AI-generated content.</p></div></div></div><div class='post-views col' id='holepunch-post-view-count' data-postId="450050" style="display:none;"></div><div
+ class="post "
+ data-title="Cardano unlocks Bitcoin liquidity with BitcoinOS Grail Bridge integration"
+ data-url="https://cryptoslate.com/cardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration/"
+ data-id="450050"
+><div class="post-box"><div class="article-action-bar article-action-bar--standard"><div class="article-action-bar__preferred-source"> <a
+ class="cs-preferred-google-badge cs-preferred-google-badge--post-meta"
+ href="https://www.google.com/preferences/source?q=cryptoslate.com"
+ target="_blank"
+ rel="noopener noreferrer nofollow"
+ aria-label="Make CryptoSlate preferred on Google (opens in a new tab)"
+ title="Make CryptoSlate preferred on Google (opens in a new tab)"
+> <span class="cs-preferred-google-badge__text">Make</span> <span class="cs-preferred-google-badge__brand" aria-hidden="true"> <noscript><img class="cs-preferred-google-badge__brand-mark" src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/themes/cryptoslate-2020/images/cryptoslate-icon.jpg&#038;w=26&#038;h=26&#038;q=75" alt="CryptoSlate logo" width="26" height="26" decoding="async"></noscript><img class="lazyload cs-preferred-google-badge__brand-mark" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2026%2026%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/themes/cryptoslate-2020/images/cryptoslate-icon.jpg&#038;w=26&#038;h=26&#038;q=75" alt="CryptoSlate logo" width="26" height="26" decoding="async"> <span class="cs-preferred-google-badge__brand-name">CryptoSlate</span> </span> <span class="cs-preferred-google-badge__text">preferred on</span> <noscript><img class="cs-preferred-google-badge__google-wordmark" src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/images/google-logo.svg" alt="Google logo" width="48" height="16" decoding="async"></noscript><img class="lazyload cs-preferred-google-badge__google-wordmark" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2048%2016%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/images/google-logo.svg" alt="Google logo" width="48" height="16" decoding="async"> </a></div><div class="article-action-bar__share"><div class="article-action-bar__share-desktop" role="group" aria-label="Share this article"> <span class="article-action-bar__share-label">Share</span><div class="article-action-bar__share-links"> <a href="https://x.com/intent/tweet?text=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;via=cryptoslate&#038;url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="x" target="_blank" rel="noopener noreferrer" title="Share on X" aria-label="Share this article on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="facebook" target="_blank" rel="noopener noreferrer" title="Share on Facebook" aria-label="Share this article on Facebook"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a> <a href="https://t.me/share/url?url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F&#038;text=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration" class="telegram" target="_blank" rel="noopener noreferrer" title="Share on Telegram" aria-label="Share this article on Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F&#038;title=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;source=CryptoSlate" class="linkedin" target="_blank" rel="noopener noreferrer" title="Share on LinkedIn" aria-label="Share this article on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a> <a href="mailto:?subject=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;body=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="email" title="Share via email" aria-label="Share this article via email"><i class="fa-light fa-envelope" aria-hidden="true"></i></a></div></div> <details class="article-action-bar__share-mobile"> <summary class="article-action-bar__share-trigger" aria-label="Share this article"> <i class="fa-light fa-share-nodes" aria-hidden="true"></i> <span>Share</span> </summary><div class="article-action-bar__share-dropdown" role="group" aria-label="Share this article"><div class="article-action-bar__share-links"> <a href="https://x.com/intent/tweet?text=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;via=cryptoslate&#038;url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="x" target="_blank" rel="noopener noreferrer" title="Share on X" aria-label="Share this article on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="facebook" target="_blank" rel="noopener noreferrer" title="Share on Facebook" aria-label="Share this article on Facebook"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a> <a href="https://t.me/share/url?url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F&#038;text=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration" class="telegram" target="_blank" rel="noopener noreferrer" title="Share on Telegram" aria-label="Share this article on Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F&#038;title=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;source=CryptoSlate" class="linkedin" target="_blank" rel="noopener noreferrer" title="Share on LinkedIn" aria-label="Share this article on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a> <a href="mailto:?subject=Cardano%20unlocks%20Bitcoin%20liquidity%20with%20BitcoinOS%20Grail%20Bridge%20integration&#038;body=https%3A%2F%2Fcryptoslate.com%2Fcardano-unlocks-bitcoin-liquidity-with-bitcoinos-grail-bridge-integration%2F" class="email" title="Share via email" aria-label="Share this article via email"><i class="fa-light fa-envelope" aria-hidden="true"></i></a></div></div> </details></div></div><div class="post-box__content-flow"><p><a href="https://cryptoslate.com/coins/cardano/">Cardano</a> has integrated with the <a href="https://cryptoslate.com/coins/bitcoin/">Bitcoin</a> ecosystem through BitcoinOS's Grail Bridge, unlocking the top digital asset's substantial liquidity for its DeFi ecosystem.</p><p>On Oct. 24, <a href="https://www.bitcoinos.build/blog/cardano-comes-home-to-bitcoin-in-groundbreaking-bos-grail-bridge-integration">BitcoinOS</a> explained that the move would expand Bitcoin's reach and enable decentralized programmability on its network.</p><p>The integration makes Cardano the first Layer 1 blockchain to use BitcoinOS infrastructure, tapping into Bitcoin's vast $1.3 trillion liquidity pool. BitcoinOS has already announced integrations with <a href="https://cryptoslate.com/bitcoinos-and-b2-network-to-secure-110m-in-bitcoin-defi-assets-in-2024/">several other Bitcoin Layer-2 chains,</a> including Merlin and Sovyrn.</p><div class="post-box__ad post-box__ad--lead"><div class='code-block code-block-16' style='margin: 8px 0; clear: both;'><div class="placement desktop"> <hype-banner placement="85cbdc896c"></hype-banner></div><div class="placement hidden mobile"> <hype-banner placement="f7991f597d"></hype-banner></div> <a class="cs-ad-media-kit" href="/media-kit/" target="_blank" rel="noopener" aria-label="Advertise with CryptoSlate - view media kit"> <span class="cs-ad-media-kit__label">Advertise with CryptoSlate</span> <span class="cs-ad-media-kit__icon" aria-hidden="true"> <i class="fa-regular fa-arrow-right"></i> </span> </a></div></div><p>The partnership aims to address a critical gap in the Bitcoin network by introducing the needed infrastructure for DeFi activities.</p><p>Although Bitcoin leads in value, most crypto activities occur outside its ecosystem. With this in mind, BitcoinOS has designed the integration to bridge Bitcoin with the rest of the crypto world, fostering a unified digital landscape that maximizes value.</p><h2>Grail Bridge</h2><p>BitcoinOS explained that its Grail Bridge uses zero-knowledge cryptography to let Bitcoin users move their assets securely.</p><p>The partnership empowers Cardano to leverage the Grail Bridge to boost liquidity, facilitating trustless transfers of BTC and other Bitcoin-based assets.</p><div id="cs-inline-newsletter-6a53cb0e86bef" class="cs-inline-newsletter" data-inline-newsletter><div class="cs-inline-newsletter__inner"><div class="cs-inline-newsletter__content"> <span class="cs-inline-newsletter__eyebrow">CryptoSlate Daily Brief</span><h3 class="cs-inline-newsletter__title">Daily signals, zero noise.</h3><p class="cs-inline-newsletter__copy">Market-moving headlines and context delivered every morning in one tight read.</p><div class="cs-inline-newsletter__meta"> <span><i class="fa-regular fa-bolt" aria-hidden="true"></i> 5-minute digest</span> <span><i class="fa-regular fa-star" aria-hidden="true"></i> 100k+ readers</span></div></div><div class="cs-inline-newsletter__form-shell"><form class="cs-inline-newsletter__form" method="post" novalidate> <label class="screen-reader-text" for="cs-inline-email-6a53cb0e86bf0">Email address</label><div class="cs-inline-newsletter__fields"> <input type="email" name="email" id="cs-inline-email-6a53cb0e86bf0" placeholder="Your email address" required> <button type="submit" class="cs-inline-newsletter__button">Get the brief</button></div></form><form action="https://cryptoslate.substack.com/api/v1/free?nojs=true" method="post" class="form cs-inline-newsletter__hidden" novalidate> <input type="hidden" name="first_url" value="https://cryptoslate.substack.com/embed"> <input type="hidden" name="first_referrer" value="https://cryptoslate.com/"> <input type="hidden" name="current_url" value="https://cryptoslate.substack.com/embed"> <input type="hidden" name="current_referrer" value="https://cryptoslate.com/"> <input type="hidden" name="referral_code"> <input type="hidden" name="source" value="embed"> <input type="hidden" name="referring_pub_id"> <input type="hidden" name="additional_referring_pub_ids"> <input type="email" name="email" placeholder="Enter your email..."></form><p class="cs-inline-newsletter__privacy">Free. No spam. Unsubscribe any time.</p><div class="cs-inline-newsletter__error" role="alert"> <i class="fa-regular fa-circle-xmark" aria-hidden="true"></i> <span>Whoops, looks like there was a problem. Please try again.</span></div><div class="cs-inline-newsletter__success"> <i class="fa-regular fa-circle-check" aria-hidden="true"></i> <span>You&rsquo;re subscribed. Welcome aboard.</span></div></div></div></div><p><span style="box-sizing: border-box; margin: 0px; padding: 0px;">Cardano's founder, <a href="https://cryptoslate.com/people/charles-hoskinson/" target="_blank" rel="noopener">Charles Hoskinson,</a> stated that BitcoinOS operates not as a simple bridge but as a &#8220;brain&#8221; guiding Bitcoin's integration into the broader crypto ecosystem.</span></p><p>He <a href="https://x.com/IOHK_Charles/status/1849644502698557936">added</a>:</p><blockquote><p>&#8220;<span class="s5">[BitcoinOS] is going to let Bitcoin flow into the crypto world, and they finally get to ditch their boring lives and enjoy DeFi, GameFi, and the magic of Smart Contracts.&#8221;</span></p></blockquote><p>Hoskinson also highlighted an additional benefit of the integration, noting that it allows users to pay fees directly in Bitcoin, creating mutual advantages for users. He <a href="https://x.com/IOHK_Charles/status/1849650526415401468">stated</a>:</p><blockquote><p>&#8220;Whether your bitcoin stay at home or go visit other chains, it doesn't impact the bitcoin network. With BOS, they can now go interact with other ledgers. Only with cardano can you do it natively with UTXO and soon pay your transaction fees in Bitcoin. This means bitcoin now has a smart contract layer.&#8221;</p></blockquote></div><div class="post-bottom"><div class="post-mentions-and-posted-in"><div class="post-info-block post-mentions"><header><span class="post-info__label">Mentioned in this article</span></header><div class="mentioned-items" id="post-mentions-450050" data-post-mentions-list> <a
+ href="https://cryptoslate.com/coins/bitcoin/"
+ class="post-mention-item"
+ > <noscript><img
+ class="logo"
+ alt=""
+ src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"></noscript><img
+ class="lazyload logo"
+ alt=""
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2016%2016%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"> <span class="title">Bitcoin</span> </a> <a
+ href="https://cryptoslate.com/coins/cardano/"
+ class="post-mention-item"
+ > <noscript><img
+ class="logo"
+ alt=""
+ src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"></noscript><img
+ class="lazyload logo"
+ alt=""
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2016%2016%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"> <span class="title">Cardano</span> </a> <a
+ href="https://cryptoslate.com/people/charles-hoskinson/"
+ class="post-mention-item"
+ > <noscript><img
+ class="logo"
+ alt=""
+ src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/05/person-charles-hoskinson.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"></noscript><img
+ class="lazyload logo"
+ alt=""
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2016%2016%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/05/person-charles-hoskinson.jpg&#038;w=32&#038;h=32&#038;q=75"
+ width="16"
+ height="16"
+ loading="lazy"
+ decoding="async"> <span class="title">Charles Hoskinson</span> </a></div></div><div class="post-info-block posted-in"><header><span class="post-info__label">Posted in</span></header><div class="news-category-list" role="list"> <a class="news-category" role="listitem" href="https://cryptoslate.com/news/bitcoin/" aria-label="Bitcoin"> <span class="news-category-icon"> <noscript><img src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=40&#038;h=40&#038;q=75" alt="Bitcoin logo" loading="lazy" decoding="async"></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=40&#038;h=40&#038;q=75" alt="Bitcoin logo" loading="lazy" decoding="async"> </span> <span class="news-category-label">Bitcoin</span> </a> <a class="news-category" role="listitem" href="https://cryptoslate.com/technology/" aria-label="Technology"> <span class="news-category-icon"> <i class="fa-light fa-microchip" aria-hidden="true"></i> </span> <span class="news-category-label">Technology</span> </a> <a class="news-category" role="listitem" href="https://cryptoslate.com/defi/" aria-label="DeFi"> <span class="news-category-icon"> <i class="fa-light fa-cubes-stacked" aria-hidden="true"></i> </span> <span class="news-category-label">DeFi</span> </a> <a class="news-category" role="listitem" href="https://cryptoslate.com/news/cardano/" aria-label="Cardano"> <span class="news-category-icon"> <noscript><img src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=40&#038;h=40&#038;q=75" alt="Cardano logo" loading="lazy" decoding="async"></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=40&#038;h=40&#038;q=75" alt="Cardano logo" loading="lazy" decoding="async"> </span> <span class="news-category-label">Cardano</span> </a></div></div></div><section class="post-meta-flex editorial-credits editorial-credits--has-editor" aria-label="Editorial credits"><div class="post-meta-single footer editorial author post-meta-card editorial-credits__author"> <a class="editorial-credits__avatar editorial-credits__avatar--author" href="https://cryptoslate.com/author/oluwapelumi-adejumo/" title="Oluwapelumi Adejumo profile" aria-label="Oluwapelumi Adejumo profile"> <noscript><img alt='Oluwapelumi Adejumo' src='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg' srcset='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg 2x' class='avatar avatar-96 photo editorial-credits__avatar-image' height='96' width='96' decoding='async'/></noscript><img alt='Oluwapelumi Adejumo' src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E' data-src='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-150x150.jpg' data-srcset='https://cryptoslate.com/wp-content/uploads/2025/12/profile-photo-oluwapelumi-adejumo-300x300.jpg 2x' class='lazyload avatar avatar-96 photo editorial-credits__avatar-image' height='96' width='96' decoding='async'/> </a><div class="editorial-credits__content editorial-credits__content--author"> <a class="post-meta-card__name editorial-credits__name" href="https://cryptoslate.com/author/oluwapelumi-adejumo/" title="Oluwapelumi Adejumo profile"> Oluwapelumi Adejumo </a><div class="post-meta-card__title editorial-credits__title"> <span>Senior Reporter</span> <span class="title-separator" aria-hidden="true">•</span> <span>CryptoSlate</span></div><p class="post-meta-card__bio editorial-credits__bio">Oluwapelumi values Bitcoin's potential. He imparts insights on a range of topics like DeFi, hacks, mining and culture, underlining transformative power.</p><div class="editorial-credits__actions"><div class="post-meta-card__social editorial-credits__social"> <a rel="nofollow noopener" target="_blank" href="https://x.com/hardeyjumoh" class="social-chip x" title="Oluwapelumi Adejumo on X" aria-label="Oluwapelumi Adejumo on X"> <span class="chip__label">X</span> </a> <a rel="nofollow noopener" target="_blank" href="https://www.linkedin.com/in/oluwapelumi-adejumo" class="social-chip linkedin" title="Oluwapelumi Adejumo on LinkedIn" aria-label="Oluwapelumi Adejumo on LinkedIn"> <span class="chip__label">LinkedIn</span> </a></div> <a class="post-meta-card__profile editorial-credits__profile" href="https://cryptoslate.com/author/oluwapelumi-adejumo/" title="Oluwapelumi Adejumo profile"> <i class="fa-light fa-user" aria-hidden="true"></i> <span>View profile</span> <i class="fa-light fa-arrow-right" aria-hidden="true"></i> </a></div></div></div> <span class="editorial-credits__divider" aria-hidden="true"></span><div class="post-meta-single footer editorial editor post-meta-card editorial-credits__editor"> <a class="editorial-credits__avatar editorial-credits__avatar--editor" href="https://cryptoslate.com/author/liam-akiba-wright/" title="Liam &#039;Akiba&#039; Wright profile" aria-label="Liam &#039;Akiba&#039; Wright profile"> <noscript><img alt='Liam &#039;Akiba&#039; Wright' src='https://cryptoslate.com/wp-content/uploads/2025/10/about-liam-150x150.jpg' srcset='https://cryptoslate.com/wp-content/uploads/2025/10/about-liam-150x150.jpg 2x' class='avatar avatar-64 photo editorial-credits__avatar-image' height='64' width='64' decoding='async'/></noscript><img alt='Liam &#039;Akiba&#039; Wright' src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2064%2064%22%3E%3C/svg%3E' data-src='https://cryptoslate.com/wp-content/uploads/2025/10/about-liam-150x150.jpg' data-srcset='https://cryptoslate.com/wp-content/uploads/2025/10/about-liam-150x150.jpg 2x' class='lazyload avatar avatar-64 photo editorial-credits__avatar-image' height='64' width='64' decoding='async'/> </a><div class="editorial-credits__content editorial-credits__content--editor"> <a class="post-meta-card__name editorial-credits__name" href="https://cryptoslate.com/author/liam-akiba-wright/"> Liam &#039;Akiba&#039; Wright </a><div class="post-meta-card__title editorial-credits__title"> <span>Editor-in-Chief</span> <span class="title-separator" aria-hidden="true">•</span> <span>CryptoSlate</span></div><div class="editorial-credits__actions editorial-credits__actions--editor"><div class="post-meta-card__social editorial-credits__social"> <a rel="nofollow noopener" target="_blank" href="https://x.com/akibablade" class="social-chip x" title="Liam &#039;Akiba&#039; Wright on X" aria-label="Liam &#039;Akiba&#039; Wright on X"> <span class="chip__label">X</span> </a> <a rel="nofollow noopener" target="_blank" href="https://www.linkedin.com/in/liamandrewwright" class="social-chip linkedin" title="Liam &#039;Akiba&#039; Wright on LinkedIn" aria-label="Liam &#039;Akiba&#039; Wright on LinkedIn"> <span class="chip__label">LinkedIn</span> </a></div> <a class="post-meta-card__profile editorial-credits__profile" href="https://cryptoslate.com/author/liam-akiba-wright/" title="Liam &#039;Akiba&#039; Wright profile"> <i class="fa-light fa-user" aria-hidden="true"></i> <span>View profile</span> <i class="fa-light fa-arrow-right" aria-hidden="true"></i> </a></div></div></div></section><div class="post-box__ad post-box__ad--inline"><div class='code-block code-block-16' style='margin: 8px 0; clear: both;'><div class="placement desktop"> <hype-banner placement="85cbdc896c"></hype-banner></div><div class="placement hidden mobile"> <hype-banner placement="f7991f597d"></hype-banner></div> <a class="cs-ad-media-kit" href="/media-kit/" target="_blank" rel="noopener" aria-label="Advertise with CryptoSlate - view media kit"> <span class="cs-ad-media-kit__label">Advertise with CryptoSlate</span> <span class="cs-ad-media-kit__icon" aria-hidden="true"> <i class="fa-regular fa-arrow-right"></i> </span> </a></div></div><div class="related-tabs" data-related-tabs><div class="related-tabs__intro"> <span class="related-tabs__eyebrow">Context</span><h3 class="related-tabs__title">Related coverage</h3><p class="related-tabs__subtitle">Explore related reporting by asset, place, or topic.</p></div><div class="related-tabs__nav" role="tablist" aria-label="Related coverage filters"> <button
+ class="related-tabs__tab is-active"
+ type="button"
+ role="tab"
+ id="related-tab-related-crypto"
+ aria-controls="related-crypto"
+ aria-selected="true"
+ tabindex="0"
+ aria-label="Bitcoin"
+ data-related-tab="related-crypto"
+ > <span class="related-tabs__tab-icon"><noscript><img width="192" height="192" src="https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo-300x300.jpg" class="term-icon coin-logo" alt="Bitcoin logo" loading="lazy" decoding="async" srcset="https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg 300w, https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo-150x150.jpg 150w" sizes="(max-width: 192px) 100vw, 192px" /></noscript><img width="192" height="192" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20192%20192%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo-300x300.jpg" class="lazyload term-icon coin-logo" alt="Bitcoin logo" loading="lazy" decoding="async" data-srcset="https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg 300w, https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo-150x150.jpg 150w" data-sizes="(max-width: 192px) 100vw, 192px" /></span> <span class="related-tabs__tab-label">Bitcoin</span> </button> <button
+ class="related-tabs__tab"
+ type="button"
+ role="tab"
+ id="related-tab-related-primary"
+ aria-controls="related-primary"
+ aria-selected="false"
+ tabindex="-1"
+ aria-label="Technology"
+ data-related-tab="related-primary"
+ > <span class="related-tabs__tab-label">Technology</span> </button></div><div class="related-tabs__panels"><div
+ id="related-crypto"
+ class="related-content related-tab-panel is-active"
+ role="tabpanel"
+ aria-labelledby="related-tab-related-crypto"
+ ><div class="related-tabs__panel-grid"><div class="related-tabs__grid list-feed"><div class="list-post list-post-grid"><article id="post-547352" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/bitcoins-64000-rebound-is-outrunning-etf-demand-despite-a-197-million-inflow/" title="Bitcoin’s $64,000 rebound is outrunning ETF demand despite a $197 million inflow"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-etf-inflows-end-eight-week-slide-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-etf-inflows-end-eight-week-slide-768x432.jpg"
+ alt="Gold Bitcoin coin emerging from a cracked market floor as red losses fade and a green recovery line begins to rise."
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-etf-inflows-end-eight-week-slide-768x432.jpg"
+ alt="Gold Bitcoin coin emerging from a cracked market floor as red losses fade and a green recovery line begins to rise."
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>ETF</span></div><h3>Bitcoin’s $64,000 rebound is outrunning ETF demand despite a $197 million inflow</h3><p class="excerpt">Bitcoin rose above $64,000 during the week, while analysts said one week of ETF inflows was too little to establish a broader demand recovery.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>3 hours ago</span></div></div> </a></article></div><div class="list-post list-post-grid"><article id="post-547035" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/adam-backs-30021-btc-bitcoin-treasury-deal-just-lost-the-funding-structure-holding-it-together/" title="Adam Back’s 30,021 BTC Bitcoin treasury deal just lost the funding structure holding it together"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/adam-back-bitcoin-treasury-deal-hits-wall-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/adam-back-bitcoin-treasury-deal-hits-wall-768x432.jpg"
+ alt="Editorial illustration of Adam Back beside a glowing Bitcoin coin, fractured market chart, and concrete wall symbolizing the stalled 30,021-BTC treasury deal"
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/adam-back-bitcoin-treasury-deal-hits-wall-768x432.jpg"
+ alt="Editorial illustration of Adam Back beside a glowing Bitcoin coin, fractured market chart, and concrete wall symbolizing the stalled 30,021-BTC treasury deal"
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>Digital Asset Treasuries</span> <span class="list-post-grid__sentiment list-post-grid__sentiment--bearish"> <i class="fa-light fa-arrow-trend-down" aria-hidden="true"></i> <span>Bearish</span> </span></div><h3>Adam Back’s 30,021 BTC Bitcoin treasury deal just lost the funding structure holding it together</h3><p class="excerpt">Cantor and BSTR are negotiating revised terms after saying the existing private placements will no longer be required to close, turning the Bitcoin treasury launch into a test of investor demand.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>3 hours ago</span></div></div> </a></article></div><div class="list-post list-post-grid"><article id="post-547033" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/eric-trumps-american-bitcoin-forces-1-for-15-reverse-split-to-avoid-nasdaq-delisting-amid-8k-btc-holding/" title="Eric Trump’s American Bitcoin forces 1:15 reverse split to avoid Nasdaq delisting amid 8k BTC holding"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/eric-trump-american-bitcoin-8000-btc-stock-rescue-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/eric-trump-american-bitcoin-8000-btc-stock-rescue-768x432.jpg"
+ alt="Eric Trump stands beside an American Bitcoin display showing 8,000 BTC holdings and a 1-for-15 stock rescue, with gold Bitcoin coins and a red market downtrend behind him"
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/eric-trump-american-bitcoin-8000-btc-stock-rescue-768x432.jpg"
+ alt="Eric Trump stands beside an American Bitcoin display showing 8,000 BTC holdings and a 1-for-15 stock rescue, with gold Bitcoin coins and a red market downtrend behind him"
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>Digital Asset Treasuries</span> <span class="list-post-grid__sentiment list-post-grid__sentiment--bearish"> <i class="fa-light fa-arrow-trend-down" aria-hidden="true"></i> <span>Bearish</span> </span></div><h3>Eric Trump’s American Bitcoin forces 1:15 reverse split to avoid Nasdaq delisting amid 8k BTC holding</h3><p class="excerpt">American Bitcoin is betting that mining and accumulating BTC will support its valuation, even as a 1-for-15 reverse split seeks to keep its shares compliant with Nasdaq’s minimum bid-price requirement.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>6 hours ago</span></div></div> </a></article></div></div></div></div><div
+ id="related-primary"
+ class="related-content related-tab-panel"
+ role="tabpanel"
+ aria-labelledby="related-tab-related-primary"
+ hidden                        ><div class="related-tabs__panel-grid"><div class="related-tabs__grid list-feed"><div class="list-post list-post-grid"><article id="post-546733" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/binance-backed-network-chases-ai-agent-economy-with-1m-tps-privacy-overhaul-amid-bnbs-price-struggles/" title="BNB Chain makes moonshot bet on 1,000,000 TPS for AI as BNB interest falls away"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/bnb-chain-1m-tps-throughput-engine-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/bnb-chain-1m-tps-throughput-engine-768x432.jpg"
+ alt="BNB Chain 1M TPS throughput engine supporting AI agent scalability and network performance"
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/bnb-chain-1m-tps-throughput-engine-768x432.jpg"
+ alt="BNB Chain 1M TPS throughput engine supporting AI agent scalability and network performance"
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>Technology</span></div><h3>BNB Chain makes moonshot bet on 1,000,000 TPS for AI as BNB interest falls away</h3><p class="excerpt">The BNB Chain is rebuilding its architecture as BNB trades near its lowest level since October 2024.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>4 days ago</span></div></div> </a></article></div><div class="list-post list-post-grid"><article id="post-546549" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/bitcoin-miners-have-until-2027-to-prove-they-deserve-power-on-americas-overloaded-grid/" title="Bitcoin miners have until 2027 to prove they deserve power on America’s overloaded grid"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-mining-grid-deadline-2027-power-stress-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-mining-grid-deadline-2027-power-stress-768x432.jpg"
+ alt="Bitcoin miners face a 2027 deadline to prove they deserve power on America’s overloaded electricity grid"
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-mining-grid-deadline-2027-power-stress-768x432.jpg"
+ alt="Bitcoin miners face a 2027 deadline to prove they deserve power on America’s overloaded electricity grid"
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>Mining</span></div><h3>Bitcoin miners have until 2027 to prove they deserve power on America’s overloaded grid</h3><p class="excerpt">US electricity demand is heading for record highs by 2027, forcing Bitcoin miners to prove their power use can support the grid.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>4 days ago</span></div></div> </a></article></div><div class="list-post list-post-grid"><article id="post-546036" class="list-post-grid__card"> <a class="list-post-grid__link" href="https://cryptoslate.com/vitaliks-lean-ethereum-plan-turns-eths-wall-street-pitch-into-a-delivery-reckoning/" title="Vitalik&#8217;s new Lean Ethereum plan puts ETH&#8217;s Wall Street pitch on a 4 year clock"><figure class="cover list-post-grid__cover"> <picture> <source media="(max-width: 767px)" data-srcset="https://cryptoslate.com/wp-content/uploads/2026/07/lean-ethereum-delivery-test-institutional-bridge-768x432.jpg"> <noscript><img
+ src="https://cryptoslate.com/wp-content/uploads/2026/07/lean-ethereum-delivery-test-institutional-bridge-768x432.jpg"
+ alt="Ethereum logo over an industrial bridge symbolizing Lean Ethereum infrastructure delivery"
+ decoding="async"
+ loading="lazy"
+ ></noscript><img class="lazyload"  src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/07/lean-ethereum-delivery-test-institutional-bridge-768x432.jpg"
+ alt="Ethereum logo over an industrial bridge symbolizing Lean Ethereum infrastructure delivery"
+ decoding="async"
+ loading="lazy"
+ > </picture></figure><div class="content list-post-grid__content"><div class="eyebrow"> <span>People</span></div><h3>Vitalik&#8217;s new Lean Ethereum plan puts ETH&#8217;s Wall Street pitch on a 4 year clock</h3><p class="excerpt">The roadmap gives institutions a stronger settlement story, but also a clearer checklist for doubt.</p><div class="post-meta"> <span class="read"><i class="fa-regular fa-clock"></i>6 days ago</span></div></div> </a></article></div></div></div></div></div></div><div class="disclaimers"><div class="footer-disclaimer footer-disclaimer--ai-usage"><header class="footer-disclaimer__header"> <i class="fa-light fa-robot" aria-hidden="true"></i> <span>AI Usage Disclosure</span></header><p>CryptoSlate may use AI tools to support research, editing, and production workflows. Published articles remain editorially reviewed by our team. Read our full <a href="https://cryptoslate.com/disclaimers/ai-usage-disclaimer/">AI usage disclaimer</a>.</p></div><div class="footer-disclaimer"><header class="footer-disclaimer__header"> <i class="fa-light fa-circle-exclamation" aria-hidden="true"></i> <span>Disclaimer</span></header><p>Our writers' opinions are solely their own and do not reflect the opinion of CryptoSlate. None of the information you read on CryptoSlate should be taken as investment advice, nor does CryptoSlate endorse any project that may be mentioned or linked to in this article. Buying and trading cryptocurrencies should be considered a high-risk activity. Please do your own due diligence before taking any action related to content within this article. Finally, CryptoSlate takes no responsibility should you lose money trading cryptocurrencies. For more information, see our <a href="https://cryptoslate.com/disclaimers/">company disclaimers</a>.</p></div></div></div></div></div></article></div><div class="sidebar right has-sidebar-mentions"><div class="sidebar-sticky"><div class="post-meta-items has-top-chart has-mentions"><section
+ class="top-chart post-object coin"
+ data-top-chart
+ data-chart-coin-id="230"
+ data-chart-default-range="1d"
+ data-chart-rest-base="/wp-json/cryptoslateAPI/v2/coins/"
+ data-chart-brand-color="#f8931a"
+ data-chart-loading-text="Loading chart data..."
+ data-chart-updating-text="Updating chart..."
+ data-chart-empty-text="Chart data is being prepared for this asset."
+ data-chart-error-text="Unable to load chart data right now."
+> <a class="top-chart__asset" href="https://cryptoslate.com/coins/bitcoin/" title="Bitcoin"> <noscript><img
+ class="top-chart__logo"
+ alt=""
+ src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=96&#038;h=96&#038;q=75"
+ width="52"
+ height="52"
+ loading="lazy"
+ decoding="async"
+ aria-hidden="true"></noscript><img
+ class="lazyload top-chart__logo"
+ alt=""
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2052%2052%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/09/bitcoin-logo.jpg&#038;w=96&#038;h=96&#038;q=75"
+ width="52"
+ height="52"
+ loading="lazy"
+ decoding="async"
+ aria-hidden="true"> <span class="top-chart__identity"> <span class="top-chart__name">Bitcoin</span> <span class="top-chart__ticker">BTC</span> </span> </a><div class="top-chart__quote"> <span class="top-chart__price"> $<span class="holepunch holepunch-coin_price_usd">64,111.15</span> </span> <span class="top-chart__change red" data-top-chart-change> <i class="fa-light fa-caret-down" data-top-chart-change-icon aria-hidden="true"></i> <span data-top-chart-change-value>-0.04%</span> <span class="top-chart__change-period" data-top-chart-change-period>(24H)</span> </span></div><div class="chart top-chart__chart-frame" data-top-chart-chart><canvas id="top-chart-450050-230-1-canvas" data-top-chart-canvas aria-label="Bitcoin price chart" role="img"></canvas><div class="top-chart__chart-status" data-top-chart-status hidden></div></div><div class="top-chart__ranges" role="group" aria-label="Chart time periods"> <button
+ type="button"
+ class="top-chart__range is-active"
+ data-top-chart-range="1d"
+ aria-pressed="true"
+ > 1D </button> <button
+ type="button"
+ class="top-chart__range"
+ data-top-chart-range="7d"
+ aria-pressed="false"
+ > 7D </button> <button
+ type="button"
+ class="top-chart__range"
+ data-top-chart-range="1m"
+ aria-pressed="false"
+ > 1M </button> <button
+ type="button"
+ class="top-chart__range"
+ data-top-chart-range="1y"
+ aria-pressed="false"
+ > 1Y </button> <button
+ type="button"
+ class="top-chart__range"
+ data-top-chart-range="all"
+ aria-pressed="false"
+ > ALL </button></div><dl class="top-chart__stats" aria-label="Top market stats"><div class="top-chart__stat"><dt class="top-chart__stat-label"> <span>Market Cap</span></dt><dd class="top-chart__stat-value"> $<span class="holepunch holepunch-coin_market_cap_usd">1.29T</span></dd></div><div class="top-chart__stat"><dt class="top-chart__stat-label"> <span>24H Volume</span></dt><dd class="top-chart__stat-value"> $<span class="holepunch holepunch-coin_24h_volume_usd">19.32B</span></dd></div><div class="top-chart__stat"><dt class="top-chart__stat-label"> <span>Circulating Supply</span></dt><dd class="top-chart__stat-value"> <span class="holepunch holepunch-coin_available_supply">20.06M</span></dd></div><div class="top-chart__stat"><dt class="top-chart__stat-label"> <span>Layer 1 Dominance</span> <button
+ type="button"
+ class="top-chart__stat-tooltip"
+ data-tooltip="This asset&#039;s share of the Layer 1 category&#039;s total market capitalization, calculated by dividing its market cap by the combined market cap of assets in its primary CryptoSlate category."
+ aria-label="Layer 1 Dominance: This asset&#039;s share of the Layer 1 category&#039;s total market capitalization, calculated by dividing its market cap by the combined market cap of assets in its primary CryptoSlate category."
+ > <i class="fa-regular fa-circle-info" aria-hidden="true"></i> </button></dt><dd class="top-chart__stat-value"> <span class="holepunch holepunch-coin_primary_sector_dominance">71.2</span>%</dd></div></dl> <a class="top-chart__markets-link" href="https://cryptoslate.com/coins/bitcoin/#markets"> <span>View BTC markets</span> <i class="fa-light fa-arrow-right" aria-hidden="true"></i> </a></section><header class='widget-title'> <span class="magazine-mentions__label"><i class="fa-regular fa-hashtag" aria-hidden="true"></i>In this article</span></header><div class="entity-dock" data-entity-dock><div class="entity-dock__row" role="group" aria-label="Entities mentioned"><div class="entity-dock__scroller" data-entity-scroller role="list" aria-label="Entities mentioned"> <button
+ type="button"
+ class="entity-logo-button"
+ role="listitem"
+ aria-label="Cardano, Coin"
+ aria-expanded="false"
+ aria-haspopup="dialog"
+ style="z-index: 2;"
+ data-entity-id="2725"
+ data-entity-type="coin"
+ data-entity-type-label="Coin"
+ data-entity-type-meta="$0.16"
+ data-entity-coin-price="$0.16"
+ data-entity-coin-change="-3.59% (24h)"
+ data-entity-coin-change-direction="down"
+ data-entity-name="Cardano"
+ data-entity-description="Cardano is a public, proof of stake layer 1 blockchain whose native asset, ADA, is used for payments, staking, governance, and fees. Designed as a research driven network with formal methods and peer reviewed engineering, Cardano aims to provide a scalable, energy efficient base layer for smart contracts, decentralized applications, and institutional grade financial infrastructure. [&hellip;]"
+ data-entity-url="https://cryptoslate.com/coins/cardano/"
+ data-entity-logo="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=100&#038;h=100&#038;q=75"
+ data-entity-initials="C"
+ data-entity-x="https://x.com/Cardano"
+ data-entity-linkedin="https://www.linkedin.com/company/cardano-foundation/"
+ data-entity-website="https://www.cardanohub.org/en/home/"
+ > <span class="entity-logo"> <noscript><img src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=100&#038;h=100&#038;q=75" alt="Cardano logo" loading="lazy" decoding="async"></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2017/10/cardano-logo-1.jpg&#038;w=100&#038;h=100&#038;q=75" alt="Cardano logo" loading="lazy" decoding="async"> </span> <span class="entity-logo-tooltip" role="tooltip" aria-hidden="true"> Cardano </span> <span class="screen-reader-text">Cardano, Coin</span> </button> <button
+ type="button"
+ class="entity-logo-button"
+ role="listitem"
+ aria-label="Charles Hoskinson, Person"
+ aria-expanded="false"
+ aria-haspopup="dialog"
+ style="z-index: 1;"
+ data-entity-id="104046"
+ data-entity-type="person"
+ data-entity-type-label="Person"
+ data-entity-type-meta="CEO · Input Output"
+ data-entity-coin-price=""
+ data-entity-coin-change=""
+ data-entity-coin-change-direction=""
+ data-entity-name="Charles Hoskinson"
+ data-entity-description="Charles Hoskinson is an American entrepreneur and blockchain architect best known as the founder of the Cardano (ADA) blockchain and a co-founder of Ethereum (ETH). As CEO of Input Output Global (IOG), he has been a prominent advocate of research-driven blockchain development, formal methods, and proof-of-stake consensus, positioning Cardano as a platform focused on security, [&hellip;]"
+ data-entity-url="https://cryptoslate.com/people/charles-hoskinson/"
+ data-entity-logo="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/05/person-charles-hoskinson.jpg&#038;w=100&#038;h=100&#038;q=75"
+ data-entity-initials="CH"
+ data-entity-x="https://x.com/IOHK_Charles"
+ data-entity-linkedin="https://www.linkedin.com/in/charles-hoskinson-1a95a4b4/"
+ data-entity-website=""
+ > <span class="entity-logo"> <noscript><img src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/05/person-charles-hoskinson.jpg&#038;w=100&#038;h=100&#038;q=75" alt="Charles Hoskinson photo" loading="lazy" decoding="async"></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2019/05/person-charles-hoskinson.jpg&#038;w=100&#038;h=100&#038;q=75" alt="Charles Hoskinson photo" loading="lazy" decoding="async"> </span> <span class="entity-logo-tooltip" role="tooltip" aria-hidden="true"> Charles Hoskinson </span> <span class="screen-reader-text">Charles Hoskinson, Person</span> </button> <button
+ type="button"
+ class="entity-dock__more is-hidden"
+ data-entity-more
+ aria-expanded="false"
+ aria-haspopup="dialog"
+ aria-label="Show more entities"
+ role="listitem"
+ > +0 </button></div><div class="entity-dock__overflow" data-entity-overflow aria-hidden="true"><div class="entity-dock__overflow-panel" data-entity-overflow-panel role="dialog" aria-label="More entities"><div class="entity-dock__overflow-list" data-entity-overflow-list role="list" aria-label="More entities"></div></div></div></div></div><div class="entity-popover" data-entity-popover aria-hidden="true"><div class="entity-popover__panel" role="dialog" aria-modal="false" aria-labelledby="entity-popover-title" aria-describedby="entity-popover-desc"><div class="entity-popover__header"><div class="entity-popover__identity"><div class="entity-popover__logo" data-entity-popover-logo></div><div class="entity-popover__titles"><div class="entity-popover__name" id="entity-popover-title" data-entity-popover-title></div><div class="entity-popover__type" data-entity-popover-type></div></div></div> <button type="button" class="entity-popover__close" data-entity-popover-close aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div><div class="entity-popover__body" data-entity-popover-body><p class="entity-popover__desc" id="entity-popover-desc" data-entity-popover-desc></p> <button type="button" class="entity-popover__more" data-entity-popover-more>Expand</button><div class="entity-popover__actions"> <a class="entity-popover__primary" data-entity-popover-link href="#" target="_blank" rel="noopener"><span class="entity-popover__primary-label" data-entity-popover-link-label>More about</span> <i class="fa-regular fa-arrow-up-right-from-square" aria-hidden="true"></i></a><div class="entity-popover__icons" data-entity-popover-icons></div></div></div></div></div></div><section
+ class="sidebar-spotlight"
+ data-sidebar-spotlight
+ data-rotate="8000"
+ style="--spotlight-accent:#1cb6b4"
+ aria-roledescription="carousel"
+ aria-label="Featured content spotlight"
+><div class="sidebar-spotlight__viewport"><article
+ id="sidebar-spotlight-450050-slide-0"
+ class="sidebar-spotlight__slide sidebar-spotlight__slide--guide is-active"
+ data-sidebar-spotlight-slide
+ role="group"
+ aria-roledescription="slide"
+ aria-label="1 of 4"
+ aria-hidden="false"
+ style="--spotlight-accent:#1cb6b4;--spotlight-image:url(&#039;https://cryptoslate.com/wp-content/uploads/2026/05/what-is-dogecoin-cover-1024x576.jpg&#039;)"            > <a class="sidebar-spotlight__link" href="https://cryptoslate.com/guides/what-is-dogecoin/" tabindex="0"><div class="sidebar-spotlight__art"></div><div class="sidebar-spotlight__body"><div class="sidebar-spotlight__body-head"><div class="sidebar-spotlight__head-copy"> <span class="sidebar-spotlight__kicker"> <span class="sidebar-spotlight__kicker-mark"> <i class="fa-regular fa-book" aria-hidden="true"></i> </span> <span>Latest Guide</span> </span> <span class="sidebar-spotlight__title">What is Dogecoin?</span> <span class="sidebar-spotlight__summary">Learn what Dogecoin is, how DOGE mining works, why supply keeps growing, and how to weigh payment use...</span> <span class="sidebar-spotlight__time"> <i class="fa-light fa-clock" aria-hidden="true"></i> <span>3 weeks ago</span> </span></div></div></div> </a></article><article
+ id="sidebar-spotlight-450050-slide-1"
+ class="sidebar-spotlight__slide sidebar-spotlight__slide--story"
+ data-sidebar-spotlight-slide
+ role="group"
+ aria-roledescription="slide"
+ aria-label="2 of 4"
+ aria-hidden="true"
+ style="--spotlight-accent:#d7a534;--spotlight-image:url(&#039;https://cryptoslate.com/wp-content/uploads/2026/07/smcd--1024x576.jpg&#039;)"            > <a class="sidebar-spotlight__link" href="https://cryptoslate.com/bitcoin-mining-pools-in-2026-hashrate-consolidation-is-creating-a-two-tier-market-and-smaller-miners-are-feeling-it/" tabindex="-1"><div class="sidebar-spotlight__art"></div><div class="sidebar-spotlight__body"><div class="sidebar-spotlight__body-head"><div class="sidebar-spotlight__head-copy"> <span class="sidebar-spotlight__kicker"> <span class="sidebar-spotlight__kicker-mark"> <noscript><img class="sidebar-spotlight__kicker-logo" alt="EMCD logo" loading="lazy" decoding="async" width="28" height="28" src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2024/05/emcd-logo.jpg&#038;w=28&#038;h=28&#038;q=75" /></noscript><img class="lazyload sidebar-spotlight__kicker-logo" alt="EMCD logo" loading="lazy" decoding="async" width="28" height="28" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2028%2028%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2024/05/emcd-logo.jpg&#038;w=28&#038;h=28&#038;q=75" /> </span> <span>Presented by EMCD</span> </span> <span class="sidebar-spotlight__title">Bitcoin Mining Pools in 2026: Hashrate Consolidation Is Creating a Two-Tier Market — and Smaller Miners Are Feeling It</span> <span class="sidebar-spotlight__summary">As four pools now control more than 70% of Bitcoin&#039;s hashrate, independent miners are quietly rethinking where they...</span> <span class="sidebar-spotlight__time"> <i class="fa-light fa-clock" aria-hidden="true"></i> <span>4 days ago</span> </span></div></div></div> </a></article><article
+ id="sidebar-spotlight-450050-slide-2"
+ class="sidebar-spotlight__slide sidebar-spotlight__slide--review"
+ data-sidebar-spotlight-slide
+ role="group"
+ aria-roledescription="slide"
+ aria-label="3 of 4"
+ aria-hidden="true"
+ style="--spotlight-accent:var(--brand);--spotlight-image:url(&#039;https://cryptoslate.com/wp-content/uploads/2025/12/review-exchange-coinbase-1024x683.jpg&#039;)"            > <a class="sidebar-spotlight__link" href="https://cryptoslate.com/crypto-exchanges/coinbase-exchange-review/" tabindex="-1"><div class="sidebar-spotlight__art"><div class="sidebar-spotlight__art-meta"> <span
+ class="sidebar-spotlight__score"
+ style="--score:8.6"                                    aria-label="Review score 8.6"
+ > 8.6 </span></div></div><div class="sidebar-spotlight__body"><div class="sidebar-spotlight__body-head"><div class="sidebar-spotlight__head-copy"> <span class="sidebar-spotlight__kicker"> <span class="sidebar-spotlight__kicker-mark"> <noscript><img class="sidebar-spotlight__kicker-logo" alt="Coinbase logo" loading="lazy" decoding="async" width="28" height="28" src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2018/09/coinbase-logo-1-150x150.jpg&#038;w=28&#038;h=28&#038;q=75" /></noscript><img class="lazyload sidebar-spotlight__kicker-logo" alt="Coinbase logo" loading="lazy" decoding="async" width="28" height="28" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2028%2028%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2018/09/coinbase-logo-1-150x150.jpg&#038;w=28&#038;h=28&#038;q=75" /> </span> <span>Crypto Exchanges Review</span> </span> <span class="sidebar-spotlight__title">Coinbase</span> <span class="sidebar-spotlight__summary">Secure, publicly listed crypto exchange with audited financials, deep USD liquidity, and an easy app—great for buying and...</span> <span class="sidebar-spotlight__time"> <i class="fa-light fa-clock" aria-hidden="true"></i> <span>2 weeks ago</span> </span></div></div></div> </a></article><article
+ id="sidebar-spotlight-450050-slide-3"
+ class="sidebar-spotlight__slide sidebar-spotlight__slide--report"
+ data-sidebar-spotlight-slide
+ role="group"
+ aria-roledescription="slide"
+ aria-label="4 of 4"
+ aria-hidden="true"
+ style="--spotlight-accent:#4d86ac;--spotlight-image:url(&#039;https://cryptoslate.com/wp-content/uploads/2026/04/project-report-gcoin-1024x683.jpg&#039;)"            > <a class="sidebar-spotlight__link" href="https://cryptoslate.com/project-reports/g-coin/" tabindex="-1"><div class="sidebar-spotlight__art"><div class="sidebar-spotlight__art-meta"> <span
+ class="sidebar-spotlight__score"
+ style="--score:7.5"                                    aria-label="Project report score 7.5"
+ > 7.5 </span></div></div><div class="sidebar-spotlight__body"><div class="sidebar-spotlight__body-head"><div class="sidebar-spotlight__head-copy"> <span class="sidebar-spotlight__kicker"> <span class="sidebar-spotlight__kicker-mark"> <noscript><img class="sidebar-spotlight__kicker-logo" alt="Playnance logo" loading="lazy" decoding="async" width="28" height="28" src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2026/03/gcoin-logo.jpg&#038;w=28&#038;h=28&#038;q=75" /></noscript><img class="lazyload sidebar-spotlight__kicker-logo" alt="Playnance logo" loading="lazy" decoding="async" width="28" height="28" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2028%2028%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2026/03/gcoin-logo.jpg&#038;w=28&#038;h=28&#038;q=75" /> </span> <span>Project Report</span> </span> <span class="sidebar-spotlight__title">G Coin: Playnance’s On-Chain Entertainment Economy</span> <span class="sidebar-spotlight__summary">An independent analysis of G Coin, covering its role in Playnance’s on-chain entertainment ecosystem, token utility, tokenomics, audits,...</span> <span class="sidebar-spotlight__time"> <i class="fa-light fa-clock" aria-hidden="true"></i> <span>2 months ago</span> </span></div></div></div> </a></article></div><div class="sidebar-spotlight__footer" aria-label="Spotlight navigation"><div class="sidebar-spotlight__dots" role="tablist" aria-label="Choose spotlight slide"> <button
+ class="sidebar-spotlight__dot is-active"
+ type="button"
+ role="tab"
+ data-sidebar-spotlight-tab="0"
+ aria-controls="sidebar-spotlight-450050-slide-0"
+ aria-selected="true"
+ tabindex="0"
+ aria-label="Show Guide: What is Dogecoin?"
+ > <span class="screen-reader-text">Guide</span> <span class="sidebar-spotlight__dot-indicator" aria-hidden="true"></span> </button> <button
+ class="sidebar-spotlight__dot"
+ type="button"
+ role="tab"
+ data-sidebar-spotlight-tab="1"
+ aria-controls="sidebar-spotlight-450050-slide-1"
+ aria-selected="false"
+ tabindex="-1"
+ aria-label="Show Story: Bitcoin Mining Pools in 2026: Hashrate Consolidation Is Creating a Two-Tier Market — and Smaller Miners Are Feeling It"
+ > <span class="screen-reader-text">Story</span> <span class="sidebar-spotlight__dot-indicator" aria-hidden="true"></span> </button> <button
+ class="sidebar-spotlight__dot"
+ type="button"
+ role="tab"
+ data-sidebar-spotlight-tab="2"
+ aria-controls="sidebar-spotlight-450050-slide-2"
+ aria-selected="false"
+ tabindex="-1"
+ aria-label="Show Review: Coinbase"
+ > <span class="screen-reader-text">Review</span> <span class="sidebar-spotlight__dot-indicator" aria-hidden="true"></span> </button> <button
+ class="sidebar-spotlight__dot"
+ type="button"
+ role="tab"
+ data-sidebar-spotlight-tab="3"
+ aria-controls="sidebar-spotlight-450050-slide-3"
+ aria-selected="false"
+ tabindex="-1"
+ aria-label="Show Report: G Coin: Playnance’s On-Chain Entertainment Economy"
+ > <span class="screen-reader-text">Report</span> <span class="sidebar-spotlight__dot-indicator" aria-hidden="true"></span> </button></div></div></section></div></div></div><div class='code-block code-block-1' style='margin: 8px 0; clear: both;'><div
+ class="bottom sticky igaming-geofenced hidden"
+ style="background: linear-gradient(180deg, #133b4b 0%, #184c61 100%);"
+> <a rel="sponsored nofollow noopener noreferrer" class="cta" href="https://link.cryptoslate.com/cryptogames" target="_blank"><div class="content"> <i class="fa-light fa-rectangle-ad"></i> <noscript><img
+ class="icon lazyloaded"
+ src="https://cryptoslate.com/wp-content/uploads/2026/01/cryptogames-logo.jpg"
+ width="96"
+ height="96"
+ alt="CryptoGames logo"
+ /></noscript><img
+ class="lazyload icon lazyloaded"
+ src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E' data-src="https://cryptoslate.com/wp-content/uploads/2026/01/cryptogames-logo.jpg"
+ width="96"
+ height="96"
+ alt="CryptoGames logo"
+ /> <span class="name">CryptoGames</span><div class="headline" style="font-weight: 500"> Bitcoin and Altcoin Casino</div> <span class="cta-btn" style="background: #df901b; color: #fff;"> Play Now </span></div> </a> <span class="sticky-dismiss-trigger" data-sticky-dismiss role="button" tabindex="0" aria-label="Hide ad"> <i class="fa-light fa-xmark" aria-hidden="true"></i> </span></div></div></div><div id="wpconsent-root" data-nosnippet="true" style="--wpconsent-z-index: 900000; --wpconsent-background: #e1e2e5; --wpconsent-text: #000000; --wpconsent-outline-color: rgba(0, 0, 0, 0.2); --wpconsent-accept-bg: #1f93ff; --wpconsent-cancel-bg: #ffffff; --wpconsent-preferences-bg: #ffffff; --wpconsent-accept-color: #ffffff; --wpconsent-cancel-color: #000000; --wpconsent-preferences-color: #000000; --wpconsent-font-size: 14px;"><div id="wpconsent-container" style="display: none;"></div><template id="wpconsent-template"><div class="wpconsent-banner-holder wpconsent-banner-long wpconsent-banner-long-bottom" id="wpconsent-banner-holder" tabindex="-1" role="dialog" aria-labelledby="wpconsent-banner-title"><div class="wpconsent-banner" part="wpconsent-banner"><div class="wpconsent-banner-body" part="wpconsent-banner-body"><h2 id="wpconsent-banner-title" class="screen-reader-text">Cookie Consent</h2><div class="wpconsent-banner-message" tabindex="0"><p>We use cookies to improve your experience on our site. By using our site, you consent to cookies.</p></div></div><div class="wpconsent-banner-footer wpconsent-button-size-small wpconsent-button-corner-slightly-rounded wpconsent-button-type-filled" part="wpconsent-banner-footer"><button type="button" id="wpconsent-preferences-all" class="wpconsent-preferences-cookies wpconsent-banner-button wpconsent-preferences-all" part="wpconsent-button-preferences">Preferences</button><button type="button" id="wpconsent-cancel-all" class="wpconsent-cancel-cookies wpconsent-banner-button wpconsent-cancel-all" part="wpconsent-button-cancel">Reject</button><button type="button" id="wpconsent-accept-all" class="wpconsent-accept-cookies wpconsent-banner-button wpconsent-accept-all" part="wpconsent-button-accept">Accept All</button></div></div></div><div id="wpconsent-preferences-modal" class="wpconsent-preferences-modal" style="display:none;" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="wpconsent-preferences-title" part="wpconsent-preferences-modal"><div class="wpconsent-preferences-content" part="wpconsent-preferences-content"><div class="wpconsent-preferences-header" part="wpconsent-preferences-header"><h2 id="wpconsent-preferences-title" tabindex="0" part="wpconsent-preferences-title">Cookie Preferences</h2><div class="wpconsent-preferences-header-right"><button class="wpconsent-preferences-header-close" id="wpconsent-preferences-close" aria-label="Close" aria-label="Close" part="wpconsent-preferences-close">&times;</button></div></div><div class="wpconsent-preferences-body"><div class="wpconsent_preferences_panel_description" part="wpconsent-preferences-description"><p>Manage your cookie preferences below:</p></div><div class="wpconsent-preference-cookies wpconsent-preferences-accordion" part="wpconsent-preferences-accordion"><div class="wpconsent-preferences-accordion-item wpconsent-cookie-category wpconsent-cookie-category-essential" part="wpconsent-accordion-item wpconsent-category-essential"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle Essential</span></button><label for="cookie-category-essential">Essential</label></div><div class="wpconsent-cookie-category-checkbox"><label class="wpconsent-preferences-checkbox-toggle wpconsent-preferences-checkbox-toggle-disabled" part="wpconsent-checkbox-toggle wpconsent-checkbox-toggle-disabled"><input type="checkbox" id="cookie-category-essential" checked disabled><span class="wpconsent-preferences-checkbox-toggle-slider"></span></label></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p class="wpconsent-category-description" tabindex="0">Essential cookies enable basic functions and are necessary for the proper function of the website.</p><div class="wpconsent-preferences-cookies-list" part="wpconsent-cookies-list"><div class="wpconsent-preferences-list-header" part="wpconsent-cookies-list-header"><div class="cookie-name">Name</div><div class="cookie-desc">Description</div><div class="cookie-duration">Duration</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544623" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544632" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544631" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544630" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544629" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544628" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544627" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544626" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544625" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544624" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544622" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544621" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544620" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544619" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544618" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544617" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544616" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544633" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544090" part="wpconsent-cookies-list-item"><div class="cookie-name">Geolocation Config</div><div class="cookie-desc">This cookie is used to store the consent settings based on the visitor's location.</div><div class="cookie-duration">30 days</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544058" part="wpconsent-cookies-list-item"><div class="cookie-name">Cookie Preferences</div><div class="cookie-desc">This cookie is used to store the user's cookie consent preferences.</div><div class="cookie-duration">30 days</div></div></div><div class="wpconsent-preferences-accordion-item wpconsent-cookie-service" part="wpconsent-accordion-item wpconsent-service-cloudflare"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle CloudFlare</span></button><label>CloudFlare</label></div><div class="wpconsent-cookie-category-checkbox"></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p class="wpconsent-service-description" tabindex="0">CloudFlare provides web performance and security solutions, enhancing site speed and protecting against threats.</p><p tabindex="0" class="wpconsent-service-url">Service URL: <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank" rel="noopener noreferrer">developers.cloudflare.com<span class="screen-reader-text"> (opens in a new window)</span></a></p><div class="wpconsent-preferences-cookies-list" part="wpconsent-cookies-list"><div class="wpconsent-preferences-list-header" part="wpconsent-cookies-list-header"><div class="cookie-name">Name</div><div class="cookie-desc">Description</div><div class="cookie-duration">Duration</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544071" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_ob_info</div><div class="cookie-desc">The cf_ob_info cookie provides information on: The HTTP Status Code returned by the origin web server. The Ray ID of the original failed request. The data center serving the traffic</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544070" part="wpconsent-cookies-list-item"><div class="cookie-name">__cfseq</div><div class="cookie-desc">Sequence rules uses cookies to track the order of requests a user has made and the time between requests and makes them available via Cloudflare Rules. This allows you to write rules that match valid or invalid sequences. The specific cookies used to validate sequences are called sequence cookies.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544069" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_clearance</div><div class="cookie-desc">Whether a CAPTCHA or Javascript challenge has been solved.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544068" part="wpconsent-cookies-list-item"><div class="cookie-name">_cfuvid</div><div class="cookie-desc">The _cfuvid cookie is only set when a site uses this option in a Rate Limiting Rule, and is only used to allow the Cloudflare WAF to distinguish individual users who share the same IP address.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544067" part="wpconsent-cookies-list-item"><div class="cookie-name">__cflb</div><div class="cookie-desc">When enabling session affinity with Cloudflare Load Balancer, Cloudflare sets a __cflb cookie with a unique value on the first response to the requesting client. Cloudflare routes future requests to the same origin, optimizing network resource usage. In the event of a failover, Cloudflare sets a new __cflb cookie to direct future requests to the failover pool.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544066" part="wpconsent-cookies-list-item"><div class="cookie-name">__cf_bm</div><div class="cookie-desc">Cloudflare's bot products identify and mitigate automated traffic to protect your site from bad bots. Cloudflare places the __cf_bm cookie on End User devices that access Customer sites that are protected by Bot Management or Bot Fight Mode. The __cf_bm cookie is necessary for the proper functioning of these bot solutions.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544065" part="wpconsent-cookies-list-item"><div class="cookie-name">__cfruid</div><div class="cookie-desc">Used by the content network, Cloudflare, to identify trusted web traffic.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544064" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_chl_rc_m</div><div class="cookie-desc">These cookies are for internal use which allows Cloudflare to identify production issues on clients.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544063" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_chl_rc_ni</div><div class="cookie-desc">These cookies are for internal use which allows Cloudflare to identify production issues on clients.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544062" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_chl_rc_i</div><div class="cookie-desc">These cookies are for internal use which allows Cloudflare to identify production issues on clients.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544061" part="wpconsent-cookies-list-item"><div class="cookie-name">__cfwaitingroom</div><div class="cookie-desc">The __cfwaitingroom cookie is only used to track visitors that access a waiting room enabled host and path combination for a zone. Visitors using a browser that does not accept cookies cannot visit the host and path combination while the waiting room is active.</div><div class="cookie-duration">session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544060" part="wpconsent-cookies-list-item"><div class="cookie-name">cf_use_ob</div><div class="cookie-desc">The cf_use_ob cookie informs Cloudflare to fetch the requested resource from the Always Online cache on the designated port. Applicable values are: 0, 80, and 443. The cf_ob_info and cf_use_ob cookies are persistent cookies that expire after 30 seconds.</div><div class="cookie-duration">session</div></div></div></div></div><div class="wpconsent-preferences-accordion-item wpconsent-cookie-service" part="wpconsent-accordion-item wpconsent-service-google-analytics"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle Google Analytics</span></button><label>Google Analytics</label></div><div class="wpconsent-cookie-category-checkbox"></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p class="wpconsent-service-description" tabindex="0">Google Analytics is a powerful tool that tracks and analyzes website traffic for informed marketing decisions.</p><p tabindex="0" class="wpconsent-service-url">Service URL: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com<span class="screen-reader-text"> (opens in a new window)</span></a></p><div class="wpconsent-preferences-cookies-list" part="wpconsent-cookies-list"><div class="wpconsent-preferences-list-header" part="wpconsent-cookies-list-header"><div class="cookie-name">Name</div><div class="cookie-desc">Description</div><div class="cookie-duration">Duration</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544084" part="wpconsent-cookies-list-item"><div class="cookie-name">_gat</div><div class="cookie-desc">Used to monitor number of Google Analytics server requests when using Google Tag Manager</div><div class="cookie-duration">1 minute</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544083" part="wpconsent-cookies-list-item"><div class="cookie-name">_gid</div><div class="cookie-desc">ID used to identify users for 24 hours after last activity</div><div class="cookie-duration">24 hours</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544082" part="wpconsent-cookies-list-item"><div class="cookie-name">_ga_</div><div class="cookie-desc">ID used to identify users</div><div class="cookie-duration">2 years</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544081" part="wpconsent-cookies-list-item"><div class="cookie-name">_gali</div><div class="cookie-desc">Used by Google Analytics to determine which links on a page are being clicked</div><div class="cookie-duration">30 seconds</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544080" part="wpconsent-cookies-list-item"><div class="cookie-name">_ga</div><div class="cookie-desc">ID used to identify users</div><div class="cookie-duration">2 years</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544079" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmx</div><div class="cookie-desc">Used to determine whether a user is included in an A / B or Multivariate test.</div><div class="cookie-duration">18 months</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544078" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmv</div><div class="cookie-desc">Contains custom information set by the web developer via the _setCustomVar method in Google Analytics. This cookie is updated every time new data is sent to the Google Analytics server.</div><div class="cookie-duration">2 years after last activity</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544077" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmz</div><div class="cookie-desc">Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server</div><div class="cookie-duration">6 months after last activity</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544076" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmc</div><div class="cookie-desc">Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session.</div><div class="cookie-duration">End of session (browser)</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544075" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmb</div><div class="cookie-desc">Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server.</div><div class="cookie-duration">30 minutes after last activity</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544074" part="wpconsent-cookies-list-item"><div class="cookie-name">__utmt</div><div class="cookie-desc">Used to monitor number of Google Analytics server requests</div><div class="cookie-duration">10 minutes</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544073" part="wpconsent-cookies-list-item"><div class="cookie-name">__utma</div><div class="cookie-desc">ID used to identify users and sessions</div><div class="cookie-duration">2 years after last activity</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544072" part="wpconsent-cookies-list-item"><div class="cookie-name">_gac_</div><div class="cookie-desc">Contains information related to marketing campaigns of the user. These are shared with Google AdWords / Google Ads when the Google Ads and Google Analytics accounts are linked together.</div><div class="cookie-duration">90 days</div></div></div></div></div></div></div><div class="wpconsent-preferences-accordion-item wpconsent-cookie-category wpconsent-cookie-category-statistics" part="wpconsent-accordion-item wpconsent-category-statistics"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle Statistics</span></button><label for="cookie-category-statistics">Statistics</label></div><div class="wpconsent-cookie-category-checkbox"><label class="wpconsent-preferences-checkbox-toggle" part="wpconsent-checkbox-toggle"><input type="checkbox" id="cookie-category-statistics" name="wpconsent_cookie[]" value="statistics" ><span class="wpconsent-preferences-checkbox-toggle-slider"></span></label></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p class="wpconsent-category-description" tabindex="0">Statistics cookies collect information anonymously. This information helps us understand how visitors use our website.</p><div class="wpconsent-preferences-accordion-item wpconsent-cookie-service" part="wpconsent-accordion-item wpconsent-service-microsoft-clarity"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle Microsoft Clarity</span></button><label>Microsoft Clarity</label></div><div class="wpconsent-cookie-category-checkbox"></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p class="wpconsent-service-description" tabindex="0">Clarity is a web analytics service that tracks and reports website traffic.</p><p tabindex="0" class="wpconsent-service-url">Service URL: <a href="https://clarity.microsoft.com/privacy" target="_blank" rel="noopener noreferrer">clarity.microsoft.com<span class="screen-reader-text"> (opens in a new window)</span></a></p><div class="wpconsent-preferences-cookies-list" part="wpconsent-cookies-list"><div class="wpconsent-preferences-list-header" part="wpconsent-cookies-list-header"><div class="cookie-name">Name</div><div class="cookie-desc">Description</div><div class="cookie-duration">Duration</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544085" part="wpconsent-cookies-list-item"><div class="cookie-name">ANONCHK</div><div class="cookie-desc">Indicates whether MUID is transferred to ANID, a cookie used for advertising. Clarity doesn't use ANID and so this is always set to 0.</div><div class="cookie-duration">Session</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544086" part="wpconsent-cookies-list-item"><div class="cookie-name">CLID</div><div class="cookie-desc">Identifies the first-time Clarity saw this user on any site using Clarity.</div><div class="cookie-duration">12 months</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544087" part="wpconsent-cookies-list-item"><div class="cookie-name">_clsk</div><div class="cookie-desc">Connects multiple page views by a user into a single Clarity session recording.</div><div class="cookie-duration">12 months</div></div><div class="wpconsent-preferences-list-item" data-cookie-id="544088" part="wpconsent-cookies-list-item"><div class="cookie-name">_clck</div><div class="cookie-desc">Persists the Clarity User ID and preferences, unique to that site is attributed to the same user ID.</div><div class="cookie-duration">12 months</div></div></div></div></div></div></div><div class="wpconsent-preferences-accordion-item wpconsent-cookie-category" part="wpconsent-accordion-item wpconsent-cookie-policy-item"><div class="wpconsent-preferences-accordion-header" part="wpconsent-accordion-header"><div class="wpconsent-cookie-category-text"><button class="wpconsent-preferences-accordion-toggle" aria-expanded="false" part="wpconsent-accordion-toggle"><span class="wpconsent-preferences-accordion-arrow" aria-hidden="true"></span><span class="screen-reader-text">Toggle Cookie Policy</span></button><label class="wpconsent-cookie-policy-title">Cookie Policy</label></div></div><div class="wpconsent-preferences-accordion-content" part="wpconsent-accordion-content"><p tabindex="0" class="wpconsent-cookie-policy-text">You can find more information in our <a href="https://cryptoslate.com/privacy-policy/">Privacy Policy</a> and .</p></div></div></div></div><div class="wpconsent-preferences-actions" part="wpconsent-preferences-actions"><div class="wpconsent-preferences-buttons wpconsent-button-size-small wpconsent-button-corner-slightly-rounded wpconsent-button-type-filled" part="wpconsent-preferences-buttons"><div class="wpconsent-preferences-buttons-left" part="wpconsent-preferences-buttons-left"><button class="wpconsent-accept-all wpconsent-banner-button" part="wpconsent-preferences-accept-button">Accept All</button><button class="wpconsent-close-preferences wpconsent-banner-button" part="wpconsent-preferences-cancel-button">Close</button></div><button class="wpconsent-save-preferences wpconsent-banner-button" part="wpconsent-preferences-save-button">Save and Close</button></div></div></div></div><button id="wpconsent-consent-floating" class="wpconsent-consent-floating-button" part="wpconsent-settings-button" style="background-color: #e1e2e5; color: #000000;" aria-label="Cookie Preferences"><svg class="wpconsent-icon wpconsent-icon-preferences" width="24" height="24" viewBox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z" fill="#000000" /></svg></button></template></div><noscript><style>.lazyload{display:none;}</style></noscript><script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize="1" src='https://cryptoslate.com/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=3.1.10'></script><script type="text/javascript" id="wpconsent-frontend-js-js-extra">var wpconsent = {"consent_duration":"30","api_url":"https:\/\/cryptoslate.com\/wp-json\/wpconsent\/v1","nonce":"","records_of_consent":"1","css_url":"https:\/\/cryptoslate.com\/wp-content\/plugins\/wpconsent-premium\/build\/frontend-pro.css","css_version":"11016aa3de3ac0cbff7f","default_allow":"","consent_type":"optin","manual_toggle_services":"","enable_consent_floating":"","slugs":["essential","statistics","marketing"],"geolocation":{"enabled":true,"api_url":"https:\/\/cryptoslate.com\/wp-json\/wpconsent\/v1\/geolocation","location_groups":{"group_6a3c7deded939":{"group_id":"group_6a3c7deded939","name":"GDPR Compliance","locations":[{"code":"EU","type":"continent","name":"Europe"}],"enable_script_blocking":false,"enable_content_blocking":false,"show_banner":true,"enable_consent_floating":false,"manual_toggle_services":false,"consent_mode":"optin","customize_banner_buttons":false,"customize_banner_message":false,"content_blocking_services":[],"content_blocking_placeholder_text":"","accept_button_text":"","cancel_button_text":"","preferences_button_text":"","accept_button_enabled":true,"cancel_button_enabled":true,"preferences_button_enabled":true,"button_order":["accept","cancel","preferences"],"banner_message":""},"group_6a3c7e1741371":{"group_id":"group_6a3c7e1741371","name":"CCPA Compliance","locations":[{"code":"CA","type":"us_state","name":"California"}],"enable_script_blocking":false,"enable_content_blocking":false,"show_banner":true,"enable_consent_floating":false,"manual_toggle_services":false,"consent_mode":"optout","customize_banner_buttons":false,"customize_banner_message":false,"content_blocking_services":[],"content_blocking_placeholder_text":"","accept_button_text":"","cancel_button_text":"","preferences_button_text":"","accept_button_enabled":true,"cancel_button_enabled":true,"preferences_button_enabled":true,"button_order":["accept","cancel","preferences"],"banner_message":""}}},"current_language":"en_US","banner_variant":{"locale":"en_US","country_code":""},"enable_script_blocking":"1","enable_content_blocking":"0","enable_consent_banner":"1","enable_shared_consent":"","cookie_domain":"","accept_button_enabled":"1","cancel_button_enabled":"1","preferences_button_enabled":"1","respect_gpc":"1","original_default_allow":"","original_enable_consent_banner":"1","original_enable_script_blocking":"1","original_enable_content_blocking":"","original_content_blocking_services":["youtube","recaptcha","google-maps","vimeo","dailymotion"],"original_content_blocking_placeholder_text":"Click here to accept {category} cookies and load this content","original_accept_button_enabled":"1","original_cancel_button_enabled":"1","original_preferences_button_enabled":"1","original_banner_message":"We use cookies to improve your experience on our site. By using our site, you consent to cookies.","category_names":{"essential":"Essential","statistics":"Statistics","marketing":"Marketing"}};</script> <script type="text/javascript" id="cryptoslate-style-loader-js-before">window.cryptoSlateStyleAssets = Object.assign({}, window.cryptoSlateStyleAssets || {}, {"headerMobileMenu":{"id":"cryptoslate-menus-css","href":"https:\/\/cryptoslate.com\/wp-content\/themes\/cryptoslate-2020\/css\/menus.css?ver=1783804334"},"headerSearch":{"id":"cryptoslate-header-search-menu-css","href":"https:\/\/cryptoslate.com\/wp-content\/themes\/cryptoslate-2020\/css\/header-search-menu.css?ver=1782832790"},"headerHover":{"id":"cryptoslate-header-hover-menus-css","href":"https:\/\/cryptoslate.com\/wp-content\/themes\/cryptoslate-2020\/css\/header-hover-menus.css?v=1783804334","media":"(min-width: 641px)"},"comparisonPicker":{"id":"cryptoslate-comparison-picker-css","href":"https:\/\/cryptoslate.com\/wp-content\/themes\/cryptoslate-2020\/css\/comparison-picker.css?ver=1782832790"}});</script> <script>(function () {
+    var storageKey = "theme";
+    var cookieName = "theme";
+    var docEl = document.documentElement;
+    var toggle = document.getElementById("theme-toggle");
+    var mm = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    function setCookie(name, value, days) {
+      var maxAge = days ? days * 24 * 60 * 60 : 31536000; // default 1 year
+      var secure = location.protocol === "https:" ? " Secure;" : "";
+      document.cookie = name + "=" + value + "; Path=/; SameSite=Lax; " + secure + " Max-Age=" + maxAge;
+    }
+
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp("(^|;)\\s*" + name + "=([^;]+)"));
+      if (!match) return null;
+      var value = match.pop();
+      try {
+        return decodeURIComponent(value);
+      } catch (_) {
+        return value;
+      }
+    }
+
+    function getStoredChoice() {
+      try { return localStorage.getItem(storageKey); } catch (_) { return null; }
+    }
+
+    function setStoredChoice(theme) {
+      try { localStorage.setItem(storageKey, theme); } catch (_) {}
+      setCookie(cookieName, theme, 365);
+      return true;
+    }
+
+    function clearStoredChoice() {
+      try { localStorage.removeItem(storageKey); } catch (_) {}
+      setCookie(cookieName, "", -1);
+    }
+
+    // ---- TradingView theme sync helpers ----
+    // Many TradingView embeds render as iframes with ?theme=light|dark or &colorTheme=light|dark
+    // We rewrite those params, which triggers a quick iframe reload to apply the style.
+    function setTradingViewTheme(theme) {
+      var iframes = document.querySelectorAll('iframe[src*="tradingview"]');
+      if (!iframes.length) return;
+
+      // Debounce multiple rapid calls during theme swaps
+      if (setTradingViewTheme._t) cancelAnimationFrame(setTradingViewTheme._t);
+      setTradingViewTheme._t = requestAnimationFrame(function () {
+        iframes.forEach(function (iframe) {
+          try {
+            // Some embeds lazy set src later, skip empty or blob urls
+            if (!iframe.src || iframe.src.indexOf("http") !== 0) return;
+            var url = new URL(iframe.src);
+            var currTheme = (url.searchParams.get("theme") || url.searchParams.get("colorTheme") || "").toLowerCase();
+            if (currTheme !== theme) {
+              url.searchParams.set("theme", theme);
+              url.searchParams.set("colorTheme", theme);
+              // Setting src forces a refresh of the embed
+              iframe.src = url.toString();
+            }
+          } catch (e) {
+            // Ignore malformed URLs or cross-origin oddities
+          }
+        });
+      });
+    }
+
+    function syncBodyThemeClass(theme) {
+      if (!document.body) return;
+      document.body.classList.toggle("dark", theme === "dark");
+      document.body.classList.toggle("light", theme === "light");
+    }
+
+    function applyTheme(theme, opts) {
+      // Prevent transition flicker during theme swap
+      docEl.classList.add("theme-changing");
+      docEl.setAttribute("data-theme", theme);
+      docEl.style.colorScheme = theme;
+      syncBodyThemeClass(theme);
+      updateMetaThemeColor(theme);
+      updateToggleUI(theme);
+      // Sync TradingView embeds
+      setTradingViewTheme(theme);
+
+      // Allow transitions again next frame
+      requestAnimationFrame(function () {
+        setTimeout(function () { docEl.classList.remove("theme-changing"); }, 0);
+      });
+      if (opts && opts.persist) setStoredChoice(theme);
+    }
+
+    function computeTheme() {
+      var choice = getStoredChoice();
+      if (choice === "dark" || choice === "light") return choice;
+      choice = getCookie(cookieName);
+      if (choice === "dark" || choice === "light") return choice;
+      if (mm) return mm.matches ? "dark" : "light";
+      return "light";
+    }
+
+    function hasExplicitChoice() {
+      var choice = getStoredChoice();
+      if (choice === "dark" || choice === "light") return true;
+      choice = getCookie(cookieName);
+      return choice === "dark" || choice === "light";
+    }
+
+    function updateToggleUI(theme) {
+      if (!toggle) return;
+      var isDark = theme === "dark";
+      toggle.setAttribute("aria-pressed", String(isDark));
+      toggle.setAttribute("aria-label", isDark ? "Dark mode enabled" : "Light mode enabled");
+      toggle.setAttribute("data-tooltip", isDark ? "Dark mode" : "Light mode");
+      var label = toggle.querySelector(".label");
+      if (label) label.textContent = isDark ? "Dark Mode" : "Light Mode";
+    }
+
+    function updateMetaThemeColor(theme) {
+      // Keeps mobile address bar readable
+      var lightColor = "#ffffff";
+      var darkColor = "#0b0b0f";
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (!meta) {
+        meta = document.createElement("meta");
+        meta.setAttribute("name", "theme-color");
+        document.head.appendChild(meta);
+      }
+      meta.setAttribute("content", theme === "dark" ? darkColor : lightColor);
+    }
+
+    // Initial paint, using the same storage precedence as the head bootstrap.
+    var initial = computeTheme();
+    applyTheme(initial, { persist: false });
+
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        var next = (docEl.getAttribute("data-theme") === "dark") ? "light" : "dark";
+        applyTheme(next, { persist: true });
+      });
+    }
+
+    // Respect OS changes if the user has NOT explicitly chosen a theme
+    if (mm && mm.addEventListener) {
+      mm.addEventListener("change", function (e) {
+        if (!hasExplicitChoice()) {
+          applyTheme(e.matches ? "dark" : "light", { persist: false });
+        }
+      });
+    }
+
+    // Sync across tabs
+    window.addEventListener("storage", function (e) {
+      if (e.key === storageKey) {
+        var choice = getStoredChoice();
+        if (choice === "dark" || choice === "light") applyTheme(choice, { persist: false });
+        else if (!choice) applyTheme(computeTheme(), { persist: false });
+      }
+    });
+
+    // Optional helper if you want a “System” option somewhere in settings
+    window.resetThemeToSystem = function () {
+      clearStoredChoice();
+      applyTheme(computeTheme(), { persist: false });
+    };
+  })();</script> <footer  id="footer"><div  class="footer-shell"><div class="footer-hero"><div class="footer-brand"><div class="footer-brand__content"> <span class="footer-brand__eyebrow">Independent Crypto Intelligence</span> <a class="footer-brand__logo" href="https://cryptoslate.com/" title="CryptoSlate" aria-label="CryptoSlate home"> <span class="cs-logo" aria-hidden="true"></span> <span>CryptoSlate</span> </a><p class="footer-brand__copy">Clear reporting, sharper market context, and useful data for people navigating crypto without the noise.</p><div class="footer-brand__signals" aria-label="CryptoSlate coverage highlights"> <span>News + markets</span> <span>Macro + policy</span> <span>Data-backed insight</span></div></div><div class="footer-brand__social-wrap"><p class="footer-section-title">Follow CryptoSlate</p><ul class="social"><li><a title="CryptoSlate X" aria-label="CryptoSlate on X" class="x" href="https://x.com/cryptoslate/" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a></li><li><a title="CryptoSlate Google News" aria-label="CryptoSlate on Google News" class="google" href="https://news.google.com/publications/CAAqKggKIiRDQklTRlFnTWFoRUtEMk55ZVhCMGIzTnNZWFJsTG1OdmJTZ0FQAQ" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-google" aria-hidden="true"></i></a></li><li><a title="CryptoSlate Newsletter" aria-label="CryptoSlate newsletter on Substack" class="substack" href="https://cryptoslate.substack.com" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-light fa-envelope" aria-hidden="true"></i></a></li><li><a title="CryptoSlate Telegram" aria-label="CryptoSlate on Telegram" class="telegram" href="https://t.me/cryptoslatenews/" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a></li><li><a title="CryptoSlate LinkedIn" aria-label="CryptoSlate on LinkedIn" class="linkedin" href="https://www.linkedin.com/company/cryptoslate/" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li><li><a title="CryptoSlate Instagram" aria-label="CryptoSlate on Instagram" class="instagram" href="https://instagram.com/cryptoslate/" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li><li><a title="CryptoSlate RSS" aria-label="CryptoSlate RSS feed" class="rss" href="https://cryptoslate.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fa-light fa-rss" aria-hidden="true"></i></a></li></ul></div></div><div class="footer-newsletter"><div class="newsletter"><div class="form-content"> <span class="footer-newsletter__eyebrow">CryptoSlate Newsletter</span><p class="footer-newsletter__title">Daily signals. Zero noise.</p><p class="footer-newsletter__copy">Get market-moving headlines, on-chain insights, and editor picks delivered in one tight read.</p><div class="footer-newsletter__highlights" aria-label="Newsletter highlights"> <span><i class="fa-light fa-bolt" aria-hidden="true"></i> 5-minute digest</span> <span><i class="fa-light fa-sparkles" aria-hidden="true"></i> Weekly deep dives</span> <span><i class="fa-light fa-chart-line-up" aria-hidden="true"></i> Macro + on-chain</span></div> <span class="subs"><i class="fa-light fa-users" aria-hidden="true"></i> Join 100,000+ subscribers</span></div><form class="footer-form" method="post" novalidate> <input type="email" value="" name="email" class="email" placeholder="Your email address" required> <input type="submit" value="Subscribe" name="subscribe" class="button"></form><form id="cs-newsletter-hiddenform" action="https://cryptoslate.substack.com/api/v1/free?nojs=true" method="post" class="form cs-newsletter-hiddenform" novalidate="" style="display: none;"> <input type="hidden" name="first_url" value="https://cryptoslate.substack.com/embed"> <input type="hidden" name="first_referrer" value="https://cryptoslate.com/"> <input type="hidden" name="current_url" value="https://cryptoslate.substack.com/embed"> <input type="hidden" name="current_referrer" value="https://cryptoslate.com/"> <input type="hidden" name="referral_code"> <input type="hidden" name="source" value="embed"> <input type="hidden" name="referring_pub_id"> <input type="hidden" name="additional_referring_pub_ids"><div class="sideBySideWrap"> <input type="email" name="email" placeholder="Enter your email…"> <button class="button rightButton primary subscribe-btn" type="submit" tabindex="0"> <b class="button-text">Subscribe</b> </button></div><div id="error-container"></div><div class="subtle-help-text below-input"></div></form><p class="privacy-notice">We respect your privacy and will never share your email address.</p><div class="footer-form-success" style="display: none;" role="status" aria-live="polite" aria-atomic="true"><div class="message"><div class="footer-newsletter__success-layout"> <span class="footer-newsletter__success-icon" aria-hidden="true"> <i class="fa-light fa-circle-check"></i> </span><div class="footer-newsletter__success-copy"><p class="footer-newsletter__success-title">Subscription confirmed</p><p class="footer-newsletter__success-lead">Daily signals, editor picks, and market context are on the way.</p></div></div><div class="footer-newsletter__success-whitelist"><div class="footer-newsletter__success-whitelist-meta"> <span class="footer-newsletter__success-label">Whitelist</span> <strong class="footer-newsletter__success-email">newsletter@cryptoslate.com</strong></div> <span class="footer-newsletter__success-detail">Add this sender so each issue lands in your inbox.</span></div><p class="footer-newsletter__success-footnote">You may unsubscribe at any time.</p></div></div></div></div></div><div class="footer-nav-grid"><div class="footer-nav-column footer-nav-column--markets"><div class="footer-nav-pair footer-nav-pair--markets"><div class="section"><header class="footer-section-title">Market Views</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/coins/"><span class="footer-term-label">Coin Rankings</span></a></li><li><a href="https://cryptoslate.com/biggest-gainers/"><span class="footer-term-label">Biggest Gainers</span></a></li><li><a href="https://cryptoslate.com/biggest-losers/"><span class="footer-term-label">Biggest Losers</span></a></li><li><a href="https://cryptoslate.com/recently-added-coins/"><span class="footer-term-label">New Cryptos</span></a></li></ul></div><div class="section"><header class="footer-section-title">Prices</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/coins/bitcoin/"><span class="footer-term-label">Bitcoin price</span></a></li><li><a href="https://cryptoslate.com/coins/ethereum/"><span class="footer-term-label">Ethereum price</span></a></li><li><a href="https://cryptoslate.com/coins/xrp/"><span class="footer-term-label">XRP price</span></a></li><li><a href="https://cryptoslate.com/coins/solana/"><span class="footer-term-label">Solana price</span></a></li></ul></div></div></div><div class="footer-nav-column footer-nav-column--news"><div class="footer-nav-pair footer-nav-pair--news"><div class="section"><header class="footer-section-title">Crypto News</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/news/bitcoin/"><span class="footer-term-label">Bitcoin news</span></a></li><li><a href="https://cryptoslate.com/news/ethereum/"><span class="footer-term-label">Ethereum news</span></a></li><li><a href="https://cryptoslate.com/news/xrp/"><span class="footer-term-label">XRP news</span></a></li><li><a href="https://cryptoslate.com/news/solana/"><span class="footer-term-label">Solana news</span></a></li></ul></div><div class="section"><header class="footer-section-title">More</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/predictions/"><span class="footer-term-label">Predictions</span></a></li><li><a href="https://cryptoslate.com/guides/"><span class="footer-term-label">Guides</span></a></li><li><a href="https://cryptoslate.com/crypto-laws/"><span class="footer-term-label">Laws</span></a></li><li><a href="https://cryptoslate.com/glossary/"><span class="footer-term-label">Glossary</span></a></li></ul></div></div></div><div class="footer-nav-column footer-nav-column--explore"><div class="footer-nav-pair footer-nav-pair--explore"><div class="section"><header class="footer-section-title">Reviews</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/crypto-exchanges/"><span class="footer-term-label">Crypto Exchanges</span></a></li><li><a href="https://cryptoslate.com/crypto-wallets/"><span class="footer-term-label">Crypto Wallets</span></a></li><li><a href="https://cryptoslate.com/prediction-markets/"><span class="footer-term-label">Prediction Markets</span></a></li><li><a href="https://cryptoslate.com/crypto-casinos/"><span class="footer-term-label">Crypto Casinos</span></a></li></ul></div><div class="section"><header class="footer-section-title">Directory</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/directory/"><span class="footer-term-label">Directory</span></a></li><li><a href="https://cryptoslate.com/companies/"><span class="footer-term-label">Companies</span></a></li><li><a href="https://cryptoslate.com/products/"><span class="footer-term-label">Products</span></a></li><li><a href="https://cryptoslate.com/people/"><span class="footer-term-label">People</span></a></li></ul></div></div></div><div class="footer-nav-column footer-nav-column--more"><div class="footer-nav-pair footer-nav-pair--more"><div class="section"><header class="footer-section-title">Company</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/about/"><span class="footer-term-label">About Us</span></a></li><li><a href="https://cryptoslate.com/media-kit/"><span class="footer-term-label">Media Kit</span></a></li><li><a href="https://cryptoslate.com/updates/"><span class="footer-term-label">Updates</span></a></li><li><a href="https://cryptoslate.com/why-trust-cryptoslate/"><span class="footer-term-label">Why Trust CryptoSlate</span></a></li></ul></div><div class="section"><header class="footer-section-title">Help &amp; Legal</header><ul class="menu-list footer-term-list"><li><a href="https://cryptoslate.com/contact/"><span class="footer-term-label">Help &amp; Support</span></a></li><li><a href="https://cryptoslate.com/faq/"><span class="footer-term-label">FAQ</span></a></li><li><a href="https://cryptoslate.com/careers/"><span class="footer-term-label">Careers</span></a></li><li><a href="https://cryptoslate.com/disclaimers/"><span class="footer-term-label">Disclaimers</span></a></li></ul></div></div></div></div><div class="footer-legal"><p> <strong>Disclaimer:</strong> By using this website, you agree to our <a href="https://cryptoslate.com/terms-and-conditions/" title="Terms and Conditions">Terms and Conditions</a> and <a href="https://cryptoslate.com/privacy-policy/" title="Privacy Policy">Privacy Policy</a>. CryptoSlate has no affiliation or relationship with any company or project unless explicitly stated otherwise. CryptoSlate is an informational website that provides news about coins, companies and products. None of the information you read on CryptoSlate should be taken as investment advice. Buying and trading cryptocurrencies should be considered a high-risk activity. Please do your own diligence before making any investment decisions. CryptoSlate is not accountable, directly or indirectly, for any damage or loss incurred, alleged or otherwise, in connection to the use of or reliance on any content you read on the site.</p></div><div class="footer-copyright"><p>&copy; 2026 CryptoSlate. All rights reserved. <a href="https://cryptoslate.com/terms-and-conditions/">Terms &amp; Conditions</a> <span aria-hidden="true">|</span> <a href="https://cryptoslate.com/privacy-policy/">Privacy Policy</a> <span aria-hidden="true">|</span> <a href="https://cryptoslate.com/privacy-policy/#cookie-settings" class="cryptoslate-privacy-choices-link" data-crypto-consent-open>Cookie Settings</a></p></div></div></footer></div> <script defer src="https://cryptoslate.com/wp-content/cache/autoptimize/js/autoptimize_f921f8474a7dee532f872f8eee5ddbba.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"106d5ba8fd8f4638b72a1509f310abe6","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body></html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

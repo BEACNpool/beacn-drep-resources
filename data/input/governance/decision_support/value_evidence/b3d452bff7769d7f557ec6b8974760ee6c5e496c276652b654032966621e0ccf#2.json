@@ -1,0 +1,278 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "a096e4a74eeede2a1e17b21b32241821d99ded97ac456af3813afd6a098779e3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-a31eae6166.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/securing-your-stake-pool-using-a-hardware-wallet"
+        },
+        {
+          "sha256": "ec8c1ffa875ddfb3571febf6e6e511f8558d56dedeb8f0d46379b7ba18b1c063",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-2bf7498647.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "ee4c7ec91fbf7ae55da5b71832afa3eb1e7056392a454c73b39fe3f690dac2e2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-c75a32829a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e&select=proposal_index,proposal_type,meta_json,withdrawal"
+        },
+        {
+          "sha256": "ab8f57100eced7a173fd3790516ce75f35fed0f25d07d9c070aa7cb2cfcbae4e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-0c5edbb34d.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf&select=proposal_index,meta_json,withdrawal"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "41b1c328892c0d46fba23bebce085ed4cebfffec304a35067fb55c73e7c07125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8986fe8069.snap",
+          "url": "https://github.com/vacuumlabs/cardano-hw-cli/releases"
+        },
+        {
+          "sha256": "5529381226cfba6c224206e4400929289b69b4c0fe3771b5c7d08d4b0f230837",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-projectcatalyst-io-c50cc168ae.snap",
+          "url": "https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        },
+        {
+          "sha256": "a096e4a74eeede2a1e17b21b32241821d99ded97ac456af3813afd6a098779e3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-a31eae6166.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/securing-your-stake-pool-using-a-hardware-wallet"
+        },
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        },
+        {
+          "sha256": "c12842abe95b92110e21dd8e9c3e474e022b31c851888d480543f24e7de0a01d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-144a34a064.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-trezor/package.json"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "41b1c328892c0d46fba23bebce085ed4cebfffec304a35067fb55c73e7c07125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8986fe8069.snap",
+          "url": "https://github.com/vacuumlabs/cardano-hw-cli/releases"
+        },
+        {
+          "sha256": "7f2113f9cbfb6dee6f726d485fe5131108cfca542ef7efb6b718b90347d99f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-2a0f67646c.snap",
+          "url": "https://registry.npmjs.org/@cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "66e10efa7bcfb27ca1f5e9d406a03543cd49b87e68072b12e65aa995f070e74b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-0142914e0b.snap",
+          "url": "https://github.com/vacuumlabs/cardano-hw-cli"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        },
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        },
+        {
+          "sha256": "7f2113f9cbfb6dee6f726d485fe5131108cfca542ef7efb6b718b90347d99f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-2a0f67646c.snap",
+          "url": "https://registry.npmjs.org/@cardano-foundation/ledgerjs-hw-app-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "ab8f57100eced7a173fd3790516ce75f35fed0f25d07d9c070aa7cb2cfcbae4e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-0c5edbb34d.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf&select=proposal_index,meta_json,withdrawal"
+        },
+        {
+          "sha256": "ee4c7ec91fbf7ae55da5b71832afa3eb1e7056392a454c73b39fe3f690dac2e2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-c75a32829a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e&select=proposal_index,proposal_type,meta_json,withdrawal"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "ec8c1ffa875ddfb3571febf6e6e511f8558d56dedeb8f0d46379b7ba18b1c063",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-2bf7498647.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "7f2113f9cbfb6dee6f726d485fe5131108cfca542ef7efb6b718b90347d99f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-2a0f67646c.snap",
+          "url": "https://registry.npmjs.org/@cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        },
+        {
+          "sha256": "a096e4a74eeede2a1e17b21b32241821d99ded97ac456af3813afd6a098779e3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-a31eae6166.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/securing-your-stake-pool-using-a-hardware-wallet"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "41b1c328892c0d46fba23bebce085ed4cebfffec304a35067fb55c73e7c07125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8986fe8069.snap",
+          "url": "https://github.com/vacuumlabs/cardano-hw-cli/releases"
+        },
+        {
+          "sha256": "7f2113f9cbfb6dee6f726d485fe5131108cfca542ef7efb6b718b90347d99f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-registry-npmjs-org-2a0f67646c.snap",
+          "url": "https://registry.npmjs.org/@cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "fa895366ac40a5ee54bfe8b9fdd34900426197b6d62fb13ce3f2a09137ab7822",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-5c2ca12e57.snap",
+          "url": "https://github.com/cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        },
+        {
+          "sha256": "fc23f4b1bf9078e4c777b57b16004fc17c3bae269990ed07c7be79746284a99a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-e65938e185.snap",
+          "url": "https://api.github.com/repos/vacuumlabs/cardano-hw-cli"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "fa895366ac40a5ee54bfe8b9fdd34900426197b6d62fb13ce3f2a09137ab7822",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-5c2ca12e57.snap",
+          "url": "https://github.com/cardano-foundation/ledgerjs-hw-app-cardano"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        },
+        {
+          "sha256": "1192db308d0978a9688aef8db13912640fabd8bbad0af6dd9d9a744f117ceaec",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cd7ba3be04.snap",
+          "url": "https://raw.githubusercontent.com/input-output-hk/cardano-js-sdk/master/packages/hardware-ledger/package.json"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "41b1c328892c0d46fba23bebce085ed4cebfffec304a35067fb55c73e7c07125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8986fe8069.snap",
+          "url": "https://github.com/vacuumlabs/cardano-hw-cli/releases"
+        },
+        {
+          "sha256": "a096e4a74eeede2a1e17b21b32241821d99ded97ac456af3813afd6a098779e3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coincashew-com-a31eae6166.snap",
+          "url": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/securing-your-stake-pool-using-a-hardware-wallet"
+        },
+        {
+          "sha256": "782e40245b81e715280a6947901b1c09972da8301e7e3985af6ad965bee69fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6d22ac3e91.snap",
+          "url": "https://github.com/LedgerHQ/app-cardano"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:49+00:00"
+}

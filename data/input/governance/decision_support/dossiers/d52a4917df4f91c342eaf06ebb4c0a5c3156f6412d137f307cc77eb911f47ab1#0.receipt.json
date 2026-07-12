@@ -5,7 +5,7 @@
     "expires_after_epoch": "643",
     "metadata_title": "Reimburse Ikigai Info Governance Action Deposit.",
     "proposed_epoch": "636",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "103000000000"
   },
   "anchor": {
     "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
@@ -18,50 +18,33 @@
     "reason": null
   },
   "anchor_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
-  "backend": "codex",
+  "backend": "claude",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:46:55+00:00",
-  "model": "gpt-5.5",
-  "onchain_context": "onchain DRep vote counts so far: yes=132 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "84979d4ee78d06e28bf4777b688dc4c7044182404b15b2b510a3157fde6efc98",
-  "prompt_sha256": "0dddc873af7f692f4b0d7c1bbc0ff0d57d3ed74ae34093d82f3671e5361320fc",
-  "review_status": "verification_failed",
-  "treasury_doctrine_version": "1.3.0",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-12T15:42:43+00:00",
+  "model": "claude-cli",
+  "onchain_context": "onchain DRep vote counts so far: yes=147 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "b895b312bb75d361a5978ead773efb1137ff99a6505134644cd467046675c126",
+  "prompt_sha256": "189e07dad769f423f86224a97b7eae7b58b6c03369361df1785627d1717d4804",
+  "review_status": "gate_failed",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "claude",
-    "contradicted": 0,
-    "fact_count": 24,
-    "fact_verdicts": [],
-    "filtered_legacy_snapshot_items": [],
+    "backend": "codex",
     "gates": {
       "anchor_sha256_matches_draft": true,
       "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
       "financial_and_risk_rows_present": true,
-      "sections_grounded_7of7": true
+      "sections_grounded_7of7": false
     },
-    "material_discrepancies": [],
-    "model": "claude-cli",
-    "not_found": 0,
-    "output_sha256": "6738de96917e0977552e09f03acc882b24e613c1ecfef70d922e5c3ba437bbfc",
-    "passed": false,
-    "prompt_sha256": "a18dfaf9ae2c01e63bacf50f51c27daabae41cfa5ab3211e39f2240c28673961",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 24
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "model": "gpt-5.5",
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:25:25+00:00"
+    "verified_at_utc": "2026-07-12T15:45:57+00:00"
   }
 }

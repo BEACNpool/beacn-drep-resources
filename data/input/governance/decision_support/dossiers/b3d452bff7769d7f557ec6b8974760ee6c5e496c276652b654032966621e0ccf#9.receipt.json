@@ -29,13 +29,134 @@
   "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=54 no=9 abstain=5 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
   "output_sha256": "bbe84305467707b1e1bf62953db429e2c212a26874541b19fc3b36477f5b66bd",
   "prompt_sha256": "2153942e703dccb57804767adc775f5a29036c60dd58babe7f5dc930152844f4",
-  "review_status": "verification_failed",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.3.0",
   "verification": {
     "backend": "claude",
     "contradicted": 0,
     "fact_count": 24,
-    "fact_verdicts": [],
+    "fact_verdicts": [
+      {
+        "fact": 1,
+        "note": "Action id b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9, type TreasuryWithdrawals, proposed epoch 638, expires after 645 all match the on-chain action header.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 2,
+        "note": "body.title matches verbatim, including the truncated '...dApp P...'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 3,
+        "note": "body.abstract states submission by Intersect on behalf of the vendor and that Abstract/Motivation/Rationale were sourced from the approved vendor proposal.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 4,
+        "note": "body.motivation: 'requests 1,308,000 ADA (plus a 327,000 ADA contingency reserve) over 12 months'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 5,
+        "note": "Budget Summary table: 1,635,000 + 49,050 = 1,684,050 ADA, exactly as stated.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 6,
+        "note": "onChain.gov_action.rewards has key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value 1684050000000.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 7,
+        "note": "Motivation describes an open, standardized interface producing documentation, auto-generated SDKs in multiple languages, and live JSON-RPC endpoints.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 8,
+        "note": "Motivation: 'Through Catalyst Fund 14, TxPipe has already put the developer layer into production with 5 protocols live on the Tx3 Protocol Registry'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 9,
+        "note": "Motivation: 'funds 12 additional onboardings (3 per quarter)' plus 'development of the MCP server and skill framework'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 10,
+        "note": "Pillar 2 section names Strike Finance, Indigo Protocol, VyFinance, Bodega Market, and Fluid Tokens.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 11,
+        "note": "Rationale: 'achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 12,
+        "note": "NCL Compliance section states this nearly verbatim, including 350M NCL covering Epoch 613 to Epoch 713.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 13,
+        "note": "Audit & Oversight: audit/oversight costs included within overhead; Intersect administration fee covers administrative oversight.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 14,
+        "note": "Audit & Oversight states independent oversight through Intersect and technically capable third-party, with reporting obligations and milestone-based disbursement controls.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 15,
+        "note": "Prior Treasury Funding Disclosure: 30 Catalyst proposals across Funds 9\u201314, 26 delivered, 4 under development and on schedule.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 16,
+        "note": "Disclosure names Pallas, Dolos, and UTxO RPC under Intersect's 2025 budget cycle, all being delivered on schedule.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 17,
+        "note": "Intersect Budget Management Tooling lists the 2026 TRSC stake address matching stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 18,
+        "note": "On-chain context: 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52 \u2014 exact match.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 19,
+        "note": "On-chain context: yes=54 no=9 abstain=5, explicitly noted as explicit ballots, not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 20,
+        "note": "Treasury flow (36 epochs): inflow 158838297854652, enacted withdrawals 361435336000000, ratio 2.275492 \u2014 all match.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 21,
+        "note": "values_hierarchy.md ranks treasury stewardship/downside protection (2) above evidence quality (3) and public-benefit ecosystem growth (4).",
+        "verdict": "supported"
+      },
+      {
+        "fact": 22,
+        "note": "Conflict handling defaults: growth vs. stewardship with weak evidence \u2192 prefer ABSTAIN.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 23,
+        "note": "Core Position: rejects FCFS models and adopts a rolling-window Net Change Limit framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 24,
+        "note": "Foundational Axiom: 'Requested \u20b3 per deliverable should decrease', and budgets for AI-accelerable work should reflect post-AI costs \u2014 fair paraphrase of the stated axiom.",
+        "verdict": "supported"
+      }
+    ],
     "filtered_legacy_snapshot_items": [],
     "gates": {
       "anchor_sha256_matches_draft": true,
@@ -47,21 +168,17 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "1fd4f46ba21867fa0403f88e397c9e74ba35a96b8f181855bfd956cea52de861",
-    "passed": false,
-    "prompt_sha256": "41f206384f9e83d1ec0b2aef24f89189a5cc2def0b5a30089e33470212658d00",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 24
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "output_sha256": "fe3d8a071577f89bdcddc643010b21f907da1669a0fb8513874d526a84bc5fba",
+    "passed": true,
+    "prompt_sha256": "c079c2b06a4ad532363bf74d1250cfe7902d266023a5d24cd9a44a109cb4239e",
+    "summary": "All 24 dossier facts are supported by the source material. On-chain header fields, the recipient stake address and lovelace amount, budget figures (1,308,000 + 327,000 contingency; 1,635,000 + 49,050 = 1,684,050), the 67% Hydra Voting threshold, the 350M NCL window (epochs 613\u2013713), the Catalyst track record (30 proposals, 26 delivered, 4 in progress), the on-chain context figures, and the doctrine claims all match exactly. No contradicted or not_found facts, and no invented specifics were detected.",
+    "support_ratio": 1.0,
+    "supported": 24,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:16:04+00:00"
+    "verdicts_returned": 24,
+    "verified_at_utc": "2026-07-12T14:48:04+00:00"
   }
 }

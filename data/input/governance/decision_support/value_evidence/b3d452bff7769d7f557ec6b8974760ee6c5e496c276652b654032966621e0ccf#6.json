@@ -1,0 +1,216 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
+  "confidence": 0.72,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "f3170fa1d2ea6dfb15f56a067e8c3b9950f6c7e0d2f4fb685f7f33a3c755aeb6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-50258158b3.snap",
+          "url": "https://github.com/geniusyield/dex-contracts-api"
+        },
+        {
+          "sha256": "5b307a4aad6c905d788957c4ace84ec506d92df7bd0c6c05be69be959b60efee",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-589a04fae5.snap",
+          "url": "https://github.com/input-output-hk/catalyst-onchain-libs"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "f2a10ac4de975782f97c4a980d604cbe5fd1572322261add63f8b1da9ac7e29e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-45b078a27f.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e&proposal_index=eq.13"
+        },
+        {
+          "sha256": "7e4b5fb9202c45eadea871e68ddc2306c0fe4cbdddd5e431c3002b78047c5fc9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-coingecko-com-99365d3bea.snap",
+          "url": "https://api.coingecko.com/api/v3/coins/cardano/history?date=16-08-2025"
+        },
+        {
+          "sha256": "9b587674fcfa7e5932cba580fa8a45dc10acb3dbd4eb0c58bef151e824ae3d7d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-coingecko-com-bfd46f4a30.snap",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd"
+        }
+      ],
+      "value": "yes"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "e7e2df4ffdb7ce15c94bd786e5f07a0bf36ac2feb4de8fdaa5f73b7db83f763c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-f96dc020e6.snap",
+          "url": "https://github.com/Plutonomicon/plutarch-plutus/commits/master"
+        },
+        {
+          "sha256": "a9bba160099749a7f42beb561d9062bf493f4c829e54e1d592313f12d4b71bac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-80b842041e.snap",
+          "url": "https://github.com/mlabs-haskell/ply"
+        },
+        {
+          "sha256": "f2a10ac4de975782f97c4a980d604cbe5fd1572322261add63f8b1da9ac7e29e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-45b078a27f.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e&proposal_index=eq.13"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "a273d26a01e5c52eed98be3f8b6d8904721a27e0b46e37498fe2db8f0623fa02",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-e6aaeb6d2f.snap",
+          "url": "https://docs.cardano.org/developer-resources/smart-contracts/plutus"
+        },
+        {
+          "sha256": "1afd692d9bda78c009f6d1906b67f5a48f9bddd64fd2a1f91018a8084f2977d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-aiken-lang-org-23a3661d77.snap",
+          "url": "https://aiken-lang.org/ecosystem-overview"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "5b307a4aad6c905d788957c4ace84ec506d92df7bd0c6c05be69be959b60efee",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-589a04fae5.snap",
+          "url": "https://github.com/input-output-hk/catalyst-onchain-libs"
+        },
+        {
+          "sha256": "f3170fa1d2ea6dfb15f56a067e8c3b9950f6c7e0d2f4fb685f7f33a3c755aeb6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-50258158b3.snap",
+          "url": "https://github.com/geniusyield/dex-contracts-api"
+        },
+        {
+          "sha256": "ff20ac77b1b5b56aa595f0e866f01c5b3aa5a5cae8e0fd08bba9d122d83ab7d6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-58a57ca071.snap",
+          "url": "https://github.com/Anastasia-Labs/midgard"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "e7e2df4ffdb7ce15c94bd786e5f07a0bf36ac2feb4de8fdaa5f73b7db83f763c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-f96dc020e6.snap",
+          "url": "https://github.com/Plutonomicon/plutarch-plutus/commits/master"
+        },
+        {
+          "sha256": "a9bba160099749a7f42beb561d9062bf493f4c829e54e1d592313f12d4b71bac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-80b842041e.snap",
+          "url": "https://github.com/mlabs-haskell/ply"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "1afd692d9bda78c009f6d1906b67f5a48f9bddd64fd2a1f91018a8084f2977d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-aiken-lang-org-23a3661d77.snap",
+          "url": "https://aiken-lang.org/ecosystem-overview"
+        },
+        {
+          "sha256": "a273d26a01e5c52eed98be3f8b6d8904721a27e0b46e37498fe2db8f0623fa02",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-cardano-org-e6aaeb6d2f.snap",
+          "url": "https://docs.cardano.org/developer-resources/smart-contracts/plutus"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "1afd692d9bda78c009f6d1906b67f5a48f9bddd64fd2a1f91018a8084f2977d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-aiken-lang-org-23a3661d77.snap",
+          "url": "https://aiken-lang.org/ecosystem-overview"
+        },
+        {
+          "sha256": "5b307a4aad6c905d788957c4ace84ec506d92df7bd0c6c05be69be959b60efee",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-589a04fae5.snap",
+          "url": "https://github.com/input-output-hk/catalyst-onchain-libs"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "5b307a4aad6c905d788957c4ace84ec506d92df7bd0c6c05be69be959b60efee",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-589a04fae5.snap",
+          "url": "https://github.com/input-output-hk/catalyst-onchain-libs"
+        },
+        {
+          "sha256": "f3170fa1d2ea6dfb15f56a067e8c3b9950f6c7e0d2f4fb685f7f33a3c755aeb6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-50258158b3.snap",
+          "url": "https://github.com/geniusyield/dex-contracts-api"
+        },
+        {
+          "sha256": "ff20ac77b1b5b56aa595f0e866f01c5b3aa5a5cae8e0fd08bba9d122d83ab7d6",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-58a57ca071.snap",
+          "url": "https://github.com/Anastasia-Labs/midgard"
+        },
+        {
+          "sha256": "1afd692d9bda78c009f6d1906b67f5a48f9bddd64fd2a1f91018a8084f2977d0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-aiken-lang-org-23a3661d77.snap",
+          "url": "https://aiken-lang.org/ecosystem-overview"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "6947f8137ff4e46c9d32fd7084b42107fd41423cd66af2f9f5e9c25a5d371d61",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-df5c9fc227.snap",
+          "url": "https://github.com/Plutonomicon/plutarch-plutus"
+        },
+        {
+          "sha256": "a9bba160099749a7f42beb561d9062bf493f4c829e54e1d592313f12d4b71bac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-80b842041e.snap",
+          "url": "https://github.com/mlabs-haskell/ply"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "6947f8137ff4e46c9d32fd7084b42107fd41423cd66af2f9f5e9c25a5d371d61",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-df5c9fc227.snap",
+          "url": "https://github.com/Plutonomicon/plutarch-plutus"
+        },
+        {
+          "sha256": "a9bba160099749a7f42beb561d9062bf493f4c829e54e1d592313f12d4b71bac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-80b842041e.snap",
+          "url": "https://github.com/mlabs-haskell/ply"
+        },
+        {
+          "sha256": "5b307a4aad6c905d788957c4ace84ec506d92df7bd0c6c05be69be959b60efee",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-589a04fae5.snap",
+          "url": "https://github.com/input-output-hk/catalyst-onchain-libs"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:10+00:00"
+}

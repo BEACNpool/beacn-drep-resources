@@ -1,0 +1,159 @@
+{
+  "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
+  "confidence": 0.72,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "8ea32a757ff3a65feffacbe444c99e23c77d0d3cf701371697dd2ac2aa7d67a9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-f239b39a65.snap",
+          "url": "https://github.com/input-output-hk/daedalus/releases"
+        },
+        {
+          "sha256": "ad418e7c8188a41260e2aae8af8acb9b2f01b54d6e8702a4133deb131de0fb8a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-3933ec75c0.snap",
+          "url": "https://github.com/input-output-hk/daedalus"
+        },
+        {
+          "sha256": "65db64cf7238a162b22de0b24ce000aeac59c4baafc9ba8177676c2d642af5e3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-0b44d356e6.snap",
+          "url": "https://github.com/se7en-labs-inc"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        },
+        {
+          "sha256": "8ea32a757ff3a65feffacbe444c99e23c77d0d3cf701371697dd2ac2aa7d67a9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-f239b39a65.snap",
+          "url": "https://github.com/input-output-hk/daedalus/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "8ea32a757ff3a65feffacbe444c99e23c77d0d3cf701371697dd2ac2aa7d67a9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-f239b39a65.snap",
+          "url": "https://github.com/input-output-hk/daedalus/releases"
+        },
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        },
+        {
+          "sha256": "43f3dd6d74a81fdda3e501f80638eb1e13871c66414ed6d9cc65c078b5e711c1",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-www-lace-io-d495cee9df.snap",
+          "url": "https://www.lace.io/"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "c677996ed6cf4d6f6ef6520a4ad55fb032717ab9e1e1c4c0f9cd3e61f6e038d3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-fca01bb928.snap",
+          "url": "https://cardano.org/apps/"
+        },
+        {
+          "sha256": "741f3a1a66ecfcde022d32c58808698a7c15dec753bbb18ce3e8723883812ad0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-www-cardanocube-com-30c15d07f1.snap",
+          "url": "https://www.cardanocube.com/governance/gov_actions"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "fc5ffaf2fc243c63283af26d1f111270542ac95be024de1a7bca63ba0c25dce5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-c03d338ed2.snap",
+          "url": "https://github.com/input-output-hk/daedalus/issues"
+        },
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "ad418e7c8188a41260e2aae8af8acb9b2f01b54d6e8702a4133deb131de0fb8a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-3933ec75c0.snap",
+          "url": "https://github.com/input-output-hk/daedalus"
+        },
+        {
+          "sha256": "8dd4daf8169757bcd34b9b923e2d6966c40d608a555dbce47eab8fb9a40bb99e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-cardano-org-1099ec8df6.snap",
+          "url": "https://cardano.org/apps/daedalus/"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "ad418e7c8188a41260e2aae8af8acb9b2f01b54d6e8702a4133deb131de0fb8a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-github-com-3933ec75c0.snap",
+          "url": "https://github.com/input-output-hk/daedalus"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:42+00:00"
+}

@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang=en prefix="og:http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=color-scheme value="light dark">
+<title>Pallas — unregulated finances, in Rust // Lib.rs</title>
+<meta name="twitter:title" content="Pallas — unregulated finances, in Rust">
+<meta property="og:title" content="pallas">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9B4kDNxMZdWfMOD5VnLK3eRhf6Xl7Glw.woff2">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9B4kDNxMZdWfMOD5VnPKreRhf6Xl7Glw.woff2">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9E4kDNxMZdWfMOD5Vvl4jLazX3dA.woff2">
+<link crossorigin=anonymous rel=preload as=style href="/index.css">
+<link crossorigin=anonymous rel=preconnect href="//img.gs">
+<style>@font-face {font-family:Fira Sans;font-style:normal;font-weight:700;src:local(Fira Sans Bold),local(FiraSans-Bold),url(/fira/va9B4kDNxMZdWfMOD5VnLK3eRhf6Xl7Glw.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face {font-family:Fira Sans;font-style:normal;font-weight:300;src:local(Fira Sans Light),local(FiraSans-Light),url(/fira/va9B4kDNxMZdWfMOD5VnPKreRhf6Xl7Glw.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:optional}@font-face {font-family:Fira Sans;font-style:normal;font-weight:400;src:local(Fira Sans Regular),local(FiraSans-Regular),local(Fira Sans ot),url(/fira/va9E4kDNxMZdWfMOD5Vvl4jLazX3dA.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:fallback}html,body{background:var(--background-color);color:var(--text-color);margin:0;padding:0;font-family:fira sans ot,fira sans,trebuchet ms,roboto,sans-serif;line-height:1.6}h1,h2,h3,h4,h5{font-family:fira sans ot,fira sans,ubuntu,roboto,-apple-system,trebuchet ms,sans-serif}#package h2,#package .desc{font-family:fira sans ot,fira sans,ubuntu,roboto,-apple-system,helvetica,sans-serif}header{padding:1em 0 0}.inner-col{box-sizing:border-box;max-width:60em;margin:0 auto;padding:0 1em}@media (prefers-color-scheme:dark){img[src$=\#gh-light-mode-only],a[href$=\#gh-light-mode-only]{display:none}}@media (prefers-color-scheme:light){img[src$=\#gh-dark-mode-only],a[href$=\#gh-dark-mode-only]{display:none}}</style>
+<link crossorigin=anonymous rel=stylesheet href="/index.css">
+<meta property="og:image" content="https://lib.rs/og/c/pallas.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="627">
+<meta name="twitter:image" content="https://lib.rs/og/tc/pallas.png">
+<meta name="twitter:card" content="summary_large_image">
+<link crossorigin=anonymous rel=apple-touch-icon href="/crates-logo.png" type=image/png sizes=256x256>
+<link crossorigin=anonymous rel=icon href="/favicon.png" type=image/png sizes=32x32 media="(prefers-color-scheme: light)">
+<link crossorigin=anonymous rel=icon href="/favicon-dark.png" type=image/png sizes=32x32 media="(prefers-color-scheme: dark)">
+<link crossorigin=anonymous rel=icon href="/crates-logo.png" type=image/png sizes=256x256>
+<link crossorigin=anonymous rel=icon href="/favicon.png" type=image/png sizes=32x32>
+<link crossorigin=anonymous rel=mask-icon href="/logo.svg">
+<meta name=theme-color content="#aaaaaa">
+<meta name=theme-color content="#353746" media="(prefers-color-scheme: dark)">
+<meta property="og:url" content="https://lib.rs/crates/pallas">
+<meta rel=canonical content="https://lib.rs/crates/pallas">
+<link rel=alternate href="https://crates.io/crates/pallas">
+<link rel="og:see_also" href="https://crates.io/crates/pallas">
+<meta property="og:description" content="Rust-native building blocks for the Cardano blockchain ecosystem">
+<meta name=description content="Rust-native building blocks for the Cardano blockchain ecosystem | Rust/Cargo package">
+<meta name=keywords content="blockchain, building-block, cardano, rust-native">
+<meta name="date.created" content="2026-06-19">
+<meta name="article:published_time" content="2026-06-19">
+<meta property="og:type" content=website>
+<meta name="article:author" content="Santiago Carmuega">
+<meta property="og:determiner" content>
+<meta property="og:site_name" content="Lib.rs">
+<meta property="og:article:section" content="cryptography::cryptocurrencies">
+<meta property="og:article:tag" content="cryptography::cryptocurrencies">
+<body vocab="http://schema.org/">
+<div typeof="SoftwareApplication">
+<header id="package">
+<div class="inner-col">
+<aside class="search-link"><a href="/#search_q" accesskey=s title=Search><svg width="16" height="16" viewBox="0 0 100 100"><title>Search</title><circle cx="45" cy="45" r="30" stroke="black" stroke-width="10" fill="none"/><line x1="64" y1="64" x2="95" y2="95" stroke="black" stroke-width="15"/></svg></a></aside>
+<div class="breadcrumbs" typeof="BreadcrumbList">
+<h1>
+<span property="itemListElement" typeof="ListItem"><a accesskey="s" property="item" typeof="WebPage" href="/"><span property="name">Lib</span>.rs</a><meta property="position" content="1"></span>
+</h1>
+›
+<span class="categories has-keywords" role="navigation" aria-label="Categories">
+<span property="itemListElement" typeof="ListItem"><a href="/cryptography" title="Algorithms intended for securing data." property="item" typeof="WebPage"><span property="name">Cryptography</span></a><meta property="position" content="2"></span>
+›
+<span property="itemListElement" typeof="ListItem"><a href="/cryptography/cryptocurrencies" title="Beware of fraud and lies of cryptocurrencies." property="item" typeof="WebPage"><span property="name">Magic Beans</span></a><meta property="position" content="3"></span>
+</span>
+</div>
+<span class="keywords">
+<span>
+<a property="applicationCategory" href="/keywords/blockchain" class=keyword><span>#</span>blockchain</a>
+<a property="applicationCategory" href="/keywords/building-block" class=keyword><span>#</span>building-block</a>
+<a property="applicationCategory" href="/keywords/cardano" class=keyword><span>#</span>cardano</a>
+</span>
+<a property="applicationCategory" href="/keywords/rust-native" class=keyword><span>#</span>rust-native</a>
+</span>
+<h2>
+<span class="labels">
+</span>
+<span property="name">
+pallas</span></h2>
+<p class=desc>Rust-native building blocks for the Cardano blockchain ecosystem</p>
+<p class=byline>
+by
+<a href="/~scarmuega" class="owner" title="owner: scarmuega" property="author" typeof="Person"><span property="name">Santiago Carmuega</span></a>
+<span class=contributors>and
+<a href="https://github.com/txpipe/pallas/graphs/contributors">64 contributors</a>
+</span>
+</p>
+<nav><ul>
+<li><a href="/install/pallas" class="button">Install</a></li>
+<li><a href="https://docs.rs/pallas">API reference</a></li>
+<li><span><a href="https://github.com/txpipe/pallas" property="url">GitHub repo</a>
+(<a href="https://github.com/txpipe/pallas/tree/7ffae5ccc445cd8b074a0fd62e111873105750a5/pallas">txpipe</a>)</span>
+</li>
+</ul></nav>
+</div>
+</header>
+<main>
+<div class="inner-col">
+<section id="readme-deps">
+<div>
+<section class="about-crate">
+<section id="versions">
+<h3>
+<a href="/crates/pallas/versions">100 releases</a>
+<span>(3 stable)</span>
+</h3>
+<p class="edition-2018">Uses new Rust 2024</p>
+<table>
+<tr><th content="1.1.1" property="softwareVersion">
+1.1.1
+</th><td property="datePublished" class="date">
+Jun 19, 2026
+</td></tr>
+<tr><th content="1.0.0">
+1.0.0
+</th><td class="date">
+May 11, 2026
+</td></tr>
+<tr><th content="1.0.0-alpha.6">
+1.0.0-alpha.6
+</th><td class="date">
+Mar 30, 2026
+</td></tr>
+<tr><th content="1.0.0-alpha.3">
+1.0.0-alpha.3
+</th><td class="date">
+Nov 18, 2025
+</td></tr>
+<tr><th content="0.3.4">
+0.3.4
+</th><td class="date">
+Dec 19, 2021
+</td></tr>
+</table>
+</section>
+<section id="downloads">
+<p class="top-n">#<b>4</b> in <a href="/keywords/cardano">#cardano</a></p>
+<svg viewBox="0 0 182 56" width=182 height=56>
+<title>Download history</title>
+<line x1=1 x2="181" y1=8.857143 y2=8.857143 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<line x1=1 x2="181" y1=16.714287 y2=16.714287 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<line x1=1 x2="181" y1=24.571428 y2=24.571428 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<line x1=1 x2="181" y1=32.428574 y2=32.428574 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<line x1=1 x2="181" y1=40.285713 y2=40.285713 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<line x1=1 x2="181" y1=48.142857 y2=48.142857 stroke="black" stroke-width=0.61538464 stroke-linecap="butt" stroke-opacity=0.3 />
+<rect x=0 y=33 width=11 height=24 fill="#a0b6e0" fill-opacity="0.95"><title>2043/week @ 2026-03-22</title></rect>
+<rect x=11 y=23 width=12 height=34 fill="#9db7dc" fill-opacity="0.95"><title>2913/week @ 2026-03-29</title></rect>
+<rect x=23 y=27 width=11 height=30 fill="#9ab5df" fill-opacity="0.95"><title>2569/week @ 2026-04-05</title></rect>
+<rect x=34 y=24 width=12 height=33 fill="#97b4df" fill-opacity="0.95"><title>2806/week @ 2026-04-12</title></rect>
+<rect x=46 y=27 width=11 height=30 fill="#94b2e1" fill-opacity="0.95"><title>2535/week @ 2026-04-19</title></rect>
+<rect x=57 y=41 width=11 height=16 fill="#90afeb" fill-opacity="0.95"><title>1339/week @ 2026-04-26</title></rect>
+<rect x=68 y=39 width=12 height=18 fill="#8daeeb" fill-opacity="0.95"><title>1490/week @ 2026-05-03</title></rect>
+<rect x=80 y=24 width=11 height=33 fill="#89afe2" fill-opacity="0.95"><title>2823/week @ 2026-05-10</title></rect>
+<rect x=91 y=9 width=11 height=48 fill="#86b0db" fill-opacity="0.95"><title>4141/week @ 2026-05-17</title></rect>
+<rect x=102 y=3 width=12 height=54 fill="#82afd8" fill-opacity="0.95"><title>4705/week @ 2026-05-24</title></rect>
+<rect x=114 y=32 width=11 height=25 fill="#7eaaeb" fill-opacity="0.95"><title>2082/week @ 2026-05-31</title></rect>
+<rect x=125 y=29 width=12 height=28 fill="#7aa9ea" fill-opacity="0.95"><title>2337/week @ 2026-06-07</title></rect>
+<rect x=137 y=37 width=11 height=20 fill="#75a6f2" fill-opacity="0.95"><title>1642/week @ 2026-06-14</title></rect>
+<rect x=148 y=42 width=11 height=15 fill="#70a4f9" fill-opacity="0.95"><title>1228/week @ 2026-06-21</title></rect>
+<rect x=159 y=39 width=12 height=18 fill="#6ca4f6" fill-opacity="0.95"><title>1512/week @ 2026-06-28</title></rect>
+<rect x=171 y=31 width=11 height=26 fill="#69a4f0" fill-opacity="0.95"><title>2205/week @ 2026-07-05</title></rect>
+<rect x=0.5 y=0.5 width="181" height="55" stroke="black" fill=none stroke-opacity=0.3 stroke-linecap=square stroke-width=1></rect>
+</svg>
+<p>
+<b>6,745</b> downloads per month
+<br>
+Used in <a href="/crates/pallas/rev"><b>13</b> crates
+(10&nbsp;directly)</a>
+</p>
+</section>
+<section id="sloc">
+<section id="license">
+<b property="license">Apache-2.0</b>
+</section>
+<p>
+<span title="705KB as tarball">
+2MB
+</span>
+<br>
+<span title="39,912">
+<b>40K</b>
+</span>
+<abbr title="Lines of code, excluding comments">SLoC</abbr>
+</p>
+</section>
+</section>
+<section id=readme class="readme" vocab>
+<div align="center">
+<img alt="Pallas Logo" width="500" decoding="async" crossorigin="anonymous" src="https://img.gs/czjpqfbdkz/500/https://raw.githubusercontent.com/txpipe/pallas/main/assets/logo-light.svg" srcset="https://img.gs/czjpqfbdkz/500,2x/https://raw.githubusercontent.com/txpipe/pallas/main/assets/logo-light.svg 2x" height="176">
+<hr>
+<h3 align="center">Rust-native building blocks for the Cardano blockchain ecosystem</h3>
+<img alt="GitHub" src="https://img.shields.io/github/license/txpipe/pallas" decoding="async" width="120" height="20">
+<img alt="Crates.io" src="https://img.shields.io/crates/v/pallas" decoding="async" width="110" height="20">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/txpipe/pallas/ci.yml" decoding="async" width="88" height="20">
+<hr>
+</div>
+<h2 id="readme-introduction">Introduction</h2>
+<p>Pallas is an expanding collection of modules that re-implements common
+Ouroboros / Cardano logic in native Rust. This crate doesn't provide any particular
+application, it is meant to be used as a base layer to facilitate the
+development of higher-level use-cases, such as explorers, wallets, etc (who
+knows, maybe even a full node in a far away future).</p>
+<h2 id="readme-getting-started">Getting Started</h2>
+<p>For most use-cases, depend on the umbrella <code><tt class="src-rs">pallas</tt></code> crate — it re-exports every
+building block under a single, organized module tree:</p>
+<pre lang="bash" class="one-liner"><code><tt class="src-sh src-sh-sh"><tt class="m-fn-call m-fn-call-sh"><tt class="var-fn var-fn-sh">cargo</tt></tt><tt class="m-fn-call m-fn-call-args"> add pallas</tt>
+</tt></code></pre>
+<p>The hierarchy mirrors the project's domains (network, ledger, crypto, etc.) so
+you can pull in a single dependency and reach for what you need:</p>
+<pre lang="text"><code><tt class="txt-plain">pallas
+├── network          — Ouroboros networking stack
+├── network2         — P2P-first networking stack (feature `network2`)
+├── ledger
+│   ├── primitives   — multi-era CBOR primitives
+│   ├── traverse     — multi-era traversal helpers
+│   ├── addresses    — Cardano address codec
+│   └── validate     — phase-1 / phase-2 transaction validation
+├── crypto           — cryptographic primitives
+├── codec            — CBOR codec (minicbor)
+├── interop
+│   ├── utxorpc      — UTxO RPC interop
+│   └── hardano      — Haskell-node interop (feature `hardano`)
+└── txbuilder        — ergonomic transaction builder
+</tt></code></pre>
+<h3 id="readme-feature-flags">Feature Flags</h3>
+<p>The umbrella crate exposes the following Cargo features:</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Enables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code><tt class="src-rs">hardano</tt></code></td>
+<td>Haskell-node interop (<code><tt class="src-rs"><tt class="m-path m-path-rs">pallas<tt class="pun-acc pun-acc-rs">::</tt></tt><tt class="m-path m-path-rs">interop<tt class="pun-acc pun-acc-rs">::</tt></tt>hardano</tt></code>)</td>
+</tr>
+<tr>
+<td><code><tt class="src-rs">phase2</tt></code></td>
+<td>Plutus script validation in <code><tt class="src-rs"><tt class="m-path m-path-rs">pallas<tt class="pun-acc pun-acc-rs">::</tt></tt><tt class="m-path m-path-rs">ledger<tt class="pun-acc pun-acc-rs">::</tt></tt>validate</tt></code></td>
+</tr>
+<tr>
+<td><code><tt class="src-rs">network2</tt></code></td>
+<td>Opt in to the new P2P networking stack (<code><tt class="src-rs"><tt class="m-path m-path-rs">pallas<tt class="pun-acc pun-acc-rs">::</tt></tt>network2</tt></code>)</td>
+</tr>
+<tr>
+<td><code><tt class="src-rs">relaxed</tt></code></td>
+<td>Relaxed validation modes across primitives and crypto</td>
+</tr>
+<tr>
+<td><code><tt class="src-rs">unstable</tt></code></td>
+<td>Aggregates feature gates that are not yet stable</td>
+</tr>
+</tbody>
+</table>
+<h2 id="readme-unboxing">Unboxing</h2>
+<p>If you'd rather depend on a subset, every building block is published as its
+own crate on crates.io. Pick only what you need:</p>
+<pre lang="bash" class="one-liner"><code><tt class="src-sh src-sh-sh"><tt class="m-fn-call m-fn-call-sh"><tt class="var-fn var-fn-sh">cargo</tt></tt><tt class="m-fn-call m-fn-call-args"> add pallas-network pallas-traverse</tt>
+</tt></code></pre>
+<p>The crates are grouped below by domain.</p>
+<h3 id="readme-core">Core</h3>
+<p>Foundational primitives with no Cardano-specific semantics. Every higher layer in the workspace depends on them.</p>
+<table>
+<thead>
+<tr>
+<th>Crates</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/pallas-codec" rel="ugc noopener">pallas-codec</a></td>
+<td>Shared CBOR encoding / decoding using minicbor lib</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-crypto" rel="ugc noopener">pallas-crypto</a></td>
+<td>Shared Cryptographic primitives</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-math" rel="ugc noopener">pallas-math</a></td>
+<td>Shared mathematics functions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="readme-network">Network</h3>
+<p>Wire-level implementation of the Ouroboros mini-protocols used to communicate with other Cardano nodes.</p>
+<table>
+<thead>
+<tr>
+<th>Crates</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/pallas-network" rel="ugc noopener">pallas-network</a></td>
+<td>Network stack providing multiplexer and mini-protocol implementations</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-network2" rel="ugc noopener">pallas-network2</a></td>
+<td>P2P-first rewrite of the Ouroboros networking stack</td>
+</tr>
+</tbody>
+</table>
+<h3 id="readme-ledger">Ledger</h3>
+<p>Cardano's on-chain data model: how transactions, blocks, addresses, and ledger state are represented, traversed, and validated across eras.</p>
+<table>
+<thead>
+<tr>
+<th>Crates</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/pallas-primitives" rel="ugc noopener">pallas-primitives</a></td>
+<td>Ledger primitives and cbor codec for the different Cardano eras</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-traverse" rel="ugc noopener">pallas-traverse</a></td>
+<td>Utilities to traverse over multi-era block data</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-addresses" rel="ugc noopener">pallas-addresses</a></td>
+<td>Encode / decode Cardano addresses of any type</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-validate" rel="ugc noopener">pallas-validate</a></td>
+<td>Phase-1 and optional phase-2 (Plutus) transaction validation</td>
+</tr>
+</tbody>
+</table>
+<h3 id="readme-interop">Interop</h3>
+<p>Adapters for systems built outside Pallas — file formats, RPC schemas, etc.</p>
+<table>
+<thead>
+<tr>
+<th>Crates</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/pallas-hardano" rel="ugc noopener">pallas-hardano</a></td>
+<td>Interoperability with implementation-specific artifacts of the Haskell Cardano node</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-configs" rel="ugc noopener">pallas-configs</a></td>
+<td>Genesis config structs matching the Haskell node (Byron / Shelley / Alonzo / Conway)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-utxorpc" rel="ugc noopener">pallas-utxorpc</a></td>
+<td>Interoperability with the <a href="https://utxorpc.org" rel="ugc noopener">UTxO RPC</a> specification</td>
+</tr>
+</tbody>
+</table>
+<h3 id="readme-utils">Utils</h3>
+<p>Optional, self-contained conveniences. Each crate stands alone; pull one in only when you need that specific affordance.</p>
+<table>
+<thead>
+<tr>
+<th>Crates</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/pallas-bech32" rel="ugc noopener">pallas-bech32</a></td>
+<td>Bech32 conventions for Cardano (CIP-5 prefixes, CIP-14 fingerprints)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pallas-txbuilder" rel="ugc noopener">pallas-txbuilder</a></td>
+<td>Ergonomic transaction builder</td>
+</tr>
+</tbody>
+</table>
+<h2 id="readme-examples">Examples</h2>
+<p>The <a href="https://github.com/examples" rel="ugc noopener"><code><tt class="txt-plain">examples/</tt></code></a> directory contains runnable demonstrations of
+common integration patterns:</p>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/examples/block-decode" rel="ugc noopener">block-decode</a></td>
+<td>Decode a Byron-era block from CBOR</td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/block-download" rel="ugc noopener">block-download</a></td>
+<td>Download a single block from a remote node by chain point</td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/crawler" rel="ugc noopener">crawler</a></td>
+<td>Consume the chain-sync mini-protocol with pluggable block/tx filters</td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/n2n-miniprotocols" rel="ugc noopener">n2n-miniprotocols</a></td>
+<td>Node-to-node mini-protocols over TCP</td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/n2c-miniprotocols" rel="ugc noopener">n2c-miniprotocols</a></td>
+<td>Node-to-client mini-protocols over a local Unix socket</td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/p2p-initiator" rel="ugc noopener">p2p-initiator</a></td>
+<td>Initiate a P2P connection using <code><tt class="txt-plain">pallas-network2</tt></code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/p2p-responder" rel="ugc noopener">p2p-responder</a></td>
+<td>Accept incoming P2P connections using <code><tt class="txt-plain">pallas-network2</tt></code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/p2p-discovery" rel="ugc noopener">p2p-discovery</a></td>
+<td>Peer discovery using <code><tt class="txt-plain">pallas-network2</tt></code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/examples/wallet" rel="ugc noopener">wallet</a></td>
+<td>Wallet key generation, BIP-39 mnemonics, address derivation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="readme-minimum-supported-rust-version">Minimum Supported Rust Version</h2>
+<p>Pallas's MSRV is <strong>Rust 1.88</strong>. CI verifies the entire workspace builds with
+that toolchain on every change. The floor is set by transitive dependencies
+(currently <code><tt class="src-rs">serde_with</tt></code> / <code><tt class="src-rs">darling</tt></code>); edition 2024, used by <code><tt class="txt-plain">pallas-network2</tt></code>,
+contributes a hard floor of 1.85.</p>
+<p>Bumping the MSRV is treated as a breaking change: it happens only in minor
+version bumps (or in <code><tt class="src-rs"><tt class="const-num const-num-flt">0.</tt>x</tt></code> / <code><tt class="src-rs"><tt class="const-num const-num-flt">1.</tt><tt class="const-num const-num-flt">0</tt><tt class="pun-acc pun-acc-dot">.</tt><tt class="const-num const-num-int">0</tt><tt class="k-op k-op-arith">-</tt>alpha<tt class="pun-acc pun-acc-dot">.</tt>x</tt></code> while we are pre-stable), is
+called out in the changelog, and aims to stay roughly within the most recent
+three stable Rust releases.</p>
+<h2 id="readme-etymology">Etymology</h2>
+<blockquote>
+<p>Pallas: (Greek mythology) goddess of wisdom and useful arts and prudent warfare;</p>
+</blockquote>
+<h2 id="readme-license">License</h2>
+<p>Pallas is distributed under the terms of the <a href="https://github.com/txpipe/pallas/blob/7ffae5ccc445cd8b074a0fd62e111873105750a5/pallas/LICENSE" rel="ugc noopener">Apache License 2.0</a>.</p>
+<h2 id="readme-security">Security</h2>
+<p>If you discover a security vulnerability, please follow the disclosure process described in <a href="https://github.com/txpipe/pallas/blob/7ffae5ccc445cd8b074a0fd62e111873105750a5/pallas/SECURITY.md" rel="ugc noopener">SECURITY.md</a>. Do not open a public GitHub issue.</p>
+</section>
+</div>
+<section id="deps">
+<h4>Dependencies</h4>
+<p>
+<span title="amortized size; approx. 5MB compressed">
+~18–27MB
+</span>
+<br>
+<span title="estimated">~416K</span> <abbr title="approx. additional lines of code">SLoC</abbr>
+</p>
+<nav aria-label="Dependencies">
+<ul class="long">
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-addresses">pallas-addresses</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-codec">pallas-codec</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-configs">pallas-configs</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-crypto">pallas-crypto</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class="optional">
+<a href="/crates/pallas/features#feature-hardano" class="feature" title="optional feature">hardano?</a>
+<a title="new" href="/crates/pallas-hardano">pallas-hardano</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-network">pallas-network</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class="optional">
+<a href="/crates/pallas/features#feature-network2" class="feature" title="optional feature">network2?</a>
+<a title="=1.1.1" href="/crates/pallas-network2">pallas-network2</a>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-primitives">pallas-primitives</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-traverse">pallas-traverse</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-txbuilder">pallas-txbuilder</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/pallas-utxorpc">pallas-utxorpc</a>&nbsp;<span class="version verynew">=1.1.1</span>
+</li>
+<li property="requirements" class>
+<a title="=1.1.1" href="/crates/pallas-validate">pallas-validate</a>
+</li>
+</ul>
+<ul class="dev">
+</ul>
+<h4 class="other-features"><a href="/crates/pallas/features">Other features</a></h4>
+<ul class="features">
+<li><a href="/crates/pallas/features#feature-phase2" class="feature">phase2</a></li>
+<li><a href="/crates/pallas/features#feature-relaxed" class="feature">relaxed</a></li>
+<li><a href="/crates/pallas/features#feature-unstable" class="feature">unstable</a></li>
+</ul>
+</nav>
+</section>
+</section>
+</div>
+</main>
+</div>
+<footer>
+<div class="inner-col">
+<nav class=seealso aria-label="Related">
+Related:
+<a href="/crates/pallas-utxorpc">pallas-utxorpc</a>,
+<a href="/crates/pallas-hardano">pallas-hardano</a>,
+<a href="/crates/pallas-txbuilder">pallas-txbuilder</a>,
+<a href="/crates/pallas-crypto">pallas-crypto</a>,
+<a href="/crates/pallas-network">pallas-network</a>,
+<a href="/crates/pallas-upstream">pallas-upstream</a>,
+<a href="/crates/pallas-blockfetch">pallas-blockfetch</a>,
+<a href="/crates/pallas-network2">pallas-network2</a>,
+<a href="/crates/pallas-configs">pallas-configs</a>,
+<a href="/crates/pallas-txsubmission">pallas-txsubmission</a>,
+<a href="/crates/pallas-handshake">pallas-handshake</a>,
+<a href="/crates/pallas-wallet">pallas-wallet</a>,
+<a href="/crates/pallas-validate">pallas-validate</a>,
+<a href="/crates/pallas-codec">pallas-codec</a>,
+<a href="/crates/pallas-primitives">pallas-primitives</a>,
+<a href="/crates/pallas-traverse">pallas-traverse</a>,
+<a href="/crates/pallas-addresses">pallas-addresses</a>,
+<a href="/crates/pallas-math">pallas-math</a>,
+<a href="/crates/pallas-localstate">pallas-localstate</a>,
+<a href="/crates/pallas-applying">pallas-applying</a>
+</nav>
+<nav class=seealso aria-label="See also">
+See also:
+<a href="/crates/oxo-flow-cli">oxo-flow-cli</a>,
+<a href="/crates/rash_core">rash_core</a>,
+<a href="/crates/scenix-math">scenix-math</a>,
+<a href="/crates/hyperlight-guest">hyperlight-guest</a>,
+<a href="/crates/storyteller">storyteller</a>,
+<a href="/crates/ur">ur</a>,
+<a href="/crates/panproto-gat">panproto-gat</a>,
+<a href="/crates/drop_bomb">drop_bomb</a>,
+<a href="/crates/panproto-protocols">panproto-protocols</a>,
+<a href="/crates/grounded">grounded</a>,
+<a href="/crates/pasta_curves">pasta_curves</a>
+</nav>
+<p>A thriving market for magic beans doesn&#39;t make the magic beanstalk real. Cryptocurrencies are often involved in pump and dump scams, ponzi schemes, investment fraud, unregulated gambling, and large-scale money laundering.
+Many applications of cryptocurrencies are questionable. Their real effects are proliferation of ransomware and other criminal activity. PoW-based schemes contribute to e-waste and climate-affecting energy waste.
+</p>
+<aside role="contentinfo"><p><a href="/"><b>Lib.rs</b></a> is an unofficial list of Rust/Cargo crates. This site is not affiliated with nor endorsed by the Rust Project or authors of this crate.</p></aside>
+</div>
+</footer>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1a1ac077e9fa700',t:'MTc4Mzg3NjMzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

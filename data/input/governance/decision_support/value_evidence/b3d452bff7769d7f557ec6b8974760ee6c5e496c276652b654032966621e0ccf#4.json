@@ -1,0 +1,271 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
+  "confidence": 0.8,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "6c40ea4e09b82f3807ae163a3c439b86bc1ad7831a5808531d4d5f056abf67cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-c22fa48876.snap",
+          "url": "https://cardano-community.github.io/guild-operators/"
+        },
+        {
+          "sha256": "e8f865cc9f36b7a2489b9d671ef8bdbb28433ea72e73f50a9febf9d454d71306",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-1ffcd1abe5.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node"
+        },
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "3b0c419034c00b034c9e347ec2a161f039e0d9e3a2c007943007f10d56689012",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-196d15d882.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node/releases"
+        },
+        {
+          "sha256": "ddf72409b4f5e0bb4a33d981e2b5e5a7ff831ea610bc5f62b9d2b9bf27cf2787",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-emurgo-io-ac49a50cd4.snap",
+          "url": "https://www.emurgo.io/press-news/explainer-the-plomin-hard-fork-cardano/"
+        },
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        },
+        {
+          "sha256": "61a8b7938f027691efcab852991e0f04c5e0a148a3c7214292e53e991489c093",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-09fefd9046.snap",
+          "url": "https://github.com/IntersectMBO/cardano-ledger"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "e8f865cc9f36b7a2489b9d671ef8bdbb28433ea72e73f50a9febf9d454d71306",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-1ffcd1abe5.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node"
+        },
+        {
+          "sha256": "61a8b7938f027691efcab852991e0f04c5e0a148a3c7214292e53e991489c093",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-09fefd9046.snap",
+          "url": "https://github.com/IntersectMBO/cardano-ledger"
+        },
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        },
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "6c40ea4e09b82f3807ae163a3c439b86bc1ad7831a5808531d4d5f056abf67cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-c22fa48876.snap",
+          "url": "https://cardano-community.github.io/guild-operators/"
+        },
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        },
+        {
+          "sha256": "b901f557ab5a38741180276811a299efe03aec0056db692b96021a30e0281e7e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pragma-builders-6747e45a94.snap",
+          "url": "https://pragma.builders/projects/amaru/"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        },
+        {
+          "sha256": "3b0c419034c00b034c9e347ec2a161f039e0d9e3a2c007943007f10d56689012",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-196d15d882.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node/releases"
+        },
+        {
+          "sha256": "ddf72409b4f5e0bb4a33d981e2b5e5a7ff831ea610bc5f62b9d2b9bf27cf2787",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-emurgo-io-ac49a50cd4.snap",
+          "url": "https://www.emurgo.io/press-news/explainer-the-plomin-hard-fork-cardano/"
+        },
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "b901f557ab5a38741180276811a299efe03aec0056db692b96021a30e0281e7e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pragma-builders-6747e45a94.snap",
+          "url": "https://pragma.builders/projects/amaru/"
+        },
+        {
+          "sha256": "87131f9e302e087baf3ce266c4784125722e6a410ab1eaf8b5936f420dace9f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8f3732bef9.snap",
+          "url": "https://github.com/pragma-org/amaru"
+        },
+        {
+          "sha256": "61a8b7938f027691efcab852991e0f04c5e0a148a3c7214292e53e991489c093",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-09fefd9046.snap",
+          "url": "https://github.com/IntersectMBO/cardano-ledger"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        },
+        {
+          "sha256": "6c40ea4e09b82f3807ae163a3c439b86bc1ad7831a5808531d4d5f056abf67cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-c22fa48876.snap",
+          "url": "https://cardano-community.github.io/guild-operators/"
+        },
+        {
+          "sha256": "3b0c419034c00b034c9e347ec2a161f039e0d9e3a2c007943007f10d56689012",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-196d15d882.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node/releases"
+        },
+        {
+          "sha256": "e8f865cc9f36b7a2489b9d671ef8bdbb28433ea72e73f50a9febf9d454d71306",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-1ffcd1abe5.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        },
+        {
+          "sha256": "b901f557ab5a38741180276811a299efe03aec0056db692b96021a30e0281e7e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pragma-builders-6747e45a94.snap",
+          "url": "https://pragma.builders/projects/amaru/"
+        },
+        {
+          "sha256": "6c40ea4e09b82f3807ae163a3c439b86bc1ad7831a5808531d4d5f056abf67cd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-community-github-io-c22fa48876.snap",
+          "url": "https://cardano-community.github.io/guild-operators/"
+        },
+        {
+          "sha256": "3b0c419034c00b034c9e347ec2a161f039e0d9e3a2c007943007f10d56689012",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-196d15d882.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "e8f865cc9f36b7a2489b9d671ef8bdbb28433ea72e73f50a9febf9d454d71306",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-1ffcd1abe5.snap",
+          "url": "https://github.com/IntersectMBO/cardano-node"
+        },
+        {
+          "sha256": "61a8b7938f027691efcab852991e0f04c5e0a148a3c7214292e53e991489c093",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-09fefd9046.snap",
+          "url": "https://github.com/IntersectMBO/cardano-ledger"
+        },
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        },
+        {
+          "sha256": "c395b968e2445478e08d5c42c30dc6a574419782ddd2a6be63331183679ae281",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-de9bce939f.snap",
+          "url": "https://github.com/SundaeSwap-finance/treasury-contracts"
+        },
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "b901f557ab5a38741180276811a299efe03aec0056db692b96021a30e0281e7e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pragma-builders-6747e45a94.snap",
+          "url": "https://pragma.builders/projects/amaru/"
+        },
+        {
+          "sha256": "87131f9e302e087baf3ce266c4784125722e6a410ab1eaf8b5936f420dace9f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-8f3732bef9.snap",
+          "url": "https://github.com/pragma-org/amaru"
+        },
+        {
+          "sha256": "634157d7b5762d0c55a5cf71c87a8b78f120e979d42399625c138899498d77ab",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-coindesk-com-6fd709b8a1.snap",
+          "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug"
+        },
+        {
+          "sha256": "c6d2b7a4c8048d46389e62968a7768ece2728980e37c5a9f1ea7f1d11195dc42",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-04537a95e9.snap",
+          "url": "https://github.com/orgs/IntersectMBO/repositories"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:00+00:00"
+}

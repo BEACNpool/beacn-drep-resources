@@ -1,0 +1,38 @@
+[package]
+name = "carp"
+version = "3.3.0"
+edition = "2021"
+license = "MIT"
+
+[profile.release]
+strip = true
+
+[dependencies]
+# [core]
+dcspark-core = { git = "https://github.com/dcSpark/dcspark-core.git", rev = "63105adc46478eea57340bcbfc5425ced0ba139f" }
+dcspark-blockchain-source = { git = "https://github.com/dcSpark/dcspark-core.git", rev = "63105adc46478eea57340bcbfc5425ced0ba139f" }
+multiverse = { git = "https://github.com/dcSpark/dcspark-core.git", rev = "63105adc46478eea57340bcbfc5425ced0ba139f" }
+
+# [local]
+entity = { path = "entity" }
+migration = { path = "migration" }
+tasks = { path = "tasks" }
+
+# [indexer]
+anyhow = { version = "1.0.69" }
+async-trait = { version = "0.1.64" }
+cml-chain = { workspace = true }
+cml-core = { workspace = true }
+cml-crypto = { workspace = true }
+cml-multi-era = { workspace = true }
+clap = { version = "3.1", features = ["derive"] }
+ctrlc = { version = "3.2.4", features = ["termination"] }
+dotenv = { version = "0.15.0" }
+hex = { version = "0.4.3" }
+oura = { git = "https://github.com/txpipe/oura.git", rev = "e1b971394a394bde13fb601ad3f6d4ad343b02f0" }
+serde = { version = "1.0.152", features = ["derive", "rc"] }
+serde_json = { version = "1.0.92" }
+serde_yaml = { version = "0.9.17" }
+tokio = { version = "1.25.0", features = ["full"] }
+tracing = { version = "0.1.37" }
+tracing-subscriber = { version = "0.3.16" }

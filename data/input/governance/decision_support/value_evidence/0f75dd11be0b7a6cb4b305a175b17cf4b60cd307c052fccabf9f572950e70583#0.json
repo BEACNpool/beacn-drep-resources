@@ -1,0 +1,197 @@
+{
+  "action_id": "0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0",
+  "confidence": 0.72,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        },
+        {
+          "sha256": "292d6012ae91f9c111cf55c8f1ad96f3e31cc03ab84ce1ce1a46d830d5f95663",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-ddf14dc337.snap",
+          "url": "https://github.com/sundial-protocol/charms-cardano"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "10d4560d2c4aa539e5e8c30e30c997e8bfa3a8b4ec57e4636b0716535c5e00a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-projectcatalyst-io-6cac4a0b77.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-partners-enterprise-randd/institutional-grade-layer-2-for-bitcoin-defi-on-cardano-in-collaboration-with-bitcoinos-tesseract-and-more"
+        },
+        {
+          "sha256": "ae5193557afeb53eb90d5508f9a4cbacaec8f7762a7a0759378ea5ff48ff2e66",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-18da58f5d1.snap",
+          "url": "https://github.com/CharmsDev/charms/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        },
+        {
+          "sha256": "1a1d1bff909bc4b51d0644a66f95be66c0d3eb6e1eb343ed631312562dc701ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-de9efa363e.snap",
+          "url": "https://github.com/CharmsDev/charms"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "292d6012ae91f9c111cf55c8f1ad96f3e31cc03ab84ce1ce1a46d830d5f95663",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-ddf14dc337.snap",
+          "url": "https://github.com/sundial-protocol/charms-cardano"
+        },
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        },
+        {
+          "sha256": "10d4560d2c4aa539e5e8c30e30c997e8bfa3a8b4ec57e4636b0716535c5e00a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-projectcatalyst-io-6cac4a0b77.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-partners-enterprise-randd/institutional-grade-layer-2-for-bitcoin-defi-on-cardano-in-collaboration-with-bitcoinos-tesseract-and-more"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "cb4ac8fb12910cf640fbe41c67521d5a5eadc4271f2c9f37caeaf8b3a5caa388",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-news-bitcoin-com-323455bf2d.snap",
+          "url": "https://news.bitcoin.com/bitcoinos-launches-charms-metaprotocol-for-programmable-tokens-on-bitcoin-and-utxo-blockchains/"
+        },
+        {
+          "sha256": "e76ceeed84679729a49af7eee151b476d52d4378fd265a257bece031e3234cd7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-www-coindesk-com-d1775d3448.snap",
+          "url": "https://www.coindesk.com/tech/2026/04/23/input-output-seeks-usd46-8-million-to-bring-bitcoin-defi-scaling-upgrade-to-cardano"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "e76ceeed84679729a49af7eee151b476d52d4378fd265a257bece031e3234cd7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-www-coindesk-com-d1775d3448.snap",
+          "url": "https://www.coindesk.com/tech/2026/04/23/input-output-seeks-usd46-8-million-to-bring-bitcoin-defi-scaling-upgrade-to-cardano"
+        },
+        {
+          "sha256": "10d4560d2c4aa539e5e8c30e30c997e8bfa3a8b4ec57e4636b0716535c5e00a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-projectcatalyst-io-6cac4a0b77.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-partners-enterprise-randd/institutional-grade-layer-2-for-bitcoin-defi-on-cardano-in-collaboration-with-bitcoinos-tesseract-and-more"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        },
+        {
+          "sha256": "10d4560d2c4aa539e5e8c30e30c997e8bfa3a8b4ec57e4636b0716535c5e00a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-projectcatalyst-io-6cac4a0b77.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-partners-enterprise-randd/institutional-grade-layer-2-for-bitcoin-defi-on-cardano-in-collaboration-with-bitcoinos-tesseract-and-more"
+        }
+      ],
+      "value": "no"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "ae5193557afeb53eb90d5508f9a4cbacaec8f7762a7a0759378ea5ff48ff2e66",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-18da58f5d1.snap",
+          "url": "https://github.com/CharmsDev/charms/releases"
+        },
+        {
+          "sha256": "10d4560d2c4aa539e5e8c30e30c997e8bfa3a8b4ec57e4636b0716535c5e00a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-projectcatalyst-io-6cac4a0b77.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-partners-enterprise-randd/institutional-grade-layer-2-for-bitcoin-defi-on-cardano-in-collaboration-with-bitcoinos-tesseract-and-more"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "1a1d1bff909bc4b51d0644a66f95be66c0d3eb6e1eb343ed631312562dc701ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-de9efa363e.snap",
+          "url": "https://github.com/CharmsDev/charms"
+        },
+        {
+          "sha256": "292d6012ae91f9c111cf55c8f1ad96f3e31cc03ab84ce1ce1a46d830d5f95663",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-ddf14dc337.snap",
+          "url": "https://github.com/sundial-protocol/charms-cardano"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "3ba00143a7fabddf28f25b9a91a657ce3cc32807f7b542d207025231239d5f1d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-cryptobenelux-com-be190198a8.snap",
+          "url": "https://cryptobenelux.com/altcoin-nieuws/cardano-zet-bitcoin-centraal-en-dreps-krijgen-harde-keuze"
+        },
+        {
+          "sha256": "7fca9b15462df156b0f7b841d3aaed737a27357d85afa9cc67500191265f26ac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-f7a2e36552.snap",
+          "url": "https://github.com/sundial-protocol"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "e76ceeed84679729a49af7eee151b476d52d4378fd265a257bece031e3234cd7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-www-coindesk-com-d1775d3448.snap",
+          "url": "https://www.coindesk.com/tech/2026/04/23/input-output-seeks-usd46-8-million-to-bring-bitcoin-defi-scaling-upgrade-to-cardano"
+        },
+        {
+          "sha256": "1a1d1bff909bc4b51d0644a66f95be66c0d3eb6e1eb343ed631312562dc701ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/0f75dd11be0b-github-com-de9efa363e.snap",
+          "url": "https://github.com/CharmsDev/charms"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:01+00:00"
+}

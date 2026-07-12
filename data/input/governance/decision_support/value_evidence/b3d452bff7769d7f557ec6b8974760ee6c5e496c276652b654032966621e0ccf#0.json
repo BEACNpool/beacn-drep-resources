@@ -1,0 +1,237 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "41b61c528f47f11fda4579deb9a28e04921904015b96304092ff912bbb643322",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-731eb4e2bd.snap",
+          "url": "https://github.com/wirexapp"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "7763b321775c1d55667f8fdbbf81faaa070658731bf1bc81e18689d6cce61052",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-en-cryptonomist-ch-85dca00c5e.snap",
+          "url": "https://en.cryptonomist.ch/2026/06/21/cardano-2026-budget-results/"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "41b61c528f47f11fda4579deb9a28e04921904015b96304092ff912bbb643322",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-731eb4e2bd.snap",
+          "url": "https://github.com/wirexapp"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "06d2f79aef13cc475bb6c23d1aad3c87380fb264f635680d673afa5e7c6577cf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-bitpanda-com-4001ab2b31.snap",
+          "url": "https://www.bitpanda.com/en/card"
+        },
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "06d2f79aef13cc475bb6c23d1aad3c87380fb264f635680d673afa5e7c6577cf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-bitpanda-com-4001ab2b31.snap",
+          "url": "https://www.bitpanda.com/en/card"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        },
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "7763b321775c1d55667f8fdbbf81faaa070658731bf1bc81e18689d6cce61052",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-en-cryptonomist-ch-85dca00c5e.snap",
+          "url": "https://en.cryptonomist.ch/2026/06/21/cardano-2026-budget-results/"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "41b61c528f47f11fda4579deb9a28e04921904015b96304092ff912bbb643322",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-731eb4e2bd.snap",
+          "url": "https://github.com/wirexapp"
+        }
+      ],
+      "value": "unknown"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        },
+        {
+          "sha256": "fba9181499ac1a77576275cd5e2705cb40d5b5471a07948c9a03b811db7a6862",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-decrypt-co-11b2e5402d.snap",
+          "url": "https://decrypt.co/52394/wirex-announces-principal-membership-with-visa"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "2ac3968afe3d28a8ec5a362905df982874947c7a1380161bceab9613b51f3a8e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-prnewswire-com-445093872e.snap",
+          "url": "https://www.prnewswire.com/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611343.html"
+        },
+        {
+          "sha256": "125abb69f5b02a5dd115fb0d7c717d70350bb0f0871815f6026548aa7ab8e35e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-coinjournal-net-f4e8b45f6f.snap",
+          "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+        },
+        {
+          "sha256": "7763b321775c1d55667f8fdbbf81faaa070658731bf1bc81e18689d6cce61052",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-en-cryptonomist-ch-85dca00c5e.snap",
+          "url": "https://en.cryptonomist.ch/2026/06/21/cardano-2026-budget-results/"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:32+00:00"
+}

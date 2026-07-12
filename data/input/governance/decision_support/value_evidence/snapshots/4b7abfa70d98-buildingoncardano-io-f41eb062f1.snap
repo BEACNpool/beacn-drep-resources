@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBDAO</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20250910-1" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-overlay">
+      <div class="loading-logo">
+        <img src="images/cbdaoIcon.webp" alt="Cardano Builder DAO Logo" />
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img
+            src="images/cbdaoLogo.webp"
+            alt="Cardano Builder DAO Logo"
+            class="logo-image"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-wrapper">
+      <div class="hero-background">
+        <div class="hero-glow"></div>
+      </div>
+      <div class="container">
+        <div id="introduction" class="introduction-section">
+          <div class="hero-content">
+            <h1>
+              <span class="gradient-text">Introducing</span> Cardano Builder DAO
+            </h1>
+            <p>
+              A purpose-built, Smart Contract DAO-governed funding mechanism for
+              projects advancing Cardano's 2030 Vision KPIs.
+            </p>
+            <div class="cta-buttons">
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CBDAORound2"
+                class="cta-button cta-primary"
+                target="_blank"
+                >Member Portal</a
+              >
+              <a
+                href="https://forms.gle/Bpz38abTJehQ73Ld7"
+                target="_blank"
+                class="cta-button cta-secondary"
+                >Inquire about Joining</a
+              >
+              <a
+                href="https://discord.gg/RFZh5eGygs"
+                class="cta-button cta-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Join Discord</a
+              >
+              <a
+                href="https://cbdao.taptools.io/"
+                class="cta-button cta-secondary"
+                target="_blank"
+                >KPI Dashboard</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Logos Carousel - Full Width -->
+    <section id="projects" class="projects-section full-width-section">
+      <div class="container">
+        <h2 class="section-title">Our <span>Members</span></h2>
+      </div>
+      <div class="logo-carousel-container">
+        <div class="logo-carousel" id="carousel-row-1"></div>
+        <div class="logo-carousel reverse" id="carousel-row-2"></div>
+        <div class="logo-carousel" id="carousel-row-3"></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="mission" class="mission-section">
+        <h2 class="section-title">Our <span>Mission</span> & Scope</h2>
+        <p>
+          The Cardano Builder DAO's mission is to grow on-chain activity and
+          adoption of Cardano in alignment with Cardano's 2030 Vision. This
+          emphasis on tangible metrics and established projects distinguishes us
+          from other funding structures.
+        </p>
+        <br />
+        <div class="mission">
+          <div class="mission-card">
+            <h3>Funding High-Impact Initiatives</h3>
+            <p>
+              Through semi-annual budget proposals, the DAO distributes
+              resources to projects that can demonstrate KPI growth that aligns
+              with Cardano's objectives.
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Community Collaboration & Accountability</h3>
+            <p>
+              By openly sharing Key Performance Indicators (KPIs), funded
+              projects remain accountable to both the DAO and the broader
+              Cardano community.
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Empowerment Through Decentralization</h3>
+            <p>
+              Governance decisions, including funding requests to treasury
+              withdrawals, go through transparent voting processes enforced by
+              on-chain smart contracts, ensuring that no single group can
+              unilaterally control funds.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="goals" class="goals-section">
+        <h2 class="section-title">
+          Goals & <span>Key Performance Indicators</span>
+        </h2>
+        <div class="mission">
+          <div class="mission-card">
+            <h3>KPIs</h3>
+            <p>
+              All funded projects must commit to tracking one standardized
+              Cardano 2030 KPI. These include <b>TVL, MAU, and transactions</b>.
+              In addition, projects can elect to track additional KPIs that are
+              relevant to their specific project (downloads, etc.).
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Project Growth</h3>
+            <p>
+              Provide funding for development, and growth for proven projects
+              building on Cardano. The goal of all funded projects is to become
+              profitable and self-sustaining, so future projects can achieve the
+              same through Cardano Builder DAO.
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Collaboration & Knowledge Sharing</h3>
+            <p>
+              Cultivate a community where expertise, accountability, and
+              feedback flow among Cardano builders. Leverage each other's
+              success to create a growth flywheel for Cardano.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="governance" class="governance-section">
+        <h2 class="section-title"><span>Governance</span> Structure</h2>
+        <div class="mission">
+          <div class="mission-card">
+            <h3>1 Member, 1 Vote</h3>
+            <p>
+              Each member (project) has one vote, ensuring that no single group
+              has an outsized impact on deciding which projects receive funding.
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Funding Requests</h3>
+            <p>
+              Proposals for funding undergo a rigorous review process and are
+              directly compared with each other, then voted on by the builders
+              themselves. Only the projects that demonstrate the strongest
+              potential for success and impact will receive funding.
+            </p>
+          </div>
+          <div class="mission-card">
+            <h3>Treasury Withdrawals</h3>
+            <p>
+              Every 6 months, on-chain treasury withdrawal proposals are
+              submitted as roll-ups of the approved funding requests. 51% of all
+              DAO members must approve before smart contracts release the funds.
+              To date, CB DAO treasuries have distributed over 11M ADA directly
+              on-chain.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="timeline-section">
+        <h2 class="section-title">2025-2026 <span>Roadmap</span></h2>
+        <p style="text-align: center; margin-bottom: 40px">
+          We are set to support and sustain Cardano's evolving dApp ecosystem.
+          Here's a brief look at our yearly operating cycle:
+        </p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Initial Membership Cohort Approval (July 2025)</h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CardanoBuilderDAO/governance"
+                target="_blank"
+                >Governance Actions</a
+              >
+              <span>#7-19</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Semi-Annual Funding Polls (August 2025)</h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CardanoBuilderDAO/governance"
+                target="_blank"
+                >Governance Actions</a
+              >
+              <span>#24-50</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>
+                Treasury Withdrawal & Funding Distribution 1 (September 2025)
+              </h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CardanoBuilderDAO/governance/proposals/0"
+                target="_blank"
+                >Governance Action</a
+              >
+              <br />
+              <a
+                href="https://cardanoscan.io/transaction/d26820ad0c61c1d2431a77c99ba462c89b5216b6a39af9147a32f6a989c6d19c"
+                target="_blank"
+                >On-chain Distribution</a
+              >
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Additional Membership Cohort Approval (January 2026)</h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CBDAORound2/governance"
+                target="_blank"
+                >Governance Actions</a
+              >
+              <span>#3-10</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Semi-Annual Funding Polls (February 2026)</h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CBDAORound2/governance"
+                target="_blank"
+                >Governance Actions</a
+              >
+              <span>#12-40</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Treasury Withdrawal & Funding Distribution 2 (March 2026)</h3>
+              <a
+                href="https://www.clarity.vote/organizations/cardano/CBDAORound2/governance/proposals/1"
+                target="_blank"
+                >Governance Action</a
+              >
+              <br />
+              <a
+                href="https://cardanoscan.io/transaction/9bc4d9ea838d63d9248b0034fa4a2c558068c01edc114c47c8b80e252cff2730"
+                target="_blank"
+                >On-chain Distribution</a
+              >
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Sunset DAO (July 2026)</h3>
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: 40px">
+          This rhythm ensures that critical governance actions—from membership
+          approvals to distributing funds—are conducted in a predictable,
+          transparent manner.
+        </p>
+      </section>
+
+      <section id="conclusion" class="conclusion-section">
+        <h2 class="section-title">Building the <span>Future</span> Together</h2>
+        <div class="conclusion">
+          <p>If you're Building on Cardano, the CB DAO invites you to:</p>
+          <br />
+          <ul
+            style="
+              list-style-type: none;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+            "
+          >
+            <li>
+              • <strong>Join as a Member:</strong> If you have a functional dApp
+              that needs funding to grow, expertise, or both.
+            </li>
+            <li>
+              • <strong>Participate in Governance:</strong> Any entity with an
+              approved Catalyst proposal can vote on DAO governance actions,
+              including funding requests.
+            </li>
+            <li>
+              • <strong>Champion Ecosystem Adoption:</strong> Support the next
+              generation of dApps working to bring real users, higher TVL, and
+              vibrant on-chain activity to Cardano.
+            </li>
+          </ul>
+          <br />
+          <p>
+            By working together under a clear, rational, and forward-thinking
+            framework, the CB DAO aims to grow on-chain activity and adoption of
+            Cardano.
+          </p>
+          <br />
+          <div class="cta-buttons">
+            <a
+              href="https://www.clarity.vote/organizations/cardano/CBDAORound2"
+              class="cta-button cta-primary"
+              >Join Member Portal</a
+            >
+            <a
+              href="https://forms.gle/Bpz38abTJehQ73Ld7"
+              class="cta-button cta-secondary"
+              >Inquire about Joining</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img
+            src="images/cbdaoLogo.webp"
+            alt="Cardano Builder DAO Logo"
+            class="logo-image"
+          />
+        </div>
+        <div class="footer-links">
+          <a
+            href="https://www.clarity.vote/organizations/cardano/CBDAORound2"
+            class="footer-link"
+            >Member Portal</a
+          >
+          <a href="https://forms.gle/Bpz38abTJehQ73Ld7" class="footer-link"
+            >Inquire about Joining</a
+          >
+          <a
+            href="https://discord.gg/RFZh5eGygs"
+            class="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Discord</a
+          >
+          <a
+            href="https://docs.google.com/document/d/19CUIiPJznLpa-kMfe1CZ_AONp7Q4lGCqm4XMHJvrJ00/edit?tab=t.0"
+            class="footer-link"
+            >Member Code of Conduct</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Loading overlay handling
+      document.addEventListener("DOMContentLoaded", function () {
+        const loadingOverlay = document.getElementById("loading-overlay");
+
+        // Hide loading overlay when window is fully loaded
+        window.addEventListener("load", function () {
+          setTimeout(() => {
+            loadingOverlay.classList.add("hidden");
+          }, 500); // Small delay for smoother transition
+        });
+      });
+
+      // Intersection Observer for animation on scroll
+      const sections = document.querySelectorAll("section");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active");
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+
+      // Reactive navbar script
+      document.addEventListener("DOMContentLoaded", function () {
+        const header = document.querySelector("header");
+        let lastScrollY = 0;
+        let ticking = false;
+        let scrollTimeout;
+
+        // Show header on first load
+        setTimeout(() => {
+          header.classList.add("visible");
+        }, 300);
+
+        window.addEventListener("scroll", function () {
+          const scrollY = window.scrollY;
+
+          if (!ticking) {
+            window.requestAnimationFrame(function () {
+              // Show header when scrolling up, hide when scrolling down
+              if (scrollY > lastScrollY && scrollY > 100) {
+                // Scrolling down
+                header.classList.remove("visible");
+                header.classList.add("hidden");
+              } else if (scrollY < lastScrollY || scrollY < 100) {
+                // Scrolling up or near the top
+                header.classList.remove("hidden");
+                header.classList.add("visible");
+              }
+
+              lastScrollY = scrollY;
+              ticking = false;
+
+              // Clear previous timeout
+              clearTimeout(scrollTimeout);
+
+              // Hide header after 2 seconds of no scrolling, unless at the top
+              if (scrollY > 100) {
+                scrollTimeout = setTimeout(function () {
+                  header.classList.remove("visible");
+                  header.classList.add("hidden");
+                }, 2000);
+              }
+            });
+
+            ticking = true;
+          }
+        });
+      });
+    </script>
+    <script src="carousel.js"></script>
+  </body>
+</html>

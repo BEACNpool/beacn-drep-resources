@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"><meta name="theme-color" content="#37474f"><meta name="viewport" content="width=device-width, maximum-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="apple-touch-icon" sizes="180x180" href="/site-icons/apple-touch-icon.png"><link rel="manifest" href="/manifest.json"><meta name="robots" content="index, follow"/><meta name="description" content="The Cardano ecosystem recorded several major developments over the past week. Most notably, the launch of the Leios public testnet led activity. There were also upcoming decentralized"/><title>Cardano Had Its Biggest Week in Years, But ADA Price Fails To Rally</title><style>body.bg-1 {
+            background-position: calc(50% + 285px) -1px;
+        }</style><link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/><link rel="stylesheet" href="/css/min.css?t=1775129841"><script>window.dataLayer = window.dataLayer || [];</script>
+<meta name="google-adsense-account" content="ca-pub-8412527436912971">
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-W7KJBRM');</script>
+<!-- End Google Tag Manager -->        <link rel="stylesheet" href="/css/select2.min.css">
+            <meta property="og:image" content="https://cnews24.ru/uploads/45e/45e0e168876cb266578b014cad76eb62dfc6d7a1.jpg"/><meta property="og:title" content="Cardano Had Its Biggest Week in Years, But ADA Price Fails To Rally"/><meta property="og:type" content="news"/><meta property="article:published_time" content="2026-06-29T10:32:00+00:00"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Cardano Had Its Biggest Week in Years, But ADA Price Fails To Rally","datePublished":"2026-06-29T10:32:00+00:00","dateModified":"2026-06-29T10:32:00+00:00","description":"The Cardano ecosystem recorded several major developments over the past week. Most notably, the launch of the Leios public testnet led activity. There were also upcoming decentralized","image":["https://cnews24.ru/uploads/45e/45e0e168876cb266578b014cad76eb62dfc6d7a1.jpg"],"author":{"@type":"Organization","name":"CryptoNews","url":"https://cryptonews.net"},"publisher":{"@type":"Organization","name":"CryptoNews","logo":{"@type":"ImageObject","url":"https://cryptonews.net/i/cnews-logo-new.svg"}}}</script>    </head>
+<body ng-app="crypto" ng-controller="main"
+            ng-class="{'open-header':dropdown_header}"
+      data-output_location="news"      class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7KJBRM" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="">
+    <div class="flex between-xs middle-xs">
+
+                    <div class="search-loop"></div>
+
+<form name="article-search" action="/"
+      id="bnt-article-search-form" class="">
+    <div class="wrap-fields">
+        <span class="close-search-form"></span>
+                                <label>
+            <input type="text"
+                   name="q"
+                   placeholder="Search"
+                   value="">
+        </label>
+        <label class="label-style">
+            <select name="rubricId" data-width="100%" data-minimum-results-for-search="Infinity">
+                                                            <option                                 value="-1">Latest news
+                        </option>
+                                                                                <option                                 value="-2">Video
+                        </option>
+                                                                                <option                                 value="1">Bitcoin
+                        </option>
+                                                                                <option                                 value="14">DeFi
+                        </option>
+                                                                                <option                                 value="15">NFT
+                        </option>
+                                                                                <option                                 value="2">Ethereum
+                        </option>
+                                                                                <option                                 value="3">Altcoins
+                        </option>
+                                                                                <option                                 value="4">Blockchain
+                        </option>
+                                                                                <option                                 value="6">Mining
+                        </option>
+                                                                                <option                                 value="7">Finance
+                        </option>
+                                                                                <option                                 value="18">Metaverse
+                        </option>
+                                                                                <option                                 value="8">Legal
+                        </option>
+                                                                                <option                                 value="9">Security
+                        </option>
+                                                                                <option                                 value="10">Analytics
+                        </option>
+                                                                                <option                                 value="11">Exchange
+                        </option>
+                                                                                <option                                 value="12">Other
+                        </option>
+                                                                                <option                                 value="16">GameFi
+                        </option>
+                                                                                <option                                 value="5">ICO
+                        </option>
+                                                </select>
+        </label>
+        <button type="submit"></button>
+    </div>
+</form>    
+        <div class="dropdown-header dropdown-icon" ng-click="dropdownHeader()"
+     ng-class="{active:dropdown_header}">
+</div>
+
+<div class="header-logo">
+        <a href="/">
+                                    <img src="/i/cnews-logo-new.svg" alt="logo" class="full">
+                        </a>
+</div>
+
+<div class="header-menu">
+    <div class="between-xs middle-xs menu-wrapper">
+        <nav class="flex center-xs">
+                            <li class="item">
+    <a href="/"
+       class="active"
+    >News</a>
+</li>
+<li class="item">
+    <a href="/editorial/all-posts/"
+       class=""
+    >Editorial</a>
+</li>
+<li class="item market-cap-item">
+    <a href="/market-cap/"
+       class="">Market Cap</a>
+</li>
+<li class="item">
+    <a href="/about/"
+       class="">
+        About us
+    </a>
+</li>                    </nav>
+    </div>
+</div>
+
+<div class="flex middle-xs language_select">
+    <span class="current"
+          ng-click="language_menu=(!language_menu)"
+          ng-class="{'active':language_menu}">
+        en
+    </span>
+
+    <ul class="animate-all" ng-class="{'active':language_menu}">
+                                                                                    <li class="">
+                        <a href="/ru/news/altcoins/">ru</a>
+                    </li>
+                                                                <li class="">
+                        <a href="/de/news/altcoins/">de</a>
+                    </li>
+                                                                <li class="">
+                        <a href="/es/news/altcoins/">es</a>
+                    </li>
+                                                                <li class="">
+                        <a href="/ar/news/altcoins/">ar</a>
+                    </li>
+                                        </ul>
+</div>
+    </div>
+</header>
+
+                        <div class="header-submenu">
+        <div class="container flex start-xs middle-xs ">
+
+            <div class="dropdown-top-menu" ng-click="headerDownChange()"></div>
+
+            
+                            <ul>
+                                                                                                                                                                            <li><a href="/">Latest news</a></li>
+                                                                                                                                                <li><a href="/news/video/">Video</a></li>
+                                                                                                                                                <li><a href="/news/bitcoin/">Bitcoin</a></li>
+                                                                                                                                                <li><a href="/news/defi/">DeFi</a></li>
+                                                                                                                                                <li><a href="/news/nft/">NFT</a></li>
+                                                                                                                                                <li><a href="/news/ethereum/">Ethereum</a></li>
+                                                                                                                                                                            <li class="active"><span>Altcoins</span></li>
+                                                                                                                                                <li><a href="/news/blockchain/">Blockchain</a></li>
+                                                                                                                                                <li><a href="/news/mining/">Mining</a></li>
+                                                                                                                                                <li><a href="/news/finance/">Finance</a></li>
+                                                                                                                                                <li><a href="/news/metaverse/">Metaverse</a></li>
+                                                                                                                                                <li><a href="/news/legal/">Legal</a></li>
+                                                                                                                                                <li><a href="/news/security/">Security</a></li>
+                                                                                                                                                <li><a href="/news/analytics/">Analytics</a></li>
+                                                                                                                                                <li><a href="/news/market/">Exchange</a></li>
+                                                                                                                                                <li><a href="/news/other/">Other</a></li>
+                                                                                                                                                <li><a href="/news/gamefi/">GameFi</a></li>
+                                                                                                                                                <li><a href="/news/ico/">ICO</a></li>
+                                            
+                    <li class="more">
+                        <span>More...</span>
+                        <ul class="more-cryptonews-menu">
+                                                                                                                                                                                                                                    <li><a href="/news/">Latest news</a></li>
+                                                                                                                                                                                                <li><a href="/news/video/">Video</a></li>
+                                                                                                                                                                                                <li><a href="/news/bitcoin/">Bitcoin</a></li>
+                                                                                                                                                                                                <li><a href="/news/defi/">DeFi</a></li>
+                                                                                                                                                                                                <li><a href="/news/nft/">NFT</a></li>
+                                                                                                                                                                                                <li><a href="/news/ethereum/">Ethereum</a></li>
+                                                                                                                                                                                                                                    <li class="active"><span>Altcoins</span></li>
+                                                                                                                                                                                                <li><a href="/news/blockchain/">Blockchain</a></li>
+                                                                                                                                                                                                <li><a href="/news/mining/">Mining</a></li>
+                                                                                                                                                                                                <li><a href="/news/finance/">Finance</a></li>
+                                                                                                                                                                                                <li><a href="/news/metaverse/">Metaverse</a></li>
+                                                                                                                                                                                                <li><a href="/news/legal/">Legal</a></li>
+                                                                                                                                                                                                <li><a href="/news/security/">Security</a></li>
+                                                                                                                                                                                                <li><a href="/news/analytics/">Analytics</a></li>
+                                                                                                                                                                                                <li><a href="/news/market/">Exchange</a></li>
+                                                                                                                                                                                                <li><a href="/news/other/">Other</a></li>
+                                                                                                                                                                                                <li><a href="/news/gamefi/">GameFi</a></li>
+                                                                                                                                                                                                <li><a href="/news/ico/">ICO</a></li>
+                                                                                    </ul>
+                    </li>
+                </ul>
+            
+            <div class="search-loop"></div>
+
+<form name="article-search" action="/"
+      id="bnt-article-search-form" class="">
+    <div class="wrap-fields">
+        <span class="close-search-form"></span>
+                                <label>
+            <input type="text"
+                   name="q"
+                   placeholder="Search"
+                   value="">
+        </label>
+        <label class="label-style">
+            <select name="rubricId" data-width="100%" data-minimum-results-for-search="Infinity">
+                                                            <option                                 value="-1">Latest news
+                        </option>
+                                                                                <option                                 value="-2">Video
+                        </option>
+                                                                                <option                                 value="1">Bitcoin
+                        </option>
+                                                                                <option                                 value="14">DeFi
+                        </option>
+                                                                                <option                                 value="15">NFT
+                        </option>
+                                                                                <option                                 value="2">Ethereum
+                        </option>
+                                                                                <option                                 value="3">Altcoins
+                        </option>
+                                                                                <option                                 value="4">Blockchain
+                        </option>
+                                                                                <option                                 value="6">Mining
+                        </option>
+                                                                                <option                                 value="7">Finance
+                        </option>
+                                                                                <option                                 value="18">Metaverse
+                        </option>
+                                                                                <option                                 value="8">Legal
+                        </option>
+                                                                                <option                                 value="9">Security
+                        </option>
+                                                                                <option                                 value="10">Analytics
+                        </option>
+                                                                                <option                                 value="11">Exchange
+                        </option>
+                                                                                <option                                 value="12">Other
+                        </option>
+                                                                                <option                                 value="16">GameFi
+                        </option>
+                                                                                <option                                 value="5">ICO
+                        </option>
+                                                </select>
+        </label>
+        <button type="submit"></button>
+    </div>
+</form>        </div>
+    </div>
+
+    
+<main  >
+    <div class="container">
+
+        <noindex>
+            <div ng-include="templateAppByOs" ng-if="templateAppByOs"></div>
+        </noindex>
+
+                    <noindex>
+                <div class="vert top"></div>
+            </noindex>
+        
+        
+        <div class="content row">
+
+            
+            <section
+                    class="col-xs-12 col-sm-9                                            ">
+                
+    
+    <a href="/news/altcoins/" class="btn grey back-to-list">Back to the list</a>
+    <br>
+
+        
+    <div class="news-item detail content_text"
+         data-article-id="33078709"
+         data-id="/news/altcoins/33078709/"
+         data-image="https://cnews24.ru/uploads/45e/45e0e168876cb266578b014cad76eb62dfc6d7a1.jpg"
+         data-title="Cardano Had Its Biggest Week in Years, But ADA Price Fails To Rally">
+
+        <h1 class="article_title">Cardano Had Its Biggest Week in Years, But ADA Price Fails To Rally</h1>
+
+        <div class="info middle-xs between-xs detail">
+            <div class="flex left">
+                                                    <span class="source">
+                                            <img src="https://cnews24.ru/uploads/logo-resources/1/1852.png" alt="source-logo">&nbsp;
+                                            coinpedia.org
+                                        </span>
+                                <span class="datetime flex middle-xs">
+                                                                29 June 2026 10:32, UTC
+                                    </span>
+                            </div>
+            <div class="flex end-xs right middle-xs">
+                
+                <div class="share-links flex middle-xs">
+                    <span class="share-icon hover"></span>
+                </div>
+            </div>
+        </div>
+
+                    <img src="https://cnews24.ru/uploads/45e/45e0e168876cb266578b014cad76eb62dfc6d7a1.jpg" alt="image" class="article-detail-image" style="margin-bottom: 16px;width:100%">
+        
+        
+                    <div class="content"><div class="cn-content">
+<!-- content --><p>The Cardano ecosystem recorded several major developments over the past week. Most notably, the launch of the Leios public testnet led activity. There were also upcoming decentralized finance (DeFi) initiatives, renewed ecosystem funding, and an application-level security incident involving the SecondFi wallet.</p>
+<adv data-paragraph="1"></adv><p>Here’s what happened in the Cardano ecosystem in the last week:</p>
+<adv data-paragraph="2"></adv><h2><strong>Leios Public Testnet Goes Live</strong></h2>
+<p>Cardano officially launched the public testnet for Leios, its next-generation scaling protocol, on June 23. Named Musashi Dojo after the legendary samurai Miyamoto Musashi, the testnet marks one of the network’s most known technical milestones in years. Moreover, the upgrade is seen as a major boost to Cardano’s transaction throughput by up to 65X. A mainnet hard fork is targeted for November 2026.</p>
+<figure>
+<div>
+<blockquote>
+<p dir="ltr">Musashi Dojo is live! The Leios public testnet is here.<br>Huge credit to IO's Leios team, and to the collaborators who made this possible: @Cardano_CF, @IntersectMBO &amp; @blinklabs_io. This was a truly collective effort.<br>Come explore. Test it. Break it.https://t.co/EI6nlxHqYF… pic.twitter.com/AD21vZ2Hv7</p>
+— Input Output Group (@IOGroup) June 23, 2026</blockquote>
+</div>
+</figure>
+<p>The rollout is structured into five phases: Earth, Water, Fire, Wind, and Void. These will progressively test the protocol from initial design validation to adversarial testing before mainnet deployment. As a result, the testnet allows stake pool operators (SPOs) to deploy Leios-enabled block producers. Developers can also begin testing decentralized applications (DApps), wallets, and infrastructure ahead of the upgrade.</p>
+<h2><strong>RealFi Testnet Set for July Launch</strong></h2>
+<p>Input Output Global (IOG) also announced that Phase 1 of its RealFi testnet will launch on July 6.</p>
+<p>The project aims to improve capital efficiency by enabling stablecoins to generate yield instead of remaining idle. The initiative represents IOG’s latest effort to expand decentralized finance (DeFi) use cases within the Cardano ecosystem.</p>
+<figure>
+<div>
+<blockquote>
+<p dir="ltr">Big news: the RealFi Phase 1 Testnet goes live on 6 July. 🚀<br><br>This is our first public step toward next-generation stablecoin infrastructure on Cardano – and a direct response to a problem we've been vocal about:<br><br>Crypto's clearest success story has scaled as money. But not as… pic.twitter.com/uQe68ds6iM</p>
+— RealFi (@realfi_co) June 24, 2026</blockquote>
+</div>
+</figure>
+<h2><strong>Project Catalyst Returns with 2 Million <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span></strong></h2>
+<p>Cardano’s community funding program, Project Catalyst, will return in August with a 2 million <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span> grant pool.</p>
+<figure>
+<div>
+<blockquote>
+<p dir="ltr">A new Catalyst pilot fund will start in August 2026, with a total grant pool of 2M <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span>.<br><br>We look forward to working with the community and supporting the Cardano builders. More details soon.<br><br>Read the announcement on the Forum and share your thoughts.https://t.co/MbM7xZ7IKc</p>
+— Project Catalyst (@Catalyst_onX) June 26, 2026</blockquote>
+</div>
+</figure>
+<p>The upcoming funding round will prioritize projects building around technologies such as Pyth, Brale, stablecoins, programmable tokens, and on-chain identity. This will provide fresh capital for developers and ecosystem builders.</p>
+<h2><strong>AlphaGrowth Proposes Treasury-Funded DeFi Initiative</strong></h2>
+<p>Meanwhile, AlphaGrowth unveiled PRIME, a proposal with a vision to accelerate DeFi adoption on Cardano.</p>
+<figure>
+<div>
+<blockquote>
+<p dir="ltr">1/11<br><br>Cardano DeFi is ready for prime time.<br><br>Today we’re introducing PRIME:<br><br>a 12-month AlphaGrowth-run program to help Cardano attract liquidity, deepen DeFi usage, and become a first-class destination for capital. pic.twitter.com/nJ11h3jQWr</p>
+— alphagrowth (@alphagrowth1) June 22, 2026</blockquote>
+</div>
+</figure>
+<p>The firm plans to request 120 million <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span> from the Cardano treasury to fund the initiative. It is also showcasing its previous work with major blockchain ecosystems including Compound, Uniswap, and Arbitrum. Notably, it says it helped support more than $1 billion in total value locked (TVL).</p>
+<h2><strong>SecondFi Exploit Prompts Security Reminder</strong></h2>
+<p>The week also saw a security incident involving SecondFi, formerly known as the Yoroi wallet. A vulnerability reportedly resulted in the theft of approximately 16 million <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span>.</p>
+<p>SecondFi stated that affected users will be fully compensated and advised users to follow updates through its official channels.</p>
+<figure>
+<div>
+<blockquote>
+<p dir="ltr">Update https://t.co/23F2M0YrUp</p>
+— Charles Hoskinson (@IOHK_Charles) June 24, 2026</blockquote>
+</div>
+</figure>
+<p>Addressing concerns, Cardano founder Charles Hoskinson emphasized that the blockchain itself was not compromised. He stated that Cardano’s protocol, cryptography, and core infrastructure remain secure.</p>
+<p>He described the exploit as an isolated application-level issue rather than a network-wide vulnerability.</p>
+<p>Cardano’s native token <span class="ticker" href="https://cryptonews.net/market-cap/cardano/" target="_blank">$ADA</span> traded at $0.1439, declining 0.8% over the past 24 hours despite a series of ecosystem developments.</p>
+<!-- end-content -->
+</div></div>
+                            <div class="article-source-link">
+                                            <a href="https://coinpedia.org/news/cardano-had-its-biggest-week-in-years-but-ada-price-fails-to-rally/?utm_source=CryptoNews&amp;utm_medium=app" class="source-host" target="_blank">coinpedia.org</a>
+                                    </div>
+                        </div>
+
+    
+            <noindex>
+            <div class="vert bottom"></div>
+        </noindex>
+    
+            <div class="m-b-64"></div>
+    
+    <div id="article-modal-message">
+    <div class="article">
+        <div class="close animate-all"></div>
+        <div class="title"></div>
+        <div class="message"></div>
+    </div>
+</div>
+
+
+    
+    <ul class="share-block" style="display: none">
+    <li class="vk">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fab fa-vk"></i>
+        </a>
+    </li>
+    <li class="fb">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </li>
+    <li class="tw">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </li>
+    <li class="vb">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fas fa-phone"></i>
+        </a>
+    </li>
+    <li class="wa">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </li>
+    <li class="tg">
+        <a href="" rel="nofollow noopener" target="_blank" title="">
+            <i class="fas fa-paper-plane"></i>
+        </a>
+    </li>
+</ul>
+
+            </section>
+
+                        <aside class="col-xs col-sm right-side">
+            <div class="download_the_app">
+    Download the <b>Crypto News app</b> and get  news about <br>crypto and blockchain from various sources:
+    <div class="apps flex center-xs">
+        <a rel="nofollow" target="_blank" href="https://app.appsflyer.com/id1267753692?pid=website&c=cryptonews.net">
+                            <img src="/i/app/side_app_store.svg" alt="">
+                    </a>
+        <a rel="nofollow" target="_blank" href="https://app.appsflyer.com/com.cryptonews?pid=website&c=cryptonews.net">
+                            <img src="/i/app/side_google_play.svg" alt="">
+                    </a>
+    </div>
+</div>                            <div class="latest_mews_title">Latest news</div>
+
+        <div class="latest_articles">
+                                                                    <div class="row news-item start-xs">
+                    <a href="/news/blockchain/33137261/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/315/315158e202004bd7ca4db48dfeded5bb6fc089e1.jpg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/blockchain/33137261/"
+                           class="title">BlackRock’s BUIDL hits $900M on Avalanche as RWA race grows</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>crypto.news</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            2 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                                                                                <div class="row news-item start-xs">
+                    <a href="/news/ethereum/33136840/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/ab8/ab895d7eeeae57532faa53180aca43cb1af603c0.jpg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/ethereum/33136840/"
+                           class="title">Ethereum vs. Bitcoin: Is ETH’s 5% Q3 rally the start of a structural rotation?</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>ambcrypto.com</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            2 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                                                                                <div class="row news-item start-xs">
+                    <a href="/news/security/33136920/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/d4c/d4c84bd5c20aac7d17275a3d0f44d12fc968e960.jpg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/security/33136920/"
+                           class="title">Bitcoin Holder Kidnapped in Bali, Tortured 30 Hours for Wallet Keys</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>en.coinotag.com</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            2 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                                                                                <div class="row news-item start-xs">
+                    <a href="/news/analytics/33136922/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/b80/b805f72d8d97044b37630c440dd17914e9427231.jpg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/analytics/33136922/"
+                           class="title">XRP Prints Bullish Divergence as Ripple CTO Emeritus Disproves &#039;Company Sale&#039; Rumors</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>u.today</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            2 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                                                                                <div class="row news-item start-xs">
+                    <a href="/news/blockchain/33137132/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/6f3/6f307c0df3bcbdcaa90e11170710d17260139bc2.jpeg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/blockchain/33137132/"
+                           class="title">One of Biggest Breakout Launches in Years: BitMine Lauds Robinhood Chain&#039;s Growth</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>u.today</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            2 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                                                                                <div class="row news-item start-xs">
+                    <a href="/news/analytics/33136523/"
+                       class="image-wrap col-xs-12 col-sm-3">
+                                                                                                    <span class="image lazy" data-src="https://cnews24.ru/uploads/1c2/1c22af6bdb7670bd261eebcbb463332fd9ffdc35.jpg">
+                                                    </span>
+                    </a>
+
+                    <div class="desc col-xs">
+                        <a href="/news/analytics/33136523/"
+                           class="title">Ethena price prediction: Will the $0.08 zone keep ENA’s recovery alive?</a>
+
+                                            </div>
+
+                    <div class="info alt flex middle-xs between-xs">
+                        <div class="col-xs">
+                            <div class="row middle-xs">
+                                <span>ambcrypto.com</span>
+                                <span class="middle-marker"></span>
+                                <span class="datetime flex middle-xs">
+                                                                            3 h
+                                                                    </span>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                        </div>
+
+
+                                        <noindex>
+                    <div class="vert side"></div>
+                </noindex>
+                        <h3 class="top-coins-title">Top 5 Cryptocurrencies</h3>
+<div id="top-coins">
+    <ng-include src="topCoinsTemplate" ng-if="topCoinsTemplate">
+        <div ng-if="!topCoinsTemplate">
+                            <div class="item preload">
+                    <div class="icon"></div>
+                    <div class="name-symbol">
+                        <div class="name"></div>
+                        <div class="symbol"></div>
+                    </div>
+                    <div class="price-percent">
+                        <div class="price"></div>
+                        <div class="percent red"></div>
+                    </div>
+                </div>
+                            <div class="item preload">
+                    <div class="icon"></div>
+                    <div class="name-symbol">
+                        <div class="name"></div>
+                        <div class="symbol"></div>
+                    </div>
+                    <div class="price-percent">
+                        <div class="price"></div>
+                        <div class="percent red"></div>
+                    </div>
+                </div>
+                            <div class="item preload">
+                    <div class="icon"></div>
+                    <div class="name-symbol">
+                        <div class="name"></div>
+                        <div class="symbol"></div>
+                    </div>
+                    <div class="price-percent">
+                        <div class="price"></div>
+                        <div class="percent red"></div>
+                    </div>
+                </div>
+                            <div class="item preload">
+                    <div class="icon"></div>
+                    <div class="name-symbol">
+                        <div class="name"></div>
+                        <div class="symbol"></div>
+                    </div>
+                    <div class="price-percent">
+                        <div class="price"></div>
+                        <div class="percent red"></div>
+                    </div>
+                </div>
+                            <div class="item preload">
+                    <div class="icon"></div>
+                    <div class="name-symbol">
+                        <div class="name"></div>
+                        <div class="symbol"></div>
+                    </div>
+                    <div class="price-percent">
+                        <div class="price"></div>
+                        <div class="percent red"></div>
+                    </div>
+                </div>
+                    </div>
+    </ng-include>
+</div>
+                            <noindex>
+                    <div class="vert side2"></div>
+                </noindex>
+                    </aside>
+    
+                    </div>
+
+    </div>
+</main>
+    <footer>
+    <div class="top container">
+
+        <div class="row start-xs">
+
+            <div class="col-xs-12 col-sm-8 f-side">
+
+                <div class="row wrap-site-menus">
+                    <div class="col-xs-12 col-sm cnews-menu">
+                        <h3>News</h3>
+                        <h3 class="more-title" ng-click="news_ets_open=!news_ets_open" ng-class="{open:news_ets_open}">
+                            News
+                            <span class="more" ng-class="{open:news_ets_open}"></span>
+                        </h3>
+                            <ul ng-class="{open:news_ets_open}">
+                                                                        <li class="item"><a href="/" class="middle-xs">Latest news</a></li>
+                                            <li class="item"><a href="/news/video/" class="middle-xs">Video</a></li>
+                                            <li class="item"><a href="/news/bitcoin/" class="middle-xs">Bitcoin</a></li>
+                                            <li class="item"><a href="/news/defi/" class="middle-xs">DeFi</a></li>
+                                            <li class="item"><a href="/news/nft/" class="middle-xs">NFT</a></li>
+                                            <li class="item"><a href="/news/ethereum/" class="middle-xs">Ethereum</a></li>
+                                                    <li class="item hide"><a href="/news/altcoins/" class="middle-xs">Altcoins</a></li>
+                                            <li class="item hide"><a href="/news/blockchain/" class="middle-xs">Blockchain</a></li>
+                                            <li class="item hide"><a href="/news/mining/" class="middle-xs">Mining</a></li>
+                                            <li class="item hide"><a href="/news/finance/" class="middle-xs">Finance</a></li>
+                                            <li class="item hide"><a href="/news/metaverse/" class="middle-xs">Metaverse</a></li>
+                                            <li class="item hide"><a href="/news/legal/" class="middle-xs">Legal</a></li>
+                                            <li class="item hide"><a href="/news/security/" class="middle-xs">Security</a></li>
+                                            <li class="item hide"><a href="/news/analytics/" class="middle-xs">Analytics</a></li>
+                                            <li class="item hide"><a href="/news/market/" class="middle-xs">Exchange</a></li>
+                                            <li class="item hide"><a href="/news/other/" class="middle-xs">Other</a></li>
+                                            <li class="item hide"><a href="/news/gamefi/" class="middle-xs">GameFi</a></li>
+                                            <li class="item hide"><a href="/news/ico/" class="middle-xs">ICO</a></li>
+                <li class="item cursor more" ng-click="news_ets_open=!news_ets_open"
+            ng-show="!news_ets_open">
+            <span class="flex">More...</span>
+        </li>
+        <li class="item cursor more" ng-click="news_ets_open=!news_ets_open"
+            ng-show="news_ets_open">
+            <span class="flex">Minimize</span>
+        </li>
+    </ul>
+
+                    </div>
+
+                                            <div class="col-xs-12 col-sm editorial-footer-menu">
+                            <h3>Editorial</h3>
+                            <h3 class="more-title"
+                                ng-class="{open:articles_open}"
+                                ng-click="articles_open=!articles_open">Editorial
+                                <span class="more" ng-class="{open:articles_open}"></span>
+                            </h3>
+                                                            <ul ng-class="{open:articles_open}">
+                                                                            <li class="item">
+                                            <a href="/editorial/all-posts/">
+                                                All articles</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/news/">
+                                                News</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/investments/">
+                                                Investments</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/regulation/">
+                                                Regulation</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/technology/">
+                                                Technology</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/guest-posts/">
+                                                Guest posts</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/analytics/">
+                                                Analytics</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/press-releases/">
+                                                Partners news</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="/editorial/guides/">
+                                                How to start</a>
+                                        </li>
+                                                                    </ul>
+                                                    </div>
+                    
+                    <div class="col-xs-12 col-sm about-us-menu">
+                        <h3>About us</h3>
+                        <h3 class="more-title" ng-click="about_open=!about_open" ng-class="{open:about_open}">
+                            About us
+                            <span class="more" ng-class="{open:about_open}"></span>
+                        </h3>
+                        <ul ng-class="{open:about_open}">
+                                                        
+<li class="item ">
+    <a href="/about/">About</a>
+</li>
+<li class="item ">
+    <a href="/about-app/">About app</a>
+</li>
+<li class="item ">
+    <a href="/advertising/">Advertising</a>
+</li>
+<li class="item ">
+    <a href="/contacts/">Contacts</a>
+</li>
+<li class="item ">
+    <a href="/event/?where%5Bactually%5D=true">Events</a>
+</li>
+    <li class="item ">
+        <a href="/glossary/">Glossary</a>
+    </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm">
+                        <h3>Policies</h3>
+                        <h3 class="more-title policies" ng-click="polices_open=!polices_open"
+                            ng-class="{open:polices_open}">
+                            Policies
+                            <span class="more" ng-class="{open:polices_open}"></span>
+                        </h3>
+                        <ul ng-class="{open:polices_open}">
+                            <li class="item">
+                                <a href="/privacy-policy/">
+                                    Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="/copyright/">
+                                    For copyright holders
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/disclaimer/">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="/personal-data/">PD processing policy</a>
+                            </li>
+                            <li>
+                                <a href="/public-offer/">User Agreement</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm f-side apps-shared-links">
+                <div class="download_the_app">
+    Download the <b>Crypto News app</b> and get  news about <br>crypto and blockchain from various sources:
+    <div class="apps flex center-xs">
+        <a rel="nofollow" target="_blank" href="https://app.appsflyer.com/id1267753692?pid=website&c=cryptonews.net">
+                            <img src="/i/app/side_app_store.svg" alt="">
+                    </a>
+        <a rel="nofollow" target="_blank" href="https://app.appsflyer.com/com.cryptonews?pid=website&c=cryptonews.net">
+                            <img src="/i/app/side_google_play.svg" alt="">
+                    </a>
+    </div>
+</div>                <div class="social-subscribe">
+    <div>Subscribe to our social networks:</div>
+    <div class="social">
+                    <div class="item twitter">
+                <a href="https://twitter.com/cryptonews_eng" target="_blank" rel="nofollow">
+                    <i class="fab fa-twitter" aria-hidden="true" style="color: #fff"></i>
+                </a>
+            </div>
+                    <div class="item telegram">
+                <a href="https://t.me/cryptonews_net" target="_blank" rel="nofollow">
+                    <i class="fa fa-paper-plane" aria-hidden="true" style="color: #fff"></i>
+                </a>
+            </div>
+                    <div class="item linkedin">
+                <a href="https://www.linkedin.com/company/cryptonews-net/" target="_blank" rel="nofollow">
+                    <i class="fab fa-linkedin" aria-hidden="true" style="color: #fff"></i>
+                </a>
+            </div>
+            </div>
+</div>
+
+                            </div>
+
+        </div>
+    </div>
+
+    <div class="separator">
+        <div class="container"></div>
+    </div>
+
+    <div class="bottom">
+        <div class="container">
+            <div class="copyright">
+                © 2018 - 2026 Crypto News. When using the content, a link to cryptonews.net is required.
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<div ng-include="templateCookieAccept" ng-if="templateCookieAccept"></div>    <noindex>
+        <div class="vert footer" style="display: none"></div>
+    </noindex>
+    <script src="/js/controllers/offer-the-news.min.js?t=1775129841"></script>
+    <script src="/js/controllers/mistake-form.min.js?t=1775129841"></script>
+    <script src="/js/controllers/article-comment-controller.min.js?t=1775129841"></script>
+    <script src="/js/min.js?t=1775129841"></script>
+    <script src="/js/controllers/shareArticle.min.js?t=1775129841"></script>
+    <script src="/js/select2.min.js"></script>
+
+<script data-cfasync="false" type="text/javascript" id="clever-core">
+    /* <![CDATA[ */
+    (function (document, window) {
+        var a, c = document.createElement("script"), f = window.frameElement;
+
+        c.id = "CleverCoreLoader96131";
+        c.src = "https://scripts.cleverwebserver.com/b1e029e2fa78ca8833257c47727b46c5.js";
+
+        c.async = !0;
+        c.type = "text/javascript";
+        c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+        c.setAttribute("data-callback", "put-your-callback-function-here");
+        c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
+        c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
+
+        try {
+            a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+        } catch (e) {
+            a = !1;
+        }
+
+        a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+        a.parentNode.insertBefore(c, a);
+    })(document, window);
+    /* ]]> */
+</script>
+</body>
+</html>

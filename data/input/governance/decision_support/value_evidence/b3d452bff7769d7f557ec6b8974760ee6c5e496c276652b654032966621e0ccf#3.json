@@ -1,0 +1,194 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3",
+  "confidence": 0.7,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "7ef093ff5e3d704c9ef980aeffbd7b5ec53cc2d05ef17b96a8337d6e5849cbcc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-21bce17feb.snap",
+          "url": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0030/README.md"
+        },
+        {
+          "sha256": "6aa73bd2095419ca16578de106ffb1e89eea736a6b17ad94c6fe6c430fc1feb9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-meshjs-dev-f4de34eaf1.snap",
+          "url": "https://meshjs.dev/apis/wallets"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "sha256": "7c507e066ac681ebb5f48f0a4cae774c52cf4490b77c7ae3ad425074053a0fa0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-20d730f8c5.snap",
+          "url": "https://github.com/IntersectMBO/governance-actions"
+        },
+        {
+          "sha256": "e86167871cd38fc1e45da1dd98a2c60ec3634bdd92e5fb88e34ee0e78a8602b5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-c067025325.snap",
+          "url": "https://github.com/Ryun1"
+        },
+        {
+          "sha256": "821dad72ed2c0b602e40cc800333d611b304e6bfa5eea20fd272424a09902fdf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-org-9fc105e428.snap",
+          "url": "https://cardano.org/hardforks/"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "sha256": "c93cd3972d83921ce664c7825240409f9ce23bd9a45efe3c58d911bde83ab71f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18d3916942.snap",
+          "url": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0001/README.md"
+        },
+        {
+          "sha256": "821dad72ed2c0b602e40cc800333d611b304e6bfa5eea20fd272424a09902fdf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-org-9fc105e428.snap",
+          "url": "https://cardano.org/hardforks/"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "7ef093ff5e3d704c9ef980aeffbd7b5ec53cc2d05ef17b96a8337d6e5849cbcc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-21bce17feb.snap",
+          "url": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0030/README.md"
+        },
+        {
+          "sha256": "6aa73bd2095419ca16578de106ffb1e89eea736a6b17ad94c6fe6c430fc1feb9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-meshjs-dev-f4de34eaf1.snap",
+          "url": "https://meshjs.dev/apis/wallets"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "sha256": "7c507e066ac681ebb5f48f0a4cae774c52cf4490b77c7ae3ad425074053a0fa0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-20d730f8c5.snap",
+          "url": "https://github.com/IntersectMBO/governance-actions"
+        },
+        {
+          "sha256": "821dad72ed2c0b602e40cc800333d611b304e6bfa5eea20fd272424a09902fdf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-org-9fc105e428.snap",
+          "url": "https://cardano.org/hardforks/"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "material_duplication": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "7ef093ff5e3d704c9ef980aeffbd7b5ec53cc2d05ef17b96a8337d6e5849cbcc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-21bce17feb.snap",
+          "url": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0030/README.md"
+        },
+        {
+          "sha256": "6aa73bd2095419ca16578de106ffb1e89eea736a6b17ad94c6fe6c430fc1feb9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-meshjs-dev-f4de34eaf1.snap",
+          "url": "https://meshjs.dev/apis/wallets"
+        },
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "sha256": "7c507e066ac681ebb5f48f0a4cae774c52cf4490b77c7ae3ad425074053a0fa0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-20d730f8c5.snap",
+          "url": "https://github.com/IntersectMBO/governance-actions"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        },
+        {
+          "sha256": "7c507e066ac681ebb5f48f0a4cae774c52cf4490b77c7ae3ad425074053a0fa0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-20d730f8c5.snap",
+          "url": "https://github.com/IntersectMBO/governance-actions"
+        },
+        {
+          "sha256": "821dad72ed2c0b602e40cc800333d611b304e6bfa5eea20fd272424a09902fdf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-org-9fc105e428.snap",
+          "url": "https://cardano.org/hardforks/"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "c93cd3972d83921ce664c7825240409f9ce23bd9a45efe3c58d911bde83ab71f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18d3916942.snap",
+          "url": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0001/README.md"
+        },
+        {
+          "sha256": "821dad72ed2c0b602e40cc800333d611b304e6bfa5eea20fd272424a09902fdf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-org-9fc105e428.snap",
+          "url": "https://cardano.org/hardforks/"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:53+00:00"
+}

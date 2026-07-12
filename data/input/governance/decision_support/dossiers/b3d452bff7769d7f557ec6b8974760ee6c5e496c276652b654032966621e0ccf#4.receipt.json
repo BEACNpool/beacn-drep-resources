@@ -5,7 +5,7 @@
     "expires_after_epoch": "645",
     "metadata_title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...",
     "proposed_epoch": "638",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "25400000000000"
   },
   "anchor": {
     "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
@@ -18,50 +18,33 @@
     "reason": null
   },
   "anchor_sha256": "4071b91a1a6e86e078c66502c08b131219e0b4153e59f96257393ae112f7e235",
-  "backend": "codex",
+  "backend": "claude",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:36:23+00:00",
-  "model": "gpt-5.5",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=39 no=23 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "8d13e3c5e821c559aa7297d4541ab24009392c6b4dad1031f5eec21da3742421",
-  "prompt_sha256": "6ecdbb9bc8a0b9269d445a4f97a480263be07a28265a2b919f19926e90e53a4f",
-  "review_status": "verification_failed",
-  "treasury_doctrine_version": "1.3.0",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-12T15:27:26+00:00",
+  "model": "claude-cli",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=45 no=26 abstain=12 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "eb8629bae8615096ffcbd17ee145cdab3c9b837fd67e4d893f9a0e731f525013",
+  "prompt_sha256": "d4c448e571f1ebf37276c08f896286454407396b8e19c44ac3020eb6783e5d64",
+  "review_status": "gate_failed",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "claude",
-    "contradicted": 0,
-    "fact_count": 25,
-    "fact_verdicts": [],
-    "filtered_legacy_snapshot_items": [],
+    "backend": "codex",
     "gates": {
       "anchor_sha256_matches_draft": true,
       "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
       "financial_and_risk_rows_present": true,
-      "sections_grounded_7of7": true
+      "sections_grounded_7of7": false
     },
-    "material_discrepancies": [],
-    "model": "claude-cli",
-    "not_found": 0,
-    "output_sha256": "58315fe759f3d0fd7385edce142d9908621288bd87d0bc5ba428012bbbccbd3e",
-    "passed": false,
-    "prompt_sha256": "c0eec5c6b6fe762fac4b8b8d3e4bc10f7852c000683601d02d4e5f96dc339268",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 25
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "model": "gpt-5.5",
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:19:55+00:00"
+    "verified_at_utc": "2026-07-12T15:44:50+00:00"
   }
 }

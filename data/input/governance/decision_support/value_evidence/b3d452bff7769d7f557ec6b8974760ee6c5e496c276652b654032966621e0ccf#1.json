@@ -1,0 +1,196 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#1",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "cdfe1b0a4ba70bdfcab2482ac45b459b5f92d31d10a5c65c0c46e0a22ce86e05",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-b4ff274f33.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/get-started.mdx"
+        },
+        {
+          "sha256": "b12f457811e7f8f0b03a72305eb74a1e03a3ee7b7f00e714621413e29b021963",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-c57b9faa0c.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@txpipe/dolos"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "4c51a27b9b1e0418f579da9db6f7a917143d94d3fb87a6832a35a35f5ea8bb0d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-projectcatalyst-io-b982cda2db.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-open-developers/grpc-cardano-a-streaming-api-for-cardano-using-dolos-by-txpipe"
+        },
+        {
+          "sha256": "65b68c0214bf1ad6e3bf252d323083e7fcd4ccb0cbcda50489f14167c92ad300",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7b751c3a9f.snap",
+          "url": "https://github.com/txpipe/dolos"
+        },
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "1183abf4ec446bf6dbdd7ef290387c4f341d3112bb1b7dab112e60cff360b375",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-developers-cardano-org-cfd7975d1c.snap",
+          "url": "https://developers.cardano.org/tools/"
+        },
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        },
+        {
+          "sha256": "543424d0fd674bc58d7daed338fdb29c5c17ea9680427f723b6c821de86e8472",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-d456c90bf3.snap",
+          "url": "https://github.com/blockfrost/blockfrost-platform"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "572a3a7b1e49ac192f9f009d93c3eb9ae0eb4f8a9eac9b5c6ab69b25a298b2d3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-705994db00.snap",
+          "url": "https://github.com/txpipe/dolos/releases"
+        },
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        },
+        {
+          "sha256": "1183abf4ec446bf6dbdd7ef290387c4f341d3112bb1b7dab112e60cff360b375",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-developers-cardano-org-cfd7975d1c.snap",
+          "url": "https://developers.cardano.org/tools/"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "b12f457811e7f8f0b03a72305eb74a1e03a3ee7b7f00e714621413e29b021963",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-c57b9faa0c.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@txpipe/dolos"
+        },
+        {
+          "sha256": "4c5bab06eb7238043806287a921fb28c4e238e9b2f356dc4fabd966e7e6d382d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-hub-docker-com-5c744601ac.snap",
+          "url": "https://hub.docker.com/v2/repositories/apexfusion/dolos/"
+        },
+        {
+          "sha256": "cdfe1b0a4ba70bdfcab2482ac45b459b5f92d31d10a5c65c0c46e0a22ce86e05",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-b4ff274f33.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/get-started.mdx"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "65b68c0214bf1ad6e3bf252d323083e7fcd4ccb0cbcda50489f14167c92ad300",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7b751c3a9f.snap",
+          "url": "https://github.com/txpipe/dolos"
+        },
+        {
+          "sha256": "572a3a7b1e49ac192f9f009d93c3eb9ae0eb4f8a9eac9b5c6ab69b25a298b2d3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-705994db00.snap",
+          "url": "https://github.com/txpipe/dolos/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "1b28c76335db420d1f4d4b928c3ed8cf0bb756fdcf817e5ea2c32f258e2bb9c8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-efebe445f4.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-txpipe-dolos-lightweight-data-node"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "65b68c0214bf1ad6e3bf252d323083e7fcd4ccb0cbcda50489f14167c92ad300",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7b751c3a9f.snap",
+          "url": "https://github.com/txpipe/dolos"
+        },
+        {
+          "sha256": "4c5bab06eb7238043806287a921fb28c4e238e9b2f356dc4fabd966e7e6d382d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-hub-docker-com-5c744601ac.snap",
+          "url": "https://hub.docker.com/v2/repositories/apexfusion/dolos/"
+        },
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "55a5751892bf7f02cd922616b90674b1d1bf0569ba0a9c8620c96d05dd2c7eba",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-cc0687ad07.snap",
+          "url": "https://raw.githubusercontent.com/blockfrost/blockfrost-platform/main/docs/src/content/en/data-node.mdx"
+        },
+        {
+          "sha256": "1183abf4ec446bf6dbdd7ef290387c4f341d3112bb1b7dab112e60cff360b375",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-developers-cardano-org-cfd7975d1c.snap",
+          "url": "https://developers.cardano.org/tools/"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:38+00:00"
+}

@@ -5,7 +5,7 @@
     "expires_after_epoch": "644",
     "metadata_title": "Strike Finance Liquidity Deployment",
     "proposed_epoch": "637",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "9000000000000"
   },
   "anchor": {
     "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
@@ -18,50 +18,33 @@
     "reason": null
   },
   "anchor_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
-  "backend": "codex",
+  "backend": "claude",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:45:57+00:00",
-  "model": "gpt-5.5",
-  "onchain_context": "onchain DRep vote counts so far: yes=53 no=39 abstain=14 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "63bd7e4de52e12f28ad71248a2469f54d4703577714a35e2482a2cd4edeaa281",
-  "prompt_sha256": "8499fa572586127cb322f1a30d2dfe80b710e7aaf95d9d3aed31422c29ac1679",
-  "review_status": "verification_failed",
-  "treasury_doctrine_version": "1.3.0",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-12T15:12:52+00:00",
+  "model": "claude-cli",
+  "onchain_context": "onchain DRep vote counts so far: yes=59 no=44 abstain=16 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "f5b9439e697d4b557b6814d93e20bedfaf7b85bd7da09abb4b7fdaf56277d50a",
+  "prompt_sha256": "07842effa879d681d02999f4e8e4def2357c269a74c050db12a49296deac6bd7",
+  "review_status": "gate_failed",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "claude",
-    "contradicted": 0,
-    "fact_count": 27,
-    "fact_verdicts": [],
-    "filtered_legacy_snapshot_items": [],
+    "backend": "codex",
     "gates": {
       "anchor_sha256_matches_draft": true,
       "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
       "financial_and_risk_rows_present": true,
-      "sections_grounded_7of7": true
+      "sections_grounded_7of7": false
     },
-    "material_discrepancies": [],
-    "model": "claude-cli",
-    "not_found": 0,
-    "output_sha256": "8cab26908bb6ef5314f50518798a211a49348778cb58e57812bf0e7330cd0371",
-    "passed": false,
-    "prompt_sha256": "27143b25c319d885e27fadd0c9cd895bca0e2694021fa3096bd9713cc9cc919b",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 27
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "model": "gpt-5.5",
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:24:16+00:00"
+    "verified_at_utc": "2026-07-12T15:43:50+00:00"
   }
 }

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<title>Strike Finance (STRIKE) on the Cardano Blockchain | Prices, Charts, Teams &amp;amp; Ratings</title>
+  <meta content="Find out about Strike Finance (STRIKE) on the Cardano Blockchain, so you can make well-informed investment decisions. Get immediate access to the project Website, Social Media, Whitepaper and Token distribution." name="description"/>
+  <meta content="Find out about Strike Finance (STRIKE) on the Cardano Blockchain | Prices, Charts, Teams &amp; Ratings" property="og:title"/>
+  <meta content="Find out about Strike Finance (STRIKE) on the Cardano Blockchain, so you can make well-informed investment decisions. Get immediate access to the project Website, Social Media, Whitepaper and Token distribution." property="og:description"/>
+  <meta content="Find out about  Strike Finance (STRIKE) on the Cardano Blockchain | Prices, Charts, Teams &amp; Ratings" property="twitter:title"/>
+  <meta content="Find out about Strike Finance (STRIKE) on the Cardano Blockchain, so you can make well-informed investment decisions. Get immediate access to the project Website, Social Media, Whitepaper and Token distribution." property="twitter:description"/>
+    <meta content="https://cdn.cardanocube.com/bv4edsrcf0c1ab0gz8xmx13guowg" property="og:image"/>
+    <meta content="https://cdn.cardanocube.com/bv4edsrcf0c1ab0gz8xmx13guowg" property="twitter:image"/>
+
+<meta property="og:type" content="website">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="view-transition" content="same-origin">
+<link rel="canonical" href="https://www.cardanocube.com/projects/strike-finance">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="NpIq1XoK_GCHkcGwXSiMrUjOGMM7xRFyQEOdxNlTJFbuxTGixvag1wHnhvoKw_T-bvq8B86avBAV5UqA4My69w" />
+
+<meta name="action-cable-url" content="/cable" />
+
+<link rel="stylesheet" href="/assets/application-62007246c1bb3726abe2304532c6185a0f7ca90fbf4ea975e90bf7f8e9f4d4c2.css" data-turbo-track="reload" />
+<script src="/assets/application_entry-f6a89c5c312993b43103509b1f826ea580e8dc4954cdc675d0ed36ce1236ef18.js" type="module" data-turbo-track="reload"></script>
+
+
+<link rel="stylesheet" href="/assets/hotwire_combobox-85c2bc86d929df928ff6268617e1558cb18c6a69f8c81e8a89fe9562dcd9c355.css" />
+
+
+
+<link href="/assets/favicon-34c283cf5506363bbc0a8c9d90e932a0cbcf5c152add75ce474f87d4ad904b9e.png" rel="shortcut icon" type="image/x-icon">
+<link href="/assets/webclip-8bb68a86c5c2ab371bc5fc1541d435a032d81c65132e9df62b6c13b79d2bc097.png" rel="apple-touch-icon">
+
+</head>
+<body class=""
+      data-controller="application wallet-select"
+      data-page-type="project"
+      data-wallet-connect-network="mainnet"
+      data-action="wallet-connect:connected@document->wallet-select#onConnectionSuccess
+                  wallet-connect:connectionFailure@document->wallet-select#onConnectionFailure"
+      data-wallet-select-connection-status-icon-success-class="fa-solid fa-plug-circle-bolt fs-5 text-primary"
+      data-wallet-select-connection-status-icon-failure-class="fa-solid fa-plug-circle-minus fs-5 text-alert"
+      data-wallet-select-signature-status-icon-success-class="fa-solid fa-pen-nib fs-5 text-primary"
+      data-wallet-select-signature-status-icon-failure-class="fa-solid fa-pen-nib fs-5 text-alert"
+      data-wallet-select-hidden-class="d-none"
+      data-authenticated="false"
+      data-sign-in-path="/sign_in">
+
+  
+
+  <header class="pt-4 position-relative" data-controller="navigation header-analytics" data-action="click->header-analytics#trackClick" data-navigation-open-class="open">
+  <button type="button" class="backdrop position-fixed z-2 d-lg-none top-0 left-0 border-0 w-100 h-100" aria-label="Toggle navigation" data-action="click->navigation#toggleMenu" data-navigation-target="aria" aria-expanded="false">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+  <div class="container-xxl g-5">
+    <div class="row">
+      <div class="d-flex gap-4 position-relative">
+        <div class="d-flex flex-fill gap-3 position-relative z-2 align-items-center w-100">
+          <a href="/" class="d-flex align-items-center text-decoration-none position-relative me-auto order-0 gap-2">
+            <div class="fs-11">
+              
+<div class="cube-loader" data-controller="cube-spinner">
+  <div class="base"></div>
+  <div class="scene">
+    <div class="cube">
+      <div class="face front"></div>
+      <div class="face back"></div>
+      <div class="face right"></div>
+      <div class="face left"></div>
+      <div class="face bottom"></div>
+      <div class="face top"></div>
+    </div>
+  </div>
+  <div class="top-plane"></div>
+</div>
+            </div>
+            <img class="d-none d-sm-block" loading="eager" alt="" src="/assets/cardano_cube_text_logo-5dd08a95a39926a9dfb65a86b331647e1360440a2958aa3899f8cb0eba51b3cd.svg" />
+          </a>
+
+            <a class="mobile-btn d-flex d-lg-none justify-content-center align-items-center btn btn-outline-grey p-2 order-2" href="/sign_in">
+              <i class="fa fa-user text-light"></i>
+</a>
+          <div class="mobile-btn d-flex flex-nowrap order-3" data-controller="global-search-analytics">
+            <form class="d-lg-flex col-auto w-100" action="search_url" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WEzMWln3a_i5PfQSvyWdtbWqAI-0Q9wWfpIs9hymFzbmAYa_hYVdYRSbR-RbTZSEXotMuI38U1AZR-G0uR6j2g" autocomplete="off" />
+              <fieldset class="hw-combobox" data-async-id="search" data-controller="hw-combobox" data-hw-combobox-expanded-value="false" data-hw-combobox-name-when-new-value="search" data-hw-combobox-original-name-value="search" data-hw-combobox-autocomplete-value="both" data-hw-combobox-small-viewport-max-width-value="990px" data-hw-combobox-async-src-value="/searches/globals?for_id=search&amp;format=turbo_stream" data-hw-combobox-filterable-attribute-value="data-filterable-as" data-hw-combobox-autocompletable-attribute-value="data-autocompletable-as" data-hw-combobox-selected-class="hw-combobox__option--selected" data-hw-combobox-invalid-class="hw-combobox__input--invalid">
+  <label class="hw-combobox__label" for="search" hidden="hidden"></label>
+
+  
+<input type="hidden" name="search" id="search-hw-hidden-field" data-hw-combobox-target="hiddenField" autocomplete="off" />
+
+
+  <div class="hw-combobox__main__wrapper" data-hw-combobox-target="mainWrapper">
+    <style>
+      .hw-combobox__announcer {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+
+      .hw_combobox__pagination__wrapper {
+        height: 5px;
+      }
+</style>    <div class="hw-combobox__announcer" aria-live="polite" aria-atomic="true" data-hw-combobox-target="announcer"></div>
+    <input id="search" role="combobox" class="form-control text-bg-dark bg-transparent" type="search" data-action="focus-&gt;hw-combobox#open input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside focusin@window-&gt;hw-combobox#closeOnFocusOutside turbo:before-stream-render@document-&gt;hw-combobox#rerouteListboxStreamToDialog turbo:before-cache@document-&gt;hw-combobox#hideChipsForCache turbo:morph-element-&gt;hw-combobox#idempotentConnect" data-hw-combobox-target="combobox" data-async-id="search" aria-controls="search-hw-listbox" aria-owns="search-hw-listbox" aria-haspopup="listbox" aria-autocomplete="both" aria-activedescendant="" autocomplete="off" placeholder="Search ...">
+<span class="hw-combobox__handle" data-action="click-&gt;hw-combobox#clearOrToggleOnHandleClick" data-hw-combobox-target="handle"></span>
+
+    <ul id="search-hw-listbox" role="listbox" class="hw-combobox__listbox" hidden="hidden" data-hw-combobox-target="listbox" aria-multiselectable="false">
+
+    
+<li id="search__hw_combobox_pagination__wrapper" class="hw_combobox__pagination__wrapper" data-hw-combobox-target="endOfOptionsStream" aria-hidden="true">
+  <turbo-frame loading="lazy" id="search__hw_combobox_pagination" src="/searches/globals?for_id=search&amp;format=turbo_stream"></turbo-frame>
+</li>
+</ul>
+    <div tabindex="-1" data-hw-combobox-target="dialogFocusTrap"></div>
+
+<div class="hw-combobox__dialog__wrapper">
+  <dialog class="hw-combobox__dialog" role="dialog" data-action="keydown-&gt;hw-combobox#navigate" data-hw-combobox-target="dialog">
+    <label class="hw-combobox__dialog__label" for="search-hw-dialog-combobox"></label>
+    <input id="search-hw-dialog-combobox" role="combobox" class="hw-combobox__dialog__input" autofocus="autofocus" type="search" data-action="input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside" data-hw-combobox-target="dialogCombobox" aria-controls="search-hw-dialog-listbox" aria-owns="search-hw-dialog-listbox" aria-autocomplete="both" aria-activedescendant="">
+    <ul id="search-hw-dialog-listbox" class="hw-combobox__dialog__listbox" role="listbox" data-hw-combobox-target="dialogListbox" aria-multiselectable="false"></ul>
+</dialog></div>
+</div></fieldset>
+</form>          </div>
+
+          <div class="d-none d-lg-flex flex-nowrap align-items-center ms-2 order-4">
+              <a class="btn btn-outline-transparent-light me-2 py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/sign_in">Sign in</a>
+              <a class="btn btn-primary py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/register">Register</a>
+          </div>
+
+          <div class="mobile-btn d-flex d-lg-none order-5">
+            <button aria-label="Toggle navigation" data-navigation-target="aria" aria-expanded="false" type="button" data-action="click->navigation#toggleMenu" class="hamburger-menu btn btn-outline-grey p-2">
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+            </button>
+          </div>
+
+          <div class="menu-wrapper d-none d-lg-block d-flex flex-nowrap w-100 justify-content-end order-1">
+            <div class="nav-wrapper d-lg-flex align-items-center justify-content-between rounded-3 p-3 p-lg-0 rounded-lg-0">
+
+                <ul class="nav d-none d-lg-flex gap-2 justify-content-start mt-0 px-3 px-lg-0 mb-3 mb-lg-0">
+                  <li class="nav-item position-relative flex-wrap justify-content-between align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Explore <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-ecosystem-interactive-map">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-map"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Ecosystem Map</h6>
+                              <small class="text-grey">An ecosystem overview</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/explore">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-compass"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore all projects</h6>
+                              <small class="text-grey">Find Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/governance">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-scale-balanced"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore Governance</h6>
+                              <small class="text-grey">Governance Actions, DReps, Voting</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/popular">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-fire"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Popular</h6>
+                              <small class="text-grey">Popular Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/latest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-list"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">New projects</h6>
+                              <small class="text-grey">Recently added Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/suggest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-plus"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Suggest a Project</h6>
+                              <small class="text-grey">Suggest a project to be added</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Community <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-community">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-user-group"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Community</h6>
+                              <small class="text-grey">Explore Community Members</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/graveyard">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-skull"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Graveyard</h6>
+                              <small class="text-grey">The Cardano Archive</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Resources <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/articles">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-graduation-cap"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">News & Articles</h6>
+                              <small class="text-grey">Articles, News and Updates</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/videos">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-play"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Videos</h6>
+                              <small class="text-grey">The latest Cardano videos</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/developer-tools">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-code"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Developer Hub</h6>
+                              <small class="text-grey">Everything a developer needs</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+  <div class="row pb-4 mt-5 hero" data-controller="project-analytics" data-project-analytics-project-slug-value="strike-finance" data-action="click->project-analytics#trackClick">
+    <div class="col-12">
+      <p>
+        <a class="breadcrumb-link btn btn-dark text-uppercase" href="/explore">
+          <i class="fa fa-chevron-left opacity-50 me-2"></i><span>All Projects</span>
+</a>      </p>
+    </div>
+
+    
+    
+    
+
+    <div class="row mb-4 mb-lg-6">
+      <div class="d-flex flex-column flex-md-row gap-4 align-items-md-center mb-4 mb-lg-5">
+        <img loading="lazy" decoding="async" alt="Strike Finance" class="logo d-none d-md-block rounded-3" src="https://cdn.cardanocube.com/ugjejpj74i60259o7oyt97g6hwhb" />
+
+        <div class="d-flex flex-column col-12 col-lg-6">
+          <div class="d-flex flex-row gap-3 align-items-center mb-3 mb-md-1">
+            <img loading="lazy" decoding="async" alt="Strike Finance" class="logo d-md-none rounded-3" src="https://cdn.cardanocube.com/ugjejpj74i60259o7oyt97g6hwhb" />
+            <h1>Strike Finance</h1>
+          </div>
+
+          <p class="fs-8">Strike Finance is a derivatives protcol that offers options, forwards, and perpetuals futures trading.</p>
+
+          <div role="list" class="col-12 d-flex gap-2 flex-wrap">
+              <a class="btn btn-outline-transparent-light" data-project-event="project_category_click" data-project-category-slug="defi" href="/categories/defi">DeFi</a>
+              <a class="btn btn-outline-transparent-light" data-project-event="project_category_click" data-project-category-slug="investment-management" href="/categories/investment-management">Investment Management</a>
+              <a class="btn btn-outline-transparent-light" data-project-event="project_category_click" data-project-category-slug="popular" href="/categories/popular">Popular</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-8 mb-5 mb-lg-0">
+      <div class="d-flex gap-3 justify-content-between align-items-center">
+
+        <div class="col d-flex gap-3 align-items-center">
+          <div id="watchlist_button">
+    <form class="button_to" method="post" action="/my/projects/watchlist"><button class="btn pe-sm-2 btn-outline-transparent-light fs-9" data-action="click-&gt;project-analytics#trackWatchlist" data-project-action="add" type="submit">
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-none d-sm-block text-uppercase ls-3">Watch</div>
+        <div class="text-grey py-1 px-2 bg-white bg-opacity-10 rounded"><i class="fa-regular fa-star"></i></div>
+      </div>
+</button><input type="hidden" name="authenticity_token" value="8CO3BAnwtTz_nFEx8gO_Cd-w9IdoU714RNoRHiGg-gca8nNGBil8asxoWFIvTbLD5IZOGW6xdeVGDQmgtxjE5w" autocomplete="off" /><input type="hidden" name="subscription[subscribable_id]" value="2785" autocomplete="off" /></form></div>
+
+          <div id="project_report_button">
+    <form class="button_to" method="get" action="/my/projects/strike-finance/report/new"><button data-turbo-frame="modal" data-action="click-&gt;project-analytics#trackReportOpen" class="btn pe-sm-2 btn-outline-transparent-light fs-9" type="submit">
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-none d-sm-block text-uppercase ls-3">Report</div>
+        <div class="text-grey py-1 px-2 bg-white bg-opacity-10 rounded"><i class="fa-regular fa-flag"></i></div>
+      </div>
+</button></form></div>
+
+        </div>
+
+        <div class="col social-icons d-flex flex-wrap justify-content-end me-2 row-gap-2 column-gap-3 align-items-center fs-7 opacity-75">
+          <a target="_blank" class="d-flex align-items-center" data-project-event="project_outbound_click" data-project-link-type="website" href="https://strikefinance.org">
+  <i class="fa fa-globe"></i>
+</a>
+<a target="_blank" class="d-flex align-items-center" data-project-event="project_outbound_click" data-project-link-type="whitepaper" href="https://strikefinance.org">
+  <i class="fa fa-book-open"></i>
+</a>
+<a target="_blank" class="d-flex align-items-center" data-project-event="project_outbound_click" data-project-link-type="twitter" href="https://x.com/strikeperps">
+  <i class="fa-brands fa-x-twitter"></i>
+</a>
+
+
+
+
+<a target="_blank" class="d-flex align-items-center" data-project-event="project_outbound_click" data-project-link-type="discord" href="https://discord.com/invite/SjH4NDeEGq">
+  <i class="fa-brands fa-discord"></i>
+</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</header>
+
+
+  <turbo-frame id="modal"></turbo-frame>
+
+  <turbo-cable-stream-source channel="Turbo::StreamsChannel" signed-stream-name="IloybGtPaTh2WTJGeVpHRnViMk4xWW1VdlVISnZhbVZqZEM4eU56ZzEi--f157211ee2e7f4bc9c91218e3fc2d8833c9e2eee517dc92773ca54d5641be23d"></turbo-cable-stream-source>
+
+
+
+<section class="main-content bg-light pb-8" data-controller="project-analytics" data-project-analytics-project-slug-value="strike-finance" data-action="click->project-analytics#trackClick">
+  <div class="container-xxl g-5">
+
+    <div class="row flex-column-reverse flex-lg-row">
+
+      <div class="col-12 col-lg-8 pe-lg-4 position-relative">
+        <div class="project-description fs-6 lh-lg p-4">
+  <h2 class="mb-4 mb-lg-5">About Strike Finance</h2>
+  <p>Strike Finance introduces options, forwards, and perpetual futures trading directly on the Cardano blockchain.</p>
+
+<p>Currently, centralized exchanges account for more than 98% of derivatives trading in crypto assets. Derivatives trading on Cardano are nearly non-existent before the advent of Strike Finance. This scarcity is not due to a lack of demand for on-chain trading, but rather the absence of a derivatives protocol.</p>
+
+<p>Options, forwards, and perpetual futures trading offer traders a wider range of tools to capitalize on the volatile crypto market. Strike Finance streamlines this process by providing a beginner-friendly trading experience. Our platform empowers individuals with advanced financial instruments while maintaining the security and transparency inherent to blockchain technology.</p>
+
+</div>
+
+      </div>
+
+      <div class="col-12 col-lg-4 mb-4 mb-lg-0 ">
+        <div class="mt-n7 position-relative position-lg-sticky top-2 bg-white border-light shadow rounded p-4">
+          <h5 class="m-0 mb-4">Project Information</h5>
+
+<div class="bg-light rounded p-2 fs-8">
+  <ul class="list-group list-group-flush fs-8">
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Status</div>
+      <div class="text-dark fw-bolder">
+        <div class="d-flex gap-2 align-items-center fs-9 lh-sm py-1 px-2 rounded bg-white border border-light"><div class="status-dot is-live"></div><div>Live</div></div>
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Main Category</div>
+      <div class="text-dark fw-bolder">
+        Investment Management
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Release date</div>
+      <div class="text-dark fw-bolder">
+        2024
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Rating</div>
+      <div class="text-dark fw-bolder text-end">
+        <div>
+<div
+  class="project-rating-stars d-inline-flex align-items-center"
+  data-project-rating
+  data-project-slug="strike-finance"
+  data-project-name="Strike Finance"
+  data-project-path="/projects/strike-finance"
+  data-aggregate-rating="5.0"
+  data-aggregate-input-value="5"
+  style="--project-rating-active: 5.0;">
+  <div class="project-rating-stars__control position-relative">
+      <label class="visually-hidden" for="project-rating-strike-finance">Rate Strike Finance from 1 to 5 stars</label>
+      <input
+        id="project-rating-strike-finance"
+        type="range"
+        min="1"
+        max="5"
+        step="1"
+        value="5"
+        class="project-rating-stars__input"
+        data-project-rating-input
+        aria-label="Rate Strike Finance from 1 to 5 stars">
+
+    <span class="project-rating-stars__stars" aria-hidden="true">
+      <span class="project-rating-stars__stars-base">★★★★★</span>
+      <span class="project-rating-stars__stars-fill">★★★★★</span>
+    </span>
+  </div>
+</div>
+</div>
+        <div class="fs-9 text-dark-grey fw-normal">5.0/5 from 1 vote</div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-light pb-8" data-controller="project-analytics" data-project-analytics-project-slug-value="strike-finance" data-action="click->project-analytics#trackClick">
+  <div class="container-xxl g-5">
+    <h2 class="label">Team members</h2>
+      <div class="g-col-12 text-grey fs-8">
+        <p>We currently don't have any public team members for Strike Finance.</p>
+      </div>
+  </div>
+</section>
+
+<turbo-frame id="author_articles_page_handler"></turbo-frame>
+<turbo-frame loading="lazy" id="author_articles" src="/projects/strike-finance/articles" target="_top"></turbo-frame>
+
+
+<turbo-frame id="project_related_articles_page_handler"></turbo-frame>
+<turbo-frame loading="lazy" id="project_related_articles" src="/projects/strike-finance/related_articles" target="_top"></turbo-frame>
+
+<turbo-frame id="project_related_youtube_videos_page_handler"></turbo-frame>
+<turbo-frame loading="lazy" id="project_related_youtube_videos" src="/projects/strike-finance/related_youtube_videos" target="_top"></turbo-frame>
+
+<turbo-frame loading="lazy" id="project_related_projects" src="/projects/strike-finance/related_projects" target="_top"></turbo-frame>
+
+
+    <footer class="pt-8 pb-5 bg-light">
+    <div class="container-xxl g-5">
+
+      <div class="row mb-5">
+        <div class="d-flex flex-wrap gap-3 justify-content-between">
+          <a class="d-none d-sm-block pe-md-4" loading="lazy" href="/"><img src="/assets/LogoIcon-928cd8eb8f623a685889e70f2f29310dff8017a5db77bed0108ebc76947c7894.png" /></a>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Explore Cardano</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/explore">Explore all projects</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/governance">Cardano Governance</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/latest">New projects</a>
+            </li>
+            <li>
+              <a href="cardano-ecosystem-interactive-map.html" class="d-block py-1">Utility Ecosystem map</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Community &amp; More</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/cardano-community">Cardano Community</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources">Knowledge Center</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources/videos">Cardano Videos</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/categories/developer-tools">Developer Hub</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Cardano Cube</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/suggest">Suggest a project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/promote-your-project">Promote your project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/sign_in">Sign in</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/about-us">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row text-grey fs-8">
+        <p class="fw-bolder">
+          * The Content on this website is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.<br>
+          Token data and purchases on our site are processed through partner organizations. For any inquiries or assistance regarding purchases, please contact our partners directly.
+        </p>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3">
+          <p class="mb-0">
+            Copyright © 2021 Cardano Cube. All rights reserved.<br>
+
+            <a class="text-decoration-underline me-2" href="/terms-conditions">Terms &amp; Conditions</a>
+            <a class="text-decoration-underline me-2" href="/privacy-cookies-policy">Privacy &amp; Cookies Policy</a>
+            <a class="text-decoration-underline me-2" href="/terms-of-sale">Terms of Sale</a>
+          </p>
+
+          <div class="d-flex align-items-center gap-3 fs-3 pe-1">
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://x.com/CardanoCube">
+              <i class="fa-brands fa-x-twitter"></i>
+</a>
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://discord.gg/ndpFEG6ysw">
+              <i class="fa-brands fa-discord"></i>
+</a>          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <turbo-frame id="cookie_banner" src="/cookies"></turbo-frame>
+  <div
+  class="project-ratings-cart d-none"
+  data-controller="project-ratings"
+  data-project-ratings-wallets-path-value="/wallets"
+  data-project-ratings-network-value="mainnet"
+  data-project-ratings-blockfrost-base-url-value="https://cardano-mainnet.blockfrost.io/api/v0"
+  data-project-ratings-blockfrost-project-id-value="mainnetdcOPoUY9qtlNMmbTU7oSfUConAFII3Ss"
+  data-project-ratings-hidden-class="d-none"
+  data-project-ratings-toggle-expanded-icon-class="fa-chevron-up"
+  data-project-ratings-toggle-collapsed-icon-class="fa-chevron-down">
+  <div class="project-ratings-cart__panel bg-white border border-light shadow rounded-3">
+    <button
+      type="button"
+      class="project-ratings-cart__toggle btn btn-light w-100 border-light border-0 border-bottom d-flex align-items-center justify-content-between gap-3"
+      data-project-ratings-target="toggle"
+      data-action="click->project-ratings#toggle">
+      <span class="fw-bolder">Ratings batch</span>
+      <span class="d-flex align-items-center gap-2">
+        <span class="badge bg-primary rounded-pill" data-project-ratings-target="count">0</span>
+        <i class="fa fa-chevron-up" data-project-ratings-target="toggleIcon" aria-hidden="true"></i>
+      </span>
+    </button>
+
+    <div class="project-ratings-cart__body p-3" data-project-ratings-target="body">
+      <div class="project-ratings-cart__items d-flex flex-column gap-2 mb-3" data-project-ratings-target="items"></div>
+      <div class="d-flex gap-2">
+        <button
+          type="button"
+          class="btn btn-outline-dark btn-sm flex-fill"
+          data-project-ratings-target="clearButton"
+          data-action="click->project-ratings#clear">Clear</button>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm flex-fill"
+          data-project-ratings-target="submitButton"
+          data-action="click->project-ratings#submit">Submit ratings</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  <div id="toasts" class="toast-container position-fixed top-0 end-0 me-3 mt-3 z-2">
+    
+  </div>
+
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-N97JGQBQFX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N97JGQBQFX');
+</script>
+
+</body>
+</html>

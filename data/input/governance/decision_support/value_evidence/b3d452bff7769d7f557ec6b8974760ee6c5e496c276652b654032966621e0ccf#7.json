@@ -1,0 +1,194 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "d7e77e9f97a01d54e89ea912310eafdf3dfeea2fa461657bb040ed00a96987b5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-704d8b6697.snap",
+          "url": "https://api.github.com/repos/txpipe/oura/releases"
+        },
+        {
+          "sha256": "f7a3f92e4e81bea95a89d539712d627602f6824e0393cd54392342283e360f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-861b552c7d.snap",
+          "url": "https://github.com/txpipe/oura"
+        },
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "a9d89d2b53b9c1f0ee327a19b4ab9875d9167efacc250298a0bb66357bf315c8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-e0df24d509.snap",
+          "url": "https://raw.githubusercontent.com/cardano-foundation/developer-portal/staging/src/data/builder-tools/tools.js"
+        },
+        {
+          "sha256": "a424ee6d4e80a8df98e6def32fea03e532db0c20b4b9a03b612be905a7cbd486",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-5ac7a04820.snap",
+          "url": "https://raw.githubusercontent.com/CardanoSolutions/kupo/master/README.md"
+        },
+        {
+          "sha256": "6bd56ed47e251fc0bf28c677de2a503ee7bf2ec98ff6139022deae38bb4a85dd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-8bbc199a77.snap",
+          "url": "https://raw.githubusercontent.com/mlabs-haskell/cardano.nix/master/flake.nix"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "26570ab435592d0b8119d7ec5271048f27f6f6bd73a0ca53f081c4059b0660e5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-ecde44ef3d.snap",
+          "url": "https://raw.githubusercontent.com/dcSpark/carp/main/indexer/Cargo.toml"
+        },
+        {
+          "sha256": "a424ee6d4e80a8df98e6def32fea03e532db0c20b4b9a03b612be905a7cbd486",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-5ac7a04820.snap",
+          "url": "https://raw.githubusercontent.com/CardanoSolutions/kupo/master/README.md"
+        },
+        {
+          "sha256": "6bd56ed47e251fc0bf28c677de2a503ee7bf2ec98ff6139022deae38bb4a85dd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-8bbc199a77.snap",
+          "url": "https://raw.githubusercontent.com/mlabs-haskell/cardano.nix/master/flake.nix"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "f7a3f92e4e81bea95a89d539712d627602f6824e0393cd54392342283e360f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-861b552c7d.snap",
+          "url": "https://github.com/txpipe/oura"
+        },
+        {
+          "sha256": "d7e77e9f97a01d54e89ea912310eafdf3dfeea2fa461657bb040ed00a96987b5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-704d8b6697.snap",
+          "url": "https://api.github.com/repos/txpipe/oura/releases"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "a424ee6d4e80a8df98e6def32fea03e532db0c20b4b9a03b612be905a7cbd486",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-5ac7a04820.snap",
+          "url": "https://raw.githubusercontent.com/CardanoSolutions/kupo/master/README.md"
+        },
+        {
+          "sha256": "58f296b5772f0b6f099e8bf7c44c5e111e19da95795eb7e09bf2f08031af78c5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-48ef1d00a6.snap",
+          "url": "https://github.com/blinklabs-io/adder"
+        },
+        {
+          "sha256": "551c73199af5920728b765857b1ff5a3611b85a532d85f2c7f45840f9198e1b4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-c3d2b71a8f.snap",
+          "url": "https://github.com/bloxbean/yaci-store"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "a424ee6d4e80a8df98e6def32fea03e532db0c20b4b9a03b612be905a7cbd486",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-5ac7a04820.snap",
+          "url": "https://raw.githubusercontent.com/CardanoSolutions/kupo/master/README.md"
+        },
+        {
+          "sha256": "7763b321775c1d55667f8fdbbf81faaa070658731bf1bc81e18689d6cce61052",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-en-cryptonomist-ch-85dca00c5e.snap",
+          "url": "https://en.cryptonomist.ch/2026/06/21/cardano-2026-budget-results/"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "d7e77e9f97a01d54e89ea912310eafdf3dfeea2fa461657bb040ed00a96987b5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-704d8b6697.snap",
+          "url": "https://api.github.com/repos/txpipe/oura/releases"
+        },
+        {
+          "sha256": "26570ab435592d0b8119d7ec5271048f27f6f6bd73a0ca53f081c4059b0660e5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-ecde44ef3d.snap",
+          "url": "https://raw.githubusercontent.com/dcSpark/carp/main/indexer/Cargo.toml"
+        },
+        {
+          "sha256": "99143289c6be8f11b94a5782a111c03a4382014ce6c5b1c2bf0af27aa27a1483",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-c0f1204d62.snap",
+          "url": "https://raw.githubusercontent.com/Cardano-Fans/cardano-es-backend/master/Dockerfile"
+        },
+        {
+          "sha256": "6bd56ed47e251fc0bf28c677de2a503ee7bf2ec98ff6139022deae38bb4a85dd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-8bbc199a77.snap",
+          "url": "https://raw.githubusercontent.com/mlabs-haskell/cardano.nix/master/flake.nix"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "f7a3f92e4e81bea95a89d539712d627602f6824e0393cd54392342283e360f84",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-861b552c7d.snap",
+          "url": "https://github.com/txpipe/oura"
+        },
+        {
+          "sha256": "d0946c127999eea08dd6a105dfe3bd3dadd60642448e29441c4eb7b9a1e8ed00",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-c3dfae00a0.snap",
+          "url": "https://github.com/txpipe/oura/blob/main/LICENSE"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "d0946c127999eea08dd6a105dfe3bd3dadd60642448e29441c4eb7b9a1e8ed00",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-c3dfae00a0.snap",
+          "url": "https://github.com/txpipe/oura/blob/main/LICENSE"
+        },
+        {
+          "sha256": "26570ab435592d0b8119d7ec5271048f27f6f6bd73a0ca53f081c4059b0660e5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-ecde44ef3d.snap",
+          "url": "https://raw.githubusercontent.com/dcSpark/carp/main/indexer/Cargo.toml"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:14+00:00"
+}

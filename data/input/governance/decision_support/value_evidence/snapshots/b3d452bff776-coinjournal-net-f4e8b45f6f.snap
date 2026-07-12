@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <!-- Default Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Pre-fetch -->
+    <link rel="dns-prefetch" href="//pts.igms.io">
+    <link rel="dns-prefetch" href="//imgsrv.igms.io">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+
+    
+    <!-- Pre-connect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta name="coinzilla" content="755f878ec4121e15061363415d6fbe4c" />
+    <meta name="fo-verify" content="82333fae-9600-40c3-92be-3c065d7361bb" />
+
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+    
+    
+    <script async crossorigin="anonymous" src="https://cdn.requestmetrics.com/agent/current/rm.js" data-rm-token="b6qs7nv:m4fh5qx"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M4LQ92G09F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M4LQ92G09F');
+    </script>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "rt4rlljbc7");
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1982207250866804" crossorigin="anonymous"></script>
+
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" href="https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="x-default" />
+<link rel="alternate" href="https://coinjournal.net/pl/aktualnosci/cardano-wkracza-na-globalna-arene-platnosci-z-wielolancuchowa-karta-ada-firmy-wirex/" hreflang="pl" />
+<link rel="alternate" href="https://coinjournal.net/sv/nyheter/cardano-gar-in-pa-den-globala-betalningsarenan-med-wirex-ada-kort-med-flera-kedjor/" hreflang="sv" />
+<link rel="alternate" href="https://coinjournal.net/fi/uutiset/cardano-astuu-maailmanlaajuisille-maksuareenoille-wirexin-moniketjuisella-ada-kortilla/" hreflang="fi" />
+<link rel="alternate" href="https://coinjournal.net/no/nyheter/cardano-gar-inn-pa-den-globale-betalingsarenaen-med-wirexs-ada-kort-med-flere-kjeder/" hreflang="no" />
+<link rel="alternate" href="https://coinjournal.net/da/nyheder/cardano-traeder-ind-pa-den-globale-betalingsarena-med-wirex-multi-chain-ada-kort/" hreflang="da" />
+<link rel="alternate" href="https://coinjournal.net/uk/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="uk" />
+<link rel="alternate" href="https://coinjournal.net/ro/stiri/cardano-intra-in-arena-platilor-globale-cu-cardul-ada-multi-lant-wirex/" hreflang="ro" />
+<link rel="alternate" href="https://coinjournal.net/cs/novinky/cardano-vstupuje-do-globalni-platebni-areny-s-viceretezcovou-kartou-ada-spolecnosti-wirex/" hreflang="cs" />
+<link rel="alternate" href="https://coinjournal.net/sk/novinky/cardano-vstupuje-do-globalnej-platobnej-areny-s-viacretazcovou-kartou-ada-od-spolocnosti-wirex/" hreflang="sk" />
+<link rel="alternate" href="https://coinjournal.net/id/berita/cardano-memasuki-arena-pembayaran-global-dengan-kartu-ada-multi-rantai-wirex/" hreflang="id" />
+<link rel="alternate" href="https://coinjournal.net/ja/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="ja" />
+<link rel="alternate" href="https://coinjournal.net/th/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="th" />
+<link rel="alternate" href="https://coinjournal.net/ms/berita/cardano-memasuki-arena-pembayaran-global-dengan-kad-ada-berbilang-rantaian-wirex/" hreflang="ms" />
+<link rel="alternate" href="https://coinjournal.net/zh/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="zh" />
+<link rel="alternate" href="https://coinjournal.net/nl/nieuws/cardano-betreedt-de-wereldwijde-betalingsarena-met-wirexs-multi-chain-ada-kaart/" hreflang="nl" />
+<link rel="alternate" href="https://coinjournal.net/fr/actualites/cardano-entre-dans-larene-mondiale-des-paiements-avec-la-carte-ada-multi-chaines-de-wirex/" hreflang="fr" />
+<link rel="alternate" href="https://coinjournal.net/de/news/cardano-betritt-mit-der-multi-chain-ada-karte-von-wirex-die-globale-zahlungsarena/" hreflang="de" />
+<link rel="alternate" href="https://coinjournal.net/it/notizie/cardano-entra-nellarena-dei-pagamenti-globali-con-la-carta-ada-multi-chain-di-wirex/" hreflang="it" />
+<link rel="alternate" href="https://coinjournal.net/es/noticias/cardano-entra-en-el-ambito-de-los-pagos-globales-con-la-tarjeta-ada-multicadena-de-wirex/" hreflang="es" />
+<link rel="alternate" href="https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Cardano enters the global payments arena with Wirex’s multi-chain ADA card - CoinJournal</title>
+	<meta name="description" content="Cardano has launched its first-ever ADA card, developed in partnership with global fintech firm Wirex and the blockchain’s commercial arm, EMURGO." class="yoast-seo-meta-tag" />
+	<link rel="canonical" href="https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" class="yoast-seo-meta-tag" />
+	<meta property="og:locale" content="en_US" class="yoast-seo-meta-tag" />
+	<meta property="og:locale:alternate" content="pl_PL" />
+	<meta property="og:locale:alternate" content="sv_SE" />
+	<meta property="og:locale:alternate" content="fi_FI" />
+	<meta property="og:locale:alternate" content="" />
+	<meta property="og:locale:alternate" content="da_DK" />
+	<meta property="og:locale:alternate" content="uk_UA" />
+	<meta property="og:locale:alternate" content="ro_RO" />
+	<meta property="og:locale:alternate" content="cs_CZ" />
+	<meta property="og:locale:alternate" content="sk_SK" />
+	<meta property="og:locale:alternate" content="id_ID" />
+	<meta property="og:locale:alternate" content="ja_JP" />
+	<meta property="og:locale:alternate" content="th_TH" />
+	<meta property="og:locale:alternate" content="ms_MY" />
+	<meta property="og:locale:alternate" content="zh_TW" />
+	<meta property="og:locale:alternate" content="nl_NL" />
+	<meta property="og:locale:alternate" content="fr_FR" />
+	<meta property="og:locale:alternate" content="de_DE" />
+	<meta property="og:locale:alternate" content="it_IT" />
+	<meta property="og:locale:alternate" content="es_ES" />
+	<meta property="og:type" content="article" class="yoast-seo-meta-tag" />
+	<meta property="og:title" content="Cardano enters the global payments arena with Wirex’s multi-chain ADA card - CoinJournal" class="yoast-seo-meta-tag" />
+	<meta property="og:description" content="Cardano has launched its first-ever ADA card, developed in partnership with global fintech firm Wirex and the blockchain’s commercial arm, EMURGO." class="yoast-seo-meta-tag" />
+	<meta property="og:site_name" content="CoinJournal" class="yoast-seo-meta-tag" />
+	<meta property="article:published_time" content="2025-11-11T18:11:46+00:00" class="yoast-seo-meta-tag" />
+	<meta property="og:image" content="https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png" class="yoast-seo-meta-tag" />
+	<meta property="og:image:width" content="1152" class="yoast-seo-meta-tag" />
+	<meta property="og:image:height" content="720" class="yoast-seo-meta-tag" />
+	<meta property="og:image:type" content="image/png" class="yoast-seo-meta-tag" />
+	<meta name="author" content="Charles Thuo" class="yoast-seo-meta-tag" />
+	<meta name="twitter:card" content="summary_large_image" class="yoast-seo-meta-tag" />
+	<meta name="twitter:label1" content="Written by" class="yoast-seo-meta-tag" />
+	<meta name="twitter:data1" content="Charles Thuo" class="yoast-seo-meta-tag" />
+	<meta name="twitter:label2" content="Est. reading time" class="yoast-seo-meta-tag" />
+	<meta name="twitter:data2" content="2 minutes" class="yoast-seo-meta-tag" />
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "NewsArticle",
+	            "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#article",
+	            "headline": "Cardano enters the global payments arena with Wirex’s multi-chain ADA card",
+	            "datePublished": "2025-11-11T18:11:46+00:00",
+	            "mainEntityOfPage": {
+	                "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+	            },
+	            "wordCount": 480,
+	            "publisher": {
+	                "@id": "https://coinjournal.net/#organization"
+	            },
+	            "image": {
+	                "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#primaryimage"
+	            },
+	            "thumbnailUrl": "https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png",
+	            "keywords": [
+	                "Cardano News"
+	            ],
+	            "articleSection": [
+	                "Analysis",
+	                "Markets"
+	            ],
+	            "inLanguage": "en-US",
+	            "author": {
+	                "@type": "Person",
+	                "@id": "https://coinjournal.net/#/schema/person/7adaeed1766c2abca38530b30550af3b",
+	                "name": "Charles Thuo",
+	                "image": {
+	                    "@type": "ImageObject",
+	                    "inLanguage": "en-US",
+	                    "@id": "https://coinjournal.net/#/schema/person/image/",
+	                    "url": "https://secure.gravatar.com/avatar/d92ca9783eb2727c4cc0243957ad1911?s=96&d=mm&r=g",
+	                    "contentUrl": "https://secure.gravatar.com/avatar/d92ca9783eb2727c4cc0243957ad1911?s=96&d=mm&r=g",
+	                    "caption": "Charles Thuo"
+	                },
+	                "url": "https://coinjournal.net/author/charles-thuo/"
+	            }
+	        },
+	        {
+	            "@type": "WebPage",
+	            "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/",
+	            "url": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/",
+	            "name": "Cardano enters the global payments arena with Wirex’s multi-chain ADA card - CoinJournal",
+	            "primaryImageOfPage": {
+	                "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#primaryimage"
+	            },
+	            "image": {
+	                "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#primaryimage"
+	            },
+	            "thumbnailUrl": "https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png",
+	            "datePublished": "2025-11-11T18:11:46+00:00",
+	            "description": "Cardano has launched its first-ever ADA card, developed in partnership with global fintech firm Wirex and the blockchain’s commercial arm, EMURGO.",
+	            "breadcrumb": {
+	                "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#breadcrumb"
+	            },
+	            "inLanguage": "en-US",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "ImageObject",
+	            "inLanguage": "en-US",
+	            "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#primaryimage",
+	            "url": "https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png",
+	            "contentUrl": "https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png",
+	            "width": 1152,
+	            "height": 720,
+	            "caption": "Cardano enters the global payments arena with Wirex’s multi-chain ADA card"
+	        },
+	        {
+	            "@type": "BreadcrumbList",
+	            "@id": "https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/#breadcrumb",
+	            "itemListElement": [
+	                {
+	                    "@type": "ListItem",
+	                    "position": 1,
+	                    "name": "Home",
+	                    "item": "https://coinjournal.net/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 2,
+	                    "name": "Latest Cryptocurrency News",
+	                    "item": "https://coinjournal.net/news/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 3,
+	                    "name": "Cardano enters the global payments arena with Wirex’s multi-chain ADA card"
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "https://coinjournal.net/#website",
+	            "url": "https://coinjournal.net/",
+	            "name": "CoinJournal",
+	            "description": "",
+	            "publisher": {
+	                "@id": "https://coinjournal.net/#organization"
+	            },
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "https://coinjournal.net/?s={search_term_string}"
+	                    },
+	                    "query-input": {
+	                        "@type": "PropertyValueSpecification",
+	                        "valueRequired": true,
+	                        "valueName": "search_term_string"
+	                    }
+	                }
+	            ],
+	            "inLanguage": "en-US"
+	        },
+	        {
+	            "@type": "Organization",
+	            "@id": "https://coinjournal.net/#organization",
+	            "name": "CoinJournal",
+	            "url": "https://coinjournal.net/",
+	            "logo": {
+	                "@type": "ImageObject",
+	                "inLanguage": "en-US",
+	                "@id": "https://coinjournal.net/#/schema/logo/image/",
+	                "url": "https://coinjournal.net/wp-content/uploads/2020/05/cropped-coin-journal-favi.png",
+	                "contentUrl": "https://coinjournal.net/wp-content/uploads/2020/05/cropped-coin-journal-favi.png",
+	                "width": 512,
+	                "height": 512,
+	                "caption": "CoinJournal"
+	            },
+	            "image": {
+	                "@id": "https://coinjournal.net/#/schema/logo/image/"
+	            }
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CoinJournal &raquo; Feed" href="https://coinjournal.net/feed/" />
+<link rel="stylesheet" id='dashicons-css' href='https://coinjournal.net/wp-includes/css/dashicons.min.css?ver=6.7.5' media='all' />
+<link rel="stylesheet" id='admin-bar-css' href='https://coinjournal.net/wp-includes/css/admin-bar.min.css?ver=6.7.5' media='all' />
+<style id='admin-bar-inline-css'>
+
+		@media screen { html { margin-top: 32px !important; } }
+		@media screen and ( max-width: 782px ) { html { margin-top: 46px !important; } }
+	
+@media print { #wpadminbar { display:none; } }
+</style>
+<link rel="stylesheet" id='megamenu-css' href='https://coinjournal.net/wp-content/uploads/maxmegamenu/style_en_us.css?ver=74d5af' media='all' />
+<link rel="stylesheet" id='app-css' href='https://coinjournal.net/wp-content/themes/c1-base/dist/css/app.css?ver=1762770099' media='all' />
+<link rel="stylesheet" id='article-css' href='https://coinjournal.net/wp-content/themes/c1-base/dist/css/article.css?ver=1762770099' media='print' as='style' onload='this.media="all"' />
+<noscript><link rel="stylesheet" id='article-css' href='https://coinjournal.net/wp-content/themes/c1-base/dist/css/article.css?ver=1762770099' media='all' />
+</noscript><script src="https://coinjournal.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://coinjournal.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<style type="text/css">
+#wpadminbar .quicklinks #wp-admin-bar-tikemp_impresonate_user ul li .ab-item{height:auto}#wpadminbar .quicklinks #wp-admin-bar-tikemp_impresonate_user #tikemp_username{height:22px;font-size:13px !important;padding:2px;width:145px;border-radius:2px !important;float:left;box-sizing:border-box !important;line-height: 10px;}#tikemp_search{width:auto;box-sizing:border-box}#tikemp_search_submit{height:22px;padding:2px;line-height:1.1;font-size:13px !important;border:0 !important;float:right;background-color:#fff !important;border-radius:2px !important;width:74px;box-sizing:border-box;color:#000 !important;}#tikemp_usearch_result{width:100%;max-height: 320px;overflow-y: auto;margin-top:10px;float:left;}#tikemp_usearch_form{width: 226px}#tikemp_recent_users{width:100%;float:left;}form#tikemp_usearch_form input[type="text"]{background-color:#fff !important;}#tikemp_settings_wrap{width: 100%;float:left;border-top:1px solid #ccc;}#wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop.hover ul li a {color: #b4b9be;}
+</style>
+	<script>
+		var tikemp_ajax_url = "https://coinjournal.net/wp-admin/admin-ajax.php";
+	</script>
+	
+                <script>
+                    const landing_template = "news";
+                </script>
+            <link rel="icon" href="https://coinjournal.net/wp-content/uploads/2022/09/apple-touch-icon.png" sizes="32x32" />
+<link rel="icon" href="https://coinjournal.net/wp-content/uploads/2022/09/apple-touch-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://coinjournal.net/wp-content/uploads/2022/09/apple-touch-icon.png" />
+<meta name="msapplication-TileImage" content="https://coinjournal.net/wp-content/uploads/2022/09/apple-touch-icon.png" />
+<style>
+            html { margin-top: 0 !important; }
+            body { margin-top: 0 !important; }
+            #wpadminbar { display: none !important; }
+        </style><style type="text/css">/** Mega Menu CSS: fs **/</style>
+
+</head>
+<body class="body  overflow-x-hidden  body--default" data-page-template="" data-served-country="US">
+
+    
+<header class="js-header">
+    <div class="container  header-container">
+        <a href="https://coinjournal.net/" aria-label="Home page" class="header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.152 58.69">
+    <defs>
+        <linearGradient id="a" x1=".186" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3100b5"/>
+            <stop offset="1" stop-color="#8e64ff"/>
+        </linearGradient>
+    </defs>
+    <g data-name="CoinJournal Dark">
+        <path data-name="Union 1" d="M1032 652.156a18.8 18.8 0 0 1-11.85-15.031h21.326v-21.948h16.043v19.455A18.782 18.782 0 0 1 1032 652.156zm-14.4-19.89a18.77 18.77 0 0 1-18.766-18.775 18.77 18.77 0 0 1 18.766-18.774h19.448v37.55z" transform="translate(-998.834 -594.716)" style="fill:url(#a)"/>
+        <path data-name="Union 1" d="M171.739 50.962a2.7 2.7 0 0 1-1.62-1.861 2.708 2.708 0 0 1 1.039-1.887 3.45 3.45 0 0 1 1.959-.531 6.222 6.222 0 0 1 3.627 1.5l1.209.968a5.382 5.382 0 0 0 1.474-2.417 12.553 12.553 0 0 0 .412-3.482q0-.871-.025-2.129t-.072-3.288q-.049-2.031-.1-5.175t-.122-7.785q-.073-4.644-.12-11.123l-4.929-.534v-1.983h14.169v1.983l-4.448.531q-.049 3.047-.072 6.166t-.025 6.263v7.543q0 3.676-.121 6.141a27.627 27.627 0 0 1-.459 4.111 10.052 10.052 0 0 1-.943 2.757 9.348 9.348 0 0 1-1.62 2.127 8.774 8.774 0 0 1-2.926 1.91 9.693 9.693 0 0 1-3.7.7 6.726 6.726 0 0 1-2.587-.505zm-92.05-8.312a14.272 14.272 0 0 1-6.068-5.59 17.886 17.886 0 0 1-2.25-9.383 18.449 18.449 0 0 1 1.378-7.446 14.532 14.532 0 0 1 3.773-5.224 15.774 15.774 0 0 1 5.489-3.095 20.64 20.64 0 0 1 6.48-1.016 19.567 19.567 0 0 1 5.028.6 19.464 19.464 0 0 1 4.452 1.818l.193 7.5h-3.677l-1.4-6.335a7.682 7.682 0 0 0-3.485-.829 8.491 8.491 0 0 0-4.763 1.45 10.064 10.064 0 0 0-3.555 4.57 20.4 20.4 0 0 0-1.353 8.055 20.7 20.7 0 0 0 1.305 8 9.945 9.945 0 0 0 3.458 4.525 8.26 8.26 0 0 0 4.715 1.45 8.732 8.732 0 0 0 2.031-.241 12.6 12.6 0 0 0 2.031-.677l1.353-6.19h3.677l-.193 7.447a20.687 20.687 0 0 1-4.473 1.766 21.371 21.371 0 0 1-5.682.7 19.068 19.068 0 0 1-8.464-1.855zm27.274.1a10.762 10.762 0 0 1-4.255-4.4 13.785 13.785 0 0 1-1.5-6.552 12.56 12.56 0 0 1 1.619-6.481 11.466 11.466 0 0 1 4.425-4.3 12.691 12.691 0 0 1 6.239-1.548 12.884 12.884 0 0 1 6.213 1.5 11.3 11.3 0 0 1 4.425 4.279 12.648 12.648 0 0 1 1.642 6.54 13.763 13.763 0 0 1-1.5 6.577 10.8 10.8 0 0 1-4.255 4.376 12.967 12.967 0 0 1-6.528 1.572 12.969 12.969 0 0 1-6.525-1.572zm3.435-18.352q-1.016 2.369-1.016 7.544a20.35 20.35 0 0 0 1.016 7.5 3.307 3.307 0 0 0 3.095 2.37q2.03 0 3.047-2.37a20.387 20.387 0 0 0 1.015-7.5 20.569 20.569 0 0 0-1.015-7.544q-1.017-2.369-3.047-2.37a3.307 3.307 0 0 0-3.096 2.361zm187.025 18.3a5.434 5.434 0 0 1-1.91-4.521 5.413 5.413 0 0 1 .653-2.612 7.108 7.108 0 0 1 2.393-2.37 23.567 23.567 0 0 1 4.981-2.321q1.112-.385 2.563-.822t2.9-.772v-1.215q0-3.53-1.064-4.692a4.535 4.535 0 0 0-3.482-1.161c-.355 0-.749.017-1.184.048a8.568 8.568 0 0 0-1.427.242l-.919 3.144q-.677 2.319-2.514 2.321a2.038 2.038 0 0 1-2.273-1.984 7.056 7.056 0 0 1 3.216-4.376 11.318 11.318 0 0 1 6.215-1.62q3.819 0 5.658 1.91t1.837 6.5v10.3a3.8 3.8 0 0 0 .484 2.2 1.5 1.5 0 0 0 1.258.653 1.875 1.875 0 0 0 1.063-.29 3.66 3.66 0 0 0 .822-.774l.968 1.064a5.3 5.3 0 0 1-1.91 1.958 4.793 4.793 0 0 1-2.3.557 4.249 4.249 0 0 1-2.9-1.015 4.47 4.47 0 0 1-1.449-2.709 23.483 23.483 0 0 1-3.484 2.9 6.552 6.552 0 0 1-3.626.967 7.1 7.1 0 0 1-4.569-1.515zm9.115-10.881q-1.208.412-1.982.7a11.149 11.149 0 0 0-3.094 1.693 4.458 4.458 0 0 0-1.329 1.693 4.32 4.32 0 0 0-.315 1.547 3.2 3.2 0 0 0 1.112 2.757 4.51 4.51 0 0 0 2.757.822 4.827 4.827 0 0 0 1.378-.193 7.035 7.035 0 0 0 1.572-.75q.918-.556 2.37-1.62v-7.4q-1.26.335-2.469.746zm-85.014 10.44q-1.692-1.959-1.644-6.747l.145-12.041-3.434-.725v-1.74l7.108-.678.485.484-.242 6.77v7.495q0 3.146.966 4.426a3.407 3.407 0 0 0 2.9 1.282q3.384 0 6.77-3.143l.146-14.219-3.433-.676v-1.741l7.012-.678.483.484-.144 6.77v13.589l3.288.678v1.74l-6.722.387-.484-4.3a12.675 12.675 0 0 1-4.134 3.458 9.9 9.9 0 0 1-4.426 1.088 5.817 5.817 0 0 1-4.64-1.963zm-24.3.629a10.386 10.386 0 0 1-4.136-4.013 12.814 12.814 0 0 1-1.6-6.649 13.183 13.183 0 0 1 1.6-6.746 10.653 10.653 0 0 1 4.136-4.111 11.046 11.046 0 0 1 10.687 0 10.822 10.822 0 0 1 4.158 4.111 13.02 13.02 0 0 1 1.62 6.746 12.657 12.657 0 0 1-1.62 6.649 10.551 10.551 0 0 1-4.158 4.013 11.4 11.4 0 0 1-10.687 0zm.531-18.111q-1.667 2.565-1.668 7.448 0 4.837 1.668 7.326a5.438 5.438 0 0 0 4.812 2.49 5.5 5.5 0 0 0 4.836-2.49q1.691-2.489 1.692-7.326 0-4.885-1.692-7.448a5.458 5.458 0 0 0-4.836-2.563 5.4 5.4 0 0 0-4.811 2.564zm121.4 18.812V41.85l3.869-.678q.047-1.982.073-3.893t.023-3.844V12.203l-3.965-.484v-1.692l7.549-2.177.677.387-.193 6.867v18.329q0 1.934.024 3.868t.073 3.869l3.868.678v1.74zm-38.492 0V41.85l3.578-.678q.048-1.788.072-3.941t.024-3.8v-4.11q0-3.338-.943-4.6a3.591 3.591 0 0 0-3.07-1.257 7.891 7.891 0 0 0-3.192.677 14.429 14.429 0 0 0-3.385 2.225v7.061q0 1.595.024 3.747t.073 3.989l3.336.678v1.74h-11.209V41.85l3.578-.678q.047-1.837.072-3.964t.024-3.772v-2.324q0-1.983-.024-3.289t-.12-2.756l-3.821-.436v-1.693l6.77-2.949.725.484.387 3.869a15.007 15.007 0 0 1 4.111-3.144 9.809 9.809 0 0 1 4.545-1.208 5.379 5.379 0 0 1 4.668 2.1q1.523 2.1 1.523 6.842v4.5q0 1.644.024 3.772t.073 3.964l3.384.678v1.74zm-35.06 0V41.85l3.482-.629q.048-1.838.073-3.99t.025-3.8v-2.319q0-1.983-.025-3.289t-.121-2.756l-3.82-.436v-1.693l6.77-2.949.725.484.532 5.707a11.9 11.9 0 0 1 3.127-4.548 5.91 5.91 0 0 1 3.844-1.644 4.594 4.594 0 0 1 2.079.484 3.08 3.08 0 0 1 1.4 1.305q0 3.531-2.853 3.53a3.843 3.843 0 0 1-1.548-.314 5.51 5.51 0 0 1-1.4-.9l-.581-.532a9.355 9.355 0 0 0-2.418 2.612 15.01 15.01 0 0 0-1.6 3.627v3.627q0 1.595.023 3.724t.073 3.964l3.965.726v1.74zm-87.191 0v-2.272l2.515-.532q.047-1.789.048-3.8V28.35a6.2 6.2 0 0 0-.628-3.264 2.265 2.265 0 0 0-2.032-.944 7.07 7.07 0 0 0-4.158 1.741v11.1q0 2.055.048 3.844l2.273.484v2.272h-12.714v-2.268l2.607-.58q.046-1.741.049-3.772v-6.335c0-1.321-.009-2.346-.025-3.071s-.056-1.572-.122-2.538l-2.95-.436v-1.886l9.527-3.24.871.532.289 3.481a11.866 11.866 0 0 1 3.753-3.12 9.1 9.1 0 0 1 3.989-.895 6.539 6.539 0 0 1 5.054 2.079q1.911 2.08 1.91 6.239v9.261q0 2.008.049 3.8l2.418.484v2.272zm-29.837 0v-2.272l2.612-.58q.047-1.741.048-3.772v-5.851q0-1.983-.025-3.314t-.12-2.78l-3-.436v-1.885l10.155-3.24.823.532-.145 7.012v9.987q0 2.055.048 3.844l2.417.484v2.272zm3.531-28.8a3.52 3.52 0 0 1-1.21-2.734 3.57 3.57 0 0 1 1.21-2.78 4.411 4.411 0 0 1 5.8 0 3.575 3.575 0 0 1 1.208 2.78 3.525 3.525 0 0 1-1.208 2.734 4.413 4.413 0 0 1-5.8 0z"/>
+    </g>
+</svg>
+</a>
+        <nav class="header-nav  js-navigation">
+            <div class="header-nav__inner">
+                <div id="mega-menu-wrap-header-navigation" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-1' id='mega-toggle-block-1'><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-header-navigation" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-panel-width="body" data-panel-inner-width=".js-header .container" data-mobile-force-width="false" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-203433' id='mega-menu-item-203433'><a class="mega-menu-link" href="https://coinjournal.net/news/" aria-haspopup="true" aria-expanded="false" tabindex="0">News<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-203433-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-203433-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204049' id='mega-menu-item-204049'><a class="mega-menu-link">Cryptocurrency News<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204054' id='mega-menu-item-204054'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/solana/">Solana News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204050' id='mega-menu-item-204050'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/bitcoin/">Bitcoin News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204051' id='mega-menu-item-204051'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/blockchain/">Blockchain News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204052' id='mega-menu-item-204052'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/defi/">DeFi News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204053' id='mega-menu-item-204053'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/ethereum/">Ethereum News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204057' id='mega-menu-item-204057'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/bnb/">BNB News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204120' id='mega-menu-item-204120'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/chainlink">Chainlink News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204055' id='mega-menu-item-204055'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/tether/">Tether News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204056' id='mega-menu-item-204056'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/litecoin/">Litecoin News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204121' id='mega-menu-item-204121'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/bitcoin-cash/">Bitcoin Cash News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204122' id='mega-menu-item-204122'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/ethereum-classic/">Ethereum Classic News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204126' id='mega-menu-item-204126'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/xrp/">XRP News</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-203433-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204123' id='mega-menu-item-204123'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/altcoin-news/">Altcoin News<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204125' id='mega-menu-item-204125'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/polygon/">Polygon News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204124' id='mega-menu-item-204124'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/polkadot/">Polkadot News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204127' id='mega-menu-item-204127'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/vechain/">VeChain News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-208090' id='mega-menu-item-208090'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/stacks/">Stacks News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204128' id='mega-menu-item-204128'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/avalanche/">AVAX News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204129' id='mega-menu-item-204129'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/xlm/">XLM News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204130' id='mega-menu-item-204130'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/filecoin/">Filecoin News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204134' id='mega-menu-item-204134'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/algorand/">Algorand News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204138' id='mega-menu-item-204138'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/aave/">Aave News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204137' id='mega-menu-item-204137'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/cardano/">Cardano News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204186' id='mega-menu-item-204186'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/eos/">EOS News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-208101' id='mega-menu-item-208101'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/amp/">AMP News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204135' id='mega-menu-item-204135'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/uniswap/">Uniswap News</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-203433-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204141' id='mega-menu-item-204141'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/meme-coin/">Meme Coin News<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204142' id='mega-menu-item-204142'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/dogecoin/">Dogecoin News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204143' id='mega-menu-item-204143'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/shiba-inu/">Shiba Inu News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204182' id='mega-menu-item-204182'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/pepe-coin/">Pepe Coin News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204183' id='mega-menu-item-204183'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/floki/">Floki News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212670' id='mega-menu-item-212670'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/rebel-satoshi/">Rebel Satoshi News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204184' id='mega-menu-item-204184'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/bonk/">Bonk News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204185' id='mega-menu-item-204185'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/dogwifhat/">Dogwifhat News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-206398' id='mega-menu-item-206398'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/piggy-bankster/">Piggy Bankster News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-209512' id='mega-menu-item-209512'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/solciety/">Solciety News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213669' id='mega-menu-item-213669'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/book-of-meme/">Book of Meme News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213670' id='mega-menu-item-213670'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/popcat/">Popcat News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213677' id='mega-menu-item-213677'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/slerf/">Slerf News</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-203433-0-3'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204268' id='mega-menu-item-204268'><a class="mega-menu-link" href="https://coinjournal.net/news/category/markets">Research and Analysis<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204269' id='mega-menu-item-204269'><a class="mega-menu-link" href="https://coinjournal.net/news/category/analysis">Market Analysis</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204271' id='mega-menu-item-204271'><a class="mega-menu-link" href="https://coinjournal.net/news/category/business">Business of Crypto</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204272' id='mega-menu-item-204272'><a class="mega-menu-link" href="https://coinjournal.net/news/category/interview">People in Crypto</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204273' id='mega-menu-item-204273'><a class="mega-menu-link" href="https://coinjournal.net/news/category/opinion">Opinion Pieces</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204274' id='mega-menu-item-204274'><a class="mega-menu-link" href="https://coinjournal.net/news/tag/artificial-intelligence/">Crypto AI</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204270' id='mega-menu-item-204270'><a class="mega-menu-link" href="https://coinjournal.net/news/category/technology/">Technology</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-204236' id='mega-menu-item-204236'><a class="mega-menu-link" href="https://coinjournal.net/compare/" aria-haspopup="true" aria-expanded="false" tabindex="0">Compare<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-204236-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-204236-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204237' id='mega-menu-item-204237'><a class="mega-menu-link" href="https://coinjournal.net/compare/">Crypto Platforms<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204238' id='mega-menu-item-204238'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-cryptocurrency-exchanges/">Best Crypto Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204245' id='mega-menu-item-204245'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-altcoin-exchanges/">Best Altcoin Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204321' id='mega-menu-item-204321'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-decentralized-exchanges/">Best Decentralized Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-205381' id='mega-menu-item-205381'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-paypal-cryptocurrency-exchange/">Best PayPal Crypto Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204239' id='mega-menu-item-204239'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-cryptocurrency-apps/">Best Crypto Apps</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204240' id='mega-menu-item-204240'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-cryptocurrency-brokers/">Best Crypto Brokers</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204241' id='mega-menu-item-204241'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-ethereum-exchanges/">Best Ethereum Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204242' id='mega-menu-item-204242'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-ripple-exchanges/">Best Ripple Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204243' id='mega-menu-item-204243'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-stellar-exchanges/">Best Stellar Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204244' id='mega-menu-item-204244'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-tron-exchanges/">Best Tron Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204246' id='mega-menu-item-204246'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-bitcoin-cash-exchanges/">Best Bitcoin Cash Exchanges</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204247' id='mega-menu-item-204247'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-neo-exchange/">Best NEO Exchanges</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-204236-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204248' id='mega-menu-item-204248'><a class="mega-menu-link" href="https://coinjournal.net/exchanges/">Reviews<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204249' id='mega-menu-item-204249'><a class="mega-menu-link" href="https://coinjournal.net/brokers/etoro/">eToro Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204250' id='mega-menu-item-204250'><a class="mega-menu-link" href="https://coinjournal.net/brokers/plus500/">Plus500 Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204251' id='mega-menu-item-204251'><a class="mega-menu-link" href="https://coinjournal.net/brokers/pepperstone/">Pepperstone Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204252' id='mega-menu-item-204252'><a class="mega-menu-link" href="https://coinjournal.net/brokers/eightcap/">Eightcap Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204253' id='mega-menu-item-204253'><a class="mega-menu-link" href="https://coinjournal.net/brokers/xtb/">XTB Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204254' id='mega-menu-item-204254'><a class="mega-menu-link" href="https://coinjournal.net/brokers/equiity/">Equiity Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204255' id='mega-menu-item-204255'><a class="mega-menu-link" href="https://coinjournal.net/exchanges/kraken/">Kraken Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204256' id='mega-menu-item-204256'><a class="mega-menu-link" href="https://coinjournal.net/exchanges/youhodler/">YouHodler Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204257' id='mega-menu-item-204257'><a class="mega-menu-link" href="https://coinjournal.net/exchanges/changelly/">Changelly Review</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-216117' id='mega-menu-item-216117'><a class="mega-menu-link" href="https://coinjournal.net/brokers/primexbt/">PrimeXBT Review</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-204236-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-204323' id='mega-menu-item-204323'><a class="mega-menu-link" href="https://coinjournal.net/wallets/">Cryptocurrency Wallets<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204318' id='mega-menu-item-204318'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-cryptocurrency-wallets/">Best Crypto Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204319' id='mega-menu-item-204319'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-bitcoin-wallets/">Best Bitcoin Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204324' id='mega-menu-item-204324'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-ethereum-wallets/">Best Ethereum Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204320' id='mega-menu-item-204320'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-hardware-wallets/">Best Hardware Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204328' id='mega-menu-item-204328'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-crypto-cold-wallets/">Best Cold Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204322' id='mega-menu-item-204322'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-litecoin-wallet/">Best Litecoin Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204325' id='mega-menu-item-204325'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-eos-wallet/">Best EOS Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204326' id='mega-menu-item-204326'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-stellar-wallets/">Best Stellar Wallets</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-204327' id='mega-menu-item-204327'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-tezos-wallet/">Best Tezos Wallets</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-204236-0-3'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-205117' id='mega-menu-item-205117'><a class="mega-menu-link" href="https://coinjournal.net/wallets/">Crypto Services<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-205118' id='mega-menu-item-205118'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-crypto-tax-software/">Crypto Tax Software</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-215779' id='mega-menu-item-215779'><a class="mega-menu-link" href="https://coinjournal.net/compare/bitcoin-gambling-sites/">Crypto Gambling Sites</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-215781' id='mega-menu-item-215781'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-bitcoin-poker-sites/">Crypto Poker Sites</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-212672' id='mega-menu-item-212672'><a class="mega-menu-link" href="https://coinjournal.net/compare/" aria-haspopup="true" aria-expanded="false" tabindex="0">Invest<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-212672-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212672-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-212673' id='mega-menu-item-212673'><a class="mega-menu-link" href="https://coinjournal.net/cryptocurrencies/buy/">Buy Cryptocurrency<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212674' id='mega-menu-item-212674'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/">Buy Bitcoin</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212675' id='mega-menu-item-212675'><a class="mega-menu-link" href="https://coinjournal.net/solana/price-prediction/">Buy Solana</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212676' id='mega-menu-item-212676'><a class="mega-menu-link" href="https://coinjournal.net/ethereum/invest/">Buy Ethereum</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213622' id='mega-menu-item-213622'><a class="mega-menu-link" href="https://coinjournal.net/litecoin/buy/">Buy Litecoin</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212677' id='mega-menu-item-212677'><a class="mega-menu-link" href="https://coinjournal.net/cardano/buy/">Buy Cardano</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212679' id='mega-menu-item-212679'><a class="mega-menu-link" href="https://coinjournal.net/chainlink/buy/">Buy Chainlink</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212681' id='mega-menu-item-212681'><a class="mega-menu-link" href="https://coinjournal.net/filecoin/buy/">Buy Filecoin</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213627' id='mega-menu-item-213627'><a class="mega-menu-link" href="https://coinjournal.net/safemoon/buy/">Buy Safemoon</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213621' id='mega-menu-item-213621'><a class="mega-menu-link" href="https://coinjournal.net/dogecoin/buy/">Buy Dogecoin</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213624' id='mega-menu-item-213624'><a class="mega-menu-link" href="https://coinjournal.net/shiba-inu/buy/">Buy Shiba Inu</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213626' id='mega-menu-item-213626'><a class="mega-menu-link" href="https://coinjournal.net/ripple/buy/">Buy XRP</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213629' id='mega-menu-item-213629'><a class="mega-menu-link" href="https://coinjournal.net/iota/buy/">Buy IOTA</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213630' id='mega-menu-item-213630'><a class="mega-menu-link" href="https://coinjournal.net/monero/buy/">Buy Monero</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212672-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-212690' id='mega-menu-item-212690'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-crypto-to-buy-now/">Best Buys<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213578' id='mega-menu-item-213578'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-solana-coins/">Best Solana Coins</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213577' id='mega-menu-item-213577'><a class="mega-menu-link" href="https://coinjournal.net/compare/new-solana-coins/">New Solana Coins</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212696' id='mega-menu-item-212696'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-meme-coins/">Best Meme Coins</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212695' id='mega-menu-item-212695'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-altcoin-to-buy/">Best Altcoins</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212699' id='mega-menu-item-212699'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-utility-tokens/">Best Utility Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212691' id='mega-menu-item-212691'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-crypto-presales/">Best Presales</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212693' id='mega-menu-item-212693'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-icos/">Best ICOs</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212692' id='mega-menu-item-212692'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-new-cryptocurrencies/">Best New Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212694' id='mega-menu-item-212694'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-penny-cryptocurrency/">Best Penny Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212697' id='mega-menu-item-212697'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-ai-cryptos/">Best AI Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212698' id='mega-menu-item-212698'><a class="mega-menu-link" href="https://coinjournal.net/compare/fastest-growing-cryptocurrencies/">Fastest Growing Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213581' id='mega-menu-item-213581'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-web3-cryptos/">Best Web3 Cryptos</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213584' id='mega-menu-item-213584'><a class="mega-menu-link" href="https://coinjournal.net/compare/best-erc20-cryptos/">Best ERC20 Tokens</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212672-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-213631' id='mega-menu-item-213631'><a class="mega-menu-link" href="https://coinjournal.net/cryptocurrencies/buy/payment-methods/">Payment Methods<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213632' id='mega-menu-item-213632'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/paypal/">Buy Bitcoin with PayPal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213633' id='mega-menu-item-213633'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/credit-card/">Buy Bitcoin with Credit Card</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213635' id='mega-menu-item-213635'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/debit-card/">Buy Bitcoin with Debit Card</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213639' id='mega-menu-item-213639'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/google-pay/">Buy Crypto with Google Pay</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213640' id='mega-menu-item-213640'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/apple-pay/">Buy Bitcoin with Apple Pay</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213637' id='mega-menu-item-213637'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/buy-with-gift-cards/">Buy Crypto with Gift Card</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213642' id='mega-menu-item-213642'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/american-express/">Buy Bitcoin with American Express</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213638' id='mega-menu-item-213638'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/buy-with-zelle/">Buy Bitcoin with Zelle</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213636' id='mega-menu-item-213636'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/buy-with-afterpay/">Buy Bitcoin with Afterpay</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213641' id='mega-menu-item-213641'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/paysafecard/">Buy Bitcoin with Paysafecard</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213643' id='mega-menu-item-213643'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/buy-with-revolut/">Buy Bitcoin with Revolut</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-213644' id='mega-menu-item-213644'><a class="mega-menu-link" href="https://coinjournal.net/bitcoin/buy/buy-with-bank-transfer/">Buy Bitcoin with Bank Transfer</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212672-0-3'></li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-212683' id='mega-menu-item-212683'><a class="mega-menu-link" href="https://coinjournal.net/about-us/" aria-haspopup="true" aria-expanded="false" tabindex="0">About<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-212683-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212683-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-212688' id='mega-menu-item-212688'><a class="mega-menu-link" href="https://coinjournal.net/about-us/">About CoinJournal<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212689' id='mega-menu-item-212689'><a class="mega-menu-link" href="https://coinjournal.net/contact-us/">Contact Us</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212684' id='mega-menu-item-212684'><a class="mega-menu-link" href="https://coinjournal.net/team/">Our Team</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212685' id='mega-menu-item-212685'><a class="mega-menu-link" href="https://coinjournal.net/why-trust-us/">Why Trust Us</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-212683-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-212686' id='mega-menu-item-212686'><a class="mega-menu-link" href="https://coinjournal.net/advertise-coinjournal/">Advertise<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-212687' id='mega-menu-item-212687'><a class="mega-menu-link" href="https://coinjournal.net/crypto-press-release-distribution/">Crypto Press Release Distribution</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li></ul></div>            </div>
+        </nav>
+        <div class="">
+            <button class="header-search  hover:opacity-30  js-modal-open" data-modal="search" aria-label="Search"><i class="icon-search"></i></button>
+            <button class="header-lang-select  transition  duration-300  ease-in-out  hover:opacity-30" aria-label="Select language" data-tooltip="
+        &lt;ul class=&quot;languages&quot;&gt;
+            &lt;li data-lang=&quot;pl-PL&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/pl/aktualnosci/cardano-wkracza-na-globalna-arene-platnosci-z-wielolancuchowa-karta-ada-firmy-wirex/&quot;&gt;Polski&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;sv-SE&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/sv/nyheter/cardano-gar-in-pa-den-globala-betalningsarenan-med-wirex-ada-kort-med-flera-kedjor/&quot;&gt;Svenska&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;fi&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/fi/uutiset/cardano-astuu-maailmanlaajuisille-maksuareenoille-wirexin-moniketjuisella-ada-kortilla/&quot;&gt;Suomi&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;no-NO&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/no/nyheter/cardano-gar-inn-pa-den-globale-betalingsarenaen-med-wirexs-ada-kort-med-flere-kjeder/&quot;&gt;Norsk&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;da-DK&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/da/nyheder/cardano-traeder-ind-pa-den-globale-betalingsarena-med-wirex-multi-chain-ada-kort/&quot;&gt;Dansk&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;uk&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/uk/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&quot;&gt;Українська&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;ro-RO&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/ro/stiri/cardano-intra-in-arena-platilor-globale-cu-cardul-ada-multi-lant-wirex/&quot;&gt;Română&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;cs-CZ&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/cs/novinky/cardano-vstupuje-do-globalni-platebni-areny-s-viceretezcovou-kartou-ada-spolecnosti-wirex/&quot;&gt;Čeština&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;sk-SK&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/sk/novinky/cardano-vstupuje-do-globalnej-platobnej-areny-s-viacretazcovou-kartou-ada-od-spolocnosti-wirex/&quot;&gt;Slovenčina&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;id-ID&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/id/berita/cardano-memasuki-arena-pembayaran-global-dengan-kartu-ada-multi-rantai-wirex/&quot;&gt;Bahasa Indonesia&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;ja&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/ja/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&quot;&gt;日本語&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;th&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/th/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&quot;&gt;ไทย&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;ms-MY&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/ms/berita/cardano-memasuki-arena-pembayaran-global-dengan-kad-ada-berbilang-rantaian-wirex/&quot;&gt;Bahasa Melayu&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;zh-TW&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/zh/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&quot;&gt;中文 (台灣)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;nl-NL&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/nl/nieuws/cardano-betreedt-de-wereldwijde-betalingsarena-met-wirexs-multi-chain-ada-kaart/&quot;&gt;Dutch&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;fr-FR&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/fr/actualites/cardano-entre-dans-larene-mondiale-des-paiements-avec-la-carte-ada-multi-chaines-de-wirex/&quot;&gt;Français&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;de-DE&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/de/news/cardano-betritt-mit-der-multi-chain-ada-karte-von-wirex-die-globale-zahlungsarena/&quot;&gt;Deutsch&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;it-IT&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/it/notizie/cardano-entra-nellarena-dei-pagamenti-globali-con-la-carta-ada-multi-chain-di-wirex/&quot;&gt;Italiano&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;es-ES&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/es/noticias/cardano-entra-en-el-ambito-de-los-pagos-globales-con-la-tarjeta-ada-multicadena-de-wirex/&quot;&gt;Español&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-GB&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/gb/&quot;&gt;English (UK)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-AU&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/au/&quot;&gt;English (AU)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-CA&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/ca/&quot;&gt;English (CA)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-ZA&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/za/&quot;&gt;English (ZA)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-NZ&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/nz/&quot;&gt;English (NZ)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-IE&quot; class=&quot;&quot;&gt;&lt;a href=&quot;https://coinjournal.net/ie/&quot;&gt;English (IE)&lt;/a&gt;&lt;/li&gt&lt;li data-lang=&quot;en-US&quot; class=&quot;is-current&quot;&gt;&lt;a href=&quot;https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&quot;&gt;English (US)&lt;/a&gt;&lt;/li&gt        &lt;/ul&gt;
+        ">
+                <svg class="inline-block  w-5" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="fill-black" d="M8 0c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zM13.2 5.3c0.4 0 0.7 0.3 1.1 0.3-0.3 0.4-1.6 0.4-2-0.1 0.3-0.1 0.5-0.2 0.9-0.2zM1 8c0-0.4 0-0.8 0.1-1.3 0.1 0 0.2 0.1 0.3 0.1 0 0 0.1 0.1 0.1 0.2 0 0.3 0.3 0.5 0.5 0.5 0.8 0.1 1.1 0.8 1.8 1 0.2 0.1 0.1 0.3 0 0.5-0.6 0.8-0.1 1.4 0.4 1.9 0.5 0.4 0.5 0.8 0.6 1.4 0 0.7 0.1 1.5 0.4 2.2-2.5-1.2-4.2-3.6-4.2-6.5zM8 15c-0.7 0-1.5-0.1-2.1-0.3-0.1-0.2-0.1-0.4 0-0.6 0.4-0.8 0.8-1.5 1.3-2.2 0.2-0.2 0.4-0.4 0.4-0.7 0-0.2 0.1-0.5 0.2-0.7 0.3-0.5 0.2-0.8-0.2-0.9-0.8-0.2-1.2-0.9-1.8-1.2s-1.2-0.5-1.7-0.2c-0.2 0.1-0.5 0.2-0.5-0.1 0-0.4-0.5-0.7-0.4-1.1-0.1 0-0.2 0-0.3 0.1s-0.2 0.2-0.4 0.1c-0.2-0.2-0.1-0.4-0.1-0.6 0.1-0.2 0.2-0.3 0.4-0.4 0.4-0.1 0.8-0.1 1 0.4 0.3-0.9 0.9-1.4 1.5-1.8 0 0 0.8-0.7 0.9-0.7s0.2 0.2 0.4 0.3c0.2 0 0.3 0 0.3-0.2 0.1-0.5-0.2-1.1-0.6-1.2 0-0.1 0.1-0.1 0.1-0.1 0.3-0.1 0.7-0.3 0.6-0.6 0-0.4-0.4-0.6-0.8-0.6-0.2 0-0.4 0-0.6 0.1-0.4 0.2-0.9 0.4-1.5 0.4 1.1-0.8 2.5-1.2 3.9-1.2 0.3 0 0.5 0 0.8 0-0.6 0.1-1.2 0.3-1.6 0.5 0.6 0.1 0.7 0.4 0.5 0.9-0.1 0.2 0 0.4 0.2 0.5s0.4 0.1 0.5-0.1c0.2-0.3 0.6-0.4 0.9-0.5 0.4-0.1 0.7-0.3 1-0.7 0-0.1 0.1-0.1 0.2-0.2 0.6 0.2 1.2 0.6 1.8 1-0.1 0-0.1 0.1-0.2 0.1-0.2 0.2-0.5 0.3-0.2 0.7 0.1 0.2 0 0.3-0.1 0.4-0.2 0.1-0.3 0-0.4-0.1s-0.1-0.3-0.4-0.3c-0.1 0.2-0.4 0.3-0.4 0.6 0.5 0 0.4 0.4 0.5 0.7-0.6 0.1-0.8 0.4-0.5 0.9 0.1 0.2-0.1 0.3-0.2 0.4-0.4 0.6-0.8 1-0.8 1.7s0.5 1.4 1.3 1.3c0.9-0.1 0.9-0.1 1.2 0.7 0 0.1 0.1 0.2 0.1 0.3 0.1 0.2 0.2 0.4 0.1 0.6-0.3 0.8 0.1 1.4 0.4 2 0.1 0.2 0.2 0.3 0.3 0.4-1.3 1.4-3 2.2-5 2.2z"></path>
+                </svg>
+                <span class="inline-block  align-middle  ml-1.5  lg:hidden">English (US)</span>
+            </button>
+            <button class="header-toggler  js-navigation-toggler" aria-label="Toggle Navigation">
+                <div class="header-toggler__inner">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+        <div class="search-modal__wrapper  js-modal" data-modal="search">
+            <div class="search-modal__table">
+                <div class="search-modal__cell">
+                    <div class="search-modal">
+                        <button class="search-modal__close  js-modal-close" data-modal="search" aria-label="Close">
+                            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z" />
+                            </svg>
+                        </button>
+                        <div class="search-modal__content">
+                            <form action="https://coinjournal.net/" role="search" class="search-modal__form">
+                                <input id="search-modal__input" type="text" name="s" class="search-modal__input" placeholder="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-modal__overlay  js-modal-overlay"></div>
+        </div>
+    </div>
+</header>
+    <main class="main  js-load-articles" >
+
+    
+    <article class="js-single-article" data-json="{&quot;permalink&quot;:&quot;https:\/\/coinjournal.net\/news\/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card\/&quot;,&quot;id&quot;:347397,&quot;title&quot;:&quot;Cardano enters the global payments arena with Wirex\u2019s multi-chain ADA card&quot;,&quot;metaTitle&quot;:&quot;Cardano enters the global payments arena with Wirex\u2019s multi-chain ADA card - CoinJournal&quot;,&quot;prev&quot;:347371,&quot;prevPermalink&quot;:&quot;https:\/\/coinjournal.net\/news\/altcoins-eth-supply-hits-record-lows-sol-price-at-key-juncture-zec-dips-25\/&quot;,&quot;next&quot;:347400,&quot;nextPermalink&quot;:&quot;https:\/\/coinjournal.net\/news\/lisk-lsk-token-price-has-soared-62-heres-what-is-fueling-the-rally\/&quot;,&quot;lang&quot;:&quot;en&quot;}">
+
+        
+            <div class="sticky-banner  fixed  z-20  left-0  w-full  js-article-banner">
+                <div class="bg-white  shadow-lg">
+                    <div class="container  py-3  flex  justify-between  items-center">
+                        <a href="https://coinjournal.net/news/altcoins-eth-supply-hits-record-lows-sol-price-at-key-juncture-zec-dips-25/" aria-label="Previous article" class="inline-block  pr-1  text-green-300  transition  duration-300  ease-in-out  font-bold  icon-previous  hover:text-green-400  js-article-prev"><span class="hidden  lg:inline-block">&nbsp;Previous article</span></a>                        <span class="w-3/4  lg:w-auto  max-h-6  overflow-x-hidden  overflow-y-hidden  lg:overflow-visible  font-serif  text-base  js-article-banner-title">Cardano enters the global payments arena with Wirex’s multi-chain ADA card</span>
+                        <a href="https://coinjournal.net/news/lisk-lsk-token-price-has-soared-62-heres-what-is-fueling-the-rally/" aria-label="Next article" class="inline-block  pr-1  text-green-300  transition  duration-300  ease-in-out  font-bold  icon-next  hover:text-green-400  js-article-next"><span class="hidden  lg:inline-block">Next article&nbsp;</span></a>                    </div>
+                    <hr class="h-1  bg-green-300  w-0  js-article-banner-progress">
+                </div>
+                            </div>
+
+        
+        <section class="region py-4">
+                    </section>
+
+        <section class="region">
+            <div class="relative  container  pt-10  pb-2">
+
+                <div class="absolute  top-2  left-6  breadcrumbs  breadcrumbs--dark  z-10"><span><span><a href="https://coinjournal.net/">Home</a></span>  <span><a href="https://coinjournal.net/news/">Latest Cryptocurrency News</a></span>  <span class="breadcrumb_last" aria-current="page"><strong>Cardano enters the global payments arena with Wirex’s multi-chain ADA card</strong></span></span></div>
+                <div class="relative  z-10  flex  items-center  py-12  lg:py-14  lg:pb-20  has-gradient  has-gradient--alt  rounded-xl  hero-shadow">
+
+                    <div class="container">
+                        <div class="w-full  px-4  lg:px-16  flex  flex-wrap  items-center  justify-center  content-center">
+                            <h1 class="block  w-full  mb-0  font-serif  text-2xl  md:text-4xl  text-black  text-center">Cardano enters the global payments arena with Wirex’s multi-chain ADA card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="region  pb-12  lg:pb-14  pt-8  px-4">
+
+            <div class="container">
+
+                <div class="relative  lg:grid  lg:grid-cols-7  lg:gap-3  lg:px-6">
+
+                    <div class="post-article-content  lg:col-span-5  px-2  lg:px-6" data-site="CoinJournal">
+
+                        <div class="-mt-16  mb-8  lg:-mt-20  rounded-md  shadow-md">
+
+                            <div class="relative  z-10  post-article-image  rounded  overflow-hidden" data-site="CoinJournal">
+                                
+<picture>
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2025/11/Cardano-and-Wirex-launch-ADA-card-smartcrop-750x375.webp" type="image/webp" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2025/11/Cardano-and-Wirex-launch-ADA-card-smartcrop-363x181.webp" type="image/webp" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2025/11/Cardano-and-Wirex-launch-ADA-card-smartcrop-750x375.png" type="image/jpeg" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2025/11/Cardano-and-Wirex-launch-ADA-card-smartcrop-363x181.png" type="image/jpeg" />
+    <img src="https://coinjournal.net/wp-content/uploads/2025/11/Cardano-and-Wirex-launch-ADA-card.png" alt="Cardano enters the global payments arena with Wirex’s multi-chain ADA card" width="100%" height="100%">
+</picture>                            </div>
+                        </div>
+
+                        <ul>
+<li>Cardano and Wirex launch an ADA card supporting 685+ crypto assets.</li>
+<li>Users can earn up to 8% cashback and access DeFi features.</li>
+<li>Non-custodial and RWA yield upgrades planned for 2026.</li>
+</ul>
+<p>Cardano has taken a decisive step toward real-world utility with the launch of its first-ever ADA card, developed in partnership with global fintech firm Wirex and the blockchain&rsquo;s commercial arm, EMURGO.</p>
+<p>Unveiled during the <a href="https://summit.cardano.org/">2025 Cardano Summit in Berlin</a>, the new Cardano Card represents a major leap for ADA as it now becomes spendable in daily transactions across more than 130 countries.</p>
+<p>Through its integration with Visa, which <a href="https://coinjournal.net/news/visa-unveils-tokenized-digital-asset-platform/">unveiled its tokenised digital asset platform in 2024</a>,&nbsp; the card allows users to make purchases and withdrawals anywhere Visa is accepted, supporting over 685 cryptocurrencies, including ADA, BTC, ETH, and stablecoins such as USDC.</p>
+<p>Built directly into the Wirex app, the card brings together crypto and fiat functionalities in one platform.</p>
+<p>Users can spend their digital assets effortlessly while accessing features like crypto-backed loans, yield accounts, and structured trading products.</p>
+<p>With up to 8% cashback on purchases and ATM access, the Cardano Card aims to redefine how holders use crypto in everyday life.</p>
+<h2>Bridging blockchain and traditional finance</h2>
+<p>For EMURGO and Wirex, this initiative represents a strategic move to connect blockchain technology with established financial systems.</p>
+<p>The card&rsquo;s rollout follows years of growing demand for products that make digital assets usable in the real economy.</p>
+<p>According to industry reports, while there are more than 820 million crypto wallets globally, only a small fraction are used for payments.</p>
+<p>And by offering a seamless, multi-chain solution backed by Visa&rsquo;s global infrastructure, Cardano and Wirex are positioning ADA as a gateway for millions of users to access decentralised finance (DeFi) through familiar payment experiences.</p>
+<p>Phillip Pon, CEO of EMURGO, described the project as &ldquo;mobile-ready, fintech-friendly, and uniquely built for on-chain finance,&rdquo; emphasising its potential to expand Cardano&rsquo;s presence in the global fintech space.</p>
+<p>Moving forward, EMURGO has outlined a multi-phase roadmap that includes a non-custodial version in 2026, allowing users full control over their assets.</p>
+<p>Future updates will introduce features such as auto-staking, tokenised real-world asset yields (RWA), and enhanced DeFi integrations.</p>
+<p>Importantly, a portion of the card&rsquo;s profits will be redirected into the Cardano Treasury, reinforcing the ecosystem&rsquo;s long-term sustainability.</p>
+<p>Wirex, which has processed more than $20 billion in transactions and serves over six million users, sees the Cardano partnership as an expansion of its mission to connect the Web3 economy with the traditional financial world.</p>
+<p>Georgy Sokolov, Wirex&rsquo;s co-founder, said the partnership marks a turning point for the network, bringing &ldquo;millions of users closer to a future where digital assets are seamlessly integrated into everyday financial life.&rdquo;</p>
+<p>The <a href="https://www.prnewswire.co.uk/news-releases/emurgo-and-wirex-partner-to-launch-the-first-ever-cardano-card-at-the-cardano-summit-2025-bringing-ada-to-millions-worldwide-302611345.html">partnership between Wirex and EMURGO</a> gives Cardano a powerful entry point into mainstream payments while offering users tangible incentives to use ADA in their everyday financial activities.</p>
+
+
+                        
+                        
+                        <div class="post-meta">
+
+                            <hr class="mb-6"><h6 class="text-3xl  mb-4  text-green-300">Share this article</h6><div class="share  mb-6  mx-6  md:mx-0"><div class="flex  flex-wrap  -ml-3  font-bold  text-xxs  text-center  uppercase">
+                            <div class="pl-3  mb-3">
+                                <a href="https://twitter.com/share?url=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&text=Cardano enters the global payments arena with Wirex’s multi-chain ADA card" aria-label="Share on Twitter" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#269af3]">
+                                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="pl-3 mb-3">
+                                <a href="https://www.facebook.com/sharer.php?u=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" aria-label="Share on Facebook" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#1a77ee]">
+                                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="pl-3">
+                                <a href="https://telegram.me/share/url?url=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&text=Cardano enters the global payments arena with Wirex’s multi-chain ADA card" aria-label="Share on Telegram" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#04a0d6]">
+                                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="pl-3">
+                                <a href="/cdn-cgi/l/email-protection#c7f8b4b2a5ada2a4b3fa84a6b5a3a6a9a8e7a2a9b3a2b5b4e7b3afa2e7a0aba8a5a6abe7b7a6beaaa2a9b3b4e7a6b5a2a9a6e7b0aeb3afe790aeb5a2bf25475eb4e7aab2abb3aeeaa4afa6aea9e7868386e7a4a6b5a3e1a5a8a3befaafb3b3b7b4fde8e8a4a8aea9ada8b2b5a9a6abe9a9a2b3e8a9a2b0b4e8a4a6b5a3a6a9a8eaa2a9b3a2b5b4eab3afa2eaa0aba8a5a6abeab7a6beaaa2a9b3b4eaa6b5a2a9a6eab0aeb3afeab0aeb5a2bfb4eaaab2abb3aeeaa4afa6aea9eaa6a3a6eaa4a6b5a3e8" aria-label="Share via email" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#000000]">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="pl-3">
+                                <a href="https://reddit.com/submit?url=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&title=Cardano enters the global payments arena with Wirex’s multi-chain ADA card" aria-label="Share on Reddit" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#f8421f]">
+                                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="pl-3">
+                                <a href="https://www.linkedin.com/shareArticle?url=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/&title=Cardano enters the global payments arena with Wirex’s multi-chain ADA card" aria-label="Share on Linkedin" rel="nofollow noopener" class="block  flex  items-center  justify-center  h-9  w-9  rounded-full  bg-grey-300  text-sm  text-white  hover:bg-[#2d67b1]">
+                                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-3.5 h-3.5"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div><hr class="mb-6"><h6 class="text-3xl  mb-4  text-green-300">Categories</h6><div class="tags  mx-6  md:mx-0"><div class="flex  flex-wrap  -ml-3  mb-4  lg:mb-6  font-bold  text-xxs  text-center  uppercase">
+                                    <div class="pl-3  mb-3">
+                                        <a href="https://coinjournal.net/news/category/analysis/" class="block  py-2.5  px-2  bg-grey-100  leading-[0.45rem]  transition-colors  hover:bg-grey-300">Analysis</a>
+                                    </div>
+                                
+                                    <div class="pl-3  mb-3">
+                                        <a href="https://coinjournal.net/news/category/markets/" class="block  py-2.5  px-2  bg-grey-100  leading-[0.45rem]  transition-colors  hover:bg-grey-300">Markets</a>
+                                    </div>
+                                </div></div><hr class="mb-6"><h6 class="text-3xl  mb-4  text-green-300">Tags</h6><div class="tags  mx-6  md:mx-0"><div class="flex  flex-wrap  -ml-3  mb-4  lg:mb-6  font-bold  text-xxs  text-center  uppercase">
+                            <div class="pl-3  mb-3">
+                                <a href="https://coinjournal.net/news/tag/cardano/" class="block  py-2.5  px-2  bg-grey-100  leading-[0.45rem]  transition-colors  hover:bg-grey-300">Cardano News</a>
+                            </div>
+                        </div></div>
+                        </div>
+                    </div>
+
+                    <aside class="lg:col-span-2">
+
+                        <div class="w-full  grid  grid-cols-1  md:grid-cols-2  lg:grid-cols-1  gap-6">
+
+                            <div class="meta  text-xs  flex  flex-wrap  justify-center">
+                                <div class="block  flex  flex-wrap  gap-3  py-4  px-4  rounded-md  bg-slate-50  border-2  border-slate-100  border-solid  font-sans   text-xs  text-center">
+                                    <div class="rounded-full  w-10  h-10  mx-auto  bg-center  bg-cover  bg-no-repeat  border-purple-200  border-2" data-bg="https://coinjournal.net/wp-content/uploads/2022/01/1641549328584-c4d6a486-9f22-4147-ba51-055419f0dce2.jpg"></div>
+                                    <a href="https://coinjournal.net/author/charles-thuo/" class="block  w-full  font-bold  hover:underline">By Charles Thuo</a>
+                                    <div class="block  w-full  text-center">
+                                                                                    <span><time datetime="2025-11-11T18:11:46+00:00" itemprop="datePublished">11 November 2025</time></span>
+                                                                            </div>
+                                                                            <div class="block  w-full  text-center">
+                                            Edited by:
+                                                                                            <span> <a href="https://coinjournal.net/author/ananthu-c-u/" class="font-medium  hover:opacity-30  transition-opacity">Ananthu C U</a></span>
+                                                                                    </div>
+                                                                    </div>
+                            </div>
+
+                            <div class="relative  p-4  bg-slate-100  rounded-md  shadow-lg  shadow-slate-900/5">
+                                <h3 class="block  text-lg  text-slate-400  mb-4  font-sans  font-normal">Related Articles</h3>
+                                                                        <div class="article-card  article-card--condensed  flex  mb-3  md:border-b  md:border-grey-200  transition-all  duration-300  ease-in-out  hover:md:border-grey-300  hover:opacity-75  hover:lg:opacity-100">
+                                            <a href="https://coinjournal.net/news/ethereum-approaches-1800-as-bulls-test-key-resistance/" aria-label="Ethereum approaches $1,800 as bulls test key resistance" class="article-card__inner  relative  w-full  bg-black  lg:bg-transparent  rounded-md  overflow-hidden">
+                                                <div class="article-card__image  block  relative  opacity-70  lg:flex-none  lg:basis-full  lg:mb-3  lg:opacity-100  transition-all  duration-300  ease-in-out">
+                                                    
+<picture>
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM-smartcrop-750x375.webp" type="image/webp" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM-smartcrop-363x181.webp" type="image/webp" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM-smartcrop-750x375.png" type="image/jpeg" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM-smartcrop-363x181.png" type="image/jpeg" />
+    <img data-src="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM-smartcrop-363x181.png" alt="" width="100%" height="100%">
+</picture>                                                </div>
+                                                <div class="article-card__content  flex  flex-wrap  items-end  content-end  block  absolute  inset-6  text-white  lg:static  lg:text-slate-800  font-sans">
+                                                    <hr class="h-1  w-full  mb-3  bg-white  opacity-30  lg:hidden">
+                                                    <span class="block  w-full  text-xs  lg:mb-1.5">10 July 2026</span>
+                                                    <span class="block  text-xs  mb-3"><b>Ethereum approaches $1,800 as bulls test key resistance</b></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                        <div class="article-card  article-card--condensed  flex  mb-3  md:border-b  md:border-grey-200  transition-all  duration-300  ease-in-out  hover:md:border-grey-300  hover:opacity-75  hover:lg:opacity-100">
+                                            <a href="https://coinjournal.net/news/bitcoin-tops-64k-as-improving-risk-sentiment-boosts-crypto-market-recovery/" aria-label="Bitcoin tops $64K as improving risk sentiment boosts crypto market recovery" class="article-card__inner  relative  w-full  bg-black  lg:bg-transparent  rounded-md  overflow-hidden">
+                                                <div class="article-card__image  block  relative  opacity-70  lg:flex-none  lg:basis-full  lg:mb-3  lg:opacity-100  transition-all  duration-300  ease-in-out">
+                                                    
+<picture>
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/06/stock-market-chart-in-green-smartcrop-750x375.webp" type="image/webp" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/06/stock-market-chart-in-green-smartcrop-363x181.webp" type="image/webp" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/06/stock-market-chart-in-green-smartcrop-750x375.png" type="image/jpeg" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/06/stock-market-chart-in-green-smartcrop-363x181.png" type="image/jpeg" />
+    <img data-src="https://coinjournal.net/wp-content/uploads/imagecache/2026/06/stock-market-chart-in-green-smartcrop-363x181.png" alt="" width="100%" height="100%">
+</picture>                                                </div>
+                                                <div class="article-card__content  flex  flex-wrap  items-end  content-end  block  absolute  inset-6  text-white  lg:static  lg:text-slate-800  font-sans">
+                                                    <hr class="h-1  w-full  mb-3  bg-white  opacity-30  lg:hidden">
+                                                    <span class="block  w-full  text-xs  lg:mb-1.5">10 July 2026</span>
+                                                    <span class="block  text-xs  mb-3"><b>Bitcoin tops $64K as improving risk sentiment boosts crypto market recovery</b></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                        <div class="article-card  article-card--condensed  flex    transition-all  duration-300  ease-in-out  hover:md:border-grey-300  hover:opacity-75  hover:lg:opacity-100">
+                                            <a href="https://coinjournal.net/news/solana-price-prediction-why-analysts-see-more-upside-for-sol/" aria-label="Solana price prediction: Why analysts see more upside for SOL" class="article-card__inner  relative  w-full  bg-black  lg:bg-transparent  rounded-md  overflow-hidden">
+                                                <div class="article-card__image  block  relative  opacity-70  lg:flex-none  lg:basis-full  lg:mb-3  lg:opacity-100  transition-all  duration-300  ease-in-out">
+                                                    
+<picture>
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/Solana-price-outlook-smartcrop-750x375.webp" type="image/webp" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/Solana-price-outlook-smartcrop-363x181.webp" type="image/webp" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/Solana-price-outlook-smartcrop-750x375.png" type="image/jpeg" media="(min-width: 750px)" />
+    <source srcset="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/Solana-price-outlook-smartcrop-363x181.png" type="image/jpeg" />
+    <img data-src="https://coinjournal.net/wp-content/uploads/imagecache/2026/07/Solana-price-outlook-smartcrop-363x181.png" alt="Solana price prediction" width="100%" height="100%">
+</picture>                                                </div>
+                                                <div class="article-card__content  flex  flex-wrap  items-end  content-end  block  absolute  inset-6  text-white  lg:static  lg:text-slate-800  font-sans">
+                                                    <hr class="h-1  w-full  mb-3  bg-white  opacity-30  lg:hidden">
+                                                    <span class="block  w-full  text-xs  lg:mb-1.5">9 July 2026</span>
+                                                    <span class="block  text-xs  mb-3"><b>Solana price prediction: Why analysts see more upside for SOL</b></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                            </div>
+
+                            
+<div class="relative  px-4  py-6  rounded-xl  bg-indigo-50  shadow-lg  shadow-indigo-900/10  text-indigo-800">
+    <h3 class="font-bold  mb-3">Subscribe to our newsletter</h3>
+    <p class="text-sm">Keep updated with our round the clock and in-depth cryptocurrency news</p>
+    
+    <iframe width="100%" height="52px" src="https://embeds.beehiiv.com/165a3a18-ad70-402b-bc9a-0541716708c9?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+
+</div>
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </article>
+
+<section class="pb-12  lg:pb-16">
+    <div class="container">
+        <a class="block  bg-grey-100  transition  duration-300  ease-in-out  hover:bg-grey-200  mx-12  md:mx-20  lg:mx-36  px-4  py-4  font-bold  leading-none  rounded-sm  whitespace-nowrap  text-center  cursor-pointer  icon-down-open  js-load-more-articles"> Continue loading</a>
+    </div>
+</section>
+
+<div class="scroll-to-top  fixed  right-8  md:right-20  lg:right-24  bottom-8  md:bottom-20  lg:bottom-24  js-scroll-top" data-visible="false">
+    <span class="icon-up-small"></span>
+</div><div class="sticky-banner  sticky-banner--bottom  fixed  z-20  left-1/2  py-3  w-3/5  max-w-[768px]  js-sticky-banner">
+    <div class="inv-banner" style="text-align:center; display:block;" data-ad-banner='{&quot;slot&quot;:&quot;inv-gpt-ad-second-horizontal&quot;,&quot;creativeId&quot;:null,&quot;partner&quot;:&quot;eToro&quot;}'><div class="banner-wrapper" style="display:inline-block; position:relative;">
+                <a href="https://coinjournal.net/visit/etoro?ref=https://coinjournal.net/news/cardano-enters-the-global-payments-arena-with-wirexs-multi-chain-ada-card/" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:3;" rel="nofollow noopener sponsored" aria-label="eToro"></a>
+                <img src="https://coinjournal.net/wp-content/uploads/page-media/banner-etoro-1-57.gif" alt="eToro Banner" width="728" height="90" style="width:100%; height:100%; display:block;">
+            </div></div></div></main>
+
+
+<footer class="footer  relative  z-10">
+
+    <div class="footer-top  bg-zinc-900">
+        <div class="container">
+            <div class="grid  grid-cols-8  gap-4">
+                <div class="col-span-8  lg:col-span-4  py-12  grid  grid-cols-3  gap-6  text-white">
+                    <div class="links  col-span-3  md:col-span-1  font-bold"><span class="block  heading-4  mb-3">Learn More</span><ul class="footer-links "><li class="footer-links__item  footer-links__item--6754"><a href="https://coinjournal.net/about-us/" class="footer-links__link">About Us</a></li>
+<li class="footer-links__item  footer-links__item--6761"><a href="https://coinjournal.net/contact-us/" class="footer-links__link">Contact Us</a></li>
+<li class="footer-links__item  footer-links__item--8402"><a href="https://coinjournal.net/team/" class="footer-links__link">Team</a></li>
+<li class="footer-links__item  footer-links__item--17523"><a href="https://coinjournal.net/why-trust-us/" class="footer-links__link">Why Trust Us</a></li>
+<li class="footer-links__item  footer-links__item--17827"><a href="https://coinjournal.net/how-we-fund-this-site/" class="footer-links__link">How We Fund This Site</a></li>
+<li class="footer-links__item  footer-links__item--17828"><a href="https://coinjournal.net/how-we-test/" class="footer-links__link">How We Test</a></li>
+<li class="footer-links__item  footer-links__item--17564"><a href="https://coinjournal.net/responsible-investing/" class="footer-links__link">Responsible Investing</a></li>
+<li class="footer-links__item  footer-links__item--78403"><a href="https://coinjournal.net/glossary/" class="footer-links__link">Crypto glossary</a></li>
+<li class="footer-links__item  footer-links__item--95000"><a href="/research-center/" class="footer-links__link">Research Center</a></li>
+<li class="footer-links__item  footer-links__item--101696"><a href="https://coinjournal.net/learn/" class="footer-links__link">Educational Guides</a></li>
+</ul></div><div class="links  col-span-3  md:col-span-1  font-bold"><span class="block  heading-4  mb-3">Useful Links</span><ul class="footer-links "><li class="footer-links__item  footer-links__item--13275"><a href="https://coinjournal.net/profit-time-machine/" class="footer-links__link">Profit Time Machine</a></li>
+<li class="footer-links__item  footer-links__item--6760"><a href="https://coinjournal.net/advertise-coinjournal/" class="footer-links__link">Advertise With Us</a></li>
+<li class="footer-links__item  footer-links__item--209157"><a href="https://coinjournal.net/crypto-press-release-distribution/" class="footer-links__link">Crypto Press Release Distribution</a></li>
+<li class="footer-links__item  footer-links__item--8241"><a href="https://coinjournal.net/editorial-policy/" class="footer-links__link">Editorial Policy</a></li>
+<li class="footer-links__item  footer-links__item--11672"><a href="https://coinjournal.net/privacy-policy/" class="footer-links__link">Privacy Policy</a></li>
+<li class="footer-links__item  footer-links__item--11674"><a href="https://coinjournal.net/disclaimer/" class="footer-links__link">Disclaimer</a></li>
+<li class="footer-links__item  footer-links__item--11676"><a href="https://coinjournal.net/sitemap/" class="footer-links__link">Sitemap</a></li>
+</ul></div><div class="links  col-span-3  md:col-span-1  font-bold"><span class="block  heading-4  mb-3">Connect</span><ul class="footer-links "><li class="footer-links__item  footer-links__item--76390"><a href="https://facebook.com/CoinJournalnews" class="footer-links__link">Facebook</a></li>
+<li class="footer-links__item  footer-links__item--76391"><a href="https://twitter.com/CoinJournal" class="footer-links__link">Twitter</a></li>
+<li class="footer-links__item  footer-links__item--78788"><a href="https://www.youtube.com/c/CoinJournal" class="footer-links__link">YouTube</a></li>
+</ul></div>                </div>
+                                    <div class="col-span-8  lg:col-span-4  py-12  lg:pl-12">
+                        <span class="block  heading-3  mb-2  font-serif  font-normal  text-white  -mt-1">Subscribe to our newsletter</span>
+                        <p class="mb-2  font-light  text-sm  text-white">Keep updated with our round the clock and in-depth cryptocurrency news</p>
+                        
+    <iframe width="100%" height="52px" src="https://embeds.beehiiv.com/165a3a18-ad70-402b-bc9a-0541716708c9?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+    <div class="footer-disclaimer  py-12  bg-grey-600">
+        <div class="container  text-sm  leading-5  text-white">
+            <a href="/" aria-label="Home page" class="inline-block  w-36  md:w-[186px]  mb-6"><?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 332 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CoinJournal-Light" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M33.166,57.44 C26.7702211,54.9659071 22.2289558,49.20559 21.316,42.409 L42.642,42.409 L42.642,20.461 L58.685,20.461 L58.685,39.916 C58.6823155,46.1015587 55.6342302,51.8892142 50.535176,55.3907552 C45.4361218,58.8922962 38.9399411,59.6587266 33.166,57.44 L33.166,57.44 Z M18.766,37.55 C13.7877131,37.5489393 9.01375999,35.5702367 5.49442354,32.0492124 C1.97508709,28.5281881 -0.00132624166,23.7532868 -6.67034215e-07,18.775 C-0.00106097901,13.7968865 1.97546946,9.02224201 5.49477717,5.50143402 C9.01408487,1.98062603 13.7878865,0.00206075293 18.766,0.001 L38.214,0.001 L38.214,37.551 L18.766,37.55 Z" id="Shape"></path>
+            <path d="M171.739,50.962 C170.930564,50.6391012 170.327411,49.9462202 170.119,49.101 C170.189493,48.355387 170.565628,47.672262 171.158,47.214 C171.742984,46.8445736 172.425528,46.6595654 173.117,46.683 C174.45617,46.7785895 175.728498,47.3047798 176.744,48.183 L177.953,49.151 C178.651222,48.4913088 179.160163,47.6567697 179.427,46.734 C179.726553,45.5983232 179.865239,44.4262255 179.839,43.252 C179.839,42.6713333 179.830667,41.9616667 179.814,41.123 C179.797333,40.2843333 179.773333,39.1883333 179.742,37.835 C179.709333,36.481 179.676,34.756 179.642,32.66 C179.608,30.564 179.567333,27.969 179.52,24.875 C179.471333,21.779 179.431333,18.0713333 179.4,13.752 L174.471,13.218 L174.471,11.235 L188.64,11.235 L188.64,13.218 L184.192,13.749 C184.159333,15.7803333 184.135333,17.8356667 184.12,19.915 C184.104667,21.9943333 184.096333,24.082 184.095,26.178 L184.095,33.721 C184.095,36.1716667 184.054667,38.2186667 183.974,39.862 C183.923948,41.2418782 183.770518,42.6160624 183.515,43.973 C183.336239,44.9329226 183.018569,45.861678 182.572,46.73 C182.136706,47.5129606 181.591127,48.2292856 180.952,48.857 C180.114589,49.6834035 179.119526,50.3329488 178.026,50.767 C176.850285,51.2399622 175.593234,51.4777825 174.326,51.4673509 C173.4388,51.4709363 172.559587,51.299308 171.739,50.962 L171.739,50.962 Z M79.689,42.65 C77.1601177,41.4246824 75.0492345,39.4800817 73.621,37.06 C72.0255872,34.1975146 71.2472629,30.9517296 71.371,27.677 C71.3105413,25.1264181 71.7797569,22.5910193 72.749,20.231 C73.599866,18.2292475 74.8892297,16.4440272 76.522,15.007 C78.12488,13.616654 79.9917922,12.5639863 82.011,11.912 C84.1030352,11.2300921 86.2906522,10.8870954 88.491,10.896 C90.1859134,10.8773774 91.8760624,11.0790658 93.519,11.496 C95.0724435,11.9156426 96.567854,12.5263021 97.971,13.314 L98.164,20.814 L94.487,20.814 L93.087,14.479 C92.0068952,13.9318911 90.8127642,13.6478353 89.602,13.65 C87.9051126,13.6465422 86.246111,14.1515921 84.839,15.1 C83.23193,16.2422171 81.995764,17.831325 81.284,19.67 C80.2945993,22.2363355 79.8343762,24.9762447 79.931,27.725 C79.8345385,30.45161 80.2780399,33.1703925 81.236,35.725 C81.9229111,37.5381785 83.1248693,39.1110128 84.694,40.25 C86.0812841,41.2023103 87.7263281,41.7082093 89.409,41.7 C90.0931031,41.6995028 90.7747779,41.6186147 91.44,41.459 C92.1349802,41.2913606 92.8144322,41.0648766 93.471,40.782 L94.824,34.592 L98.501,34.592 L98.308,42.039 C96.890725,42.7995568 95.3895847,43.392227 93.835,43.805 C91.9809665,44.2921119 90.0698227,44.5275573 88.153,44.505 C85.2266973,44.5443897 82.3305963,43.90967 79.689,42.65 L79.689,42.65 Z M106.963,42.75 C105.148689,41.7260873 103.670564,40.1975906 102.708,38.35 C101.675048,36.323221 101.15973,34.0723116 101.208,31.798 C101.152742,29.5311293 101.712198,27.2915814 102.827,25.317 C103.881391,23.5062696 105.411807,22.0190859 107.252,21.017 C109.164359,19.9741323 111.312949,19.4410314 113.491,19.469 C115.655115,19.4392176 117.791862,19.9550908 119.704,20.969 C121.546553,21.9583673 123.078393,23.4396649 124.129,25.248 C125.258063,27.2392474 125.825565,29.4995786 125.771,31.788 C125.824343,34.0708216 125.308859,36.3310462 124.271,38.365 C123.302928,40.202448 121.825588,41.7217993 120.016,42.741 C118.015766,43.8290745 115.76428,44.3712522 113.488,44.313 C111.212741,44.3706287 108.962381,43.8284731 106.963,42.741 L106.963,42.75 Z M110.398,24.398 C109.720667,25.9773333 109.382,28.492 109.382,31.942 C109.248701,34.4835372 109.593327,37.0275267 110.398,39.442 C110.804913,40.8207106 112.055882,41.7786413 113.493,41.812 C114.846333,41.812 115.862,41.022 116.54,39.442 C117.343479,37.0272639 117.687743,34.4834382 117.555,31.942 C117.688967,29.3860854 117.344741,26.827617 116.54,24.398 C115.862,22.8186667 114.846333,22.0286667 113.493,22.028 C112.057976,22.0597054 110.807253,23.0135028 110.397,24.389 L110.398,24.398 Z M297.423,42.698 C296.103284,41.5807241 295.394092,39.9020554 295.513,38.177 C295.507205,37.2652323 295.73182,36.3667739 296.166,35.565 C296.762282,34.5946995 297.582986,33.7818836 298.559,33.195 C300.123144,32.2297446 301.794839,31.4507839 303.54,30.874 C304.281333,30.6173333 305.135667,30.3433333 306.103,30.052 C307.070333,29.7606667 308.037,29.5033333 309.003,29.28 L309.003,28.065 C309.003,25.7116667 308.648333,24.1476667 307.939,23.373 C306.993804,22.5126052 305.729415,22.0910212 304.457,22.212 C304.102,22.212 303.708,22.229 303.273,22.26 C302.791359,22.3002737 302.31399,22.3812291 301.846,22.502 L300.927,25.646 C300.475667,27.192 299.637667,27.9656667 298.413,27.967 C297.842368,28.0333552 297.270232,27.8557928 296.837434,27.4780227 C296.404636,27.1002526 296.151377,26.5573649 296.14,25.983 C296.585257,24.1536953 297.743119,22.5781972 299.356,21.607 C301.227771,20.478189 303.386365,19.9155306 305.571,19.987 C308.117,19.987 310.003,20.6236667 311.229,21.897 C312.455,23.1703333 313.067333,25.337 313.066,28.397 L313.066,38.697 C313.001272,39.4623961 313.170022,40.2294391 313.55,40.897 C313.833563,41.3115524 314.305788,41.5566736 314.808,41.55 C315.183381,41.561977 315.553708,41.4609471 315.871,41.26 C316.183385,41.0460698 316.460683,40.7849637 316.693,40.486 L317.661,41.55 C317.20662,42.3585441 316.54802,43.0336959 315.751,43.508 C315.04294,43.8829893 314.252171,44.0744929 313.451,44.065 C312.391567,44.1002502 311.357216,43.7382276 310.551,43.05 C309.763113,42.3465529 309.249774,41.386833 309.102,40.341 C308.036902,41.4177556 306.870134,42.3889458 305.618,43.241 C304.529471,43.9099809 303.269098,44.2461036 301.992,44.208 C300.339052,44.2504351 298.723125,43.7146223 297.423,42.693 L297.423,42.698 Z M306.538,31.817 C305.732667,32.0916667 305.072,32.325 304.556,32.517 C303.441372,32.913598 302.396974,33.4850804 301.462,34.21 C300.887374,34.657318 300.431076,35.2385915 300.133,35.903 C299.933866,36.3949399 299.827083,36.919362 299.818,37.45 C299.71339,38.4958535 300.129045,39.5263941 300.93,40.207 C301.734622,40.7746278 302.702907,41.0633222 303.687,41.029 C304.153244,41.0315564 304.617398,40.9665478 305.065,40.836 C305.618044,40.6520824 306.14609,40.400152 306.637,40.086 C307.249,39.7153333 308.039,39.1753333 309.007,38.466 L309.007,31.066 C308.167,31.2893333 307.344,31.538 306.538,31.812 L306.538,31.817 Z M221.524,42.257 C220.396,40.951 219.848,38.702 219.88,35.51 L220.025,23.469 L216.591,22.744 L216.591,21.004 L223.699,20.326 L224.184,20.81 L223.942,27.58 L223.942,35.075 C223.942,37.1723333 224.264,38.6476667 224.908,39.501 C225.604803,40.379518 226.689267,40.8589256 227.808,40.783 C230.064,40.783 232.320667,39.7353333 234.578,37.64 L234.724,23.421 L231.291,22.745 L231.291,21.004 L238.303,20.326 L238.786,20.81 L238.642,27.58 L238.642,41.169 L241.93,41.847 L241.93,43.587 L235.208,43.974 L234.724,39.674 C233.609833,41.1096985 232.199965,42.2890225 230.59,43.132 C229.219364,43.83396 227.703873,44.2064984 226.164,44.22 C224.399505,44.3041449 222.692374,43.5819255 221.524,42.257 L221.524,42.257 Z M197.224,42.886 C195.49439,41.9652617 194.06052,40.5740331 193.088,38.873 C191.962168,36.8425399 191.409138,34.5443548 191.488,32.224 C191.409885,29.8728542 191.962324,27.5436335 193.088,25.478 C194.057465,23.7496483 195.489802,22.3259688 197.224,21.367 C200.549263,19.5290391 204.585737,19.5290391 207.911,21.367 C209.647955,22.3298517 211.086466,23.7521023 212.069,25.478 C213.209196,27.5387602 213.769074,29.8702014 213.689,32.224 C213.769786,34.5470421 213.209297,36.8474694 212.069,38.873 C211.083458,40.5715465 209.643444,41.9613435 207.911,42.886 C204.569324,44.6591938 200.565676,44.6591938 197.224,42.886 L197.224,42.886 Z M197.755,24.775 C196.643667,26.485 196.087667,28.9676667 196.087,32.223 C196.087,35.4476667 196.643,37.8896667 197.755,39.549 C198.801895,41.1758576 200.634275,42.1240343 202.567,42.039 C204.505334,42.119994 206.342969,41.1738171 207.403,39.549 C208.530333,37.8896667 209.094333,35.4476667 209.095,32.223 C209.095,28.9663333 208.531,26.4836667 207.403,24.775 C206.366791,23.1157531 204.521826,22.1379525 202.567,22.212 C200.617953,22.1350349 198.778889,23.1151551 197.756,24.776 L197.755,24.775 Z M319.155,43.587 L319.155,41.85 L323.024,41.172 C323.055333,39.8506667 323.079667,38.553 323.097,37.279 C323.114333,36.005 323.122,34.7236667 323.12,33.435 L323.12,12.203 L319.155,11.719 L319.155,10.027 L326.704,7.85 L327.381,8.237 L327.188,15.104 L327.188,33.433 C327.188,34.7223333 327.196,36.0116667 327.212,37.301 C327.228,38.5903333 327.252333,39.88 327.285,41.17 L331.153,41.848 L331.153,43.588 L319.155,43.587 Z M280.663,43.587 L280.663,41.85 L284.241,41.172 C284.273,39.98 284.297,38.6663333 284.313,37.231 C284.329,35.7956667 284.337,34.529 284.337,33.431 L284.337,29.321 C284.337,27.0956667 284.022667,25.5623333 283.394,24.721 C282.63712,23.8261051 281.491147,23.3568906 280.324,23.464 C279.224453,23.4648123 278.137212,23.6954083 277.132,24.141 C275.904655,24.7198053 274.765094,25.4688516 273.747,26.366 L273.747,33.427 C273.747,34.4903333 273.755,35.7393333 273.771,37.174 C273.787,38.6086667 273.811333,39.9383333 273.844,41.163 L277.18,41.841 L277.18,43.581 L265.971,43.581 L265.971,41.85 L269.549,41.172 C269.580333,39.9473333 269.604333,38.626 269.621,37.208 C269.637667,35.79 269.645667,34.5326667 269.645,33.436 L269.645,31.112 C269.645,29.79 269.637,28.6936667 269.621,27.823 C269.605,26.9523333 269.565,26.0336667 269.501,25.067 L265.68,24.631 L265.68,22.938 L272.45,19.989 L273.175,20.473 L273.562,24.342 C274.739919,23.0638333 276.130933,22.000017 277.673,21.198 C279.067632,20.4327442 280.627459,20.0181631 282.218,19.99 C284.02869,19.8573623 285.784111,20.6470762 286.886,22.09 C287.901333,23.49 288.409,25.7706667 288.409,28.932 L288.409,33.432 C288.409,34.528 288.417,35.7853333 288.433,37.204 C288.449,38.6226667 288.473333,39.944 288.506,41.168 L291.89,41.846 L291.89,43.586 L280.663,43.587 Z M245.603,43.587 L245.603,41.85 L249.085,41.221 C249.117,39.9956667 249.141333,38.6656667 249.158,37.231 C249.174667,35.7963333 249.183,34.5296667 249.183,33.431 L249.183,31.112 C249.183,29.79 249.174667,28.6936667 249.158,27.823 C249.141333,26.9523333 249.101,26.0336667 249.037,25.067 L245.217,24.631 L245.217,22.938 L251.987,19.989 L252.712,20.473 L253.244,26.18 C253.915507,24.4398894 254.986648,22.8819907 256.371,21.632 C257.409231,20.6339514 258.77616,20.0493438 260.215,19.9879244 C260.936389,19.9838617 261.648614,20.1496706 262.294,20.472 C262.887409,20.7472908 263.377758,21.2043659 263.694,21.777 C263.694,24.131 262.743,25.3076667 260.841,25.307 C260.308824,25.3106478 259.781692,25.203723 259.293,24.993 C258.783455,24.7656169 258.311405,24.4621559 257.893,24.093 L257.312,23.561 C256.346265,24.2688967 255.52541,25.1556103 254.894,26.173 C254.202658,27.3059449 253.664634,28.5255791 253.294,29.8 L253.294,33.427 C253.294,34.4903333 253.301667,35.7316667 253.317,37.151 C253.332333,38.5703333 253.356667,39.8916667 253.39,41.115 L257.355,41.841 L257.355,43.581 L245.603,43.587 Z M158.412,43.587 L158.412,41.315 L160.927,40.783 C160.958333,39.5903333 160.974333,38.3236667 160.975,36.983 L160.975,28.35 C161.066647,27.2251209 160.84951,26.0965622 160.347,25.086 C159.883631,24.4348945 159.111438,24.0761592 158.315,24.142 C156.776163,24.2531006 155.315909,24.8645249 154.157,25.883 L154.157,36.983 C154.157,38.353 154.173,39.6343333 154.205,40.827 L156.478,41.311 L156.478,43.583 L143.764,43.583 L143.764,41.315 L146.371,40.735 C146.401667,39.5743333 146.418,38.317 146.42,36.963 L146.42,30.628 C146.42,29.307 146.411,28.282 146.395,27.557 C146.379,26.832 146.339,25.985 146.273,25.019 L143.323,24.583 L143.323,22.697 L152.85,19.457 L153.721,19.989 L154.01,23.47 C155.031298,22.1811861 156.309327,21.1187163 157.763,20.35 C159.007577,19.7529861 160.371662,19.4469303 161.752,19.455 C163.659371,19.3770582 165.505562,20.1365026 166.806,21.534 C168.08,22.9206667 168.716667,25.0003333 168.716,27.773 L168.716,37.034 C168.716,38.3726667 168.732333,39.6393333 168.765,40.834 L171.183,41.318 L171.183,43.59 L158.412,43.587 Z M128.575,43.587 L128.575,41.315 L131.187,40.735 C131.218333,39.5743333 131.234333,38.317 131.235,36.963 L131.235,31.112 C131.235,29.79 131.226667,28.6853333 131.21,27.798 C131.193333,26.9106667 131.153333,25.984 131.09,25.018 L128.09,24.582 L128.09,22.697 L138.245,19.457 L139.068,19.989 L138.923,27.001 L138.923,36.988 C138.923,38.358 138.939,39.6393333 138.971,40.832 L141.388,41.316 L141.388,43.588 L128.575,43.587 Z M132.106,14.787 C131.316446,14.1007428 130.873036,13.0988573 130.896,12.053 C130.866258,10.9925822 131.309658,9.97386314 132.106,9.273 C133.767554,7.82325449 136.244446,7.82325449 137.906,9.273 C138.701025,9.97465825 139.143544,10.9930399 139.114,12.053 C139.136765,13.0983941 138.694238,14.0999422 137.906,14.787 C136.244119,16.2358737 133.767881,16.2358737 132.106,14.787 L132.106,14.787 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg></a>
+            <div class="block  footer-disclaimer__content"><p>Please be aware that some of the links on this site will direct you to the websites of third parties, some of whom are marketing affiliates and/or business partners of this site and/or its owners, operators and affiliates. We may receive financial compensation from these third parties. Notwithstanding any such relationship, no responsibility is accepted for the conduct of any third party nor the content or functionality of their websites or applications. A hyperlink to or positive reference to or review of a broker or exchange should not be understood to be an endorsement of that broker or exchange’s products or services.</p>
+<p><strong>Risk Warning</strong>: Investing in digital currencies, stocks, shares and other securities, commodities, currencies and other derivative investment products (e.g. contracts for difference (“CFDs”) is speculative and carries a high level of risk. Each investment is unique and involves unique risks.</p>
+<p>CFDs and other derivatives are complex instruments and come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how an investment works and whether you can afford to take the high risk of losing your money.</p>
+<p>Cryptocurrencies can fluctuate widely in prices and are, therefore, not appropriate for all investors. Trading cryptocurrencies is not supervised by any EU regulatory framework. Past performance does not guarantee future results. Any trading history presented is less than 5 years old unless otherwise stated and may not suffice as a basis for investment decisions. Your capital is at risk.</p>
+<p>When trading in stocks your capital is at risk.</p>
+<p>Past performance is not an indication of future results. Trading history presented is less than 5 years old unless otherwise stated and may not suffice as a basis for investment decisions. Prices may go down as well as up, prices can fluctuate widely, you may be exposed to currency exchange rate fluctuations and you may lose all of or more than the amount you invest. Investing is not suitable for everyone; ensure that you have fully understood the risks and legalities involved. If you are unsure, seek independent financial, legal, tax and/or accounting advice. This website does not provide investment, financial, legal, tax or accounting advice. Some links are affiliate links. For more information please read our full <a href="/disclaimer/">risk warning and disclaimer</a>.<span style="font-weight: 400;"><br />
+</span></p>
+</div>
+        </div>
+    </div>
+
+</footer>
+
+<div class="js-cookie-consent-banner  consent-banner  bg-zinc-900  shadow-2xl  py-3  px-6  fixed  z-50  right-0  left-0" data-cookie-name="cj-c-consent">
+    <div class="gap-6  flex  items-center  justify-center  text-white  text-xxs">
+        <span>We use cookies to personalise content & ads, provide social media features and offer you a better experience. By continuing to browse the site or clicking "Continue" you are consenting to the use of cookies on this website.</span>
+        <button class="block  py-2  px-3  shadow  shadow-emerald-500/50  focus:shadow-emerald-500/50  bg-emerald-500  border-emerald-500  hover:bg-emerald-700  hover:border-emerald-700  hover:shadow-emerald-700/50  outline-emerald-700  hover:outline-emerald-700  cursor-pointer  transition-all  duration-300  ease-in-out  rounded  font-semibold  text-white  text-center  js-consent-continue">Continue</button>
+    </div>
+</div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<input type="hidden" name="ENABLE_LEGACY_CONTENT" value="1" /><input type="hidden" name="ENABLE_IGMS_DECOUPLE" value="1" /><input type="hidden" name="ENABLE_PLATFORM_BANNERS_DECOUPLE" value="1" /><script src="https://coinjournal.net/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js"></script>
+<script src="https://coinjournal.net/wp-includes/js/admin-bar.min.js?ver=6.7.5" id="admin-bar-js"></script>
+<script src="https://coinjournal.net/wp-content/plugins/fast-user-switching/js/jquery.nicescroll.min.js?ver=1.1" id="tikemp_search_scroll-js"></script>
+<script src="https://coinjournal.net/wp-content/plugins/fast-user-switching/js/script.js?ver=1.2" id="tikemp_script-js"></script>
+<script src="https://coinjournal.net/wp-content/themes/c1-base/dist/js/app.js?ver=1762770099" id="app-js"></script>
+<script src="https://coinjournal.net/wp-content/themes/c1-base/dist/js/tracking.js?ver=1762770099" id="tracking-js"></script>
+<script src="https://coinjournal.net/wp-content/themes/c1-base/dist/js/article.js?ver=1762770099" id="article-js"></script>
+<script src="https://coinjournal.net/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script id="megamenu-js-extra">
+var megamenu = {"timeout":"300","interval":"100"};
+</script>
+<script src="https://coinjournal.net/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.3.1.2" id="megamenu-js"></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"a86b80491b3340e2becaa14f05361431","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1a1aade2c3eeaf0',t:'MTc4Mzg3NjI5MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

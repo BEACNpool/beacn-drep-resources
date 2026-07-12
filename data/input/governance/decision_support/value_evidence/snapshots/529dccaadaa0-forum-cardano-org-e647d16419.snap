@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards - Governance - Cardano Forum</title>
+    <meta name="description" content="Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards
+Executive Summary
+Cardano has successfully developed a strong technological foundation, a decentralized network, and an expanding ecosystem of d…">
+    <meta name="generator" content="Discourse 2026.7.0-latest - https://github.com/discourse/discourse version 7b025265d254f731ba1036e550b7475b3d1c74b4">
+<link rel="icon" type="image/png" href="https://us1.discourse-cdn.com/flex023/uploads/cardano/optimized/1X/8ae384014e4edf856d12f5988d5e832807980f04_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://us1.discourse-cdn.com/flex023/uploads/cardano/optimized/1X/8ae384014e4edf856d12f5988d5e832807980f04_2_180x180.png">
+<meta name="theme-color" media="all" content="#0a38a6">
+
+<meta name="color-scheme" content="light">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633" />
+
+<meta name="discourse-track-view-session-id" content="jDhlvStDlB7HT159FZuu4Rahj8Uge53M"><meta name="discourse-engagement-tracking-enabled" content="true">
+<link rel="search" type="application/opensearchdescription+xml" href="https://forum.cardano.org/opensearch.xml" title="Cardano Forum Search">
+
+    
+    <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/color_definitions_cardano2020_4_9_7edab7314c7d8b463e392ff4583cf8be88cac877.css?__ws=forum.cardano.org" media="all" rel="stylesheet" class="light-scheme" data-scheme-id="4"/>
+
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common"  />
+
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="mobile"  />
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="chat"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/checklist_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-adplugin_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-ai"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-cakeday_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-calendar"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-data-explorer_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-details_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-github_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-github"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-lazy-videos_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-local-dates_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-narrative-bot_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-policy_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-policy"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-presence_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-solved_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-templates_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-templates"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-topic-voting_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-topic-voting"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-yearly-review_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-yearly-review"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/footnote_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/hosted-site_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/poll_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/spoiler-alert_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="chat_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-ai_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-calendar_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="chat_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-ai_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-calendar_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/poll_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_theme_8_26a5b808be77964c001f69cce95ab987c7a6b841.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="8" data-theme-name="custom header links"/>
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_theme_10_724b63ce5848c8a0e2c0d3a4f55439eca09552d3.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="10" data-theme-name="discotoc"/>
+  
+  
+
+    
+    <meta id="data-ga-universal-analytics" data-tracking-code="G-Z49XSCTMET" data-json="{&quot;cookieDomain&quot;:&quot;auto&quot;}" data-auto-link-domains="">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z49XSCTMET" nonce="F5WEQsyWsyunZTV9ESaMhGpdR"></script>
+  <script defer src="https://us1.discourse-cdn.com/flex023/assets/js/google-universal-analytics-v4-43cb071f.js" data-discourse-entrypoint="js/google-universal-analytics-v4" nonce="F5WEQsyWsyunZTV9ESaMhGpdR"></script>
+
+
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards&#39;" href="https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633.rss" />
+    <meta property="og:site_name" content="Cardano Forum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://us1.discourse-cdn.com/flex023/uploads/cardano/original/3X/2/5/25ab8a417cdf3fdf5f4115d93c49905f933ea08c.png" />
+<meta property="og:image" content="https://us1.discourse-cdn.com/flex023/uploads/cardano/original/1X/8ae384014e4edf856d12f5988d5e832807980f04.png" />
+<meta property="og:url" content="https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633" />
+<meta name="twitter:url" content="https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633" />
+<meta property="og:title" content="Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards" />
+<meta name="twitter:title" content="Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards" />
+<meta property="og:description" content="Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards Executive Summary Cardano has successfully developed a strong technological foundation, a decentralized network, and an expanding ecosystem of decentralized applications.  As the ecosystem enters its next phase of growth, one of the most important infrastructure requirements is the development of deeper and more efficient liquidity markets, especially for stablecoin–ADA trading pairs.  Stablecoins represent a fundamental..." />
+<meta name="twitter:description" content="Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards Executive Summary Cardano has successfully developed a strong technological foundation, a decentralized network, and an expanding ecosystem of decentralized applications.  As the ecosystem enters its next phase of growth, one of the most important infrastructure requirements is the development of deeper and more efficient liquidity markets, especially for stablecoin–ADA trading pairs.  Stablecoins represent a fundamental..." />
+<meta property="og:article:section" content="Governance" />
+<meta property="og:article:section:color" content="ed8c3a" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="9 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="2 ❤" />
+<meta property="article:published_time" content="2026-07-11T07:00:28+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">Cardano Forum</a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633">Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/governance/140" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Governance</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope="itemscope" itemtype="http://schema.org/DiscussionForumPosting">
+      <meta itemprop='headline' content='Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards'>
+      <link itemprop='url' href='https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633'>
+      <meta itemprop='datePublished' content='2026-07-11T07:00:28Z'>
+      <meta itemprop='keywords' content=''>
+          <meta itemprop='articleSection' content='Governance'>
+        <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop='name' content='Cardano'>
+            <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+              <meta itemprop='url' content='https://us1.discourse-cdn.com/flex023/uploads/cardano/original/3X/7/7/77c5a4237c4f915a9a811ccfff36eff044089c9a.png'>
+            </div>
+        </div>
+
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                <a rel='nofollow' href='https://forum.cardano.org/u/Wagner_R'><span itemprop="name">Wagner_R</span></a>
+                  <meta itemprop='url' content='https://forum.cardano.org/u/Wagner_R'>
+                
+              </span>
+
+                <link itemprop="mainEntityOfPage" href="https://forum.cardano.org/t/proposal-incentivizing-stablecoin-ada-liquidity-growth-through-ada-rewards/155633">
+
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2026-07-11T07:00:28Z' class='post-time'>
+                    11 July 2026 07:00
+                  </time>
+                  <meta itemprop='dateModified' content='2026-07-11T08:13:02Z'>
+              <span itemprop="position">1</span>
+              </span>
+            </div>
+            <div class='post' itemprop="text">
+              <h1><a name="p-385698-span-langproposal-incentivizing-stablecoinada-liquidity-growth-through-ada-rewardsspan-1" class="anchor" href="#p-385698-span-langproposal-incentivizing-stablecoinada-liquidity-growth-through-ada-rewardsspan-1" aria-label="Heading link"></a><span lang="">Proposal: Incentivizing Stablecoin–ADA Liquidity Growth Through ADA Rewards</span></h1>
+<h2><a name="p-385698-span-langexecutive-summaryspan-2" class="anchor" href="#p-385698-span-langexecutive-summaryspan-2" aria-label="Heading link"></a><span lang="">Executive Summary</span></h2>
+<p><span lang="">Cardano has successfully developed a strong technological foundation, a decentralized network, and an expanding ecosystem of decentralized applications.</span></p>
+<p><span lang="">As the ecosystem enters its next phase of growth, one of the most important infrastructure requirements is the development of deeper and more efficient liquidity markets, especially for stablecoin–ADA trading pairs.</span></p>
+<p><span lang="">Stablecoins represent a fundamental component of modern DeFi infrastructure, enabling efficient trading, lending, payments, and future institutional participation. However, despite continued ecosystem development, stablecoin liquidity within Cardano remains fragmented and relatively shallow compared with more mature DeFi ecosystems.</span></p>
+<p><span lang="">This proposal introduces a strategic ADA-based liquidity incentive program designed to bootstrap stablecoin–ADA liquidity across Cardano decentralized exchanges.</span></p>
+<p><span lang="">The objective is not to permanently subsidize liquidity, but to use Treasury resources as a catalyst to create stronger financial infrastructure that can eventually become self-sustaining.</span></p>
+<p><span lang="">The proposed six-month pilot program will:</span></p>
+<p><span lang="">·      </span><span lang="">Focus on strategically important ADA–stablecoin liquidity pools</span></p>
+<p><span lang="">·      </span><span lang="">Encourage participation from multiple Cardano DEXes</span></p>
+<p><span lang="">·      </span><span lang="">Use measurable performance indicators</span></p>
+<p><span lang="">·      </span><span lang="">Prioritize sustainable liquidity retention</span></p>
+<p><span lang="">·      </span><span lang="">Protect Treasury resources through milestone-based evaluation</span></p>
+<p><span lang="">By strengthening stablecoin–ADA liquidity, Cardano can improve DeFi efficiency, increase ADA utility, attract additional users and liquidity providers, and create stronger foundations for long-term ecosystem growth.</span></p>
+<h1><a name="p-385698-span-langpilot-program-overviewspan-3" class="anchor" href="#p-385698-span-langpilot-program-overviewspan-3" aria-label="Heading link"></a><span lang="">Pilot Program Overview</span></h1>
+<p><strong><span lang="">Category</span></strong><br>
+<strong><span lang="">Description</span></strong></p>
+<p><span lang="">Program Duration</span><br>
+<span lang="">6 months</span></p>
+<p><span lang="">Objective</span><br>
+<span lang="">Increase stablecoin–ADA liquidity depth and market efficiency</span></p>
+<p><span lang="">Participating DEXes</span><br>
+<span lang="">5 Cardano DEX platforms</span></p>
+<p><span lang="">Incentivized Pools</span><br>
+<span lang="">10 ADA–stablecoin pools</span></p>
+<p><span lang="">Example Pairs</span><br>
+<span lang="">ADA/USDCx, ADA/USDA</span></p>
+<p><span lang="">Reward Allocation</span><br>
+<span lang="">5,000 ADA per pool per day</span></p>
+<p><span lang="">Total Daily Allocation</span><br>
+<span lang="">50,000 ADA</span></p>
+<p><span lang="">Annualized Allocation</span><br>
+<span lang="">18,250,000 ADA</span></p>
+<p><span lang="">Six-Month Pilot Allocation</span></p>
+<p><strong><span lang="">9,125,000 ADA</span></strong><span lang=""></span></p>
+<p><span lang="">Evaluation Method</span></p>
+<p><span lang="">KPI-based performance assessment</span></p>
+<p><span lang="">Expansion Decision</span></p>
+<p><span lang="">Based on measurable results</span></p>
+<h1><a name="p-385698-span-lang1-current-cardano-defi-liquidity-landscapespan-4" class="anchor" href="#p-385698-span-lang1-current-cardano-defi-liquidity-landscapespan-4" aria-label="Heading link"></a><span lang="">1. Current Cardano DeFi Liquidity Landscape</span></h1>
+<p><span lang="">Cardano has developed a growing decentralized finance ecosystem supported by:</span></p>
+<p><span lang="">·      </span><span lang="">Multiple decentralized exchanges</span></p>
+<p><span lang="">·      </span><span lang="">Stablecoin infrastructure</span></p>
+<p><span lang="">·      </span><span lang="">Lending and borrowing protocols</span></p>
+<p><span lang="">·      </span><span lang="">Native asset capabilities</span></p>
+<p><span lang="">·      </span><span lang="">Decentralized governance mechanisms</span></p>
+<p><span lang="">The ecosystem has reached an important stage where the next challenge is not only technological development, but improving market depth, liquidity efficiency, and capital utilization.</span></p>
+<p><span lang="">Liquidity is one of the most important foundations of any successful DeFi ecosystem.</span></p>
+<p><span lang="">Without sufficient liquidity:</span></p>
+<p><span lang="">·      </span><span lang="">Users experience higher trading costs</span></p>
+<p><span lang="">·      </span><span lang="">Larger transactions create significant price impact</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity providers face reduced efficiency</span></p>
+<p><span lang="">·      </span><span lang="">DeFi applications cannot reach their full potential</span></p>
+<p><span lang="">Compared with larger DeFi ecosystems, Cardano currently operates with a smaller liquidity base.</span></p>
+<p><span lang="">Although the ecosystem continues to grow, liquidity remains distributed across multiple assets and pools.</span></p>
+<p><span lang="">One of the main challenges is:</span></p>
+<p><strong><span lang="">Liquidity fragmentation.</span></strong><span lang=""></span></p>
+<p><span lang="">As more stablecoin assets become available, liquidity can become divided between different markets rather than concentrated in strategically important trading pairs.</span></p>
+<p><span lang="">This can result in:</span></p>
+<p><span lang="">·      </span><span lang="">Higher slippage</span></p>
+<p><span lang="">·      </span><span lang="">Lower market efficiency</span></p>
+<p><span lang="">·      </span><span lang="">Reduced trading activity</span></p>
+<p><span lang="">·      </span><span lang="">Lower attractiveness for larger liquidity providers</span></p>
+<p><span lang="">A stronger ADA–stablecoin liquidity layer would improve the efficiency of the entire Cardano DeFi ecosystem.</span></p>
+<h1><a name="p-385698-span-lang2-problem-statementspan-5" class="anchor" href="#p-385698-span-lang2-problem-statementspan-5" aria-label="Heading link"></a><span lang="">2. Problem Statement</span></h1>
+<p><span lang="">Despite continued ecosystem development, stablecoin–ADA liquidity remains one of the key infrastructure limitations affecting Cardano DeFi scalability.</span></p>
+<h2><a name="p-385698-span-langhigher-trading-frictionspan-6" class="anchor" href="#p-385698-span-langhigher-trading-frictionspan-6" aria-label="Heading link"></a><span lang="">Higher Trading Friction</span></h2>
+<p><span lang="">Limited liquidity depth creates:</span></p>
+<p><span lang="">·      </span><span lang="">Higher price impact</span></p>
+<p><span lang="">·      </span><span lang="">Increased slippage</span></p>
+<p><span lang="">·      </span><span lang="">Less efficient market execution</span></p>
+<p><span lang="">For DeFi to become more competitive, users require reliable markets where transactions can occur efficiently.</span></p>
+<h2><a name="p-385698-span-langlimited-attractiveness-for-liquidity-providersspan-7" class="anchor" href="#p-385698-span-langlimited-attractiveness-for-liquidity-providersspan-7" aria-label="Heading link"></a><span lang="">Limited Attractiveness for Liquidity Providers</span></h2>
+<p><span lang="">Liquidity providers evaluate opportunities based on:</span></p>
+<p><span lang="">·      </span><span lang="">Expected returns</span></p>
+<p><span lang="">·      </span><span lang="">Market activity</span></p>
+<p><span lang="">·      </span><span lang="">Risk exposure</span></p>
+<p><span lang="">·      </span><span lang="">Long-term sustainability</span></p>
+<p><span lang="">During early ecosystem growth phases, strategic incentives can help attract liquidity that may otherwise move toward larger and more established ecosystems.</span></p>
+<p><span lang="">Without sufficient liquidity depth, Cardano risks slower growth in DeFi adoption.</span></p>
+<h2><a name="p-385698-span-langstablecoin-adoption-barrierspan-8" class="anchor" href="#p-385698-span-langstablecoin-adoption-barrierspan-8" aria-label="Heading link"></a><span lang="">Stablecoin Adoption Barrier</span></h2>
+<p><span lang="">Stablecoins are essential infrastructure for:</span></p>
+<p><span lang="">·      </span><span lang="">Decentralized trading</span></p>
+<p><span lang="">·      </span><span lang="">Lending markets</span></p>
+<p><span lang="">·      </span><span lang="">Payments</span></p>
+<p><span lang="">·      </span><span lang="">Financial applications</span></p>
+<p><span lang="">·      </span><span lang="">Institutional participation</span></p>
+<p><span lang="">However, stablecoin adoption depends heavily on liquidity availability.</span></p>
+<p><span lang="">A stablecoin ecosystem without deep and efficient markets provides a weaker user experience.</span></p>
+<p><span lang="">Improving ADA–stablecoin liquidity can accelerate stablecoin adoption and increase the overall utility of Cardano DeFi.</span><span lang="EN-GB"></span></p>
+<h1><a name="p-385698-span-lang3-why-stablecoinada-liquidity-is-strategicspan-9" class="anchor" href="#p-385698-span-lang3-why-stablecoinada-liquidity-is-strategicspan-9" aria-label="Heading link"></a><span lang="">3. Why Stablecoin–ADA Liquidity is Strategic</span></h1>
+<p><span lang="">ADA is the native settlement asset of the Cardano ecosystem.</span></p>
+<p><span lang="">Strengthening ADA–stablecoin markets creates a foundational liquidity layer that benefits not only decentralized exchanges, but the entire Cardano financial ecosystem.</span></p>
+<p><span lang="">Deep and efficient stablecoin liquidity enables:</span></p>
+<h2><a name="p-385698-span-langimproved-ada-market-efficiencyspan-10" class="anchor" href="#p-385698-span-langimproved-ada-market-efficiencyspan-10" aria-label="Heading link"></a><span lang="">Improved ADA Market Efficiency</span></h2>
+<p><span lang="">Stronger liquidity markets provide:</span></p>
+<p><span lang="">·      </span><span lang="">Better ADA price discovery</span></p>
+<p><span lang="">·      </span><span lang="">Reduced impact from larger trades</span></p>
+<p><span lang="">·      </span><span lang="">More efficient exchange between ADA and stable assets</span></p>
+<h2><a name="p-385698-span-langstronger-defi-infrastructurespan-11" class="anchor" href="#p-385698-span-langstronger-defi-infrastructurespan-11" aria-label="Heading link"></a><span lang="">Stronger DeFi Infrastructure</span></h2>
+<p><span lang="">Many decentralized applications depend on reliable liquidity.</span></p>
+<p><span lang="">Improved ADA–stablecoin liquidity supports:</span></p>
+<p><span lang="">·      </span><span lang="">Decentralized exchanges</span></p>
+<p><span lang="">·      </span><span lang="">Lending protocols</span></p>
+<p><span lang="">·      </span><span lang="">Yield applications</span></p>
+<p><span lang="">·      </span><span lang="">Payment solutions</span></p>
+<p><span lang="">·      </span><span lang="">Future financial applications</span></p>
+<p><span lang="">Without sufficient liquidity, even well-designed protocols cannot reach their full potential.</span></p>
+<h2><a name="p-385698-span-langgreater-ecosystem-accessibilityspan-12" class="anchor" href="#p-385698-span-langgreater-ecosystem-accessibilityspan-12" aria-label="Heading link"></a><span lang="">Greater Ecosystem Accessibility</span></h2>
+<p><span lang="">Deep liquidity improves the experience for:</span></p>
+<p><span lang="">·      </span><span lang="">New users entering Cardano DeFi</span></p>
+<p><span lang="">·      </span><span lang="">Existing ADA holders</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity providers</span></p>
+<p><span lang="">·      </span><span lang="">Developers building financial applications</span></p>
+<p><span lang="">A stronger liquidity foundation reduces barriers to participation.</span></p>
+<h2><a name="p-385698-span-langinstitutional-readinessspan-13" class="anchor" href="#p-385698-span-langinstitutional-readinessspan-13" aria-label="Heading link"></a><span lang="">Institutional Readiness</span></h2>
+<p><span lang="">Future institutional participation requires:</span></p>
+<p><span lang="">·      </span><span lang="">Reliable markets</span></p>
+<p><span lang="">·      </span><span lang="">Efficient execution</span></p>
+<p><span lang="">·      </span><span lang="">Lower market impact</span></p>
+<p><span lang="">·      </span><span lang="">Predictable liquidity conditions</span></p>
+<p><span lang="">Building strong stablecoin–ADA markets improves Cardano’s readiness for larger-scale adoption.</span></p>
+<h1><a name="p-385698-span-lang4-why-ada-based-rewardsspan-14" class="anchor" href="#p-385698-span-lang4-why-ada-based-rewardsspan-14" aria-label="Heading link"></a><span lang="">4. Why ADA-Based Rewards?</span></h1>
+<p><span lang="">Current liquidity incentive models often rely primarily on individual DEX governance tokens.</span></p>
+<p><span lang="">While these incentives can attract liquidity, they can also create short-term participation where liquidity leaves once rewards decrease.</span></p>
+<p><span lang="">ADA-based rewards provide stronger ecosystem alignment because they directly support Cardano’s native asset.</span></p>
+<h2><a name="p-385698-span-langbenefits-of-ada-based-incentivesspan-15" class="anchor" href="#p-385698-span-langbenefits-of-ada-based-incentivesspan-15" aria-label="Heading link"></a><span lang="">Benefits of ADA-Based Incentives</span></h2>
+<p><span lang="">ADA rewards can:</span></p>
+<p><span lang="">·      </span><span lang="">Increase ADA utility</span></p>
+<p><span lang="">·      </span><span lang="">Strengthen ADA liquidity markets</span></p>
+<p><span lang="">·      </span><span lang="">Align incentives with the entire ecosystem</span></p>
+<p><span lang="">·      </span><span lang="">Encourage participation from ADA holders</span></p>
+<p><span lang="">·      </span><span lang="">Support long-term DeFi growth</span></p>
+<p><span lang="">Unlike isolated protocol incentives, ADA-based rewards reinforce the foundation of the Cardano ecosystem itself.</span></p>
+<h2><a name="p-385698-span-langlong-term-objectivespan-16" class="anchor" href="#p-385698-span-langlong-term-objectivespan-16" aria-label="Heading link"></a><span lang="">Long-Term Objective</span></h2>
+<p><span lang="">The purpose of this program is not to create permanent dependence on incentives.</span></p>
+<p><span lang="">The objective is to:</span></p>
+<p><span lang="">1.    </span><span lang="">Bootstrap strategic liquidity markets</span></p>
+<p><span lang="">2.    </span><span lang="">Improve market efficiency</span></p>
+<p><span lang="">3.    </span><span lang="">Attract sustainable liquidity providers</span></p>
+<p><span lang="">4.    </span><span lang="">Increase organic trading activity</span></p>
+<p><span lang="">5.    </span><span lang="">Create conditions where markets can eventually operate with reduced incentives</span></p>
+<p><span lang="">Treasury resources should act as a catalyst, not a permanent subsidy.</span></p>
+<h1><a name="p-385698-span-lang5-proposed-solutionspan-17" class="anchor" href="#p-385698-span-lang5-proposed-solutionspan-17" aria-label="Heading link"></a><span lang="">5. Proposed Solution</span></h1>
+<p><span lang="">This proposal introduces an ADA-based liquidity incentive program focused on strategic stablecoin–ADA liquidity pools across Cardano decentralized exchanges.</span></p>
+<p><span lang="">Treasury resources would be used to:</span></p>
+<p><span lang="">·      </span><span lang="">Attract initial liquidity</span></p>
+<p><span lang="">·      </span><span lang="">Improve market depth</span></p>
+<p><span lang="">·      </span><span lang="">Increase stablecoin adoption</span></p>
+<p><span lang="">·      </span><span lang="">Strengthen ADA as the primary settlement asset of the ecosystem</span></p>
+<p><span lang="">The program would begin with a conservative six-month pilot phase.</span></p>
+<p><span lang="">The pilot approach allows the ecosystem to:</span></p>
+<p><span lang="">·      </span><span lang="">Measure results</span></p>
+<p><span lang="">·      </span><span lang="">Identify successful strategies</span></p>
+<p><span lang="">·      </span><span lang="">Adjust incentives</span></p>
+<p><span lang="">·      </span><span lang="">Evaluate expansion opportunities</span></p>
+<p><span lang="">before committing additional Treasury resources.</span></p>
+<h1><a name="p-385698-span-lang6-existing-dex-infrastructure-and-ecosystem-participationspan-18" class="anchor" href="#p-385698-span-lang6-existing-dex-infrastructure-and-ecosystem-participationspan-18" aria-label="Heading link"></a><span lang="">6. Existing DEX Infrastructure and Ecosystem Participation</span></h1>
+<p><span lang="">Cardano already has established decentralized exchange infrastructure capable of supporting a coordinated liquidity initiative.</span></p>
+<p><span lang="">Potential participating DEX platforms include:</span></p>
+<p><span lang="">·      </span><span lang="">Minswap</span></p>
+<p><span lang="">·      </span><span lang="">SundaeSwap</span></p>
+<p><span lang="">·      </span><span lang="">WingRiders</span></p>
+<p><span lang="">·      </span><span lang="">VyFi</span></p>
+<p><span lang="">·      </span><span lang="">CSwap</span></p>
+<p><span lang="">Participation should be based on transparent criteria.</span></p>
+<p><span lang="">Requirements should include:</span></p>
+<p><span lang="">·      </span><span lang="">Security standards</span></p>
+<p><span lang="">·      </span><span lang="">Smart contract reliability</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity infrastructure</span></p>
+<p><span lang="">·      </span><span lang="">Trading activity</span></p>
+<p><span lang="">·      </span><span lang="">Community adoption</span></p>
+<p><span lang="">·      </span><span lang="">Ability to provide performance reporting</span></p>
+<p><span lang="">The objective is not to favor individual protocols.</span></p>
+<p><span lang="">The objective is to strengthen the overall Cardano DeFi liquidity layer.</span></p>
+<h1><a name="p-385698-span-lang7-strategic-liquidity-pool-selectionspan-19" class="anchor" href="#p-385698-span-lang7-strategic-liquidity-pool-selectionspan-19" aria-label="Heading link"></a><span lang="">7. Strategic Liquidity Pool Selection</span></h1>
+<p><span lang="">The initial program should focus on ADA–stablecoin pairs that provide the greatest ecosystem impact.</span></p>
+<p><span lang="">Potential incentivized pools include:</span></p>
+<p><span lang="">·      </span><span lang="">ADA / USDCx</span></p>
+<p><span lang="">·      </span><span lang="">ADA / USDM</span></p>
+<p><span lang="">·      </span><span lang="">ADA / USDA</span></p>
+<p><span lang="">·      </span><span lang="">ADA / iUSD</span></p>
+<p><span lang="">·      </span><span lang="">ADA / DJED</span></p>
+<p><span lang="">Final pool selection should consider:</span></p>
+<h2><a name="p-385698-span-langliquidity-importancespan-20" class="anchor" href="#p-385698-span-langliquidity-importancespan-20" aria-label="Heading link"></a><span lang="">Liquidity Importance</span></h2>
+<p><span lang="">Pools should support assets that contribute meaningfully to Cardano’s financial infrastructure.</span></p>
+<h2><a name="p-385698-span-langmarket-demandspan-21" class="anchor" href="#p-385698-span-langmarket-demandspan-21" aria-label="Heading link"></a><span lang="">Market Demand</span></h2>
+<p><span lang="">Priority should be given to pools with:</span></p>
+<p><span lang="">·      </span><span lang="">Existing user activity</span></p>
+<p><span lang="">·      </span><span lang="">Trading demand</span></p>
+<p><span lang="">·      </span><span lang="">Ecosystem relevance</span></p>
+<h2><a name="p-385698-span-langsecurity-considerationsspan-22" class="anchor" href="#p-385698-span-langsecurity-considerationsspan-22" aria-label="Heading link"></a><span lang="">Security Considerations</span></h2>
+<p><span lang="">Only pools meeting appropriate technical and operational standards should participate.</span></p>
+<h1><a name="p-385698-span-lang8-phase-1-conservative-pilot-programspan-23" class="anchor" href="#p-385698-span-lang8-phase-1-conservative-pilot-programspan-23" aria-label="Heading link"></a><span lang="">8. Phase 1: Conservative Pilot Program</span></h1>
+<p><span lang="">The initial program would operate as a six-month pilot.</span></p>
+<p><span lang="">The purpose of this phase is to generate measurable evidence before considering a larger ecosystem-wide expansion.</span></p>
+<h2><a name="p-385698-span-langpilot-objectivesspan-24" class="anchor" href="#p-385698-span-langpilot-objectivesspan-24" aria-label="Heading link"></a><span lang="">Pilot Objectives</span></h2>
+<p><span lang="">The pilot aims to:</span></p>
+<p><span lang="">·      </span><span lang="">Increase ADA–stablecoin liquidity depth</span></p>
+<p><span lang="">·      </span><span lang="">Reduce trading friction</span></p>
+<p><span lang="">·      </span><span lang="">Improve DEX efficiency</span></p>
+<p><span lang="">·      </span><span lang="">Attract additional liquidity providers</span></p>
+<p><span lang="">·      </span><span lang="">Measure long-term sustainability</span></p>
+<h1><a name="p-385698-span-langpilot-structurespan-25" class="anchor" href="#p-385698-span-langpilot-structurespan-25" aria-label="Heading link"></a><span lang="">Pilot Structure</span></h1>
+<p><strong><span lang="">Category</span></strong></p>
+<p><strong><span lang="">Details</span></strong></p>
+<p><span lang="">Duration</span></p>
+<p><span lang="">6 months</span></p>
+<p><span lang="">Participating DEXes</span></p>
+<p><span lang="">5</span></p>
+<p><span lang="">Pools per DEX</span></p>
+<p><span lang="">2</span></p>
+<p><span lang="">Total Incentivized Pools</span></p>
+<p><span lang="">10</span></p>
+<p><span lang="">Reward Type</span></p>
+<p><span lang="">ADA incentives</span></p>
+<p><span lang="">Example Pairs</span><br>
+<span lang="">ADA/USDCx, ADA/USDA</span></p>
+<h1><a name="p-385698-span-lang9-pilot-reward-allocationspan-26" class="anchor" href="#p-385698-span-lang9-pilot-reward-allocationspan-26" aria-label="Heading link"></a><span lang="">9. Pilot Reward Allocation</span></h1>
+<p><span lang="">Assumption:</span></p>
+<p><strong><span lang="">5,000 ADA per day per pool</span></strong><span lang=""></span></p>
+<p><span lang="">Calculation:</span></p>
+<p><span lang="">10 pools × 5,000 ADA</span></p>
+<p><span lang="">=</span></p>
+<p><strong><span lang="">50,000 ADA per day</span></strong><span lang=""></span></p>
+<h2><a name="p-385698-span-langannualized-allocationspan-27" class="anchor" href="#p-385698-span-langannualized-allocationspan-27" aria-label="Heading link"></a><span lang="">Annualized Allocation</span></h2>
+<p><span lang="">50,000 ADA × 365 days</span></p>
+<p><span lang="">=</span></p>
+<p><strong><span lang="">18,250,000 ADA</span></strong><span lang=""></span></p>
+<h2><a name="p-385698-span-langsix-month-pilot-allocationspan-28" class="anchor" href="#p-385698-span-langsix-month-pilot-allocationspan-28" aria-label="Heading link"></a><span lang="">Six-Month Pilot Allocation</span></h2>
+<p><span lang="">18,250,000 ADA ÷ 2</span></p>
+<p><span lang="">=</span></p>
+<h1><a name="p-385698-span-lang9125000-adaspanspan-langspan-29" class="anchor" href="#p-385698-span-lang9125000-adaspanspan-langspan-29" aria-label="Heading link"></a><strong><span lang="">9,125,000 ADA</span></strong><span lang=""></span></h1>
+<p><span lang="">This controlled allocation allows Cardano governance to evaluate:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity growth</span></p>
+<p><span lang="">·      </span><span lang="">Market impact</span></p>
+<p><span lang="">·      </span><span lang="">User participation</span></p>
+<p><span lang="">·      </span><span lang="">Treasury efficiency</span></p>
+<p><span lang="">before approving any larger expansion.</span></p>
+<h2><a name="p-385698-span-langexample-potential-liquidity-generated-at-different-target-apysspanspan-langspan-30" class="anchor" href="#p-385698-span-langexample-potential-liquidity-generated-at-different-target-apysspanspan-langspan-30" aria-label="Heading link"></a><span lang="">Example: Potential Liquidity Generated at Different Target APYs</span><span lang=""></span></h2>
+<p><span lang="">To better illustrate the capital efficiency of the proposed incentive program, the following table shows how much liquidity a single pool could support under different target annual yields, assuming a reward allocation of <strong>5,000 ADA per day</strong>.</span><br>
+<strong><span lang="">Target Annual Yield (APY)</span></strong><br>
+<strong><span lang="">Annual ADA Rewards per Pool</span></strong><br>
+<strong><span lang="">Potential Liquidity Supported</span></strong><br>
+<strong><span lang="">20% APY</span></strong><span lang=""></span><br>
+<span lang="">1,825,000 ADA</span><br>
+<strong><span lang="">9,125,000 ADA</span></strong><span lang=""></span><br>
+<strong><span lang="">15% APY</span></strong><span lang=""></span><br>
+<span lang="">1,825,000 ADA</span><br>
+<strong><span lang="">12,166,667 ADA</span></strong><span lang=""></span><br>
+<strong><span lang="">10% APY</span></strong><span lang=""></span><br>
+<span lang="">1,825,000 ADA</span><br>
+<strong><span lang="">18,250,000 ADA</span></strong><span lang=""></span><br>
+<strong><span lang="">8% APY</span></strong><span lang=""></span><br>
+<span lang="">1,825,000 ADA</span><br>
+<strong><span lang="">22,812,500 ADA</span></strong><span lang=""></span><br>
+<strong><span lang="">5% APY</span></strong><span lang=""></span><br>
+<span lang="">1,825,000 ADA</span><br>
+<strong><span lang="">36,500,000 ADA</span></strong><span lang=""></span></p>
+<h3><a name="p-385698-span-langexample-10-apyspan-31" class="anchor" href="#p-385698-span-langexample-10-apyspan-31" aria-label="Heading link"></a><span lang="">Example (10% APY)</span></h3>
+<p><span lang="">If a liquidity pool receives <strong>5,000 ADA per day</strong>, the annual rewards equal:</span></p>
+<p><strong><span lang="">5,000 × 365 = 1,825,000 ADA</span></strong><span lang=""></span></p>
+<p><span lang="">Assuming these rewards represent an effective <strong>10% annual yield (APY)</strong>, the pool could support approximately:</span></p>
+<p><strong><span lang="">1,825,000 ÷ 10% = 18,250,000 ADA</span></strong><span lang="">in total liquidity.</span></p>
+<p><span lang="">For the proposed <strong>10-pool pilot program</strong>, this would represent:</span></p>
+<p><strong><span lang="">18,250,000 × 10 = 182,500,000 ADA</span></strong><span lang="">in potential supported liquidity.</span></p>
+<p><span lang="EN-GB"> </span></p>
+<h1><a name="p-385698-span-lang10-dex-co-incentive-modelspan-32" class="anchor" href="#p-385698-span-lang10-dex-co-incentive-modelspan-32" aria-label="Heading link"></a><span lang="">10. DEX Co-Incentive Model</span></h1>
+<p><span lang="">To maximize ecosystem alignment, participating DEXes should contribute additional support alongside Treasury-funded ADA incentives.</span></p>
+<p><span lang="">The objective is to create a shared commitment between:</span></p>
+<p><strong><span lang="">Treasury + DEXes + Liquidity Providers + Cardano Community</span></strong><span lang=""></span></p>
+<p><span lang="">Rather than relying only on Treasury resources, participating protocols should contribute through:</span></p>
+<h2><a name="p-385698-span-langadditional-incentivesspan-33" class="anchor" href="#p-385698-span-langadditional-incentivesspan-33" aria-label="Heading link"></a><span lang="">Additional Incentives</span></h2>
+<p><span lang="">DEX platforms may provide:</span></p>
+<p><span lang="">·      </span><span lang="">Additional native token rewards</span></p>
+<p><span lang="">·      </span><span lang="">Trading incentives</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity provider campaigns</span></p>
+<p><span lang="">This creates stronger overall reward structures while reducing dependence on Treasury funding.</span></p>
+<h2><a name="p-385698-span-langfee-based-supportspan-34" class="anchor" href="#p-385698-span-langfee-based-supportspan-34" aria-label="Heading link"></a><span lang="">Fee-Based Support</span></h2>
+<p><span lang="">Participating DEXes may allocate part of generated protocol activity toward:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity growth initiatives</span></p>
+<p><span lang="">·      </span><span lang="">User acquisition</span></p>
+<p><span lang="">·      </span><span lang="">Ecosystem development</span></p>
+<h2><a name="p-385698-span-langmarketing-and-user-acquisitionspan-35" class="anchor" href="#p-385698-span-langmarketing-and-user-acquisitionspan-35" aria-label="Heading link"></a><span lang="">Marketing and User Acquisition</span></h2>
+<p><span lang="">DEX participants can support:</span></p>
+<p><span lang="">·      </span><span lang="">Educational campaigns</span></p>
+<p><span lang="">·      </span><span lang="">Community awareness</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity provider onboarding</span></p>
+<p><span lang="">·      </span><span lang="">User growth initiatives</span></p>
+<h2><a name="p-385698-span-langtechnical-infrastructure-supportspan-36" class="anchor" href="#p-385698-span-langtechnical-infrastructure-supportspan-36" aria-label="Heading link"></a><span lang="">Technical Infrastructure Support</span></h2>
+<p><span lang="">Participating DEXes should provide:</span></p>
+<p><span lang="">·      </span><span lang="">Performance monitoring</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity analytics</span></p>
+<p><span lang="">·      </span><span lang="">Transparent reporting</span></p>
+<p><span lang="">·      </span><span lang="">Technical improvements where necessary</span></p>
+<p><span lang="">A successful program should represent a partnership between all ecosystem participants rather than a simple reward distribution mechanism.</span></p>
+<h1><a name="p-385698-span-lang11-long-term-liquidity-retention-mechanismspan-37" class="anchor" href="#p-385698-span-lang11-long-term-liquidity-retention-mechanismspan-37" aria-label="Heading link"></a><span lang="">11. Long-Term Liquidity Retention Mechanism</span></h1>
+<p><span lang="">One of the main risks of liquidity incentive programs is attracting temporary capital that leaves once rewards decrease.</span></p>
+<p><span lang="">To avoid short-term farming behavior, reward distribution should prioritize sustainable liquidity contribution.</span></p>
+<p><span lang="">The program should consider:</span></p>
+<h2><a name="p-385698-span-langliquidity-durationspan-38" class="anchor" href="#p-385698-span-langliquidity-durationspan-38" aria-label="Heading link"></a><span lang="">Liquidity Duration</span></h2>
+<p><span lang="">Liquidity providers maintaining positions for longer periods should receive stronger reward efficiency.</span></p>
+<h2><a name="p-385698-span-langretention-based-incentivesspan-39" class="anchor" href="#p-385698-span-langretention-based-incentivesspan-39" aria-label="Heading link"></a><span lang="">Retention-Based Incentives</span></h2>
+<p><span lang="">Rewards should consider whether liquidity remains available over time.</span></p>
+<p><span lang="">The objective is not only attracting liquidity, but retaining it.</span></p>
+<h2><a name="p-385698-span-langperformance-based-adjustmentsspan-40" class="anchor" href="#p-385698-span-langperformance-based-adjustmentsspan-40" aria-label="Heading link"></a><span lang="">Performance-Based Adjustments</span></h2>
+<p><span lang="">Pools demonstrating stronger ecosystem impact may receive continued support.</span></p>
+<p><span lang="">Underperforming pools may receive:</span></p>
+<p><span lang="">·      </span><span lang="">Reduced incentives</span></p>
+<p><span lang="">·      </span><span lang="">Adjusted rewards</span></p>
+<p><span lang="">·      </span><span lang="">Removal from the program</span></p>
+<p><span lang="">This ensures Treasury resources are directed toward the highest-impact opportunities.</span></p>
+<h1><a name="p-385698-span-lang12-treasury-protection-mechanismspan-41" class="anchor" href="#p-385698-span-lang12-treasury-protection-mechanismspan-41" aria-label="Heading link"></a><span lang="">12. Treasury Protection Mechanism</span></h1>
+<p><span lang="">Responsible Treasury management requires measurable objectives and controlled allocation.</span></p>
+<p><span lang="">This proposal recommends milestone-based releases instead of distributing the entire allocation upfront.</span></p>
+<h2><a name="p-385698-span-langinitial-deploymentspan-42" class="anchor" href="#p-385698-span-langinitial-deploymentspan-42" aria-label="Heading link"></a><span lang="">Initial Deployment</span></h2>
+<p><span lang="">The approved pilot allocation would be released in stages.</span></p>
+<p><span lang="">Example:</span></p>
+<h3><a name="p-385698-span-langfirst-stagespan-43" class="anchor" href="#p-385698-span-langfirst-stagespan-43" aria-label="Heading link"></a><span lang="">First Stage</span></h3>
+<p><span lang="">50% of the approved allocation released during the initial period.</span></p>
+<p><span lang="">Purpose:</span></p>
+<p><span lang="">·      </span><span lang="">Launch the program</span></p>
+<p><span lang="">·      </span><span lang="">Collect performance data</span></p>
+<p><span lang="">·      </span><span lang="">Evaluate market response</span></p>
+<h2><a name="p-385698-span-langperformance-reviewspan-44" class="anchor" href="#p-385698-span-langperformance-reviewspan-44" aria-label="Heading link"></a><span lang="">Performance Review</span></h2>
+<p><span lang="">Evaluation should include:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity growth</span></p>
+<p><span lang="">·      </span><span lang="">Trading volume improvement</span></p>
+<p><span lang="">·      </span><span lang="">Slippage reduction</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity provider retention</span></p>
+<p><span lang="">·      </span><span lang="">Stablecoin adoption</span></p>
+<p><span lang="">·      </span><span lang="">Ecosystem impact</span></p>
+<h2><a name="p-385698-span-langcontinuation-decisionspan-45" class="anchor" href="#p-385698-span-langcontinuation-decisionspan-45" aria-label="Heading link"></a><span lang="">Continuation Decision</span></h2>
+<p><span lang="">The remaining allocation should depend on achieving predefined objectives.</span></p>
+<p><span lang="">This approach provides:</span></p>
+<p><span lang="">·      </span><span lang="">Accountability</span></p>
+<p><span lang="">·      </span><span lang="">Lower execution risk</span></p>
+<p><span lang="">·      </span><span lang="">Better Treasury efficiency</span></p>
+<p><span lang="">Treasury resources should continuously demonstrate measurable ecosystem value.</span></p>
+<h1><a name="p-385698-span-lang13-success-metrics-kpisspan-46" class="anchor" href="#p-385698-span-lang13-success-metrics-kpisspan-46" aria-label="Heading link"></a><span lang="">13. Success Metrics (KPIs)</span></h1>
+<p><span lang="">The success of the pilot should be measured through transparent and objective indicators.</span></p>
+<h2><a name="p-385698-span-langliquidity-growthspan-47" class="anchor" href="#p-385698-span-langliquidity-growthspan-47" aria-label="Heading link"></a><span lang="">Liquidity Growth</span></h2>
+<p><span lang="">Measurements:</span></p>
+<p><span lang="">·      </span><span lang="">Increase in ADA–stablecoin liquidity depth</span></p>
+<p><span lang="">·      </span><span lang="">Growth in Total Value Locked (TVL)</span></p>
+<p><span lang="">·      </span><span lang="">Improved capital efficiency</span></p>
+<p><span lang="">·      </span><span lang="">Reduced liquidity fragmentation</span></p>
+<h2><a name="p-385698-span-langmarket-performancespan-48" class="anchor" href="#p-385698-span-langmarket-performancespan-48" aria-label="Heading link"></a><span lang="">Market Performance</span></h2>
+<p><span lang="">Measurements:</span></p>
+<p><span lang="">·      </span><span lang="">Increase in trading volume</span></p>
+<p><span lang="">·      </span><span lang="">Reduction in average slippage</span></p>
+<p><span lang="">·      </span><span lang="">Improved trade execution</span></p>
+<p><span lang="">·      </span><span lang="">Increased market activity</span></p>
+<h2><a name="p-385698-span-langecosystem-growthspan-49" class="anchor" href="#p-385698-span-langecosystem-growthspan-49" aria-label="Heading link"></a><span lang="">Ecosystem Growth</span></h2>
+<p><span lang="">Measurements:</span></p>
+<p><span lang="">·      </span><span lang="">Growth in active liquidity providers</span></p>
+<p><span lang="">·      </span><span lang="">Increased stablecoin usage</span></p>
+<p><span lang="">·      </span><span lang="">Increased DeFi participation</span></p>
+<p><span lang="">·      </span><span lang="">Greater DEX utilization</span></p>
+<h2><a name="p-385698-span-langsustainabilityspan-50" class="anchor" href="#p-385698-span-langsustainabilityspan-50" aria-label="Heading link"></a><span lang="">Sustainability</span></h2>
+<p><span lang="">Measurements:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity retained after incentives decrease</span></p>
+<p><span lang="">·      </span><span lang="">Organic trading growth</span></p>
+<p><span lang="">·      </span><span lang="">Reduced dependency on rewards</span></p>
+<h1><a name="p-385698-span-lang14-expansion-strategyspan-51" class="anchor" href="#p-385698-span-lang14-expansion-strategyspan-51" aria-label="Heading link"></a><span lang="">14. Expansion Strategy</span></h1>
+<p><span lang="">If the six-month pilot demonstrates positive results, the program could gradually expand.</span></p>
+<p><span lang="">Expansion should only occur after successful evaluation of:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity improvement</span></p>
+<p><span lang="">·      </span><span lang="">Market impact</span></p>
+<p><span lang="">·      </span><span lang="">Treasury efficiency</span></p>
+<p><span lang="">·      </span><span lang="">Sustainability metrics</span></p>
+<h2><a name="p-385698-span-langpotential-expansion-structurespan-52" class="anchor" href="#p-385698-span-langpotential-expansion-structurespan-52" aria-label="Heading link"></a><span lang="">Potential Expansion Structure</span></h2>
+<p><strong><span lang="">Category</span></strong><br>
+<strong><span lang="">Details</span></strong><br>
+<span lang="">Participating DEXes</span><br>
+<span lang="">5</span><br>
+<span lang="">Stablecoin Pairs per DEX</span><br>
+<span lang="">5</span><br>
+<span lang="">Total Incentivized Pools</span><br>
+<span lang="">25</span><br>
+<span lang="">Reward Allocation</span><br>
+<span lang="">10,000 ADA per pool/day</span></p>
+<h2><a name="p-385698-span-langexpansion-calculationspan-53" class="anchor" href="#p-385698-span-langexpansion-calculationspan-53" aria-label="Heading link"></a><span lang="">Expansion Calculation</span></h2>
+<p><span lang="">25 pools × 10,000 ADA</span></p>
+<p><span lang="">=</span></p>
+<p><strong><span lang="">250,000 ADA per day</span></strong><span lang=""></span></p>
+<p><span lang="">Annual allocation:</span></p>
+<p><span lang="">250,000 × 365</span></p>
+<p><span lang="">=</span></p>
+<h1><a name="p-385698-span-lang91250000-adaspanspan-langspan-54" class="anchor" href="#p-385698-span-lang91250000-adaspanspan-langspan-54" aria-label="Heading link"></a><strong><span lang="">91,250,000 ADA</span></strong><span lang=""></span></h1>
+<h1><a name="p-385698-span-lang15-liquidity-impact-examplespan-55" class="anchor" href="#p-385698-span-lang15-liquidity-impact-examplespan-55" aria-label="Heading link"></a><span lang="">15. Liquidity Impact Example</span></h1>
+<p><span lang="">Example:</span></p>
+<p><span lang="">One liquidity pool receives:</span></p>
+<p><strong><span lang="">10,000 ADA per day</span></strong><span lang=""></span></p>
+<p><span lang="">Annual rewards:</span></p>
+<p><span lang="">10,000 × 365</span></p>
+<p><span lang="">=</span></p>
+<p><strong><span lang="">3,650,000 ADA</span></strong><span lang=""></span></p>
+<p><span lang="">Assuming an approximate 10% annual incentive rate:</span></p>
+<p><span lang="">3,650,000 × 10</span></p>
+<p><span lang="">=</span></p>
+<h1><a name="p-385698-span-lang36500000-ada-potential-liquidityspanspan-langspan-56" class="anchor" href="#p-385698-span-lang36500000-ada-potential-liquidityspanspan-langspan-56" aria-label="Heading link"></a><strong><span lang="">36,500,000 ADA potential liquidity</span></strong><span lang=""></span></h1>
+<p><span lang="">For 25 pools:</span></p>
+<p><span lang="">36,500,000 × 25</span></p>
+<p><span lang="">=</span></p>
+<h1><a name="p-385698-span-lang912500000-ada-potential-liquidityspanspan-langspan-57" class="anchor" href="#p-385698-span-lang912500000-ada-potential-liquidityspanspan-langspan-57" aria-label="Heading link"></a><strong><span lang="">912,500,000 ADA potential liquidity</span></strong><span lang=""></span></h1>
+<p><span lang="">This example demonstrates the possible scale of a successful liquidity incentive strategy.</span></p>
+<p><span lang="">Actual results will depend on:</span></p>
+<p><span lang="">·      </span><span lang="">Market conditions</span></p>
+<p><span lang="">·      </span><span lang="">ADA price</span></p>
+<p><span lang="">·      </span><span lang="">Stablecoin demand</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity provider behavior</span></p>
+<p><span lang="">·      </span><span lang="">Overall DeFi growth</span></p>
+<h1><a name="p-385698-span-lang16-expected-ecosystem-return-roi-frameworkspan-58" class="anchor" href="#p-385698-span-lang16-expected-ecosystem-return-roi-frameworkspan-58" aria-label="Heading link"></a><span lang="">16. Expected Ecosystem Return (ROI Framework)</span></h1>
+<p><span lang="">The success of this initiative should not be measured only by liquidity attracted.</span></p>
+<p><span lang="">The true objective is ecosystem value creation.</span></p>
+<p><span lang="">Treasury resources should be viewed as productive ecosystem capital.</span></p>
+<h2><a name="p-385698-span-langincreased-dex-activityspan-59" class="anchor" href="#p-385698-span-langincreased-dex-activityspan-59" aria-label="Heading link"></a><span lang="">Increased DEX Activity</span></h2>
+<p><span lang="">More liquidity can create:</span></p>
+<p><span lang="">·      </span><span lang="">Higher trading volume</span></p>
+<p><span lang="">·      </span><span lang="">Increased fee generation</span></p>
+<p><span lang="">·      </span><span lang="">More competitive markets</span></p>
+<p><span lang="">Creating a positive cycle:</span></p>
+<p><span lang="">More liquidity<br>
+→ Lower slippage<br>
+→ Better user experience<br>
+→ More trading activity<br>
+→ More sustainable ecosystem growth</span></p>
+<h2><a name="p-385698-span-langincreased-ada-utilityspan-60" class="anchor" href="#p-385698-span-langincreased-ada-utilityspan-60" aria-label="Heading link"></a><span lang="">Increased ADA Utility</span></h2>
+<p><span lang="">ADA-based incentives strengthen:</span></p>
+<p><span lang="">·      </span><span lang="">ADA usage in DeFi</span></p>
+<p><span lang="">·      </span><span lang="">ADA liquidity markets</span></p>
+<p><span lang="">·      </span><span lang="">ADA settlement role</span></p>
+<h2><a name="p-385698-span-langstronger-stablecoin-ecosystemspan-61" class="anchor" href="#p-385698-span-langstronger-stablecoin-ecosystemspan-61" aria-label="Heading link"></a><span lang="">Stronger Stablecoin Ecosystem</span></h2>
+<p><span lang="">Improved stablecoin liquidity supports:</span></p>
+<p><span lang="">·      </span><span lang="">Lending markets</span></p>
+<p><span lang="">·      </span><span lang="">Payments</span></p>
+<p><span lang="">·      </span><span lang="">Yield applications</span></p>
+<p><span lang="">·      </span><span lang="">Decentralized applications</span></p>
+<p><span lang="">·      </span><span lang="">Future institutional use cases</span></p>
+<h1><a name="p-385698-span-lang17-inflation-considerationspan-62" class="anchor" href="#p-385698-span-lang17-inflation-considerationspan-62" aria-label="Heading link"></a><span lang="">17. Inflation Consideration</span></h1>
+<p><span lang="">The ADA monetary policy remains unchanged.</span></p>
+<p><span lang="">This proposal does not modify:</span></p>
+<p><span lang="">·      </span><span lang="">Maximum ADA supply</span></p>
+<p><span lang="">·      </span><span lang="">Monetary parameters</span></p>
+<p><span lang="">·      </span><span lang="">Protocol issuance rules</span></p>
+<p><span lang="">The proposed allocation represents a controlled ecosystem investment.</span></p>
+<p><span lang="">Assuming:</span></p>
+<p><span lang="">·      </span><span lang="">1 block every 20 seconds</span></p>
+<p><span lang="">·      </span><span lang="">1,000 ADA produced per block</span></p>
+<p><span lang="">Production rate:</span></p>
+<p><span lang="">Every minute:</span></p>
+<p><span lang="">3,000 ADA</span></p>
+<p><span lang="">Every hour:</span></p>
+<p><span lang="">180,000 ADA</span></p>
+<p><span lang="">Every day:</span></p>
+<p><span lang="">4,320,000 ADA</span></p>
+<p><span lang="">The six-month pilot allocation:</span></p>
+<p><strong><span lang="">9,125,000 ADA</span></strong><span lang=""></span></p>
+<p><span lang="">represents a measured allocation designed to improve ecosystem utility.</span></p>
+<p><span lang="">The objective is not monetary expansion.</span></p>
+<p><span lang="">The objective is:</span></p>
+<p><span lang="">·      </span><span lang="">Better liquidity efficiency</span></p>
+<p><span lang="">·      </span><span lang="">Increased ADA utility</span></p>
+<p><span lang="">·      </span><span lang="">Stronger DeFi infrastructure</span></p>
+<h1><a name="p-385698-span-lang18-risk-managementspan-63" class="anchor" href="#p-385698-span-lang18-risk-managementspan-63" aria-label="Heading link"></a><span lang="">18. Risk Management</span></h1>
+<p><span lang="">To ensure responsible use of Treasury resources:</span></p>
+<h2><a name="p-385698-span-langcontrolled-initial-scopespan-64" class="anchor" href="#p-385698-span-langcontrolled-initial-scopespan-64" aria-label="Heading link"></a><span lang="">Controlled Initial Scope</span></h2>
+<p><span lang="">The program begins with a limited six-month pilot.</span></p>
+<h2><a name="p-385698-span-langperformance-based-expansionspan-65" class="anchor" href="#p-385698-span-langperformance-based-expansionspan-65" aria-label="Heading link"></a><span lang="">Performance-Based Expansion</span></h2>
+<p><span lang="">Future allocations depend on measurable results.</span></p>
+<h2><a name="p-385698-span-langstrategic-pool-selectionspan-66" class="anchor" href="#p-385698-span-langstrategic-pool-selectionspan-66" aria-label="Heading link"></a><span lang="">Strategic Pool Selection</span></h2>
+<p><span lang="">Only pools meeting:</span></p>
+<p><span lang="">·      </span><span lang="">Security requirements</span></p>
+<p><span lang="">·      </span><span lang="">Ecosystem importance</span></p>
+<p><span lang="">·      </span><span lang="">Infrastructure standards</span></p>
+<p><span lang="">should participate.</span></p>
+<h2><a name="p-385698-span-langcontinuous-monitoringspan-67" class="anchor" href="#p-385698-span-langcontinuous-monitoringspan-67" aria-label="Heading link"></a><span lang="">Continuous Monitoring</span></h2>
+<p><span lang="">Performance should be regularly evaluated based on:</span></p>
+<p><span lang="">·      </span><span lang="">Liquidity depth</span></p>
+<p><span lang="">·      </span><span lang="">Trading activity</span></p>
+<p><span lang="">·      </span><span lang="">User participation</span></p>
+<p><span lang="">·      </span><span lang="">Retention metrics</span></p>
+<h2><a name="p-385698-span-langadaptive-incentivesspan-68" class="anchor" href="#p-385698-span-langadaptive-incentivesspan-68" aria-label="Heading link"></a><span lang="">Adaptive Incentives</span></h2>
+<p><span lang="">Rewards should remain flexible.</span></p>
+<p><span lang="">Underperforming pools may:</span></p>
+<p><span lang="">·      </span><span lang="">Receive reduced incentives</span></p>
+<p><span lang="">·      </span><span lang="">Be removed</span></p>
+<p><span lang="">·      </span><span lang="">Be replaced by higher-impact opportunities</span></p>
+<h1><a name="p-385698-span-lang19-final-conclusionspan-69" class="anchor" href="#p-385698-span-lang19-final-conclusionspan-69" aria-label="Heading link"></a><span lang="">19. Final Conclusion</span></h1>
+<p><span lang="">Cardano has successfully developed a strong technological foundation, decentralized network, and growing DeFi ecosystem.</span></p>
+<p><span lang="">The next stage of ecosystem growth requires deeper liquidity infrastructure capable of supporting greater adoption, stronger applications, and more efficient financial markets.</span></p>
+<p><span lang="">Stablecoin–ADA liquidity represents a critical foundation for this next phase.</span></p>
+<p><span lang="">A strategic ADA-based liquidity incentive program can transform Treasury resources into productive ecosystem capital by:</span></p>
+<p><span lang="">·      </span><span lang="">Improving liquidity depth</span></p>
+<p><span lang="">·      </span><span lang="">Increasing ADA utility</span></p>
+<p><span lang="">·      </span><span lang="">Supporting stablecoin adoption</span></p>
+<p><span lang="">·      </span><span lang="">Strengthening decentralized exchanges</span></p>
+<p><span lang="">·      </span><span lang="">Creating stronger DeFi foundations</span></p>
+<p><span lang="">This proposal introduces a responsible and measurable approach based on:</span></p>
+<p><span lang="">·      </span><span lang="">Conservative initial deployment</span></p>
+<p><span lang="">·      </span><span lang="">Transparent evaluation</span></p>
+<p><span lang="">·      </span><span lang="">Shared ecosystem participation</span></p>
+<p><span lang="">·      </span><span lang="">Long-term sustainability</span></p>
+<p><span lang="">The objective is not temporary liquidity farming.</span></p>
+<p><span lang="">The objective is building stronger financial infrastructure for Cardano.</span></p>
+<p><span lang="">By strategically deploying a limited amount of ADA toward liquidity growth, the Treasury can help create deeper markets, stronger DeFi foundations, and a more competitive ecosystem for the future.</span></p>
+            </div>
+
+              <div itemprop="interactionStatistic" itemscope="itemscope" itemtype="http://schema.org/InteractionCounter">
+                  <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+                  <meta itemprop="userInteractionCount" content="2" />
+                <span class='post-likes'>2 Likes</span>
+              </div>
+
+
+            
+
+
+          </div>
+
+    </div>
+
+
+    <div id="related-topics" class="more-topics__list " role="complementary" aria-labelledby="related-topics-title">
+  <h3 id="related-topics-title" class="more-topics__list-title">
+    Related topics
+  </h3>
+  <div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+    <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+    <table class='topic-list'>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th></th>
+          <th class="replies">Replies</th>
+          <th class="views">Views</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="topic-list-item" id="topic-list-item-143580">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/treasury-budget-for-ecosystem-stablecoin-liquidity/143580' class='title raw-link raw-topic-link'>Treasury Budget for Ecosystem Stablecoin Liquidity</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/140' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/cardano/26' class='discourse-tag'>cardano</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/governance/104' class='discourse-tag'>governance</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/proposals/399' class='discourse-tag'>proposals</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/stablecoin/619' class='discourse-tag'>stablecoin</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>1</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>524</span>
+            </td>
+            <td>
+              27 February 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-144172">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/treasury-budget-for-ecosystem-stable-coin-liquidity-updated-draft-proposers-are-eldermillennial-and-marco/144172' class='title raw-link raw-topic-link'>Treasury Budget for Ecosystem Stable Coin Liquidity (Updated Draft) Proposers are @eldermillennial and @marco</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/140' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/cardano/26' class='discourse-tag'>cardano</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/governance/104' class='discourse-tag'>governance</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/stablecoin/619' class='discourse-tag'>stablecoin</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/stable-coin/782' class='discourse-tag'>stable-coin</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>5</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>370</span>
+            </td>
+            <td>
+              14 March 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-153688">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/governance-hour-1-deep-dive-into-cardano-defi-liquidity-budget/153688' class='title raw-link raw-topic-link'>Governance Hour #1 - Deep Dive Into Cardano Defi Liquidity Budget</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/governance-events-workshops/214' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #FF9300'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance Events &amp; Workshops</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/governance-hour/1153' class='discourse-tag'>governance-hour</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>2</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>113</span>
+            </td>
+            <td>
+              25 March 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-99130">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/get-more-by-keeping-ada-coins-in-your-own-wallet/99130' class='title raw-link raw-topic-link'>Get more by keeping ADA coins in your own wallet</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/translations/207' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0088CC'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Translations</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>490</span>
+            </td>
+            <td>
+              7 April 2022
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-147089">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/spanish-dubbing-todo-lo-que-quiero-es-mas-liquidez-de-monedas-estables-ch-ama-8-jun-2025/147089' class='title raw-link raw-topic-link'>:es: SPANISH DUBBING Todo lo que quiero es más liquidez de monedas estables | CH AMA 8 Jun 2025</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/espanol/educacion/129' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #C60C1D'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Educación</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/espa-ol/139' class='discourse-tag'>español-🇪🇸</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>60</span>
+            </td>
+            <td>
+              28 June 2025
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://cardanofoundation.org/en/terms-and-conditions' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://cardanofoundation.org/en/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  </body>
+  
+</html>

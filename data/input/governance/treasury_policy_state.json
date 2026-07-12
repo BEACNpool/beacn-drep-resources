@@ -1,11 +1,24 @@
 {
   "schema_version": "treasury-policy-state-v1",
-  "verification_status": "needs_chain_verification",
-  "ncl_lovelace": null,
+  "verification_status": "verified_onchain_info_action",
+  "ncl_lovelace": 300000000000000,
   "period_start_epoch": 613,
   "period_end_epoch": 713,
-  "source_action_id": null,
-  "source_anchor_hash": null,
-  "verified_at_utc": null,
-  "note": "Fail-closed placeholder. Directional treasury votes remain blocked until the applicable NCL is verified from admitted public chain evidence."
+  "source_action_id": "73a4eb2148781c37ef37c90a33a1d3d00511a8eefe9cdfaa1ea593b090f23f96#0",
+  "source_anchor_hash": "4e264b46f948da4a1917be590d14f10f9e36372075fd11561669180747c0588b",
+  "source_anchor_url": "ipfs://bafkreid7tr5uotr4bp2jp54q7lbm5p5eldncuahprj53msy6kqgjscyrdu",
+  "verified_at_utc": "2026-07-12T13:26:23Z",
+  "verified_at_epoch": 642,
+  "withdrawals_in_period_lovelace": 291435336000000,
+  "remaining_capacity_lovelace": 8564664000000,
+  "spend_basis": "gross_treasury_withdrawals_enacted_within_period",
+  "drep_support": {
+    "yes_stake_lovelace": 2460643090332089,
+    "no_stake_lovelace": 1754593207208598,
+    "yes_pct_of_participating_stake": 58.37,
+    "yes_dreps": 125,
+    "no_dreps": 44
+  },
+  "caveat": "Set by an Info governance action. Info actions change no ledger state and can NEVER be enacted -- they always expire -- so no formally ratified NCL exists or can exist. This is the strongest available public chain evidence: an anchor document byte-verified against its on-chain blake2b-256 hash, covering the current epoch, which won a majority of participating DRep stake. It is NOT enacted ledger state, and the majority may fall short of the supermajority other action types require. Published with every treasury rationale that relies on it.",
+  "note": "Produced by scripts/pin_ncl_from_chain.py from relay db-sync. Re-run each cycle: a later NCL action covering the same period supersedes this one."
 }

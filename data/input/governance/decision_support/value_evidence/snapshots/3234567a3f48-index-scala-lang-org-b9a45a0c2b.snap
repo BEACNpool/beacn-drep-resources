@@ -1,0 +1,881 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>scalus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta name="description" content="Description...">
+    <meta name="author" content="Author..."-->
+    <link rel="search" type="application/opensearchdescription+xml" href="/assets/opensearch.xml" title="scalus">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/img/manifest.json">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#f26527">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+
+    <link rel="stylesheet" href="/assets/lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/lib/bootstrap-switch/css/bootstrap3/bootstrap-switch.css">
+    <link rel="stylesheet" href="/assets/lib/bootstrap-select/css/bootstrap-select.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main-8.css" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#002b37">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#002b37">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    
+      <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:site" content="@scala_lang">
+    
+      <meta name="twitter:title" content="scalus">
+    
+      <meta name="twitter:description" content="Scalus - Smart contracts &amp; dApps Development Platform for Cardano">
+    
+      <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/207868911?v=4">
+    
+    
+      <meta property="og:title" content="Scaladex - scalus3 / scalus">
+    
+      <meta property="og:url" content="https://index.scala-lang.org/scalus3/scalus">
+    
+      <meta property="og:type" content="article">
+    
+      <meta property="og:description" content="Scalus - Smart contracts &amp; dApps Development Platform for Cardano">
+    
+      <meta property="og:site_name" content="Scaladex">
+    
+      <meta property="og:image" content="https://avatars.githubusercontent.com/u/207868911?v=4">
+    
+  </head>
+
+  <body>
+      <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Start coding here -->
+    <header id="top">
+        <nav>
+
+          <div class="row">
+            <div class="col-md-2">
+                  <a href="/">
+                      <img src="/assets/img/scaladex-brand.svg" alt="scaladex logo" class="logo">
+                  </a>
+              </div>
+              <div class="col-md-5">
+                
+                  
+<div class="has-feedback">
+    <form action="/search" action="GET">
+        <input autocomplete="off" autofocus
+          
+          name="q" id="search" type="text" class="form-control"
+          
+            placeholder="Search "
+          
+          >
+        
+        
+
+        
+
+        
+
+        
+    </form>
+    <span class="form-control-feedback"><i class="fa-solid fa-magnifying-glass"></i></span>
+    <div class="autocomplete">
+        <ul id="list-result"></ul>
+    </div>
+</div>
+
+                
+              </div>
+              <div class="col-md-5">
+                <div class="pull-right">
+                  <a class="btn btn-default" href="/api/doc/">API Doc</a>
+                  <a class="btn btn-default awesome" href="/awesome">Awesome Scala</a>
+                  
+                      <a class="btn btn-primary pull-right" href="/login">
+                          <i class="fa-brands fa-github fa-lg" aria-hidden="true"></i> Login
+                      </a>
+                  
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+  <main id="container-project">
+    
+
+
+<div class="head-project">
+  <div class="container">
+    <div class="info-project">
+      <div>
+        <h1>
+          <a href="/scalus3">scalus3</a> /
+          <a href="/scalus3/scalus">scalus</a>
+          
+            <span class="head-last-version">&nbsp;&nbsp;0.18.2</span>
+          
+        </h1>
+
+        
+        
+          
+            <a href="https://spdx.org/licenses/Apache-2.0.html" class="btn btn-link" target="_blank" rel="nofollow">
+              <i class="fa-solid fa-award" aria-hidden="true"></i> Apache License 2.0
+            </a>
+          
+        
+        
+          
+            <a href="https://scalus.org" class="btn btn-link" target="_blank" rel="nofollow">
+              <i class="fa-solid fa-earth-africa" aria-hidden="true"></i> Website
+            </a>
+          
+        
+        <a href="https://github.com/scalus3/scalus" class="btn btn-link" target="_blank"><i class="fa-brands fa-github"></i>
+          GitHub</a>
+      </div>
+      
+        
+          
+            <p class="description emojify">Scalus - Smart contracts &amp; dApps Development Platform for Cardano</p>
+          
+        
+        <ul class="list-inline">
+        
+          <li><a href="/search?topic=smart-contracts" class="label label-default">smart-contracts</a></li>
+        
+          <li><a href="/search?topic=plutus" class="label label-default">plutus</a></li>
+        
+          <li><a href="/search?topic=dapps-development" class="label label-default">dapps-development</a></li>
+        
+          <li><a href="/search?topic=scala" class="label label-default">scala</a></li>
+        
+          <li><a href="/search?topic=compiler" class="label label-default">compiler</a></li>
+        
+          <li><a href="/search?topic=cardano" class="label label-default">cardano</a></li>
+        
+          <li><a href="/search?topic=uplc" class="label label-default">uplc</a></li>
+        
+        </ul>
+      
+      
+        <div class="project-versions">
+          
+            <div>
+              Scala versions:
+              
+                <a href="/scalus3/scalus/artifacts/scalus?stableOnly=true&amp;binary-version=_3" class="targets">3.x</a>
+              
+                <a href="/scalus3/scalus/artifacts/scalus-sbt-plugin?stableOnly=true&amp;binary-version=_2.12_1.0" class="targets">2.12</a>
+              
+            </div>
+          
+    
+          
+            <div>
+              Scala.js versions:
+              
+                <a href="/scalus3/scalus/artifacts/scalus?stableOnly=true&amp;binary-version=_sjs1_3" class="targets">1.x</a>
+              
+            </div>
+          
+    
+          
+            <div>
+              Scala Native versions:
+              
+                <a href="/scalus3/scalus/artifacts/scalus?stableOnly=true&amp;binary-version=_native0.5_3" class="targets">0.5</a>
+              
+            </div>
+          
+    
+          
+            <div>
+              sbt plugins:
+              
+                <a href="/scalus3/scalus/artifacts/scalus-sbt-plugin?stableOnly=true&amp;binary-version=_sbt2_3" class="targets">2.x</a>
+              
+                <a href="/scalus3/scalus/artifacts/scalus-sbt-plugin?stableOnly=true&amp;binary-version=_2.12_1.0" class="targets">1.x</a>
+              
+            </div>
+          
+    
+          
+        </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-nav-bar">
+          <ul class="nav nav-tabs">
+            <li role="project" class="active"><a href="/scalus3/scalus">Project</a></li>
+            
+              <li role="artifacts" class=""><a href="/scalus3/scalus/artifacts">Artifacts</a></li>
+              <li role="versions" class=""><a href="/scalus3/scalus/artifacts/scalus?stableOnly=true">Versions</a></li>
+              <!-- <li role="version-matrix" class=""><a href="/scalus3/scalus/version-matrix">Version Matrix</a></li> -->
+              <li role="badges" class=""><a href="/scalus3/scalus/badges">Badges</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="content-project box project-main" id="README"
+            data-organization="scalus3"
+            data-repository="scalus">
+
+            <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 class="heading-element" dir="auto">Scalus - DApps Development Platform for Cardano</h1><a id="user-content-scalus---dapps-development-platform-for-cardano" class="anchor" aria-label="Permalink: Scalus - DApps Development Platform for Cardano" href="#scalus---dapps-development-platform-for-cardano"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/scalus3/scalus/actions/workflows/release.yml/badge.svg"><img src="https://github.com/scalus3/scalus/actions/workflows/release.yml/badge.svg" alt="CI/Release" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fd8251aee6bd26bed2e8e6e499e0cf104231b8ed17cc2887f87dfe8437bcc051/68747470733a2f2f696d672e736869656c64732e696f2f6d6176656e2d63656e7472616c2f762f6f72672e7363616c75732f7363616c75735f33"><img src="https://camo.githubusercontent.com/fd8251aee6bd26bed2e8e6e499e0cf104231b8ed17cc2887f87dfe8437bcc051/68747470733a2f2f696d672e736869656c64732e696f2f6d6176656e2d63656e7472616c2f762f6f72672e7363616c75732f7363616c75735f33" alt="Maven Central" data-canonical-src="https://img.shields.io/maven-central/v/org.scalus/scalus_3" style="max-width: 100%;"></a>
+<a href="https://discord.gg/ygwtuBybsy" rel="nofollow"><img src="https://camo.githubusercontent.com/a1ef0ce385638af60b38817311d9cdf2a68f2850da585fb40454832bb34b4147/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313130353835323432373334363931313235322e7376673f6c6162656c3d266c6f676f3d646973636f7264266c6f676f436f6c6f723d66666666666626636f6c6f723d343034323434266c6162656c436f6c6f723d364137454332" alt="Discord" data-canonical-src="https://img.shields.io/discord/1105852427346911252.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=404244&amp;labelColor=6A7EC2" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Vision</h2><a id="user-content-vision" class="anchor" aria-label="Permalink: Vision" href="#vision"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Scalus is a platform for developing decentralized applications (DApps) on the Cardano blockchain.</p>
+<p dir="auto">The goal is to make a full-stack development experience for Cardano DApps as smooth as possible.
+Using the same language, tools and code for frontend, backend and smart contracts development.</p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Write Cardano smart contracts in Scala 3</h2><a id="user-content-write-cardano-smart-contracts-in-scala-3" class="anchor" aria-label="Permalink: Write Cardano smart contracts in Scala 3" href="#write-cardano-smart-contracts-in-scala-3"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>Scala is a modern functional programming language that runs on JVM, JavaScript and natively via LLVM.</li>
+<li>Reuse your Scala code for your validator, frontend and backend.</li>
+<li>Write once, run anywhere. True full-stack development.</li>
+<li>Scala's powerful type system helps you write correct code.</li>
+<li>Benefit from a huge ecosystem of libraries and tools.</li>
+<li>Utilize testing frameworks like ScalaTest and ScalaCheck
+for <a href="https://en.wikipedia.org/wiki/Property-based_testing" rel="nofollow">property-based testing</a>.</li>
+<li>Enjoy comprehensive IDE support: IntelliJ IDEA, VSCode and syntax highlighting on GitHub.</li>
+<li>Advanced debugging support.</li>
+<li>Enhanced code formatting and linting, navigation, and refactoring.</li>
+<li>Scala code coverage and profiling tools.</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">How It Works</h2><a id="user-content-how-it-works" class="anchor" aria-label="Permalink: How It Works" href="#how-it-works"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Scalus compiles a subset of Scala code to Plutus Core, the language of Cardano smart contracts.</p>
+<p dir="auto">Scalus gives full control over the generated Plutus Core code.
+Write efficient and compact smart contracts and squeeze the most out of the Cardano blockchain.</p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Features</h2><a id="user-content-features" class="anchor" aria-label="Permalink: Features" href="#features"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>Scala 3 to Cardano Plutus Core compiler</li>
+<li>Standard library for Plutus contracts development</li>
+<li>Plutus V1, V2 and V3 support</li>
+<li>Plutus VM Interpreter and execution budget calculation for Plutus V1, V2 and V3</li>
+<li>Plutus VM library works on JVM, JavaScript and Native platforms!</li>
+<li>UPLC optimizer with compile-time partial evaluation for smaller and cheaper scripts</li>
+<li>Source position tracking and diagnostic replay for easier debugging</li>
+<li>Cross-platform transaction builder (TxBuilder) for JVM and JavaScript</li>
+<li>Emulator for off-chain transaction testing without a running node</li>
+<li>Conway era ledger rules support</li>
+<li>HD wallet with BIP-39/BIP32-Ed25519/CIP-1852</li>
+<li>Property-based testing library</li>
+<li>Untyped Plutus Core (UPLC) data types and functions</li>
+<li>Flat, CBOR, JSON serialization</li>
+<li>UPLC parser and pretty printer</li>
+<li>Type safe UPLC expression builder, think of Plutarch</li>
+<li>Bloxbean <a href="https://cardano-client.dev" rel="nofollow">Cardano Client Lib</a> integration</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Scalus Starter Project</h2><a id="user-content-scalus-starter-project" class="anchor" aria-label="Permalink: Scalus Starter Project" href="#scalus-starter-project"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">You can use the <a href="https://github.com/nau/scalus-starter">Scalus Starter Project</a> to get started with Scalus.
+Clone the repository and follow the instructions in the README.</p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Show Me The Code</h2><a id="user-content-show-me-the-code" class="anchor" aria-label="Permalink: Show Me The Code" href="#show-me-the-code"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Hello Cardano Validator Example</h3><a id="user-content-hello-cardano-validator-example" class="anchor" aria-label="Permalink: Hello Cardano Validator Example" href="#hello-cardano-validator-example"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Here is a simple validator that checks if the redeemer is "Hello, World!" and if the transaction is signed by the
+owner. Below example is taken
+from <a href="https://github.com/scalus3/scalus/blob/master/scalus-examples/jvm/src/main/scala/scalus/examples/HelloCardano.scala">HelloCardano</a>.</p>
+<div class="highlight highlight-source-scala notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="@Compile
+object HelloCardano extends Validator {
+    inline override def spend(
+        datum: Option[Data],
+        redeemer: Data,
+        tx: TxInfo,
+        ownRef: TxOutRef
+    ): Unit = {
+        val owner = datum.getOrFail(&quot;Datum not found&quot;).to[PubKeyHash]
+        val signed = tx.signatories.contains(owner)
+        require(signed, &quot;Must be signed&quot;)
+        val saysHello = redeemer.to[String] == &quot;Hello, World!&quot;
+        require(saysHello, &quot;Invalid redeemer&quot;)
+    }
+}
+
+// compile to Untyped Plutus Core (UPLC)
+val compiled = PlutusV3.compile(HelloCardano.validate)
+// HEX encoded Plutus script, ready to be used with cardano-cli or Blockfrost
+val plutusScript = compiled.program.doubleCborHex"><pre><span class="pl-k">@</span><span class="pl-en">Compile</span>
+<span class="pl-k">object</span> <span class="pl-en">HelloCardano</span> <span class="pl-k">extends</span> <span class="pl-en">Validator</span> {
+    <span class="pl-k">inline</span> <span class="pl-k">override</span> <span class="pl-k">def</span> <span class="pl-en">spend</span>(
+        <span class="pl-v">datum</span>: <span class="pl-en">Option</span>[<span class="pl-en">Data</span>],
+        <span class="pl-v">redeemer</span>: <span class="pl-en">Data</span>,
+        <span class="pl-v">tx</span>: <span class="pl-en">TxInfo</span>,
+        <span class="pl-v">ownRef</span>: <span class="pl-en">TxOutRef</span>
+    )<span class="pl-k">:</span> <span class="pl-en">Unit</span> <span class="pl-k">=</span> {
+        <span class="pl-k">val</span> <span class="pl-v">owner</span> <span class="pl-k">=</span> datum.getOrFail(<span class="pl-s"><span class="pl-pds">"</span>Datum not found<span class="pl-pds">"</span></span>).to[<span class="pl-en">PubKeyHash</span>]
+        <span class="pl-k">val</span> <span class="pl-v">signed</span> <span class="pl-k">=</span> tx.signatories.contains(owner)
+        require(signed, <span class="pl-s"><span class="pl-pds">"</span>Must be signed<span class="pl-pds">"</span></span>)
+        <span class="pl-k">val</span> <span class="pl-v">saysHello</span> <span class="pl-k">=</span> redeemer.to[<span class="pl-en">String</span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+        require(saysHello, <span class="pl-s"><span class="pl-pds">"</span>Invalid redeemer<span class="pl-pds">"</span></span>)
+    }
+}
+
+<span class="pl-c"><span class="pl-c">//</span> compile to Untyped Plutus Core (UPLC)</span>
+<span class="pl-k">val</span> <span class="pl-v">compiled</span> <span class="pl-k">=</span> <span class="pl-en">PlutusV3</span>.compile(<span class="pl-en">HelloCardano</span>.validate)
+<span class="pl-c"><span class="pl-c">//</span> HEX encoded Plutus script, ready to be used with cardano-cli or Blockfrost</span>
+<span class="pl-k">val</span> <span class="pl-v">plutusScript</span> <span class="pl-k">=</span> compiled.program.doubleCborHex</pre></div>
+<p dir="auto">Look at <a href="https://github.com/scalus3/scalus/blob/master/scalus-examples/jvm/src/main/scala/scalus/examples/SendTx.scala">SendTx</a>
+example for a full example of how to create a transaction with this validator.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Scalus for budget calculation with Cardano Client Lib</h3><a id="user-content-scalus-for-budget-calculation-with-cardano-client-lib" class="anchor" aria-label="Permalink: Scalus for budget calculation with Cardano Client Lib" href="#scalus-for-budget-calculation-with-cardano-client-lib"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Scalus can calculate the execution budget for your validator using the Cardano Client Lib. Just provide
+<code>ScalusTransactionEvaluator</code> to your <code>QuickTxBuilder</code>:</p>
+<div class="highlight highlight-source-scala notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="val signedTx = quickTxBuilder
+  .compose(scriptTx)
+  .withTxEvaluator(ScalusTransactionEvaluator(protocolParams, utxoSupplier))
+  // build your transaction
+  .buildAndSign()"><pre><span class="pl-k">val</span> <span class="pl-v">signedTx</span> <span class="pl-k">=</span> quickTxBuilder
+  .compose(scriptTx)
+  .withTxEvaluator(<span class="pl-en">ScalusTransactionEvaluator</span>(protocolParams, utxoSupplier))
+  <span class="pl-c"><span class="pl-c">//</span> build your transaction</span>
+  .buildAndSign()</pre></div>
+<p dir="auto">This will calculate the execution budget for your validator and add it to the redeemer of the transaction.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">AdaStream Example</h3><a id="user-content-adastream-example" class="anchor" aria-label="Permalink: AdaStream Example" href="#adastream-example"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Sources: <a href="https://github.com/nau/adastream/blob/main/src/contract.scala">AdaStream Contract</a></p>
+<p dir="auto">This project is a Cardano implementation of the <a href="https://github.com/RobinLinus/BitStream">BitStream</a> protocol by Robin
+Linus, inventor of <a href="https://bitvm.org/" rel="nofollow">BitVM</a></p>
+<p dir="auto">Original paper: <a href="https://robinlinus.com/bitstream.pdf" rel="nofollow">BitStream: Decentralized File Hosting Incentivised via Bitcoin Payments
+</a></p>
+<div class="markdown-heading" dir="auto"><h4 class="heading-element" dir="auto">TL;DR</h4><a id="user-content-tldr" class="anchor" aria-label="Permalink: TL;DR" href="#tldr"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>Alice wants to buy a file from Bob.</li>
+<li>Bob encrypts the file with a random key and sends it to Alice.</li>
+<li>Bob creates a bond contract on Cardano with a collateral and a commitment to the key and the file.</li>
+<li>Alice pays Bob for the file via a HTLC (Hashed Timelock Contract), using Cardano or Bitcoin Lightning Network.</li>
+<li>Alice decrypts the file with the key from the HTLC or takes the money back after the timeout.</li>
+<li>If Bob cheats, Alice can prove it and get the collateral from the bond contract.</li>
+<li>Bob can withdraw the collateral by revealing the key.</li>
+</ul>
+<p dir="auto">The project includes a bond contract and a HTLC contract for a fair exchange of files for ADA or other Cardano Native
+Tokens.</p>
+<p dir="auto">It's a CLI tool and a REST API server that allows you to create a bond contract, pay for a file, and decrypt it.</p>
+<p dir="auto">It has a set of tests that check the contract logic and its execution costs.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Minting/Burning Example</h3><a id="user-content-mintingburning-example" class="anchor" aria-label="Permalink: Minting/Burning Example" href="#mintingburning-example"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Here is a full example of a token minting/burning validator that works on both JVM and JavaScript:</p>
+<p dir="auto"><a href="https://github.com/scalus3/scalus/blob/master/scalus-examples/shared/src/main/scala/scalus/examples/MintingPolicy.scala">MintingPolicy.scala</a></p>
+<p dir="auto">And here is a project that uses it in web frontend:
+<a href="https://github.com/scalus3/scalus/tree/master/scalus-examples/js/">Scalus Minting Example</a></p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Minimal Size Withdrawal Validator</h3><a id="user-content-minimal-size-withdrawal-validator" class="anchor" aria-label="Permalink: Minimal Size Withdrawal Validator" href="#minimal-size-withdrawal-validator"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The challenge was to create the smallest possible validator that checks a certain withdrawal exists in the transaction.</p>
+<p dir="auto"><a href="https://gist.github.com/nau/b8996fe3e51b0e21c20479c5d8548ec7">The result is 92 bytes long script</a></p>
+<p dir="auto">Here's Plutus V3 version:</p>
+<div class="highlight highlight-source-scala notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="val validator = compile: (scriptWithdrawalCredential: Data, ctx: Data) =&gt;
+  def contains(list: builtin.List[Pair[Data, Data]]): Unit =
+    if list.head.fst == scriptWithdrawalCredential then ()
+    else contains(list.tail) // fails on empty list
+
+  contains(ctx.field[ScriptContext](_.txInfo.withdrawals).toMap)
+
+println(validator.toUplc().plutusV3.flatEncoded.length) // 86 bytes"><pre><span class="pl-k">val</span> <span class="pl-v">validator</span> <span class="pl-k">=</span> <span class="pl-v">compile</span>: (<span class="pl-v">scriptWithdrawalCredential</span>: <span class="pl-en">Data</span>, <span class="pl-v">ctx</span>: <span class="pl-en">Data</span>) <span class="pl-k">=&gt;</span>
+  <span class="pl-k">def</span> <span class="pl-en">contains</span>(<span class="pl-v">list</span>: builtin.<span class="pl-en">List</span>[<span class="pl-en">Pair</span>[<span class="pl-en">Data</span>, <span class="pl-en">Data</span>]])<span class="pl-k">:</span> <span class="pl-en">Unit</span> <span class="pl-k">=</span>
+    <span class="pl-k">if</span> list.head.fst <span class="pl-k">==</span> scriptWithdrawalCredential <span class="pl-k">then</span> ()
+    <span class="pl-k">else</span> contains(list.tail) <span class="pl-c"><span class="pl-c">//</span> fails on empty list</span>
+
+  contains(ctx.field[<span class="pl-en">ScriptContext</span>](_.txInfo.withdrawals).toMap)
+
+println(validator.toUplc().plutusV3.flatEncoded.length) <span class="pl-c"><span class="pl-c">//</span> 86 bytes</span></pre></div>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Scalus Multiplatform</h2><a id="user-content-scalus-multiplatform" class="anchor" aria-label="Permalink: Scalus Multiplatform" href="#scalus-multiplatform"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Scalus implements a Plutus VM (CEK machine) that works on JVM, JavaScript and Native platforms
+thanks to Scala multiplatform capabilities.
+All from the same Scala codebase.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Scalus on TypeScript/JavaScript via Scala.js</h3><a id="user-content-scalus-on-typescriptjavascript-via-scalajs" class="anchor" aria-label="Permalink: Scalus on TypeScript/JavaScript via Scala.js" href="#scalus-on-typescriptjavascript-via-scalajs"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The Scalus npm package provides a JavaScript/TypeScript API for evaluating Plutus scripts and building transactions.</p>
+<p dir="auto">Here's how you can evaluate a Plutus script from a TypeScript program:</p>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="import {Scalus} from &quot;scalus&quot;;
+
+const script = &quot;545301010023357389210753756363657373004981&quot;;
+const applied = Scalus.applyDataArgToScript(script, JSON.stringify({&quot;int&quot;: 42}));
+const result = Scalus.evaluateScript(applied);
+console.log(result);
+console.log(result.budget.memory);"><pre><span class="pl-k">import</span> <span class="pl-kos">{</span><span class="pl-v">Scalus</span><span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">"scalus"</span><span class="pl-kos">;</span>
+
+<span class="pl-k">const</span> <span class="pl-s1">script</span> <span class="pl-c1">=</span> <span class="pl-s">"545301010023357389210753756363657373004981"</span><span class="pl-kos">;</span>
+<span class="pl-k">const</span> <span class="pl-s1">applied</span> <span class="pl-c1">=</span> <span class="pl-v">Scalus</span><span class="pl-kos">.</span><span class="pl-en">applyDataArgToScript</span><span class="pl-kos">(</span><span class="pl-s1">script</span><span class="pl-kos">,</span> <span class="pl-c1">JSON</span><span class="pl-kos">.</span><span class="pl-en">stringify</span><span class="pl-kos">(</span><span class="pl-kos">{</span><span class="pl-s">"int"</span>: <span class="pl-c1">42</span><span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-k">const</span> <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-v">Scalus</span><span class="pl-kos">.</span><span class="pl-en">evaluateScript</span><span class="pl-kos">(</span><span class="pl-s1">applied</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">.</span><span class="pl-c1">budget</span><span class="pl-kos">.</span><span class="pl-c1">memory</span><span class="pl-kos">)</span><span class="pl-kos">;</span></pre></div>
+<p dir="auto">Install the <code>scalus</code> npm package:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm install scalus"><pre>npm install scalus</pre></div>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Scalus Native</h3><a id="user-content-scalus-native" class="anchor" aria-label="Permalink: Scalus Native" href="#scalus-native"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Here's how you can evaluate a Plutus script from a C program:</p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#include &quot;scalus.h&quot;
+// Plutus V3, protocol version 10
+machine_params* params = scalus_get_default_machine_params(3, 10);
+ex_budget budget;
+char logs_buffer[1024];
+char error[1024];
+int ret = scalus_evaluate_script(
+    script, // script hex
+    3, // Plutus V3
+    params, // machine params
+    &amp;budget,
+    logs_buffer, sizeof(logs_buffer),
+    error, sizeof(error));
+
+if (ret == 0) {
+    printf(&quot;Script evaluation successful. CPU %lld, MEM %lld\n&quot;, budget.cpu, budget.memory);
+    printf(&quot;Logs: %s\n&quot;, logs_buffer);
+} else {
+    printf(&quot;Script evaluation failed: %d\n&quot;, ret);
+    printf(&quot;Units spent: CPU %lld, MEM %lld\n&quot;, budget.cpu, budget.memory);
+    printf(&quot;Error: %s\n&quot;, error);
+    printf(&quot;Logs: %s\n&quot;, logs_buffer);
+}"><pre><span class="pl-k">#include</span> <span class="pl-s">"scalus.h"</span>
+<span class="pl-c">// Plutus V3, protocol version 10</span>
+<span class="pl-smi">machine_params</span><span class="pl-c1">*</span> <span class="pl-s1">params</span> <span class="pl-c1">=</span> <span class="pl-en">scalus_get_default_machine_params</span>(<span class="pl-c1">3</span>, <span class="pl-c1">10</span>);
+<span class="pl-smi">ex_budget</span> <span class="pl-s1">budget</span>;
+<span class="pl-smi">char</span> <span class="pl-s1">logs_buffer</span>[<span class="pl-c1">1024</span>];
+<span class="pl-smi">char</span> <span class="pl-s1">error</span>[<span class="pl-c1">1024</span>];
+<span class="pl-smi">int</span> <span class="pl-s1">ret</span> <span class="pl-c1">=</span> <span class="pl-en">scalus_evaluate_script</span>(
+    <span class="pl-s1">script</span>, <span class="pl-c">// script hex</span>
+    <span class="pl-c1">3</span>, <span class="pl-c">// Plutus V3</span>
+    <span class="pl-s1">params</span>, <span class="pl-c">// machine params</span>
+    <span class="pl-c1">&amp;</span><span class="pl-s1">budget</span>,
+    <span class="pl-s1">logs_buffer</span>, <span class="pl-k">sizeof</span>(<span class="pl-s1">logs_buffer</span>),
+    <span class="pl-s1">error</span>, <span class="pl-k">sizeof</span>(<span class="pl-s1">error</span>));
+
+<span class="pl-k">if</span> (<span class="pl-s1">ret</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>) {
+    <span class="pl-en">printf</span>(<span class="pl-s">"Script evaluation successful. CPU %lld, MEM %lld\n"</span>, <span class="pl-s1">budget</span>.<span class="pl-c1">cpu</span>, <span class="pl-s1">budget</span>.<span class="pl-c1">memory</span>);
+    <span class="pl-en">printf</span>(<span class="pl-s">"Logs: %s\n"</span>, <span class="pl-s1">logs_buffer</span>);
+} <span class="pl-k">else</span> {
+    <span class="pl-en">printf</span>(<span class="pl-s">"Script evaluation failed: %d\n"</span>, <span class="pl-s1">ret</span>);
+    <span class="pl-en">printf</span>(<span class="pl-s">"Units spent: CPU %lld, MEM %lld\n"</span>, <span class="pl-s1">budget</span>.<span class="pl-c1">cpu</span>, <span class="pl-s1">budget</span>.<span class="pl-c1">memory</span>);
+    <span class="pl-en">printf</span>(<span class="pl-s">"Error: %s\n"</span>, <span class="pl-s1">error</span>);
+    <span class="pl-en">printf</span>(<span class="pl-s">"Logs: %s\n"</span>, <span class="pl-s1">logs_buffer</span>);
+}</pre></div>
+<p dir="auto">See the full example in the <a href="https://github.com/scalus3/scalus/blob/master/scalus-examples/native/main.c">main.c</a> file.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">How to build a native library</h3><a id="user-content-how-to-build-a-native-library" class="anchor" aria-label="Permalink: How to build a native library" href="#how-to-build-a-native-library"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sbt scalusNative/nativeLink"><pre>sbt scalusNative/nativeLink</pre></div>
+<p dir="auto">will produce a static library in the <code>scalus-core/native/target/scala-3.3.7</code> directory.</p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Roadmap</h2><a id="user-content-roadmap" class="anchor" aria-label="Permalink: Roadmap" href="#roadmap"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">DApp development framework</h3><a id="user-content-dapp-development-framework" class="anchor" aria-label="Permalink: DApp development framework" href="#dapp-development-framework"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">A framework that will help you build DApps faster and easier.</p>
+<p dir="auto">You define your smart contracts, data types, and interaction endpoints in Scala.
+The framework will generate the frontend and backend code for you.</p>
+<p dir="auto">Yes, your REST API, WebSocket, and GraphQL endpoints for your DApp.
+And the JavaScript code to interact with your DApp from the browser.</p>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Comparison to PlutusTx, Aiken, Plutarch</h2><a id="user-content-comparison-to-plutustx-aiken-plutarch" class="anchor" aria-label="Permalink: Comparison to PlutusTx, Aiken, Plutarch" href="#comparison-to-plutustx-aiken-plutarch"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">PlutusTx</h3><a id="user-content-plutustx" class="anchor" aria-label="Permalink: PlutusTx" href="#plutustx"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">PlutusTx compiles almost any Haskell program to UPLC.
+Cons are that you can barely understand how the UPLC is generated and how to make it smaller.
+PlutusTx also tends to generate a lot of boilerplate code making the final script size bigger and more expensive to run.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Aiken</h3><a id="user-content-aiken" class="anchor" aria-label="Permalink: Aiken" href="#aiken"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Aiken is a new and young programming language which is a pro and a con.
+Can only be used for writing on-chain smart contracts.
+Can't reuse code for on-chain and off-chain parts.
+Doesn't have macros.
+Doesn't allow a low-level control over the generated UPLC code.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Plutarch</h3><a id="user-content-plutarch" class="anchor" aria-label="Permalink: Plutarch" href="#plutarch"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Plutarch is very low-level. Use it when you need precise control over a script generation.
+It's a Haskell library so be prepared to write Haskell code with all its developer experience drawbacks.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Plu-ts</h3><a id="user-content-plu-ts" class="anchor" aria-label="Permalink: Plu-ts" href="#plu-ts"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Plu-ts is a TypeScript DSL for writing Plutus scripts.
+With Scalus you can do the same and much more but in Scala, and produce JavaScript code.</p>
+<div class="markdown-heading" dir="auto"><h3 class="heading-element" dir="auto">Scalus</h3><a id="user-content-scalus" class="anchor" aria-label="Permalink: Scalus" href="#scalus"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">Scalus aims to be a better version of all the above.</p>
+<ul dir="auto">
+<li>
+<p dir="auto">You can actually reuse Scala code for your validator, frontend and backend!
+The goal that PlutusTx failed to achieve.</p>
+</li>
+<li>
+<p dir="auto">You can use existing Scala libraries for testing, including ScalaCheck and ScalaTest.</p>
+</li>
+<li>
+<p dir="auto">Scala has a powerful type system that helps you write correct code. Check
+out <a href="https://stainless.epfl.ch/" rel="nofollow">Stainless – Formal Verification for Scala</a> for formal verification.</p>
+</li>
+<li>
+<p dir="auto">Scalus leverages all the development tools that Scala has, including IntelliJ Idea, VSCode, sbt, even GitHub CoPilot
+and ChatGPT! No need to learn new tools and languages.</p>
+</li>
+<li>
+<p dir="auto">Debugger! It works!</p>
+</li>
+<li>
+<p dir="auto">UPLC optimizer with compile-time partial evaluation produces competitive script sizes,
+often smaller than hand-optimized Aiken or Plutarch scripts.</p>
+</li>
+<li>
+<p dir="auto">Full emulator for testing smart contracts without a running Cardano node.</p>
+</li>
+<li>
+<p dir="auto">Cross-platform transaction builder (TxBuilder) that works on JVM and JavaScript.</p>
+</li>
+<li>
+<p dir="auto">Source position tracking in error messages makes debugging failed scripts easy.</p>
+</li>
+<li>
+<p dir="auto">Scalus allows only a limited subset of Scala, that can be reasonably efficiently
+compiled to UPLC without bloating the code.</p>
+</li>
+<li>
+<p dir="auto">It's compiled to a fairly high-level human-readable intermediate representation, SIR.</p>
+</li>
+<li>
+<p dir="auto">The huge part of any useful script is <code>ScriptContext</code> deserialization from <code>Data</code> representation.
+Scalus also provides primitives to do your custom deserialization to reduce validator size.</p>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 class="heading-element" dir="auto">Support</h2><a id="user-content-support" class="anchor" aria-label="Permalink: Support" href="#support"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">You can ask questions on Scalus Discord: <a href="https://discord.gg/ygwtuBybsy" rel="nofollow">https://discord.gg/ygwtuBybsy</a></p>
+<p dir="auto">The project is looking for funding to make it production ready.
+If you are interested, please contact me at <a href="https://x.com/atlanter" rel="nofollow">@atlanter</a> on X.
+Follow the official Scalus account on X: <a href="https://x.com/Scalus3" rel="nofollow">@Scalus3</a>.</p>
+<p dir="auto">You can support the project by donating ADA or BTC to the following addresses:</p>
+<p dir="auto">ADA: addr1qxwg0u9fpl8dac9rkramkcgzerjsfdlqgkw0q8hy5vwk8tzk5pgcmdpe5jeh92guy4mke4zdmagv228nucldzxv95clqe35r3m</p>
+<p dir="auto">Please, consider becoming a sponsor on GitHub.</p>
+<p dir="auto">And vote for the project on Cardano Catalyst!</p>
+</article></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="sidebar-project">
+            
+  
+
+            
+  <div class="statistic box">
+    <h4>Statistics</h4>
+    <div class="row">
+      <div >
+        <ul class="row">
+          <a href="https://github.com/scalus3/scalus/watchers"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-eye"></i> 6 watchers</li></a>
+          <a href="https://github.com/scalus3/scalus/graphs/contributors"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-users"></i> 18 Contributors</li></a>
+          <a href="https://github.com/scalus3/scalus/stargazers"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-star"></i> 104 Stars</li></a>
+          <a href="https://github.com/scalus3/scalus/network"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-code-branch"></i> 15 Forks</li></a>
+          <a href="https://github.com/scalus3/scalus/commits"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-clock-rotate-left"></i> 4706 Commits</li></a>
+          <a href="https://github.com/scalus3/scalus/issues"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-circle-exclamation"></i> 28 Open issues</li></a>
+          <a href="#dependents"><li class="col-md-6 col-sm-6"><i class="fa-solid fa-sitemap"></i> 1 Dependents</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            
+  
+
+            
+  <div class="dependencies box">
+    <h4>18 Dependencies</h4>
+    <ul>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/com-lihaoyi/pprint">com-lihaoyi/pprint</a> 
+   <span class="label label-default">test</span> 
+</div>
+            <div class="col-xs-4">0.9.6</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/com-lihaoyi/upickle">com-lihaoyi/upickle</a> 
+  
+</div>
+            <div class="col-xs-4">4.4.3</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/dotty-cps-async/dotty-cps-async">dotty-cps-async/dotty-cps-async</a> 
+  
+</div>
+            <div class="col-xs-4">1.3.3</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/optics-dev/monocle">optics-dev/monocle</a> 
+  
+</div>
+            <div class="col-xs-4">3.3.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/outr/scribe">outr/scribe</a> 
+  
+</div>
+            <div class="col-xs-4">3.19.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/plokhotnyuk/jsoniter-scala">plokhotnyuk/jsoniter-scala</a> 
+  
+</div>
+            <div class="col-xs-4">2.38.15</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/sbt/sbt2-compat">sbt/sbt2-compat</a> 
+  
+</div>
+            <div class="col-xs-4">0.1.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/scala/scala3">scala/scala3</a> 
+  
+</div>
+            <div class="col-xs-4">3.3.8, 3.8.4</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/scala-js/scala-js">scala-js/scala-js</a> 
+  
+</div>
+            <div class="col-xs-4">1.21.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/scala-native/scala-native">scala-native/scala-native</a> 
+  
+</div>
+            <div class="col-xs-4">0.5.12, 3.3.8+0.5.12</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/scalatest/scalatest">scalatest/scalatest</a> 
+  
+</div>
+            <div class="col-xs-4">3.2.20</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/scalatest/scalatestplus-scalacheck">scalatest/scalatestplus-scalacheck</a> 
+  
+</div>
+            <div class="col-xs-4">3.2.19.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/sirthias/borer">sirthias/borer</a> 
+  
+</div>
+            <div class="col-xs-4">1.16.2</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/softwaremill/magnolia">softwaremill/magnolia</a> 
+  
+</div>
+            <div class="col-xs-4">1.3.21</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/softwaremill/sttp">softwaremill/sttp</a> 
+  
+</div>
+            <div class="col-xs-4">4.0.25</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/typelevel/cats">typelevel/cats</a> 
+  
+</div>
+            <div class="col-xs-4">2.13.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/typelevel/cats-parse">typelevel/cats-parse</a> 
+  
+</div>
+            <div class="col-xs-4">1.1.0</div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/typelevel/paiges">typelevel/paiges</a> 
+  
+</div>
+            <div class="col-xs-4">0.4.4</div>
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+
+            
+  <section class="dependencies box" id="dependents">
+    <h4>1 Dependent</h4>
+    <ul>
+      
+        <li>
+          <div class="row">
+            <div class="col-xs-8"><a href="/fabiopinheiro/scala-did">fabiopinheiro/scala-did</a> 
+  
+</div>
+            <div class="col-xs-4">on 0.16.0</div>
+          </div>
+        </li>
+      
+      
+    </ul>
+  </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript">
+          document.addEventListener("DOMContentLoaded", function () {
+            ScaladexClient.createSparkline();
+          })
+  </script>
+
+    <footer id="bottom">
+      <div class="container">
+          <div class="footer-top row">
+              <div class="col-md-3">
+                  <ul>
+                      <li><h5>Community</h5></li>
+                      <li><a href="https://github.com/scalacenter/scaladex"><i class="fa-brands fa-github fa-lg"></i> Github</a></li>
+                      <li><a href="https://discord.com/invite/scala"><i class="fab fa-discord fa-lg"></i> Discord</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <ul>
+                      <li><h5>Contribute</h5></li>
+                      <li><a href="https://github.com/scalacenter/scaladex/blob/main/CONTRIBUTING.md">Contribution Guide</a></li>
+                      <li><a href="https://github.com/scalacenter/scaladex/issues/new">Report an Issue</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <ul>
+                      <li><h5>Scaladex</h5></li>
+                      <li><a href="https://github.com/scalacenter/scaladex/wiki/FAQ">FAQs</a></li>
+                      <li><a href="https://scala-lang.org/conduct/">Code of Conduct</a></li>
+                      <li><a href="https://github.com/scalacenter/scaladex?tab=BSD-3-Clause-1-ov-file">License</a></li>
+                  </ul>
+              </div>
+          </div>
+  
+          <div class="footer-bottom row">
+              <div class="col-md-4">
+                  <p class="copyright text-center">Copyright © 2002-2026 École Polytechnique Fédérale Lausanne (EPFL) Lausanne, Switzerland</p>
+              </div>
+              <div class="col-md-6">
+                  <!-- Empty column for alignment -->
+              </div>
+              <div class="col-md-2">
+                  <a class="sponsors" href="https://scala.epfl.ch/"><img src="/assets/img/scala-center-logo.png" alt="powered by Scala Center"></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+    <!-- Coding End -->
+
+    
+        <script src="/assets/webclient-opt.js"></script>
+    
+
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/bootstrap-sass/javascripts/bootstrap.min.js"></script>
+    <script src="/assets/lib/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="/assets/lib/select2/dist/js/select2.min.js"></script>
+    <script src="/assets/lib/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/js/emojify.js"></script>
+    <script src="/assets/lib/chartjs/dist/chart.min.js"></script>
+    <script src="/assets/lib/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    
+      <script defer data-domain="index.scala-lang.org" src="https://plausible.scala-lang.org/js/script.js"></script>
+    
+
+    <script>
+        // Tooltips
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+          $(".js-keywords-multiple").select2({tags: true});
+          $(".js-stackoverflowtags-multiple").select2({tags: true});
+          $('.edit-project input[type="checkbox"]').bootstrapSwitch();
+          $('#stable-only').bootstrapSwitch({
+            handleWidth: 30,
+            labelWidth: 78,
+            labelText: 'Stable Only',
+            onSwitchChange: function(event, state){
+              console.log(event)
+              event.target.form.submit()
+            }
+          });
+        });
+
+        // Run client scalajs code (for instance, autocomplete)
+        
+          ScaladexClient.main();
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

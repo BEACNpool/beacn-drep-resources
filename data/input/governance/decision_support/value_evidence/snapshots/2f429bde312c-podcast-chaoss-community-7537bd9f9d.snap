@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="generator" content="Fireside 2.1">
+    <meta name="title" content="CHAOSScast - Christian Taylor">
+    <title>CHAOSScast - Christian Taylor</title>
+    <!--
+
+        ______________                   ______________
+        ___  ____/__(_)_____________________(_)_____  /____
+        __  /_   __  /__  ___/  _ \_  ___/_  /_  __  /_  _ \
+        _  __/   _  / _  /   /  __/(__  )_  / / /_/ / /  __/
+        /_/      /_/  /_/    \___//____/ /_/  \__,_/  \___/
+
+        Fireside v2.1
+
+-->
+    <link rel="canonical" href="https://podcast.chaoss.community/guests/christian-taylor">
+    <meta name="description" content="The CHAOSS Community podcast elevates conversations about metrics, analytics, and software for measuring open source community health.">
+    <meta name="author" content="CHAOSS Project">
+    <link rel="alternate" type="application/rss+xml" title="CHAOSScast RSS Feed" href="https://podcast.chaoss.community/rss" />
+    <link rel="alternate" title="CHAOSScast JSON Feed" type="application/json" href="https://podcast.chaoss.community/json" />
+
+    <link rel="shortcut icon" type="image/png" href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/favicon.png?v=2" />
+    <link rel="apple-touch-icon" type="image/png" href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/touch_icon_iphone.png?v=2" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/touch_icon_iphone.png?v=2" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/touch_icon_ipad.png?v=2" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/touch_icon_ipad.png?v=2" sizes="144x144" />
+
+      <link rel="stylesheet" href="https://a.fireside.fm/assets/v1/themes/minimal-light-65a2743a949420da1db279f0fd25e40486f6fad15692146414bac5a8e5826c12.css" media="all" data-turbolinks-track="true" />
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="x-IHGrxJ6DgRN2Blbej11ryO_7ROZ43Nd6y3K937EczLz0TYdFwdoKuSxVRmCKucvu0qebuqgWBvPYI3AFDNSw" />
+    
+    
+    <script src="https://a.fireside.fm/assets/v1/sub-c952650b3ae7c27fd15ebfc318bab60f78f56dfc8a16221fba8a7191de897025.js" data-turbolinks-track="true"></script>
+      <style>#episode_d2f544b9-aabe-4145-8ab0-bc10d0f60fb3 { background-image:url('https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/episodes/d/d2f544b9-aabe-4145-8ab0-bc10d0f60fb3/cover.jpg?v=1'); }</style>
+
+    
+
+    
+    
+    
+  </head>
+    <body>
+      
+<header class="fixed-header">
+  <a class="fixed-header-logo" href="https://podcast.chaoss.community">
+    <img id="cover-small" src="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/cover_small.jpg?v=2" />
+</a>  <div class="fixed-header-hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul class="fixed-header-nav">
+
+      <li><a href="/about">About</a></li>
+
+    <li><a href="/episodes">Episodes</a></li>
+
+      <li><a href="/hosts">Hosts</a></li>
+
+      <li><a href="/guests">Guests</a></li>
+
+      <li><a href="/contact">Contact</a></li>
+
+
+      <li><a href="/search">Search</a></li>
+
+
+
+      <li><a href="https://chaoss.community">CHAOSS website</a></li>
+      <li><a href="https://sustainoss.org/podcasts/">Other Sustain Podcasts</a></li>
+
+    <li><a href="/subscribe">Subscribe</a></li>
+  </ul>
+</header>
+
+
+<main>
+  
+
+<header class="hero ">
+  <div class="hero-background" style="background-image: url(https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/header.jpg?v=1)"></div>
+    <div class="hero-content ">
+        <div class="hero-avatar">
+    <img src="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f5b24404-14da-4b82-8a25-6de95d2b991b/guests/f/f2ab2929-dc20-4615-8139-a1cf6d71a8a1/avatar_small.jpg?v=0" />
+  </div>
+  <h1>
+    Christian Taylor
+  </h1>
+  <h2>
+    Special guest
+  </h2>
+
+  </div>
+
+</header>
+
+
+  <nav class="links">
+    <ul>
+        <li>
+          <a class="btn btn--small" href="https://www.linkedin.com/pulse/how-playing-games-can-teach-you-open-source-christian-taylor-gjb0c/?trackingId=4s8y7XPJSByquBBrWd3eiw%3D%3D">
+            <i class="fas fa-globe" aria-hidden="true"></i> Website
+</a>        </li>
+        <li>
+          <a class="btn btn--small" href="https://x.com/DeOpenSourceGuy">
+            <i class="fab fa-x-twitter" aria-hidden="true"></i> X
+</a>        </li>
+        <li>
+          <a class="btn btn--small" href="https://www.youtube.com/@osointersectmbo">
+            <i class="fab fa-youtube" aria-hidden="true"></i> YouTube
+</a>        </li>
+        <li>
+          <a class="btn btn--small" href="https://www.linkedin.com/in/christian-taylor-766b01b1/">
+            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+</a>        </li>
+    </ul>
+  </nav>
+  <section class="narrow prose">
+    <p>Christian Taylor is the Head of Open Source at Intersect, the member-based organization stewarding Cardano’s source code and ecosystem governance. With a background in operations, developer relations, and open-source strategy, Christian has been a pivotal instrumental in shaping Cardano’s transition into a fully open-source blockchain. From launching a new Paid Open Source Model to driving sustainability, incubation programs, and ecosystem-wide sustainability efforts, he’s a core architect behind Cardano’s evolving open-source future.</p>
+
+<p><a href="https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/open-source-office-oso" target="_blank" rel="nofollow noopener">https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/open-source-office-oso</a> <br>
+<a href="https://committees.docs.intersectmbo.org/intersect-open-source-committee/all-monthly-reports/bitergia-repo-maturity-reports" target="_blank" rel="nofollow noopener">https://committees.docs.intersectmbo.org/intersect-open-source-committee/all-monthly-reports/bitergia-repo-maturity-reports</a><br>
+<a href="https://committees.docs.intersectmbo.org/intersect-open-source-committee/all-monthly-reports/bitergia-repo-maturity-reports/monthly-maturity-reports-2025/monthly-maturity-report-march-2025" target="_blank" rel="nofollow noopener">https://committees.docs.intersectmbo.org/intersect-open-source-committee/all-monthly-reports/bitergia-repo-maturity-reports/monthly-maturity-reports-2025/monthly-maturity-report-march-2025</a></p>
+
+  </section>
+  <header class="list-header">
+    <h3>
+      Christian Taylor has been a guest on 1 episode.
+    </h3>
+  </header>
+    <ul class="list cover">
+      
+
+<li>
+    <a href="/114"><figure id="episode_d2f544b9-aabe-4145-8ab0-bc10d0f60fb3" class="list-background"></figure></a>
+
+    <div class="list-item prose">
+      <h3>
+        <a href="/114">Episode 114: Awesome POSM and Jellyfish Visualizations for the Cardano Community with Christian, Tex, and Johnny</a>
+      </h3>
+      <h6>
+        <span>
+          <i class="far fa-calendar-alt" aria-hidden="true"></i> 10 July 2025
+          &nbsp;|&nbsp;
+          <i class="far fa-clock" aria-hidden="true"></i> 50 mins 24 secs
+        </span>
+      </h6>
+      <p>In this episode of CHAOSScast, hosts Georg Link and Nicole Huesman engage in a deep discussion with Christian Taylor, Terence (Tex) McCutcheon, and Johnny Kelly about measuring and enhancing open source community health through innovative methods. Christian and his team share their experiences in implementing the &#39;paid open source model&#39; within the Cardano blockchain community, designed to retain and motivate contributors. The panel discusses a variety of topics, including governance models, the integration of AI for report generation, and the challenges of balancing open source principles with corporate interests. They also explore specific tools and metrics used to evaluate project health and community engagement, providing an illuminating look into the future of open source development. Hit the download button now!</p>
+
+    </div>
+</li>
+
+    </ul>
+</main>
+
+
+
+<footer class="footer">
+  <h5 class="footer-title">
+    <strong>
+      CHAOSScast
+    </strong>
+        by The CHAOSS Project is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC Attribution + ShareAlike (BY-SA)</a>
+  </h5>
+  <ul class="footer-nav">
+      <li><a href="/about">About</a></li>
+
+    <li><a href="/episodes">Episodes</a></li>
+
+      <li><a href="/hosts">Hosts</a></li>
+
+      <li><a href="/guests">Guests</a></li>
+
+      <li><a href="/contact">Contact</a></li>
+
+
+      <li><a href="/search">Search</a></li>
+
+
+
+      <li><a href="https://chaoss.community">CHAOSS website</a></li>
+      <li><a href="https://sustainoss.org/podcasts/">Other Sustain Podcasts</a></li>
+
+    <li><a href="/subscribe">Subscribe</a></li>
+  </ul>
+</footer>
+
+
+
+    <footer class="site-footer">
+  <a title="Powered by Fireside" class="fireside-link" href="https://fireside.fm">
+    <img style="margin-bottom: .5em;" src="https://a.fireside.fm/assets/v1/logo/logo-256x256-cb70064014cf3a936afe95853012c1386e4be20a9e7ac677316e591a99fb2999.png" />
+    <span>Powered by Fireside</span>
+</a></footer>
+
+    
+  </body>
+</html>

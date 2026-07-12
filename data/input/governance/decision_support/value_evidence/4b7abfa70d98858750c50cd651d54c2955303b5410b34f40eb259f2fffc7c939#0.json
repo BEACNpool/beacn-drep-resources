@@ -1,0 +1,207 @@
+{
+  "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        },
+        {
+          "sha256": "50bc3c69bc2964318cf98c1b932e116d3d2a1c9c5098b259c5185d21057bd1bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-developers-cardano-org-8102442d23.snap",
+          "url": "https://developers.cardano.org/docs/community/funding/"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "4cb2f8797cefe8e19f6869522272005bec52e301a76c4f33a9f41c9d225a85f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-c7cccb029a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp5u7pqqr"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        },
+        {
+          "sha256": "920aab67a21f09b5aa71591e2aed1dda3742d5d81a30ae8b66651978e8698b59",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-buildingoncardano-io-f41eb062f1.snap",
+          "url": "https://buildingoncardano.io/"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "e65deccef2be615b7e0f0853533f816df7bce49b28216332feda5558fd30367f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-a8fd3cdadc.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "4cb2f8797cefe8e19f6869522272005bec52e301a76c4f33a9f41c9d225a85f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-c7cccb029a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp5u7pqqr"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "50bc3c69bc2964318cf98c1b932e116d3d2a1c9c5098b259c5185d21057bd1bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-developers-cardano-org-8102442d23.snap",
+          "url": "https://developers.cardano.org/docs/community/funding/"
+        },
+        {
+          "sha256": "a3fc3667266254c2c5d0f88b66e536d9dc6f06af57f4cd9c26a663475728847e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-projectcatalyst-io-1cac4a301c.snap",
+          "url": "https://projectcatalyst.io/"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "50bc3c69bc2964318cf98c1b932e116d3d2a1c9c5098b259c5185d21057bd1bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-developers-cardano-org-8102442d23.snap",
+          "url": "https://developers.cardano.org/docs/community/funding/"
+        },
+        {
+          "sha256": "a3fc3667266254c2c5d0f88b66e536d9dc6f06af57f4cd9c26a663475728847e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-projectcatalyst-io-1cac4a301c.snap",
+          "url": "https://projectcatalyst.io/"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "4cb2f8797cefe8e19f6869522272005bec52e301a76c4f33a9f41c9d225a85f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-c7cccb029a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp5u7pqqr"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "50bc3c69bc2964318cf98c1b932e116d3d2a1c9c5098b259c5185d21057bd1bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-developers-cardano-org-8102442d23.snap",
+          "url": "https://developers.cardano.org/docs/community/funding/"
+        },
+        {
+          "sha256": "a3fc3667266254c2c5d0f88b66e536d9dc6f06af57f4cd9c26a663475728847e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-projectcatalyst-io-1cac4a301c.snap",
+          "url": "https://projectcatalyst.io/"
+        },
+        {
+          "sha256": "4cb2f8797cefe8e19f6869522272005bec52e301a76c4f33a9f41c9d225a85f9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-c7cccb029a.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp5u7pqqr"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "920aab67a21f09b5aa71591e2aed1dda3742d5d81a30ae8b66651978e8698b59",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-buildingoncardano-io-f41eb062f1.snap",
+          "url": "https://buildingoncardano.io/"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "e65deccef2be615b7e0f0853533f816df7bce49b28216332feda5558fd30367f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-api-koios-rest-a8fd3cdadc.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_id=eq.gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc"
+        },
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "c71704239960c9397f3e354939a761dd3d46554b83ee897ebeac9a7931accb73",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-forum-cardano-org-79a77dd355.snap",
+          "url": "https://forum.cardano.org/t/governance-hour-6-cardano-builder-dao-initiative-dao-framework/154668"
+        },
+        {
+          "sha256": "920aab67a21f09b5aa71591e2aed1dda3742d5d81a30ae8b66651978e8698b59",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-buildingoncardano-io-f41eb062f1.snap",
+          "url": "https://buildingoncardano.io/"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "50bc3c69bc2964318cf98c1b932e116d3d2a1c9c5098b259c5185d21057bd1bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-developers-cardano-org-8102442d23.snap",
+          "url": "https://developers.cardano.org/docs/community/funding/"
+        },
+        {
+          "sha256": "a3fc3667266254c2c5d0f88b66e536d9dc6f06af57f4cd9c26a663475728847e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/4b7abfa70d98-projectcatalyst-io-1cac4a301c.snap",
+          "url": "https://projectcatalyst.io/"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:16+00:00"
+}

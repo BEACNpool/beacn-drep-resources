@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil - Governance - Cardano Forum</title>
+    <meta name="description" content="Author: Anvil Development Agency, Inc. + Sellout 
+Governance Action Type: Treasury Withdrawal 
+Requested: ₳4,969,231 (~$1,093,231 USD at $0.22/ADA) · Duration: 8 months 
+Administrator: Intersect (budget administrator, by…">
+    <meta name="generator" content="Discourse 2026.7.0-latest - https://github.com/discourse/discourse version 7b025265d254f731ba1036e550b7475b3d1c74b4">
+<link rel="icon" type="image/png" href="https://us1.discourse-cdn.com/flex023/uploads/cardano/optimized/1X/8ae384014e4edf856d12f5988d5e832807980f04_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://us1.discourse-cdn.com/flex023/uploads/cardano/optimized/1X/8ae384014e4edf856d12f5988d5e832807980f04_2_180x180.png">
+<meta name="theme-color" media="all" content="#0a38a6">
+
+<meta name="color-scheme" content="light">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231" />
+
+<meta name="discourse-track-view-session-id" content="L52rPkda10xHwQNT39KhgH4CkoQbsl5w"><meta name="discourse-engagement-tracking-enabled" content="true">
+<link rel="search" type="application/opensearchdescription+xml" href="https://forum.cardano.org/opensearch.xml" title="Cardano Forum Search">
+
+    
+    <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/color_definitions_cardano2020_4_9_7edab7314c7d8b463e392ff4583cf8be88cac877.css?__ws=forum.cardano.org" media="all" rel="stylesheet" class="light-scheme" data-scheme-id="4"/>
+
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common"  />
+
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="mobile"  />
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="chat"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/checklist_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-adplugin_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-ai"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-cakeday_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-calendar"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-data-explorer_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-details_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-github_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-github"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-lazy-videos_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-local-dates_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-narrative-bot_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-policy_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-policy"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-presence_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-solved_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-templates_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-templates"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-topic-voting_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-topic-voting"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-yearly-review_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="discourse-yearly-review"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/footnote_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/hosted-site_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/poll_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/spoiler-alert_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="chat_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-ai_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_mobile_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-calendar_mobile"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/chat_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="chat_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-ai_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-ai_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/discourse-calendar_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-calendar_desktop"  />
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/poll_desktop_6dc4d3ffb94dc2e27f6b35f87b0c6a4002f4a92d.css?__ws=forum.cardano.org" media="(width >= 40rem)" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_theme_8_26a5b808be77964c001f69cce95ab987c7a6b841.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="8" data-theme-name="custom header links"/>
+<link href="https://sea1.discourse-cdn.com/flex023/stylesheets/common_theme_10_724b63ce5848c8a0e2c0d3a4f55439eca09552d3.css?__ws=forum.cardano.org" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="10" data-theme-name="discotoc"/>
+  
+  
+
+    
+    <meta id="data-ga-universal-analytics" data-tracking-code="G-Z49XSCTMET" data-json="{&quot;cookieDomain&quot;:&quot;auto&quot;}" data-auto-link-domains="">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z49XSCTMET" nonce="H2ycCpFY7nTCOuEhllCFObGUE"></script>
+  <script defer src="https://us1.discourse-cdn.com/flex023/assets/js/google-universal-analytics-v4-43cb071f.js" data-discourse-entrypoint="js/google-universal-analytics-v4" nonce="H2ycCpFY7nTCOuEhllCFObGUE"></script>
+
+
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil&#39;" href="https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231.rss" />
+    <meta property="og:site_name" content="Cardano Forum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://us1.discourse-cdn.com/flex023/uploads/cardano/original/3X/2/5/25ab8a417cdf3fdf5f4115d93c49905f933ea08c.png" />
+<meta property="og:image" content="https://us1.discourse-cdn.com/flex023/uploads/cardano/original/1X/8ae384014e4edf856d12f5988d5e832807980f04.png" />
+<meta property="og:url" content="https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231" />
+<meta name="twitter:url" content="https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231" />
+<meta property="og:title" content="Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil" />
+<meta name="twitter:title" content="Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil" />
+<meta property="og:description" content="Author: Anvil Development Agency, Inc. + Sellout  Governance Action Type: Treasury Withdrawal  Requested: ₳4,969,231 (~$1,093,231 USD at $0.22/ADA) · Duration: 8 months  Administrator: Intersect (budget administrator, by prior agreement)  Hellllllllo Cardano Forum. This is Cash, most of you know me from Cardano X (formerly Twitter). I am coming to you today with our updated proposal we are taking live to the treasury. We received a lot of positive feedback through the Intersect process and feel ..." />
+<meta name="twitter:description" content="Author: Anvil Development Agency, Inc. + Sellout  Governance Action Type: Treasury Withdrawal  Requested: ₳4,969,231 (~$1,093,231 USD at $0.22/ADA) · Duration: 8 months  Administrator: Intersect (budget administrator, by prior agreement)  Hellllllllo Cardano Forum. This is Cash, most of you know me from Cardano X (formerly Twitter). I am coming to you today with our updated proposal we are taking live to the treasury. We received a lot of positive feedback through the Intersect process and feel ..." />
+<meta property="og:article:section" content="Governance" />
+<meta property="og:article:section:color" content="ed8c3a" />
+<meta property="og:article:tag" content="cardano" />
+<meta property="og:article:tag" content="treasury" />
+<meta property="og:article:tag" content="adoption" />
+<meta property="og:article:tag" content="enterprise" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 min 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="4 ❤" />
+<meta property="article:published_time" content="2026-06-23T20:12:36+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">Cardano Forum</a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231">Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/governance/140" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Governance</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+      <div class="topic-category">
+        <div class='discourse-tags list-tags'>
+            <a href='https://forum.cardano.org/tag/cardano' class='discourse-tag' rel="tag">cardano</a>, 
+            <a href='https://forum.cardano.org/tag/treasury' class='discourse-tag' rel="tag">treasury</a>, 
+            <a href='https://forum.cardano.org/tag/adoption' class='discourse-tag' rel="tag">adoption</a>, 
+            <a href='https://forum.cardano.org/tag/enterprise' class='discourse-tag' rel="tag">enterprise</a>
+        </div>
+      </div>
+  </div>
+
+  
+
+    <div itemscope="itemscope" itemtype="http://schema.org/DiscussionForumPosting">
+      <meta itemprop='headline' content='Cardano Enterprise Adoption: Production Ticketing Platform — Sellout × Anvil'>
+      <link itemprop='url' href='https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231'>
+      <meta itemprop='datePublished' content='2026-06-23T20:12:36Z'>
+      <meta itemprop='keywords' content='cardano, treasury, adoption, enterprise'>
+          <meta itemprop='articleSection' content='Governance'>
+        <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop='name' content='Cardano'>
+            <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+              <meta itemprop='url' content='https://us1.discourse-cdn.com/flex023/uploads/cardano/original/3X/7/7/77c5a4237c4f915a9a811ccfff36eff044089c9a.png'>
+            </div>
+        </div>
+
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                <a rel='nofollow' href='https://forum.cardano.org/u/CashAnvil'><span itemprop="name">CashAnvil</span></a>
+                  <meta itemprop='url' content='https://forum.cardano.org/u/CashAnvil'>
+                
+              </span>
+
+                <link itemprop="mainEntityOfPage" href="https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231">
+
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2026-06-23T20:12:36Z' class='post-time'>
+                    23 June 2026 20:12
+                  </time>
+                  <meta itemprop='dateModified' content='2026-06-23T20:12:36Z'>
+              <span itemprop="position">1</span>
+              </span>
+            </div>
+            <div class='post' itemprop="text">
+              <p><strong>Author:</strong> Anvil Development Agency, Inc. + Sellout<br>
+<strong>Governance Action Type:</strong> Treasury Withdrawal<br>
+<strong>Requested:</strong> ₳4,969,231 (~$1,093,231 USD at $0.22/ADA) · <strong>Duration:</strong> 8 months<br>
+<strong>Administrator:</strong> Intersect (budget administrator, by prior agreement)</p>
+<p>Hellllllllo Cardano Forum. This is Cash, most of you know me from Cardano X (formerly Twitter). I am coming to you today with our updated proposal we are taking live to the treasury. We received a lot of positive feedback through the Intersect process and feel like we have the opportunity to get across the finish line. Please consider a <strong>YES</strong> vote for our proposal. We are available to answer any and all feedback/questions. Thank you for your time!</p>
+<h3><a name="p-384971-what-this-is-1" class="anchor" href="#p-384971-what-this-is-1" aria-label="Heading link"></a>What this is</h3>
+<p>This withdrawal funds <strong>Phase 2</strong> of a production, Cardano-native ticketing platform operated by <strong>Sellout</strong> and built by <strong>Anvil</strong>. Phase 1 — on-chain event creation, CIP-68 ticket minting, transfers, and attendance verification — is <strong>already live on Cardano mainnet</strong>, funded entirely by Sellout (over $130k invested), with no prior Cardano funding.</p>
+<p>Sellout is a real, operating business: <strong>200,000+ registered users</strong>, <strong>250,000+ tickets issued</strong>, <strong>350+ events a year</strong>. The anchor deployment is the contracted <strong>Yellowstone Club 2026 concert series</strong> (lineup includes Noah Kahan, Sting, Weezer, The Black Crows, Mumford &amp; Sons, Dierks Bentley, The B52s) — $5.88M in 2025 historical revenue, projecting <strong>$6M+ on-chain</strong> in 2026, with ticket prices from $400 to $8,000.</p>
+<h3><a name="p-384971-what-phase-2-delivers-2" class="anchor" href="#p-384971-what-phase-2-delivers-2" aria-label="Heading link"></a>What Phase 2 delivers</h3>
+<ul>
+<li>A secondary <strong>marketplace</strong> with on-chain royalty enforcement</li>
+<li><strong>Anti-scalping</strong> controls configurable per event (DID/SSI-compatible identity-binding, not centralized KYC)</li>
+<li><strong>Custodial wallet onboarding</strong> for Sellout’s 200,000+ existing users (Cardano made invisible to Web2 users)</li>
+<li><strong>Organizer tools</strong> for resale config, on-chain lifecycle data, and royalty management</li>
+<li>An <strong>independent third-party security audit</strong></li>
+<li>A <strong>public launch campaign</strong> (agency-run, plus NIVA / INTIX / Pollstar Live! activations)</li>
+</ul>
+<h3><a name="p-384971-value-back-to-the-treasury-3" class="anchor" href="#p-384971-value-back-to-the-treasury-3" aria-label="Heading link"></a>Value back to the Treasury</h3>
+<p>This isn’t a one-way grant. Through a new operating entity, we commit to a <strong>revenue-share repayment</strong>: <strong>25% of all fees</strong> flow back to the Cardano Treasury until the Treasury’s contribution (<strong>$1,093,231</strong>) is repaid in full, then a smaller <strong>permanent 5%</strong> continues. Repayment progress is reported publicly each quarter. Plus the ~3% contingency (136,363 ADA) is returned to the Treasury if unused.</p>
+<h3><a name="p-384971-why-it-matters-for-cardano-4" class="anchor" href="#p-384971-why-it-matters-for-cardano-4" aria-label="Heading link"></a>Why it matters for Cardano</h3>
+<p>A 200,000-user Web2 business is migrating core operations to Cardano — every ticket a CIP-68 NFT, every transfer/resale/royalty/check-in a transaction. Year-one targets: <strong>75,000+ NFT tickets, 150,000+ on-chain interactions, 20,000+ new wallets</strong>. Real businesses, real revenue, real on-chain demand — directly aligned with the Cardano 2030 Vision (Pillars 2 &amp; 5).</p>
+<h3><a name="p-384971-accountability-5" class="anchor" href="#p-384971-accountability-5" aria-label="Heading link"></a>Accountability</h3>
+<p>Funds are <strong>milestone-gated</strong> (no delivery, no payment), administered by <strong>Intersect</strong> via the Sundae Labs TRSC/PSSC framework with independent oversight, an independent third-party audit, and public quarterly reporting. Full Article IV constitutionality disclosures are in the proposal.</p>
+<h3><a name="p-384971-read-the-full-proposal-6" class="anchor" href="#p-384971-read-the-full-proposal-6" aria-label="Heading link"></a>Read the full proposal</h3>
+<ul>
+<li><strong>Full proposal &amp; on-chain metadata (GitHub):</strong> <a href="https://github.com/Cardano-Forge/sellout-treasury-withdrawal" class="inline-onebox" rel="noopener nofollow ugc">GitHub - Cardano-Forge/sellout-treasury-withdrawal: Cardano Treasury Withdrawal governance-action metadata + full proposal: Sellout x Anvil production ticketing platform (Phase 2). · GitHub</a></li>
+</ul>
+<p>We’ll be active in the thread to answer questions from DReps and the community. Thank you for reading and for any feedback. <img src="https://emoji.discourse-cdn.com/apple/folded_hands.png?v=15" title=":folded_hands:" class="emoji" alt=":folded_hands:" loading="lazy" width="20" height="20"></p>
+<p>-Cash</p>
+            </div>
+
+              <div itemprop="interactionStatistic" itemscope="itemscope" itemtype="http://schema.org/InteractionCounter">
+                  <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+                  <meta itemprop="userInteractionCount" content="3" />
+                <span class='post-likes'>3 Likes</span>
+              </div>
+
+
+            
+
+
+          </div>
+          <div id='post_2' itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/Comment" class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                <a rel='nofollow' href='https://forum.cardano.org/u/lodl_de'><span itemprop="name">lodl_de</span></a>
+                  <meta itemprop='url' content='https://forum.cardano.org/u/lodl_de'>
+                
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop="datePublished" datetime='2026-06-24T10:15:35Z' class='post-time'>
+                    24 June 2026 10:15
+                  </time>
+                  <meta itemprop='dateModified' content='2026-06-24T10:15:35Z'>
+              <span itemprop="position">2</span>
+              </span>
+            </div>
+            <div class='post' itemprop="text">
+              <p>Thanks for the post. Quick question on the audit, do you already know which firm is doing it and whether the report will be published afterward?</p>
+            </div>
+
+              <div itemprop="interactionStatistic" itemscope="itemscope" itemtype="http://schema.org/InteractionCounter">
+                  <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+                  <meta itemprop="userInteractionCount" content="1" />
+                <span class='post-likes'>1 Like</span>
+              </div>
+
+
+            
+
+
+          </div>
+
+    </div>
+
+
+    <div id="related-topics" class="more-topics__list " role="complementary" aria-labelledby="related-topics-title">
+  <h3 id="related-topics-title" class="more-topics__list-title">
+    Related topics
+  </h3>
+  <div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+    <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+    <table class='topic-list'>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th></th>
+          <th class="replies">Replies</th>
+          <th class="views">Views</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="topic-list-item" id="topic-list-item-147627">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/cardano-treasury-bonds/147627' class='title raw-link raw-topic-link'>Cardano Treasury Bonds</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/140' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/cardano/26' class='discourse-tag'>cardano</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/education/353' class='discourse-tag'>education</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/defi/493' class='discourse-tag'>defi</a>
+                      ,&nbsp;
+                      <a href='https://forum.cardano.org/tag/budget/1113' class='discourse-tag'>budget</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>13</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>278</span>
+            </td>
+            <td>
+              24 July 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-154092">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/cardano-summit-2026-token2049-treasury-proposal-faq/154092' class='title raw-link raw-topic-link'>Cardano Summit 2026 + TOKEN2049: Treasury Proposal FAQ</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/english/announcements/13' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0033AD'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>News and Announcements</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>1</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>701</span>
+            </td>
+            <td>
+              14 April 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-154309">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/who-truly-holds-power-on-cardano-governance-us-and-our-ada/154309' class='title raw-link raw-topic-link'>Who truly holds power on Cardano? Governance, us, and our ADA</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/140' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #ed8c3a'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://forum.cardano.org/tag/cardanogovernance/1096' class='discourse-tag'>cardanogovernance</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>1</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>87</span>
+            </td>
+            <td>
+              27 April 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-129205">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/cardano-governance-japan-workshop-march-16th-hosted-by-adam-sponsored-by-intersect/129205' class='title raw-link raw-topic-link'>Cardano Governance Japan Workshop March 16th [Hosted by Adam/Sponsored by Intersect]</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/governance-events-workshops/214' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #FF9300'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Governance Events &amp; Workshops</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>2</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>795</span>
+            </td>
+            <td>
+              21 March 2024
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-121940">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.cardano.org/t/feedback-nft-exchange-with-treasury/121940' class='title raw-link raw-topic-link'>Feedback: NFT Exchange with treasury</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/developers/cardano-projects/151' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #652D90'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Cardano Projects</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>372</span>
+            </td>
+            <td>
+              14 September 2023
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://cardanofoundation.org/en/terms-and-conditions' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://cardanofoundation.org/en/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  </body>
+  
+</html>

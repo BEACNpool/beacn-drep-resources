@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="dns-prefetch" href="//connect.facebook.net" /><link rel="dns-prefetch" href="//secure.gravatar.com" /><link rel="dns-prefetch" href="//api.pinterest.com" /><link rel="dns-prefetch" href="//jsoon.digitiminimi.com" /><link rel="dns-prefetch" href="//b.hatena.ne.jp" /><link rel="dns-prefetch" href="//platform.twitter.com" /><meta http-equiv="Last-Modified" content="Wed, 03 Jun. 2026 16:18:30 +0900" /><link rel="pingback" href="https://sipo.tokyo/xmlrpc.php" />
+<!-- Rank Math による検索エンジン最適化 - https://rankmath.com/ -->
+<title>SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス - SIPO</title>
+<meta name="description" content="本提案は、Cardano のオープンソースソフトウェア（OSS）を持続的に維持するための機構「dOSPO（分散型 Open Source Program Office）と OMF（Open Maintenance Framework）」を立ち上げるために、36ヶ月で ₳12,000,000"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://sipo.tokyo/post-46027/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス - SIPO" />
+<meta property="og:description" content="本提案は、Cardano のオープンソースソフトウェア（OSS）を持続的に維持するための機構「dOSPO（分散型 Open Source Program Office）と OMF（Open Maintenance Framework）」を立ち上げるために、36ヶ月で ₳12,000,000" />
+<meta property="og:url" content="https://sipo.tokyo/post-46027/" />
+<meta property="og:site_name" content="SIPO" />
+<meta property="article:section" content="DRep" />
+<meta property="og:updated_time" content="2026-06-03T16:18:30+09:00" />
+<meta property="og:image" content="https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png" />
+<meta property="og:image:secure_url" content="https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png" />
+<meta property="og:image:width" content="1456" />
+<meta property="og:image:height" content="816" />
+<meta property="og:image:alt" content="SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:published_time" content="2026-06-03T16:18:29+09:00" />
+<meta property="article:modified_time" content="2026-06-03T16:18:30+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス - SIPO" />
+<meta name="twitter:description" content="本提案は、Cardano のオープンソースソフトウェア（OSS）を持続的に維持するための機構「dOSPO（分散型 Open Source Program Office）と OMF（Open Maintenance Framework）」を立ち上げるために、36ヶ月で ₳12,000,000" />
+<meta name="twitter:image" content="https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png" />
+<meta name="twitter:label1" content="によって書かれた" />
+<meta name="twitter:data1" content="sition" />
+<meta name="twitter:label2" content="読む時間" />
+<meta name="twitter:data2" content="4分" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://sipo.tokyo/#person","name":"SIPO"},{"@type":"WebSite","@id":"https://sipo.tokyo/#website","url":"https://sipo.tokyo","name":"SIPO","publisher":{"@id":"https://sipo.tokyo/#person"},"inLanguage":"ja"},{"@type":"ImageObject","@id":"https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png","url":"https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png","width":"1456","height":"816","inLanguage":"ja"},{"@type":"WebPage","@id":"https://sipo.tokyo/post-46027/#webpage","url":"https://sipo.tokyo/post-46027/","name":"SIPO DRep\uff1a\u300eCardano dOSPO and OMF Program\u300f\u63d0\u6848\u3092\u3069\u3046\u8003\u3048\u308b\u304b \u2015 SIPO DRep \u306e\u5206\u6790\u3068\u300c\u53cd\u5bfe\uff08No\uff09\u300d\u8a55\u4fa1\u3001\u30b9\u30bf\u30f3\u30b9 - SIPO","datePublished":"2026-06-03T16:18:29+09:00","dateModified":"2026-06-03T16:18:30+09:00","isPartOf":{"@id":"https://sipo.tokyo/#website"},"primaryImageOfPage":{"@id":"https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png"},"inLanguage":"ja"},{"@type":"Person","@id":"https://sipo.tokyo/author/sition/","name":"sition","url":"https://sipo.tokyo/author/sition/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/59da746720c7ff7cafd4f464f01186ef78db3e2b410113cde3319169fcacb221?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/59da746720c7ff7cafd4f464f01186ef78db3e2b410113cde3319169fcacb221?s=96&amp;d=mm&amp;r=g","caption":"sition","inLanguage":"ja"},"sameAs":["https://sipo.tokyo"]},{"@type":"BlogPosting","headline":"SIPO DRep\uff1a\u300eCardano dOSPO and OMF Program\u300f\u63d0\u6848\u3092\u3069\u3046\u8003\u3048\u308b\u304b \u2015 SIPO DRep \u306e\u5206\u6790\u3068\u300c\u53cd\u5bfe\uff08No\uff09\u300d\u8a55\u4fa1\u3001\u30b9\u30bf\u30f3\u30b9 - SIPO","datePublished":"2026-06-03T16:18:29+09:00","dateModified":"2026-06-03T16:18:30+09:00","articleSection":"DRep, \u30cb\u30e5\u30fc\u30b9, \u30d6\u30ed\u30b0, \u6295\u7a3f\u8a18\u4e8b, \u65e5\u672c\u8a9e\u7248","author":{"@id":"https://sipo.tokyo/author/sition/","name":"sition"},"publisher":{"@id":"https://sipo.tokyo/#person"},"description":"\u672c\u63d0\u6848\u306f\u3001Cardano \u306e\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\uff08OSS\uff09\u3092\u6301\u7d9a\u7684\u306b\u7dad\u6301\u3059\u308b\u305f\u3081\u306e\u6a5f\u69cb\u300cdOSPO\uff08\u5206\u6563\u578b Open Source Program Office\uff09\u3068 OMF\uff08Open Maintenance Framework\uff09\u300d\u3092\u7acb\u3061\u4e0a\u3052\u308b\u305f\u3081\u306b\u300136\u30f6\u6708\u3067 \u20b312,000,000","name":"SIPO DRep\uff1a\u300eCardano dOSPO and OMF Program\u300f\u63d0\u6848\u3092\u3069\u3046\u8003\u3048\u308b\u304b \u2015 SIPO DRep \u306e\u5206\u6790\u3068\u300c\u53cd\u5bfe\uff08No\uff09\u300d\u8a55\u4fa1\u3001\u30b9\u30bf\u30f3\u30b9 - SIPO","@id":"https://sipo.tokyo/post-46027/#richSnippet","isPartOf":{"@id":"https://sipo.tokyo/post-46027/#webpage"},"image":{"@id":"https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png"},"inLanguage":"ja","mainEntityOfPage":{"@id":"https://sipo.tokyo/post-46027/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO プラグイン -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="SIPO &raquo; フィード" href="https://sipo.tokyo/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SIPO &raquo; コメントフィード" href="https://sipo.tokyo/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SIPO &raquo; SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス のコメントのフィード" href="https://sipo.tokyo/post-46027/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://sipo.tokyo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsipo.tokyo%2Fpost-46027%2F&#038;lang=ja" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://sipo.tokyo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsipo.tokyo%2Fpost-46027%2F&#038;format=xml&#038;lang=ja" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='sipo-home-latest-css' href='https://sipo.tokyo/wp-content/plugins/sipo-home-latest/assets/sipo-home-latest.css?ver=1782114450' media='all' />
+<link rel='stylesheet' id='widgetopts-styles-css' href='https://sipo.tokyo/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.2.5' media='all' />
+<link rel='stylesheet' id='sipo-platform-tokens-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/css/tokens.css?ver=1783664177' media='all' />
+<link rel='stylesheet' id='sipo-platform-base-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/css/base.css?ver=1783664177' media='all' />
+<link rel='stylesheet' id='sipo-platform-layout-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/css/layout.css?ver=1783664177' media='all' />
+<link rel='stylesheet' id='sipo-platform-components-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/css/components.css?ver=1783664177' media='all' />
+<link rel='stylesheet' id='dp-wp-block-library-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato/css/wp-blocks.css?ver=2.2.9.3' media='all' />
+<link rel='stylesheet' id='digipress-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato/css/style.css?ver=20260626232544' media='all' />
+<link rel='stylesheet' id='wow-css' href='https://sipo.tokyo/wp-content/themes/dp-macchiato/css/animate.css?ver=2.2.9.3' media='all' />
+<script id="jquery-js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?ver=7.0.1"></script>
+<link rel="https://api.w.org/" href="https://sipo.tokyo/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://sipo.tokyo/wp-json/wp/v2/posts/46027" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sipo.tokyo/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://sipo.tokyo/?p=46027' />
+<link rel="icon" href="https://sipo.tokyo/wp-content/uploads/2026/07/site-icon-512-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://sipo.tokyo/wp-content/uploads/2026/07/site-icon-512-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sipo.tokyo/wp-content/uploads/2026/07/site-icon-512-300x300.png" />
+<meta name="msapplication-TileImage" content="https://sipo.tokyo/wp-content/uploads/2026/07/site-icon-512-300x300.png" />
+</head>
+<body class="wp-singular post-template-default single single-post postid-46027 single-format-standard wp-embed-responsive wp-theme-dp-macchiato wp-child-theme-dp-macchiato-child">
+<div class="ticker" data-sipo-ticker>
+    <div class="wrap">
+        <span class="live">LIVE</span>
+        <span><span class="lbl">ADA</span><b class="num" data-pulse="price">--</b> <span class="num" data-pulse="price_change"></span></span>
+        <span><span class="lbl">MCAP</span><b class="num" data-pulse="mcap">--</b></span>
+        <span><span class="lbl">TVL</span><b class="num" data-pulse="tvl">--</b></span>
+        <span><span class="lbl">STAKE</span><b class="num" data-pulse="stake_pct">--</b></span>
+        <span><span class="lbl">EPOCH</span><b class="num" data-pulse="epoch">--</b></span>
+    </div>
+</div>
+<header class="site">
+    <div class="wrap">
+        <a class="brand" href="https://sipo.tokyo/" aria-label="SIPO home">
+            <img src="https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/images/sipo-logo-trimmed.png" alt="SIPO" width="420" height="128">
+        </a>
+        <button class="sipo-site-header__toggle" type="button" aria-expanded="false" aria-controls="sipo-primary-nav" data-sipo-nav-toggle>
+            <span class="sipo-screen-reader-text">メニューを開閉</span>
+            <span aria-hidden="true"></span>
+        </button>
+        <nav id="sipo-primary-nav" class="main" aria-label="メインメニュー"><ul id="menu-main-top-menu" class="sipo-menu"><li id="menu-item-46521" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-46521"><a href="https://sipo.tokyo/category/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/">News Top</a></li>
+<li id="menu-item-46648" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46648"><a href="https://sipo.tokyo/category/daily-intel/">Daily Intel</a></li>
+<li id="menu-item-46519" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46519"><a href="https://sipo.tokyo/category/signal/">Signal</a></li>
+<li id="menu-item-46517" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46517"><a href="https://sipo.tokyo/category/deep-dive/">Deep Dive</a></li>
+<li id="menu-item-46520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46520"><a href="https://sipo.tokyo/category/%e3%82%a8%e3%83%9d%e3%83%83%e3%82%af%e3%81%aa%e6%97%a5%e3%80%85/">エポックな日々</a></li>
+<li id="menu-item-46518" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-46518"><a href="https://sipo.tokyo/category/drep/">DRep</a></li>
+<li id="menu-item-46627" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46627"><a href="https://sipo.tokyo/category/weekly-brief/">Weekly Brief</a></li>
+<li id="menu-item-46768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46768"><a href="#">学ぶ</a>
+<ul class="sub-menu">
+	<li id="menu-item-46769" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46769"><a href="https://sipo.tokyo/category/%e3%83%9e%e3%83%8b%e3%83%a5%e3%82%a2%e3%83%ab/">マニュアル</a></li>
+	<li id="menu-item-46770" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46770"><a href="https://sipo.tokyo/category/learning/">ラーニング</a></li>
+	<li id="menu-item-46776" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46776"><a href="https://sipo.tokyo/category/dev-lab/">DEV Lab</a></li>
+</ul>
+</li>
+<li id="menu-item-46736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46736"><a href="#">ステーキング</a>
+<ul class="sub-menu">
+	<li id="menu-item-46523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46523"><a href="https://sipo.tokyo/staking/">ステーキングをはじめる</a></li>
+	<li id="menu-item-46524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46524"><a href="https://sipo.tokyo/post-39683/">エポック v2026</a></li>
+</ul>
+</li>
+<li id="menu-item-46735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46735"><a href="#">SIPO</a>
+<ul class="sub-menu">
+	<li id="menu-item-46536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46536"><a href="https://sipo.tokyo/page-46534/">SIPOについて</a></li>
+	<li id="menu-item-46522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46522"><a href="https://sipo.tokyo/page-116/">お問い合わせ</a></li>
+</ul>
+</li>
+<li id="menu-item-46626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46626"><a href="https://sipo.tokyo/language/en/">EN</a></li>
+</ul></nav>        <div class="hicons">
+            <a href="https://x.com/SIPO_Tokyo" aria-label="X"><span>𝕏</span></a>
+            <a href="https://sipo.tokyo/?s=" aria-label="検索"><span>🔍</span></a>
+        </div>
+    </div>
+</header>
+<main class="sipo-site-main" id="top">
+                    <div class="awrap">
+            <div class="crumb">
+                <a href="https://sipo.tokyo/">HOME</a> ›
+                                    <a href="https://sipo.tokyo/category/drep/">DRep</a> ›
+                                SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス            </div>
+        </div>
+        <article class="post post-46027 type-post status-publish format-standard has-post-thumbnail category-drep category-21 category-blog category-28 category-japanese">
+                            <div class="pcat" data-sipo-category="drep" style="color:var(--sipo-category-color,var(--signal))">DRep</div>
+                        <h1>SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス</h1>
+            <div class="pmeta">
+                <span>2026-06-03</span><span>SIPO</span>
+                            </div>
+                            <div class="eyecatch-wrap"><img width="900" height="504" src="https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-1024x574.png" class="eyecatch-img wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-1024x574.png 1024w, https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-300x168.png 300w, https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-768x430.png 768w, https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-450x252.png 450w, https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2-900x504.png 900w, https://sipo.tokyo/wp-content/uploads/2026/06/sition_sipo_Bright_tech-curious_editorial_illustration_in_pop_7256cd88-7ba1-4644-b86e-fbbd2f2003eb_2.png 1456w" sizes="(max-width: 900px) 100vw, 900px" /></div>
+                        <div class="entry-content"><p><!--
+  WordPress 貼付用 HTML（post body fragment / H1 なし）。
+  ・タイトル（WP タイトル欄へ）: SIPO DRep：『Cardano dOSPO and OMF Program』提案をどう考えるか ― SIPO DRep の分析と「反対（No）」評価、スタンス
+  ・貼付方法: WP ブロックエディタを「コードエディター」に切替えて貼付、または「カスタム HTML」ブロックに貼付。
+  ・媒体の声は SIPO・個人名なし・中立トーン・批判しない。
+--></p>
+<div class="dp_toc_container pos-before_first_h allow-toggle" role="navigation" data-margin="30"><p class="toc_title_block"><span class="toc_title icon-list">INDEX</span><span class="toc_toggle icon-up-open" role="button"></span></p><ul class="dp_toc_ul has_title"><li><a href="#cardano-dospo-and-omf-program-1">Cardano dOSPO and OMF Program</a></li><li><a href="#cardano-dospo-and-omf-program-e38292e381a9e38186e8a68be3828be3818b-e28095-sipo-drep-e381a8e38197e381a6e381aee58886e69e90e381a8e382b9e382bfe383b3-2">Cardano dOSPO and OMF Program をどう見るか ― SIPO DRep としての分析とスタンス</a><ul><li><a href="#e68f90e6a188e381aee6a682e8a681-3">提案の概要</a></li><li><a href="#e4bd95e381abe59091e38191e3819fe68f90e6a188e3818b-e28095-e5ae9fe59ca8e38199e3828be585ace585b1e8b2a1e381aee8aab2e9a18c-4">何に向けた提案か ― 実在する公共財の課題</a></li><li><a href="#e382ace38390e3838ae383b3e382b9e8a8ade8a888-e28095-e69bb8e99da2e4b88ae381afe591a8e588b0-5">ガバナンス設計 ― 書面上は周到</a></li><li><a href="#e381aae3819ce3808ce58f8de5afbeefbc88noefbc89e3808de381aae381aee3818b-e28095-3-e381a4e381aee6a78be980a0e79a84e79086e794b1-6">なぜ「反対（No）」なのか ― 3 つの構造的理由</a></li><li><a href="#e5bbbae8a8ade79a84e381aae4bba3e69bbfe6a188-7">建設的な代替案</a></li><li><a href="#sipo-drep-e381a8e38197e381a6e381aee7b590e8ab96e383bbe382b9e382bfe383b3e382b9-8">SIPO DRep としての結論・スタンス</a></li></ul></li><li><a href="#how-sipo-views-the-cardano-dospo-and-omf-program-a-drep-perspective-9">How SIPO Views the Cardano dOSPO and OMF Program — A DRep Perspective —</a><ul><li><a href="#overview-10">Overview</a></li><li><a href="#a-real-public-good-problem-11">A Real Public-Good Problem</a></li><li><a href="#thoughtful-governance-design-12">Thoughtful Governance Design</a></li><li><a href="#why-sipo-votes-no-three-structural-reasons-13">Why SIPO Votes No — Three Structural Reasons</a></li><li><a href="#constructive-path-forward-14">Constructive Path Forward</a></li><li><a href="#final-position-15">Final Position</a></li></ul></div><h2 id="cardano-dospo-and-omf-program-1">Cardano dOSPO and OMF Program</h2>
+<ul>
+<li>Governance Action Type: Treasury Withdrawal（トレジャリー引き出し）</li>
+<li>提出: 2026年5月11日（Epoch 630）</li>
+<li>失効: 2026年6月14日頃（Epoch 637）</li>
+<li>要求額: ₳12,000,000（36ヶ月）</li>
+<li>運営: Open Source Cowboy Consulting（月1〜6）→ 独立 dOSPO 法人（月7〜・管轄 TBD）</li>
+<li>Governance Action ID: <code>gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv</code></li>
+<li>Legacy Governance Action ID (CIP-105): <code>0b3c83b5e62a63603948c247b47cfd012279756fa38cf73b0c6c19ce63f0868c#0</code></li>
+<li>gov.tools: <a href="https://gov.tools/governance_actions/0b3c83b5e62a63603948c247b47cfd012279756fa38cf73b0c6c19ce63f0868c#0" target="_blank" rel="noopener">該当ガバナンスアクションを開く</a></li>
+<li><strong>SIPO DRep スタンス: 反対（No）</strong></li>
+</ul>
+<h2 id="cardano-dospo-and-omf-program-e38292e381a9e38186e8a68be3828be3818b-e28095-sipo-drep-e381a8e38197e381a6e381aee58886e69e90e381a8e382b9e382bfe383b3-2">Cardano dOSPO and OMF Program をどう見るか ― SIPO DRep としての分析とスタンス</h2>
+<h3 id="e68f90e6a188e381aee6a682e8a681-3">提案の概要</h3>
+<p>本提案は、Cardano のオープンソースソフトウェア（OSS）を持続的に維持するための機構「dOSPO（分散型 Open Source Program Office）と OMF（Open Maintenance Framework）」を立ち上げるために、36ヶ月で ₳12,000,000 のトレジャリー引き出しを求めるものです。独立した法人が運営し、2 つの諮問評議会（External Open Source Advisory Council と Technical Community Advisory Council）が監督します。予算は 5 つのワークパッケージに配分されます ― 運営・ガバナンス（₳2.0M）、高リスク基盤への retainer 型 Maintenance Fund（₳6.0M）、Maintainer 育成（₳3.0M）、CodeForUs バウンティ（₳0.5M）、Ecosystem Activation Reserve（₳0.5M）。</p>
+<h3 id="e4bd95e381abe59091e38191e3819fe68f90e6a188e3818b-e28095-e5ae9fe59ca8e38199e3828be585ace585b1e8b2a1e381aee8aab2e9a18c-4">何に向けた提案か ― 実在する公共財の課題</h3>
+<p>この提案が扱う課題は本物です。研究では、商用コードベースの 96% が貢献者 10 名未満の OSS に依存しているとされ、OpenSSL の Heartbleed や、保守者の疲弊により 2026年3月にセキュリティパッチを停止した Kubernetes Ingress NGINX のように、重要な依存先が維持されなくなる系統的リスクは現実のものです。SIPO は、OSS 基盤の持続性を公共財として重視しており、この問題意識そのものには強く共感します。</p>
+<h3 id="e382ace38390e3838ae383b3e382b9e8a8ade8a888-e28095-e69bb8e99da2e4b88ae381afe591a8e588b0-5">ガバナンス設計 ― 書面上は周到</h3>
+<p>本提案のガバナンス設計は、過去の Cardano の保守者向け施策と比べても異例に thoughtful です。創設エンティティの従業員を含まない 2 つの独立評議会、依存中心性データに基づく選定（関係性ではなく公開 rubric による）、四半期ごとの公開報告、明確な sunset 基準、コミュニティガバナンスによって交代可能な operator、そしてマイルストーンごとの受入基準。これらは、配分型プログラムが陥りがちな選定・説明責任の失敗を構造的に防ぐ意図で設計されています。SIPO のスタンスは、目的の重要性や提案者の能力への評価ではありません。</p>
+<h3 id="e381aae3819ce3808ce58f8de5afbeefbc88noefbc89e3808de381aae381aee3818b-e28095-3-e381a4e381aee6a78be980a0e79a84e79086e794b1-6">なぜ「反対（No）」なのか ― 3 つの構造的理由</h3>
+<p>SIPO が反対するのは、提示された<strong>トレジャリー引き出しの構造</strong>に対してであり、3 つの理由があります。</p>
+<p><strong>第一に、トレジャリー保護です。</strong>オンチェーンで検証すると、引き出し先は script 強制の escrow ではなく、<strong>単一署名鍵（key-hash）の stake アドレス</strong>でした。可決時には ₳12,000,000 が鍵管理ウォレットに着金します。そのため、マイルストーン検収・評議会承認・portfolio reserve の凍結・sunset・未使用資金の返還といった安全装置は、オンチェーンで強制される制御ではなく、鍵保有者の履行に依存する文書上の約束になります。この規模の引き出しに対する SIPO の基準は、オンチェーンで強制される監査済み escrow です ― SIPO が支持してきた IO・Tweag・Gerolamo、そして今期 SIPO が監査済み SundaeLabs コントラクトを通じて賛成した Cardano Vision 2026 と同じ基準です。</p>
+<p><strong>第二に、配分機構としての利益相反です。</strong>本提案は ₳12,000,000 を第三者の保守者へ再配分する allocator です。利益相反の緩和策は書面上はよく設計されていますが、オンチェーンで強制されておらず、また<strong>着金の時点で構成されていません</strong>。独立法人と 2 つの評議会は 6 ヶ月目までに形成されるにとどまり、最初の 6 ヶ月間は提案コンサルティング会社が運営します。資金が動く瞬間には、独立性の安全装置はまだ整っていません。</p>
+<p><strong>第三に、機構の重複とプロセスです。</strong>本提案は、Intersect の予算プロセス内にある canonical な OSS 配分機構「Paid Open Source Model」と同一目的の、₳12,000,000 の並行する direct-treasury 機構であり、かつ Intersect の予算プロセスの外で提出されています。競合する 2 つの OSS 資金供給機構に資金を出すこと、しかも確立された予算プロセスを経ずに直接引き出すことは、同じ保守者への二重配分のリスクを生み、予算プロセスを迂回できるという先例を作ります。</p>
+<h3 id="e5bbbae8a8ade79a84e381aae4bba3e69bbfe6a188-7">建設的な代替案</h3>
+<p>この立場は、OSS の持続可能性や提案者への反対ではありません。次の条件が満たされれば、SIPO の見解は変わり得ます。すなわち、(1) Intersect の予算プロセスおよび Paid Open Source Model と調整・統合し、重複ではなく単一の canonical な OSS 資金供給機構とすること、(2) オンチェーンで強制される監査済み escrow（例: SundaeLabs のトレジャリスマートコントラクト）を通じて管理し、マイルストーン・評議会・返還の制御を暗号学的に強制すること、(3) 独立法人と諮問評議会を、資金解放の 6 ヶ月後ではなく解放前に構成すること、です。SIPO は、これらの条件での改訂構造を歓迎します。</p>
+<h3 id="sipo-drep-e381a8e38197e381a6e381aee7b590e8ab96e383bbe382b9e382bfe383b3e382b9-8">SIPO DRep としての結論・スタンス</h3>
+<p>以上から、SIPO は本提案に <strong>反対（No）</strong> を投じました。OSS 持続性という目的と提案者の設計努力には敬意を払いつつ、トレジャリー保護・配分の独立性・既存プロセスとの整合という観点から、提示された構造のままでは支持できないという判断です。これは記録上の立場表明であり、上記の条件で改訂されれば、SIPO は将来の支持に開かれています。</p>
+<h2 id="how-sipo-views-the-cardano-dospo-and-omf-program-a-drep-perspective-9">How SIPO Views the Cardano dOSPO and OMF Program — A DRep Perspective —</h2>
+<h3 id="overview-10">Overview</h3>
+<p>This governance action requests ₳12,000,000 over 36 months to establish a mechanism for sustaining Cardano&#8217;s open-source software: a decentralized Open Source Program Office (dOSPO) and an Open Maintenance Framework (OMF), operated by an independent entity and overseen by two advisory councils. The budget spans five work packages: Operations and Governance (₳2.0M), a Maintenance Fund of long-term retainers for high-risk infrastructure (₳6.0M), Maintainer Development (₳3.0M), the CodeForUs bounty program (₳0.5M), and an Ecosystem Activation Reserve (₳0.5M).</p>
+<h3 id="a-real-public-good-problem-11">A Real Public-Good Problem</h3>
+<p>The problem is genuine. Research finds 96% of commercial codebases depend on open-source software with fewer than ten contributors, and the systemic risk of an unmaintained critical dependency — from OpenSSL&#8217;s Heartbleed to Kubernetes Ingress NGINX ceasing security patches in March 2026 — is well documented. SIPO values open-source sustainability as a public good and shares this concern.</p>
+<h3 id="thoughtful-governance-design-12">Thoughtful Governance Design</h3>
+<p>The governance design is unusually thoughtful: two independent councils with no founding-entity employees, data-driven selection by dependency centrality against a published rubric, public quarterly reporting, hard sunset criteria, a replaceable operator, and milestone acceptance criteria. SIPO&#8217;s position is not a judgement on the goal&#8217;s importance or the proposers&#8217; competence.</p>
+<h3 id="why-sipo-votes-no-three-structural-reasons-13">Why SIPO Votes No — Three Structural Reasons</h3>
+<p>SIPO votes No on the structure of this treasury withdrawal as presented. First, treasury protection: on-chain verification shows the recipient is a single-key (key-hash) stake address, not a script-enforced escrow, so ₳12,000,000 would land in a key-controlled wallet and the safeguards become promises dependent on the key-holder. SIPO&#8217;s standard for withdrawals of this size is on-chain-enforced, audited escrow — the standard met by the IO, Tweag, and Gerolamo work and by Cardano Vision 2026 through the audited SundaeLabs contract. Second, it is an allocator redistributing ₳12,000,000 to third parties, yet the independent entity and councils form only by month six while the proposing consultancy operates the first six months — the independence safeguards are not in place at funding. Third, mechanism duplication and process: it is a parallel ₳12,000,000 direct-treasury vehicle overlapping the canonical Intersect Paid Open Source Model and submitted outside the Intersect budget process, risking double-funding and a bypass precedent.</p>
+<h3 id="constructive-path-forward-14">Constructive Path Forward</h3>
+<p>This is not opposition to open-source sustainability or to the proposers. SIPO&#8217;s view would change if the program were (1) coordinated with or routed through the Intersect budget process and the Paid Open Source Model as a single canonical mechanism rather than a duplicate; (2) administered through on-chain-enforced, audited escrow so the milestone, council, and refund controls are cryptographically enforced; and (3) structured so the independent entity and councils are constituted before funds are released, not six months after.</p>
+<h3 id="final-position-15">Final Position</h3>
+<p>SIPO votes No. With respect for the goal of open-source sustainability and for the proposers&#8217; design effort, SIPO cannot support the structure as presented on grounds of treasury protection, allocation independence, and consistency with the existing budget process. This is a recorded position, and SIPO remains open to supporting a revised structure on the terms above.</p>
+</div>
+                        <div class="follow">
+                <span class="t">この分析を毎朝届けています — Daily Intel・Signal・Deep Dive</span>
+                <a href="https://x.com/SIPO_Tokyo">@SIPO_Tokyo をフォロー</a>
+            </div>
+        </article>
+        <div class="rel">
+    <h3>関連記事</h3>
+    <div class="rel-grid">
+                    <a class="rcard" href="https://sipo.tokyo/post-46789/">
+                <div class="c" data-sipo-category="drep" style="color:var(--sipo-category-color,var(--gov))">DRep</div>                Cardano 憲法委員会 選挙2026:SIPO はこの4名に投票しました ― 委員会の役割と、いま Cardano で起きていること            </a>
+                    <a class="rcard" href="https://sipo.tokyo/post-46786/">
+                <div class="c" data-sipo-category="drep" style="color:var(--sipo-category-color,var(--gov))">DRep</div>                SIPO DRep：『Reforming Treasury Governance（財務ガバナンス改革）』提案をどう考えるか ― 問題意識は共有しつつ、特定の枠組みは是認も否認もしない中立の棄権（Abstain）            </a>
+                    <a class="rcard" href="https://sipo.tokyo/post-46472/">
+                <div class="c" data-sipo-category="drep" style="color:var(--sipo-category-color,var(--gov))">DRep</div>                SIPO DRep：『Eternl: Path to Sustainability &#8211; v2』提案をどう考えるか ― 中核ウォレットの持続可能性への「期待事項付き賛成（Yes）」と、前回からの再提出をどう読むか            </a>
+            </div>
+</div>
+    </main>
+<footer>
+    <div class="wrap">
+        <nav class="fnav" aria-label="フッターメニュー"><ul id="menu-main-top-menu-1" class="sipo-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-46521"><a href="https://sipo.tokyo/category/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/">News Top</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46648"><a href="https://sipo.tokyo/category/daily-intel/">Daily Intel</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46519"><a href="https://sipo.tokyo/category/signal/">Signal</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46517"><a href="https://sipo.tokyo/category/deep-dive/">Deep Dive</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46520"><a href="https://sipo.tokyo/category/%e3%82%a8%e3%83%9d%e3%83%83%e3%82%af%e3%81%aa%e6%97%a5%e3%80%85/">エポックな日々</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-46518"><a href="https://sipo.tokyo/category/drep/">DRep</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46627"><a href="https://sipo.tokyo/category/weekly-brief/">Weekly Brief</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46768"><a href="#">学ぶ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46736"><a href="#">ステーキング</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46735"><a href="#">SIPO</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46626"><a href="https://sipo.tokyo/language/en/">EN</a></li>
+</ul></nav>        <div class="fbar">
+            <a class="fbrand" href="https://sipo.tokyo/" aria-label="SIPO home">
+                <img src="https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/images/sipo-logo-trimmed.png" alt="SIPO">
+            </a>
+            <div>
+                <div>SIPO — SITION Group</div>
+                <div class="ftag">SITION Stake Pool &amp; DReps Cardano ADA, Ambassador of Midnight</div>
+            </div>
+            <div class="r">
+                <a href="https://x.com/SIPO_Tokyo">@SIPO_Tokyo</a>
+                <a href="https://sipo.tokyo/about/">SIPOについて</a>
+                <a href="https://sipo.tokyo/en/">About (EN)</a>
+                <a href="https://sition.jp">SITION.jp</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/dp-macchiato-child/*","/wp-content/themes/dp-macchiato/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>function dp_theme_noactivate_copyright(){return;}</script><script id="sipo-home-latest-js" src="https://sipo.tokyo/wp-content/plugins/sipo-home-latest/assets/sipo-home-latest.js?ver=1782114450"></script>
+<script id="sipo-platform-navigation-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/js/navigation.js?ver=1783664177"></script>
+<script id="sipo-platform-live-metrics-js-extra">
+var sipoPlatform = {"pulseUrl":"https://sipo.tokyo/wp-json/sipo/v1/pulse"};
+//# sourceURL=sipo-platform-live-metrics-js-extra
+</script>
+<script id="sipo-platform-live-metrics-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato-child/assets/js/live-metrics.js?ver=1783664177"></script>
+<script id="wow-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/wow.min.js?ver=2.2.9.3"></script>
+<script id="easing-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/jquery/jquery.easing.min.js?ver=2.2.9.3"></script>
+<script id="imagesloaded-js" src="https://sipo.tokyo/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="dp-masonry-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/jquery/jquery.masonry.min.js?ver=2.2.9.3"></script>
+<script id="fitvids-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/jquery/jquery.fitvids.min.js?ver=2.2.9.3"></script>
+<script id="scrollReveal-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/scrollReveal.min.js?ver=2.2.9.3"></script>
+<script id="sns-share-count-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/jquery/jquery.sharecount.min.js?ver=2.2.9.3"></script>
+<script id="digipress-js" src="https://sipo.tokyo/wp-content/themes/dp-macchiato/inc/js/theme-import.min.js?ver=20260626232544"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://sipo.tokyo/wp-includes/js/wp-emoji-release.min.js?ver=7.0.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://sipo.tokyo/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<!-- Tracking Code --><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111524752-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111524752-2');
+</script><!-- /Tracking Code --></body>
+</html>

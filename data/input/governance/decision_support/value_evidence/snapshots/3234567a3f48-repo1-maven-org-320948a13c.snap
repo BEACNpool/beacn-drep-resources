@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/scalus</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/scalus</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="scalus-bloxbean-cardano-client-lib_3/" title="scalus-bloxbean-cardano-client-lib_3/">scalus-bloxbean-cardano-client-lib_3/</a>                            -         -      
+<a href="scalus-cardano-ledger_3/" title="scalus-cardano-ledger_3/">scalus-cardano-ledger_3/</a>                                         -         -      
+<a href="scalus-cardano-ledger_sjs1_3/" title="scalus-cardano-ledger_sjs1_3/">scalus-cardano-ledger_sjs1_3/</a>                                    -         -      
+<a href="scalus-design-patterns_3/" title="scalus-design-patterns_3/">scalus-design-patterns_3/</a>                                        -         -      
+<a href="scalus-ethereum-kzg-ceremony_3/" title="scalus-ethereum-kzg-ceremony_3/">scalus-ethereum-kzg-ceremony_3/</a>                                  -         -      
+<a href="scalus-plugin_3/" title="scalus-plugin_3/">scalus-plugin_3/</a>                                                 -         -      
+<a href="scalus-plugin_3.3.7/" title="scalus-plugin_3.3.7/">scalus-plugin_3.3.7/</a>                                             -         -      
+<a href="scalus-plugin_3.3.8/" title="scalus-plugin_3.3.8/">scalus-plugin_3.3.8/</a>                                             -         -      
+<a href="scalus-plugin_3.8.3/" title="scalus-plugin_3.8.3/">scalus-plugin_3.8.3/</a>                                             -         -      
+<a href="scalus-plugin_3.8.4/" title="scalus-plugin_3.8.4/">scalus-plugin_3.8.4/</a>                                             -         -      
+<a href="scalus-sbt-plugin_2.12_1.0/" title="scalus-sbt-plugin_2.12_1.0/">scalus-sbt-plugin_2.12_1.0/</a>                                      -         -      
+<a href="scalus-sbt-plugin_sbt2_3/" title="scalus-sbt-plugin_sbt2_3/">scalus-sbt-plugin_sbt2_3/</a>                                        -         -      
+<a href="scalus-secp256k1-jni/" title="scalus-secp256k1-jni/">scalus-secp256k1-jni/</a>                                            -         -      
+<a href="scalus-testkit_3/" title="scalus-testkit_3/">scalus-testkit_3/</a>                                                -         -      
+<a href="scalus-testkit_native0.5_3/" title="scalus-testkit_native0.5_3/">scalus-testkit_native0.5_3/</a>                                      -         -      
+<a href="scalus-testkit_sjs1_3/" title="scalus-testkit_sjs1_3/">scalus-testkit_sjs1_3/</a>                                           -         -      
+<a href="scalus_3/" title="scalus_3/">scalus_3/</a>                                                        -         -      
+<a href="scalus_native0.5_3/" title="scalus_native0.5_3/">scalus_native0.5_3/</a>                                              -         -      
+<a href="scalus_sjs1_3/" title="scalus_sjs1_3/">scalus_sjs1_3/</a>                                                   -         -      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

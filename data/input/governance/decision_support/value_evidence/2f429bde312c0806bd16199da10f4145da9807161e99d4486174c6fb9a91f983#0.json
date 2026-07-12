@@ -1,0 +1,232 @@
+{
+  "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        },
+        {
+          "sha256": "f53f6eb3282477ea7580bcaff13970f74327eb51db841fd6e985c51998213507",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-forum-cardano-org-c0f64c7323.snap",
+          "url": "https://forum.cardano.org/t/maintainer-retainer-project-interest-forms-are-live/149244"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "1af2eda732435d3fa9a27087810459e786d66d2779837aa487c2bcb27843a4ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-www-intersectmbo-org-be80a1bf99.snap",
+          "url": "https://www.intersectmbo.org/news/the-paid-open-source-model"
+        },
+        {
+          "sha256": "1936f16b1b4169b075fee7dd34b08063755745b93b83622abc74cd02b2091b96",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-podcast-chaoss-community-7537bd9f9d.snap",
+          "url": "https://podcast.chaoss.community/guests/christian-taylor"
+        },
+        {
+          "sha256": "c4984af9810438a62caed1743017f6a967c324100defa0b30c8b343165f3883a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-github-com-1e631c5930.snap",
+          "url": "https://github.com/thatguyllc"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "bdc0ecf92ef711fe6637f0fd45144d3a0de547f583297340f6945c7b4c8bb66b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-adastat-net-18685ef4e4.snap",
+          "url": "https://adastat.net/governances/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f9830"
+        },
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        },
+        {
+          "sha256": "673126007e5ab5824cbe656670e2b0b84dae29ede3813bdf6c756a43b4eab444",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-committees-docs-intersectmbo-org-153578dd59.snap",
+          "url": "https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        },
+        {
+          "sha256": "bdc0ecf92ef711fe6637f0fd45144d3a0de547f583297340f6945c7b4c8bb66b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-adastat-net-18685ef4e4.snap",
+          "url": "https://adastat.net/governances/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f9830"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "1af2eda732435d3fa9a27087810459e786d66d2779837aa487c2bcb27843a4ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-www-intersectmbo-org-be80a1bf99.snap",
+          "url": "https://www.intersectmbo.org/news/the-paid-open-source-model"
+        },
+        {
+          "sha256": "673126007e5ab5824cbe656670e2b0b84dae29ede3813bdf6c756a43b4eab444",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-committees-docs-intersectmbo-org-153578dd59.snap",
+          "url": "https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer"
+        },
+        {
+          "sha256": "f53f6eb3282477ea7580bcaff13970f74327eb51db841fd6e985c51998213507",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-forum-cardano-org-c0f64c7323.snap",
+          "url": "https://forum.cardano.org/t/maintainer-retainer-project-interest-forms-are-live/149244"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "1af2eda732435d3fa9a27087810459e786d66d2779837aa487c2bcb27843a4ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-www-intersectmbo-org-be80a1bf99.snap",
+          "url": "https://www.intersectmbo.org/news/the-paid-open-source-model"
+        },
+        {
+          "sha256": "673126007e5ab5824cbe656670e2b0b84dae29ede3813bdf6c756a43b4eab444",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-committees-docs-intersectmbo-org-153578dd59.snap",
+          "url": "https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer"
+        },
+        {
+          "sha256": "8b4cf388e4fb763b5bd641639eebf9009a53509c9976402782c4d4bf2740038c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-intersectmbo-org-731c4daef2.snap",
+          "url": "https://intersectmbo.org/news/intersect-development-update-94-january-16-2026"
+        },
+        {
+          "sha256": "f53f6eb3282477ea7580bcaff13970f74327eb51db841fd6e985c51998213507",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-forum-cardano-org-c0f64c7323.snap",
+          "url": "https://forum.cardano.org/t/maintainer-retainer-project-interest-forms-are-live/149244"
+        },
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        },
+        {
+          "sha256": "bdc0ecf92ef711fe6637f0fd45144d3a0de547f583297340f6945c7b4c8bb66b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-adastat-net-18685ef4e4.snap",
+          "url": "https://adastat.net/governances/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f9830"
+        }
+      ],
+      "value": "no"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "8b4cf388e4fb763b5bd641639eebf9009a53509c9976402782c4d4bf2740038c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-intersectmbo-org-731c4daef2.snap",
+          "url": "https://intersectmbo.org/news/intersect-development-update-94-january-16-2026"
+        },
+        {
+          "sha256": "f53f6eb3282477ea7580bcaff13970f74327eb51db841fd6e985c51998213507",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-forum-cardano-org-c0f64c7323.snap",
+          "url": "https://forum.cardano.org/t/maintainer-retainer-project-interest-forms-are-live/149244"
+        },
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "bdc0ecf92ef711fe6637f0fd45144d3a0de547f583297340f6945c7b4c8bb66b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-adastat-net-18685ef4e4.snap",
+          "url": "https://adastat.net/governances/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f9830"
+        },
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "25202e97d9d601cb857feb062d0c2b197f5ad7984a74425fd2da5f783c40d986",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-sipo-tokyo-5378811b8b.snap",
+          "url": "https://sipo.tokyo/post-46027/"
+        },
+        {
+          "sha256": "bdc0ecf92ef711fe6637f0fd45144d3a0de547f583297340f6945c7b4c8bb66b",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-adastat-net-18685ef4e4.snap",
+          "url": "https://adastat.net/governances/2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f9830"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "1af2eda732435d3fa9a27087810459e786d66d2779837aa487c2bcb27843a4ed",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-www-intersectmbo-org-be80a1bf99.snap",
+          "url": "https://www.intersectmbo.org/news/the-paid-open-source-model"
+        },
+        {
+          "sha256": "8b4cf388e4fb763b5bd641639eebf9009a53509c9976402782c4d4bf2740038c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-intersectmbo-org-731c4daef2.snap",
+          "url": "https://intersectmbo.org/news/intersect-development-update-94-january-16-2026"
+        },
+        {
+          "sha256": "f53f6eb3282477ea7580bcaff13970f74327eb51db841fd6e985c51998213507",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/2f429bde312c-forum-cardano-org-c0f64c7323.snap",
+          "url": "https://forum.cardano.org/t/maintainer-retainer-project-interest-forms-are-live/149244"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:05+00:00"
+}

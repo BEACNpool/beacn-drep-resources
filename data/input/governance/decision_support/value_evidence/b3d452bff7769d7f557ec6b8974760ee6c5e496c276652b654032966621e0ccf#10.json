@@ -1,0 +1,210 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#10",
+  "confidence": 0.78,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        },
+        {
+          "sha256": "4aa439eba4dc8cfa369465f46780f383448f76f21cc41b5c2ee5c2832e2ad10d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-35f0bec1eb.snap",
+          "url": "https://github.com/utxorpc/spec"
+        },
+        {
+          "sha256": "a23a1263c89a02ae9a6509797f7625395caa36498578cbc90e82aa4015e49384",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-hackage-haskell-org-8adba5ba02.snap",
+          "url": "https://hackage.haskell.org/package/utxorpc"
+        },
+        {
+          "sha256": "08d9bc8293aad06994a799dadf5766b10757185bb22e89a146eede399b26c331",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pkg-go-dev-021227bd61.snap",
+          "url": "https://pkg.go.dev/github.com/utxorpc/go-codegen"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "4aa439eba4dc8cfa369465f46780f383448f76f21cc41b5c2ee5c2832e2ad10d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-35f0bec1eb.snap",
+          "url": "https://github.com/utxorpc/spec"
+        },
+        {
+          "sha256": "08d9bc8293aad06994a799dadf5766b10757185bb22e89a146eede399b26c331",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pkg-go-dev-021227bd61.snap",
+          "url": "https://pkg.go.dev/github.com/utxorpc/go-codegen"
+        },
+        {
+          "sha256": "a87bd4f33f5fc78b1aafcca1ded537ca9a91726b869e2277c25f65bd60a131ac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-eb02eb2f1b.snap",
+          "url": "https://github.com/blinklabs-io/dingo/blob/main/go.mod"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "a87bd4f33f5fc78b1aafcca1ded537ca9a91726b869e2277c25f65bd60a131ac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-eb02eb2f1b.snap",
+          "url": "https://github.com/blinklabs-io/dingo/blob/main/go.mod"
+        },
+        {
+          "sha256": "c6a0bb25cd56d63b039de7b57faf548ead6dce0a5daba76af4492603e6a113e0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-702e0a1662.snap",
+          "url": "https://github.com/blinklabs-io/cardano-node-api/blob/main/go.mod"
+        },
+        {
+          "sha256": "936279002399fc99fa3cd9e612e89644f251dbd45d607c5dc0a010d63d53dd85",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-52296b219f.snap",
+          "url": "https://github.com/pragma-org/amaru/milestone/7"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "08d9bc8293aad06994a799dadf5766b10757185bb22e89a146eede399b26c331",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pkg-go-dev-021227bd61.snap",
+          "url": "https://pkg.go.dev/github.com/utxorpc/go-codegen"
+        },
+        {
+          "sha256": "565141f14e589f31a770cfd505a230ded2a7cb187fc19b0da5bb6c3412845c77",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-49b6dbe812.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@utxorpc/sdk"
+        },
+        {
+          "sha256": "a23a1263c89a02ae9a6509797f7625395caa36498578cbc90e82aa4015e49384",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-hackage-haskell-org-8adba5ba02.snap",
+          "url": "https://hackage.haskell.org/package/utxorpc"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "a3acc38567c60b25ca07f48cd94a23c1f18ab3dc2c0d29e6a507bfb3f1f6db6e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-ogmios-dev-172020aba2.snap",
+          "url": "https://ogmios.dev/"
+        },
+        {
+          "sha256": "b4b857409ea06827c8e8899ff5f3e0cd84c5fd013d170161bccaad864cd158cf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6c374deb0b.snap",
+          "url": "https://github.com/cardano-community/koios-artifacts"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "2ed25478019de8dbd25946e87df49024ceea8eb7dd0efaa07ac164a5a2f419f3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-intersectmbo-org-af99a00e3e.snap",
+          "url": "https://docs.intersectmbo.org/intersect-knowledge-base/cardano-facilitation-services/cardano-budget-2026/2026-budget-process-final-audited-results"
+        },
+        {
+          "sha256": "a87bd4f33f5fc78b1aafcca1ded537ca9a91726b869e2277c25f65bd60a131ac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-eb02eb2f1b.snap",
+          "url": "https://github.com/blinklabs-io/dingo/blob/main/go.mod"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "565141f14e589f31a770cfd505a230ded2a7cb187fc19b0da5bb6c3412845c77",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-49b6dbe812.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@utxorpc/sdk"
+        },
+        {
+          "sha256": "4222c9b33c2a3e96a80bf9c9a00899c70f85ddee324308b67952fe5ffefbf02f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-npmjs-org-c0c0fcd0b6.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@utxorpc/spec"
+        },
+        {
+          "sha256": "a87bd4f33f5fc78b1aafcca1ded537ca9a91726b869e2277c25f65bd60a131ac",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-eb02eb2f1b.snap",
+          "url": "https://github.com/blinklabs-io/dingo/blob/main/go.mod"
+        },
+        {
+          "sha256": "08d9bc8293aad06994a799dadf5766b10757185bb22e89a146eede399b26c331",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pkg-go-dev-021227bd61.snap",
+          "url": "https://pkg.go.dev/github.com/utxorpc/go-codegen"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "4aa439eba4dc8cfa369465f46780f383448f76f21cc41b5c2ee5c2832e2ad10d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-35f0bec1eb.snap",
+          "url": "https://github.com/utxorpc/spec"
+        },
+        {
+          "sha256": "a23a1263c89a02ae9a6509797f7625395caa36498578cbc90e82aa4015e49384",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-hackage-haskell-org-8adba5ba02.snap",
+          "url": "https://hackage.haskell.org/package/utxorpc"
+        },
+        {
+          "sha256": "a433684a704e4a1b8db60918dd88d9fd1f673018678d445af14c88f8d9b9f546",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-pypi-org-50e5cfa9fa.snap",
+          "url": "https://pypi.org/pypi/utxorpc/json"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "2ed25478019de8dbd25946e87df49024ceea8eb7dd0efaa07ac164a5a2f419f3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-intersectmbo-org-af99a00e3e.snap",
+          "url": "https://docs.intersectmbo.org/intersect-knowledge-base/cardano-facilitation-services/cardano-budget-2026/2026-budget-process-final-audited-results"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "4aa439eba4dc8cfa369465f46780f383448f76f21cc41b5c2ee5c2832e2ad10d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-35f0bec1eb.snap",
+          "url": "https://github.com/utxorpc/spec"
+        },
+        {
+          "sha256": "c6a0bb25cd56d63b039de7b57faf548ead6dce0a5daba76af4492603e6a113e0",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-702e0a1662.snap",
+          "url": "https://github.com/blinklabs-io/cardano-node-api/blob/main/go.mod"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [],
+      "value": "unknown"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:42+00:00"
+}

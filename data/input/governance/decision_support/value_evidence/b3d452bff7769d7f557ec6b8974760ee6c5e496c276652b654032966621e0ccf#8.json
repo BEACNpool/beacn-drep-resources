@@ -1,0 +1,222 @@
+{
+  "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#8",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "d871107541fbd94c274171c5aeee065409547b8a0bb34817b0b19534cf57eb15",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-23decefb8d.snap",
+          "url": "https://github.com/aiken-lang/aiken/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "633c8fb5b217650396f6887bfb3e854069e10d800fddce3fe7f82a56ad31b3be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-85c0e089c1.snap",
+          "url": "https://github.com/input-output-hk/mithril/blob/main/internal/cardano-node/mithril-cardano-node-chain/Cargo.toml"
+        }
+      ],
+      "value": "yes"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "5c56f305c4d94e3e135a9fcb29978560236707db83021d2c5f77023f7a1c10f7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7621a2ec6c.snap",
+          "url": "https://github.com/txpipe/pallas/releases"
+        },
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        },
+        {
+          "sha256": "2ed25478019de8dbd25946e87df49024ceea8eb7dd0efaa07ac164a5a2f419f3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-intersectmbo-org-af99a00e3e.snap",
+          "url": "https://docs.intersectmbo.org/intersect-knowledge-base/cardano-facilitation-services/cardano-budget-2026/2026-budget-process-final-audited-results"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "633c8fb5b217650396f6887bfb3e854069e10d800fddce3fe7f82a56ad31b3be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-85c0e089c1.snap",
+          "url": "https://github.com/input-output-hk/mithril/blob/main/internal/cardano-node/mithril-cardano-node-chain/Cargo.toml"
+        },
+        {
+          "sha256": "9c3897b5a8aae78431be9ba0e085ccc9c6c8c58ca446bfc6215a4aa908bc167c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-2433cd083e.snap",
+          "url": "https://github.com/pragma-org/amaru/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "c24cec9404cd5947de4c7f7e19d43e3294214f2db754495e609b3fd5b3c57125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-rs-cb89346142.snap",
+          "url": "https://docs.rs/pallas-network/latest/pallas_network/"
+        }
+      ],
+      "value": "yes"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "d871107541fbd94c274171c5aeee065409547b8a0bb34817b0b19534cf57eb15",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-23decefb8d.snap",
+          "url": "https://github.com/aiken-lang/aiken/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "9c3897b5a8aae78431be9ba0e085ccc9c6c8c58ca446bfc6215a4aa908bc167c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-2433cd083e.snap",
+          "url": "https://github.com/pragma-org/amaru/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        }
+      ],
+      "value": "yes"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "5c56f305c4d94e3e135a9fcb29978560236707db83021d2c5f77023f7a1c10f7",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-7621a2ec6c.snap",
+          "url": "https://github.com/txpipe/pallas/releases"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        }
+      ],
+      "value": "yes"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "c24cec9404cd5947de4c7f7e19d43e3294214f2db754495e609b3fd5b3c57125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-rs-cb89346142.snap",
+          "url": "https://docs.rs/pallas-network/latest/pallas_network/"
+        },
+        {
+          "sha256": "87d5b746dabe9928f6f0c7687cac6554081915f4b1d90a4838d4b7ead5b0be66",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-d708651793.snap",
+          "url": "https://github.com/dcSpark/cardano-multiplatform-lib"
+        }
+      ],
+      "value": "yes"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "87d5b746dabe9928f6f0c7687cac6554081915f4b1d90a4838d4b7ead5b0be66",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-d708651793.snap",
+          "url": "https://github.com/dcSpark/cardano-multiplatform-lib"
+        },
+        {
+          "sha256": "c24cec9404cd5947de4c7f7e19d43e3294214f2db754495e609b3fd5b3c57125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-rs-cb89346142.snap",
+          "url": "https://docs.rs/pallas-network/latest/pallas_network/"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        },
+        {
+          "sha256": "d871107541fbd94c274171c5aeee065409547b8a0bb34817b0b19534cf57eb15",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-23decefb8d.snap",
+          "url": "https://github.com/aiken-lang/aiken/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "633c8fb5b217650396f6887bfb3e854069e10d800fddce3fe7f82a56ad31b3be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-85c0e089c1.snap",
+          "url": "https://github.com/input-output-hk/mithril/blob/main/internal/cardano-node/mithril-cardano-node-chain/Cargo.toml"
+        }
+      ],
+      "value": "yes"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "cfd02da8a53ef391be7f7ed8b1c950b3bc4825c01ad6b3f37505497a2c73e467",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-d321c779db.snap",
+          "url": "https://github.com/txpipe/pallas/blob/main/LICENSE"
+        },
+        {
+          "sha256": "97aff8c67368291dca474e61508e101049c30537f4c3709d5db9a268c786643d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-lib-rs-23e1976a16.snap",
+          "url": "https://lib.rs/crates/pallas"
+        },
+        {
+          "sha256": "fd6d61535587d9e82a43383220446d23528a9157fb68a7fcfa360189a7bfb6fe",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-18ac774f7a.snap",
+          "url": "https://github.com/txpipe/pallas"
+        }
+      ],
+      "value": "yes"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "0e162bbf7ee39c0add1cf04b3caa5d5a06f4b239eb1427a6d2c8f005d1741d56",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-af11b3d068.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-txpipe-pallas-rust-libraries-year2"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "cfd02da8a53ef391be7f7ed8b1c950b3bc4825c01ad6b3f37505497a2c73e467",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-d321c779db.snap",
+          "url": "https://github.com/txpipe/pallas/blob/main/LICENSE"
+        },
+        {
+          "sha256": "633c8fb5b217650396f6887bfb3e854069e10d800fddce3fe7f82a56ad31b3be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-85c0e089c1.snap",
+          "url": "https://github.com/input-output-hk/mithril/blob/main/internal/cardano-node/mithril-cardano-node-chain/Cargo.toml"
+        }
+      ],
+      "value": "no"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "9c3897b5a8aae78431be9ba0e085ccc9c6c8c58ca446bfc6215a4aa908bc167c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-2433cd083e.snap",
+          "url": "https://github.com/pragma-org/amaru/blob/main/Cargo.toml"
+        },
+        {
+          "sha256": "633c8fb5b217650396f6887bfb3e854069e10d800fddce3fe7f82a56ad31b3be",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-85c0e089c1.snap",
+          "url": "https://github.com/input-output-hk/mithril/blob/main/internal/cardano-node/mithril-cardano-node-chain/Cargo.toml"
+        },
+        {
+          "sha256": "c24cec9404cd5947de4c7f7e19d43e3294214f2db754495e609b3fd5b3c57125",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-docs-rs-cb89346142.snap",
+          "url": "https://docs.rs/pallas-network/latest/pallas_network/"
+        }
+      ],
+      "value": "yes"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:21+00:00"
+}

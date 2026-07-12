@@ -1,0 +1,202 @@
+{
+  "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
+  "confidence": 0.72,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "fe9c952872694852274fd9bf6a68943e203b9ee428f35a0cb9b16adb44ed65a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-sellout-io-bd54dae410.snap",
+          "url": "https://sellout.io/how-it-works"
+        },
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "credible_prior_delivery": {
+      "sources": [
+        {
+          "sha256": "37f935275fa42b6f069459ac6a7f5e83e8650120615fe98b155d5b10b266ee28",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-github-com-f3de58560e.snap",
+          "url": "https://github.com/Cardano-Forge/weld"
+        },
+        {
+          "sha256": "7bd97153b14a2d4a2b86fa02f3ab86b382da27e848759965c1e68a8a3bd2f884",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-projectcatalyst-io-d44508224e.snap",
+          "url": "https://projectcatalyst.io/funds/13/cardano-open-developers/anvil-open-source-universal-wallet-connector-weld-for-unity-godot-and-game-maker"
+        },
+        {
+          "sha256": "d278fc18e51da5578468a628dd7cb10407ddfc324522a8b877ef64990ce8fd1a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-api-npmjs-org-695aa030fd.snap",
+          "url": "https://api.npmjs.org/downloads/point/last-month/@ada-anvil/weld"
+        }
+      ],
+      "value": "yes"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        },
+        {
+          "sha256": "fe9c952872694852274fd9bf6a68943e203b9ee428f35a0cb9b16adb44ed65a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-sellout-io-bd54dae410.snap",
+          "url": "https://sellout.io/how-it-works"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "8da24f90737503f9df758cb8f2338934b168f1368d047c6199269c1f7c6c7df9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-github-com-bf3ace1f66.snap",
+          "url": "https://github.com/orgs/Cardano-Forge/repositories"
+        },
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "fe9c952872694852274fd9bf6a68943e203b9ee428f35a0cb9b16adb44ed65a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-sellout-io-bd54dae410.snap",
+          "url": "https://sellout.io/how-it-works"
+        },
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [
+        {
+          "sha256": "f49e9c611c8c73b3bf75b8cd8014c62fca5f8d4a84ae4bfeb26d5fe2db91bee5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-docs-nmkr-io-b6a0685a8d.snap",
+          "url": "https://docs.nmkr.io/introduction/powered-by-nmkr"
+        },
+        {
+          "sha256": "2432212a1e07dd4bfaa72e18b9cf645d6ed94f7bb6f3c6340cb9dc36c4f87e87",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-projectcatalyst-io-57db5b2c69.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-use-cases-product/nft-ticketing-solution-20-by-nmkr"
+        }
+      ],
+      "value": "no"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "f49e9c611c8c73b3bf75b8cd8014c62fca5f8d4a84ae4bfeb26d5fe2db91bee5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-docs-nmkr-io-b6a0685a8d.snap",
+          "url": "https://docs.nmkr.io/introduction/powered-by-nmkr"
+        },
+        {
+          "sha256": "2432212a1e07dd4bfaa72e18b9cf645d6ed94f7bb6f3c6340cb9dc36c4f87e87",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-projectcatalyst-io-57db5b2c69.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-use-cases-product/nft-ticketing-solution-20-by-nmkr"
+        }
+      ],
+      "value": "yes"
+    },
+    "measurable_existing_adoption": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "fe9c952872694852274fd9bf6a68943e203b9ee428f35a0cb9b16adb44ed65a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-sellout-io-bd54dae410.snap",
+          "url": "https://sellout.io/how-it-works"
+        },
+        {
+          "sha256": "f49e9c611c8c73b3bf75b8cd8014c62fca5f8d4a84ae4bfeb26d5fe2db91bee5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-docs-nmkr-io-b6a0685a8d.snap",
+          "url": "https://docs.nmkr.io/introduction/powered-by-nmkr"
+        },
+        {
+          "sha256": "2432212a1e07dd4bfaa72e18b9cf645d6ed94f7bb6f3c6340cb9dc36c4f87e87",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-projectcatalyst-io-57db5b2c69.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-use-cases-product/nft-ticketing-solution-20-by-nmkr"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "8da24f90737503f9df758cb8f2338934b168f1368d047c6199269c1f7c6c7df9",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-github-com-bf3ace1f66.snap",
+          "url": "https://github.com/orgs/Cardano-Forge/repositories"
+        },
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        }
+      ],
+      "value": "no"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "8c20e9664a0ffb9c299225b45459e46636888db778ffe099f979989e70bc55bc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-forum-cardano-org-998bc0e1ee.snap",
+          "url": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
+        },
+        {
+          "sha256": "fe9c952872694852274fd9bf6a68943e203b9ee428f35a0cb9b16adb44ed65a4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-sellout-io-bd54dae410.snap",
+          "url": "https://sellout.io/how-it-works"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "f49e9c611c8c73b3bf75b8cd8014c62fca5f8d4a84ae4bfeb26d5fe2db91bee5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-docs-nmkr-io-b6a0685a8d.snap",
+          "url": "https://docs.nmkr.io/introduction/powered-by-nmkr"
+        },
+        {
+          "sha256": "2432212a1e07dd4bfaa72e18b9cf645d6ed94f7bb6f3c6340cb9dc36c4f87e87",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/35b44189eb47-projectcatalyst-io-57db5b2c69.snap",
+          "url": "https://projectcatalyst.io/funds/11/cardano-use-cases-product/nft-ticketing-solution-20-by-nmkr"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:11:13+00:00"
+}

@@ -29,13 +29,109 @@
   "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=50 no=15 abstain=3 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
   "output_sha256": "a1e35956b3b72485bade8f4a2ed7c5e34d7b4605ea327d7ba134fec7660b23de",
   "prompt_sha256": "11ee0d5a7a9ea9f59aa341544eb73fdde6ecabc53627c0979bb87a4cc3bb02e7",
-  "review_status": "verification_failed",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.3.0",
   "verification": {
     "backend": "claude",
     "contradicted": 0,
     "fact_count": 19,
-    "fact_verdicts": [],
+    "fact_verdicts": [
+      {
+        "fact": 1,
+        "note": "Action id, type TreasuryWithdrawals, proposed epoch 638, and expiry after epoch 645 all match the on-chain action metadata.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 2,
+        "note": "Anchor body title is exactly \"Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 3,
+        "note": "onChain.gov_action.rewards contains key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value \"1310960000000\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 4,
+        "note": "Budget Summary table lists WP1 at 1,272,777 ADA, Intersect Budget Administration fee at 38,183 ADA, Total 1,310,960 ADA.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 5,
+        "note": "Motivation section states 12 months of production maintenance covering exactly these scope items, including cardano-hw-cli and vendor-triggered audits.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 6,
+        "note": "Motivation states verbatim it is a continuity proposal, not a new wallet product, with scope limited to compatibility, security, libraries/tooling, release support, and vendor-required audit work.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 7,
+        "note": "Rationale's Intersect Budget Process section states the 67% Hydra Voting threshold and advancement under the approved Budget Process Framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 8,
+        "note": "Net Change Limit Compliance section states the request does not breach the 350M NCL covering Epoch 613 to Epoch 713, on its own or in aggregate, at time of submission.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 9,
+        "note": "Audit & Oversight section matches: costs in overhead, admin fee covers administrative oversight, independent oversight via Intersect and a technically capable third party with reporting and milestone-based disbursement controls.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 10,
+        "note": "Prior Treasury Funding Disclosure lists the three named gov.tools items plus exactly six Project Catalyst links.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 11,
+        "note": "Anchor names the Sundae Labs treasury management framework, and the 2026 TRSC stake address equals the on-chain rewards recipient.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 12,
+        "note": "Oversight Committee is named as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 13,
+        "note": "All five permission thresholds (Fund/Modify 2-2-1, Disburse 2-3-2, Pause/Resume 2-1, Sweep 1-1, Reorganize 2 admins + 3 trusted entities) match the anchor exactly.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 14,
+        "note": "On-chain context: 14 withdrawal proposals totalling 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52 \u2014 exact match.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 15,
+        "note": "On-chain context states yes=50 no=15 abstain=3, explicit ballots not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 16,
+        "note": "Treasury flow figures match exactly: inflow 158838297854652, enacted withdrawals 361435336000000, ratio 2.275492 over 36 epochs.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 17,
+        "note": "values_hierarchy.md ranks constitutional integrity/protocol safety first, then treasury stewardship, evidence quality, ecosystem growth, execution speed \u2014 in that order.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 18,
+        "note": "treasury_spending_doctrine.md explicitly rejects FCFS and adopts the rolling-window Net Change Limit framework.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 19,
+        "note": "values_hierarchy.md states ABSTAIN preference for weak-evidence growth conflicts and the soft-gate caution penalty for non-verifiable upside; 'recorded as explicit uncertainty' is a fair paraphrase of the NEEDS_MORE_INFO fallback that must name outstanding evidence.",
+        "verdict": "supported"
+      }
+    ],
     "filtered_legacy_snapshot_items": [],
     "gates": {
       "anchor_sha256_matches_draft": true,
@@ -47,21 +143,17 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "1bb4385592e2d982a1aca8433c9449290ab48f2cdc3dee833d4fdc8530da8d46",
-    "passed": false,
-    "prompt_sha256": "63034ff4ea11af8b9445d94204c3507788c4ecdbe5dd9e38a6f91afac6f283b6",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "supported": 19
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "output_sha256": "3a27291dfa6b7735a5a5af15129bbb3df9fd1505fcceceeeb366cefe0de573b2",
+    "passed": true,
+    "prompt_sha256": "e133398ba3afec2a1b861088e269f0f9170b118c3c33dddaf72dccbe0c36e563",
+    "summary": "All 19 dossier facts are supported by the source material. Numeric values (withdrawal amount 1,310,960 ADA / 1310960000000 lovelace, budget line items, epochs 638/645, NCL 350M over epochs 613-713, recipient history of 14 proposals totalling 57273260000000 lovelace, vote counts 50/15/3, treasury flow figures and ratio 2.275492), the recipient stake address, multisig permission thresholds, Oversight Committee membership, and doctrine ordering all match exactly. No contradictions and no invented specifics were found.",
+    "support_ratio": 1.0,
+    "supported": 19,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:20:50+00:00"
+    "verdicts_returned": 19,
+    "verified_at_utc": "2026-07-12T14:53:49+00:00"
   }
 }

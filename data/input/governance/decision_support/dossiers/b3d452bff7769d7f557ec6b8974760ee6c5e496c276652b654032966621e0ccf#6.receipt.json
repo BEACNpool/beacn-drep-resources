@@ -5,7 +5,7 @@
     "expires_after_epoch": "645",
     "metadata_title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc...",
     "proposed_epoch": "638",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "1162746000000"
   },
   "anchor": {
     "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
@@ -18,51 +18,33 @@
     "reason": null
   },
   "anchor_sha256": "02e2f8e7cb09fc53b764324b5e07d03b05112c81f26e9e30d6270232823c4f16",
-  "backend": "codex",
+  "backend": "claude",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:33:37+00:00",
-  "model": "gpt-5.5",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=43 no=12 abstain=6 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "7b396aa98e405f6afc372a0f3362d65a7e931d1227ee0252dfe8b705be844c3a",
-  "prompt_sha256": "925bba65ac2d859cf1e5d1e2cf3ff4f7a4daffe648ba713fdf9294e85b8aa5cc",
-  "review_status": "verification_failed",
-  "treasury_doctrine_version": "1.3.0",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-12T15:32:17+00:00",
+  "model": "claude-cli",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=52 no=13 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "84d0c89cab5bde98e763e4353df5eabcbd426bada830e55568771a530b66e6b3",
+  "prompt_sha256": "cf4b5e0a724e66723a4753b669098f1a835555133ec23c44eda72e4f4a29e5a9",
+  "review_status": "gate_failed",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "claude",
-    "contradicted": 0,
-    "fact_count": 31,
-    "fact_verdicts": [],
-    "filtered_legacy_snapshot_items": [],
+    "backend": "codex",
     "gates": {
       "anchor_sha256_matches_draft": true,
       "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
       "financial_and_risk_rows_present": true,
-      "sections_grounded_7of7": true
+      "sections_grounded_7of7": false
     },
-    "material_discrepancies": [],
-    "model": "claude-cli",
-    "not_found": 0,
-    "output_sha256": "fb205e6fbfcfb2d7f06e9e7fa902ac588585903536bbd43b65002938150138ac",
-    "passed": false,
-    "prompt_sha256": "c9c25c702822cf290dc59b5e2425ca5d2e3e9b4133f08cd0b308f48c4ca64df9",
-    "summary": {
-      "contradicted": 0,
-      "not_found": 0,
-      "notes": "All facts verified against the supplied material with exact number, quote, and entity matches. Fact 7 documents a genuine 26-vs-15 team-count inconsistency inside the anchor document itself; the dossier reports it accurately, so it is not a dossier discrepancy, but it is a proposal-quality signal the decision layer may want to weigh.",
-      "supported": 31
-    },
-    "support_ratio": 0.0,
-    "supported": 0,
+    "model": "gpt-5.5",
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 0,
-    "verified_at_utc": "2026-07-10T13:18:10+00:00"
+    "verified_at_utc": "2026-07-12T15:44:50+00:00"
   }
 }

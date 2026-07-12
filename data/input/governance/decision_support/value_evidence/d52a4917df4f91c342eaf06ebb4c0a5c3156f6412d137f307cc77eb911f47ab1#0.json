@@ -1,0 +1,197 @@
+{
+  "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
+  "confidence": 0.82,
+  "fields": {
+    "builder_workflow_dependency": {
+      "sources": [
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        },
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        }
+      ],
+      "value": "no"
+    },
+    "cost_compared_to_market": {
+      "sources": [
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        },
+        {
+          "sha256": "91aa2148f916525400993f0be3efe12ddc12c03726de97a21029079b31e7aa95",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-docs-gov-tools-2a2908224d.snap",
+          "url": "https://docs.gov.tools/cardano-govtool/using-govtool/governance-actions"
+        }
+      ],
+      "value": "yes"
+    },
+    "credible_prior_delivery": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "critical_infrastructure": {
+      "sources": [
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "ecosystem_leverage": {
+      "sources": [
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "established_service": {
+      "sources": [
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "low_functional_substitutability": {
+      "sources": [],
+      "value": "unknown"
+    },
+    "material_duplication": {
+      "sources": [
+        {
+          "sha256": "48e3f97ace694f4ba06e3bd467aa6f53c13393626a7ac93e2cbc61e06500344e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-553e43f5b5.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_type=eq.TreasuryWithdrawals&enacted_epoch=not.is.null&select=proposal_tx_hash,enacted_epoch,withdrawal"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "measurable_existing_adoption": {
+      "sources": [
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "non_funding_disruption_risk": {
+      "sources": [
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        },
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        }
+      ],
+      "value": "no"
+    },
+    "open_source_public_good": {
+      "sources": [
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    },
+    "output_priced": {
+      "sources": [
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        },
+        {
+          "sha256": "91aa2148f916525400993f0be3efe12ddc12c03726de97a21029079b31e7aa95",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-docs-gov-tools-2a2908224d.snap",
+          "url": "https://docs.gov.tools/cardano-govtool/using-govtool/governance-actions"
+        }
+      ],
+      "value": "yes"
+    },
+    "private_capture_risk": {
+      "sources": [
+        {
+          "sha256": "bc123ebf6f63c3c769d8b2820272dcc277e5d3bd9907dd61f9c9d08e403a2be3",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-8ab04e73f8.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1"
+        },
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        }
+      ],
+      "value": "yes"
+    },
+    "strategic_necessity": {
+      "sources": [
+        {
+          "sha256": "c48f00ffdf9b82ec0a8dfea45c0b7b3556282105fc56e9505ce5aa9f709f70cb",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-api-koios-rest-6564be2737.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db"
+        },
+        {
+          "sha256": "e893c6dec615b0bd4351986820ae99566d08a68448bc52c2b0d9d1bf3f91e85e",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d52a4917df4f-cips-cardano-org-dde4195c17.snap",
+          "url": "https://cips.cardano.org/cip/CIP-1694"
+        }
+      ],
+      "value": "no"
+    }
+  },
+  "independent_verifier": "beacn-value-research-fleet",
+  "material_discrepancies": [],
+  "pinned_at_utc": "2026-07-12T17:12:38+00:00"
+}

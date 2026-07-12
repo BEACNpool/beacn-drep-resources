@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang=en prefix="og:http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=color-scheme value="light dark">
+<title>tx3-lang — unregulated finances, in Rust // Lib.rs</title>
+<meta name="twitter:title" content="tx3-lang — unregulated finances, in Rust">
+<meta property="og:title" content="tx3-lang">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9B4kDNxMZdWfMOD5VnLK3eRhf6Xl7Glw.woff2">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9B4kDNxMZdWfMOD5VnPKreRhf6Xl7Glw.woff2">
+<link crossorigin=anonymous rel=preload as=font href="/fira/va9E4kDNxMZdWfMOD5Vvl4jLazX3dA.woff2">
+<link crossorigin=anonymous rel=preload as=style href="/index.css">
+<link crossorigin=anonymous rel=preconnect href="//img.gs">
+<style>@font-face {font-family:Fira Sans;font-style:normal;font-weight:700;src:local(Fira Sans Bold),local(FiraSans-Bold),url(/fira/va9B4kDNxMZdWfMOD5VnLK3eRhf6Xl7Glw.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face {font-family:Fira Sans;font-style:normal;font-weight:300;src:local(Fira Sans Light),local(FiraSans-Light),url(/fira/va9B4kDNxMZdWfMOD5VnPKreRhf6Xl7Glw.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:optional}@font-face {font-family:Fira Sans;font-style:normal;font-weight:400;src:local(Fira Sans Regular),local(FiraSans-Regular),local(Fira Sans ot),url(/fira/va9E4kDNxMZdWfMOD5Vvl4jLazX3dA.woff2)format("woff2");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:fallback}html,body{background:var(--background-color);color:var(--text-color);margin:0;padding:0;font-family:fira sans ot,fira sans,trebuchet ms,roboto,sans-serif;line-height:1.6}h1,h2,h3,h4,h5{font-family:fira sans ot,fira sans,ubuntu,roboto,-apple-system,trebuchet ms,sans-serif}#package h2,#package .desc{font-family:fira sans ot,fira sans,ubuntu,roboto,-apple-system,helvetica,sans-serif}header{padding:1em 0 0}.inner-col{box-sizing:border-box;max-width:60em;margin:0 auto;padding:0 1em}@media (prefers-color-scheme:dark){img[src$=\#gh-light-mode-only],a[href$=\#gh-light-mode-only]{display:none}}@media (prefers-color-scheme:light){img[src$=\#gh-dark-mode-only],a[href$=\#gh-dark-mode-only]{display:none}}</style>
+<link crossorigin=anonymous rel=stylesheet href="/index.css">
+<meta property="og:image" content="https://lib.rs/og/c/tx3-lang.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="627">
+<meta name="twitter:image" content="https://lib.rs/og/tc/tx3-lang.png">
+<meta name="twitter:card" content="summary_large_image">
+<link crossorigin=anonymous rel=apple-touch-icon href="/crates-logo.png" type=image/png sizes=256x256>
+<link crossorigin=anonymous rel=icon href="/favicon.png" type=image/png sizes=32x32 media="(prefers-color-scheme: light)">
+<link crossorigin=anonymous rel=icon href="/favicon-dark.png" type=image/png sizes=32x32 media="(prefers-color-scheme: dark)">
+<link crossorigin=anonymous rel=icon href="/crates-logo.png" type=image/png sizes=256x256>
+<link crossorigin=anonymous rel=icon href="/favicon.png" type=image/png sizes=32x32>
+<link crossorigin=anonymous rel=mask-icon href="/logo.svg">
+<meta name=theme-color content="#aaaaaa">
+<meta name=theme-color content="#353746" media="(prefers-color-scheme: dark)">
+<meta property="og:url" content="https://lib.rs/crates/tx3-lang">
+<meta rel=canonical content="https://lib.rs/crates/tx3-lang">
+<link rel=alternate href="https://crates.io/crates/tx3-lang">
+<link rel="og:see_also" href="https://crates.io/crates/tx3-lang">
+<meta property="og:description" content="A DSL for defining protocols that run on UTxO blockchains">
+<meta name=description content="A DSL for defining protocols that run on UTxO blockchains | Rust/Cargo package">
+<meta name=keywords content="blockchain, utxo, dsl, cardano">
+<meta name="date.created" content="2026-06-22">
+<meta name="article:published_time" content="2026-06-22">
+<meta property="og:type" content=website>
+<meta name="article:author" content="Santiago Carmuega">
+<meta property="og:determiner" content>
+<meta property="og:site_name" content="Lib.rs">
+<meta property="og:article:section" content="cryptography::cryptocurrencies">
+<meta property="og:article:tag" content="cryptography::cryptocurrencies">
+<body vocab="http://schema.org/">
+<div typeof="SoftwareApplication">
+<header id="package">
+<div class="inner-col">
+<aside class="search-link"><a href="/#search_q" accesskey=s title=Search><svg width="16" height="16" viewBox="0 0 100 100"><title>Search</title><circle cx="45" cy="45" r="30" stroke="black" stroke-width="10" fill="none"/><line x1="64" y1="64" x2="95" y2="95" stroke="black" stroke-width="15"/></svg></a></aside>
+<div class="breadcrumbs" typeof="BreadcrumbList">
+<h1>
+<span property="itemListElement" typeof="ListItem"><a accesskey="s" property="item" typeof="WebPage" href="/"><span property="name">Lib</span>.rs</a><meta property="position" content="1"></span>
+</h1>
+›
+<span class="categories has-keywords" role="navigation" aria-label="Categories">
+<span property="itemListElement" typeof="ListItem"><a href="/cryptography" title="Algorithms intended for securing data." property="item" typeof="WebPage"><span property="name">Cryptography</span></a><meta property="position" content="2"></span>
+›
+<span property="itemListElement" typeof="ListItem"><a href="/cryptography/cryptocurrencies" title="Beware of fraud and lies of cryptocurrencies." property="item" typeof="WebPage"><span property="name">Magic Beans</span></a><meta property="position" content="3"></span>
+</span>
+</div>
+<span class="keywords">
+<span>
+<a property="applicationCategory" href="/keywords/blockchain" class=keyword><span>#</span>blockchain</a>
+<a property="applicationCategory" href="/keywords/utxo" class=keyword><span>#</span>utxo</a>
+<a property="applicationCategory" href="/keywords/dsl" class=keyword><span>#</span>dsl</a>
+</span>
+<a property="applicationCategory" href="/keywords/cardano" class=keyword><span>#</span>cardano</a>
+</span>
+<h2>
+<span class="labels">
+</span>
+<span property="name">
+tx3-lang</span></h2>
+<p class=desc>A DSL for defining protocols that run on UTxO blockchains</p>
+<p class=byline>
+by
+<a href="/~scarmuega" class="owner" title="owner: scarmuega" property="author" typeof="Person"><span property="name">Santiago Carmuega</span></a>
+<span class=contributors>and
+<a href="https://github.com/tx3-lang/tx3/graphs/contributors" rel="nofollow ugc">13 contributors</a>
+</span>
+</p>
+<nav><ul>
+<li><a href="/install/tx3-lang" class="button">Install</a></li>
+<li><a href="https://docs.rs/tx3-lang">API reference</a></li>
+<li><span><a href="https://github.com/tx3-lang/tx3" rel="nofollow ugc" property="url">GitHub repo</a>
+(<a rel="nofollow ugc" href="https://github.com/tx3-lang/tx3/tree/d7fd7006da87ebb5d8707b7e0c2167c368d1d976/crates/tx3-lang">tx3-lang</a>)</span>
+</li>
+</ul></nav>
+</div>
+</header>
+<main>
+<div class="inner-col">
+<section id="readme-deps">
+<div>
+<section class="about-crate">
+<section id="versions">
+<h3>
+<a href="/crates/tx3-lang/versions">41 releases</a>
+<span>(22 breaking)</span>
+</h3>
+<table>
+<tr><th content="0.23.0" property="softwareVersion">
+0.23.0
+</th><td property="datePublished" class="date">
+Jun 22, 2026
+</td></tr>
+<tr><th content="0.21.0">
+0.21.0
+</th><td class="date">
+May 31, 2026
+</td></tr>
+<tr><th content="0.16.3">
+0.16.3
+</th><td class="date">
+Mar 9, 2026
+</td></tr>
+<tr><th content="0.14.2">
+0.14.2
+</th><td class="date">
+Dec 31, 2025
+</td></tr>
+<tr><th content="0.11.0">
+0.11.0
+</th><td class="date">
+Jul 29, 2025
+</td></tr>
+</table>
+</section>
+<section id="downloads">
+<p class="top-n">#<b>7</b> in <a href="/keywords/utxo">#utxo</a></p>
+<svg viewBox="0 0 182 56" width=182 height=56>
+<title>Download history</title>
+<line x1=1 x2="181" y1=45.86 y2=45.86 stroke="black" stroke-width=0.5 stroke-linecap="butt" stroke-opacity=0.3 />
+<rect x=70 y=55 width=28 height=2 fill="#f6876b" fill-opacity="0.95"><title>3/week @ 2026-05-14</title></rect>
+<rect x=98 y=52 width=28 height=5 fill="#fa7d69" fill-opacity="0.95"><title>15/week @ 2026-05-28</title></rect>
+<rect x=126 y=51 width=28 height=6 fill="#ff6f5d" fill-opacity="0.95"><title>19/week @ 2026-06-11</title></rect>
+<rect x=154 y=47 width=28 height=10 fill="#ff6562" fill-opacity="0.95"><title>37/week @ 2026-07-02</title></rect>
+<rect x=0.5 y=0.5 width="181" height="55" stroke="black" fill=none stroke-opacity=0.3 stroke-linecap=square stroke-width=1></rect>
+</svg>
+<p>
+<b>56</b> downloads per month
+<br>
+</p>
+</section>
+<section id="sloc">
+<section id="license">
+<b property="license">Apache-2.0</b>
+</section>
+<p>
+<span title="54KB as tarball">
+295KB
+</span>
+<br>
+<span title="8,109">
+8K
+</span>
+<abbr title="Lines of code, excluding comments">SLoC</abbr>
+</p>
+</section>
+</section>
+<section id=readme class="readme" vocab>
+<h1 id="readme-tx3">Tx3</h1>
+<p>A domain-specific language for describing protocols that run on UTxO-based blockchains, with a particular focus on Cardano.</p>
+<h2 id="readme-rationale">Rationale</h2>
+<p>In account-based blockchains, dapps are primarily defined by smart contracts with explicit function interfaces that represent user interactions and state mutations. These dapps have a clear API surface that can be used by different parties to interact with its business logic.</p>
+<p>The deterministic nature of the UTxO approach is a great property, but it has a drawback: the interface of a dapp is not explicit, there's nothing describing how the different parties can interact with it. Dapps are defined by transaction patterns that represent deterministic "state transitions". A party interacting with an UTxO-based dapp has to understand the underlying business logic in order to construct transactions representing their intents.</p>
+<p>This is why we need a strict but flexible mechanism to describe patterns of transactions (which we'll call transaction templates) that dapp authors can use to convey the interface of their dapp and dapp consumers can use to interact with it.</p>
+<h2 id="readme-scope">Scope</h2>
+<ul>
+<li>a language to describe a dapp as a set of transaction templates</li>
+<li>a set of diagram conventions to visualize a dapp at different levels of abstraction</li>
+<li>an interpreter that takes a transaction template and a set of parameters and generates a concrete transaction</li>
+<li>a tool to generate executable onchain / offchain code from transaction templates</li>
+</ul>
+<h2 id="readme-the-language">The Language</h2>
+<p>Tx3 is a purely functional language designed specifically for describing transaction templates in UTxO-based blockchains. Rather than trying to be a general-purpose language, it focuses exclusively on this narrow but important domain, allowing it to provide powerful and precise tools for working with blockchain transactions.</p>
+<p>The language's narrow focus allows it to be highly opinionated and tightly integrated with core UTxO blockchain concepts. Instead of abstracting away blockchain-specific details, Tx3 embraces them - concepts fundamental to UTxO blockchains like inputs, outputs, datums, and redeemers are treated as first-class citizens in the language. This deep integration enables more natural and expressive ways to work with these concepts.</p>
+<p>A key concept in Tx3 is the distinction between concrete transactions and transaction templates. While a transaction represents a specific state transition, a template is a function - it defines a pattern that can generate many different concrete transactions based on parameters provided at runtime. This parameterization is what makes templates so powerful for defining reusable transaction patterns.</p>
+<h3 id="readme-simple-transfer-example">Simple Transfer Example</h3>
+<p>Let's start with a very simple example: a transfer of funds from one party to another.</p>
+<pre lang="tx3"><code><tt class="src-rs">party Sender<tt class="pun-term pun-term-rs">;</tt>
+
+party Receiver<tt class="pun-term pun-term-rs">;</tt>
+
+tx <tt class="sup-fn sup-fn-rs">transfer</tt><tt class="pun-sec pun-sec-grp">(</tt>
+    quantity<tt class="pun-sep pun-sep-rs">:</tt> Int
+<tt class="pun-sec pun-sec-grp">)</tt> <tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">{</tt>
+    input source <tt class="pun-sec pun-sec-bl">{</tt>
+        from<tt class="pun-sep pun-sep-rs">:</tt> Sender<tt class="pun-sep pun-sep-rs">,</tt>
+        min_amount<tt class="pun-sep pun-sep-rs">:</tt> Ada<tt class="pun-sec pun-sec-grp">(</tt>quantity<tt class="pun-sec pun-sec-grp">)</tt><tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+    
+    output <tt class="pun-sec pun-sec-bl">{</tt>
+        to<tt class="pun-sep pun-sep-rs">:</tt> Receiver<tt class="pun-sep pun-sep-rs">,</tt>
+        amount<tt class="pun-sep pun-sep-rs">:</tt> Ada<tt class="pun-sec pun-sec-grp">(</tt>quantity<tt class="pun-sec pun-sec-grp">)</tt><tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+
+    output <tt class="pun-sec pun-sec-bl">{</tt>
+        to<tt class="pun-sep pun-sep-rs">:</tt> Sender<tt class="pun-sep pun-sep-rs">,</tt>
+        amount<tt class="pun-sep pun-sep-rs">:</tt> source <tt class="k-op k-op-arith">-</tt> Ada<tt class="pun-sec pun-sec-grp">(</tt>quantity<tt class="pun-sec pun-sec-grp">)</tt> <tt class="k-op k-op-arith">-</tt> fees<tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+</tt><tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">}</tt></tt>
+</tt></code></pre>
+<p>Things to notice in the example:</p>
+<ul>
+<li>The <code><tt class="src-rs">tx</tt></code> keyword is used to define a transaction template. You can think of it as a function that takes some parameters and returns a transaction.</li>
+<li>The <code><tt class="src-rs">party</tt></code> keyword is used to define a party. Parties are used to identify the participants in a transaction.</li>
+<li>Transactions are mainly defined by their inputs and outputs. Inputs describe criteria for selecting the UTxOs from the party's UTxO set. Outputs describe the new UTxOs that will be created by the transaction.</li>
+<li>Outputs are defined in terms of value (and data) expressions computed from the inputs.</li>
+</ul>
+<h3 id="readme-vesting-example">Vesting Example</h3>
+<p>Here's a more complex example: a vesting contract that allows a beneficiary to claim funds after a certain amount of time has passed.</p>
+<pre lang="tx3"><code><tt class="src-rs">party Owner<tt class="pun-term pun-term-rs">;</tt>
+
+party Beneficiary<tt class="pun-term pun-term-rs">;</tt>
+
+policy TimeLock <tt class="k-op k-op-asgn">=</tt> <tt class="sup-fn sup-fn-rs">import</tt><tt class="pun-sec pun-sec-grp">(</tt>validators<tt class="k-op k-op-arith">/</tt>vesting<tt class="pun-acc pun-acc-dot">.</tt>ak<tt class="pun-sec pun-sec-grp">)</tt><tt class="pun-term pun-term-rs">;</tt>
+
+record State <tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">{</tt>
+  lock_until<tt class="pun-sep pun-sep-rs">:</tt> Int<tt class="pun-sep pun-sep-rs">,</tt>
+  owner<tt class="pun-sep pun-sep-rs">:</tt> Bytes<tt class="pun-sep pun-sep-rs">,</tt>
+  beneficiary<tt class="pun-sep pun-sep-rs">:</tt> Bytes<tt class="pun-sep pun-sep-rs">,</tt>
+</tt><tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">}</tt></tt>
+
+tx <tt class="sup-fn sup-fn-rs">lock</tt><tt class="pun-sec pun-sec-grp">(</tt>
+    quantity<tt class="pun-sep pun-sep-rs">:</tt> Int<tt class="pun-sep pun-sep-rs">,</tt>
+    until<tt class="pun-sep pun-sep-rs">:</tt> Int
+<tt class="pun-sec pun-sec-grp">)</tt> <tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">{</tt>
+    input source <tt class="pun-sec pun-sec-bl">{</tt>
+        from<tt class="pun-sep pun-sep-rs">:</tt> Owner<tt class="pun-sep pun-sep-rs">,</tt>
+        min_amount<tt class="pun-sep pun-sep-rs">:</tt> quantity<tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+    
+    output target <tt class="pun-sec pun-sec-bl">{</tt>
+        to<tt class="pun-sep pun-sep-rs">:</tt> TimeLock<tt class="pun-sep pun-sep-rs">,</tt>
+        amount<tt class="pun-sep pun-sep-rs">:</tt> Ada<tt class="pun-sec pun-sec-grp">(</tt>quantity<tt class="pun-sec pun-sec-grp">)</tt><tt class="pun-sep pun-sep-rs">,</tt>
+        datum<tt class="pun-sep pun-sep-rs">:</tt> State <tt class="pun-sec pun-sec-bl">{</tt>
+            lock_until<tt class="pun-sep pun-sep-rs">:</tt> until<tt class="pun-sep pun-sep-rs">,</tt>
+            owner<tt class="pun-sep pun-sep-rs">:</tt> Owner<tt class="pun-sep pun-sep-rs">,</tt>
+            beneficiary<tt class="pun-sep pun-sep-rs">:</tt> Beneficiary<tt class="pun-sep pun-sep-rs">,</tt>
+        <tt class="pun-sec pun-sec-bl">}</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+
+    output <tt class="pun-sec pun-sec-bl">{</tt>
+        to<tt class="pun-sep pun-sep-rs">:</tt> Owner<tt class="pun-sep pun-sep-rs">,</tt>
+        amount<tt class="pun-sep pun-sep-rs">:</tt> source <tt class="k-op k-op-arith">-</tt> Ada<tt class="pun-sec pun-sec-grp">(</tt>quantity<tt class="pun-sec pun-sec-grp">)</tt> <tt class="k-op k-op-arith">-</tt> fees<tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+</tt><tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">}</tt></tt>
+
+tx <tt class="sup-fn sup-fn-rs">unlock</tt><tt class="pun-sec pun-sec-grp">(</tt>
+    locked_utxo<tt class="pun-sep pun-sep-rs">:</tt> UtxoRef
+<tt class="pun-sec pun-sec-grp">)</tt> <tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">{</tt>
+    input gas <tt class="pun-sec pun-sec-bl">{</tt>
+        from<tt class="pun-sep pun-sep-rs">:</tt> Beneficiary<tt class="pun-sep pun-sep-rs">,</tt>
+        min_amount<tt class="pun-sep pun-sep-rs">:</tt> fees<tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+
+    input locked <tt class="pun-sec pun-sec-bl">{</tt>
+        <tt class="stor-mod stor-mod-rs">ref</tt><tt class="pun-sep pun-sep-rs">:</tt> locked_utxo<tt class="pun-sep pun-sep-rs">,</tt>
+        redeemer<tt class="pun-sep pun-sep-rs">:</tt> <tt class="pun-sec pun-sec-grp">(</tt><tt class="pun-sec pun-sec-grp">)</tt><tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+
+    output target <tt class="pun-sec pun-sec-bl">{</tt>
+        to<tt class="pun-sep pun-sep-rs">:</tt> Beneficiary<tt class="pun-sep pun-sep-rs">,</tt>
+        amount<tt class="pun-sep pun-sep-rs">:</tt> gas <tt class="k-op k-op-arith">+</tt> locked <tt class="k-op k-op-arith">-</tt> fees<tt class="pun-sep pun-sep-rs">,</tt>
+    <tt class="pun-sec pun-sec-bl">}</tt>
+</tt><tt class="m-bl m-bl-rs"><tt class="pun-sec pun-sec-bl">}</tt></tt>
+</tt></code></pre>
+<p>Things to notice in the example:</p>
+<ul>
+<li>The <code><tt class="src-rs">policy</tt></code> keyword is used to define a policy, an onchain validation script of some sort. Policies can also act as parties in the transaction (by inferring a script address).</li>
+<li>The <code><tt class="src-rs">record</tt></code> keyword is used to define a record. Records are used to define the data structure that can be used as datums or redeemers.</li>
+<li>You can have more than one transaction template in a tx3 protocol. In this case, the <code><tt class="src-rs">lock</tt></code> and <code><tt class="src-rs">unlock</tt></code> templates are part of the <code><tt class="src-rs">vesting</tt></code> protocol.</li>
+<li>Datums and redeemers can be constructed by specifying the fields of the record. Data can be computed from parameters or from the inputs.</li>
+</ul>
+<h2 id="readme-the-diagrams">The Diagrams</h2>
+<p>Tx3 provides three levels of transaction visualization (hence the name), inspired by the C4 model approach:</p>
+<ol>
+<li>
+<p><strong>Interaction Level (L1)</strong></p>
+<ul>
+<li>High-level view of interactions between different parties/contracts</li>
+<li>Focus on business logic and flow</li>
+<li>Abstract away technical UTxO details</li>
+</ul>
+</li>
+<li>
+<p><strong>Transaction Level (L2)</strong></p>
+<ul>
+<li>Detailed view of individual transactions</li>
+<li>Shows transaction inputs, outputs, and validation logic</li>
+<li>Includes script requirements and constraints</li>
+</ul>
+</li>
+<li>
+<p><strong>Validator Level (L3)</strong></p>
+<ul>
+<li>Lowest level of detail</li>
+<li>Complete UTxO graph representation</li>
+<li>Full technical details of the transaction structure</li>
+</ul>
+</li>
+</ol>
+</section>
+</div>
+<section id="deps">
+<h4>Dependencies</h4>
+<p>
+<span title="amortized size; approx. 2MB compressed">
+~11MB
+</span>
+<br>
+<span title="estimated">~202K</span> <abbr title="approx. additional lines of code">SLoC</abbr>
+</p>
+<nav aria-label="Dependencies">
+<ul class="long">
+<li property="requirements" class>
+<a title="^0.2.2" href="/crates/ciborium">ciborium</a>
+</li>
+<li property="requirements" class>
+<a title="^0.4.3" href="/crates/hex">hex</a>
+</li>
+<li property="requirements" class>
+<a title="^7.4.0" href="/crates/miette">miette</a><a href="/crates/miette/features#feature-fancy" class="with-feature"><wbr>+<span>fancy</span></a>
+</li>
+<li property="requirements" class>
+<a title="^2.7.15" href="/crates/pest">pest</a><a href="/crates/pest/features#feature-miette-error" class="with-feature"><wbr>+<span>miette-error</span></a><a href="/crates/pest/features#feature-pretty-print" class="with-feature"><wbr>+<span>pretty-print</span></a>
+</li>
+<li property="requirements" class>
+<a title="^2.7.15" href="/crates/pest_derive">pest_<wbr>derive</a>
+</li>
+<li property="requirements" class>
+<a title="^1.0.217" href="/crates/serde">serde</a><a href="/crates/serde/features#feature-derive" class="with-feature"><wbr>+<span>derive</span></a>
+</li>
+<li property="requirements" class>
+<a title="new" href="/crates/thiserror">thiserror</a>&nbsp;<span class="version verynew">2.0</span>
+</li>
+<li property="requirements" class>
+<a title="^0.1.2" href="/crates/trait-variant">trait-variant</a>
+</li>
+<li property="requirements" class>
+<a title="^0.19.0" href="/crates/tx3-tir">tx3-tir</a>
+</li>
+</ul>
+<ul class="dev">
+<li property="requirements" class>
+<span class="label label-dev">
+dev
+</span>
+<a title="^2.0.2" href="/crates/assert-json-diff">assert-json-diff</a>
+</li>
+<li property="requirements" class>
+<span class="label label-dev">
+dev
+</span>
+<a title="^1.0.15" href="/crates/paste">paste</a>
+</li>
+<li property="requirements" class>
+<span class="label label-dev">
+dev
+</span>
+<a title="^1.7.0" href="/crates/proptest">proptest</a>
+</li>
+<li property="requirements" class>
+<span class="label label-dev">
+dev
+</span>
+<a title="^1.0.137" href="/crates/serde_json">serde_<wbr>json</a>
+</li>
+</ul>
+</nav>
+</section>
+</section>
+</div>
+</main>
+</div>
+<footer>
+<div class="inner-col">
+<nav class=seealso aria-label="Related">
+Related:
+<a href="/crates/tx3-bindgen">tx3-bindgen</a>,
+<a href="/crates/tx3-cardano">tx3-cardano</a>,
+<a href="/crates/tx3-resolver">tx3-resolver</a>,
+<a href="/crates/tx3-tir">tx3-tir</a>,
+<a href="/crates/tx3-sdk">tx3-sdk</a>
+</nav>
+<nav class=seealso aria-label="See also">
+See also:
+<a href="/crates/sqlx">sqlx</a>,
+<a href="/crates/diffsol">diffsol</a>,
+<a href="/crates/helix-db">helix-db</a>,
+<a href="/crates/rust-fsm">rust-fsm</a>,
+<a href="/crates/tokay">tokay</a>,
+<a href="/crates/lini">lini</a>,
+<a href="/crates/runtara-workflows">runtara-workflows</a>,
+<a href="/crates/codewandler-flux-lang">codewandler-flux-lang</a>,
+<a href="/crates/sc-transaction-pool">sc-transaction-pool</a>,
+<a href="/crates/cosmrs">cosmrs</a>
+</nav>
+<p>A thriving market for magic beans doesn&#39;t make the magic beanstalk real. Cryptocurrencies are often involved in pump and dump scams, ponzi schemes, investment fraud, unregulated gambling, and large-scale money laundering.
+Many applications of cryptocurrencies are questionable. Their real effects are proliferation of ransomware and other criminal activity. PoW-based schemes contribute to e-waste and climate-affecting energy waste.
+</p>
+<aside role="contentinfo"><p><a href="/"><b>Lib.rs</b></a> is an unofficial list of Rust/Cargo crates. This site is not affiliated with nor endorsed by the Rust Project or authors of this crate.</p></aside>
+</div>
+</footer>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1a1ac1ffff161a9',t:'MTc4Mzg3NjM0MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
