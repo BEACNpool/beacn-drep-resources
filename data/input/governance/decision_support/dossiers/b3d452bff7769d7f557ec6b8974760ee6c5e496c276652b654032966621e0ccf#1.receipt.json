@@ -32,19 +32,18 @@
   "review_status": "gate_failed",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "codex",
+    "backend": "claude",
     "gates": {
-      "anchor_sha256_matches_draft": true,
-      "different_model_from_drafter": true,
+      "different_model_from_drafter": false,
       "dossier_and_receipt_present": true,
-      "financial_and_risk_rows_present": true,
       "sections_grounded_7of7": false
     },
-    "model": "gpt-5.5",
+    "model": "claude-cli",
+    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T15:43:50+00:00"
+    "verified_at_utc": "2026-07-12T21:31:42+00:00"
   }
 }
