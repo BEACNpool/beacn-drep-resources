@@ -14,6 +14,13 @@
       "transaction_hash": "c330223646e70fff90998c00529617adf8851b37a1e67ca75d0ff5797abd8c42",
       "vote": "No"
     },
+    "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0": {
+      "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
+      "anchor_hash": "60aae86901f3bb0fa26cbef977499d1e2af6f3f77e88313f478f7fcde09608f6",
+      "anchor_url": "https://beacnpool.github.io/beacn-drep-web/data/output/public/r/60aae86901f3bb0fa26cbef9.md",
+      "transaction_hash": "705ca34716852b04da22f888250fe1f2b3c7dda37accc8ea2c71e1a27b53eb2a",
+      "vote": "No"
+    },
     "3234567a3f48ace25efc150f1369192615974e232ea06e0251701831d9e4486d#0": {
       "action_id": "3234567a3f48ace25efc150f1369192615974e232ea06e0251701831d9e4486d#0",
       "anchor_hash": "7e2b12c1734fb0a735fe473b73f7b33b56658dfac054053ace2801d06a2d2d73",
@@ -114,10 +121,10 @@
     },
     "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3": {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3",
-      "anchor_hash": "993682681b2c896dd73e1835eda95e92fa7f51df5b2d450cc009c5b086c04fd4",
-      "anchor_url": "https://beacnpool.github.io/beacn-drep-web/data/output/public/r/993682681b2c896dd73e1835.md",
-      "transaction_hash": "3d612d1a657b9d6414264c7aec6548492d61070b475865dc6eb8aa67f104b094",
-      "vote": "No"
+      "anchor_hash": "9dad321021955d045e79c767c81712af7c7123a5afbb7478b63a8048ffe6027e",
+      "anchor_url": "https://beacnpool.github.io/beacn-drep-web/data/output/public/r/9dad321021955d045e79c767.md",
+      "transaction_hash": "6e6e99673babd717414e0a8a8d596cf7109c50b6ecea281dfddd5c7d7e0eed5f",
+      "vote": "Yes"
     },
     "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4": {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
@@ -135,10 +142,10 @@
     },
     "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6": {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
-      "anchor_hash": "b2c269732e1eb5170da18a82ddcaceead0a161d6c578f133433fccd376f31fc7",
-      "anchor_url": "https://beacnpool.github.io/beacn-drep-web/data/output/public/r/b2c269732e1eb5170da18a82.md",
-      "transaction_hash": "7d98b578e736ffe3d52d69f74cea744646802a27d6bc47851e37bf53388cd1d0",
-      "vote": "No"
+      "anchor_hash": "09275da26052cc6df25b98ffca690002126f96d436e9b43101e3f844359f5854",
+      "anchor_url": "https://beacnpool.github.io/beacn-drep-web/data/output/public/r/09275da26052cc6df25b98ff.md",
+      "transaction_hash": "5643ef25f9ab8864a9e91fa5649c6ac38556bb0eedb2213b253c0b8631be9b65",
+      "vote": "Yes"
     },
     "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7": {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
@@ -221,6 +228,6 @@
   "drep_identified_from": "BEACN's own submitted vote transactions, not a typed DRep id",
   "note": "anchor_hash is the blake2b-256 the CHAIN records for each vote. It is the only hash the public verifier may check the published rationale against; a hash we recompute ourselves would make the check circular.",
   "source": "db-sync voting_procedure + voting_anchor (relay, read-only)",
-  "votes": 31,
-  "votes_with_anchor": 31
+  "votes": 32,
+  "votes_with_anchor": 32
 }
