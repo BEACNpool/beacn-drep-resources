@@ -182,8 +182,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "68ba550a0bd79a18108ec49e94b00443c867e50e8a9ac40d62cbdc96f82cd7d4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-ipfs-io-d8dc3780bc.snap",
+          "url": "https://ipfs.io/ipfs/bafkreidixjkquc6xtimbbdwet2klabcdzbt6kduktlca2ywl3slpqlgx2q"
+        },
+        {
+          "sha256": "5ae4020a9edf42d18e6b115c083a1fe9c18b287a801b5a2515eb69bbcf60d7fc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-788dd38be7.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [
@@ -212,5 +223,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:10+00:00"
+  "pinned_at_utc": "2026-07-13T02:12:16+00:00"
 }

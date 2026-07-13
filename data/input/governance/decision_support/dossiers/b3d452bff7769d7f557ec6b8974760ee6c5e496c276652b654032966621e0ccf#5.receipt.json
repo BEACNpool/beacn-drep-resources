@@ -5,7 +5,7 @@
     "expires_after_epoch": "645",
     "metadata_title": "Withdraw 3,810,423 ada for Mithril Protocol",
     "proposed_epoch": "638",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "3810423000000"
   },
   "anchor": {
     "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#5",
@@ -23,187 +23,12 @@
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:35:00+00:00",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-13T01:49:20+00:00",
   "model": "gpt-5.5",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=59 no=5 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "c702b88689c3163ce22fae2d30008c2b310453fdb69f96623746d2531fc9d6b6",
-  "prompt_sha256": "f2448a477928d6b85242cb9752039b392b02b0441672027e29751482eb5a7653",
-  "review_status": "approved_agentic",
-  "treasury_doctrine_version": "1.3.0",
-  "verification": {
-    "backend": "claude",
-    "contradicted": 0,
-    "fact_count": 29,
-    "fact_verdicts": [
-      {
-        "fact": 1,
-        "note": "Action id, type, title, proposed epoch 638, and expiry epoch 645 all match SOURCE 0 exactly.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 2,
-        "note": "Anchor body.title is exactly \"Withdraw 3,810,423 ada for Mithril Protocol\".",
-        "verdict": "supported"
-      },
-      {
-        "fact": 3,
-        "note": "Anchor onChain.gov_action has tag \"treasury_withdrawals_action\" and a single rewards entry with that stake key and value \"3810423000000\".",
-        "verdict": "supported"
-      },
-      {
-        "fact": 4,
-        "note": "Budget Summary table matches: 3,699,440 + 110,983 = 3,810,423 ADA.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 5,
-        "note": "Abstract states the withdrawal funds Mithril Protocol and is submitted by Intersect on behalf of the vendor.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 6,
-        "note": "Author name, witnessAlgorithm ed25519, publicKey, and signature match the anchor character-for-character.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 7,
-        "note": "Motivation section states this nearly verbatim.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 8,
-        "note": "Rationale states the proposal achieved the required 67% support threshold in the 2026 Intersect Budget Process Hydra Voting phase.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 9,
-        "note": "NCL Compliance section states the amount does not breach the 350M Net Change Limit covering Epoch 613 to Epoch 713.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 10,
-        "note": "Audit & Oversight section states both clauses.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 11,
-        "note": "Anchor: independent oversight through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 12,
-        "note": "Exact sentence appears verbatim in the Prior Treasury Funding Disclosure.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 13,
-        "note": "Anchor states Teragone's multi-year involvement via close collaboration with IOG, which has funded the project to date.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 14,
-        "note": "Anchor states the transition from IOG-funded development to community-governed funding via Intersect.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 15,
-        "note": "Anchor: single TRSC with one Project-Specific Smart Contract (PSSC).",
-        "verdict": "supported"
-      },
-      {
-        "fact": 16,
-        "note": "All three addresses (TRSC stake, TRSC payment, PSSC payment) match the anchor exactly.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 17,
-        "note": "Anchor: five admin roles, three leadership roles, Oversight Committee of six external independent third-party entities.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 18,
-        "note": "Committee named as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 19,
-        "note": "All five permission categories with their sign-off thresholds are listed in the anchor.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 20,
-        "note": "Anchor: TRSC/PSSC instances cannot be staked with an SPO and are delegated to the auto-abstain predefined DRep.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 21,
-        "note": "Processes section describes exactly this flow: TRSC stake address on enactment, UTxO at TRSC payment address, Fund action to PSSC once legal contract and vendor are ready.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 22,
-        "note": "Anchor: \"All milestones will be outlined within the metadata.\"",
-        "verdict": "supported"
-      },
-      {
-        "fact": 23,
-        "note": "Dashboard URL matches the anchor's treasury.sundae.fi link exactly, described as for community audit/tracking.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 24,
-        "note": "SOURCE 1 matches: 14 withdrawal proposals, 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 25,
-        "note": "SOURCE 1: yes=59 no=5 abstain=4, explicit ballots, not stake-weighted.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 26,
-        "note": "SOURCE 1: inflow 158838297854652, enacted withdrawals 361435336000000, ratio 2.275492 \u2014 all match.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 27,
-        "note": "values_hierarchy.md ordering: (1) constitutional integrity/protocol safety, (2) treasury stewardship/downside protection, (3) evidence quality, (4) public-benefit ecosystem growth \u2014 exactly as stated.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 28,
-        "note": "Treasury doctrine explicitly rejects FCFS and adopts the rolling-window Net Change Limit framework.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 29,
-        "note": "First clause is near-verbatim from values_hierarchy.md; the second clause is a fair paraphrase of the doctrine's hard gate (incomplete diligence \u2192 NEEDS_MORE_INFO) plus the requirement that the published rationale always name outstanding evidence.",
-        "verdict": "supported"
-      }
-    ],
-    "filtered_legacy_snapshot_items": [],
-    "gates": {
-      "anchor_sha256_matches_draft": true,
-      "different_model_from_drafter": true,
-      "dossier_and_receipt_present": true,
-      "financial_and_risk_rows_present": true,
-      "sections_grounded_7of7": true
-    },
-    "material_discrepancies": [],
-    "model": "claude-cli",
-    "not_found": 0,
-    "output_sha256": "f1f9fef9035d454ab9e5bf4f2550d56fb1a521bc1a7c47ded52bcef834574dc9",
-    "passed": true,
-    "prompt_sha256": "918a9464df86a8f7e5c93b826f93c9707f10388fa05f5d91ac918f5290b64f12",
-    "summary": "All 29 dossier facts are supported by the source material. Every number, address, key, signature, quote, and named entity was checked against the on-chain metadata, on-chain context block, doctrine text, and verbatim anchor document; no contradictions and no invented specifics (figures, names, dates, or commitments) were found. Zero material discrepancies.",
-    "support_ratio": 1.0,
-    "supported": 29,
-    "thresholds": {
-      "max_material_discrepancies": 0,
-      "min_fact_support_ratio": 0.9
-    },
-    "verdicts_returned": 29,
-    "verified_at_utc": "2026-07-12T14:51:58+00:00"
-  }
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=75 no=6 abstain=5 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "f76b7c77f67b926968baeffcc21a8386c776f62bf70f27b066d23c58e6a9c691",
+  "prompt_sha256": "c93a8513e1e6d1b7c3d79a8c19eae07b262483bf254bb2d999c87044a84db9b8",
+  "review_status": "drafted_pending_review",
+  "treasury_doctrine_version": "1.5.0"
 }

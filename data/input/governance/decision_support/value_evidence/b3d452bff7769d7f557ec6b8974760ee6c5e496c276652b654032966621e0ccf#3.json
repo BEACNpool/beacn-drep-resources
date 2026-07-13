@@ -18,8 +18,24 @@
       "value": "yes"
     },
     "cost_compared_to_market": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "82cb10a959b9dd7b8897faba806304d02dbacb3455ef90589dc12a0e53778b46",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-committees-docs-intersectmbo-org-80959aaabc.snap",
+          "url": "https://committees.docs.intersectmbo.org/intersect-budget-committee/archive/2025-cardano-budget-proposal-a-cardano-blockchain-ecosystem-budget/governance-support-budget"
+        },
+        {
+          "sha256": "b53f796e78de767cb7cc5e7b05a6e0180018f64b22233b6c8325c11928e2fe86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-fc148fbfb4.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/"
+        },
+        {
+          "sha256": "25acf168dc3655b1e75392c85be591c1bb60e7010a4dfd2c6f9e01b445caa6f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-6f0e417e7f.snap",
+          "url": "https://github.com/cardano-foundation/CIPs"
+        }
+      ],
+      "value": "yes"
     },
     "credible_prior_delivery": {
       "sources": [
@@ -149,8 +165,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "c395b968e2445478e08d5c42c30dc6a574419782ddd2a6be63331183679ae281",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-de9bce939f.snap",
+          "url": "https://github.com/SundaeSwap-finance/treasury-contracts"
+        },
+        {
+          "sha256": "a218b12cdd7400b4d744a99fe47083f4c09eb6da2acc7440a82f1deafb3bd46c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-ipfs-io-f9f74f316f.snap",
+          "url": "https://ipfs.io/ipfs/bafkreifcdcyszxluac2norfjt7shba7uycplnwrkzr2ebkbpdxvpwo6unq"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [
@@ -190,5 +217,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:11:53+00:00"
+  "pinned_at_utc": "2026-07-13T02:11:54+00:00"
 }

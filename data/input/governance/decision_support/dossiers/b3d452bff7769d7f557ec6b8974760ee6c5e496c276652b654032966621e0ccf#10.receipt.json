@@ -18,187 +18,92 @@
     "reason": null
   },
   "anchor_sha256": "db357cd25c6266f75f90c88375af03c3383c3b2b3279e874b966cc53bf24887a",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:22:23+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=66 no=7 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "26a98f3afb45a00be8ca5095ffaea4c23477d2258b0d7d952021a162ef6aaf46",
-  "prompt_sha256": "0c74a730e9b83fdeb2ab09687e3e22a39237007ed7d4444f1efc92d1cc6953bb",
+  "generated_at_utc": "2026-07-13T01:41:19+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=68 no=7 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "d9d78cb9bb7c2f4758ccafef8cdbdf45a22e7f91c35134249b796d04b1eaaabd",
+  "prompt_sha256": "01ac8b99caf9f0650d0bde966df717e36bec23ad878a2c86d9d081263721c790",
   "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
-    "backend": "codex",
+    "backend": "claude",
     "contradicted": 0,
-    "fact_count": 33,
+    "fact_count": 14,
     "fact_verdicts": [
       {
-        "fact": "1. Action id b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#10, action type TreasuryWithdrawals, proposed epoch 638, expires after epoch 645.",
-        "note": "Matches Source Material 0 exactly.",
+        "index": 1,
+        "note": "Source material 0 states action id b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#10, type TreasuryWithdrawals, the same truncated title, treasury amount 540750000000 lovelace, proposed epoch 638, expires after 645. Every specific matches.",
         "verdict": "supported"
       },
       {
-        "fact": "2. The anchor title is \"Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano's Integratio...\" and the abstract states the withdrawal funds \"UTxO RPC by TxPipe: Maintaining Cardano's Integration Standard, Year 2.\"",
-        "note": "The title and abstract wording match the anchor, allowing apostrophe typography differences.",
+        "index": 2,
+        "note": "Anchor motivation: 'requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund a part-time maintainer for UTxO RPC ... over 12 months at an annual rate of $105,000 USD'. Verbatim match on all four numbers.",
         "verdict": "supported"
       },
       {
-        "fact": "3. The abstract states the Treasury Withdrawal \"is submitted by Intersect on behalf of the vendor\" and that the Abstract, Motivation and Rationale sections \"have been sourced from the approved proposal submitted by the Vendor as part of the Intersect budget process.\"",
-        "note": "Directly stated in the anchor abstract.",
+        "index": 3,
+        "note": "Anchor Budget Summary table: WP1 - UTxO RPC Maintenance and Enhancement 525,000; Intersect Budget Administration fee 15,750; Total 540,750. Internally consistent with fact 2 (420,000 + 105,000 = 525,000) and with the on-chain amount.",
         "verdict": "supported"
       },
       {
-        "fact": "4. The motivation requests \"420,000 ADA (plus a 105,000 ADA contingency reserve) to fund a part-time maintainer for UTxO RPC over 12 months at an annual rate of $105,000 USD\", continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle.",
-        "note": "Directly stated in the anchor motivation.",
+        "index": 4,
+        "note": "Anchor body.onChain.gov_action.rewards lists key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value '540750000000', and policy_hash fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64. Character-for-character match.",
         "verdict": "supported"
       },
       {
-        "fact": "5. The motivation states the new grant period \"would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.\"",
-        "note": "Directly stated in the anchor motivation.",
+        "index": 5,
+        "note": "Source material 1 states the stake address appears in 15 withdrawal proposals totalling 177273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-07-09 16:30:25. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": "6. The budget summary table lists exactly two lines: \"WP1 - UTxO RPC Maintenance and Enhancement | 525,000\" ADA and \"Intersect Budget Administration fee | 15,750\" ADA, with \"Total | 540,750\" ADA.",
-        "note": "The table contains those two budget lines and the stated total.",
+        "index": 6,
+        "note": "Anchor motivation and rationale both state Protocol Buffers, SDKs in Rust, Go, Node.js, .NET, Haskell, Python, and adoption by Amaru, Dingo, and the Haskell Cardano node. The language list matches exactly with no additions.",
         "verdict": "supported"
       },
       {
-        "fact": "7. The anchor onChain.gov_action.rewards field specifies a single recipient: key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, value \"540750000000\" lovelace, with policy_hash fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64.",
-        "note": "Matches the anchor onChain.gov_action block.",
+        "index": 7,
+        "note": "Anchor motivation: 'The project maintains 10+ repositories ... remains fully open-source under Apache 2.0'.",
         "verdict": "supported"
       },
       {
-        "fact": "8. The anchor onChain.deposit field is \"100000000000\" lovelace and the reward_account is stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp.",
-        "note": "Matches the anchor onChain fields.",
+        "index": 8,
+        "note": "Anchor Prior Treasury Funding Disclosure: '30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule'. All four figures match.",
         "verdict": "supported"
       },
       {
-        "fact": "9. The anchor describes UTxO RPC as \"an open interface specification designed to standardize interactions with UTxO-based blockchains\", defining common methods, data structures and communication patterns using Protocol Buffers, with SDKs in Rust, Go, Node.js, .NET, Haskell and Python.",
-        "note": "Directly stated in the anchor motivation.",
+        "index": 9,
+        "note": "Anchor Prior Treasury Funding Disclosure names Pallas, Dolos, and UTxO RPC funded through Intersect's 2025 budget cycle, 'all of which are being delivered on schedule'.",
         "verdict": "supported"
       },
       {
-        "fact": "10. The anchor states UTxO RPC \"has been adopted by key ecosystem workstreams including Amaru, Dingo, and the Haskell Cardano node, validating it as a standard across the ecosystem\", and repeats in the rationale that these node implementations \"have adopted UTxO RPC as a query interface\".",
-        "note": "Both statements are present in the anchor motivation and rationale.",
+        "index": 10,
+        "note": "Anchor Intersect Budget Process section: 'achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase'. Note this is the proposer's own assertion; the fact correctly attributes it to the anchor rather than asserting it independently.",
         "verdict": "supported"
       },
       {
-        "fact": "11. The anchor states the project \"maintains 10+ repositories covering the core specification, language-specific SDKs, documentation, and provider integrations\" and \"remains fully open-source under Apache 2.0\".",
-        "note": "Directly stated in the anchor motivation.",
+        "index": 11,
+        "note": "Anchor Audit & Oversight section states all four elements: costs included in overhead, administration fee covering administrative oversight, independent oversight through Intersect and a technically capable third party, and reporting obligations plus milestone-based disbursement controls.",
         "verdict": "supported"
       },
       {
-        "fact": "12. The anchor defines the maintainer's work across four areas: maintenance of the protobuf specification (protocol compatibility, versioning, documentation); maintenance of the official SDKs (dependency updates, performance improvements, bug fixing); community support (issue triage, review of external contributions, ecosystem-feedback-driven enhancements, public communication); and \"upgrading UTxO RPC compatibility with AI-driven development workflows by providing AI-friendly documentation and integration resources.\"",
-        "note": "Matches the four work areas listed in the anchor motivation.",
+        "index": 12,
+        "note": "Anchor Intersect Budget Management Tooling section names the Sundae Labs framework and discloses the 2026 TRSC stake address, TRSC payment address, and PSSC payment address.",
         "verdict": "supported"
       },
       {
-        "fact": "13. The rationale states UTxO RPC \"aligns to Pillar 2 through focus area A.3 (Developer Experience), specifically the open-source incentives area\".",
-        "note": "Directly stated under Strategic Pillar Alignment.",
+        "index": 13,
+        "note": "Source material 1: 'onchain DRep vote counts so far: yes=68 no=7 abstain=4 (explicit ballots, not stake-weighted)'. Exact match including the not-stake-weighted qualifier.",
         "verdict": "supported"
       },
       {
-        "fact": "14. The rationale states the proposal \"achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase\".",
-        "note": "Directly stated under Intersect Budget Process.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "15. The rationale states \"The requested amount does not at time of submission, on its own or in aggregate, breach the applicable [350M Net Change Limit] covering Epoch 613 to Epoch 713\" and that \"In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.\"",
-        "note": "Directly stated under Net Change Limit Compliance.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "16. The rationale states audit and oversight costs \"are included within the overhead applied to this proposal\", that \"The Intersect administration fee covers administrative oversight\", and that \"Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.\"",
-        "note": "Directly stated under Audit & Oversight.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "17. The rationale's Prior Treasury Funding Disclosure states TxPipe \"has received funding through 30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule\", and that TxPipe \"received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all of which are being delivered on schedule.\"",
-        "note": "Directly stated under Prior Treasury Funding Disclosure.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "18. The rationale states Intersect will use \"the treasury management smart contract framework developed by Sundae Labs\", with \"A new instance of these smart contracts... deployed for 2026, mirroring the contracts from the 2025 budget cycle.\"",
-        "note": "Directly stated under Intersect Budget Management Tooling.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "19. The rationale identifies the 2026 Treasury Reserve Smart Contract (TRSC) stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v \u2014 the same address as the withdrawal recipient in onChain.gov_action.rewards.",
-        "note": "The TRSC stake address matches the single reward recipient key.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "20. The rationale states Intersect will use \"a single Treasury Reserve Smart Contract (TRSC), with one Project-Specific Smart Contracts (PSSC)\", that Intersect's management consists of \"five 'admin' and three Intersect 'leadership' roles\", and that an Oversight Committee of \"six external, independent third-party entities\" provides checks and balances.",
-        "note": "Directly stated in the Specifics section.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "21. The rationale names the Oversight Committee as \"Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl\", whose role is \"to independently verify key administrative actions using on-chain logic, ensuring accuracy and consistency without exercising discretion over governance decisions.\"",
-        "note": "Directly stated in the Specifics section.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "22. The rationale specifies multi-party permission thresholds: TRSC Fund / PSSC Modify requires two of five Intersect admins, two of six trusted entities and one of three Intersect leadership; TRSC Disburse requires two of five admins, three of six trusted entities and two of three leadership; TRSC Pause and Resume requires two of five admins and one of three leadership; TRSC Sweep requires one of five admins and one of three leadership; TRSC Reorganize requires two of five admins and three of six trusted entities.",
-        "note": "Matches the listed high-level permissions.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "23. The rationale states that upon enactment funds are directed into the TRSC stake address, that \"All instances of TRSC and PSSC can not be staked with a SPO and are delegated to the auto-abstain predefined DRep\", and that funds are transferred to the PSSC via the Fund action \"When the Legal contract is prepared and the vendor is ready\", with \"All milestones... outlined within the metadata.\"",
-        "note": "Directly stated in the Processes section.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "24. The rationale references a public dashboard at treasury.sundae.fi/budgets/51486a2f1496d4d3a688a9b111971aa9b731ed045d900b601345ca4e for community audit of the TRSC/PSSC.",
-        "note": "The dashboard URL and audit purpose are stated in the rationale.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "25. The anchor references list includes a \"Budget Management Smart Contracts TxPipe Audit Report\" (ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e) and a \"Budget Management Smart Contracts MLabs Audit Report\" (ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4), alongside Hydra Voting audit references and the Sundae Labs treasury-contracts GitHub repository.",
-        "note": "All named references and URIs appear in the anchor references list.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "26. The anchor is authored/witnessed by \"Intersect\" (ed25519, publicKey 05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743) and uses hashAlgorithm blake2b-256.",
-        "note": "Matches the anchor authors and hashAlgorithm fields.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "27. On-chain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25).",
-        "note": "Matches Source Material 1.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "28. On-chain DRep vote counts so far for this action: yes=66, no=7, abstain=4 (explicit ballots, not stake-weighted).",
-        "note": "Matches Source Material 1.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "29. On-chain treasury flow over 36 epochs: inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, outflow/inflow ratio 1.836518.",
-        "note": "Matches Source Material 1.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "30. BEACN doctrine ranks values in order: (1) constitutional integrity and protocol safety, (2) treasury stewardship and downside protection, (3) evidence quality and reproducibility, (4) public-benefit ecosystem growth, (5) execution speed and social consensus momentum.",
-        "note": "Matches the Values Hierarchy order.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "31. BEACN doctrine's Foundational Axiom states AI has collapsed marginal costs by 10-100x and that \"if the work described can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models\", with \"Requested ADA per deliverable should decrease.\"",
-        "note": "Directly stated in the Foundational Axiom section, allowing ADA/\u20b3 notation equivalence.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "32. BEACN doctrine (Dossier Gate Posture, amended 2026-07-10, v1.5.0) states the hard gate means \"incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO\", and that for established infrastructure the engine evaluates \"the ecosystem cost of non-funding, workflow dependency, replacement difficulty, sustained operation, and verified adoption alongside spending risk.\"",
-        "note": "Directly stated in the Dossier Gate Posture section.",
-        "verdict": "supported"
-      },
-      {
-        "fact": "33. BEACN doctrine rejects FCFS and adopts a rolling-window Net Change Limit with available(e) = NCL_annual - sum of withdrawals over a 73-epoch sliding window, funding eligible proposals by DRep approval weight descending rather than submission order.",
-        "note": "Directly stated in the Treasury Spending Doctrine NCL and prioritization sections.",
+        "index": 14,
+        "note": "Source material 1: 'treasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518'. All three figures and the epoch count match.",
         "verdict": "supported"
       }
     ],
@@ -211,19 +116,19 @@
       "sections_grounded_7of7": true
     },
     "material_discrepancies": [],
-    "model": "gpt-5.5",
+    "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "30fb0f5377b7776daaa4a7003c4fd73634851edcb4cc836762c6b5f95699676e",
+    "output_sha256": "9b2d1612be962a34248dc87652e0de87da9820e90b01155d5facae97b6177fb5",
     "passed": true,
-    "prompt_sha256": "7b733121307b93359fb9664b96e1b31789e2e262a3c7da893a0e75211322fc55",
-    "summary": "All 33 facts are supported by the supplied source material. No contradicted facts or invented material specifics were found.",
+    "prompt_sha256": "e303a3f018c99feda05a15b9feb4d84adffa54f232d5a27bc0309cbf66973790",
+    "summary": "All 14 dossier facts are supported by the supplied source material, with no contradictions and no invented specifics. Every number I could cross-check reconciles: the anchor's 420,000 ADA base plus 105,000 ADA contingency sums to the 525,000 ADA WP1 line, which with the 15,750 ADA Intersect administration fee gives the 540,750 ADA total, matching the 540750000000 lovelace in both the anchor's gov_action rewards entry and the on-chain action metadata. The recipient stake address, policy hash, epoch window, recipient withdrawal history, DRep ballot counts, and treasury-flow figures are all reproduced exactly from the on-chain blocks. Two facts (10 and 11 \u2014 the 67% Hydra Voting threshold and the audit/oversight arrangements) are supported only as anchor assertions: the drafter correctly frames them as 'the anchor states', so they are supported as written, but the source material contains no independent corroboration of either claim, and an auditor should not read them as verified in substance. Fact 9's 'delivered on schedule' claim about the 2025 Pallas/Dolos/UTxO RPC grants is likewise the proposer's self-report. No fact asserted anything the material does not say, so there is nothing here that requires a discrepancy entry.",
     "support_ratio": 1.0,
-    "supported": 33,
+    "supported": 14,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 33,
-    "verified_at_utc": "2026-07-12T15:43:50+00:00"
+    "verdicts_returned": 14,
+    "verified_at_utc": "2026-07-13T01:49:45+00:00"
   }
 }

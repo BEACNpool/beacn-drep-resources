@@ -18,32 +18,137 @@
     "reason": null
   },
   "anchor_sha256": "02e2f8e7cb09fc53b764324b5e07d03b05112c81f26e9e30d6270232823c4f16",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:32:17+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=52 no=13 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "84d0c89cab5bde98e763e4353df5eabcbd426bada830e55568771a530b66e6b3",
-  "prompt_sha256": "cf4b5e0a724e66723a4753b669098f1a835555133ec23c44eda72e4f4a29e5a9",
-  "review_status": "gate_failed",
+  "generated_at_utc": "2026-07-13T01:43:17+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=54 no=13 abstain=8 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "4d84825aa4780f1fac19255cd13a7148e542a0eea2b35ca1613e24045ebce6e3",
+  "prompt_sha256": "99603d319ae20a767ad16ac4e8dd9373a206f4c7d075ee2fccb5e25120e88705",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 18,
+    "fact_verdicts": [
+      {
+        "n": 1,
+        "note": "Action id, type, truncated title, epoch 638, expiry 645, and 1162746000000 lovelace all match SOURCE MATERIAL 0 exactly.",
+        "verdict": "supported"
+      },
+      {
+        "n": 2,
+        "note": "Anchor body.onChain.gov_action.rewards[0] has key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v and value \"1162746000000\". (The separate top-level reward_account field is the deposit-return account stake1uyvjdz9... \u2014 the fact refers to the withdrawal recipient, which is correct.)",
+        "verdict": "supported"
+      },
+      {
+        "n": 3,
+        "note": "Motivation: \"This proposal seeks annual funding for the maintenance and enhancement of Plutarch and Ply.\"",
+        "verdict": "supported"
+      },
+      {
+        "n": 4,
+        "note": "Motivation describes Plutarch as a Haskell eDSL compiling into UPLC, and Ply as serializing Plutarch scripts to/from CIP-57 blueprint-style artifacts with inferred types.",
+        "verdict": "supported"
+      },
+      {
+        "n": 5,
+        "note": "Motivation says \"at least 26 teams\"; rationale says \"conservatively counted at least 15 teams\". The fact reports both figures and their sections correctly; the inconsistency is the anchor's own.",
+        "verdict": "supported"
+      },
+      {
+        "n": 6,
+        "note": "The four-item priority list in the motivation matches verbatim in content and order.",
+        "verdict": "supported"
+      },
+      {
+        "n": 7,
+        "note": "Budget Summary table: WP1 = 1,128,880; Intersect Budget Administration fee = 33,866; Total = 1,162,746. Sums correctly.",
+        "verdict": "supported"
+      },
+      {
+        "n": 8,
+        "note": "Prior Treasury Funding Disclosure lists Fund9 900157 USD 73,040; Fund13 1300141 ADA 487,679; Fund13 1300144 ADA 57,370; and ADA 70,000 from Intersect for Conway-era Plutarch updates.",
+        "verdict": "supported"
+      },
+      {
+        "n": 9,
+        "note": "Rationale, Intersect Budget Process: \"achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase\".",
+        "verdict": "supported"
+      },
+      {
+        "n": 10,
+        "note": "Net Change Limit Compliance section states the 350M NCL covering Epoch 613 to Epoch 713 is not breached alone or in aggregate at time of submission.",
+        "verdict": "supported"
+      },
+      {
+        "n": 11,
+        "note": "Audit & Oversight section states audit/oversight costs are in the overhead and that independent oversight comes via Intersect and a technically capable third-party, with reporting obligations and milestone-based disbursement controls.",
+        "verdict": "supported"
+      },
+      {
+        "n": 12,
+        "note": "All three addresses are listed under Intersect Budget Management Tooling (TRSC stake, TRSC payment, PSSC payment).",
+        "verdict": "supported"
+      },
+      {
+        "n": 13,
+        "note": "Specifics section: single TRSC with one PSSC; five admin and three leadership roles; Oversight Committee of six external, independent third-party entities.",
+        "verdict": "supported"
+      },
+      {
+        "n": 14,
+        "note": "Named verbatim: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.",
+        "verdict": "supported"
+      },
+      {
+        "n": 15,
+        "note": "Matches SOURCE MATERIAL 1 exactly: 15 proposals, 177273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-07-09 16:30:25.",
+        "verdict": "supported"
+      },
+      {
+        "n": 16,
+        "note": "Matches SOURCE MATERIAL 1: yes=54 no=13 abstain=8, explicit ballots, not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "n": 17,
+        "note": "Matches SOURCE MATERIAL 1: 36 epochs, inflow 158689112947739, enacted withdrawals 291435336000000, ratio 1.836518.",
+        "verdict": "supported"
+      },
+      {
+        "n": 18,
+        "note": "values_hierarchy.md ranks treasury stewardship (2) above evidence quality (3) and public-benefit ecosystem growth (4); treasury_spending_doctrine.md states \"Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.\"",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
     "gates": {
-      "different_model_from_drafter": false,
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
-      "sections_grounded_7of7": false
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
     },
+    "material_discrepancies": [],
     "model": "claude-cli",
-    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
+    "not_found": 0,
+    "output_sha256": "80ed7ebbfd1f3725763ba3e25e9a0fd11e7bbeae7f7eb14e01d632625b74f63b",
+    "passed": true,
+    "prompt_sha256": "bb3d3cbeef49448e9bb61361c31c3f83883f92837dca25e03f9d5871529fa3b5",
+    "summary": "All 18 dossier facts are supported by the supplied source material, with no contradictions and no invented specifics. Numbers, addresses, named entities, and doctrine quotes reconcile exactly against the on-chain metadata, the on-chain context block, the doctrine excerpt, and the verbatim anchor. Two items are worth flagging to the analyst as accuracy-preserving observations rather than discrepancies: (a) the anchor itself is internally inconsistent about adoption, claiming 'at least 26 teams' in the motivation and 'conservatively... at least 15 teams' in the rationale \u2014 the dossier reports both faithfully, so the inconsistency belongs to the proposer, not the drafter; and (b) fact 2 refers to the withdrawal recipient (the gov_action rewards key, stake1784sdxt6...), which is correct, though the anchor also carries a distinct top-level reward_account field (stake1uyvjdz9..., the deposit-return account) that should not be confused with it.",
+    "support_ratio": 1.0,
+    "supported": 18,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T21:31:42+00:00"
+    "verdicts_returned": 18,
+    "verified_at_utc": "2026-07-13T01:51:18+00:00"
   }
 }

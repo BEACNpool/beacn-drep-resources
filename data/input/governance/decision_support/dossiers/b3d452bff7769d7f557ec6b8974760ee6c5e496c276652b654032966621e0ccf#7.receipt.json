@@ -5,7 +5,7 @@
     "expires_after_epoch": "645",
     "metadata_title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline",
     "proposed_epoch": "638",
-    "treasury_amount_lovelace": ""
+    "treasury_amount_lovelace": "540750000000"
   },
   "anchor": {
     "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
@@ -23,152 +23,137 @@
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
-  "doctrine_sha256": "7178a8ad997fdddf922ee000bc8c4df1011eeadb6b757f24e6e4bc8cbb36a2c1",
-  "generated_at_utc": "2026-07-08T12:32:20+00:00",
+  "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
+  "generated_at_utc": "2026-07-13T01:43:35+00:00",
   "model": "gpt-5.5",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 14 withdrawal proposals totalling 57273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-06-26 13:51:52)\nonchain DRep vote counts so far: yes=50 no=11 abstain=3 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158838297854652 lovelace, enacted withdrawals 361435336000000 lovelace, ratio 2.275492",
-  "output_sha256": "d158646bc45539c1f01018f3a0139614aa39db3540c3c8086904bcfbc3f94e62",
-  "prompt_sha256": "8ef805aff2f96a19c5376092a26a3f7e18480e85626fff1b144604b55a92d9ee",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=60 no=14 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "e8515d520579eaba33f79cecb8e6f5ef813ab7964c96914fe3c2a9cc4c033365",
+  "prompt_sha256": "9528ff3d99e6520bb4536f67ebf49429473b55bde5a70b9c77ad61a055da1e93",
   "review_status": "approved_agentic",
-  "treasury_doctrine_version": "1.3.0",
+  "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
     "contradicted": 0,
-    "fact_count": 27,
+    "fact_count": 24,
     "fact_verdicts": [
       {
-        "fact": 1,
-        "note": "Action id b3d452bf...0ccf#7, type TreasuryWithdrawals, proposed epoch 638, expires after 645 \u2014 all match SOURCE 0 exactly.",
+        "fact_number": 1,
+        "note": "Source Material 0 states action id b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7, type TreasuryWithdrawals, the exact title, 540750000000 lovelace, proposed epoch 638, expires after 645. All values match.",
         "verdict": "supported"
       },
       {
-        "fact": 2,
-        "note": "body.title matches verbatim, including the 540,750 figure and the 'Maintaining Cardano's Event Pipeline' subtitle.",
+        "fact_number": 2,
+        "note": "Anchor body.onChain.gov_action.rewards: key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v, value \"540750000000\"; policy_hash fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 3,
-        "note": "onChain.gov_action.rewards has key stake1784sdxt...u3j9v with value \"540750000000\"; also matches the lovelace amount in SOURCE 0.",
+        "fact_number": 3,
+        "note": "Anchor motivation: \"requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Oura** ... over 12 months at an annual rate of $105,000 USD.\"",
         "verdict": "supported"
       },
       {
-        "fact": 4,
-        "note": "Motivation states 420,000 ADA plus 105,000 ADA contingency, part-time maintainer, 12 months, $105,000 USD annual rate \u2014 all figures verbatim.",
+        "fact_number": 4,
+        "note": "Anchor Budget Summary table: WP1 - Oura Maintenance and Enhancement 525,000; Intersect Budget Administration fee 15,750; Total 540,750. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 5,
-        "note": "Budget Summary table: WP1 525,000; Intersect Budget Administration fee 15,750; Total 540,750. Arithmetic also consistent with the on-chain 540,750 ADA.",
+        "fact_number": 5,
+        "note": "Anchor motivation: \"Oura is a Rust-native pipeline tool that connects to Cardano nodes, monitors blockchain events, and routes matching patterns to pluggable outputs for processing.\" Verbatim.",
         "verdict": "supported"
       },
       {
-        "fact": 6,
-        "note": "Motivation paragraph 2 states this near-verbatim.",
+        "fact_number": 6,
+        "note": "Anchor motivation lists sources (N2C, N2N, S3, Mithril, UTxO RPC) and sinks (Kafka, Elasticsearch, AWS Lambda/S3/SQS, RabbitMQ, Redis, SQL databases, webhooks, and others). Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 7,
-        "note": "Sources (N2C, N2N, S3, Mithril, UTxO RPC) and sinks (Kafka, Elasticsearch, AWS Lambda/S3/SQS, RabbitMQ, Redis, SQL databases, webhooks, and others) all listed as stated.",
+        "fact_number": 7,
+        "note": "Anchor motivation: \"With 654 commits, 288 stars, 79 forks, and 58 contributors...\" and \"The project remains fully open-source.\" Numbers match.",
         "verdict": "supported"
       },
       {
-        "fact": 8,
-        "note": "'654 commits, 288 stars, 79 forks, and 58 contributors' verbatim; 'remains fully open-source' also stated.",
+        "fact_number": 8,
+        "note": "Anchor motivation: \"Oura has been funded twice through Project Catalyst (Fund 9 and Fund 13) for feature development.\"",
         "verdict": "supported"
       },
       {
-        "fact": 9,
-        "note": "All ten scope items appear in the three bullet areas of the motivation, including the AI-friendly documentation/integration addition.",
+        "fact_number": 9,
+        "note": "Anchor Prior Treasury Funding Disclosure: 30 Catalyst proposals across Funds 9 through 14, 26 delivered, 4 under development and on schedule. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 10,
-        "note": "Motivation: 'funded twice through Project Catalyst (Fund 9 and Fund 13) for feature development.'",
+        "fact_number": 10,
+        "note": "Anchor Prior Treasury Funding Disclosure names Intersect's 2025 budget cycle funding for Pallas, Dolos, and UTxO RPC, \"all of which are being delivered on schedule.\"",
         "verdict": "supported"
       },
       {
-        "fact": 11,
-        "note": "Prior Treasury Funding Disclosure: 30 proposals across Funds 9\u201314, 26 delivered, 4 under development and on schedule \u2014 all numbers match.",
+        "fact_number": 11,
+        "note": "Anchor Intersect Budget Process section: \"achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.\"",
         "verdict": "supported"
       },
       {
-        "fact": 12,
-        "note": "Same section names Pallas, Dolos, and UTxO RPC under Intersect's 2025 budget cycle, 'all of which are being delivered on schedule.'",
+        "fact_number": 12,
+        "note": "Anchor Net Change Limit Compliance section states exactly this, citing the 350M NCL covering Epoch 613 to Epoch 713 and guardrail TREASURY-02a.",
         "verdict": "supported"
       },
       {
-        "fact": 13,
-        "note": "Rationale: 'achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase.'",
+        "fact_number": 13,
+        "note": "Anchor Audit & Oversight section: overhead includes audit and oversight costs; independent oversight via Intersect and technically capable third-party, with reporting obligations and milestone-based disbursement controls.",
         "verdict": "supported"
       },
       {
-        "fact": 14,
-        "note": "NCL Compliance section states exactly this, 350M NCL covering Epoch 613 to Epoch 713, plus guardrail TREASURY-02a.",
+        "fact_number": 14,
+        "note": "Anchor: Intersect will utilize the Sundae Labs treasury management smart contract framework, \"a single Treasury Reserve Smart Contract (TRSC), with one Project-Specific Smart Contracts (PSSC).\"",
         "verdict": "supported"
       },
       {
-        "fact": 15,
-        "note": "Audit & Oversight section states all three clauses, including reporting obligations and milestone-based disbursement controls.",
+        "fact_number": 15,
+        "note": "Anchor: \"The 2026 Treasury Reserve Smart Contract stake address: stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v\" \u2014 matches the reward account in gov_action.",
         "verdict": "supported"
       },
       {
-        "fact": 16,
-        "note": "Tooling section: Sundae Labs framework, new 2026 instance 'mirroring the contracts from the 2025 budget cycle.'",
+        "fact_number": 16,
+        "note": "Anchor: \"The Oversight Committee consists of Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.\" All six names match.",
         "verdict": "supported"
       },
       {
-        "fact": 17,
-        "note": "All three bech32 addresses match the anchor character-for-character (TRSC stake, TRSC payment, PSSC payment).",
+        "fact_number": 17,
+        "note": "Anchor Processes section: \"funding for this project will be transferred using the Fund action to the PSSC. All milestones will be outlined within the metadata.\" The supplied anchor text indeed contains no milestone schedule \u2014 the absence is verifiable within the material.",
         "verdict": "supported"
       },
       {
-        "fact": 18,
-        "note": "Five admin + three leadership roles; Oversight Committee of six named exactly: Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, Eternl.",
+        "fact_number": 18,
+        "note": "Source Material 1 states 15 withdrawal proposals totalling 177273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-07-09 16:30:25, for that stake address. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 19,
-        "note": "TRSC Disburse threshold (2/5 admins, 3/6 trusted entities, 2/3 leadership) matches the permissions list verbatim.",
+        "fact_number": 19,
+        "note": "Source Material 1: \"onchain DRep vote counts so far: yes=60 no=14 abstain=4 (explicit ballots, not stake-weighted).\" Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 20,
-        "note": "Processes section states the TRSC-stake-address flow, withdrawal to a UTxO at the TRSC payment address, Fund action to PSSC once legal contract and vendor are ready, milestones in metadata.",
+        "fact_number": 20,
+        "note": "Source Material 1: treasury flow (36 epochs) inflow 158689112947739, enacted withdrawals 291435336000000, ratio 1.836518. Exact match.",
         "verdict": "supported"
       },
       {
-        "fact": 21,
-        "note": "Dashboard at treasury.sundae.fi for auditing TRSC/PSSC and tracking metrics, 'immutably verifiable on chain.'",
+        "fact_number": 21,
+        "note": "values_hierarchy.md orders: 1 constitutional integrity/protocol safety, 2 treasury stewardship and downside protection, 3 evidence quality and reproducibility, 4 public-benefit ecosystem growth, 5 execution speed and social consensus momentum. The stated relative ordering is correct.",
         "verdict": "supported"
       },
       {
-        "fact": 22,
-        "note": "SOURCE 1: 14 withdrawal proposals, 57273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-06-26 13:51:52 \u2014 all match.",
+        "fact_number": 22,
+        "note": "treasury_spending_doctrine.md, Dossier Gate Posture: \"Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.\"",
         "verdict": "supported"
       },
       {
-        "fact": 23,
-        "note": "SOURCE 1: yes=50 no=11 abstain=3, explicitly noted as ballots not stake-weighted.",
+        "fact_number": 23,
+        "note": "treasury_spending_doctrine.md, Counterfactual risk bullet: for established infrastructure the engine evaluates ecosystem cost of non-funding, workflow dependency, replacement difficulty, sustained operation, and verified adoption alongside spending risk.",
         "verdict": "supported"
       },
       {
-        "fact": 24,
-        "note": "SOURCE 1: inflow 158838297854652, enacted withdrawals 361435336000000, ratio 2.275492 \u2014 all three figures match.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 25,
-        "note": "values_hierarchy.md orders: (1) constitutional integrity/protocol safety, (2) treasury stewardship/downside protection, (3) evidence quality, (4) public-benefit ecosystem growth.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 26,
-        "note": "Content is stated in the doctrine: 'judge directionally on the available public record with a caution penalty (dossier soft gate...) \u2014 in practice NO or ABSTAIN on thin asks.' Minor citation imprecision only: this language lives in values_hierarchy.md's conflict-handling defaults (which itself references treasury_spending_doctrine.json v1.1.0+), not in the Dossier Gate Posture section of treasury_spending_doctrine.md. A mislabeled section pointer with accurate content is not a material discrepancy.",
-        "verdict": "supported"
-      },
-      {
-        "fact": 27,
-        "note": "Prioritization section: 'proposals are not funded by submission order. They are funded by DRep approval weight, descending' within the available budget.",
+        "fact_number": 24,
+        "note": "values_hierarchy.md conflict-handling default: \"If treasury upside is plausible but non-verifiable: judge directionally on the available public record with a caution penalty (dossier soft gate...) \u2014 in practice NO or ABSTAIN on thin asks.\"",
         "verdict": "supported"
       }
     ],
@@ -183,17 +168,17 @@
     "material_discrepancies": [],
     "model": "claude-cli",
     "not_found": 0,
-    "output_sha256": "acf572e4eadf0374ded0583f81cb8e8f9b1ac1f6d8fe8fd545a8ee6bd7b781d6",
+    "output_sha256": "630df6fdcf599656fb3e4960a9655a4181684db162edc6ec7839e2c11763e6fa",
     "passed": true,
-    "prompt_sha256": "698edce5d47238555af0d8f5cb92b4d3930e4953d1ac65c90abaaff83727ed4f",
-    "summary": "All 27 facts are supported by the source material with exact matches on every checked number (540,750 ADA / 540750000000 lovelace; 420,000 + 105,000; 525,000 + 15,750; 654/288/79/58; 30/26/4; 67%; 350M NCL over epochs 613\u2013713; 14 proposals / 57273260000000 lovelace; yes=50/no=11/abstain=3; inflow 158838297854652 / withdrawals 361435336000000 / ratio 2.275492; epochs 638/645), every quoted string, and all three smart-contract addresses verified character-for-character. No contradicted or not_found facts and no invented specifics. One non-material note: fact 26 attributes the soft-gate NO/ABSTAIN language to treasury_spending_doctrine.md's Dossier Gate Posture section, but the quoted guidance actually appears in values_hierarchy.md's conflict-handling defaults; the content itself is accurate, so no material discrepancy is recorded.",
+    "prompt_sha256": "f43bb10e586181d762af04768559fcea3f06f07867a7e28485b37cde2b34199b",
+    "summary": "All 24 dossier facts are supported by the supplied material, with no contradictions and no invented figures, names, dates, or commitments. Facts 1-2 and 18-20 reproduce the on-chain action metadata and context block exactly (action id, 540750000000 lovelace, epochs 638/645, policy hash, recipient history, vote counts, treasury-flow figures). Facts 3-17 track the anchor document, including every checkable number (420,000 + 105,000 ADA, $105,000/yr, 525,000 / 15,750 / 540,750 ADA, 654/288/79/58 GitHub stats, 30 Catalyst proposals with 26 delivered and 4 in progress, the 67% Hydra threshold, and the 350M NCL over Epochs 613-713) and every named entity (the six Oversight Committee members, the Sundae Labs framework, the TRSC stake address). Facts 21-24 restate the doctrine accurately. One non-material note for the reader, not a discrepancy against any fact: the doctrine material itself carries two gate postures \u2014 treasury_spending_doctrine.md describes a hard gate (NEEDS_MORE_INFO) while values_hierarchy.md describes a soft-gate caution-penalty path (NO or ABSTAIN on thin asks) \u2014 and facts 22 and 24 each quote their respective source correctly. Which posture governs the vote is a judgment call for the decision-maker, not an accuracy defect in the dossier.",
     "support_ratio": 1.0,
-    "supported": 27,
+    "supported": 24,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verdicts_returned": 27,
-    "verified_at_utc": "2026-07-12T14:49:59+00:00"
+    "verdicts_returned": 24,
+    "verified_at_utc": "2026-07-13T01:51:53+00:00"
   }
 }

@@ -13,8 +13,39 @@
       "value": "no"
     },
     "cost_compared_to_market": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "2f053756779e2cf3bf4665d04d7294c6862393d40dbcf288bce84a41084b2090",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-ipfs-io-8d8d4922f7.snap",
+          "url": "https://ipfs.io/ipfs/QmQ6cDaLLeBMnf1zio7Xn8jV8uTUk68tPirx5uKH6HLr3L"
+        },
+        {
+          "sha256": "2f053756779e2cf3bf4665d04d7294c6862393d40dbcf288bce84a41084b2090",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-dweb-link-910456e2b2.snap",
+          "url": "https://dweb.link/ipfs/QmQ6cDaLLeBMnf1zio7Xn8jV8uTUk68tPirx5uKH6HLr3L"
+        },
+        {
+          "sha256": "76976f6c88556f9705c22e831433b83ca39fe57d958c521974c0bc944aa89109",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-ipfs-io-2e35b295f4.snap",
+          "url": "https://ipfs.io/ipfs/bafkreidws5xwzccvn6lqlqroqmkdhob4uop6k7mvrrjbs5gaxskevkerbe"
+        },
+        {
+          "sha256": "46f2ff4373574c808e3ff262ad09f178e6699c7bb6211a7458873503f60826e2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-ipfs-io-742a893f14.snap",
+          "url": "https://ipfs.io/ipfs/bafkreicg6l7ug42xjsai4p7smkwqt4ly4zuzy65weenhiwehgub7mcbg4i"
+        },
+        {
+          "sha256": "96f578a4219df1af315d48c7b1b205a7d4681fad708c0a3230c45669d229f12f",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-api-coingecko-com-bfd46f4a30.snap",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd"
+        },
+        {
+          "sha256": "305e7e8cca57843042503bb8c00b1bcdd1276f73a5404d7362e824a529f52ca2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-api-github-com-78072aba9f.snap",
+          "url": "https://api.github.com/repos/input-output-hk/daedalus/releases"
+        }
+      ],
+      "value": "yes"
     },
     "credible_prior_delivery": {
       "sources": [
@@ -135,8 +166,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "5638dce7b2360cdea8ba04ae975fecebfdff0051b809581fbd27037b92dee950",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-ipfs-io-68a73ea545.snap",
+          "url": "https://ipfs.io/ipfs/QmdWtCCvK6CJUzP4SFiuL5W8hg3eNr5LyngJHnwjoNxJey"
+        },
+        {
+          "sha256": "5638dce7b2360cdea8ba04ae975fecebfdff0051b809581fbd27037b92dee950",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/d8de068952df-dweb-link-41f2e94fc8.snap",
+          "url": "https://dweb.link/ipfs/QmdWtCCvK6CJUzP4SFiuL5W8hg3eNr5LyngJHnwjoNxJey"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [
@@ -155,5 +197,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:42+00:00"
+  "pinned_at_utc": "2026-07-13T02:12:20+00:00"
 }

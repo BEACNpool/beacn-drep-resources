@@ -18,32 +18,209 @@
     "reason": null
   },
   "anchor_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:42:43+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain DRep vote counts so far: yes=147 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "b895b312bb75d361a5978ead773efb1137ff99a6505134644cd467046675c126",
-  "prompt_sha256": "189e07dad769f423f86224a97b7eae7b58b6c03369361df1785627d1717d4804",
-  "review_status": "gate_failed",
+  "generated_at_utc": "2026-07-13T01:42:11+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain DRep vote counts so far: yes=148 no=15 abstain=13 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "e150b503ffa2f66a5120564cf3967a2f320da5ffdf222c488eb74487e632e91e",
+  "prompt_sha256": "64fbca525043e1351693500d5b14a1c14a37c372eccde493e3ab3face2b879e9",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 27,
+    "fact_verdicts": [
+      {
+        "evidence": "Source 0: 'Action id: d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0' \u2014 exact string match.",
+        "fact": "Action id is d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0.",
+        "n": 1,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0: 'Action type: TreasuryWithdrawals'.",
+        "fact": "Action type is TreasuryWithdrawals.",
+        "n": 2,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0 title line and Source 3 body.title both read 'Reimburse Ikigai Info Governance Action Deposit.' (trailing period included).",
+        "fact": "Title is \"Reimburse Ikigai Info Governance Action Deposit.\"",
+        "n": 3,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0: 'Treasury amount (lovelace): 103000000000'; 103000000000 / 1e6 = 103,000 ADA, which the anchor rationale independently states ('requesting an amount of 103,000 ADA').",
+        "fact": "Treasury amount is 103000000000 lovelace, equivalent to 103,000 ADA.",
+        "n": 4,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0: 'Proposed epoch: 636  Expires after: 643'.",
+        "fact": "Proposed epoch is 636 and the action expires after epoch 643.",
+        "n": 5,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 1: 'yes=148 no=15 abstain=13 (explicit ballots, not stake-weighted)' \u2014 all three integers and the qualifier match.",
+        "fact": "On-chain DRep vote counts supplied so far are yes=148, no=15, abstain=13, described as explicit ballots and not stake-weighted.",
+        "n": 6,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 1: 'treasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518' \u2014 digit-for-digit match on all three figures.",
+        "fact": "Supplied treasury flow for the prior 36 epochs states inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518.",
+        "n": 7,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 abstract: 'In September 2024, only weeks after the Chang hard fork to introduce on-chain governance, an Info governance action titled Cardano\u306e\u751f\u304d\u304c\u3044 - Ikigai - was submitted.'",
+        "fact": "The anchor abstract says an Info governance action titled \"Cardano\u306e\u751f\u304d\u304c\u3044 - Ikigai -\" was submitted in September 2024, weeks after the Chang hard fork.",
+        "n": 8,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 abstract: 'This was only a symbolic governance action, as it simply asked the community whether they agreed with a statement thanking those that helped get Cardano to this point and expressing a sense of hope for the future.'",
+        "fact": "The anchor says the prior Ikigai action was symbolic and asked the community whether they agreed with a statement thanking those who helped Cardano reach that point and expressing hope for the future.",
+        "n": 9,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 abstract: 'due to a bug in the code of the Cardano node that permitted an unregistered stake key to be used in the governance action, the submitter was unable to recover their deposit of 100K ADA.'",
+        "fact": "The anchor says a Cardano node bug permitted an unregistered stake key to be used in the governance action, and that the submitter was unable to recover a deposit of 100K ADA.",
+        "n": 10,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 abstract: 'The Cardano in Oceania initiative did include the deposit reimbursement in their budget Info governance action, however their governance action was not approved.'",
+        "fact": "The anchor says the Cardano in Oceania initiative included the reimbursement in its budget Info governance action, but that governance action was not approved.",
+        "n": 11,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 rationale: 'requesting an amount of 103,000 ADA. In addition to the original 100,000 ADA ... includes an additional 3,000 ADA to compensate for staking rewards at a rate of 2% per annum.' All three figures and the rate match.",
+        "fact": "The anchor requests 103,000 ADA: 100,000 ADA for the lost deposit and 3,000 ADA for lost staking rewards at a rate of 2% per annum.",
+        "n": 12,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.1: 'Period of delivery: This will be instantly performed as part of the governance action's enactment on-chain.'",
+        "fact": "The anchor states the period of delivery will be instantly performed as part of enactment on-chain.",
+        "n": 13,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.1: 'Relevant costs and expenses: There are no costs or expenses associated with this treasury withdrawal.'",
+        "fact": "The anchor states there are no costs or expenses associated with the treasury withdrawal.",
+        "n": 14,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.1: 'There are no circumstances for refunding to the treasury.'",
+        "fact": "The anchor states there are no circumstances for refunding to the treasury.",
+        "n": 15,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.2: 'The recipient of this reimbursement has not previously received funds from the treasury.'",
+        "fact": "The anchor states the recipient of this reimbursement has not previously received funds from the treasury.",
+        "n": 16,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.3: 'The requested amount does not exceed the current Net Change Limit.' (The fact is scoped to what the anchor asserts, which is what the anchor says; it is not a claim that the assertion was independently verified.)",
+        "fact": "The anchor states the requested amount does not exceed the current Net Change Limit.",
+        "n": 17,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.4: 'As the funds will be made available directly to the intended recipient, the Cardano community will be able to audit the distribution on-chain.'",
+        "fact": "The anchor states the Cardano community will be able to audit the distribution on-chain because funds will be made available directly to the intended recipient.",
+        "n": 18,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.4: 'Therefore, no amount of ADA is required for audits and oversight metrics.'",
+        "fact": "The anchor states no ADA is required for audits and oversight metrics.",
+        "n": 19,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.5: 'While funds administration is not required, as the funds are being immediately distributed, in order to comply with this requirement the DReps are nominated as the \"Administrator\", as they will be responsible for executing the distribution.' Both halves of the fact, including the tension between them, are present verbatim.",
+        "fact": "The anchor states DReps are nominated as the \"Administrator\" to comply with the administrator requirement, while also stating funds administration is not required because funds are immediately distributed.",
+        "n": 20,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3, Article II.7.6: 'The funds will not be held by an Administrator, so no compliance regarding the wallet's delegation is required.'",
+        "fact": "The anchor states funds will not be held by an Administrator.",
+        "n": 21,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 3 references array contains exactly one entry with that uri; the hex string matches character-for-character. Note it is the sole reference and carries an empty label, but the fact as stated is accurate.",
+        "fact": "The anchor references https://adastat.net/governances/59fd353253eb177e2104e8f23ea4c63e3d32ef95c7865d03e90d3884424dc1db00.",
+        "n": 22,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 2, values_hierarchy.md: treasury stewardship is rank 2, evidence quality rank 3, public-benefit growth rank 4, execution speed / social consensus rank 5. The stated ordering holds.",
+        "fact": "BEACN doctrine ranks treasury stewardship and downside protection above evidence quality and reproducibility, public-benefit ecosystem growth, and execution speed or social consensus momentum.",
+        "n": 23,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 2, treasury_spending_doctrine.md, Dossier Gate Posture: 'Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.'",
+        "fact": "BEACN doctrine says the hard gate is that incomplete independently verified diligence means NEEDS_MORE_INFO, never automatic NO.",
+        "n": 24,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 2, values_hierarchy.md: 'Confidence is a statement about verified evidence coverage, never about penalty size.' The dossier fact reproduces the affirmative half accurately.",
+        "fact": "BEACN doctrine says confidence is a statement about verified evidence coverage.",
+        "n": 25,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 2, Core Position: 'This doctrine rejects first-come-first-served (FCFS) budget models and adopts a rolling-window Net Change Limit (NCL) framework that rewards proposal quality over submission timing.'",
+        "fact": "BEACN doctrine rejects first-come-first-served budget models and adopts a rolling-window Net Change Limit framework.",
+        "n": 26,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 2, Foundational Axiom: 'When evaluating any TreasuryWithdrawals action, apply this axiom: if the work described can be substantially accelerated by AI tooling, the budget should reflect post-AI costs, not legacy labor models.'",
+        "fact": "BEACN doctrine says for TreasuryWithdrawals, if work can be substantially accelerated by AI tooling, the budget should reflect post-AI costs.",
+        "n": 27,
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
     "gates": {
-      "different_model_from_drafter": false,
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
-      "sections_grounded_7of7": false
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
     },
+    "material_discrepancies": [],
     "model": "claude-cli",
-    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
+    "not_found": 0,
+    "output_sha256": "e147806237e9e69cbd1a7ccec69c70724e056dbed81f8ecc3566a2bd2d79f7e4",
+    "passed": true,
+    "prompt_sha256": "ca8735a92ab101cc565dde0a8811ee35139f9477ec9b19013d7ed60add1a1839",
+    "summary": "All 27 dossier facts are supported by the supplied source material, with zero contradictions and zero not_found. Every number I checked matches its source digit-for-digit: the action id hash, the 103000000000 lovelace amount and its 103,000 ADA conversion (100,000 deposit + 3,000 rewards at 2% per annum), epochs 636/643, the vote counts 148/15/13, and the treasury-flow triple (inflow 158689112947739, withdrawals 291435336000000, ratio 1.836518). Named entities are also clean: the Chang hard fork, the Plomin hard fork context, the Cardano in Oceania initiative, and the Ikigai action title including its Japanese characters all appear as stated. The three doctrine facts (values ordering, the NEEDS_MORE_INFO hard gate, the FCFS rejection / rolling-window NCL, and the post-AI-cost axiom) quote the doctrine text accurately. I found no invented specifics \u2014 no figure, name, date, or commitment in the dossier that lacks a source. Two observations that are NOT verdict-affecting but that a reader of the dossier should keep in mind: (a) facts 17, 18, 20 and 21 are correctly framed as reports of what the anchor ASSERTS, and I verified them only at that level \u2014 the anchor's NCL-adherence claim (II.7.3) and its recipient-never-previously-funded claim (II.7.2) are self-attested by the proposer and are not corroborated anywhere in the on-chain context block, so the dossier's downstream reasoning should not treat them as independently verified; (b) the anchor's Administrator section is internally tense \u2014 it simultaneously says administration is not required and nominates DReps as Administrator \u2014 and fact 20 faithfully records that tension rather than smoothing it over, which is the correct handling.",
+    "support_ratio": 1.0,
+    "supported": 27,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T21:31:42+00:00"
+    "verdicts_returned": 27,
+    "verified_at_utc": "2026-07-13T01:50:20+00:00"
   }
 }

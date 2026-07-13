@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<title></title>
+
+<meta property="og:type" content="website">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="view-transition" content="same-origin">
+<link rel="canonical" href="https://www.cardanocube.com/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0tSdg_l68DD09tPH20BOVanG7yz1LQxryuuh-7nGsRip9crlSnJOUJGQtL3fVzgLt-UczaLWo-CZxEpVxl1uSQ" />
+
+<meta name="action-cable-url" content="/cable" />
+
+<link rel="stylesheet" href="/assets/application-62007246c1bb3726abe2304532c6185a0f7ca90fbf4ea975e90bf7f8e9f4d4c2.css" data-turbo-track="reload" />
+<script src="/assets/application_entry-f6a89c5c312993b43103509b1f826ea580e8dc4954cdc675d0ed36ce1236ef18.js" type="module" data-turbo-track="reload"></script>
+
+
+<link rel="stylesheet" href="/assets/hotwire_combobox-85c2bc86d929df928ff6268617e1558cb18c6a69f8c81e8a89fe9562dcd9c355.css" />
+
+
+
+<link href="/assets/favicon-34c283cf5506363bbc0a8c9d90e932a0cbcf5c152add75ce474f87d4ad904b9e.png" rel="shortcut icon" type="image/x-icon">
+<link href="/assets/webclip-8bb68a86c5c2ab371bc5fc1541d435a032d81c65132e9df62b6c13b79d2bc097.png" rel="apple-touch-icon">
+
+</head>
+<body class=""
+      data-controller="application wallet-select"
+      data-page-type="governance_gov_actions_show"
+      data-wallet-connect-network="mainnet"
+      data-action="wallet-connect:connected@document->wallet-select#onConnectionSuccess
+                  wallet-connect:connectionFailure@document->wallet-select#onConnectionFailure"
+      data-wallet-select-connection-status-icon-success-class="fa-solid fa-plug-circle-bolt fs-5 text-primary"
+      data-wallet-select-connection-status-icon-failure-class="fa-solid fa-plug-circle-minus fs-5 text-alert"
+      data-wallet-select-signature-status-icon-success-class="fa-solid fa-pen-nib fs-5 text-primary"
+      data-wallet-select-signature-status-icon-failure-class="fa-solid fa-pen-nib fs-5 text-alert"
+      data-wallet-select-hidden-class="d-none"
+      data-authenticated="false"
+      data-sign-in-path="/sign_in">
+
+  
+
+  <header class="pt-4 position-relative" data-controller="navigation header-analytics" data-action="click->header-analytics#trackClick" data-navigation-open-class="open">
+  <button type="button" class="backdrop position-fixed z-2 d-lg-none top-0 left-0 border-0 w-100 h-100" aria-label="Toggle navigation" data-action="click->navigation#toggleMenu" data-navigation-target="aria" aria-expanded="false">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+  <div class="container-xxl g-5">
+    <div class="row">
+      <div class="d-flex gap-4 position-relative">
+        <div class="d-flex flex-fill gap-3 position-relative z-2 align-items-center w-100">
+          <a href="/" class="d-flex align-items-center text-decoration-none position-relative me-auto order-0 gap-2">
+            <div class="fs-11">
+              
+<div class="cube-loader" data-controller="cube-spinner">
+  <div class="base"></div>
+  <div class="scene">
+    <div class="cube">
+      <div class="face front"></div>
+      <div class="face back"></div>
+      <div class="face right"></div>
+      <div class="face left"></div>
+      <div class="face bottom"></div>
+      <div class="face top"></div>
+    </div>
+  </div>
+  <div class="top-plane"></div>
+</div>
+            </div>
+            <img class="d-none d-sm-block" loading="eager" alt="" src="/assets/cardano_cube_text_logo-5dd08a95a39926a9dfb65a86b331647e1360440a2958aa3899f8cb0eba51b3cd.svg" />
+          </a>
+
+            <a class="mobile-btn d-flex d-lg-none justify-content-center align-items-center btn btn-outline-grey p-2 order-2" href="/sign_in">
+              <i class="fa fa-user text-light"></i>
+</a>
+          <div class="mobile-btn d-flex flex-nowrap order-3" data-controller="global-search-analytics">
+            <form class="d-lg-flex col-auto w-100" action="search_url" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bhwq0i2DMPHnslClAiWZsRbrq4CiSqdBLs4Y8CwWL0l5Ap0NgV7O4PK6knuwFr2j0Tc7wRq3P3GBht7-QrGwWg" autocomplete="off" />
+              <fieldset class="hw-combobox" data-async-id="search" data-controller="hw-combobox" data-hw-combobox-expanded-value="false" data-hw-combobox-name-when-new-value="search" data-hw-combobox-original-name-value="search" data-hw-combobox-autocomplete-value="both" data-hw-combobox-small-viewport-max-width-value="990px" data-hw-combobox-async-src-value="/searches/globals?for_id=search&amp;format=turbo_stream" data-hw-combobox-filterable-attribute-value="data-filterable-as" data-hw-combobox-autocompletable-attribute-value="data-autocompletable-as" data-hw-combobox-selected-class="hw-combobox__option--selected" data-hw-combobox-invalid-class="hw-combobox__input--invalid">
+  <label class="hw-combobox__label" for="search" hidden="hidden"></label>
+
+  
+<input type="hidden" name="search" id="search-hw-hidden-field" data-hw-combobox-target="hiddenField" autocomplete="off" />
+
+
+  <div class="hw-combobox__main__wrapper" data-hw-combobox-target="mainWrapper">
+    <style>
+      .hw-combobox__announcer {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+
+      .hw_combobox__pagination__wrapper {
+        height: 5px;
+      }
+</style>    <div class="hw-combobox__announcer" aria-live="polite" aria-atomic="true" data-hw-combobox-target="announcer"></div>
+    <input id="search" role="combobox" class="form-control text-bg-dark bg-transparent" type="search" data-action="focus-&gt;hw-combobox#open input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside focusin@window-&gt;hw-combobox#closeOnFocusOutside turbo:before-stream-render@document-&gt;hw-combobox#rerouteListboxStreamToDialog turbo:before-cache@document-&gt;hw-combobox#hideChipsForCache turbo:morph-element-&gt;hw-combobox#idempotentConnect" data-hw-combobox-target="combobox" data-async-id="search" aria-controls="search-hw-listbox" aria-owns="search-hw-listbox" aria-haspopup="listbox" aria-autocomplete="both" aria-activedescendant="" autocomplete="off" placeholder="Search ...">
+<span class="hw-combobox__handle" data-action="click-&gt;hw-combobox#clearOrToggleOnHandleClick" data-hw-combobox-target="handle"></span>
+
+    <ul id="search-hw-listbox" role="listbox" class="hw-combobox__listbox" hidden="hidden" data-hw-combobox-target="listbox" aria-multiselectable="false">
+
+    
+<li id="search__hw_combobox_pagination__wrapper" class="hw_combobox__pagination__wrapper" data-hw-combobox-target="endOfOptionsStream" aria-hidden="true">
+  <turbo-frame loading="lazy" id="search__hw_combobox_pagination" src="/searches/globals?for_id=search&amp;format=turbo_stream"></turbo-frame>
+</li>
+</ul>
+    <div tabindex="-1" data-hw-combobox-target="dialogFocusTrap"></div>
+
+<div class="hw-combobox__dialog__wrapper">
+  <dialog class="hw-combobox__dialog" role="dialog" data-action="keydown-&gt;hw-combobox#navigate" data-hw-combobox-target="dialog">
+    <label class="hw-combobox__dialog__label" for="search-hw-dialog-combobox"></label>
+    <input id="search-hw-dialog-combobox" role="combobox" class="hw-combobox__dialog__input" autofocus="autofocus" type="search" data-action="input-&gt;hw-combobox#filterAndSelect keydown-&gt;hw-combobox#navigate click@window-&gt;hw-combobox#closeOnClickOutside" data-hw-combobox-target="dialogCombobox" aria-controls="search-hw-dialog-listbox" aria-owns="search-hw-dialog-listbox" aria-autocomplete="both" aria-activedescendant="">
+    <ul id="search-hw-dialog-listbox" class="hw-combobox__dialog__listbox" role="listbox" data-hw-combobox-target="dialogListbox" aria-multiselectable="false"></ul>
+</dialog></div>
+</div></fieldset>
+</form>          </div>
+
+          <div class="d-none d-lg-flex flex-nowrap align-items-center ms-2 order-4">
+              <a class="btn btn-outline-transparent-light me-2 py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/sign_in">Sign in</a>
+              <a class="btn btn-primary py-2 text-nowrap" data-header-event="auth_cta_click" data-header-method="email" data-header-location="header" href="/register">Register</a>
+          </div>
+
+          <div class="mobile-btn d-flex d-lg-none order-5">
+            <button aria-label="Toggle navigation" data-navigation-target="aria" aria-expanded="false" type="button" data-action="click->navigation#toggleMenu" class="hamburger-menu btn btn-outline-grey p-2">
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+              <div class="bar rounded my-1"></div>
+            </button>
+          </div>
+
+          <div class="menu-wrapper d-none d-lg-block d-flex flex-nowrap w-100 justify-content-end order-1">
+            <div class="nav-wrapper d-lg-flex align-items-center justify-content-between rounded-3 p-3 p-lg-0 rounded-lg-0">
+
+                <ul class="nav d-none d-lg-flex gap-2 justify-content-start mt-0 px-3 px-lg-0 mb-3 mb-lg-0">
+                  <li class="nav-item position-relative flex-wrap justify-content-between align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Explore <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-ecosystem-interactive-map">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-map"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Ecosystem Map</h6>
+                              <small class="text-grey">An ecosystem overview</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/explore">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-compass"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore all projects</h6>
+                              <small class="text-grey">Find Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/governance">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-scale-balanced"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Explore Governance</h6>
+                              <small class="text-grey">Governance Actions, DReps, Voting</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/popular">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-fire"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Popular</h6>
+                              <small class="text-grey">Popular Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/latest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-list"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">New projects</h6>
+                              <small class="text-grey">Recently added Cardano projects</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/suggest">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-plus"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Suggest a Project</h6>
+                              <small class="text-grey">Suggest a project to be added</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Community <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/cardano-community">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-user-group"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Cardano Community</h6>
+                              <small class="text-grey">Explore Community Members</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/projects/graveyard">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-skull"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Graveyard</h6>
+                              <small class="text-grey">The Cardano Archive</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item position-relative flex-wrap align-items-center d-block d-lg-flex flex-lg-nowrap">
+                    <a class="nav-link px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex align-items-center justify-content-between" data-action="click-&gt;navigation#toggleItem:prevent" href="#">
+                      Resources <i class="fa fa-chevron-down text-light ms-1"></i>
+</a>
+                    <div class="dropdown-menu shadow-lg bg-white rounded-3 m-0 p-0 py-2 py-lg-4 position-absolute left-0 top-100 left-lg-n3 px-lg-4 mb-4">
+                      <ul class="list-style-none">
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/articles">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-graduation-cap"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">News & Articles</h6>
+                              <small class="text-grey">Articles, News and Updates</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/resources/videos">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-play"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Videos</h6>
+                              <small class="text-grey">The latest Cardano videos</small>
+                            </div>
+</a>                        </li>
+
+                        <li class="border-bottom border-light pb-2 mb-2">
+                          <a class="d-block position-relative py-2 d-flex gap-3 align-items-center" href="/categories/developer-tools">
+                            <div class="rounded-circle rounded-circle-sm d-flex align-items-center justify-content-center"><i class="fa fa-code"></i></div>
+                            <div>
+                              <h6 class="fw-semibold m-0">Developer Hub</h6>
+                              <small class="text-grey">Everything a developer needs</small>
+                            </div>
+</a>                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+  <div class="row pb-4 mt-5 hero">
+    <div class="col-12">
+      <p>
+        <a class="breadcrumb-link btn btn-dark text-uppercase" href="/governance/gov_actions">
+          <i class="fa fa-chevron-left opacity-50 me-2"></i><span>All Governance Actions</span>
+</a>      </p>
+    </div>
+
+    <div class="row mb-5">
+      <div class="d-flex flex-column flex-md-row gap-4 align-items-md-center mb-4 mb-lg-5">
+
+        <div class="d-flex flex-column col-12 gap-3">
+          <h1>Withdraw ₳15,750,000 for a MBO for the Cardano ecosystem: Intersect</h1>
+
+          <div class="d-none d-lg-flex flex-column gap-1">
+            <div>
+              <span class="badge bg-grey text-white">Bech32</span> <span class="text-break font-monospace fs-8">gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6</span>
+            </div>
+            <div>
+              <span class="badge bg-grey text-white">Tx Ref.</span> <span class="text-break font-monospace fs-8">8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#21</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+</header>
+
+
+  <turbo-frame id="modal"></turbo-frame>
+
+  
+<section class="main-content bg-light pb-5" data-controller="article" data-article-allow-toc-value="true" data-article-content-id-value="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6" data-article-content-type-value="gov_action" data-article-toc-wrapper-classes-value="toc-wrapper position-relative position-lg-sticky top-lg-2 list-group list-group-flush" data-article-toc-link-classes-value="list-group-item bg-transparent border-light fs-6 text-grey" data-article-toc-link-active-class="current" data-action="scroll@window->article#highlightTocItem">
+  <div class="container-xxl g-5">
+
+    <div class="row pt-6 fs-5 lh-lg flex-column-reverse flex-lg-row">
+
+      <div class="col-12 col-lg-9 position-relative">
+        
+<turbo-frame id="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6_tallies" target="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6_tallies">
+    
+<div class="row row-cols-1 row-cols-md-2 align-items-stretch mt-lg-n9 mb-8">
+  <div class="col mt-0">
+  <div class="h-100 bg-white rounded p-3 mb-4 shadow">
+    <div class="bg-light h-100 position-relative">
+
+      <div class="bg-white d-flex flex-wrap gap-2 align-items-center justify-content-between pb-3">
+        <h5 class="m-0">DRep Votes</h5>
+        
+<div class="btn-group btn-group-sm" role="group" aria-label="Vote tally mode">
+    <span class="btn btn-dark" title="The votes presented here are calculated from the ledger snapshot taken in epoch 575, looking back through votes submitted up to the end of the previous epoch." data-controller="tooltip" aria-pressed="true">Active</span>
+</div>
+
+      </div>
+
+      <div class="bg-light rounded p-2 fs-8">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item border-0 bg-light">
+            <div class="progress">
+                <svg
+                  class="progress-threshold-marker"
+                  viewBox="0 0 10 10"
+                  style="left: 67.00%;"
+                  title="Ratification Threshold: ₳ 3.56B (67%)" data-controller="tooltip">
+                  <polygon points="0,0 10,0 5,5" />
+                  <rect x="4.5" y="5" width="1" height="10" />
+                </svg>
+              <div class="progress-bar bg-green"
+                title="Yes: 69.92%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 69.92%"
+                aria-valuenow="69.92329496325047"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+
+              <div class="progress-bar bg-medium-grey"
+                title="Not Voted: 15.45%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 15.45%"
+                aria-valuenow="15.447905641272081"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+
+              <div class="progress-bar bg-orange-20"
+                title="Auto No-Confidence: 3.23%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 3.23%"
+                aria-valuenow="3.225495373823199"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+
+              <div class="progress-bar bg-orange"
+                title="Explicit No: 11.40%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 11.40%"
+                aria-valuenow="11.403304021654254"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item bg-light bg-light border-light text-dark-grey">
+            <div class="text-end">
+              Total Stake: ₳ 12.91B
+            </div>
+          </li>
+
+          <li class="list-group-item d-flex align-items-center justify-content-between bg-light bg-light border-light text-primary">
+            <div class="fw-bolder">Yes Votes (Stake)</div>
+            <div class="text-end">
+              ₳ 3.71B
+            </div>
+          </li>
+
+          <li class="list-group-item text-dark-grey bg-light border-light">
+            <div class="d-flex align-items-center justify-content-between text-orange">
+              <div class="fw-bolder">Total No (Stake)</div>
+              <div class="text-end">
+                ₳ 1.6B
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end text-orange">
+              <div class="w-60">Explicit No</div>
+              <div class="w-40">₳ 605.77M</div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end text-orange-20">
+              <div class="w-60">No Confidence</div>
+              <div class="w-40">₳ 171.35M</div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end">
+              <div class="w-60">Not Voted</div>
+              <div class="w-40">₳ 820.63M</div>
+            </div>
+          </li>
+
+          <li class="list-group-item bg-light border-light text-grey">
+            <div class="d-flex align-items-center justify-content-between text-dark-grey">
+              <div class="fw-bolder">Excluded (Stake)</div>
+              <div class="text-end">
+                ₳ 7.6B
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end">
+              <div class="w-60">Explicit Abstain</div>
+              <div class="w-40">₳ 151.44M</div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end">
+              <div class="w-60">Auto Abstain</div>
+              <div class="w-40">₳ 7.35B</div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end">
+              <div class="w-60">Inactive</div>
+              <div class="w-40">₳ 98.41M</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+  <div class="col mt-0">
+  <div class="h-100 bg-white rounded p-3 mb-4 shadow">
+    <div class="bg-light h-100 position-relative">
+
+      <div class="bg-white d-flex flex-wrap gap-2 align-items-center justify-content-between pb-3">
+        <h5 class="m-0">CC Votes</h5>
+        
+<div class="btn-group btn-group-sm" role="group" aria-label="Vote tally mode">
+    <span class="btn btn-dark" title="The votes presented here are calculated from the ledger snapshot taken in epoch 575, looking back through votes submitted up to the end of the previous epoch." data-controller="tooltip" aria-pressed="true">Active</span>
+</div>
+
+      </div>
+
+      <div class="bg-light rounded p-2 fs-8">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item border-0 bg-light">
+            <div class="progress">
+                <svg
+                  class="progress-threshold-marker"
+                  viewBox="0 0 10 10"
+                  style="left: 67.00%;"
+                  title="Constitutional Approval Threshold: 67%" data-controller="tooltip">
+                  <polygon points="0,0 10,0 5,5" />
+                  <rect x="4.5" y="5" width="1" height="10" />
+                </svg>
+              <div class="progress-bar bg-green"
+                title="Yes: 85.72%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 85.72%"
+                aria-valuenow="85.72"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+
+              <div class="progress-bar bg-medium-grey"
+                title="Not Voted: 14.29%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 14.29%"
+                aria-valuenow="14.29"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+
+              <div class="progress-bar bg-orange"
+                title="Explicit No: 0.00%" data-controller="tooltip"
+                role="progressbar"
+                style="width: 0.00%"
+                aria-valuenow="0.0"
+                aria-valuemin="0"
+                aria-valuemax="100">
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item bg-light bg-light border-light text-dark-grey">
+            <div class="text-end">
+              Total Committee Members: 7
+            </div>
+          </li>
+
+          <li class="list-group-item d-flex align-items-center justify-content-between bg-light bg-light border-light text-primary">
+            <div class="fw-bolder">Yes Votes</div>
+            <div class="text-end">
+              6
+            </div>
+          </li>
+
+          <li class="list-group-item text-dark-grey bg-light border-light">
+            <div class="d-flex align-items-center justify-content-between text-orange">
+              <div class="fw-bolder">Total No</div>
+              <div class="text-end">
+                1
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end text-orange">
+              <div class="w-80">Voted No</div>
+              <div class="w-20">0</div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-1 text-end">
+              <div class="w-80">Not Voted</div>
+              <div class="w-20">1</div>
+            </div>
+          </li>
+
+          <li class="list-group-item bg-light border-light text-grey">
+            <div class="d-flex align-items-center justify-content-between text-dark-grey">
+              <div class="fw-bolder">Abstain Votes</div>
+              <div class="text-end">
+                0
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+</turbo-frame>
+
+        <div class="d-flex flex-wrap">
+          <div class="col-12 col-sm-10 col-lg-3 mb-5 mb-lg-0 pe-md-5" data-article-target="tocWrapper"></div>
+          <div class="col-12 col-sm-10 col-lg-9 pe-md-3 article body text-break" data-article-target="body">
+              <h2 class="label" id="abstract">Abstract</h2>
+  <section class="pb-6">
+    <p>This treasury withdrawal funds <strong>A member-based organization for the Cardano ecosystem: Intersect</strong> which will provide the following services:</p>
+
+<p>Intersect exists to serve as a neutral, nonprofit coordination layer that bridges decentralized governance and decentralized infrastructure. Our mission is not to direct the network, but to enable it. By stewarding core systems, supporting community-led processes, and facilitating safe, transparent delivery.</p>
+
+<p>Specifically, this proposal will fund Intersect to:</p>
+
+<ul>
+<li><p>Steward core infrastructure</p></li>
+<li><p>Execute the Administrator role</p></li>
+<li><p>Support participation and coordination</p></li>
+<li><p>Facilitate roadmap and budget processes</p></li>
+<li><p>Expand ecosystem capacity</p></li>
+</ul>
+
+<p>Note: Intersect&#39;s original proposal submitted early in the off-chain process was updated after recent leadership changes. However, this proposal reflects the approved Budget Info Action and new strategic direction.</p>
+
+<p>This treasury withdrawal funds one of 39 proposals to give effect to the approved budget info action for ₳275,269,340, administered by Intersect via gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh. The information provided herein is intended to fulfill the spirit of the constitutional requirement for a treasury withdrawal info action by also providing the details of the proposed solution, alignment to the budget, and amount to be withdrawn from the Cardano Treasury.</p>
+
+  </section>
+
+
+  <h2 class="label" id="motivation">Motivation</h2>
+  <section class="pb-6">
+    <p>This proposal aims to solve the following problem:</p>
+
+<p>As Cardano enters the age of Voltaire, governance is transitioning from a small number of founding organizations to a decentralized global community. While the introduction of a constitution and on-chain voting forms the structural backbone, these mechanisms alone are not enough to sustain a functional decentralized system. What&#39;s needed in parallel is community-aligned coordination - infrastructure that enables participation, promotes continuity, and supports informed decision-making across the network.</p>
+
+<p>Intersect is also responsible for the stewardship of Cardano&#39;s core Haskell codebases, including the repositories that power the core Cardano node. This role involves more than maintenance - it includes coordinating new releases, aligning contributors around engineering best practices, and ensuring that upgrades are ready for safe deployment. Intersect acts as a neutral facilitator in this process, helping translate new feature proposals from ecosystem vendors into stable, tested releases that can be confidently adopted across the network.</p>
+
+<p>Intersect has played a central role in coordinating ecosystem-wide upgrades, including the successful deployment of the Chang and Plomin hard forks. These upgrades required aligning infrastructure providers, SPOs, dApps, and exchanges globally - a process demanding deep technical coordination, ecosystem trust, and communications capacity.</p>
+
+<p>Beyond technical infrastructure, Intersect provides a collaborative space for governance to mature and grow, supporting over 30 working groups and eight elected committees made up of Cardano community members. These committees focus on key areas such as budgeting, product development, open source, membership, growth, and technical standards - offering non-binding recommendations and practical insight to on-chain actors like DReps and SPOs.</p>
+
+  </section>
+
+  <h2 class="label" id="rationale">Rationale</h2>
+  <section class="pb-6">
+    <h3>Project Solution</h3>
+
+<p>This proposal enables Intersect to continue providing essential infrastructure, coordination, and governance support for Cardano during a pivotal 12-month period from June 2025 to June 2026.</p>
+
+<p>Specifically, this proposal will fund Intersect to:</p>
+
+<p>Steward core infrastructure</p>
+
+<ul>
+<li><p>Maintain and govern the open-source Cardano node repositories, including the Haskell codebases</p></li>
+<li><p>Coordinate and release upgrades proposed by ecosystem contributors, ensuring safe deployment, roadmap alignment, and stakeholder readiness</p></li>
+<li><p>Provide stability and continuity across key engineering practices and upgrade cycles</p></li>
+</ul>
+
+<p>Execute the Administrator role</p>
+
+<ul>
+<li><p>Continue fulfilling the responsibilities of the <q>Administrator</q> role defined in the Constitution.</p></li>
+<li><p>Provide contract and oversight support, including proposal vetting, operational execution, smart contract development, and compliance monitoring</p></li>
+<li><p>Act as a reliable counterparty for Treasury-funded initiatives, offering arbitration routes while supporting increased transparency and decentralization</p></li>
+</ul>
+
+<p>Support participation and coordination</p>
+
+<ul>
+<li><p>Deliver stipends to elected committee members --- beginning formal recognition of their time and expertise</p></li>
+<li><p>Facilitate an election process to confirm a new Constitutional Committee</p></li>
+<li><p>Provide professional operational and coordination support to 8 committees and 30+ working groups</p></li>
+<li><p>Provide through our members, onboarding, tools, and resources for DReps, SPOs, and the Constitutional Committee</p></li>
+</ul>
+
+<p>Facilitate roadmap and budget processes</p>
+
+<ul>
+<li><p>Via the Product Committee, facilitating product roadmap development and long-term ecosystem vision</p></li>
+<li><p>Rebuilding a budget process for 2026 and coordinating the delivery and on-chain submission of a 2026 budget</p></li>
+<li><p>Conceptualize and operationalize a scalable RFP process for committee-aligned budget proposals (example the Open Source Committee proposal)</p></li>
+</ul>
+
+<p>Expand Ecosystem Capacity</p>
+
+<ul>
+<li><p>Support the emergence of new MBOs, associations, and working groups</p></li>
+<li><p>Recognize and reinforce the need for multiple Administrators in the future to support a plural and scalable governance model</p></li>
+</ul>
+
+<h3>Vendor Profile</h3>
+
+<p>Intersect is a non-profit member-based organization incorporated in Wyoming, USA. The team at Intersect represents a broad mix of experience and domain expertise, spanning open source, governance, infrastructure, fintech, and decentralized systems. Many of our team members are long-standing contributors to Cardano and are deeply embedded in the ecosystem - both professionally and as community participants.</p>
+
+<p>Our leadership:</p>
+
+<p>Jack Briggs - Interim Executive Director</p>
+
+<ul>
+<li><p>As of April 25, 2025, Jack now leads Intersect as our Interim Executive Director and will be reaffirming Intersect&#39;s mission and core purpose --- bringing Intersect back to serve the community as a lean, accountable, and principled enabler of open collaboration, where decisions are transparent, power is distributed, and progress is driven by those who build and contribute.</p></li>
+<li><p>Jack brings over a decade of experience leading large teams for global organizations such as Vodafone and Three Mobile, as well as multiple technology startups, including those focused on open source. Outside of technology, he was twice elected Chairman of a large residents&#39; association representing over 150 households, and in 2018, he stood as a candidate in the UK local elections for a national party.</p></li>
+<li><p>Passionate about blockchain, Jack started with Bitcoin in 2012, Ethereum in 2017, and Cardano in 2019. From 2021, he was one of the earliest contributors to Cardano&#39;s governance design, including collaborating on the first version of CIP-1694.</p></li>
+</ul>
+
+<p>Nick Cook - Interim Director of Operations</p>
+
+<ul>
+<li>Nick is an experienced, driven and energetic leader with a proven history of working in the Web3, blockchain, fintech and AI space. Nick has played a critical part in establishing community hubs for Intersect, linking the company with the wider Cardano community. His work has been invaluable for engaging members with our broader mission.</li>
+</ul>
+
+<p>The Board of Directors are now working on an open recruitment strategy with members at the forefront in confirming a permanent Executive Director.</p>
+
+<h3>Contract Management</h3>
+
+<p>A written off-chain Legal Contract will be created between the Vendor and Cardano Development Holdings (CDH), as mandated by the Constitution. Intersect will administer the contract on behalf of its members and in alignment with governance actions approved by DReps. This includes coordinating project delivery schedules, reporting progress transparently to our members and the community, and escalating any disputes to the Governing Board and membership for resolution in accordance with established procedures.</p>
+
+<h3>Project Delivery</h3>
+
+<p>All milestones, acceptance criteria, payment amounts and expected delivery dates will be agreed between the Governing Board and Executive team at Intersect, with a Legal Contract established between Intersect and the CDH. Intersect will deliver according to the agreed-upon project schedule within the Legal Contract, of which the necessary information will be made public via the SundaeSwap platform. These details will be shared as part of the budget management tooling process.</p>
+
+<p>Defined by the milestones within a Legal Contract, the vendor will submit and attest milestone acceptance to the community, Intersect or 3rd Party Assurer.</p>
+
+<p>Project progress will be monitored and reported by Intersect&#39;s Executive team and will be communicated to the community.</p>
+
+<p>Acceptance of the above work is expected to be supported by a 3rd Party Assurer, who will be responsible for reviewing and signing off the work completed at each project milestone against the corresponding milestone deliverables detailed within the Legal Contract. This work is funded from a portion of this treasury withdrawal.</p>
+
+<h3>Budget Management Tooling</h3>
+
+<p>To administrate treasury funds on-chain, Intersect will utilize the treasury management smart contract framework developed by Sundae Labs. The smart contracts have been <a href="https://github.com/SundaeSwap-finance/treasury-contracts/tree/main/offchain/tests">extensively tested</a> including audits from TxPipe and MLabs. Examples of the usage of these contracts can be seen across mainnet described across Intersect authored <a href="https://www.intersectmbo.org/news/smart-contract-mainnet-demo-a-step-toward-on-chain-treasury-withdrawals">Blog 1</a>, <a href="https://www.intersectmbo.org/news/smart-contract-mainnet-demo-day-two-update">Blog 2</a> and <a href="https://www.intersectmbo.org/news/smart-contract-mainnet-demo-day-three-update">Blog 3</a>.</p>
+
+<p>Final mainnet validation test can be seen via the Disburse action within transaction: 0f591dc544ae14102dbb4a74d5311a6acffc1772b163d8b7a9656b9525950b17</p>
+
+<p>With the confirmed treasury reserve contract address being: stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr</p>
+
+<h4>Specifics</h4>
+
+<p>Intersect will utilize a single Treasury Reserve Smart Contract (TRSC), with many Project-Specific Smart Contracts (PSSC), managed by Intersect. Intersect&#39;s management consists of three &#39;admin&#39; and two Intersect &#39;leadership&#39; roles. An Oversight Committee consisting of five external, independent third-party entities will provide checks and balances on Intersect, and safeguard against errors and unilateral control. The administration of both TRSC and PSSCs will be managed by Intersect, with external oversight on certain actions from the Oversight Committee.</p>
+
+<p>The Oversight Committee consists of Sundae Labs, Cardano Foundation, Dquadrant, Xerberus and NMKR. Their role is to independently verify key administrative actions using on-chain logic, ensuring accuracy and consistency without exercising discretion over governance decisions.</p>
+
+<p>For all details on Intersect&#39;s configuration please see the <strong><a href="https://docs.intersectmbo.org/cardano-facilitation-services/cardano-budget/intersect-administration-services/smart-contracts-as-part-of-our-administration">Smart Contract Guide</a></strong> on the knowledge base.</p>
+
+<p>The high level permissions are as follows:</p>
+
+<ul>
+<li><p>TRSC Fund and PSSC Modify</p>
+
+<ul>
+<li>Two of the three Intersect admins, two of the five trusted entities and one of the two Intersect leadership sign-off must authorize</li>
+</ul></li>
+<li><p>TRSC Disperse</p>
+
+<ul>
+<li>Two of three Intersect admins, three of five trusted entities and two of two Intersect leadership sign-off must authorize</li>
+</ul></li>
+<li><p>TRSC Pause and Resume</p>
+
+<ul>
+<li>Two of three Intersect admins, and one of two Intersect leadership sign-off must authorize</li>
+</ul></li>
+<li><p>TRSC Sweep</p>
+
+<ul>
+<li>One of three Intersect admins, and one of two Intersect leadership sign-off must authorize</li>
+</ul></li>
+<li><p>TRSC Reorganize</p>
+
+<ul>
+<li>Two of three Intersect admins and three of five trusted entities must authorize</li>
+</ul></li>
+</ul>
+
+<h4>Processes</h4>
+
+<p>Upon enactment of this governance action, funding for this project will be directed into the TRSC&#39;s stake account. All instances of TRSC and PSSC can not be staked with a SPO and will be delegated to the auto-abstain predefined DRep. From here funds will be withdrawn into a UTxO remaining at the TRSC.</p>
+
+<p>When the Legal contract is prepared and the vendor is ready, funding for this project will be transferred using the Fund action to a PSSC. All milestones will be outlined within the metadata.</p>
+
+<p>A dashboard will be available for the community to audit the TRSC or PSSC and track metrics related to this withdrawn ada as well as being immutably verifiable on chain.</p>
+
+<p>The subsections; Contract Management, Project Delivery, and Budget Management Tooling described above cover the constitutional requirements specified in Article IV section 4 and 5.</p>
+
+  </section>
+
+  <h2 class="label" id="references">References</h2>
+  <section class="pb-6">
+    <div class="list-group list-group-flush mb-4">
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeib6z3yueyblhr6nlzszxphcjljmse2uhahnpp2hrueodhbha4xonq">
+  <h5 class="mt-0 mb-3">Intersect Development Update 2024 (PDF)</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeib6z3yueyblhr6nlzszxphcjljmse2uhahnpp2hrueodhbha4xonq</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeianvsd4avrdn6r4ietmv6vnv6ocfeqptc4k76ifs27c3i6p5nf6mm">
+  <h5 class="mt-0 mb-3">Intersect and CDH 2024 Financial Report (PDF)</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeianvsd4avrdn6r4ietmv6vnv6ocfeqptc4k76ifs27c3i6p5nf6mm</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://docs.intersectmbo.org/">
+  <h5 class="mt-0 mb-3">Intersect Knowledge Base</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://docs.intersectmbo.org/</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://www.intersectmbo.org/">
+  <h5 class="mt-0 mb-3">Intersect Website</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://www.intersectmbo.org/</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://committees.docs.intersectmbo.org/">
+  <h5 class="mt-0 mb-3">Intersect Committees via Knowledge Base</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://committees.docs.intersectmbo.org/</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://board.docs.intersectmbo.org/">
+  <h5 class="mt-0 mb-3">Intersect Board via Knowledge Base</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://board.docs.intersectmbo.org/</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://2025budget.intersectmbo.org/ballots/680d1b63565577986442d123/proposals/680d1b63565577986442d1ec">
+  <h5 class="mt-0 mb-3">Project Proposal In Ekklesia</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://2025budget.intersectmbo.org/ballots/680d1b63565577986442d123/proposals/680d1b63565577986442d1ec</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://gov.tools/outcomes/governance_actions/e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee#0">
+  <h5 class="mt-0 mb-3">Approved Budget Info Action submitted by Intersect via GovTool</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://gov.tools/outcomes/governance_actions/e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee#0</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm">
+  <h5 class="mt-0 mb-3">Details of all successful proposals (CSV)</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq">
+  <h5 class="mt-0 mb-3">Automating Accountability: Cardano&#39;s Smart Contract Framework Blog</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="https://github.com/SundaeSwap-finance/treasury-contracts">
+  <h5 class="mt-0 mb-3">Sundae Labs Budget Management Smart Contracts Github Repository</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">https://github.com/SundaeSwap-finance/treasury-contracts</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e">
+  <h5 class="mt-0 mb-3">Budget Management Smart Contracts TxPipe Audit Report</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+        <a class="list-group-item list-group-item-action p-4" data-controller="external-link" data-action="external-link#open" data-gov-action-interaction="detail_open_reference" href="ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4">
+  <h5 class="mt-0 mb-3">Budget Management Smart Contracts MLabs Audit Report</h5>
+  <div class="d-flex gap-3 align-items-end justify-content-between fs-8">
+    <div class="text-break lh-sm">ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4</div>
+    <i class="fa fa-external-link-alt"></i>
+  </div>
+</a>
+  </section>
+
+<h2 class="label" id="votes">Votes</h2>
+<section class="pb-6">
+  <turbo-cable-stream-source channel="Turbo::StreamsChannel" signed-stream-name="IloybGtPaTh2WTJGeVpHRnViMk4xWW1VdlIyOTJRV04wYVc5dUx6UXk6dm90ZXMi--fd1f9374b3d2fe2e2b35765b715b738568ba77f5402cb67e5654877fcb352b66"></turbo-cable-stream-source>
+  <div
+  class="bg-white border-light shadow rounded p-3 p-lg-4 mb-4 d-none d-lg-block"
+  data-controller="governance-vote"
+  data-governance-vote-gov-action-id-value="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6"
+  data-governance-vote-gov-action-tx-hash-value="8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e"
+  data-governance-vote-gov-action-tx-index-value="21"
+  data-governance-vote-network-value="mainnet"
+  data-governance-vote-blockfrost-base-url-value="https://cardano-mainnet.blockfrost.io/api/v0"
+  data-governance-vote-blockfrost-project-id-value="mainnetdcOPoUY9qtlNMmbTU7oSfUConAFII3Ss"
+  data-governance-vote-current-votes-api-url-value="/governance/gov_actions/current_votes"
+  data-governance-vote-vote-rationale-draft-api-url-value="/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6/vote_rationale_draft"
+  data-governance-vote-pin-vote-rationale-draft-url-value="/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6/vote_rationale_draft/pin"
+  data-governance-vote-publish-vote-rationale-draft-url-value="/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6/vote_rationale_draft/publish"
+  data-governance-vote-discard-pinned-rationale-url-value="/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6/vote_rationale_draft/discard_pin"
+  data-governance-vote-ipfs-gateway-base-url-value="https://ipfs.io/ipfs/"
+  data-governance-vote-voting-open-value="false"
+  data-governance-vote-drep-eligible-value="true">
+  <div class="d-flex align-items-center justify-content-between gap-3 mb-3">
+    <h3 class="m-0 h5">Your vote</h3>
+    <span class="badge bg-dark fs-9" data-governance-vote-target="drepIdentity">DRep</span>
+  </div>
+
+  <p class="text-grey fs-8 lh-sm mb-3" data-governance-vote-target="message"></p>
+
+  <button
+    type="button"
+    class="btn btn-lg btn-outline-dark mb-3"
+    data-governance-vote-target="connectButton"
+    data-action="click->governance-vote#declareConnectIntent click->wallet-select#showWalletList">
+    Connect your DRep Wallet
+  </button>
+
+  <div class="py-3 border-bottom border-light" data-governance-vote-target="rationaleSection">
+    <div class="d-flex align-items-center justify-content-between gap-2">
+      <h5 class="label fs-8 m-0">Rationale</h5>
+      <div class="text-grey fs-8 lh-sm" data-governance-vote-target="rationaleEmpty">No rationale added yet.</div>
+    </div>
+    <div data-governance-vote-target="rationaleSummary">
+      <div class="d-none" data-governance-vote-target="rationalePreview">
+        <div class="border border-grey bg-light p-3 text-dark my-2 fs-8" data-governance-vote-target="rationaleComment"></div>
+        <div class="text-grey fs-9" data-governance-vote-target="rationaleNote"></div>
+      </div>
+
+      <div class="d-flex gap-2 flex-column flex-sm-row my-3" data-governance-vote-target="rationaleActions">
+        <button
+          type="button"
+          class="btn btn-outline-dark"
+          data-governance-vote-target="rationaleButton"
+          data-action="click->governance-vote#openDraftEditor">
+          Add Rationale
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark d-none"
+          data-governance-vote-target="deleteDraftButton"
+          data-action="click->governance-vote#deleteDraft">
+          Delete Draft
+        </button>
+      </div>
+    </div>
+
+    <div class="d-none my-3" data-governance-vote-target="draftEditor">
+      <textarea
+        id="governance-vote-comment"
+        class="form-control mb-3"
+        rows="8"
+        placeholder="Add the rationale you want to pin with your vote."
+        data-governance-vote-target="draftComment"></textarea>
+
+      <div class="d-flex gap-2 flex-column flex-sm-row">
+        <button
+          type="button"
+          class="btn btn-dark"
+          data-governance-vote-target="saveDraftButton"
+          data-action="click->governance-vote#saveDraft">
+          Save Draft
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark"
+          data-action="click->governance-vote#cancelDraftEditing">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-none rounded border border-light p-3 py-3" data-governance-vote-target="submittedState">
+    <div class="d-flex align-items-center justify-content-between gap-2 mb-3">
+      <div class="fw-bolder" data-governance-vote-target="currentVoteSource">Your current vote</div>
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge bg-light text-dark border fs-9 fw-normal" data-governance-vote-target="currentVoteStatus">Pending on chain</span>
+        <span class="text-dark fw-bolder" data-governance-vote-target="submittedVote"></span>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-between fs-8 text-dark-grey mb-2">
+      <div class="fw-bolder" data-governance-vote-target="submittedAtLabel">Submitted at</div>
+      <div class="text-dark fw-bolder text-end" data-governance-vote-target="submittedAt"></div>
+    </div>
+
+    <div class="d-flex d-none align-items-center justify-content-between fs-8 text-dark-grey mb-2" data-governance-vote-target="rationaleAnchorRow">
+      <div class="fw-bolder">Rationale</div>
+      <div class="text-dark fw-bolder text-end">
+        <a href="#" target="_blank" rel="noopener" data-governance-vote-target="rationaleAnchorLink">
+          <span class="me-2">Open anchor</span><i class="fa fa-external-link fs-9"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="d-flex d-none align-items-center justify-content-between fs-8 text-dark-grey mb-2" data-governance-vote-target="rationaleMissingRow">
+      <div class="fw-bolder">Rationale</div>
+      <div class="text-dark text-end">No rationale added</div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-between fs-8 text-dark-grey mb-3">
+      <div class="fw-bolder">Tx</div>
+      <div class="text-dark fw-bolder text-end">
+        <a href="#" target="_blank" rel="noopener" data-governance-vote-target="txHashLink">
+          <span class="me-2">cardanoscan.io</span><i class="fa fa-external-link fs-9"></i>
+        </a>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-dark"
+      data-governance-vote-target="changeVoteButton"
+      data-action="click->governance-vote#changeVote">
+      Change Vote
+    </button>
+  </div>
+
+  <div class="d-flex gap-2 flex-column flex-sm-row mt-3 py-3" data-governance-vote-target="actionBar">
+    <button
+      type="button"
+      class="btn btn-lg btn-dark"
+      data-governance-vote-target="castVoteButton"
+      data-action="click->governance-vote#startVote">
+      Cast Your Vote
+    </button>
+  </div>
+
+  <div class="d-none py-3" data-governance-vote-target="chooser">
+    <div class="row row-cols-1 row-cols-md-3 g-2 mb-3">
+      <div class="col">
+        <button
+          type="button"
+          class="btn btn-outline-green text-start w-100 h-100"
+          data-governance-vote-target="voteOption"
+          data-vote-choice-value="yes"
+          data-action="click->governance-vote#selectVoteChoice">
+          <span class="d-block fw-bolder mb-1 fs-6">Yes</span>
+          <span class="fs-9">Support this action</span>
+        </button>
+      </div>
+      <div class="col">
+        <button
+          type="button"
+          class="btn btn-outline-orange text-start w-100 h-100"
+          data-governance-vote-target="voteOption"
+          data-vote-choice-value="no"
+          data-action="click->governance-vote#selectVoteChoice">
+          <span class="d-block fw-bolder mb-1 fs-6">No</span>
+          <span class="fs-9">Oppose this action</span>
+        </button>
+      </div>
+      <div class="col">
+        <button
+          type="button"
+          class="btn btn-outline-dark text-start w-100 h-100"
+          data-governance-vote-target="voteOption"
+          data-vote-choice-value="abstain"
+          data-action="click->governance-vote#selectVoteChoice">
+          <span class="d-block fw-bolder mb-1 fs-6">Abstain</span>
+          <span class="fs-9">Exclude from result</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex gap-2 flex-column flex-sm-row">
+      <button
+        type="button"
+        class="btn btn-dark"
+        disabled
+        data-governance-vote-target="submitVoteButton"
+        data-action="click->governance-vote#submitSelectedVote">
+        Submit vote
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-dark"
+        data-action="click->governance-vote#cancelVoteSelection">
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>
+
+  <turbo-frame id="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6_votes" src="/governance/gov_actions/gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6/votes" target="_top"></turbo-frame>
+</section>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3 mb-5 mb-lg-0" data-controller="gov-action-analytics" data-gov-action-analytics-gov-action-id-value="gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6" data-action="click->gov-action-analytics#trackClick">
+        <div class="mt-n9 position-lg-sticky top-lg-2 bg-white border-light shadow rounded p-3">
+          <h5 class="m-0 mb-3">Proposal Information</h5>
+
+<div class="bg-light rounded p-2 fs-8">
+  <ul class="list-group list-group-flush fs-8">
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Type</div>
+      <div class="text-dark fw-bolder">
+        <i class="fa-solid fa-coins me-2"></i>Treasury Withdrawal
+      </div>
+    </li>
+
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Status</div>
+      <div class="text-dark fw-bolder">
+        <span class="badge bg-primary" title="The proposal was enacted on Aug 12, 2025." data-controller="tooltip">Enacted</span>
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Submitted On</div>
+      <div class="text-dark fw-bolder" title="Epoch 570" data-controller="tooltip">
+        Jul 18, 2025
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Enacted On</div>
+      <div class="text-dark fw-bolder" title="Epoch 576" data-controller="tooltip">
+        Aug 12, 2025
+      </div>
+    </li>
+
+    <li class="list-group-item d-flex align-items-center justify-content-between bg-transparent text-dark-grey border-light">
+      <div class="fw-bolder">Voting Parties</div>
+      <div class="text-dark fw-bolder">
+        <span class="badge bg-green me-1" title="Delegated Representatives 67% Threshold Met" data-controller="tooltip">DRep</span><span class="badge bg-green me-1" title="Constitutional Committees 67% Threshold Met" data-controller="tooltip">CC</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div
+  class="mt-3 d-none d-lg-block"
+  data-controller="governance-vote-status"
+  data-governance-vote-status-voting-open-value="false"
+  data-governance-vote-status-drep-eligible-value="true">
+  <div class="d-flex align-items-center justify-content-between gap-3 mb-3">
+    <h5 class="m-0">Voting</h5>
+    <span class="badge bg-dark fs-9" data-governance-vote-status-target="drepIdentity">DRep</span>
+  </div>
+
+  <p class="text-grey fs-8 lh-sm mb-3" data-governance-vote-status-target="message"></p>
+
+  <button
+    type="button"
+    class="btn btn-outline-dark w-100 mb-1"
+    data-governance-vote-status-target="connectButton"
+    data-action="click->governance-vote-status#declareConnectIntent click->wallet-select#showWalletList">
+    Connect your DRep Wallet
+  </button>
+
+  <a
+    href="#votes"
+    class="btn btn-dark w-100"
+    data-governance-vote-status-target="goToVotesLink">
+    View voting area
+  </a>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <footer class="pt-8 pb-5 bg-light">
+    <div class="container-xxl g-5">
+
+      <div class="row mb-5">
+        <div class="d-flex flex-wrap gap-3 justify-content-between">
+          <a class="d-none d-sm-block pe-md-4" loading="lazy" href="/"><img src="/assets/LogoIcon-928cd8eb8f623a685889e70f2f29310dff8017a5db77bed0108ebc76947c7894.png" /></a>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Explore Cardano</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/explore">Explore all projects</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/governance">Cardano Governance</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/latest">New projects</a>
+            </li>
+            <li>
+              <a href="cardano-ecosystem-interactive-map.html" class="d-block py-1">Utility Ecosystem map</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Community &amp; More</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/cardano-community">Cardano Community</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources">Knowledge Center</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/resources/videos">Cardano Videos</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/categories/developer-tools">Developer Hub</a>
+            </li>
+          </ul>
+
+          <ul role="list" class="fs-8 text-grey list-style-none">
+            <li>
+              <h4 class="mt-0 mb-3 fs-9 ls-4 text-uppercase text-dark">Cardano Cube</h4>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/projects/suggest">Suggest a project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/promote-your-project">Promote your project</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/sign_in">Sign in</a>
+            </li>
+            <li>
+              <a class="d-block py-1" href="/about-us">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row text-grey fs-8">
+        <p class="fw-bolder">
+          * The Content on this website is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.<br>
+          Token data and purchases on our site are processed through partner organizations. For any inquiries or assistance regarding purchases, please contact our partners directly.
+        </p>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3">
+          <p class="mb-0">
+            Copyright © 2021 Cardano Cube. All rights reserved.<br>
+
+            <a class="text-decoration-underline me-2" href="/terms-conditions">Terms &amp; Conditions</a>
+            <a class="text-decoration-underline me-2" href="/privacy-cookies-policy">Privacy &amp; Cookies Policy</a>
+            <a class="text-decoration-underline me-2" href="/terms-of-sale">Terms of Sale</a>
+          </p>
+
+          <div class="d-flex align-items-center gap-3 fs-3 pe-1">
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://x.com/CardanoCube">
+              <i class="fa-brands fa-x-twitter"></i>
+</a>
+            <a target="_blank" rel="noopener" class="link-dark-grey" href="https://discord.gg/ndpFEG6ysw">
+              <i class="fa-brands fa-discord"></i>
+</a>          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <turbo-frame id="cookie_banner" src="/cookies"></turbo-frame>
+  <div
+  class="project-ratings-cart d-none"
+  data-controller="project-ratings"
+  data-project-ratings-wallets-path-value="/wallets"
+  data-project-ratings-network-value="mainnet"
+  data-project-ratings-blockfrost-base-url-value="https://cardano-mainnet.blockfrost.io/api/v0"
+  data-project-ratings-blockfrost-project-id-value="mainnetdcOPoUY9qtlNMmbTU7oSfUConAFII3Ss"
+  data-project-ratings-hidden-class="d-none"
+  data-project-ratings-toggle-expanded-icon-class="fa-chevron-up"
+  data-project-ratings-toggle-collapsed-icon-class="fa-chevron-down">
+  <div class="project-ratings-cart__panel bg-white border border-light shadow rounded-3">
+    <button
+      type="button"
+      class="project-ratings-cart__toggle btn btn-light w-100 border-light border-0 border-bottom d-flex align-items-center justify-content-between gap-3"
+      data-project-ratings-target="toggle"
+      data-action="click->project-ratings#toggle">
+      <span class="fw-bolder">Ratings batch</span>
+      <span class="d-flex align-items-center gap-2">
+        <span class="badge bg-primary rounded-pill" data-project-ratings-target="count">0</span>
+        <i class="fa fa-chevron-up" data-project-ratings-target="toggleIcon" aria-hidden="true"></i>
+      </span>
+    </button>
+
+    <div class="project-ratings-cart__body p-3" data-project-ratings-target="body">
+      <div class="project-ratings-cart__items d-flex flex-column gap-2 mb-3" data-project-ratings-target="items"></div>
+      <div class="d-flex gap-2">
+        <button
+          type="button"
+          class="btn btn-outline-dark btn-sm flex-fill"
+          data-project-ratings-target="clearButton"
+          data-action="click->project-ratings#clear">Clear</button>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm flex-fill"
+          data-project-ratings-target="submitButton"
+          data-action="click->project-ratings#submit">Submit ratings</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  <div id="toasts" class="toast-container position-fixed top-0 end-0 me-3 mt-3 z-2">
+    
+  </div>
+
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-N97JGQBQFX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N97JGQBQFX');
+</script>
+
+</body>
+</html>

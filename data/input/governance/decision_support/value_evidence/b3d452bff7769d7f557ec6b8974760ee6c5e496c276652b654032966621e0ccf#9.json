@@ -1,6 +1,18 @@
 {
   "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9",
   "confidence": 0.78,
+  "evidence_conflicts": [
+    {
+      "conflicting_sources": [
+        "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-tx3-txpipe-open-api-layer",
+        "https://admin-services.docs.intersectmbo.org/governance/smart-contracts"
+      ],
+      "conflicting_value": "yes",
+      "field": "output_priced",
+      "resolution": "retained the earlier independently verified value; the newer finding is recorded but not applied, because a later pass must not silently overturn a verified field",
+      "retained_value": "no"
+    }
+  ],
   "fields": {
     "builder_workflow_dependency": {
       "sources": [
@@ -23,8 +35,34 @@
       "value": "no"
     },
     "cost_compared_to_market": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "ab0fa7e966d4565047ac8dd7c8821c65b68ad5dac57b8ec7fe011834f92b1b9a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-projectcatalyst-io-b41accefd0.snap",
+          "url": "https://projectcatalyst.io/funds/14/cardano-open-developers/by-txpipe-api-layer-for-cardano-protocols-using-tx3"
+        },
+        {
+          "sha256": "b53f796e78de767cb7cc5e7b05a6e0180018f64b22233b6c8325c11928e2fe86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-fc148fbfb4.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/"
+        },
+        {
+          "sha256": "0e162bbf7ee39c0add1cf04b3caa5d5a06f4b239eb1427a6d2c8f005d1741d56",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-af11b3d068.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-txpipe-pallas-rust-libraries-year2"
+        },
+        {
+          "sha256": "30b6895a1d3e01f979d919bdae8a0df63a6f83e9bc7cf578716fcfea031e996c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-25220925f1.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-2lovelaces-lidonation-cardano-mcp"
+        },
+        {
+          "sha256": "99360e7cd150efa6237afb1bd755ca035f2a4ea4bbc976d7b390856e8db2d66d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-a42d434533.snap",
+          "url": "https://api.github.com/repos/tx3-lang/tx3"
+        }
+      ],
+      "value": "no"
     },
     "credible_prior_delivery": {
       "sources": [
@@ -127,8 +165,24 @@
       "value": "no"
     },
     "material_duplication": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "f6bc0f68ba1e1b132ca0668701bb2e96c80f5d003584cb065a5be702f7f499cc",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-e4106bbb7d.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-tx3-txpipe-open-api-layer"
+        },
+        {
+          "sha256": "b53f796e78de767cb7cc5e7b05a6e0180018f64b22233b6c8325c11928e2fe86",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-fc148fbfb4.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/"
+        },
+        {
+          "sha256": "93bf266f994111359ed16997ddebf439299b64b1e839e7d2bb979453d7754519",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-github-com-0a3b55473f.snap",
+          "url": "https://github.com/MeshJS/mesh"
+        }
+      ],
+      "value": "no"
     },
     "measurable_existing_adoption": {
       "sources": [
@@ -248,5 +302,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:26+00:00"
+  "pinned_at_utc": "2026-07-13T02:12:19+00:00"
 }

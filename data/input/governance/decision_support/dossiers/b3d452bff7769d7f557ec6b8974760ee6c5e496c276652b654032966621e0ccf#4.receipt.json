@@ -18,32 +18,127 @@
     "reason": null
   },
   "anchor_sha256": "4071b91a1a6e86e078c66502c08b131219e0b4153e59f96257393ae112f7e235",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:27:26+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=45 no=26 abstain=12 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "eb8629bae8615096ffcbd17ee145cdab3c9b837fd67e4d893f9a0e731f525013",
-  "prompt_sha256": "d4c448e571f1ebf37276c08f896286454407396b8e19c44ac3020eb6783e5d64",
-  "review_status": "gate_failed",
+  "generated_at_utc": "2026-07-13T01:52:15+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=48 no=27 abstain=12 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "ebf8899c0293236ae07c3e128db349e489ac840e02a08e9338c554052ee2abde",
+  "prompt_sha256": "b30d92fced1c219f5ecb3fbfa2ae4c3dd9a40efad9ef97c99f990e9baf95ea70",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 16,
+    "fact_verdicts": [
+      {
+        "index": 1,
+        "note": "Action metadata gives id b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4, type TreasuryWithdrawals, proposed epoch 638, expires after 645. All four match exactly.",
+        "verdict": "supported"
+      },
+      {
+        "index": 2,
+        "note": "Anchor onChain.gov_action.rewards has key stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v with value 25400000000000; action metadata treasury amount is the same figure.",
+        "verdict": "supported"
+      },
+      {
+        "index": 3,
+        "note": "body.title is verbatim 'Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...', including the truncation.",
+        "verdict": "supported"
+      },
+      {
+        "index": 4,
+        "note": "Motivation: 'the overall ask has reduced from $7.875M to $6.35M'. Both figures match.",
+        "verdict": "supported"
+      },
+      {
+        "index": 5,
+        "note": "Budget Summary table: WP1 6,000,000; WP2 18,800,000; WP3 600,000; Total 25,400,000. WP2's full label adds '(including core Cardano repos)' \u2014 immaterial paraphrase. Line items sum to the stated total.",
+        "verdict": "supported"
+      },
+      {
+        "index": 6,
+        "note": "Rationale: 'achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase'.",
+        "verdict": "supported"
+      },
+      {
+        "index": 7,
+        "note": "Audit & Oversight names Appold and lists 'deliverable verification, control testing, spend validation, and assessment of milestone evidence where appropriate'. Note the anchor's hedged 'may include' is preserved in the fact.",
+        "verdict": "supported"
+      },
+      {
+        "index": 8,
+        "note": "Prior Treasury Funding Disclosure table totals 22,385,000 ada (15,750,000 + 750,000 + 5,885,000) for Intersect and its committees within the past 24 months.",
+        "verdict": "supported"
+      },
+      {
+        "index": 9,
+        "note": "On-chain context: 15 withdrawal proposals, 177273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-07-09 16:30:25. Exact match.",
+        "verdict": "supported"
+      },
+      {
+        "index": 10,
+        "note": "On-chain context: yes=48 no=27 abstain=12, explicitly flagged as explicit ballots, not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "index": 11,
+        "note": "On-chain context 36-epoch treasury flow: inflow 158689112947739, enacted withdrawals 291435336000000, ratio 1.836518. Exact match.",
+        "verdict": "supported"
+      },
+      {
+        "index": 12,
+        "note": "Intersect Budget Management Tooling lists the 2026 Treasury Reserve Smart Contract stake address as stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v \u2014 same address as the on-chain reward recipient.",
+        "verdict": "supported"
+      },
+      {
+        "index": 13,
+        "note": "Specifics/permissions: 'TRSC Fund and PSSC Modify \u2014 Two of the five Intersect admins, two of the six trusted entities and one of the three Intersect leadership sign-off'; 'TRSC Disburse \u2014 Two of five Intersect admins, three of six trusted entities and two of three Intersect leadership sign-off'. All quorum numbers match.",
+        "verdict": "supported"
+      },
+      {
+        "index": 14,
+        "note": "Processes: 'funding for this project will be transferred using the Fund action to the PSSC. All milestones will be outlined within the metadata.'",
+        "verdict": "supported"
+      },
+      {
+        "index": 15,
+        "note": "values_hierarchy.md ranks 'Treasury stewardship and downside protection' at 2 and 'Public-benefit ecosystem growth' at 4, so stewardship outranks growth.",
+        "verdict": "supported"
+      },
+      {
+        "index": 16,
+        "note": "treasury_spending_doctrine.md, Dossier Gate Posture: 'Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.'",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
     "gates": {
-      "different_model_from_drafter": false,
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
-      "sections_grounded_7of7": false
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
     },
+    "material_discrepancies": [],
     "model": "claude-cli",
-    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
+    "not_found": 0,
+    "output_sha256": "26a1c1a37fef7712e7375c4761c115dc4b3ca7108b1968876f02ab185741c58f",
+    "passed": true,
+    "prompt_sha256": "19067dc4275d609d0e17b4efa0108c36bdcc9eeedea7d023f0f2a14d2f9e7873",
+    "summary": "All 16 dossier facts are supported by the supplied material; none are contradicted and none are unverifiable against it. Every quoted number was checked digit-for-digit: the 25,400,000 ada / 25400000000000 lovelace ask is consistent across the action metadata, the anchor's onChain.gov_action.rewards, and the Budget Summary (whose three work packages sum exactly to the total); the recipient stake address in the anchor's tooling section is the same address that receives the on-chain reward; and the recipient-history, DRep-ballot, and 36-epoch treasury-flow figures reproduce the on-chain context block verbatim. The two doctrine facts are accurate restatements of values_hierarchy.md and the Dossier Gate Posture section of treasury_spending_doctrine.md. No invented figures, names, dates, or commitments were found \u2014 the audit surfaces no material discrepancies. Two non-material observations for the drafter, neither affecting a verdict: fact 5 abbreviates WP2's label by dropping '(including core Cardano repos)', and fact 7 correctly carries the anchor's hedged 'may include' for the Appold review scope rather than stating it as a firm commitment.",
+    "support_ratio": 1.0,
+    "supported": 16,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T21:31:42+00:00"
+    "verdicts_returned": 16,
+    "verified_at_utc": "2026-07-13T01:54:03+00:00"
   }
 }

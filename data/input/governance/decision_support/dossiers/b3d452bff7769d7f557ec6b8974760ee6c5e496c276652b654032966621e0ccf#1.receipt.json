@@ -18,32 +18,147 @@
     "reason": null
   },
   "anchor_sha256": "9a05d51357f9986c7de2f0a4033508cb85debec276a9facfa9057df1cc5af7c3",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:16:55+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=71 no=7 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "891c52a1b54c5d11bfe28cc26b722a3dc64b91765998dc3a41d9aedc5570bdbc",
-  "prompt_sha256": "85d7304813db4e17a184ab5b9875a5e1f831ca2ec4cf05229e264dab9044501e",
-  "review_status": "gate_failed",
+  "generated_at_utc": "2026-07-13T01:44:41+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=75 no=7 abstain=4 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "b959dc6f0e38a6cee147cf31ec920d161d16f89e49d3d688c61d5592a21a2f3a",
+  "prompt_sha256": "e55ee97e7e94114096eacf04f25e6f255e76fd299dabdd0d3e31f8d5d6fd1c23",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 20,
+    "fact_verdicts": [
+      {
+        "evidence": "Source 0: 'Action id: b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#1' and 'Action type: TreasuryWithdrawals'.",
+        "fact": 1,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0 and anchor body.title both read 'Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...' (truncation included).",
+        "fact": 2,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 0 'Treasury amount (lovelace): 540750000000'; anchor gov_action value '540750000000'; anchor Budget Summary Total 540,750 ADA. 540750000000 / 1e6 = 540,750.",
+        "fact": 3,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor motivation: 'requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Dolos** ... over 12 months at an annual rate of $105,000 USD'.",
+        "fact": 4,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Budget Summary table: 'WP1 - Dolos Maintenance and Enhancement | 525,000', 'Intersect Budget Administration fee | 15,750', 'Total | 540,750'.",
+        "fact": 5,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor onChain.gov_action.rewards[0]: key 'stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v', value '540750000000'.",
+        "fact": 6,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 1: same stake address 'appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)'.",
+        "fact": 7,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 1: 'onchain DRep vote counts so far: yes=75 no=7 abstain=4 (explicit ballots, not stake-weighted)'.",
+        "fact": 8,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Source 1: 'treasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518'.",
+        "fact": 9,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor motivation: 'With 939 commits, 80 releases, 129 stars, 51 forks, and 27 contributors'.",
+        "fact": 10,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Prior Treasury Funding Disclosure: 'TxPipe has received funding through 30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule.'",
+        "fact": 11,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor: 'TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all of which are being delivered on schedule.'",
+        "fact": 12,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Intersect Budget Process: 'achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase'.",
+        "fact": 13,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Audit & Oversight: 'Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight...'",
+        "fact": 14,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Audit & Oversight: 'Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.'",
+        "fact": 15,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor lists the 2026 Treasury Reserve Smart Contract stake address (stake1784sdxt...), the TRSC payment address (addr1x84sdxt...), and the Project Specific Smart Contract payment address (addr1x9d6k9z...).",
+        "fact": 16,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Specifics: 'a single Treasury Reserve Smart Contract (TRSC), with one Project-Specific Smart Contracts (PSSC). Intersect's management consists of five 'admin' and three Intersect 'leadership' roles. An Oversight Committee consisting of six external, independent third-party entities...'",
+        "fact": 17,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor: 'The Oversight Committee consists of Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl.'",
+        "fact": 18,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor Processes: 'funding for this project will be transferred using the Fund action to the PSSC. All milestones will be outlined within the metadata.'",
+        "fact": 19,
+        "verdict": "supported"
+      },
+      {
+        "evidence": "Anchor references array contains the Hydra voting proposal, Hydra voting documentation, auditor guide, final audited results (Gitbook), audit report (PDF, IPFS), Sundae Labs treasury-contracts GitHub repo, and both the TxPipe and MLabs smart-contract audit reports; the Smart Contract Guide is linked inline in the rationale.",
+        "fact": 20,
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
     "gates": {
-      "different_model_from_drafter": false,
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
-      "sections_grounded_7of7": false
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
     },
+    "material_discrepancies": [],
     "model": "claude-cli",
-    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
+    "not_found": 0,
+    "output_sha256": "edd4aca4f445ff33cb4656ca11c7b504235fde98132a8442c548472a5533bfd8",
+    "passed": true,
+    "prompt_sha256": "8ccf1bafda92c6af8d671dcf999ef48d252bf3b294a2ed0a5f3c2ffd4caafbb0",
+    "summary": "All 20 dossier facts are supported by the supplied source material. Every figure reproduced by the drafter matches its source exactly: the on-chain amount (540,750,000,000 lovelace = 540,750 ADA) is consistent across the action metadata, the anchor's gov_action rewards entry, and the anchor's budget table (525,000 + 15,750 = 540,750), and the motivation's 420,000 + 105,000 contingency likewise sums to the 525,000 WP1 line. The recipient stake address, recipient withdrawal history (15 proposals / 177,273,260,000,000 lovelace), DRep tallies (75/7/4), and 36-epoch treasury flow figures are transcribed verbatim from the on-chain context. Anchor-sourced project and governance claims (939 commits / 80 releases / 129 stars / 51 forks / 27 contributors; 30 Catalyst proposals across Funds 9-14 with 26 delivered and 4 in progress; 67% Hydra threshold; five admins / three leadership / six-entity Oversight Committee named as Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial, Eternl) all appear as stated. No contradictions and no invented specifics were found, so there are no material discrepancies. Note that this audit verifies only fidelity to the supplied material; the anchor's self-reported claims (delivery track record, oversight arrangements, NCL compliance) are unverified by any independent source in the material.",
+    "support_ratio": 1.0,
+    "supported": 20,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T21:31:42+00:00"
+    "verdicts_returned": 20,
+    "verified_at_utc": "2026-07-13T01:52:37+00:00"
   }
 }

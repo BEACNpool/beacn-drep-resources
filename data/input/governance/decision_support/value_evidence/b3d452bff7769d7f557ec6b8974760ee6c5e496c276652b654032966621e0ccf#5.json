@@ -23,8 +23,44 @@
       "value": "yes"
     },
     "cost_compared_to_market": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "86acf9d742b9abccbb6e4b33022ed6a425fcc460569505a1fac1477a7481dbe8",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-d0b4311cdc.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list"
+        },
+        {
+          "sha256": "510acb1083c04fcf0a21b8ee4e9443c4b87ea88029fd713580e818cca09ff3fd",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-f13e90bc17.snap",
+          "url": "https://api.github.com/repos/input-output-hk/mithril/stats/participation"
+        },
+        {
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-a6dd175c3f.snap",
+          "url": "https://api.github.com/repos/input-output-hk/mithril/stats/contributors"
+        },
+        {
+          "sha256": "b33e31246389bdfcc38cd005c73556d442a32fa02673be1bdd5bbabf3b11e2e2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-654632670c.snap",
+          "url": "https://api.github.com/repos/input-output-hk/mithril/releases"
+        },
+        {
+          "sha256": "de7ece0aed4d9e7f23f7ab270bb5a21362389d074432cf0f8720b1493ab01695",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-c7db62d9b6.snap",
+          "url": "https://api.github.com/repos/txpipe/pallas/stats/participation"
+        },
+        {
+          "sha256": "876ff36d593214def1e4b9e54493ebaf9c7dd73e97fe916fd025bf194a414238",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-kraken-com-c887b5d377.snap",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=ADAUSD"
+        },
+        {
+          "sha256": "9b587674fcfa7e5932cba580fa8a45dc10acb3dbd4eb0c58bef151e824ae3d7d",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-coingecko-com-bfd46f4a30.snap",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd"
+        }
+      ],
+      "value": "yes"
     },
     "credible_prior_delivery": {
       "sources": [
@@ -227,5 +263,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:04+00:00"
+  "pinned_at_utc": "2026-07-13T02:12:15+00:00"
 }

@@ -216,8 +216,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "2af5083446e257a4d1796eca06617fe6a6f5a8d46deff57495f3f23105f204f2",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-ipfs-io-7e453b3a81.snap",
+          "url": "https://ipfs.io/ipfs/bafkreibk6uedirxck6snc6lozidgc77gu322rvdn572xjfpt6iyql4qe6i"
+        },
+        {
+          "sha256": "0e9a9f006ccdec4b02de8c4ae7bd2634ce3f12e30c01ec05bf6b250cc3ad4adf",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-www-cardanocube-com-a7e890b802.snap",
+          "url": "https://www.cardanocube.com/governance/gov_actions/gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [
@@ -267,5 +278,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:00+00:00"
+  "pinned_at_utc": null
 }

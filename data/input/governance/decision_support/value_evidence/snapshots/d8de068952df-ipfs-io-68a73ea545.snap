@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale",
+        "motivation": "CIP108:motivation",
+        "references": {
+          "@id": "CIP108:references",
+          "@context": {
+            "uri": "CIP100:reference-uri",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            },
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference"
+          },
+          "@container": "@set"
+        },
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:treasury_withdrawals_action",
+                "rewards": {
+                  "@id": "CIP116:rewards",
+                  "@container": "@set"
+                },
+                "key": {
+                  "@id": "CIP116:rewardAddress",
+                  "@type": "CIP116:RewardAddress"
+                },
+                "value": {
+                  "@id": "CIP116:amount",
+                  "@type": "CIP116:UInt64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "authors": {
+      "@id": "CIP100:authors",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature",
+            "witnessAlgorithm": "CIP100:witnessAlgorithm"
+          }
+        }
+      },
+      "@container": "@set"
+    },
+    "@language": "en-us",
+    "hashAlgorithm": "CIP100:hashAlgorithm"
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027",
+    "abstract": "This Treasury Withdrawal funds Daedalus Wallet Maintenance and Improvements\n2026–2027, delivered by Se7en Labs, Inc.\n\nDaedalus is Cardano's only full-node desktop wallet — it runs an embedded\nCardano node and derives all wallet and governance data directly from the\nchain, with no third-party APIs or trusted backends. Because it participates\nin P2P networking and maintains its own local mempool, Daedalus transactions\ncompete for block inclusion on equal footing with full-node participants,\nproviding reliable submission even under high chain utilisation where lite\nwallets can fail for hours.\n\nDaedalus's security model is equally distinctive. Private keys are generated\nand stored on your own device and never transmitted to any external service.\nBecause Daedalus is open-source under the Apache License 2.0, this is not\na claim users must take on faith — anyone can audit the source code to\nverify that key handling works exactly as described. Se7en Labs actively\nworks to ensure a positive user experience that balances the trade-offs\ninherent in running a full-node wallet.\n\nAccording to opt-in telemetry, Daedalus has approximately 4,000 monthly\nactive users — though the true count is meaningfully higher, as\nprivacy-conscious full-node users are the least likely to opt in.\n\nThis is a time and materials engagement covering three areas:\n1. **Protocol Maintenance** — Node upgrades, hard fork readiness (Leios,\n   Peras, Nested Transactions), with a compatible release at least 2\n   weeks before every mainnet hard fork\n2. **Ecosystem Expansion** — Keystone and Flex hardware wallet support,\n   CIP-30 dApp connector, Japanese localisation\n3. **User Support** — Responsive support for the Daedalus user base,\n   with dedicated attention to the Japanese community and a commitment\n   to keeping Daedalus fully translated for Japanese users\n\nIOG continues to support binary signing, ensuring cryptographic release\nauthenticity as funding transitions to the treasury.",
+    "rationale": "### Strategic Pillar Alignment\n\n| Pillar | Alignment |\n|---|---|\n| I.1 Scalability & Interoperability | Timely node upgrades for Leios, Peras, and Nested Transactions |\n| I.2 Security & Resilience | Client diversity; every Daedalus install is a full Cardano node |\n| A.1 High-Value Verticals | CIP-30 unlocks DeFi and dApp access for full-node users |\n| A.3 Developer Experience | Maintenance of foundational open-source infrastructure |\n| C.2 Global Engagement | Japanese localisation and community support maintained |\n\n### Nature of This Proposal\n\nDaedalus is free and open-source software released under the Apache\nLicense 2.0. Se7en Labs does not monetize Daedalus usage and captures no\ncustomer relationships, subscription revenue, token value, or IP\nexclusivity from this work. All funded outputs — source code, build\ntooling, documentation, and release artifacts — are public assets in\nperpetuity, forkable by anyone under the Apache 2.0 license. This\nproposal is a pure public good grant: the treasury is funding maintenance\nof community infrastructure, not subsidizing a private business expansion.\n\nOpen-source auditability is especially important for a wallet. Any wallet\ncan claim not to exfiltrate keys; only an open-source wallet can prove it.\nThe Apache 2.0 license ensures this auditability is permanent: no future\nlicense change can prevent the community from inspecting, forking, or\ncontinuing the software independently. A treasury-funded wallet under a\npermissive open-source license is a public good in the strongest sense —\nthe community owns it regardless of what happens to any particular vendor.\n\n### Track Record\n\n**About Se7en Labs**\n\nSe7en Labs is a Cardano-native software company. Founding members launched\nDripDropz in 2022 — the token distribution platform that has delivered\ncommunity token drops every epoch since launch. Members contributed to\nthe Hydra Doom demonstration and built a live Hydra event platform deployed\nat Rare Evo, Token 2049, Cardano Summit Berlin, and Nuluna 2025. Se7en\nLabs members served as chair and vice-chair of the Cardano Product\nCommittee, leading the process that produced the Cardano Vision and\nStrategy framework — ratified on-chain by a DRep supermajority in January\n2026.\n\n**Daedalus Delivery Record**\n\nThe team assumed responsibility for Daedalus under an IOG contract in\nJanuary 2026. Shipped since then:\n\n- **Mithril Snapshot Bootstrap**: Full Mithril integration for fast initial\n  sync — 3-step UX, storage management, fallback flows, E2E test coverage,\n  cross-platform installer hardening across Windows and macOS\n- **UTxO-HD / LSM Backend**: Integrated cardano-node 10.7.1 with the LSM\n  storage backend, preparing users for Cardano's on-disk UTXO model\n- **Apple Silicon (aarch64)**: First native aarch64 Darwin builds with\n  auto-detection in the updater; existing users migrate transparently\n- **`drt` Release CLI**: Purpose-built release toolchain replacing Buildkite\n  scripts — Apple notarization via `xcrun notarytool`, parallelized signing,\n  internal Windows binary signing before NSIS packaging, hash verification\n- **Nix Build Modernization**: Migrated to flake-parts, upgraded to\n  nixpkgs-25.11, removed legacy MacInstaller.hs, migrated CI from Buildkite\n  to Hydra + `drt`\n\nIn progress: DRep Selection Dashboard, Ouroboros Genesis support, hardware\nwallet support for newer devices, Electron upgrade (17 major versions;\nresolving cross-platform native module complexity), and partial Mithril sync\n(allowing Daedalus to begin syncing from a Mithril snapshot mid-chain rather\nthan requiring a full resync).\n\n**Proven Capabilities**\n\nThe team spans Haskell/cardano-node integration, Electron/React frontend,\nNix build systems, release engineering, and QA — the full breadth needed\nfor Daedalus's complexity. Team members have direct experience with\ncardano-node and the on-chain governance stack. The team inherited a\ncodebase unable to produce a release, performed foundational Nix\nrefactoring, and shipped Daedalus 8.0 and 11.0 within the IOG contract\nperiod. Daedalus 11.0 was the first wallet capable of crossing the node\n11.0 hard fork. The ongoing IOG binary signing\narrangement demonstrates a mature working relationship preserving release\nsecurity through the funding transition. The team has been operating under\nan IOG contract for Daedalus maintenance since January 2026, closing\nAugust 31, 2026. Se7en Labs has not received ada from the Cardano Treasury\nwithin the last 24 months.\n\n### Scope of Work\n\nThis work covers all maintenance and development required to keep Daedalus\nfunctional, secure, and compatible with the evolving Cardano protocol\nthroughout the contract year.\n\n**Node & Wallet Backend Currency** — Integrate cardano-node and\ncardano-wallet releases as shipped; maintain Nix build infrastructure,\ndependency updates, security patches, and platform compatibility.\n\n**Security & Dependency Maintenance** — Keep Electron, Node.js, and all\nwallet-adjacent dependencies current to address known vulnerabilities as\nthey are disclosed. Maintain a reproducible Nix build pipeline so every\nrelease can be independently verified by anyone. Ensure key generation,\nstorage, and signing code remains auditable, unchanged, and never\ntransmitted off-device — preserving the core security guarantee that\nDaedalus's users depend on.\n\n**Hard Fork Integration** — All Daedalus changes required for each\nupcoming hard fork, with testnet verification and a compatible stable\nrelease at least 2 weeks before mainnet activation.\n\n**Leios, Peras & Nested Transactions Readiness** — Ship compatible node\nversions as these protocols progress toward mainnet; monitor for\nuser-facing UX impacts; maintain compatibility ahead of each\ntestnet/mainnet activation.\n\n**Binary Signing Continuity** — Maintain the IOG signing arrangement\nfor all official releases throughout the contract period. CI infrastructure\nand signing costs are covered under the approved Cardano Node Maintenance\nbudget.\n\n**Platform & Localisation** — All platforms maintained: Windows, macOS\nx86_64, macOS aarch64, Linux. Full Japanese translation across all\nnew features.\n\n**Hardware Wallet Support** — Add support for Keystone and Flex, and other\nnewer hardware wallet models as they emerge, expanding the population of\nsecurity-conscious ADA holders who can use Daedalus with hardware wallet\nprotection.\n\n**CIP-30 dApp Connector** — Implement CIP-30 within Daedalus, enabling\ncompatible dApps to connect to a user's full-node wallet without\nswitching to a browser wallet.\n\n**User-Facing CIP Implementations** — Track and implement user-facing\nCIPs finalized during the contract period (token standards, metadata,\ntransaction capabilities).\n\n**User Support** — Responsive support for the Daedalus user base across\nGitHub, community forums, and direct channels. The Japanese community\nreceives first-class support alongside English speakers; Daedalus will\nremain fully translated into Japanese throughout the contract period\nand across every feature shipped.\n\n**Architecture Assessment** — Scoped investigation into a potential\nDaedalus architecture rewrite; assessment published regardless of outcome.\n\n### Expected Value\n\nUsers who run Daedalus because they don't trust Lite wallets are\nparticularly exposed if Daedalus falls behind on protocol compatibility.\nA Lite wallet user can switch backends during a hard fork; a Daedalus\nuser running an incompatible version cannot sync the chain at all.\nTimely protocol support is existential for this user base.\n\nCardano is in its most protocol-intensive period since CIP-1694, with\nthe intra-era hard fork, Leios, Peras, and Nested Transactions all on\nthe horizon. Each requires Daedalus to ship an updated node version.\n\nFull-node users are currently locked out of the dApp ecosystem — any\ndApp interaction requires switching to a browser wallet, undermining\nthe self-sovereignty model. CIP-30 closes this gap entirely.\n\nThe binary signing arrangement with IOG preserves years of user trust\nbuilt through consistently signed releases. Maintaining it through the\nfunding transition is the responsible approach.\n\n### Risk Register\n\n| Risk | Likelihood | Impact | Mitigation |\n|---|---|---|---|\n| ADA/USD exchange rate volatility | High | High | ADA received is converted promptly to USD-backed stablecoins; labor costs are denominated in USD and invoiced at spot rate, capping exposure to price swings during the contract period |\n| cardano-node upstream API changes | Medium | High | T&M engagement absorbs scope changes; team has an established working relationship with upstream IOG engineers providing early visibility into breaking changes |\n| Leios/Peras complexity underestimate | Medium | Medium | T&M removes fixed-price risk; the engagement scales to actual complexity rather than an estimate made before specifications are final |\n| Platform dependency changes (Apple notarization policy, Windows signing infrastructure) | Low | High | IOG binary signing arrangement is maintained throughout; `drt` toolchain is purpose-built and not dependent on third-party CI services that could change terms |\n| Team continuity over 12-month contract | Low | High | Core team members are founding members of Se7en Labs with multi-year Cardano track records; key processes are documented in the `drt` toolchain and Nix build infrastructure |\n\n### Success Metrics\n\n- Compatible release available at least 2 weeks before each mainnet\n  hard fork; development builds on DijkstraNet throughout testing\n- cardano-node no more than 2 major versions behind mainnet recommended\n  at any time\n- 100% of official releases cryptographically signed\n- All four platform builds passing CI in every stable release\n- Critical security issues addressed in a timely manner\n- Keystone and Flex supported in a stable release within contract period\n- CIP-30 connector implemented and available in a stable release\n- User support maintained throughout the contract period; Japanese users\n  receive responses in Japanese\n- Full Japanese translation current across all features shipped during\n  the contract year\n- Architecture assessment published by Q3 2027\n\nAll release-timing and version-currency metrics are independently\nverifiable from public GitHub repositories and the Cardano mainnet chain\nwithout reliance on applicant self-reporting.\n\n### Milestones\n\n#### Hard Fork Integration (Duration: 6 weeks)\n\n**Deliverables:**\n- All Daedalus changes for hard fork compatibility completed\n- Development builds provided on relevant testnet throughout testing\n- Compatible stable release published at least 2 weeks before mainnet\n  hard fork activation\n\n**Acceptance Criteria:**\n- Compatible stable release available at least 2 weeks before mainnet\n  activation\n- Daedalus fully functional post-hard-fork across all platforms\n\n#### Ongoing Maintenance (Duration: 52 weeks)\n\n**Deliverables:**\n- Continuous node and wallet backend updates integrated as released\n- All releases signed per the IOG binary signing arrangement\n- Full Japanese translation coverage across all new features\n- CI maintained across all platform targets\n\n**Acceptance Criteria:**\n- Compatible stable release available at least 2 weeks before each\n  mainnet hard fork\n- All releases carry valid signatures\n- All platform targets maintained throughout the contract year\n\n#### Leios/Peras Readiness (Duration: 26 weeks)\n\n**Deliverables:**\n- Daedalus running a Leios/Peras compatible node version ahead of any\n  testnet or mainnet activation\n- Assessment of user-facing UX impacts with adjustments shipped as\n  needed\n\n**Acceptance Criteria:**\n- Compatible node version shipped and verified on testnet before mainnet\n- No disruption to Daedalus users during protocol transition\n\n#### Hardware Wallet Support (Duration: 12 weeks)\n\n**Deliverables:**\n- Support for Keystone and Flex shipped in a stable release, plus\n  additional newer hardware wallet models as they emerge during the\n  contract period\n\n**Acceptance Criteria:**\n- Keystone and Flex functional in QA testing\n- No regression in existing hardware wallet support (Ledger Nano, Trezor)\n\n#### CIP-30 dApp Connector (Duration: 20 weeks)\n\n**Deliverables:**\n- CIP-30 (Cardano dApp-Wallet Web Bridge) implementation within Daedalus\n- Verified interoperability with the CIP-30 dApp ecosystem\n- User documentation for connecting dApps to Daedalus\n\n**Acceptance Criteria:**\n- CIP-30 connector available in a stable release\n- Verified working with CIP-30 compatible dApps\n- No external API dependency introduced\n\n#### User Support (Duration: 52 weeks)\n\n**Deliverables:**\n- Ongoing support for Daedalus users via GitHub issues, community forums,\n  and direct channels throughout the contract period\n- Japanese-language support for Japanese users; full Japanese translation\n  maintained across all features shipped during the contract year\n\n**Acceptance Criteria:**\n- Support channels actively monitored and responded to throughout the\n  contract period\n- All new features ship with complete Japanese translation\n\n#### Architecture Assessment (Duration: 8 weeks)\n\n**Deliverables:**\n- Architecture assessment covering current state, options, and resource\n  estimates with a clear recommendation\n- If rewrite initiated: foundational implementation on development branch\n\n**Acceptance Criteria:**\n- Assessment published publicly with clear recommendation and rationale\n\n### Net Change Limit Compliance\n\nThe requested amount does not at time of submission, on its own or in\naggregate, breach the applicable [350M Net Change Limit](https://explorer.cardano.org/governance-action/gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q)\ncovering Epoch 613 to Epoch 713. In accordance with the guardrail\nTREASURY-02a, this withdrawal does not exceed the NCL at the moment of\nsubmission.\n\n### Audit & Oversight\n\nAudit and oversight costs are included within the overhead applied to\nthis proposal. The Intersect administration fee covers administrative\noversight and is reflected within the cost of this proposal. Independent\noversight will be provided through Intersect and technically capable\nthird-party, including reporting obligations and milestone-based\ndisbursement controls.\n\n### Prior Treasury Funding Disclosure\n\nSe7en Labs has not received ada from the Cardano Treasury within the last\n24 months. The team has operated under a direct IOG contract for Daedalus\nmaintenance since January 2026, closing August 31, 2026.\n\n### Budget Summary\n\nThe minimum team required to keep Daedalus maintained — node upgrades,\nhard fork readiness, platform support, release engineering — is not\nsignificantly smaller or cheaper than the team needed to also ship\nlightweight feature work. The development items in this proposal (hardware\nwallet support, CIP-30 connector, architecture assessment) are\ncomparatively low-cost additions on top of a team that must exist anyway.\nThe bulk of this proposal is maintenance; the features come largely for\nfree.\n\n- **Team** | Resources (Labor) | 1,666,667 ADA: Team effort covering all\n  protocol maintenance and ecosystem improvements: node/wallet integration,\n  hard fork support, hardware wallet support, CIP-30 dApp connector\n  implementation, architecture assessment, build infrastructure, platform\n  maintenance, and release engineering. CI infrastructure and binary signing\n  costs are covered under the approved Cardano Node Maintenance budget. Any\n  unspent labor budget at contract close is returned to the treasury.\n- **Test Hardware** | Equipment | 33,333 ADA: As a small team taking on a\n  multi-platform product, we need to acquire and maintain test devices —\n  primarily macOS laptops covering both x86_64 and aarch64, and hardware\n  wallets representing the range of devices Daedalus supports — to ensure\n  every release is verified on real hardware before shipping. Any unspent\n  hardware budget is returned to the treasury.\n- **Financial Audit** | Audit | 33,333 ADA: Independent financial audit of\n  funds received and expended under this proposal. Any unspent audit budget\n  is returned to the treasury.\n\n| Work Package | Total (ADA) |\n|---|---|\n| Maintenance and Improvements | 1,666,667 |\n| Test Hardware | 33,333 |\n| Financial Audit | 33,333 |\n| Intersect Budget Administration fee | 52,000 |\n| **Total** | **1,785,333** |\n\n### Administration and Oversight\n\nIntersect serves as the administrator and independent milestone verifier\nfor this proposal, in accordance with Article II.7.5 of the Cardano\nConstitution. Intersect is responsible for monitoring how funds are used,\nindependently confirming that acceptance criteria are met, and authorizing\ndisbursements. As a time and materials engagement, funds are disbursed\nmonthly against verified work. Funds received from the treasury withdrawal\nwill be held by Intersect in a dedicated account auditable by the Cardano\nCommunity, delegated to the predefined abstain voting option, prior to\nmonthly disbursement to Se7en Labs.\n\n### Intersect Budget Management Tooling\n\nTo administrate treasury funds on-chain, Intersect will utilize the\ntreasury management smart contract framework developed by Sundae Labs.\nA new instance of these smart contracts has been deployed for 2026,\nmirroring the contracts from the 2025 budget cycle.\n\n- The 2026 Treasury Reserve Smart Contract stake address:\n  `stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v`\n- The 2026 Treasury Reserve Smart Contract payment address:\n  `addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w`\n- The 2026 Project Specific Smart Contract payment address:\n  `addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay`\n\n#### Specifics\n\nIntersect will utilize a single Treasury Reserve Smart Contract (TRSC),\nwith one Project-Specific Smart Contract (PSSC). Intersect's management\nconsists of five 'admin' and three Intersect 'leadership' roles. An\nOversight Committee consisting of six external, independent third-party\nentities will provide checks and balances on Intersect, and safeguard\nagainst errors and unilateral control. The administration of both TRSC\nand PSSC will be managed by Intersect, with external oversight on certain\nactions from the Oversight Committee.\n\nThe Oversight Committee consists of Sundae Labs, Cardano Foundation,\nDquadrant, NMKR, Sundial and Eternl. Their role is to independently\nverify key administrative actions using on-chain logic, ensuring accuracy\nand consistency without exercising discretion over governance decisions.\n\nFor all details on Intersect's configuration please see the\n[**Smart Contract Guide**](https://admin-services.docs.intersectmbo.org/governance/smart-contracts)\non the knowledgebase.\n\nThe high level permissions are as follows:\n\n* TRSC Fund and PSSC Modify\n  * Two of the five Intersect admins, two of the six trusted entities\n    and one of the three Intersect leadership sign-off must authorize\n* TRSC Disburse\n  * Two of five Intersect admins, three of six trusted entities and two\n    of three Intersect leadership sign-off must authorize\n* TRSC Pause and Resume\n  * Two of five Intersect admins, and one of three Intersect leadership\n    sign-off must authorize\n* TRSC Sweep\n  * One of five Intersect admins, and one of three Intersect leadership\n    sign-off must authorize\n* TRSC Reorganize\n  * Two of five Intersect admins and three of six trusted entities must\n    authorize\n\n#### Processes\n\nUpon enactment of this governance action, funding for this project will\nbe directed into the TRSC's stake address. All instances of TRSC and PSSC\ncan not be staked with a SPO and are delegated to the auto-abstain\npredefined DRep. From here funds will be withdrawn into a UTxO remaining\nat the TRSC payment address.\n\nWhen the Legal contract is prepared and the vendor is ready, funding for\nthis project will be transferred using the Fund action to the PSSC. All\nmilestones will be outlined within the metadata.\n\nA dashboard is available\n([treasury.sundae.fi](https://treasury.sundae.fi/budgets/51486a2f1496d4d3a688a9b111971aa9b731ed045d900b601345ca4e))\nfor the community to audit the TRSC or PSSC and track metrics related to\nthis withdrawn ada as well as being immutably verifiable on chain.",
+    "motivation": "**Pillar 1: Infrastructure & Research Excellence (Primary)**\n\nThe Cardano Vision & Strategy framework (ratified on-chain by DRep\nsupermajority, January 2026) calls for Cardano to \"keep Cardano secure,\nfast, and interoperable so it can host more economic activity.\" Daedalus\nis the only full-node desktop wallet in the ecosystem — every installation\nis a full Cardano node, contributing directly to the decentralization and\nresilience of the network.\n\nThis proposal directly advances **I.2 (Security & Resilience)**,\nspecifically the strategy's focus on *client diversity*: \"Support\nadditional full-node and light-client implementations with conformance\ntesting — Better decentralization.\" Daedalus is the primary vehicle\nthrough which non-technical users run a full node. A maintained Daedalus\nis a maintained contribution to client diversity. If it falls behind on\nprotocol compatibility, OS support, or security, those users have no\nalternative that preserves their standards for self-sovereignty.\n\nThis proposal also supports **I.1 (Scalability & Interoperability)** by\nensuring Daedalus ships updated node versions as Leios (CIP-0164) and\nPeras progress toward mainnet. Both are consensus protocol changes\nhandled by the node — but a wallet running an incompatible node version\ncannot sync, meaning timely node upgrades are essential for Daedalus\nusers to benefit from the scalability improvements the strategy depends\non.\n\n**Pillar 2: Adoption & Utility (Secondary)**\n\nCIP-30 support advances **A.1 (High-Value Verticals)** — specifically\nDeFi access. Daedalus users are currently locked out of DeFi and dApp\ninteractions unless they switch to a browser wallet. CIP-30 changes that,\nopening the full dApp ecosystem to full-node users without compromising\ntheir trust model.\n\nThis also supports **A.3 (Developer Experience)**: \"Incentivize the\nmaintenance of core Cardano SDKs, frameworks, and infrastructure in line\nwith open-source best practices.\" Daedalus is foundational open-source\ninfrastructure. Funding its maintenance through the community treasury is\nexactly the model the strategy envisions.\n\n**Pillar 4: Community & Ecosystem Growth (Secondary)**\n\nThe 2030 strategy identifies **C.2 (Global Engagement & Market Adoption)**\nwith a specific focus on \"localized adoption — target specific,\nhigh-impact markets (e.g., LATAM, Africa, East Asia) with localized\npartnerships and communication strategies.\" Japan is one of the most\nhistorically engaged Cardano communities in the world, and Daedalus has\nmaintained full Japanese translation support since its earliest releases.\nThis proposal continues that commitment, ensuring the Japanese-language\ninterface remains current across all new features delivered during the\ncontract period.\n\n### KPI Alignment\n\n**Monthly Active Users (MAU) — Target: 1M by 2030**\n\nThe strategy measures MAU as \"unique addresses with transactions over a\n30-day window.\" Every active Daedalus user contributes to this metric.\nKeeping Daedalus fast to sync (Mithril), compatible with modern hardware\n(Apple Silicon), and current on dependency versions lowers the barrier to\nrunning a full node, directly supporting MAU growth from the self-sovereign\nuser cohort. CIP-30 support unlocks dApp interactions for this population,\nincreasing their transaction frequency.\n\n**Monthly Transactions — Target: ≥27M submitted transactions/month by 2030**\n\nCIP-30 support routes dApp transaction volume through users' own full\nnodes. Daedalus users currently have no path to dApp activity without\nswitching wallets — CIP-30 unlocks that entirely, contributing new\ntransaction volume from a population that previously had none.\n\n**Alternative Full Node Clients — Target: ≥2 live, spec-conformant**\n\nThe strategy explicitly tracks this under operational resilience. While\nDaedalus is a wallet rather than a consensus node, it is the primary\nmechanism through which non-technical users run a full Cardano node.\nMaintaining Daedalus directly supports the ecosystem's full-node\nfootprint and the decentralization targets the strategy depends on.\n\n**Uptime / Protocol Stability — Target: 99.98% uptime**\n\nShipping a compatible Daedalus release before each hard fork keeps users\nonline through protocol transitions rather than forcing them offline.\n\n**Hardware Wallet Coverage**\n\nSupporting newer hardware wallet models grows the population of\nsecurity-conscious ADA holders who can use Daedalus without compromising\ntheir signing security.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Automating Accountability: Cardano's Smart Contract Framework Blog",
+        "uri": "ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq"
+      },
+      {
+        "@type": "Other",
+        "label": "Sundae Labs Budget Management Smart Contracts Github Repository",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
+      },
+      {
+        "@type": "Other",
+        "label": "Budget Management Smart Contracts TxPipe Audit Report",
+        "uri": "ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e"
+      },
+      {
+        "@type": "Other",
+        "label": "Budget Management Smart Contracts MLabs Audit Report",
+        "uri": "ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4"
+      },
+      {
+        "@type": "Other",
+        "label": "Leios (CIP-0164)",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0164"
+      },
+      {
+        "@type": "Other",
+        "label": "Leios R&D site",
+        "uri": "https://leios.cardano-scaling.org"
+      },
+      {
+        "@type": "Other",
+        "label": "Peras (CIP-0140)",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0140"
+      },
+      {
+        "@type": "Other",
+        "label": "Cardano Node releases",
+        "uri": "https://github.com/IntersectMBO/cardano-node/releases"
+      },
+      {
+        "@type": "Other",
+        "label": "Daedalus GitHub",
+        "uri": "https://github.com/input-output-hk/daedalus"
+      },
+      {
+        "@type": "Other",
+        "label": "Cardano CIPs",
+        "uri": "https://github.com/cardano-foundation/CIPs"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1u85was6qks0exltkfl74clay4p6l272ry6kpkgweyfs7vtcvaj7xm",
+      "gov_action": {
+        "tag": "treasury_withdrawals_action",
+        "rewards": [
+          {
+            "key": "stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v",
+            "value": "1785333000000"
+          }
+        ]
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Samuel Leathers (Se7en Labs)",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "19e02aac72b7312cae5b07d84a2ea07149f22fdafd40e331682b5ea98adf3aa0",
+        "signature": "5afeefc2416945d1858b1b7b94307118f0a5d8b7b03b612b5c2cc3c6448d63a3909e5c36fd6febf541ae740b7d9396adc0170c79e8f6301491441a6be9a7190b"
+      }
+    }
+  ]
+}

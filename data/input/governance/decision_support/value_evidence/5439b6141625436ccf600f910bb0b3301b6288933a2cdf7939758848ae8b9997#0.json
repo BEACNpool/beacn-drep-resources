@@ -102,8 +102,24 @@
       "value": "no"
     },
     "material_duplication": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "1982d7072a234acf4a6d53df6b14594b90b3388f509cbba21225db551a0f418c",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-www-koios-rest-f2dbbd430b.snap",
+          "url": "https://www.koios.rest/"
+        },
+        {
+          "sha256": "79c3163a2a1f9d117ad6cfb0e08c9699dbcd3a39bc0f3cfb2462452f274461a1",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-ipfs-io-f321a6ad0f.snap",
+          "url": "https://ipfs.io/ipfs/bafkreidzymldukq7tuixvvwpwdqizfuz3pgtuon4b46pwjdciuxsordbue"
+        },
+        {
+          "sha256": "9cbda6795d3144b4e17a4161e4f77fbf9fb236e1181f9dc1ff38bcbd53f43966",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-ipfs-io-d6ec330f9e.snap",
+          "url": "https://ipfs.io/ipfs/bafkreie4xwthsxjris2oc6sbmhspo757t6zdnyiyd6o4d7zyxs6vh5bzmy"
+        }
+      ],
+      "value": "no"
     },
     "measurable_existing_adoption": {
       "sources": [
@@ -150,8 +166,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "a4019acaf7058cc1722cd830f8e86e00f8a974efa599ff2c3c5819713d186c36",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-ipfs-io-d93e13e306.snap",
+          "url": "https://ipfs.io/ipfs/QmYiT1K8KUr5wvAEkuLmiFJm79oy9pZ8CB3PbToAUePDYp"
+        },
+        {
+          "sha256": "9b54f7bf6c5cfe4d8b618acfa41e809f0fd1d5a48f6edec3a4695bed4b3e6d32",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/5439b6141625-ipfs-io-d63c2d1a0f.snap",
+          "url": "https://ipfs.io/ipfs/bafkreie3kt3363c47zgywymkz6sb5ae7b7i5ljepn3pmhjdjlpwuwptngi"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [],
@@ -176,5 +203,5 @@
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
   "notes": "\n\nSOURCE REMOVED (repo hygiene, not an evidence problem): the snapshot of developers.cardano.org's Blockfrost API-providers page was dropped because GitHub secret scanning matched a Mailgun-key pattern inside it. It is a FALSE POSITIVE -- the match is a Docusaurus content-hashed image filename (getting-started-3_get_api_key-<hash>.png), not a credential. Rather than bypass push protection to commit a credential-shaped string to a public repo, the source was removed. Every field it supported retains sufficient independent domains, so no value changed and no field was demoted.",
-  "pinned_at_utc": "2026-07-12T17:11:25+00:00"
+  "pinned_at_utc": "2026-07-13T02:11:51+00:00"
 }

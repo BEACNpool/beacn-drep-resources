@@ -18,32 +18,152 @@
     "reason": null
   },
   "anchor_sha256": "98113f1fc9e82436147ed44d2542d2e1b15e71756578e32622dee22b7e5f2680",
-  "backend": "claude",
+  "backend": "codex",
   "doctrine_files": [
     "values_hierarchy.md",
     "treasury_spending_doctrine.md"
   ],
   "doctrine_sha256": "bf65b314428ab42deb53ca6befbb50400236e1a09cb69c45d5788cddfd3b4a4a",
-  "generated_at_utc": "2026-07-12T15:12:52+00:00",
-  "model": "claude-cli",
-  "onchain_context": "onchain DRep vote counts so far: yes=59 no=44 abstain=16 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
-  "output_sha256": "f5b9439e697d4b557b6814d93e20bedfaf7b85bd7da09abb4b7fdaf56277d50a",
-  "prompt_sha256": "07842effa879d681d02999f4e8e4def2357c269a74c050db12a49296deac6bd7",
-  "review_status": "gate_failed",
+  "generated_at_utc": "2026-07-13T01:48:16+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "onchain DRep vote counts so far: yes=61 no=45 abstain=16 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158689112947739 lovelace, enacted withdrawals 291435336000000 lovelace, ratio 1.836518",
+  "output_sha256": "7d7351af31b757b90f83385c9caa478bd732bb0c613f9b02f703f15c87792e8d",
+  "prompt_sha256": "5e5a36a887927486349b0d3ba4719cebed854f424df47616c493dd8ebae83c79",
+  "review_status": "approved_agentic",
   "treasury_doctrine_version": "1.5.0",
   "verification": {
     "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 21,
+    "fact_verdicts": [
+      {
+        "fact": 1,
+        "note": "Action metadata matches exactly: id 8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0, type TreasuryWithdrawals, title 'Strike Finance Liquidity Deployment', 9000000000000 lovelace, proposed epoch 637, expires after 644. 9e12 lovelace = 9,000,000 ADA, consistent with the anchor's stated 9,000,000 ADA.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 2,
+        "note": "Anchor abstract: '12-month productive treasury deployment of 9,000,000 ADA into Strike Finance V2 liquidity infrastructure', 'This is not grant funding', 'The deployed ADA will be sold for USDM'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 3,
+        "note": "Rationale 'Terms, Deployment, and Yield': 'Modeling at ADA = 0.15 USD: approximately 1,350,000 USDM deployed at a modeled 10% USD-denominated annual percentage rate, generating approximately 135,000 USD / 900,000 ADA-equivalent in annual yield. These are modeled estimates, not guaranteed returns.'",
+        "verdict": "supported"
+      },
+      {
+        "fact": 4,
+        "note": "Stated identically in both abstract and rationale: month-6 realized yield return; month-12 return of 100% of treasury-owned deployed assets including remaining principal and realized yield.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 5,
+        "note": "Abstract names Rami from Snek, Phil from Surf, James from Moneta; rationale names Rami from Snek, Phil from Surf, James from Monetra. Both state Strike will not have unilateral custody or control. The fact's 'Monetra/Moneta' hedge covers both spellings present in the source.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 6,
+        "note": "Confirmed by direct comparison: abstract reads 'James from Moneta', rationale reads 'James from Monetra' (twice). The internal inconsistency is real.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 7,
+        "note": "Rationale 'Strike's Organic Growth' gives exactly 1,130,619,017 USD, 968,011 trades, 3,071 unique traders, 1,162,630 USD revenue, 3,254,391 USD LP profit, and over 50% of Cardano trading activity over the last six months.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 8,
+        "note": "Motivation 'Demonstrated Demand' gives >1,148,000,000 USD volume, >1,001,000 trades, 3,226 unique traders, >3,250,000 USD LP profit, >1,167,000 USD revenue, >50% of Cardano trading activity. Distinct from and higher than the rationale figures, as the dossier characterizes.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 9,
+        "note": "Every V2 figure matches the anchor's 'V2 metric since launch' table, including the 2026-03-20 launch date, the 2026-06-15 cutoff, and peak open interest 1,246,007 USD on 2026-06-15.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 10,
+        "note": "Every vault figure matches the anchor's 'Strike Liquidity Provider metric' table line for line, including owner 019d06...a144 and the 0% leader commission.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 11,
+        "note": "Anchor rationale asserts the proposal 'fits within the current 2026 Net Change Limit' (twice). On-chain context supplies inflow 158689112947739, enacted withdrawals 291435336000000, ratio 1.836518 over 36 epochs. Both halves are stated in the material; the juxtaposition is the drafter's framing, not an invented specific.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 12,
+        "note": "On-chain context: 'yes=61 no=45 abstain=16 (explicit ballots, not stake-weighted)'.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 13,
+        "note": "Anchor 'Previous Treasury Funding': 'never received funding from the Cardano Treasury or any related ecosystem treasury program, including within the last 24 months.'",
+        "verdict": "supported"
+      },
+      {
+        "fact": 14,
+        "note": "Anchor: Christian Schmitz audit 'expected to be finalized by July 1, 2026. The report will be published upon completion.' The anchor's references field is indeed an empty array, so no audit report is attached.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 15,
+        "note": "Every listed risk appears in the anchor's Risk Summary paragraph.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 16,
+        "note": "Risk Summary: review triggered at drawdown >8%, two missed monthly reporting cycles, or unresolved custody/accounting/stablecoin/redemption/smart-contract concerns; 'mandatory review at 10% drawdown.'",
+        "verdict": "supported"
+      },
+      {
+        "fact": 17,
+        "note": "Early Termination table reproduces exactly: >20% drawdown \u2192 mandatory review, signers may wind down, review within 7 days of breach; two missed reporting cycles without remedy \u2192 wind-down decision within 14 days.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 18,
+        "note": "Anchor: orderly exit, assets (principal plus realized yield, minus realized losses) returned to the designated administrator account, audited reconciliation published within 30 days.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 19,
+        "note": "Success Metrics table matches: 30-day volume 50,000,000 \u2192 1,000,000,000 USD; traders 2,528 \u2192 5,000; annualized revenue run rate ~172,000 \u2192 5,000,000 USD, all within 12 months.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 20,
+        "note": "values_hierarchy.md ranks treasury stewardship/downside protection at 2 and public-benefit ecosystem growth at 4. treasury_spending_doctrine.md: 'Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.'",
+        "verdict": "supported"
+      },
+      {
+        "fact": 21,
+        "note": "values_hierarchy.md conflict defaults: 'If treasury upside is plausible but non-verifiable: judge directionally on the available public record with a caution penalty ... and the published rationale must always name what evidence is outstanding and whose homework it is (the proposer's or BEACN's own).'",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
     "gates": {
-      "different_model_from_drafter": false,
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
       "dossier_and_receipt_present": true,
-      "sections_grounded_7of7": false
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
     },
+    "material_discrepancies": [],
     "model": "claude-cli",
-    "note": "Verification must use a different backend/model from dossier drafting; both resolved to ('claude', 'claude-cli').",
+    "not_found": 0,
+    "output_sha256": "c21aaa366402dcf4317092a90c7819fd4fd390e0bb8d1b9700e269e412dcb8f4",
+    "passed": true,
+    "prompt_sha256": "535b9b466e14367880eb3d24826da9365253bc94e3c528ac7aedf1423bcc7e80",
+    "summary": "All 21 facts are supported by the supplied source material, with zero contradictions and zero invented specifics. Numbers, named entities, dates, and quoted commitments were checked character by character: the on-chain action metadata (id, type, title, 9000000000000 lovelace, epochs 637/644), both divergent Strike traction datasets (the rationale's 1,130,619,017 USD / 968,011 trades / 3,071 traders and the motivation's higher >1,148,000,000 USD / >1,001,000 trades / 3,226 traders), the full V2 metrics table, the full vault table including owner 019d06...a144, the modeled 0.15 USD ADA price and 10% APR yielding 135,000 USD / 900,000 ADA-equivalent, the month-6 and month-12 return commitments, the audit expectation dated July 1, 2026 against an empty references array, both risk-review threshold sets, the early-termination triggers, the success-metric baselines and targets, and both doctrine clauses. Fact 6's claimed internal inconsistency is genuine: the abstract writes 'James from Moneta' while the rationale writes 'James from Monetra'. Fact 11 correctly reports both the anchor's unverified 2026 Net Change Limit assertion and the separate on-chain treasury flow figures without conflating them. Note for the reader, though outside the scope of fact verification: the anchor itself carries unreconciled internal conflicts the dossier only partly flags, notably two different traction datasets and drawdown review thresholds of 8%/10% in the Risk Summary versus 20% in the Early Termination table.",
+    "support_ratio": 1.0,
+    "supported": 21,
     "thresholds": {
       "max_material_discrepancies": 0,
       "min_fact_support_ratio": 0.9
     },
-    "verified_at_utc": "2026-07-12T21:31:42+00:00"
+    "verdicts_returned": 21,
+    "verified_at_utc": "2026-07-13T01:55:19+00:00"
   }
 }

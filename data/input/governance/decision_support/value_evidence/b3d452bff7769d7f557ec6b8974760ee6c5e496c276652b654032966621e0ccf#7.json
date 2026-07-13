@@ -106,19 +106,8 @@
       "value": "no"
     },
     "material_duplication": {
-      "sources": [
-        {
-          "sha256": "a424ee6d4e80a8df98e6def32fea03e532db0c20b4b9a03b612be905a7cbd486",
-          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-raw-githubusercontent-com-5ac7a04820.snap",
-          "url": "https://raw.githubusercontent.com/CardanoSolutions/kupo/master/README.md"
-        },
-        {
-          "sha256": "7763b321775c1d55667f8fdbbf81faaa070658731bf1bc81e18689d6cce61052",
-          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-en-cryptonomist-ch-85dca00c5e.snap",
-          "url": "https://en.cryptonomist.ch/2026/06/21/cardano-2026-budget-results/"
-        }
-      ],
-      "value": "no"
+      "sources": [],
+      "value": "unknown"
     },
     "measurable_existing_adoption": {
       "sources": [
@@ -165,8 +154,19 @@
       "value": "yes"
     },
     "output_priced": {
-      "sources": [],
-      "value": "unknown"
+      "sources": [
+        {
+          "sha256": "408ea00d95e6a833df7858a170584a8db2bb3e5542501f5d4da7fd702b215df4",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-cardano-drep-dashboard-learncardano-io-7b4465d546.snap",
+          "url": "https://cardano-drep-dashboard.learncardano.io/proposals/hydra-txpipe-oura-event-pipeline"
+        },
+        {
+          "sha256": "3228d2b861559be0a4684cdf94ddd5bc9a80df876d2d1b26b1633769999f87d5",
+          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-koios-rest-fac04bb0dd.snap",
+          "url": "https://api.koios.rest/api/v1/proposal_list?proposal_tx_hash=eq.b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf&select=proposal_index,proposal_type,withdrawal,meta_json"
+        }
+      ],
+      "value": "no"
     },
     "private_capture_risk": {
       "sources": [
@@ -190,5 +190,5 @@
   },
   "independent_verifier": "beacn-value-research-fleet",
   "material_discrepancies": [],
-  "pinned_at_utc": "2026-07-12T17:12:14+00:00"
+  "pinned_at_utc": null
 }
