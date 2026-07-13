@@ -35,11 +35,6 @@
           "url": "https://api.github.com/repos/input-output-hk/mithril/stats/participation"
         },
         {
-          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-          "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-a6dd175c3f.snap",
-          "url": "https://api.github.com/repos/input-output-hk/mithril/stats/contributors"
-        },
-        {
           "sha256": "b33e31246389bdfcc38cd005c73556d442a32fa02673be1bdd5bbabf3b11e2e2",
           "snapshot_path": "data/input/governance/decision_support/value_evidence/snapshots/b3d452bff776-api-github-com-654632670c.snap",
           "url": "https://api.github.com/repos/input-output-hk/mithril/releases"

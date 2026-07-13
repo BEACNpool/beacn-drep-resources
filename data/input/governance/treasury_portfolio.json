@@ -1,9 +1,10 @@
 {
-  "allocated_candidate_lovelace": 6125804000000,
+  "allocated_candidate_lovelace": 8481550000000,
   "candidates": [
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [],
         "benefit": 1.0,
         "composite": 0.275,
@@ -23,6 +24,7 @@
     {
       "action_id": "3234567a3f48ace25efc150f1369192615974e232ea06e0251701831d9e4486d#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [],
         "benefit": 0.81,
         "composite": 0.2615,
@@ -40,54 +42,19 @@
       "title": "Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime"
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0.91,
-        "composite": 0.2384,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.9,
-        "downside_risk": 0.3375,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.7508,
-      "rank": 3,
-      "requested_lovelace": 1193000000000,
-      "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support"
-    },
-    {
-      "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0.91,
-        "composite": 0.2384,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.9,
-        "downside_risk": 0.3375,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.7508,
-      "rank": 4,
-      "requested_lovelace": 9832979000000,
-      "title": "Blockfrost's transformation to not-for-profit"
-    },
-    {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#5",
       "dimensions": {
+        "actionable_asks": [
+          "Publish a line-item budget: what is being bought, at what unit cost.",
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [],
         "benefit": 0.96,
-        "composite": 0.219,
-        "cost_efficiency": 0.25,
+        "composite": 0.209,
+        "cost_efficiency": 0.2,
         "delivery_confidence": 0.75,
         "downside_risk": 0.35,
         "evidence_status": "independently_verified",
@@ -97,20 +64,27 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.7345,
-      "rank": 5,
+      "priority_score": 0.7245,
+      "rank": 3,
       "requested_lovelace": 3810423000000,
       "title": "Withdraw 3,810,423 ada for Mithril Protocol"
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#8",
+      "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
       "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [],
-        "benefit": 0.96,
-        "composite": 0.2084,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.75,
-        "downside_risk": 0.0875,
+        "benefit": 0.91,
+        "composite": 0.2015,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.7,
+        "downside_risk": 0.25,
         "evidence_status": "independently_verified",
         "missing": [
           "cost comparables, budget proportionality, or sustainability evidence"
@@ -118,14 +92,15 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.7107,
-      "rank": 6,
-      "requested_lovelace": 540750000000,
-      "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li..."
+      "priority_score": 0.7095,
+      "rank": 4,
+      "requested_lovelace": 9832979000000,
+      "title": "Blockfrost's transformation to not-for-profit"
     },
     {
       "action_id": "fbb8d1a4a8d6b62f8cd706944a0582b884c2b90187b8fada7953d5c6a33eb5a7#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [],
         "benefit": 0.82,
         "composite": 0.2055,
@@ -138,18 +113,25 @@
       "funding_eligible": "yes",
       "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
       "priority_score": 0.709,
-      "rank": 7,
+      "rank": 5,
       "requested_lovelace": 2350000000000,
       "title": "Eternl: Path to Sustainability - v2"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#4",
       "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [],
         "benefit": 1.0,
-        "composite": 0.1475,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.6,
+        "composite": 0.185,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.55,
         "downside_risk": 0.35,
         "evidence_status": "independently_verified",
         "missing": [
@@ -158,20 +140,47 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.665,
-      "rank": 8,
+      "priority_score": 0.7025,
+      "rank": 6,
       "requested_lovelace": 25400000000000,
       "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ..."
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#1",
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#3",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [],
         "benefit": 0.91,
-        "composite": 0.1509,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.6,
-        "downside_risk": 0.0875,
+        "composite": 0.189,
+        "cost_efficiency": 0.45,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.35,
+        "evidence_status": "independently_verified",
+        "missing": []
+      },
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
+      "priority_score": 0.702,
+      "rank": 7,
+      "requested_lovelace": 1193000000000,
+      "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support"
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#8",
+      "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
+        "affirmative_waste_evidence": [],
+        "benefit": 0.96,
+        "composite": 0.1559,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.4375,
         "evidence_status": "independently_verified",
         "missing": [
           "cost comparables, budget proportionality, or sustainability evidence"
@@ -179,40 +188,54 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.6507,
+      "priority_score": 0.6758,
+      "rank": 8,
+      "requested_lovelace": 540750000000,
+      "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li..."
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#1",
+      "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
+        "affirmative_waste_evidence": [],
+        "benefit": 0.91,
+        "composite": 0.1359,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.4375,
+        "evidence_status": "independently_verified",
+        "missing": [
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "balanced evidence floors not cleared",
+      "priority_score": 0.6533,
       "rank": 9,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D..."
     },
     {
-      "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#10",
       "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0.66,
-        "composite": 0.1515,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.9,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.647,
-      "rank": 10,
-      "requested_lovelace": 1785333000000,
-      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
-    },
-    {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
-      "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [],
         "benefit": 0.73,
-        "composite": 0.127,
+        "composite": 0.077,
         "cost_efficiency": 0.25,
-        "delivery_confidence": 0.75,
+        "delivery_confidence": 0.55,
         "downside_risk": 0.35,
         "evidence_status": "independently_verified",
         "missing": [
@@ -221,61 +244,89 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.631,
-      "rank": 11,
-      "requested_lovelace": 540750000000,
-      "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
-    },
-    {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#10",
-      "dimensions": {
-        "affirmative_waste_evidence": [],
-        "benefit": 0.73,
-        "composite": 0.1164,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.75,
-        "downside_risk": 0.0875,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.6073,
-      "rank": 12,
+      "priority_score": 0.581,
+      "rank": 10,
       "requested_lovelace": 540750000000,
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano\u2019s Integratio..."
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
+      "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [],
-        "benefit": 0.63,
-        "composite": 0.0658,
-        "cost_efficiency": 0.2,
-        "delivery_confidence": 0.6,
-        "downside_risk": 0.175,
+        "benefit": 0.66,
+        "composite": 0.0759,
+        "cost_efficiency": 0.45,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.4375,
         "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
+        "missing": []
       },
       "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.556,
-      "rank": 13,
+      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
+      "priority_score": 0.5808,
+      "rank": 11,
+      "requested_lovelace": 1785333000000,
+      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#6",
+      "dimensions": {
+        "actionable_asks": [],
+        "affirmative_waste_evidence": [],
+        "benefit": 0.63,
+        "composite": 0.077,
+        "cost_efficiency": 0.45,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.35,
+        "evidence_status": "independently_verified",
+        "missing": []
+      },
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
+      "priority_score": 0.576,
+      "rank": 12,
       "requested_lovelace": 1162746000000,
       "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc..."
     },
     {
-      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9",
+      "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
       "dimensions": {
+        "actionable_asks": [],
+        "affirmative_waste_evidence": [
+          "independently verified private-value capture"
+        ],
+        "benefit": 0.35,
+        "composite": 0.0544,
+        "cost_efficiency": 0.7,
+        "delivery_confidence": 0.7,
+        "downside_risk": 0.3375,
+        "evidence_status": "independently_verified",
+        "missing": []
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "balanced evidence floors not cleared",
+      "priority_score": 0.5388,
+      "rank": 13,
+      "requested_lovelace": 9000000000000,
+      "title": "Strike Finance Liquidity Deployment"
+    },
+    {
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#7",
+      "dimensions": {
+        "actionable_asks": [
+          "Publish a line-item budget: what is being bought, at what unit cost.",
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [],
-        "benefit": 0.43,
-        "composite": 0.007,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.75,
+        "benefit": 0.73,
+        "composite": 0.027,
+        "cost_efficiency": 0.0,
+        "delivery_confidence": 0.55,
         "downside_risk": 0.35,
         "evidence_status": "independently_verified",
         "missing": [
@@ -284,38 +335,15 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.496,
+      "priority_score": 0.531,
       "rank": 14,
-      "requested_lovelace": 1684050000000,
-      "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P..."
-    },
-    {
-      "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
-      "dimensions": {
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
-        ],
-        "benefit": 0.1,
-        "composite": 0.005,
-        "cost_efficiency": 0.7,
-        "delivery_confidence": 0.85,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.4725,
-      "rank": 15,
-      "requested_lovelace": 4969231000000,
-      "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform"
+      "requested_lovelace": 540750000000,
+      "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano\u2019s Event Pipeline"
     },
     {
       "action_id": "c0660dfd01b0a2d9ba7bac02014370096242ec756031b57d78080844fbbe9c05#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified private-value capture",
@@ -334,22 +362,28 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.4638,
-      "rank": 16,
+      "rank": 15,
       "requested_lovelace": 3333000000000,
       "title": "Global Order Book connect Cardano DeFi to increase transaction"
     },
     {
-      "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
+      "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#9",
       "dimensions": {
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
         ],
-        "benefit": 0.35,
-        "composite": -0.0225,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.9,
-        "downside_risk": 0.25,
+        "affirmative_waste_evidence": [
+          "independently verified excessive cost versus market comparables"
+        ],
+        "benefit": 0.43,
+        "composite": -0.043,
+        "cost_efficiency": 0.25,
+        "delivery_confidence": 0.55,
+        "downside_risk": 0.35,
         "evidence_status": "independently_verified",
         "missing": [
           "cost comparables, budget proportionality, or sustainability evidence"
@@ -357,35 +391,47 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.4575,
-      "rank": 17,
-      "requested_lovelace": 20000000000000,
-      "title": "Cardano Builder DAO"
+      "priority_score": 0.446,
+      "rank": 16,
+      "requested_lovelace": 1684050000000,
+      "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P..."
     },
     {
-      "action_id": "8721696358acdd43e34e5ed9ef1b3e2a1d2af9c1aa1972e017b9b9271b7ddc70#0",
+      "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [
+          "independently verified material duplication",
           "independently verified private-value capture"
         ],
-        "benefit": 0.35,
-        "composite": -0.0725,
-        "cost_efficiency": 0.45,
-        "delivery_confidence": 0.55,
-        "downside_risk": 0.6,
+        "benefit": 0.1,
+        "composite": -0.045,
+        "cost_efficiency": 0.7,
+        "delivery_confidence": 0.65,
+        "downside_risk": 0.25,
         "evidence_status": "independently_verified",
-        "missing": []
+        "missing": [
+          "verified ecosystem benefit or strategic necessity"
+        ]
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.425,
-      "rank": 18,
-      "requested_lovelace": 9000000000000,
-      "title": "Strike Finance Liquidity Deployment"
+      "priority_score": 0.4225,
+      "rank": 17,
+      "requested_lovelace": 4969231000000,
+      "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform"
     },
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0",
       "dimensions": {
+        "actionable_asks": [
+          "Publish a line-item budget: what is being bought, at what unit cost.",
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified private-value capture"
@@ -403,13 +449,52 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.41,
-      "rank": 19,
+      "rank": 18,
       "requested_lovelace": 3961538000000,
       "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex"
     },
     {
+      "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
+      "dimensions": {
+        "actionable_asks": [
+          "Publish a line-item budget: what is being bought, at what unit cost.",
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
+        "affirmative_waste_evidence": [
+          "independently verified material duplication",
+          "independently verified private-value capture"
+        ],
+        "benefit": 0.35,
+        "composite": -0.0725,
+        "cost_efficiency": 0.0,
+        "delivery_confidence": 0.7,
+        "downside_risk": 0.25,
+        "evidence_status": "independently_verified",
+        "missing": [
+          "cost comparables, budget proportionality, or sustainability evidence"
+        ]
+      },
+      "funding_eligible": "no",
+      "portfolio_reason": "balanced evidence floors not cleared",
+      "priority_score": 0.4075,
+      "rank": 19,
+      "requested_lovelace": 20000000000000,
+      "title": "Cardano Builder DAO"
+    },
+    {
       "action_id": "0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0",
       "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified private-value capture"
@@ -435,6 +520,13 @@
     {
       "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
       "dimensions": {
+        "actionable_asks": [
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified private-value capture"
@@ -460,6 +552,7 @@
     {
       "action_id": "dfd81f8db652fd9263e0ce3bef043b4823045ec3a5da10c817681ada7a23f034#0",
       "dimensions": {
+        "actionable_asks": [],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified private-value capture"
@@ -484,6 +577,14 @@
     {
       "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
       "dimensions": {
+        "actionable_asks": [
+          "Publish a line-item budget: what is being bought, at what unit cost.",
+          "State the cost against the benefit: what does this buy, per ada spent.",
+          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
+          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
+          "Tie payment to defined deliverables, not to elapsed time or headcount.",
+          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
+        ],
         "affirmative_waste_evidence": [
           "independently verified material duplication",
           "independently verified excessive cost versus market comparables"
@@ -509,14 +610,18 @@
     {
       "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
       "dimensions": {
+        "actionable_asks": [
+          "Gate disbursement on milestones that must be met before money moves.",
+          "Provide a clawback or refund path if the work is not delivered."
+        ],
         "affirmative_waste_evidence": [
           "independently verified private-value capture"
         ],
         "benefit": 0,
-        "composite": -0.2506,
+        "composite": -0.2394,
         "cost_efficiency": 0.55,
-        "delivery_confidence": 0.1,
-        "downside_risk": 0.2375,
+        "delivery_confidence": 0.25,
+        "downside_risk": 0.4125,
         "evidence_status": "independently_verified",
         "missing": [
           "verified ecosystem benefit or strategic necessity",
@@ -525,13 +630,13 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.2112,
+      "priority_score": 0.2313,
       "rank": 24,
       "requested_lovelace": 103000000000,
       "title": "Reimburse Ikigai Info Governance Action Deposit."
     }
   ],
-  "generated_at_utc": "2026-07-12T21:31:42+00:00",
+  "generated_at_utc": "2026-07-13T04:26:43+00:00",
   "ncl_lovelace": 300000000000000,
   "remaining_capacity_lovelace": 8564664000000,
   "schema_version": "treasury-portfolio-v1",
