@@ -1,5 +1,5 @@
 {
-  "allocated_candidate_lovelace": 8481550000000,
+  "allocated_candidate_lovelace": 2503960000000,
   "candidates": [
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
@@ -34,8 +34,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "yes",
-      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
+      "funding_eligible": "no",
+      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
       "priority_score": 0.7645,
       "rank": 2,
       "requested_lovelace": 2464844000000,
@@ -110,8 +110,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "yes",
-      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
+      "funding_eligible": "no",
+      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
       "priority_score": 0.709,
       "rank": 5,
       "requested_lovelace": 2350000000000,
@@ -282,8 +282,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "yes",
-      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
+      "funding_eligible": "no",
+      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
       "priority_score": 0.576,
       "rank": 12,
       "requested_lovelace": 1162746000000,
@@ -606,40 +606,12 @@
       "rank": 23,
       "requested_lovelace": 120000000000000,
       "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
-    },
-    {
-      "action_id": "d52a4917df4f91c342eaf06ebb4c0a5c3156f6412d137f307cc77eb911f47ab1#0",
-      "dimensions": {
-        "actionable_asks": [
-          "Gate disbursement on milestones that must be met before money moves.",
-          "Provide a clawback or refund path if the work is not delivered."
-        ],
-        "affirmative_waste_evidence": [
-          "independently verified private-value capture"
-        ],
-        "benefit": 0,
-        "composite": -0.2394,
-        "cost_efficiency": 0.55,
-        "delivery_confidence": 0.25,
-        "downside_risk": 0.4125,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity",
-          "delivery controls, milestones, assurance, or remedy path"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.2313,
-      "rank": 24,
-      "requested_lovelace": 103000000000,
-      "title": "Reimburse Ikigai Info Governance Action Deposit."
     }
   ],
-  "generated_at_utc": "2026-07-13T15:31:49+00:00",
+  "generated_at_utc": "2026-07-14T11:45:37+00:00",
   "ncl_lovelace": 300000000000000,
-  "remaining_capacity_lovelace": 8564664000000,
+  "remaining_capacity_lovelace": 3463883000000,
   "schema_version": "treasury-portfolio-v1",
   "status": "verified",
-  "withdrawals_window_lovelace": 291435336000000
+  "withdrawals_window_lovelace": 296536117000000
 }
