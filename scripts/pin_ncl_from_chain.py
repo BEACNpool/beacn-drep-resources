@@ -95,7 +95,7 @@ select c.id, c.tx_id, c.ix, c.anchor_hash, c.anchor_url, c.proposed_epoch, (sele
   left join drep_hash dh on dh.id = vp.drep_voter
   left join drep_distr dd on dd.hash_id = dh.id
        and dd.epoch_no = (select max(epoch_no) from drep_distr where epoch_no <= c.expiration)
- group by c.id, c.tx_id, c.ix, c.anchor_hash, c.anchor_url, c.proposed_epoch
+ group by c.id, c.tx_id, c.ix, c.anchor_hash, c.anchor_url, c.proposed_epoch, c.expiration
  order by c.proposed_epoch desc;
 """
 
