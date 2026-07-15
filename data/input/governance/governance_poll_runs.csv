@@ -1,4 +1,6 @@
 id,timestamp,source,proposals_found,new_proposals,errors
+978,2026-07-15T14:30:50.212873+00:00,beacn-warehouse,150,0,[]
+977,2026-07-15T12:00:01.289907+00:00,beacn-warehouse,150,0,[]
 976,2026-07-15T11:30:04.470338+00:00,beacn-warehouse,150,0,[]
 975,2026-07-15T08:00:01.793067+00:00,beacn-warehouse,150,0,[]
 974,2026-07-15T04:00:01.749956+00:00,beacn-warehouse,150,0,[]

@@ -1,5 +1,5 @@
 {
-  "allocated_candidate_lovelace": 2503960000000,
+  "allocated_candidate_lovelace": 10266883000000,
   "candidates": [
     {
       "action_id": "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#2",
@@ -34,8 +34,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "no",
-      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
       "priority_score": 0.7645,
       "rank": 2,
       "requested_lovelace": 2464844000000,
@@ -110,8 +110,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "no",
-      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
       "priority_score": 0.709,
       "rank": 5,
       "requested_lovelace": 2350000000000,
@@ -262,8 +262,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "no",
-      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
       "priority_score": 0.5808,
       "rank": 11,
       "requested_lovelace": 1785333000000,
@@ -282,8 +282,8 @@
         "evidence_status": "independently_verified",
         "missing": []
       },
-      "funding_eligible": "no",
-      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
+      "funding_eligible": "yes",
+      "portfolio_reason": "within verified capacity after higher-ranked eligible proposals",
       "priority_score": 0.576,
       "rank": 12,
       "requested_lovelace": 1162746000000,
@@ -608,9 +608,9 @@
       "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
     }
   ],
-  "generated_at_utc": "2026-07-15T11:45:10+00:00",
-  "ncl_lovelace": 300000000000000,
-  "remaining_capacity_lovelace": 3463883000000,
+  "generated_at_utc": "2026-07-15T14:45:25+00:00",
+  "ncl_lovelace": 500000000000000,
+  "remaining_capacity_lovelace": 203463883000000,
   "schema_version": "treasury-portfolio-v1",
   "status": "verified",
   "withdrawals_window_lovelace": 296536117000000
