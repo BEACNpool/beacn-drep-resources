@@ -29,6 +29,126 @@
   "onchain_context": "onchain recipient history: stake address stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v appears in 15 withdrawal proposals totalling 177273260000000 lovelace (first 2026-06-23 16:14:33, last 2026-07-09 16:30:25)\nonchain DRep vote counts so far: yes=40 no=16 abstain=3 (explicit ballots, not stake-weighted)\ntreasury flow (36 epochs): inflow 158544555362997 lovelace, enacted withdrawals 296536117000000 lovelace, ratio 1.870365",
   "output_sha256": "a5e4d553b2db22407df0a1cc11afda9a9717985ee78d6217f23960b9e3af810a",
   "prompt_sha256": "b6815774e322dfde86257b533fb89bed9a8c45a27cfb0cc8dd64cd046475c940",
-  "review_status": "drafted_pending_review",
-  "treasury_doctrine_version": "1.6.0"
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.6.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 18,
+    "fact_verdicts": [
+      {
+        "fact": 1,
+        "note": "Metadata block matches: action id 529dccaa\u202696d7#0, TreasuryWithdrawals, title verbatim, proposed epoch 642, expires after 649.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 2,
+        "note": "gov_action.rewards has exactly one entry: key stake1784sdxt\u2026u3j9v, value \"120000000000000\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 3,
+        "note": "Abstract: \"The withdrawal requests \u20b3120,000,000, with USD figures included only as planning references at the $0.16/ADA assumption.\"",
+        "verdict": "supported"
+      },
+      {
+        "fact": 4,
+        "note": "Abstract states \"12-month community-overseen program\", executed by AlphaGrowth under Operating Group oversight; \"Intersect acts as Constitutional Administrator and manages the withdrawn funds directly.\"",
+        "verdict": "supported"
+      },
+      {
+        "fact": 5,
+        "note": "Rationale: AlphaGrowth produces analyses/recommendations/disbursement memos; Operating Group may veto or condition material actions; Intersect manages funds into a separate auditable account.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 6,
+        "note": "Rationale: \"The Operating Group does not hold program funds, and AlphaGrowth does not unilaterally hold or control program funds.\"",
+        "verdict": "supported"
+      },
+      {
+        "fact": 7,
+        "note": "Rationale: \"includes a dedicated \u20b32,000,000 independent audit or assurance allocation\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 8,
+        "note": "Abstract lists all seven mechanisms verbatim, including the Month 4 Phase 3 release gate and abstain delegation while funds are held before disbursement.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 9,
+        "note": "Rationale: \"defines six return triggers for unused, unearned, unreleased, or excess funds\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 10,
+        "note": "Motivation: \"As of June 2026, Cardano DeFi has approximately $90M in TVL and $45M in stablecoin supply\".",
+        "verdict": "supported"
+      },
+      {
+        "fact": 11,
+        "note": "Disclosure sentence appears verbatim in the rationale's Prior Treasury Funding Disclosure section.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 12,
+        "note": "On-chain context: 15 withdrawal proposals totalling 177273260000000 lovelace, first 2026-06-23 16:14:33, last 2026-07-09 16:30:25 \u2014 all figures match.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 13,
+        "note": "On-chain context: yes=40 no=16 abstain=3, described as explicit ballots, not stake-weighted.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 14,
+        "note": "On-chain context: 36-epoch inflow 158544555362997, enacted withdrawals 296536117000000, ratio 1.870365 \u2014 exact match.",
+        "verdict": "supported"
+      },
+      {
+        "fact": 15,
+        "note": "values_hierarchy.md ranks treasury stewardship (2) above evidence quality (3), public-benefit ecosystem growth (4), and execution speed/social consensus momentum (5).",
+        "verdict": "supported"
+      },
+      {
+        "fact": 16,
+        "note": "Doctrine: \"Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.\"",
+        "verdict": "supported"
+      },
+      {
+        "fact": 17,
+        "note": "values_hierarchy.md: \"A directional NO requires affirmative independently verified evidence of waste or harm; missing information is not evidence against a proposal.\"",
+        "verdict": "supported"
+      },
+      {
+        "fact": 18,
+        "note": "treasury_spending_doctrine.md: \"This doctrine rejects first-come-first-served (FCFS) budget models and adopts a rolling-window Net Change Limit (NCL) framework.\"",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "d83640fe61eb294b18e3af3ea3a2eb1a5206a735b0e6451298e59397c0efb155",
+    "passed": true,
+    "prompt_sha256": "da7d3d058ae8daac509063e997094c6ee6a0028790b280d2a8ab8f0aa95c143c",
+    "summary": "All 18 dossier facts are supported by the source material. On-chain figures (120,000,000,000,000 lovelace withdrawal, recipient history of 15 proposals totalling 177,273,260,000,000 lovelace, vote counts 40/16/3, treasury flow ratio 1.870365) match exactly; anchor-document quotes (\u20b3120M request, $0.16/ADA assumption, \u20b32M audit allocation, six return triggers, $90M TVL / $45M stablecoin figures, 24-month funding disclosure) are verbatim or directly entailed; doctrine claims about the values hierarchy, hard dossier gate, NO-requires-affirmative-evidence rule, and rolling-window NCL framework are stated in the doctrine text. No contradicted or not_found facts, and no invented specifics.",
+    "support_ratio": 1.0,
+    "supported": 18,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 18,
+    "verified_at_utc": "2026-07-15T17:58:28+00:00"
+  }
 }
