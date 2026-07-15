@@ -35,6 +35,16 @@
 ## data/input/governance/governance_actions_active.csv
 - same schema as `governance_actions_all.csv`
 
+## data/input/governance/anchor_documents_index.csv
+- action_id, anchor_url, anchor_hash
+- fetch_status (ok|ok_cached|missing_url|http_error|url_error|error|hash_mismatch)
+- http_status, content_type, file_path, file_sha256
+- file_blake2b (blake2b-256 of the fetched bytes; empty when nothing was fetched)
+- blake2b_verified (verified|mismatch|no_onchain_hash|unverified) — file_blake2b vs the
+  on-chain anchor_hash. Report-only by default; with `BEACN_ANCHOR_HASH_ENFORCE=1` a
+  mismatch becomes `fetch_status=hash_mismatch` (not fetched / inadmissible).
+- content_bytes, fetched_at_utc, error, source_url, request_profile
+
 ## data/input/governance/governance_treasury_recipients.csv
 - action_id, stake_address, amount_lovelace
 

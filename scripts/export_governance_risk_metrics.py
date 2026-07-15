@@ -134,6 +134,61 @@ select
       and gap.enacted_epoch > tip.e - 73 and gap.enacted_epoch <= tip.e) as enacted_73e;
 """
 
+Q_RESERVES_NOW = """
+with tip as (select max(epoch_no) as e from public.ada_pots)
+select p.reserves::bigint
+from public.ada_pots p, tip
+where p.epoch_no = tip.e;
+"""
+
+# Live tau (treasuryCut) at the tip epoch — the assumed 0.20 stays published alongside it.
+Q_TREASURY_TAX = """
+select ep.treasury_growth_rate
+from public.epoch_param ep
+order by ep.epoch_no desc
+limit 1;
+"""
+
+# Per-epoch flow decomposition for the trailing 36 epochs. 37 pots rows are pulled so the
+# oldest epoch still gets a lag() delta (that seed row is dropped by the parser).
+# fee_inflow = tau x same-epoch fees is an approximation: the tau cut of fees(e) is
+# credited to the pot at the e -> e+1 boundary.
+Q_PER_EPOCH_FLOW = """
+with tip as (select max(epoch_no) as e from public.ada_pots),
+pots as (
+  select p.epoch_no, p.treasury::bigint as treasury
+  from public.ada_pots p, tip
+  where p.epoch_no between tip.e - 36 and tip.e
+),
+fees as (
+  select b.epoch_no, coalesce(sum(tx.fee),0)::bigint as fees
+  from public.tx tx
+  join public.block b on b.id = tx.block_id
+  cross join tip
+  where b.epoch_no between tip.e - 36 and tip.e
+  group by b.epoch_no
+),
+wd as (
+  select gap.enacted_epoch as epoch_no, coalesce(sum(tw.amount),0)::bigint as withdrawals
+  from public.treasury_withdrawal tw
+  join public.gov_action_proposal gap on gap.id = tw.gov_action_proposal_id
+  cross join tip
+  where gap.enacted_epoch is not null
+    and gap.enacted_epoch between tip.e - 36 and tip.e
+  group by gap.enacted_epoch
+)
+select p.epoch_no,
+       p.treasury - lag(p.treasury) over (order by p.epoch_no) as treasury_delta,
+       coalesce(w.withdrawals,0) as withdrawals_enacted,
+       coalesce(f.fees,0) as chain_fees,
+       coalesce(ep.treasury_growth_rate,0) as tau
+from pots p
+left join fees f on f.epoch_no = p.epoch_no
+left join wd w on w.epoch_no = p.epoch_no
+left join public.epoch_param ep on ep.epoch_no = p.epoch_no
+order by p.epoch_no;
+"""
+
 
 def _run_sql(sql: str, tuples_only: bool = False) -> str:
     cmd = [
@@ -208,6 +263,29 @@ def main() -> None:
     inflow_36e = (pot_now - pot_36e_ago) + enacted_36e if pot_36e_ago else 0
     inflow_73e = (pot_now - pot_73e_ago) + enacted_73e if pot_73e_ago else 0
 
+    reserves_raw = _run_sql(Q_RESERVES_NOW, tuples_only=True).strip()
+    reserves_now = int(reserves_raw.splitlines()[0].strip()) if reserves_raw else 0
+    tax_raw = _run_sql(Q_TREASURY_TAX, tuples_only=True).strip()
+    treasury_tax_actual = float(tax_raw.splitlines()[0].strip()) if tax_raw else None
+
+    series_raw = _run_sql(Q_PER_EPOCH_FLOW, tuples_only=True).strip()
+    per_epoch_series: list[dict] = []
+    for line in series_raw.splitlines():
+        parts = line.split("|")
+        if len(parts) < 5 or not parts[1].strip():
+            continue  # the oldest pulled epoch only seeds lag() and has no delta
+        fees_e = int(parts[3].strip())
+        tau_e = float(parts[4].strip() or 0)
+        per_epoch_series.append({
+            "epoch": int(parts[0].strip()),
+            "treasury_delta_lovelace": int(parts[1].strip()),
+            "withdrawals_enacted_lovelace": int(parts[2].strip()),
+            "chain_fees_lovelace": fees_e,
+            "fee_inflow_lovelace": int(fees_e * tau_e),
+        })
+    fee_inflow_actual_36e = sum(x["fee_inflow_lovelace"] for x in per_epoch_series)
+    reserves_derived_inflow_36e = inflow_36e - fee_inflow_actual_36e if pot_36e_ago else 0
+
     treasury_tax_assumed = 0.20
     treasury_fee_inflow_6m = int(chain_fees_6m * treasury_tax_assumed)
     flow = {
@@ -231,11 +309,28 @@ def main() -> None:
         "treasury_fee_inflow_6m_lovelace": treasury_fee_inflow_6m,
         "proposed_withdrawals_6m_lovelace": treasury_out_6m,
         "proposed_withdrawals_73e_lovelace": withdrawals_73e,
+        # inflow decomposition (additive — never rename/remove the fields above)
+        "reserves_pot_now_lovelace": reserves_now,
+        "treasury_tax_actual": treasury_tax_actual,
+        "treasury_fee_inflow_actual_36e_lovelace": fee_inflow_actual_36e,
+        "reserves_derived_inflow_6m_lovelace": reserves_derived_inflow_36e,
+        "per_epoch_series": per_epoch_series,
         "basis": {
             "inflow": "ada_pots treasury delta + enacted withdrawals (tau + donations)",
             "outflow": "treasury_withdrawal joined to gov_action_proposal.enacted_epoch (enacted only)",
             "fee_inflow": "20% of chain fees — organic-revenue context only",
             "proposed_withdrawals": "sum over proposals submitted in window regardless of ratification",
+            "reserves_pot": "ada_pots.reserves at tip epoch",
+            "treasury_tax_actual": "epoch_param.treasury_growth_rate at tip epoch (live tau)",
+            "per_epoch_series": (
+                "trailing 36 epochs: ada_pots treasury deltas; enacted withdrawals by "
+                "enacted_epoch; chain fees by block epoch; fee_inflow = live tau x same-epoch "
+                "fees (approx — the tau cut of fees(e) credits at the e->e+1 boundary)"
+            ),
+            "reserves_derived_inflow": (
+                "treasury_inflow_total_6m_lovelace minus actual-tau fee inflow over the same "
+                "36 epochs — the reserves(rho)+donations remainder"
+            ),
         },
     }
     flow_path = out_dir / "treasury_flow_6m.json"

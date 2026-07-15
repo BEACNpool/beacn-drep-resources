@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+"""Fetch governance anchor documents and verify them against the on-chain anchor hash.
+
+Every document (fresh fetch or cache reuse) is blake2b-256 hashed and compared to the
+action's on-chain anchor_hash (CIP-100 anchors commit to blake2b-256, NOT sha256).
+Verification is REPORT-ONLY by default: it never changes which anchors count as
+fetched, so no recommendation can flip on a hash result alone.
+
+  BEACN_ANCHOR_HASH_ENFORCE=1  -> a mismatched anchor is treated as not-fetched
+                                  (fetch_status=hash_mismatch, inadmissible)
+
+A mismatched entry is never trusted from cache -- it is refetched on every run.
+"""
 import csv
 import hashlib
 import json
@@ -19,6 +31,9 @@ INDEX_CSV = GOV / "anchor_documents_index.csv"
 MANIFEST = GOV / "anchor_documents_manifest.json"
 CACHE_INDEX = GOV / "anchor_cache_index.json"
 
+# Report-only unless explicitly enabled; see module docstring.
+ENFORCE_HASH = os.environ.get("BEACN_ANCHOR_HASH_ENFORCE", "0").strip() == "1"
+
 
 def now_utc() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -31,6 +46,25 @@ def slug(s: str) -> str:
 
 def sha256_bytes(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
+
+
+def blake2b_bytes(b: bytes) -> str:
+    return hashlib.blake2b(b, digest_size=32).hexdigest()
+
+
+def _norm_hash(h: str) -> str:
+    h = (h or "").strip().lower()
+    return h[2:] if h.startswith("0x") else h
+
+
+def verify_blake2b(file_blake2b: str, anchor_hash: str) -> str:
+    """verified | mismatch | no_onchain_hash | unverified (nothing fetched to hash)."""
+    onchain = _norm_hash(anchor_hash)
+    if not onchain:
+        return "no_onchain_hash"
+    if not file_blake2b:
+        return "unverified"
+    return "verified" if file_blake2b == onchain else "mismatch"
 
 
 def _ipfs_gateway_prefixes() -> list[str]:
@@ -181,6 +215,14 @@ def _cache_key(source_url: str, anchor_hash: str) -> str:
     return sha256_bytes(f"{source_url}|{anchor_hash}".encode("utf-8"))
 
 
+def _apply_verification(row: dict) -> dict:
+    # Verification is per-action: actions sharing a URL can carry different anchor hashes.
+    row["blake2b_verified"] = verify_blake2b(row.get("file_blake2b", ""), row.get("anchor_hash", ""))
+    if ENFORCE_HASH and row["blake2b_verified"] == "mismatch" and row["fetch_status"] in ("ok", "ok_cached"):
+        row["fetch_status"] = "hash_mismatch"
+    return row
+
+
 def main():
     if not ACTIONS.exists():
         raise SystemExit(f"missing actions csv: {ACTIONS}")
@@ -200,7 +242,7 @@ def main():
         ahash = (r.get("anchor_hash") or "").strip()
 
         if not source_url:
-            out_rows.append({
+            out_rows.append(_apply_verification({
                 "action_id": aid,
                 "anchor_url": "",
                 "anchor_hash": ahash,
@@ -209,24 +251,35 @@ def main():
                 "content_type": "",
                 "file_path": "",
                 "file_sha256": "",
+                "file_blake2b": "",
                 "content_bytes": "0",
                 "fetched_at_utc": now_utc(),
                 "error": "",
                 "source_url": "",
                 "request_profile": "",
-            })
+            }))
             continue
 
         if source_url in fetched_by_url:
             cached = fetched_by_url[source_url].copy()
             cached["action_id"] = aid
             cached["anchor_hash"] = ahash
-            out_rows.append(cached)
+            out_rows.append(_apply_verification(cached))
             continue
 
         cache_key = _cache_key(source_url, ahash)
         cache_row = cache.get(cache_key) if isinstance(cache, dict) else None
-        if cache_row and (ROOT / cache_row.get("file_path", "")).exists():
+        cached_blake2b = ""
+        if cache_row:
+            try:
+                cached_blake2b = blake2b_bytes((ROOT / cache_row.get("file_path", "")).read_bytes())
+            except OSError:
+                cache_row = None
+            # A cached doc that does not hash-verify is never trusted -- drop it and refetch.
+            if cache_row and verify_blake2b(cached_blake2b, ahash) == "mismatch":
+                cache.pop(cache_key, None)
+                cache_row = None
+        if cache_row:
             reused = {
                 "action_id": aid,
                 "anchor_url": cache_row.get("anchor_url", source_url),
@@ -236,6 +289,7 @@ def main():
                 "content_type": cache_row.get("content_type", ""),
                 "file_path": cache_row.get("file_path", ""),
                 "file_sha256": cache_row.get("file_sha256", ""),
+                "file_blake2b": cached_blake2b,
                 "content_bytes": str(cache_row.get("content_bytes", "0")),
                 "fetched_at_utc": now_utc(),
                 "error": "",
@@ -243,7 +297,7 @@ def main():
                 "request_profile": cache_row.get("request_profile", "cache"),
             }
             fetched_by_url[source_url] = reused.copy()
-            out_rows.append(reused)
+            out_rows.append(_apply_verification(reused))
             continue
 
         ts = now_utc().replace(":", "").replace("-", "")
@@ -260,6 +314,7 @@ def main():
             "content_type": "",
             "file_path": rel_path,
             "file_sha256": "",
+            "file_blake2b": "",
             "content_bytes": "0",
             "fetched_at_utc": now_utc(),
             "error": "",
@@ -274,21 +329,25 @@ def main():
             result["content_type"] = ctype
             result["content_bytes"] = str(len(content))
             result["file_sha256"] = sha256_bytes(content)
+            result["file_blake2b"] = blake2b_bytes(content)
             result["request_profile"] = pidx
             abs_path.write_bytes(content)
 
-            cache[cache_key] = {
-                "anchor_url": fetched_url,
-                "http_status": str(status),
-                "content_type": ctype,
-                "file_path": rel_path,
-                "file_sha256": result["file_sha256"],
-                "content_bytes": result["content_bytes"],
-                "request_profile": pidx,
-                "cached_at_utc": now_utc(),
-                "source_url": source_url,
-                "anchor_hash": ahash,
-            }
+            # Never cache a mismatch: it must be refetched on every run, not trusted.
+            if verify_blake2b(result["file_blake2b"], ahash) != "mismatch":
+                cache[cache_key] = {
+                    "anchor_url": fetched_url,
+                    "http_status": str(status),
+                    "content_type": ctype,
+                    "file_path": rel_path,
+                    "file_sha256": result["file_sha256"],
+                    "file_blake2b": result["file_blake2b"],
+                    "content_bytes": result["content_bytes"],
+                    "request_profile": pidx,
+                    "cached_at_utc": now_utc(),
+                    "source_url": source_url,
+                    "anchor_hash": ahash,
+                }
         except HTTPError as e:
             result["fetch_status"] = "http_error"
             result["http_status"] = str(e.code)
@@ -304,11 +363,12 @@ def main():
             result["file_path"] = ""
 
         fetched_by_url[source_url] = result.copy()
-        out_rows.append(result)
+        out_rows.append(_apply_verification(result))
 
     fieldnames = [
         "action_id", "anchor_url", "anchor_hash", "fetch_status", "http_status", "content_type",
-        "file_path", "file_sha256", "content_bytes", "fetched_at_utc", "error", "source_url", "request_profile"
+        "file_path", "file_sha256", "file_blake2b", "blake2b_verified", "content_bytes",
+        "fetched_at_utc", "error", "source_url", "request_profile"
     ]
     with INDEX_CSV.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
@@ -321,6 +381,9 @@ def main():
     ok_cached = sum(1 for x in out_rows if x["fetch_status"] == "ok_cached")
     missing = sum(1 for x in out_rows if x["fetch_status"] == "missing_url")
     failed = len(out_rows) - ok - missing
+
+    ver_counts = {s: sum(1 for x in out_rows if x["blake2b_verified"] == s)
+                  for s in ("verified", "mismatch", "no_onchain_hash", "unverified")}
 
     manifest = {
         "generated_at_utc": now_utc(),
@@ -340,9 +403,22 @@ def main():
             "missing_url": missing,
             "failed": failed,
         },
+        "hash_verification": {
+            "algo": "blake2b-256 of fetched bytes vs on-chain anchor_hash",
+            "enforce": ENFORCE_HASH,
+            "counts": ver_counts,
+            "entries": [
+                {"action_id": x["action_id"], "blake2b_verified": x["blake2b_verified"]}
+                for x in out_rows
+            ],
+        },
     }
     MANIFEST.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
+    print(f"ANCHOR HASH VERIFICATION: {ver_counts['verified']} verified, "
+          f"{ver_counts['mismatch']} MISMATCHED, {ver_counts['no_onchain_hash']} no on-chain hash, "
+          f"{ver_counts['unverified']} unverified "
+          f"[{'ENFORCING (mismatch = not fetched)' if ENFORCE_HASH else 'report-only'}]")
     print(json.dumps(manifest["stats"]))
 
 
