@@ -21,9 +21,18 @@ So "verified" here means the strongest evidence the chain can actually offer:
   1. an Info action whose anchor document is byte-verified against the on-chain
      `voting_anchor.data_hash` (blake2b-256) -- the document is authentic, not a copy;
   2. whose stated period covers the epoch we are voting in;
-  3. which won a majority of PARTICIPATING DRep stake (Yes > No, abstains excluded);
-  4. and, where several cover the same period, the LATEST such action -- NCL documents
-     explicitly supersede prior NCLs for the same period.
+  3. whose VOTING HAS CLOSED (past its on-chain expiration) with a FINAL majority of
+     participating DRep stake (Yes > No, abstains excluded). An interim tally of a
+     still-open action never sets the ceiling: one whale vote can push a proposal over
+     50% mid-vote and back under it tomorrow, which would flap the pin -- and worse, an
+     inflated NCL could be pushed over the line exactly while a large withdrawal is being
+     voted, inflating our perceived capacity (caught 2026-07-15: a single Yes at 12:36Z
+     put the open 500M proposal at 50.48% and stole the pin from the closed 300M record);
+  4. and, where several closed winners cover the same period, the LATEST such action --
+     NCL documents explicitly supersede prior NCLs for the same period.
+
+A still-open action currently leading its vote is published as `pending_candidate` --
+disclosed, never operative until its voting closes with the majority intact.
 
 We record `verification_status: "verified_onchain_info_action"` -- deliberately NOT
 "verified_on_chain", so nobody can later mistake this for enacted ledger state. The caveat
@@ -79,7 +88,8 @@ select c.id, c.tx_id, c.ix, c.anchor_hash, c.anchor_url, c.proposed_epoch, (sele
        coalesce(sum(dd.amount) filter (where vp.vote='Yes'), 0)::bigint as yes_stake,
        coalesce(sum(dd.amount) filter (where vp.vote='No'), 0)::bigint  as no_stake,
        count(*) filter (where vp.vote='Yes') as yes_n,
-       count(*) filter (where vp.vote='No')  as no_n
+       count(*) filter (where vp.vote='No')  as no_n,
+       c.expiration
   from cand c
   left join voting_procedure vp on vp.gov_action_proposal_id = c.id and vp.voter_role='DRep'
   left join drep_hash dh on dh.id = vp.drep_voter
@@ -145,9 +155,9 @@ def main() -> int:
     candidates = []
     for row in rows:
         f = row.split("|")
-        if len(f) < 11:
+        if len(f) < 12:
             continue
-        gid, tx_id, ix, anchor_hash, url, proposed, tip_epoch, yes_s, no_s, yes_n, no_n = f[:11]
+        gid, tx_id, ix, anchor_hash, url, proposed, tip_epoch, yes_s, no_s, yes_n, no_n, expiration = f[:12]
         tip = int(tip_epoch)
         raw = anchor_bytes_for(tx_id, int(ix), anchor_hash)
         if raw is None:
@@ -161,6 +171,7 @@ def main() -> int:
             "ncl_lovelace": lovelace, "period": period,
             "yes_stake": int(yes_s or 0), "no_stake": int(no_s or 0),
             "yes_n": int(yes_n or 0), "no_n": int(no_n or 0),
+            "expiration": int(expiration) if str(expiration).strip().isdigit() else None,
         })
 
     if tip is None:
@@ -169,23 +180,52 @@ def main() -> int:
 
     # 2. period must cover the epoch we are actually voting in
     covering = [c for c in candidates if c["period"][0] <= tip <= c["period"][1]]
-    # 3. must have won a majority of PARTICIPATING DRep stake
-    passed = [c for c in covering if c["yes_stake"] > c["no_stake"] and c["yes_stake"] > 0]
+    # 3. voting must be CLOSED (past on-chain expiration) with a FINAL Yes > No.
+    #    A still-open leader is pending evidence, never the operative ceiling.
+    def leads(c):
+        return c["yes_stake"] > c["no_stake"] and c["yes_stake"] > 0
+    closed = [c for c in covering if c["expiration"] is not None and tip > c["expiration"]]
+    open_ = [c for c in covering if c not in closed]
+    passed = [c for c in closed if leads(c)]
+    pending = [c for c in open_ if leads(c)]
     # 4. latest wins -- NCL documents supersede earlier ones for the same period
     passed.sort(key=lambda c: c["proposed_epoch"], reverse=True)
+    pending.sort(key=lambda c: c["proposed_epoch"], reverse=True)
 
     print(f"tip epoch {tip} | {len(candidates)} hash-verified NCL docs | "
-          f"{len(covering)} cover this epoch | {len(passed)} won their vote")
+          f"{len(covering)} cover this epoch | {len(passed)} closed with a won vote | "
+          f"{len(pending)} still open and leading")
     for c in covering:
         tot = c["yes_stake"] + c["no_stake"]
         pct = (100.0 * c["yes_stake"] / tot) if tot else 0.0
-        mark = "WON " if c["yes_stake"] > c["no_stake"] else "LOST"
+        is_open = c["expiration"] is None or tip <= c["expiration"]
+        mark = ("OPEN" if is_open else ("WON " if leads(c) else "LOST"))
         print(f"  [{mark}] epochs {c['period'][0]}-{c['period'][1]}  "
               f"{c['ncl_lovelace'] / 1e12:.0f}M ADA  yes {pct:.1f}% stake "
-              f"({c['yes_n']}y/{c['no_n']}n)  {c['tx_id'][:12]}…#{c['ix']}")
+              f"({c['yes_n']}y/{c['no_n']}n)  {c['tx_id'][:12]}…#{c['ix']}"
+              f"{'  voting open until epoch ' + str(c['expiration']) if is_open else ''}")
+
+    pend = pending[0] if pending else None
+    pending_block = None
+    if pend:
+        ptot = pend["yes_stake"] + pend["no_stake"]
+        ppct = round(100.0 * pend["yes_stake"] / ptot, 2) if ptot else 0.0
+        pending_block = {
+            "source_action_id": f"{pend['tx_id']}#{pend['ix']}",
+            "ncl_lovelace": pend["ncl_lovelace"],
+            "period_start_epoch": pend["period"][0],
+            "period_end_epoch": pend["period"][1],
+            "voting_open_until_epoch": pend["expiration"],
+            "interim_yes_pct_of_participating_stake": ppct,
+            "note": ("Voting on this action is still open; its interim tally does not set the "
+                     "operative ceiling. It becomes the pin only if it closes with Yes > No."),
+        }
+        print(f"\nPENDING candidate (voting open, NOT operative): "
+              f"{pend['ncl_lovelace'] / 1e12:.0f}M ADA {pend['tx_id'][:12]}…#{pend['ix']} "
+              f"at {ppct}% interim, open until epoch {pend['expiration']}")
 
     if not passed:
-        print("\nNo NCL action hash-verifies, covers this epoch, AND won its vote.")
+        print("\nNo NCL action hash-verifies, covers this epoch, AND closed with a won vote.")
         print("Leaving the fail-closed placeholder untouched. Treasury stays at NEEDS_MORE_INFO.")
         return 2
 
@@ -233,18 +273,20 @@ def main() -> int:
             "yes_dreps": w["yes_n"],
             "no_dreps": w["no_n"],
         },
+        "pending_candidate": pending_block,
         "caveat": (
             "Set by an Info governance action. Info actions change no ledger state and can NEVER "
             "be enacted -- they always expire -- so no formally ratified NCL exists or can exist. "
             "This is the strongest available public chain evidence: an anchor document byte-verified "
-            "against its on-chain blake2b-256 hash, covering the current epoch, which won a majority "
-            "of participating DRep stake. It is NOT enacted ledger state, and the majority may fall "
-            "short of the supermajority other action types require. Published with every treasury "
-            "rationale that relies on it."
+            "against its on-chain blake2b-256 hash, covering the current epoch, whose voting CLOSED "
+            "with a majority of participating DRep stake. It is NOT enacted ledger state, and the "
+            "majority may fall short of the supermajority other action types require. Published with "
+            "every treasury rationale that relies on it."
         ),
         "note": (
             "Produced by scripts/pin_ncl_from_chain.py from relay db-sync. Re-run each cycle: a later "
-            "NCL action covering the same period supersedes this one."
+            "NCL action covering the same period supersedes this one only after ITS voting closes "
+            "with Yes > No; open actions surface as pending_candidate, never as the ceiling."
         ),
     }
 
