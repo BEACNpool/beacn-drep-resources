@@ -947,18 +947,6 @@
     "source_url": "ipfs://bafkreibqma7t2k4rcywvx5afukahhi3dp2so2ugh7t4ljuawhanvk7sr34",
     "anchor_hash": "7d2f344f3651a8372ad603abf11fcb310fb3c5154a6592591d1ff97d951156e3"
   },
-  "bacdc5305a5efc28f9a2da98f3aba0cd511bc49762e667309d131882041fda8d": {
-    "anchor_url": "https://raw.githubusercontent.com/theeldermillenial/2025-liquidity-budget/df0b26d8796b19b566008ea9eaa8f17fef2cb6d4/info.jsonld",
-    "http_status": "200",
-    "content_type": "text/plain; charset=utf-8",
-    "file_path": "data/input/governance/anchors/gov_action1fpqwxp2kxvnntr8hpkh9q9djm78ccdww7qlhg5safugh4stmcwzqql5lauu-20260326T175236Z.bin",
-    "file_sha256": "49680fbb9f3c4426bf81bd1c6d8c6f6a40a888984c114ad1456ff9172d337a9b",
-    "content_bytes": "18150",
-    "request_profile": "0",
-    "cached_at_utc": "2026-03-26T17:52:36Z",
-    "source_url": "https://raw.githubusercontent.com/theeldermillenial/2025-liquidity-budget/df0b26d8796b19b566008ea9eaa8f17fef2cb6d4/info.jsonld",
-    "anchor_hash": "97df3a30b767ee5b8e2b9fde824d91d3366985243ed73c06b257c2163f9045db"
-  },
   "e0ae9ee23cf89d680f0a279b88acd7be3a69a99c4350718c45959b0b6053c1a0": {
     "anchor_url": "https://most-brass-sun.quicknode-ipfs.com/ipfs/QmRrGsZsP5R7cFYFzPXQ9vS2Ux7oTXb1ep1EciLdKqeDWY",
     "http_status": "200",
@@ -1090,18 +1078,6 @@
     "cached_at_utc": "2026-03-26T17:52:39Z",
     "source_url": "https://c-ipfs-gw.nmkr.io/ipfs/QmXdfDSSkR8TYBntMT4nuTL9sE9E44FJnpWVpaY8ZTfwjj",
     "anchor_hash": "d4efa9e0c3d80f5be35def08551eaf5aef17eae832fdb835e5f4b208d98f3dff"
-  },
-  "5d5724fd20e64559cb87788401d31cd6ba9bad6ae0274acd0ccfb66b0f93cea5": {
-    "anchor_url": "https://ipfs.io/ipfs/QmWjcHsrq9kKHZZ7aPPFjqN6wLuxH9d8bcqssmrE7H4cvb",
-    "http_status": "200",
-    "content_type": "application/json",
-    "file_path": "data/input/governance/anchors/gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr-20260326T175239Z.bin",
-    "file_sha256": "848ed97ad351648cd9a6b74bf357efd67fd88ae30d1895aab755ee9580341d99",
-    "content_bytes": "2018",
-    "request_profile": "0",
-    "cached_at_utc": "2026-03-26T17:52:39Z",
-    "source_url": "ipfs://QmWjcHsrq9kKHZZ7aPPFjqN6wLuxH9d8bcqssmrE7H4cvb",
-    "anchor_hash": "2f98f57c4149fdfed2b73cbd821226fe417ef5ed49d8f836a37b31edf14dea47"
   },
   "f839519a56b35e627223e98f60a0f1f6a8e9e43e0f545aa10fd692b10659411e": {
     "anchor_url": "https://raw.githubusercontent.com/AGT-T/RTG/refs/heads/main/data.jsonld",
