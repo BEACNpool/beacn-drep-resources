@@ -590,10 +590,10 @@
           "independently verified excessive cost versus market comparables"
         ],
         "benefit": 0.1,
-        "composite": -0.1987,
+        "composite": -0.1725,
         "cost_efficiency": 0.0,
         "delivery_confidence": 0.7,
-        "downside_risk": 0.425,
+        "downside_risk": 0.25,
         "evidence_status": "independently_verified",
         "missing": [
           "verified ecosystem benefit or strategic necessity",
@@ -602,13 +602,13 @@
       },
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.2775,
+      "priority_score": 0.295,
       "rank": 23,
       "requested_lovelace": 120000000000000,
       "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
     }
   ],
-  "generated_at_utc": "2026-07-15T16:49:19+00:00",
+  "generated_at_utc": "2026-07-15T17:33:37+00:00",
   "ncl_lovelace": 500000000000000,
   "remaining_capacity_lovelace": 203463883000000,
   "schema_version": "treasury-portfolio-v1",
