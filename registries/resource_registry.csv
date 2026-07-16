@@ -20,3 +20,4 @@ treasury_policy_state,treasury,treasury_withdrawal,beacn_ncl_chain_verification,
 treasury_portfolio,treasury,treasury_withdrawal,beacn_portfolio_ranker,data/input/governance/treasury_portfolio.json,JSON,daily,repo,approved
 governance_outcomes,governance,all,beacn_outcome_audit,data/history/governance_outcomes.csv,CSV,monthly,repo,approved
 protocol_readiness_profiles,governance,all,beacn_protocol_readiness_research,data/input/governance/decision_support/protocol_readiness_profiles.csv,CSV,daily,repo,approved
+eutxo_fundamentals_book,technical,parameter_change,Raul Rosa,https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts/blob/b1f255294cd32bc10754ebf9b15253d8f0ecf387/dark.pdf,PDF,manual,AFL-3.0,approved
