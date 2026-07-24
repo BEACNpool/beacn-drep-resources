@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T11:30:07Z",
+  "generated_at_utc": "2026-07-24T11:30:07Z",
   "source": "data/input/governance/governance_actions_all.csv",
   "output_index": "data/input/governance/anchor_documents_index.csv",
   "anchors_dir": "data/input/governance/anchors",
@@ -17,8 +17,8 @@
     "request_profiles": 4
   },
   "stats": {
-    "actions_total": 150,
-    "fetched_ok": 148,
+    "actions_total": 151,
+    "fetched_ok": 149,
     "fetched_ok_cached": 146,
     "missing_url": 0,
     "failed": 2
@@ -27,12 +27,16 @@
     "algo": "blake2b-256 of fetched bytes vs on-chain anchor_hash",
     "enforce": false,
     "counts": {
-      "verified": 146,
+      "verified": 147,
       "mismatch": 2,
       "no_onchain_hash": 0,
       "unverified": 2
     },
     "entries": [
+      {
+        "action_id": "48bab0ca71cc46f2ee421242b14f292b8c8382bda707d03ea662644bed22b893#0",
+        "blake2b_verified": "verified"
+      },
       {
         "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
         "blake2b_verified": "verified"

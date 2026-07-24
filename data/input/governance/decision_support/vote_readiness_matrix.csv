@@ -74,3 +74,4 @@ gov_action18a9sytyez02jl8ee4ryz5xu7heg587m5tu6nr7fkd3ex30umnnjqq27e7ey,TreasuryW
 gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz,TreasuryWithdrawals,,yes,yes,yes,yes,yes,no,no,no,no,no,yes,no,,Line-item recurring fees + dependence-reduction plan.,drep-ops,needs_independent_diligence
 gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux,TreasuryWithdrawals,,yes,yes,yes,yes,yes,no,yes,no,no,no,yes,no,,Independent feasibility + reach basis + milestone-gated disbursement proof.,drep-ops,needs_independent_diligence
 gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z,TreasuryWithdrawals,,yes,yes,yes,yes,yes,yes,no,no,yes,no,yes,no,,Evidence for Pro-plan conversion + staged disbursement.,drep-ops,needs_independent_diligence
+48bab0ca71cc46f2ee421242b14f292b8c8382bda707d03ea662644bed22b893#0,InfoAction,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,no,no,,,drep-agent-extract,machine_derived

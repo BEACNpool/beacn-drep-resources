@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "A group of Cardano Ambassadors — submitted by Chris [STR8]"
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "This info action proposes naming the Protocol Version 12 hard fork “von Bergen” as a salute and recognition to Fabian von Bergen, also known as Zyroxa.\n\nFabian has been a Cardano community member since the ITN, an always critical, honest and sound voice in Cardano's past who introduced and guided many through the Cardano ecosystem, a well known person on the Cardano Forum, also SPO of the Tempus Stake Pool and a Cardano Ambassador since the earliest days of the program.",
+    "motivation": "Many of us remember Fabian as a humble and modest, yet hard working person. Kind and smart and always honest and authentic to his perspectives and opinions, a person who said what he thought and stood his ground. Fabian passed away in January 2026.",
+    "rationale": "Naming the hard fork “von Bergen” would preserve Fabian’s name in Cardano’s history and recognize his lasting contribution to the community. This action is submitted as a salute to his work and his doings and the echo he will leave for this ecosystem. \n\nShall his name remain known to the ledger.\n\nIn deepest respect to Fabian.",
+    "title": "Name the Protocol Version 12 hard fork “von Bergen“"
+  }
+}
