@@ -22,54 +22,6 @@
       "title": "Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime"
     },
     {
-      "action_id": "5439b6141625436ccf600f910bb0b3301b6288933a2cdf7939758848ae8b9997#0",
-      "dimensions": {
-        "actionable_asks": [
-          "State the cost against the benefit: what does this buy, per ada spent.",
-          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
-          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
-          "Tie payment to defined deliverables, not to elapsed time or headcount.",
-          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
-        ],
-        "affirmative_waste_evidence": [],
-        "benefit": 0.91,
-        "composite": 0.2015,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.7,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.7095,
-      "rank": 2,
-      "requested_lovelace": 9832979000000,
-      "title": "Blockfrost's transformation to not-for-profit"
-    },
-    {
-      "action_id": "d8de068952df50c862fa1bce9b8180d3387976cbae0fb2c3d9ef84f0faaf64d6#0",
-      "dimensions": {
-        "actionable_asks": [],
-        "affirmative_waste_evidence": [],
-        "benefit": 0.66,
-        "composite": 0.0759,
-        "cost_efficiency": 0.45,
-        "delivery_confidence": 0.55,
-        "downside_risk": 0.4375,
-        "evidence_status": "independently_verified",
-        "missing": []
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "insufficient remaining NCL capacity after higher-ranked proposals",
-      "priority_score": 0.5808,
-      "rank": 3,
-      "requested_lovelace": 1785333000000,
-      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027"
-    },
-    {
       "action_id": "c0660dfd01b0a2d9ba7bac02014370096242ec756031b57d78080844fbbe9c05#0",
       "dimensions": {
         "actionable_asks": [],
@@ -91,98 +43,9 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.4638,
-      "rank": 4,
+      "rank": 2,
       "requested_lovelace": 3333000000000,
       "title": "Global Order Book connect Cardano DeFi to increase transaction"
-    },
-    {
-      "action_id": "35b44189eb4795d5775122da52a3a115753f83fd662dd1ff205ea633fc99b34e#0",
-      "dimensions": {
-        "actionable_asks": [],
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
-        ],
-        "benefit": 0.1,
-        "composite": -0.045,
-        "cost_efficiency": 0.7,
-        "delivery_confidence": 0.65,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.4225,
-      "rank": 5,
-      "requested_lovelace": 4969231000000,
-      "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform"
-    },
-    {
-      "action_id": "4b7abfa70d98858750c50cd651d54c2955303b5410b34f40eb259f2fffc7c939#0",
-      "dimensions": {
-        "actionable_asks": [
-          "Publish a line-item budget: what is being bought, at what unit cost.",
-          "State the cost against the benefit: what does this buy, per ada spent.",
-          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
-          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
-          "Tie payment to defined deliverables, not to elapsed time or headcount.",
-          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
-        ],
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
-        ],
-        "benefit": 0.35,
-        "composite": -0.0725,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.7,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.4075,
-      "rank": 6,
-      "requested_lovelace": 20000000000000,
-      "title": "Cardano Builder DAO"
-    },
-    {
-      "action_id": "0f75dd11be0b7a6cb4b305a175b17cf4b60cd307c052fccabf9f572950e70583#0",
-      "dimensions": {
-        "actionable_asks": [
-          "State the cost against the benefit: what does this buy, per ada spent.",
-          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
-          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
-          "Tie payment to defined deliverables, not to elapsed time or headcount.",
-          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
-        ],
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
-        ],
-        "benefit": 0.18,
-        "composite": -0.0924,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.85,
-        "downside_risk": 0.5125,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.3922,
-      "rank": 7,
-      "requested_lovelace": 10000000000000,
-      "title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol"
     },
     {
       "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
@@ -212,7 +75,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.3325,
-      "rank": 8,
+      "rank": 3,
       "requested_lovelace": 4094000000000,
       "title": "Revised Cardano dOSPO and OMF Program Proposal"
     },
@@ -245,7 +108,7 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.3325,
-      "rank": 9,
+      "rank": 4,
       "requested_lovelace": 120000000000000,
       "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
     },
@@ -270,15 +133,15 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.325,
-      "rank": 10,
+      "rank": 5,
       "requested_lovelace": 12332031000000,
       "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano \u2014 Road to Mainnet (Phase 1 of 2)"
     }
   ],
-  "generated_at_utc": "2026-07-28T11:34:52+00:00",
+  "generated_at_utc": "2026-07-29T11:36:54+00:00",
   "ncl_lovelace": 300000000000000,
   "remaining_capacity_lovelace": 0,
   "schema_version": "treasury-portfolio-v1",
   "status": "verified",
-  "withdrawals_window_lovelace": 302733167000000
+  "withdrawals_window_lovelace": 335610296000000
 }
