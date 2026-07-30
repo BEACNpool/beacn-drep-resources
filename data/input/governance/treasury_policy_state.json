@@ -7,7 +7,7 @@
   "source_action_id": "73a4eb2148781c37ef37c90a33a1d3d00511a8eefe9cdfaa1ea593b090f23f96#0",
   "source_anchor_hash": "4e264b46f948da4a1917be590d14f10f9e36372075fd11561669180747c0588b",
   "source_anchor_url": "ipfs://bafkreid7tr5uotr4bp2jp54q7lbm5p5eldncuahprj53msy6kqgjscyrdu",
-  "verified_at_utc": "2026-07-29T11:36:23Z",
+  "verified_at_utc": "2026-07-30T11:33:29Z",
   "verified_at_epoch": 646,
   "withdrawals_in_period_lovelace": 335610296000000,
   "remaining_capacity_lovelace": 0,
@@ -25,7 +25,7 @@
     "period_start_epoch": 613,
     "period_end_epoch": 713,
     "voting_open_until_epoch": 647,
-    "interim_yes_pct_of_participating_stake": 68.48,
+    "interim_yes_pct_of_participating_stake": 68.49,
     "note": "Voting on this action is still open; its interim tally does not set the operative ceiling. It becomes the pin only if it closes with Yes > No."
   },
   "caveat": "Set by an Info governance action. Info actions change no ledger state and can NEVER be enacted -- they always expire -- so no formally ratified NCL exists or can exist. This is the strongest available public chain evidence: an anchor document byte-verified against its on-chain blake2b-256 hash, covering the current epoch, whose voting CLOSED with a majority of participating DRep stake. It is NOT enacted ledger state, and the majority may fall short of the supermajority other action types require. Published with every treasury rationale that relies on it.",
