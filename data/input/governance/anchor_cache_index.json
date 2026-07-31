@@ -1763,5 +1763,18 @@
     "cached_at_utc": "2026-07-24T11:30:07Z",
     "source_url": "https://str8pool.com/governance/2026-07-23-FabianvBergen.jsonld",
     "anchor_hash": "95c0bcf2ec42756d6f12f8110d40826021fca29ed82526609efb62d9e79c98ad"
+  },
+  "c1ae51269bbb3eaf8f5b40644e37b3bd0ddab15189e2928034f450652afbac02": {
+    "anchor_url": "https://ipfs.io/ipfs/bafkreifc5ct5fpeu4ygx6k4cqzbyzny7xfmuljywgn7jge3zkf2tidacym",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/ab474223d40e2e3540555364be27e161a809c33651408f43d84acff10c0ba306-0-20260731T113007Z.bin",
+    "file_sha256": "a2e8a7d2bc94e60d7f2b8286438cb71fb95945a716337e9313795175340c02c3",
+    "file_blake2b": "f200d39e39a3db74bdaa4f04865b4da38b5403322984c6fdcaf09bd44cacf868",
+    "content_bytes": "33071",
+    "request_profile": "0",
+    "cached_at_utc": "2026-07-31T11:30:07Z",
+    "source_url": "ipfs://bafkreifc5ct5fpeu4ygx6k4cqzbyzny7xfmuljywgn7jge3zkf2tidacym",
+    "anchor_hash": "f200d39e39a3db74bdaa4f04865b4da38b5403322984c6fdcaf09bd44cacf868"
   }
 }
