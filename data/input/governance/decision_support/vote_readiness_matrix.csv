@@ -76,3 +76,4 @@ gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux,TreasuryW
 gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z,TreasuryWithdrawals,,yes,yes,yes,yes,yes,yes,no,no,yes,no,yes,no,,Evidence for Pro-plan conversion + staged disbursement.,drep-ops,needs_independent_diligence
 48bab0ca71cc46f2ee421242b14f292b8c8382bda707d03ea662644bed22b893#0,InfoAction,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,no,no,,,drep-agent-extract,machine_derived
 ab474223d40e2e3540555364be27e161a809c33651408f43d84acff10c0ba306#0,ParameterChange,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,no,no,,,drep-agent-extract,machine_derived
+729daaf2f9f89f842a61f6e3ebf7e57d16d6fa4116e29c13114780cb39090850#0,NewCommittee,,yes,no,yes,yes,yes,unknown,unknown,unknown,unknown,no,no,no,,,drep-agent-extract,machine_derived

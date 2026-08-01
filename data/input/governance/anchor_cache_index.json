@@ -1776,5 +1776,18 @@
     "cached_at_utc": "2026-07-31T11:30:07Z",
     "source_url": "ipfs://bafkreifc5ct5fpeu4ygx6k4cqzbyzny7xfmuljywgn7jge3zkf2tidacym",
     "anchor_hash": "f200d39e39a3db74bdaa4f04865b4da38b5403322984c6fdcaf09bd44cacf868"
+  },
+  "1f4d2daee1e59aa85014e83692fe5adb65abd080b3329c9e75f2be9a28cbd960": {
+    "anchor_url": "https://ipfs.io/ipfs/bafkreif22553h3reaedrd376hzgkjng6kxnb3o7ycu3j4pzjbcjerv2bce",
+    "http_status": "200",
+    "content_type": "application/json",
+    "file_path": "data/input/governance/anchors/729daaf2f9f89f842a61f6e3ebf7e57d16d6fa4116e29c13114780cb39090850-0-20260801T113006Z.bin",
+    "file_sha256": "bad77bb3ee24010711effe3e4ca4b4de55da1dbbf815369e3f29089248d74111",
+    "file_blake2b": "6014f3e6c052eb1e83ce344bda1ee5262000a83d1d1aa62d63726d91316e6647",
+    "content_bytes": "14580",
+    "request_profile": "0",
+    "cached_at_utc": "2026-08-01T11:30:06Z",
+    "source_url": "ipfs://bafkreif22553h3reaedrd376hzgkjng6kxnb3o7ycu3j4pzjbcjerv2bce",
+    "anchor_hash": "6014f3e6c052eb1e83ce344bda1ee5262000a83d1d1aa62d63726d91316e6647"
   }
 }
