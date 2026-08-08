@@ -2,38 +2,6 @@
   "allocated_candidate_lovelace": 0,
   "candidates": [
     {
-      "action_id": "2f429bde312c0806bd16199da10f4145da9807161e99d4486174c6fb9a91f983#0",
-      "dimensions": {
-        "actionable_asks": [
-          "State the cost against the benefit: what does this buy, per ada spent.",
-          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
-          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
-          "Tie payment to defined deliverables, not to elapsed time or headcount.",
-          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
-        ],
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified private-value capture"
-        ],
-        "benefit": 0.1,
-        "composite": -0.135,
-        "cost_efficiency": 0.25,
-        "delivery_confidence": 0.65,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.3325,
-      "rank": 1,
-      "requested_lovelace": 4094000000000,
-      "title": "Revised Cardano dOSPO and OMF Program Proposal"
-    },
-    {
       "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
       "dimensions": {
         "actionable_asks": [
@@ -62,12 +30,12 @@
       "funding_eligible": "no",
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.3325,
-      "rank": 2,
+      "rank": 1,
       "requested_lovelace": 120000000000000,
       "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
     }
   ],
-  "generated_at_utc": "2026-08-07T11:33:04+00:00",
+  "generated_at_utc": "2026-08-08T11:33:01+00:00",
   "ncl_lovelace": 300000000000000,
   "remaining_capacity_lovelace": 0,
   "schema_version": "treasury-portfolio-v1",
