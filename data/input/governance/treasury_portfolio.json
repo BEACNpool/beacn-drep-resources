@@ -1,41 +1,7 @@
 {
   "allocated_candidate_lovelace": 0,
-  "candidates": [
-    {
-      "action_id": "529dccaadaa000746c22f1682574cb3f436eeba4d19710b90791a54226dc96d7#0",
-      "dimensions": {
-        "actionable_asks": [
-          "Publish a line-item budget: what is being bought, at what unit cost.",
-          "State the cost against the benefit: what does this buy, per ada spent.",
-          "Describe the funding path beyond this grant, or say plainly that there isn't one.",
-          "Disclose the rate basis \u2014 headcount, FTE fraction, or day rate \u2014 so the price can be checked against the market.",
-          "Tie payment to defined deliverables, not to elapsed time or headcount.",
-          "State your AI-cost assumption: this work is cheaper to produce than it was, and the price should show it."
-        ],
-        "affirmative_waste_evidence": [
-          "independently verified material duplication",
-          "independently verified excessive cost versus market comparables"
-        ],
-        "benefit": 0.1,
-        "composite": -0.135,
-        "cost_efficiency": 0.0,
-        "delivery_confidence": 0.85,
-        "downside_risk": 0.25,
-        "evidence_status": "independently_verified",
-        "missing": [
-          "verified ecosystem benefit or strategic necessity",
-          "cost comparables, budget proportionality, or sustainability evidence"
-        ]
-      },
-      "funding_eligible": "no",
-      "portfolio_reason": "balanced evidence floors not cleared",
-      "priority_score": 0.3325,
-      "rank": 1,
-      "requested_lovelace": 0,
-      "title": "Withdraw 120,000,000 ada for AlphaGrowth\u2019s Cardano PRIME"
-    }
-  ],
-  "generated_at_utc": "2026-08-12T11:30:18+00:00",
+  "candidates": [],
+  "generated_at_utc": "2026-08-13T11:30:13+00:00",
   "ncl_lovelace": 300000000000000,
   "remaining_capacity_lovelace": 0,
   "schema_version": "treasury-portfolio-v1",
