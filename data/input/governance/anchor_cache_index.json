@@ -1789,5 +1789,18 @@
     "cached_at_utc": "2026-08-01T11:30:06Z",
     "source_url": "ipfs://bafkreif22553h3reaedrd376hzgkjng6kxnb3o7ycu3j4pzjbcjerv2bce",
     "anchor_hash": "6014f3e6c052eb1e83ce344bda1ee5262000a83d1d1aa62d63726d91316e6647"
+  },
+  "0844ad43713aca41e463c775a0cd6cb578cdd9f8dd80c0d79332a3aa5237b675": {
+    "anchor_url": "https://gray-top-unicorn-495.mypinata.cloud/ipfs/bafkreia4wvoh2oa4hb55kvsxt3adyrrl2lyn245huo4lkeyhus3yvijq2q",
+    "http_status": "200",
+    "content_type": "application/ld+json",
+    "file_path": "data/input/governance/anchors/f57f8fcb4e83ad1b6f58bffd4a302aacbb5a90874c83c5f84a7f8b4bb43ce9bc-0-20260815T113006Z.bin",
+    "file_sha256": "1cb55c7d381c387bd556579ec03c462bd2f0dd73a7a3b8b51307a4b78aa130d4",
+    "file_blake2b": "7130cd947a523fe5436355c1a6ba25f9d59b57c77898fb55c86685c1fa7e4a96",
+    "content_bytes": "33733",
+    "request_profile": "0",
+    "cached_at_utc": "2026-08-15T11:30:06Z",
+    "source_url": "https://gray-top-unicorn-495.mypinata.cloud/ipfs/bafkreia4wvoh2oa4hb55kvsxt3adyrrl2lyn245huo4lkeyhus3yvijq2q",
+    "anchor_hash": "7130cd947a523fe5436355c1a6ba25f9d59b57c77898fb55c86685c1fa7e4a96"
   }
 }
