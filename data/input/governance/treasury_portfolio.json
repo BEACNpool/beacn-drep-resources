@@ -32,7 +32,7 @@
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.075,
       "rank": 1,
-      "requested_lovelace": 0,
+      "requested_lovelace": 103000000000,
       "title": "Reimburse Ikigai Info Governance Action Deposit."
     },
     {
@@ -66,11 +66,11 @@
       "portfolio_reason": "balanced evidence floors not cleared",
       "priority_score": 0.075,
       "rank": 2,
-      "requested_lovelace": 0,
+      "requested_lovelace": 4207967000000,
       "title": "Governance Incentives Framework 2026"
     }
   ],
-  "generated_at_utc": "2026-08-21T11:30:22+00:00",
+  "generated_at_utc": "2026-08-22T11:30:28+00:00",
   "ncl_lovelace": 300000000000000,
   "remaining_capacity_lovelace": 0,
   "schema_version": "treasury-portfolio-v1",
