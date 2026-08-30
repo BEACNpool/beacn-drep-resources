@@ -1,0 +1,154 @@
+{
+  "action_id": "f57f8fcb4e83ad1b6f58bffd4a302aacbb5a90874c83c5f84a7f8b4bb43ce9bc#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "656",
+    "metadata_title": "Governance Incentives Framework 2026",
+    "proposed_epoch": "649",
+    "treasury_amount_lovelace": "4207967000000"
+  },
+  "anchor": {
+    "action_id": "f57f8fcb4e83ad1b6f58bffd4a302aacbb5a90874c83c5f84a7f8b4bb43ce9bc#0",
+    "anchor_read": true,
+    "anchor_url": "https://gray-top-unicorn-495.mypinata.cloud/ipfs/bafkreia4wvoh2oa4hb55kvsxt3adyrrl2lyn245huo4lkeyhus3yvijq2q",
+    "content_chars": 33642,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/f57f8fcb4e83ad1b6f58bffd4a302aacbb5a90874c83c5f84a7f8b4bb43ce9bc-0-20260815T113006Z.bin",
+    "file_sha256": "1cb55c7d381c387bd556579ec03c462bd2f0dd73a7a3b8b51307a4b78aa130d4",
+    "reason": null
+  },
+  "anchor_sha256": "10d712489faf2f306277ff48866a08b3023311e8a7b602e15dc6e9cdf83de374",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "c2233eb4f9d92ce5385e4e388f4d8d46a6bf47773880dc6b9cb954135b6ec7b4",
+  "generated_at_utc": "2026-08-30T11:41:46+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "treasury flow (36 epochs): inflow 157728860954329 lovelace, enacted withdrawals 337395629000000 lovelace, ratio 2.139086",
+  "output_sha256": "887cc735f27c04379799a7c5d56585d60fbcbd5385f4ffe3c7108e03a8a1ceb8",
+  "prompt_sha256": "a48e982df3bcbf9855c8f13957d4faec456e8e1d2fc8268856a707ae2ed7a9d4",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.6.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 15,
+    "fact_verdicts": [
+      {
+        "index": 1,
+        "note": "Every field matches the governance export character-for-character: action id, TreasuryWithdrawals, title 'Governance Incentives Framework 2026', 4207967000000 lovelace, proposed epoch 649, expires after 656. The lovelace figure is also consistent with the anchor's \u20b34,207,967.00 total.",
+        "source": "onchain: action metadata",
+        "verdict": "supported"
+      },
+      {
+        "index": 2,
+        "note": "36-epoch window, inflow 157728860954329, enacted withdrawals 337395629000000, ratio 2.139086 \u2014 all three numbers match exactly and the ratio recomputes to 2.13909. Calling the block 'db-sync context' rather than 'on-chain context' is a naming paraphrase, not material.",
+        "source": "onchain: treasury flow",
+        "verdict": "supported"
+      },
+      {
+        "index": 3,
+        "note": "Abstract states the result will be 'a practical Governance Incentives Framework, public dataset and dashboard, documented model and formula outputs, research publications, findings from a controlled incentive pilot, and a governance integration pathway.' Item-for-item match.",
+        "source": "anchor: body.abstract",
+        "verdict": "supported"
+      },
+      {
+        "index": 4,
+        "note": "'The project will be delivered over 12 months through seven staged milestones.' Seven milestones are then enumerated (M1\u2013M7), durations Month 1\u20132 through Month 12.",
+        "source": "anchor: rationale \u00a7 Milestones and Deliverables",
+        "verdict": "supported"
+      },
+      {
+        "index": 5,
+        "note": "'Total \u20b34,207,967.00' and 'The proposal presents workstream-level allocations rather than every operational line item.' Both clauses verbatim.",
+        "source": "anchor: rationale \u00a7 Budget Summary",
+        "verdict": "supported"
+      },
+      {
+        "index": 6,
+        "note": "All eleven line items and amounts match the anchor exactly. Independently summed: 445,000 + 366,400 + 884,000 + 295,000 + 253,333.33 + 472,000 + 476,666.67 + 333,333.33 + 118,666.67 + 437,328.00 + 126,239.00 = 4,207,967.00 \u2014 internally consistent with the stated total and with the on-chain lovelace amount.",
+        "source": "anchor: rationale \u00a7 Budget Summary",
+        "verdict": "supported"
+      },
+      {
+        "index": 7,
+        "note": "'The detailed operational budget is maintained separately for audit, administration, and delivery management.' Verbatim.",
+        "source": "anchor: rationale \u00a7 Budget Summary",
+        "verdict": "supported"
+      },
+      {
+        "index": 8,
+        "note": "'The Website and Dashboard allocation covers 12 months of project delivery and six months of post-project maintenance.' Verbatim.",
+        "source": "anchor: rationale \u00a7 Budget Summary",
+        "verdict": "supported"
+      },
+      {
+        "index": 9,
+        "note": "The section states \u20b3126,239.00 and 'represents 3% of the complete project budget, including the audit allocation itself'; the budget table line is 'Independent Audit and Oversight \u20b3126,239.00'. 126,239 / 4,207,967 = 3.000%. The fact merges the two headings ('Independent Audit and Oversight Support'); that is phrasing, not an invented specific.",
+        "source": "anchor: rationale \u00a7 Administration / Audit / Oversight Support; \u00a7 Budget Summary",
+        "verdict": "supported"
+      },
+      {
+        "index": 10,
+        "note": "'a 12% contingency reserve of \u20b3437,328.00', 'not an unrestricted spending line', 'Any use of contingency funds will be documented through milestones or financial reporting to the auditors.' The fact reports the anchor's own 12% label accurately. Flagged for the drafter, not as a discrepancy in this fact: \u20b3437,328.00 is 10.39% of the \u20b34,207,967.00 total, so the anchor's '12%' is internally inconsistent with its own total unless computed on a different base (it is 11.6% of the total net of the reserve itself). The fact restates the anchor correctly; the arithmetic tension belongs to the proposal.",
+        "source": "anchor: rationale \u00a7 Contingency use",
+        "verdict": "supported"
+      },
+      {
+        "index": 11,
+        "note": "'Unused restricted reserves, such as unused contingency or unused pilot funds, will be returned to the Cardano Treasury if they are not needed for the approved project scope' and 'unspent funds associated with cancelled or reduced deliverables will be returned proportionally.'",
+        "source": "anchor: rationale \u00a7 Refund Conditions",
+        "verdict": "supported"
+      },
+      {
+        "index": 12,
+        "note": "'Input Output Research (IOR) includes research on governance incentives in its funded Cardano Vision 2026 proposal [9] \u2026 any overlapping research subjects will be coordinated with IOR. Where overlap makes a planned work package unnecessary, in whole or in part, the corresponding unused allocation will be returned to the Cardano Treasury.' Named entity IOR and the Cardano Vision 2026 reference both appear in the anchor.",
+        "source": "anchor: rationale \u00a7 Refund Conditions; references [9]",
+        "verdict": "supported"
+      },
+      {
+        "index": 13,
+        "note": "Exactly four numbered risks with matching ratings: Community Engagement High/High; Governance Framework Changes Medium/Medium; Technical Integration Low-Medium/Medium; Model Validation Medium/High. The anchor's own caveat that this is 'some of the more likely risks' does not contradict the count of four listed.",
+        "source": "anchor: rationale \u00a7 Risks and Challenges",
+        "verdict": "supported"
+      },
+      {
+        "index": 14,
+        "note": "Ordered list places 'Treasury stewardship and downside protection' at rank 2, 'Evidence quality and reproducibility' at 3, 'Public-benefit ecosystem growth' at 4. The claimed ordering is directly entailed.",
+        "source": "doctrine: values_hierarchy.md",
+        "verdict": "supported"
+      },
+      {
+        "index": 15,
+        "note": "values_hierarchy: 'incomplete independently verified diligence yields NEEDS_MORE_INFO (dossier gate hard \u2026 dossier_gate.mode: \"hard\"), never a penalty-driven directional call.' treasury_spending_doctrine: 'Hard gate (current): incomplete independently verified diligence means NEEDS_MORE_INFO, never an automatic NO.' Both cited sources support it.",
+        "source": "doctrine: values_hierarchy.md; treasury_spending_doctrine.md \u00a7 Dossier Gate Posture",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "989bc0dc2d51550aeb8d228bf9b2b7f5f7fce1413173754b771b638391d4014b",
+    "passed": true,
+    "prompt_sha256": "54aefa487a6ff8f505fc61a1b76ded9e4e3dfba388a3aae24a814b1dd02fa4c1",
+    "summary": "All 15 dossier facts are supported by the supplied material; none are contradicted and none rest on invented specifics. Every number I could recompute holds: the on-chain 4207967000000 lovelace equals the anchor's \u20b34,207,967.00 total, the eleven workstream allocations sum exactly to that total, the audit line is exactly 3.000% of it, and the treasury-flow ratio recomputes to 2.139086. Named entities (Input Output Research / Cardano Vision 2026, the Governance Incentives Framework CIP) and all four risk probability/impact pairs appear in the anchor as stated. Two observations for the drafter that are NOT discrepancies in the facts as written, because each fact reports the source accurately: (a) the anchor's own '12% contingency reserve' does not reconcile with \u20b3437,328.00 against a \u20b34,207,967.00 total (10.39%), an internal inconsistency in the proposal rather than a drafting error, and it should be surfaced in the dossier rather than repeated unqualified; (b) fact 9 blends the budget-table label 'Independent Audit and Oversight' with the section heading 'Administration / Audit / Oversight Support' \u2014 phrasing only, both the figure and the 3% claim are in the anchor. Scope note on my own coverage: doctrine source material 2 is truncated mid-sentence in the Prioritization section, so any dossier claim drawing on the rolling-window NCL prioritization text beyond that cut could not have been checked here; none of these 15 facts depended on it.",
+    "support_ratio": 1.0,
+    "supported": 15,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 15,
+    "verified_at_utc": "2026-08-30T11:45:43+00:00"
+  }
+}

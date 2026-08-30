@@ -1,0 +1,142 @@
+{
+  "action_id": "7d37220b71806410cc8adfbdafbad494e1ce3fdc674ab13c88a72b3b27de78d9#0",
+  "action_metadata": {
+    "action_type": "TreasuryWithdrawals",
+    "expires_after_epoch": "656",
+    "metadata_title": "Reimburse Ikigai Info Governance Action Deposit.",
+    "proposed_epoch": "649",
+    "treasury_amount_lovelace": "103000000000"
+  },
+  "anchor": {
+    "action_id": "7d37220b71806410cc8adfbdafbad494e1ce3fdc674ab13c88a72b3b27de78d9#0",
+    "anchor_read": true,
+    "anchor_url": "https://most-brass-sun.quicknode-ipfs.com/ipfs/QmSy2CiQhPBzzNLKDFVvMQaDb1FQDbmn9bJf6fVntVAQ1t",
+    "content_chars": 4631,
+    "fetch_status": "ok_cached",
+    "file_path": "data/input/governance/anchors/gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq-20260615T152518Z.bin",
+    "file_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
+    "reason": null
+  },
+  "anchor_sha256": "c2705f5116cc7c0c6c3a2a84d83c377ab118d24ae54a25aa4e5d6ba570f38515",
+  "backend": "codex",
+  "doctrine_files": [
+    "values_hierarchy.md",
+    "treasury_spending_doctrine.md"
+  ],
+  "doctrine_sha256": "c2233eb4f9d92ce5385e4e388f4d8d46a6bf47773880dc6b9cb954135b6ec7b4",
+  "generated_at_utc": "2026-08-30T11:45:42+00:00",
+  "model": "gpt-5.5",
+  "onchain_context": "treasury flow (36 epochs): inflow 157728860954329 lovelace, enacted withdrawals 337395629000000 lovelace, ratio 2.139086",
+  "output_sha256": "8a7e9b946130241e10f5ca9649e99948118800dfd190630ef68c43acb94861eb",
+  "prompt_sha256": "de53a4cb7fd50d62325a416eb1be5a9f32221e5974d678fb00d13b461078cd36",
+  "review_status": "approved_agentic",
+  "treasury_doctrine_version": "1.6.0",
+  "verification": {
+    "backend": "claude",
+    "contradicted": 0,
+    "fact_count": 13,
+    "fact_verdicts": [
+      {
+        "fact_index": 1,
+        "note": "Action id, type (TreasuryWithdrawals), title 'Reimburse Ikigai Info Governance Action Deposit.', proposed epoch 649 and expires-after epoch 656 all match the governance export verbatim.",
+        "source": "on-chain action metadata",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 2,
+        "note": "Metadata states treasury amount 103000000000 lovelace; anchor rationale states 'requesting an amount of 103,000 ADA'. 103,000 ADA = 103,000,000,000 lovelace \u2014 internally consistent.",
+        "source": "on-chain action metadata; anchor body.rationale",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 3,
+        "note": "Abstract states the Info action 'Cardano\u306e\u751f\u304d\u304c\u3044 - Ikigai -' was submitted in September 2024, weeks after Chang, was 'only a symbolic governance action', and asked whether the community agreed with a statement thanking those who helped and expressing hope for the future. Title string matches character-for-character.",
+        "source": "anchor body.abstract",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 4,
+        "note": "Abstract: 'due to a bug in the code of the Cardano node that permitted an unregistered stake key to be used in the governance action, the submitter was unable to recover their deposit of 100K ADA.'",
+        "source": "anchor body.abstract",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 5,
+        "note": "Abstract states that once reimbursement became possible after Plomin, 'none of the entity based budget submissions included it', and that the Cardano in Oceania initiative did include it in their budget Info governance action 'however their governance action was not approved.'",
+        "source": "anchor body.abstract",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 6,
+        "note": "Motivation states 'significant sentiment at the time that the Ikigai Info governance action deposit should be reimbursed' and that the submitter 'should not lose one hundred thousand ADA, for being an early pioneer of Cardano governance.'",
+        "source": "anchor body.motivation",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 7,
+        "note": "Rationale: 103,000 ADA requested = original 100,000 ADA lost plus 'an additional 3,000 ADA to compensate for staking rewards at a rate of 2% per annum'. All three figures and the rate match.",
+        "source": "anchor body.rationale",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 8,
+        "note": "All four sub-clauses present: purpose = reimburse the lost Info action deposit; delivery = 'instantly performed as part of the governance action's enactment on-chain'; 'no costs or expenses'; 'no circumstances for refunding to the treasury.'",
+        "source": "anchor body.rationale, Article II.7.1 block",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 9,
+        "note": "II.7.2: 'The recipient of this reimbursement has not previously received funds from the treasury.' II.7.3: 'The requested amount does not exceed the current Net Change Limit.' The dossier correctly frames both as the proposal's own assertions, not as independently verified findings.",
+        "source": "anchor body.rationale, Articles II.7.2 and II.7.3",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 10,
+        "note": "II.7.4: funds made available directly to the intended recipient, community can audit the distribution on-chain, 'no amount of ADA is required for audits and oversight metrics'. II.7.5: 'the DReps are nominated as the \"Administrator\"'. II.7.6: 'The funds will not be held by an Administrator'.",
+        "source": "anchor body.rationale, Articles II.7.4, II.7.5, II.7.6",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 11,
+        "note": "Anchor contains '\"authors\":[]' and exactly one reference object (@type 'Other', empty label) whose uri matches the quoted adastat URL character-for-character, including the trailing '00'.",
+        "source": "anchor authors; anchor body.references",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 12,
+        "note": "All three values reproduce the supplied block exactly: inflow 157728860954329 lovelace, enacted withdrawals 337395629000000 lovelace, ratio 2.139086 over the 36-epoch window.",
+        "source": "on-chain context block",
+        "verdict": "supported"
+      },
+      {
+        "fact_index": 13,
+        "note": "values_hierarchy.md ranks treasury stewardship/downside protection at 2, above evidence quality/reproducibility at 3 and public-benefit ecosystem growth at 4. Both files state the hard gate: incomplete independently verified diligence yields NEEDS_MORE_INFO, 'never an automatic NO'. Version labels differ between the two files (v1.4.0+ vs v1.5.0/v1.6.0) but the fact makes no version claim, so this is not a discrepancy against the fact as stated.",
+        "source": "doctrine values_hierarchy.md; doctrine treasury_spending_doctrine.md",
+        "verdict": "supported"
+      }
+    ],
+    "filtered_legacy_snapshot_items": [],
+    "gates": {
+      "anchor_sha256_matches_draft": true,
+      "different_model_from_drafter": true,
+      "dossier_and_receipt_present": true,
+      "financial_and_risk_rows_present": true,
+      "sections_grounded_7of7": true
+    },
+    "material_discrepancies": [],
+    "model": "claude-cli",
+    "not_found": 0,
+    "output_sha256": "6ce32f7ff985c4e60c35d53c422a3a73fe2080ae74f3a0c15f02a38d6c874fab",
+    "passed": true,
+    "prompt_sha256": "5d1d4daa42e1c26913927a3966cfe768d573786e3dd1c9c7e7aa81cd7e3bb8b3",
+    "summary": "All 13 dossier facts verify against the supplied material with zero contradictions and zero not_founds. Every number was checked digit-by-digit: 103000000000 lovelace / 103,000 ADA, the 100,000 + 3,000 at 2% per annum decomposition, epochs 649 and 656, the three treasury-flow figures (157728860954329 / 337395629000000 / 2.139086), and the 64-hex adastat reference URI all match their sources exactly. Named entities check out: 'Cardano\u306e\u751f\u304d\u304c\u3044 - Ikigai -', Cardano in Oceania, the Chang and Plomin hard forks, and Articles II.6 and II.7.1-II.7.6. No invented specifics \u2014 no figure, name, date, or commitment appears in any fact that is absent from the anchor, the on-chain block, or the doctrine. Two auditor observations that are NOT verdict-changing but bear on how the dossier is read: (a) facts 9 and 10 are correctly stated as the proposer's own assertions, and nothing in the supplied material independently confirms the no-prior-funding claim or the Net Change Limit adherence claim \u2014 the material contains no NCL value, so the dossier must not upgrade those to verified; (b) the doctrine excerpt is truncated mid-sentence in the prioritization section, so any dossier claim resting on text past that cut would fall outside what this audit could check. Neither affects the 13 facts submitted.",
+    "support_ratio": 1.0,
+    "supported": 13,
+    "thresholds": {
+      "max_material_discrepancies": 0,
+      "min_fact_support_ratio": 0.9
+    },
+    "verdicts_returned": 13,
+    "verified_at_utc": "2026-08-30T11:46:42+00:00"
+  }
+}
