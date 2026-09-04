@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-03T11:30:07Z",
+  "generated_at_utc": "2026-09-04T11:30:06Z",
   "source": "data/input/governance/governance_actions_all.csv",
   "output_index": "data/input/governance/anchor_documents_index.csv",
   "anchors_dir": "data/input/governance/anchors",
